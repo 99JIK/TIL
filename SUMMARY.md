@@ -35,25 +35,25 @@
   * [Specification by Example](writing/specification-by-example.md)
   * [논문 쓰기 절대 매뉴얼](writing/undefined-1.md)
 
-## KNU M.S.
+## KNU MS
 
-* [KNU M.S.](knu-m.s./knu-m.s./README.md)
-  * [Paper](knu-m.s./knu-m.s./paper/README.md)
-    * [Korea Computer Congress 2025](knu-m.s./knu-m.s./paper/korea-computer-congress-2025/README.md)
-      * [기획 중 - 테스트 케이스가 생성형 AI의 코드 생성에 미치는 영향](knu-m.s./knu-m.s./paper/korea-computer-congress-2025/ai/README.md)
-        * [Problem](knu-m.s./knu-m.s./paper/korea-computer-congress-2025/ai/problem.md)
-      * [폐기 - 소프트웨어테스팅 기법을 활용하여 ChatGPT의 신뢰도를 올리는 방법](knu-m.s./knu-m.s./paper/korea-computer-congress-2025/chatgpt/README.md)
-        * [Problem](knu-m.s./knu-m.s./paper/korea-computer-congress-2025/chatgpt/problem/README.md)
-          * [Greedy Approach](knu-m.s./knu-m.s./paper/korea-computer-congress-2025/chatgpt/problem/greedy-approach.md)
-          * [Bit Manipulation](knu-m.s./knu-m.s./paper/korea-computer-congress-2025/chatgpt/problem/bit-manipulation.md)
-          * [Sorting](knu-m.s./knu-m.s./paper/korea-computer-congress-2025/chatgpt/problem/sorting.md)
-          * [Mathematics](knu-m.s./knu-m.s./paper/korea-computer-congress-2025/chatgpt/problem/mathematics.md)
-          * [Backtracking](knu-m.s./knu-m.s./paper/korea-computer-congress-2025/chatgpt/problem/backtracking.md)
-          * [Binary search](knu-m.s./knu-m.s./paper/korea-computer-congress-2025/chatgpt/problem/binary-search.md)
-  * [1st Semester](knu-m.s./knu-m.s./1st-semester/README.md)
-    * [Artificial Intelligence: Convergence and Applications](knu-m.s./knu-m.s./1st-semester/artificial-intelligence-convergence-and-applications.md)
-    * [How to Write Research Papers](knu-m.s./knu-m.s./1st-semester/how-to-write-research-papers.md)
-    * [Design and Analysis of Algorithms](knu-m.s./knu-m.s./1st-semester/design-and-analysis-of-algorithms.md)
+* [KNU MS](knu-ms/knu-ms/README.md)
+  * [Paper](knu-ms/knu-ms/paper/README.md)
+    * [Korea Computer Congress 2025](knu-ms/knu-ms/paper/korea-computer-congress-2025/README.md)
+      * [기획 중 - 테스트 케이스가 생성형 AI의 코드 생성에 미치는 영향](knu-ms/knu-ms/paper/korea-computer-congress-2025/ai/README.md)
+        * [Problem](knu-ms/knu-ms/paper/korea-computer-congress-2025/ai/problem.md)
+      * [폐기 - 소프트웨어테스팅 기법을 활용하여 ChatGPT의 신뢰도를 올리는 방법](knu-ms/knu-ms/paper/korea-computer-congress-2025/chatgpt/README.md)
+        * [Problem](knu-ms/knu-ms/paper/korea-computer-congress-2025/chatgpt/problem/README.md)
+          * [Greedy Approach](knu-ms/knu-ms/paper/korea-computer-congress-2025/chatgpt/problem/greedy-approach.md)
+          * [Bit Manipulation](knu-ms/knu-ms/paper/korea-computer-congress-2025/chatgpt/problem/bit-manipulation.md)
+          * [Sorting](knu-ms/knu-ms/paper/korea-computer-congress-2025/chatgpt/problem/sorting.md)
+          * [Mathematics](knu-ms/knu-ms/paper/korea-computer-congress-2025/chatgpt/problem/mathematics.md)
+          * [Backtracking](knu-ms/knu-ms/paper/korea-computer-congress-2025/chatgpt/problem/backtracking.md)
+          * [Binary search](knu-ms/knu-ms/paper/korea-computer-congress-2025/chatgpt/problem/binary-search.md)
+  * [1st Semester](knu-ms/knu-ms/1st-semester/README.md)
+    * [Artificial Intelligence: Convergence and Applications](knu-ms/knu-ms/1st-semester/artificial-intelligence-convergence-and-applications.md)
+    * [How to Write Research Papers](knu-ms/knu-ms/1st-semester/how-to-write-research-papers.md)
+    * [Design and Analysis of Algorithms](knu-ms/knu-ms/1st-semester/design-and-analysis-of-algorithms.md)
 
 ## ESELAB
 
