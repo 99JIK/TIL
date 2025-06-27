@@ -1,6 +1,5 @@
 # Website
-<h1>Website</h1>
-<p>This website is built </p>
+
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
