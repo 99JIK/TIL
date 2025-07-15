@@ -45,7 +45,7 @@ const config: Config = {
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
           editUrl: 'https://github.com/99jik/today_i_learned/tree/main/',
-          postsPerPage: 10, feedOptions: { type: 'all', copyright: `Copyright © ${new Date().getFullYear()} JIK\'s TIL` },
+          postsPerPage: 10, feedOptions: { type: 'all', copyright: `Copyright © ${new Date().getFullYear()} 99JIK` },
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
@@ -84,7 +84,7 @@ const config: Config = {
           routeBasePath: 'papers',
           blogSidebarTitle: 'Paper I Read',
           blogSidebarCount: 'ALL',
-          postsPerPage: 10, feedOptions: { type: 'all', copyright: `Copyright © ${new Date().getFullYear()} JIK\'s TIL` },
+          postsPerPage: 10, feedOptions: { type: 'all', copyright: `Copyright © ${new Date().getFullYear()} 99JIK` },
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
@@ -101,7 +101,7 @@ const config: Config = {
   ],
   themeConfig: {
     navbar: {
-      title: 'JIK\'s TIL',
+      title: '99JIK',
       items: [
         { type: 'docSidebar',  sidebarId: 'JIKTILSidebar', position: 'right', label: 'DOCS'},
         { to: '/papers', label: 'PAPERS', position: 'right'},
@@ -111,7 +111,7 @@ const config: Config = {
     footer: {
       style: 'light',
       links: [
-        { title: 'JIK\'s TIL',
+        { title: '99JIK',
           items: [
             { label: 'Docs', to: '/docs/intro'},
             { label: 'Papers', to: '/papers'}
@@ -136,7 +136,7 @@ const config: Config = {
     colorMode: { respectPrefersColorScheme: true},
     announcementBar: {
       id: 'announcementBar-2',
-      content: '⭐️ 저의 학습 기록에 <b>별표</b>를 눌러주세요! <a target="_blank" rel="noopener noreferrer" href="https://github.com/99jik/Today-I-Learned">JIK\'s TIL</a> ⭐️',
+      content: '⭐️ 저의 학습 기록에 <b>별표</b>를 눌러주세요! <a target="_blank" rel="noopener noreferrer" href="https://github.com/99jik/Today-I-Learned">99JIK</a> ⭐️',
       backgroundColor: '#fafbfc',
       textColor: '#091E42',
       isCloseable: true,

@@ -29,8 +29,8 @@ const homepageData = {
     linkText: "키워드별 논문 보기",
   },
   guide: {
-    title: "Guide of JIK\'s TIL ",
-    summary: "본 TIL은 Docs에서는 주제별 학습 내용을, Papers에서는 논문 요약을 찾아볼 수 있습니다.",
+    title: "Guide of 99JIK.com",
+    summary: "이 사이트은 Docs에서는 주제별 학습 내용을, Papers에서는 논문 요약을 찾아볼 수 있습니다.",
     link: "/How-to-Read",
   },
   // 광고 플레이스홀더 데이터 (필요시 추가)

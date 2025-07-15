@@ -2,7 +2,7 @@
 hide_table_of_contents: true
 ---
 
-# TIL 사이트 이용 가이드라인
+# 사이트 이용 가이드라인
 
 이 사이트에 방문해주셔서 감사합니다!
 이곳은 제가 학습한 내용과 읽었던 논문들을 정리하고 공유하는 공간입니다.
@@ -11,7 +11,7 @@ hide_table_of_contents: true
 ## 🧭 사이트 구조
 
 이 사이트는 크게 **Docs**와 **Papers** 두 가지 주요 섹션으로 구성되어 있습니다.
-전체적으로 Docs와 Papers의 문서들은 모두 **[Technical Writing 전략](https://til.jungin.kim/docs/Book/WRITING/Technical-Writing-Guide)**에 따라 평어체로 작성되는 점 양해 부탁드립니다.
+전체적으로 Docs와 Papers의 문서들은 모두 **[Technical Writing 전략](https://www.99jik.com/docs/Book/WRITING/Technical-Writing-Guide)**에 따라 평어체로 작성되는 점 양해 부탁드립니다.
 
 ### 📚 Docs
 
