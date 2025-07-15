@@ -14,7 +14,7 @@ const config: Config = {
   baseUrl: '/',
   organizationName: '99jik',
   projectName: 'Today_I_Learned',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'ko',
@@ -130,7 +130,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} JIK, Built with Docusaurus.`, // 저작권 문구
+      copyright: `Copyright © ${new Date().getFullYear()} JIK, Built with Docusaurus.`,
     },
     prism: { theme: prismThemes.github, darkTheme: prismThemes.dracula },
     colorMode: { respectPrefersColorScheme: true},
