@@ -6,15 +6,15 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
-  title: 'JIK\'s TIL',
+  title: '99JIK',
   tagline: 'From Yesterday\'s Insights to Today\'s Wisdom: My Learning  Chronicle.',
   favicon: 'img/favicon.ico',
   trailingSlash: false,
-  url: 'https://til.jungin.kim',
+  url: 'https://www.99jik.com',
   baseUrl: '/',
   organizationName: '99jik',
   projectName: 'Today_I_Learned',
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'ko',
@@ -44,7 +44,7 @@ const config: Config = {
           blogSidebarCount: 'ALL',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
-          editUrl: 'https://github.com/99jik/Today_I_Learned/tree/main/',
+          editUrl: 'https://github.com/99jik/today_i_learned/tree/main/',
           postsPerPage: 10, feedOptions: { type: 'all', copyright: `Copyright © ${new Date().getFullYear()} JIK\'s TIL` },
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
@@ -54,7 +54,7 @@ const config: Config = {
           routeBasePath: 'docs',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
-          editUrl: 'https://github.com/99jik/Today_I_Learned/tree/main/',
+          editUrl: 'https://github.com/99jik/today_i_learned/tree/main/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
@@ -78,7 +78,7 @@ const config: Config = {
     '@docusaurus/plugin-content-blog',{
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
-          editUrl: 'https://github.com/99jik/Today_I_Learned/tree/main/',
+          editUrl: 'https://github.com/99jik/today_i_learned/tree/main/',
           id: 'Paper',
           path: './papers',
           routeBasePath: 'papers',
