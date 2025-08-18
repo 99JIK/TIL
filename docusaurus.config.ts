@@ -8,7 +8,7 @@ import rehypeKatex from 'rehype-katex';
 const config: Config = {
   title: '99JIK',
   tagline: 'From Yesterday\'s Insights to Today\'s Wisdom: My Learning  Chronicle.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   trailingSlash: false,
   url: 'https://www.99jik.com',
   baseUrl: '/',
@@ -39,15 +39,17 @@ const config: Config = {
       ({
         blog: {
           path: './blog',
-          routeBasePath: 'how-can-you-find?/blog',
+          routeBasePath: 'notes',
           blogSidebarTitle: 'All posts',
-          blogSidebarCount: 'ALL',
+          blogSidebarCount: 0,
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
           editUrl: 'https://github.com/99jik/today_i_learned/tree/main/',
-          postsPerPage: 10, feedOptions: { type: 'all', copyright: `Copyright © ${new Date().getFullYear()} 99JIK` },
+          postsPerPage: 1,
+          feedOptions: {},
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
+          blogListComponent: '@site/src/components/EmptyBlogList',
         },
         docs: {
           sidebarPath: './sidebars.ts',
@@ -104,6 +106,7 @@ const config: Config = {
       title: '99JIK',
       items: [
         { type: 'docSidebar',  sidebarId: 'JIKTILSidebar', position: 'right', label: 'DOCS'},
+        { to: '/notes', label: 'NOTES', position: 'right'},
         { to: '/papers', label: 'PAPERS', position: 'right'},
         { href: 'https://github.com/99jik', label: 'GITHUB', position: 'right'}
       ]
@@ -114,6 +117,7 @@ const config: Config = {
         { title: '99JIK',
           items: [
             { label: 'Docs', to: '/docs/intro'},
+            { label: 'Notes', to: '/notes'},
             { label: 'Papers', to: '/papers'}
           ],
         },
@@ -147,6 +151,16 @@ const config: Config = {
       indexName: 'til-jungin',
       contextualSearch: true,
     },
+    metadata: [
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@99jik' },
+      { name: 'twitter:creator', content: '@99jik' },
+      { name: 'og:type', content: 'website' },
+      { name: 'og:image', content: '/img/favicon.svg' },
+      { name: 'og:image:alt', content: '99JIK Logo' },
+      { name: 'twitter:image', content: '/img/favicon.svg' },
+      { name: 'twitter:image:alt', content: '99JIK Logo' },
+    ],
   } satisfies Preset.ThemeConfig,
 };
 export default config;
