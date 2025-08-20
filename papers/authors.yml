@@ -7,6 +7,521 @@ JIK:
   url: https://github.com/99jik # 본인 GitHub 주소 또는 웹사이트 (선택 사항)
   image_url: https://github.com/99jik.png # 프로필 사진 URL (선택 사항, GitHub 프로필 사진 사용 예시)
 
+# ===== 출신 대학별 분류 =====
+
+# Google (Google Brain, Google Research, Google DeepMind)
+ashish_vaswani:
+  name: Ashish Vaswani
+  title: Google Brain
+  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
+  papers: ["Attention-Is-All-You-Need"]
+
+noam_shazeer:
+  name: Noam Shazeer
+  title: Google Brain
+  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
+  papers: ["Attention-Is-All-You-Need"]
+
+niki_parmar:
+  name: Niki Parmar
+  title: Google Research
+  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
+  papers: ["Attention-Is-All-You-Need"]
+
+jakob_uszkoreit:
+  name: Jakob Uszkoreit
+  title: Google Research
+  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
+  papers: ["Attention-Is-All-You-Need"]
+
+llion_jones:
+  name: Llion Jones
+  title: Google Research
+  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
+  papers: ["Attention-Is-All-You-Need"]
+
+aidan_gomez:
+  name: Aidan N. Gomez
+  title: University of Toronto (Google Brain에서 연구 수행)
+  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
+  papers: ["Attention-Is-All-You-Need"]
+
+lukasz_kaiser:
+  name: Łukasz Kaiser
+  title: Google Brain
+  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
+  papers: ["Attention-Is-All-You-Need"]
+
+illia_polosukhin:
+  name: Illia Polosukhin
+  title: Google Research
+  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
+  papers: ["Attention-Is-All-You-Need"]
+
+ekin_cubuk:
+  name: Ekin Dogus Cubuk
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=Mu_8iOEAAAAJ&hl=en
+  papers: ["Scaling-deep-learning-for-materials-discovery"]
+
+amil_merchant:
+  name: Amil Merchant
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=uRImMPoAAAAJ&hl=en
+  papers: ["Scaling-deep-learning-for-materials-discovery"]
+
+simon_batzner:
+  name: Simon Batzner
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=uRImMPoAAAAJ&hl=en
+  papers: ["Scaling-deep-learning-for-materials-discovery"]
+
+samuel_schoenholz:
+  name: Samuel S. Schoenholz
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=uRImMPoAAAAJ&hl=en
+  papers: ["Scaling-deep-learning-for-materials-discovery"]
+
+muratahan_aykol:
+  name: Muratahan Aykol
+  title: Google Research
+  url: https://scholar.google.com/citations?user=uRImMPoAAAAJ&hl=en
+  papers: ["Scaling-deep-learning-for-materials-discovery"]
+
+gowoon_cheon:
+  name: Gowoon Cheon
+  title: Google Research
+  url: https://scholar.google.com/citations?user=uRImMPoAAAAJ&hl=en
+  papers: ["Scaling-deep-learning-for-materials-discovery"]
+
+# Carnegie Mellon University
+albert_gu:
+  name: Albert Gu
+  title: Carnegie Mellon University
+  url: https://scholar.google.com/citations?user=DVCHv1kAAAAJ&hl=en
+  papers: ["Mamba-Linear-Time-Sequence-Modeling-with-Selective-State-Spaces"]
+
+# Princeton University
+tri_dao:
+  name: Tri Dao
+  title: Princeton University
+  url: https://tridao.me/
+  papers: ["Mamba-Linear-Time-Sequence-Modeling-with-Selective-State-Spaces"]
+
+# 경북대학교
+woojin_lee:
+  name: 이우진
+  title: 경북대학교 컴퓨터학부
+  url: mailto:woojin@knu.ac.kr
+  papers:
+    [
+      "WHAT-DOES-IT-MEAN-TO-BE-A-TRANSFORMER-INSIGHTS-FROM-A-THEORETICAL-HESSIAN-ANALYSIS",
+      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
+      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
+      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
+      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
+      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
+      "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile",
+    ]
+
+park_sechan:
+  name: 박세찬
+  title: 경북대학교 컴퓨터학부
+  url: mailto:park.sechan@knu.ac.kr
+  papers:
+    [
+      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
+      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
+      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
+    ]
+
+kim_deokyeop:
+  name: 김덕엽
+  title: 경북대학교 컴퓨터학부
+  url: mailto:kim.deokyeop@knu.ac.kr
+  papers:
+    [
+      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
+      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
+      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
+      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
+      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
+      "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile",
+    ]
+
+seo_gangbok:
+  name: 서강복
+  title: 경북대학교 컴퓨터학부
+  url: mailto:seo.gangbok@knu.ac.kr
+  papers:
+    [
+      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
+      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
+      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
+      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
+      "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile",
+    ]
+
+lee_daegyu:
+  name: 이대규
+  title: 경북대학교 컴퓨터학부
+  url: mailto:lee.daegyu@knu.ac.kr
+  papers:
+    [
+      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
+    ]
+
+ryu_younggyo:
+  name: 류영교
+  title: 경북대학교 컴퓨터학부
+  url: mailto:ryu.younggyo@knu.ac.kr
+  papers:
+    [
+      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
+    ]
+
+kang_bokwon:
+  name: 강보권
+  title: 경북대학교 컴퓨터학부
+  url: mailto:kang.bokwon@knu.ac.kr
+  papers:
+    [
+      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
+    ]
+
+kim_taehwan:
+  name: 김태환
+  title: 경북대학교 컴퓨터학부
+  url: mailto:kim.taehwan@knu.ac.kr
+  papers:
+    [
+      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
+    ]
+
+# 전북대학교
+mingle_xu:
+  name: Mingle Xu
+  title: 전북대학교 전자공학부
+  url: mailto:mingle.xu@jbnu.ac.kr
+  papers:
+    [
+      "Transfer-Learning with Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification",
+    ]
+
+yongchae_jeong:
+  name: Yongchae Jeong
+  title: 전북대학교 전자공학부
+  url: mailto:yongchae.jeong@jbnu.ac.kr
+  papers:
+    [
+      "Transfer-Learning with Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification",
+    ]
+
+dong_sun_park:
+  name: Dong Sun Park
+  title: 전북대학교 전자공학부
+  url: mailto:dspark@jbnu.ac.kr
+  papers:
+    [
+      "Transfer-Learning with Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification",
+    ]
+
+# 목포대학교
+sook_yoon:
+  name: Sook Yoon
+  title: 목포대학교 컴퓨터공학과
+  url: mailto:sook.yoon@mokpo.ac.kr
+  papers:
+    [
+      "Transfer-Learning with Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification",
+    ]
+
+# 농촌진흥청
+jaesu_lee:
+  name: Jaesu Lee
+  title: 농촌진흥청
+  url: mailto:jaesu.lee@korea.kr
+  papers:
+    [
+      "Transfer-Learning with Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification",
+    ]
+
+# Noakhali Science and Technology University
+md_eusha_kadir:
+  name: Md. Eusha Kadir
+  title: Institute of Information Technology, Noakhali Science and Technology University
+  url: mailto:eusha.kadir@nstu.edu.bd
+  papers:
+    [
+      "Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges",
+    ]
+
+tasnim_rahman:
+  name: Tasnim Rahman
+  title: Institute of Information Technology, Noakhali Science and Technology University
+  url: mailto:tasnim.iit@nstu.edu.bd
+  papers:
+    [
+      "Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges",
+    ]
+
+sourav_barman:
+  name: Sourav Barman
+  title: Institute of Information Technology, Noakhali Science and Technology University
+  url: mailto:sourav.barman@nstu.edu.bd
+  papers:
+    [
+      "Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges",
+    ]
+
+md_al_amin:
+  name: Md. Al-Amin
+  title: Institute of Information Technology, Noakhali Science and Technology University
+  url: mailto:al.amin@nstu.edu.bd
+  papers:
+    [
+      "Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges",
+    ]
+
+# University of Luxembourg
+iva_kertusha:
+  name: Iva Kertusha
+  title: University of Luxembourg
+  url: mailto:iva.kertusha@uni.lu
+  papers:
+    ["A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry"]
+
+gebremariem_assres:
+  name: Gebremariem Assres
+  title: University of Luxembourg
+  url: mailto:gebremariem.assres@uni.lu
+  papers:
+    ["A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry"]
+
+onur_duman:
+  name: Onur Duman
+  title: University of Luxembourg
+  url: mailto:onur.duman@uni.lu
+  papers:
+    ["A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry"]
+
+andrea_arcuri:
+  name: Andrea Arcuri
+  title: University of Luxembourg
+  url: mailto:andrea.arcuri@uni.lu
+  papers:
+    ["A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry"]
+
+# Cognizant
+elavarasi_kesavan:
+  name: Mrs. Elavarasi Kesavan
+  title: Full Stack QA Architect, Cognizant
+  url: mailto:elavarasi.kesavan@cognizant.com
+  papers:
+    [
+      "The-Future-of-Software-Testing-A-Review-of-Trends-Challenges-and-Opportunities",
+    ]
+
+# King Faisal University
+ibrahim_alyoussef:
+  name: Ibrahim Youssef Alyoussef
+  title: Education Technology, Faculty of Education, King Faisal University
+  url: mailto:ialyoussef@kfu.edu.sa
+  papers:
+    [
+      "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education",
+    ]
+
+amr_drwish:
+  name: Amr Mohammed Drwish
+  title: Education Technology, Faculty of Education, King Faisal University
+  url: mailto:amr.drwish@kfu.edu.sa
+  papers:
+    [
+      "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education",
+    ]
+
+fatimah_albakheet:
+  name: Fatimah Adel Albakheet
+  title: Education Technology, Faculty of Education, King Faisal University
+  url: mailto:fatimah.albakheet@kfu.edu.sa
+  papers:
+    [
+      "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education",
+    ]
+
+rafdan_alhajhoj:
+  name: Rafdan Hassan Alhajhoj
+  title: Education Technology, Faculty of Education, King Faisal University
+  url: mailto:rafdan.alhajhoj@kfu.edu.sa
+  papers:
+    [
+      "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education",
+    ]
+
+amal_almousa:
+  name: Amal Ahmed Almousa
+  title: Education Technology, Faculty of Education, King Faisal University
+  url: mailto:amal.almousa@kfu.edu.sa
+  papers:
+    [
+      "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education",
+    ]
+
+# Beyond the Hype 논문 저자들
+james_prather:
+  name: James Prather
+  title: Abilene Christian University
+  url: mailto:james.prather@acu.edu
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+juho_leinonen:
+  name: Juho Leinonen
+  title: Aalto University
+  url: mailto:juho.leinonen@aalto.fi
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+natalie_kiesler:
+  name: Natalie Kiesler
+  title: Nuremberg Tech
+  url: mailto:natalie.kiesler@th-nuernberg.de
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+jamie_benario:
+  name: Jamie Gorson Benario
+  title: Google
+  url: mailto:jamie.benario@google.com
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+sam_lau:
+  name: Sam Lau
+  title: University of California San Diego
+  url: mailto:sam.lau@ucsd.edu
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+stephen_macneil:
+  name: Stephen MacNeil
+  title: Temple University
+  url: mailto:stephen.macneil@temple.edu
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+narges_norouzi:
+  name: Narges Norouzi
+  title: University of California Berkeley
+  url: mailto:narges.norouzi@berkeley.edu
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+simone_opel:
+  name: Simone Opel
+  title: FernUniversität in Hagen
+  url: mailto:simone.opel@fernuni-hagen.de
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+vee_pettit:
+  name: Vee Pettit
+  title: Virginia Tech
+  url: mailto:vee.pettit@vt.edu
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+leo_porter:
+  name: Leo Porter
+  title: University of Illinois
+  url: mailto:leo.porter@illinois.edu
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+brent_reeves:
+  name: Brent N. Reeves
+  title: LMU Munich
+  url: mailto:brent.reeves@lmu.de
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+jaromir_savelka:
+  name: Jaromir Savelka
+  title: University of Toronto Mississauga
+  url: mailto:jaromir.savelka@utoronto.ca
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+david_smith:
+  name: David H. Smith IV
+  title: University of Toronto Mississauga
+  url: mailto:david.smith@utoronto.ca
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+sven_strickroth:
+  name: Sven Strickroth
+  title: University of Toronto Mississauga
+  url: mailto:sven.strickroth@utoronto.ca
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+daniel_zingaro:
+  name: Daniel Zingaro
+  title: University of Toronto Mississauga
+  url: mailto:daniel.zingaro@utoronto.ca
+  papers:
+    [
+      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
+    ]
+
+# TRINITY 논문 저자들
+ziming_mao:
+  name: Ziming Mao
+  title: UC Berkeley
+  url: mailto:ziming.mao@berkeley.edu
+  papers: ["TRINITY-A-Fast-Compressed-Multi-attribute-Data-Store"]
+
+kiran_srinivasan:
+  name: Kiran Srinivasan
+  title: NetApp
+  url: mailto:kiran.srinivasan@netapp.com
+  papers: ["TRINITY-A-Fast-Compressed-Multi-attribute-Data-Store"]
+
+anurag_khandelwal:
+  name: Anurag Khandelwal
+  title: Yale
+  url: mailto:anurag.khandelwal@yale.edu
+  papers: ["TRINITY-A-Fast-Compressed-Multi-attribute-Data-Store"]
 # 다른 작성자가 있다면 추가 가능
 # another_author:
 #   name: 다른 작성자 이름

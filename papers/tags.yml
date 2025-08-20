@@ -1,0 +1,391 @@
+# tags.yml
+# 논문 태그 정의
+
+# AI/ML 관련 태그
+Machine Learning:
+  label: Machine Learning
+  permalink: /papers/tags/machine-learning
+  description: 기계 학습 관련 논문들
+
+Deep Learning:
+  label: Deep Learning
+  permalink: /papers/tags/deep-learning
+  description: 딥러닝 관련 논문들
+
+Artificial Intelligence:
+  label: Artificial Intelligence
+  permalink: /papers/tags/artificial-intelligence
+  description: 인공지능 관련 논문들
+
+Natural Language Processing:
+  label: Natural Language Processing
+  permalink: /papers/tags/natural-language-processing
+  description: 자연어 처리 관련 논문들
+
+Computer Vision:
+  label: Computer Vision
+  permalink: /papers/tags/computer-vision
+  description: 컴퓨터 비전 관련 논문들
+
+# 트랜스포머 및 어텐션 관련
+Transformer:
+  label: Transformer
+  permalink: /papers/tags/transformer
+  description: 트랜스포머 아키텍처 관련 논문들
+
+Attention Mechanism:
+  label: Attention Mechanism
+  permalink: /papers/tags/attention-mechanism
+  description: 어텐션 메커니즘 관련 논문들
+
+Self-Attention:
+  label: Self-Attention
+  permalink: /papers/tags/self-attention
+  description: 셀프 어텐션 관련 논문들
+
+Multi-Head Attention:
+  label: Multi-Head Attention
+  permalink: /papers/tags/multi-head-attention
+  description: 멀티헤드 어텐션 관련 논문들
+
+# 시퀀스 모델링 관련
+Sequence Modeling:
+  label: Sequence Modeling
+  permalink: /papers/tags/sequence-modeling
+  description: 시퀀스 모델링 관련 논문들
+
+State Space Models:
+  label: State Space Models
+  permalink: /papers/tags/state-space-models
+  description: 상태 공간 모델 관련 논문들
+
+Sequence Transduction:
+  label: Sequence Transduction
+  permalink: /papers/tags/sequence-transduction
+  description: 시퀀스 변환 관련 논문들
+
+# 소프트웨어 테스팅 관련
+Software Testing:
+  label: Software Testing
+  permalink: /papers/tags/software-testing
+  description: 소프트웨어 테스팅 관련 논문들
+
+Web Testing:
+  label: Web Testing
+  permalink: /papers/tags/web-testing
+  description: 웹 테스팅 관련 논문들
+
+# 교육 관련
+Computing Education:
+  label: Computing Education
+  permalink: /papers/tags/computing-education
+  description: 컴퓨팅 교육 관련 논문들
+
+Pedagogical Practices:
+  label: Pedagogical Practices
+  permalink: /papers/tags/pedagogical-practices
+  description: 교육학적 실무 관련 논문들
+
+Teaching Computing:
+  label: Teaching Computing
+  permalink: /papers/tags/teaching-computing
+  description: 컴퓨팅 교육 관련 논문들
+
+# 섬유 공학 관련
+Textile Engineering:
+  label: Textile Engineering
+  permalink: /papers/tags/textile-engineering
+  description: 섬유 공학 관련 논문들
+
+Biodegradable Fiber:
+  label: Biodegradable Fiber
+  permalink: /papers/tags/biodegradable-fiber
+  description: 생분해성 섬유 관련 논문들
+
+Property Prediction:
+  label: Property Prediction
+  permalink: /papers/tags/property-prediction
+  description: 물성 예측 관련 논문들
+
+Spinning Process:
+  label: Spinning Process
+  permalink: /papers/tags/spinning-process
+  description: 방사 공정 관련 논문들
+
+# 데이터 처리 관련
+Data Analysis:
+  label: Data Analysis
+  permalink: /papers/tags/data-analysis
+  description: 데이터 분석 관련 논문들
+
+Data Preprocessing:
+  label: Data Preprocessing
+  permalink: /papers/tags/data-preprocessing
+  description: 데이터 전처리 관련 논문들
+
+Outlier Detection:
+  label: Outlier Detection
+  permalink: /papers/tags/outlier-detection
+  description: 이상치 탐지 관련 논문들
+
+Data Imbalance:
+  label: Data Imbalance
+  permalink: /papers/tags/data-imbalance
+  description: 데이터 불균형 관련 논문들
+
+Data Augmentation:
+  label: Data Augmentation
+  permalink: /papers/tags/data-augmentation
+  description: 데이터 증강 관련 논문들
+
+# 기타 기술 관련
+Transfer Learning:
+  label: Transfer Learning
+  permalink: /papers/tags/transfer-learning
+  description: 전이 학습 관련 논문들
+
+Large Language Models:
+  label: Large Language Models
+  permalink: /papers/tags/large-language-models
+  description: 대규모 언어 모델 관련 논문들
+
+Generative AI:
+  label: Generative AI
+  permalink: /papers/tags/generative-ai
+  description: 생성형 AI 관련 논문들
+
+Survey:
+  label: Survey
+  permalink: /papers/tags/survey
+  description: 설문 조사 및 리뷰 논문들
+
+Materials Discovery:
+  label: Materials Discovery
+  permalink: /papers/tags/materials-discovery
+  description: 재료 발견 관련 논문들
+
+Graph Neural Networks:
+  label: Graph Neural Networks
+  permalink: /papers/tags/graph-neural-networks
+  description: 그래프 신경망 관련 논문들
+
+# 추가 태그들
+Plant Identification:
+  label: Plant Identification
+  permalink: /papers/tags/plant-identification
+  description: 식물 식별 관련 논문들
+
+Image Classification:
+  label: Image Classification
+  permalink: /papers/tags/image-classification
+  description: 이미지 분류 관련 논문들
+
+Self-Supervised Learning:
+  label: Self-Supervised Learning
+  permalink: /papers/tags/self-supervised-learning
+  description: 자기지도 학습 관련 논문들
+
+Vision Transformer:
+  label: Vision Transformer
+  permalink: /papers/tags/vision-transformer
+  description: 비전 트랜스포머 관련 논문들
+
+ChatGPT:
+  label: ChatGPT
+  permalink: /papers/tags/chatgpt
+  description: ChatGPT 관련 논문들
+
+Problem Solving:
+  label: Problem Solving
+  permalink: /papers/tags/problem-solving
+  description: 문제 해결 관련 논문들
+
+Competitive Programming:
+  label: Competitive Programming
+  permalink: /papers/tags/competitive-programming
+  description: 경쟁 프로그래밍 관련 논문들
+
+Programming Challenges:
+  label: Programming Challenges
+  permalink: /papers/tags/programming-challenges
+  description: 프로그래밍 챌린지 관련 논문들
+
+Collaboration:
+  label: Collaboration
+  permalink: /papers/tags/collaboration
+  description: 협업 관련 논문들
+
+Inclusive Learning:
+  label: Inclusive Learning
+  permalink: /papers/tags/inclusive-learning
+  description: 포용적 학습 관련 논문들
+
+Higher Education:
+  label: Higher Education
+  permalink: /papers/tags/higher-education
+  description: 고등 교육 관련 논문들
+
+Technology Acceptance:
+  label: Technology Acceptance
+  permalink: /papers/tags/technology-acceptance
+  description: 기술 수용 관련 논문들
+
+Student Perceptions:
+  label: Student Perceptions
+  permalink: /papers/tags/student-perceptions
+  description: 학생 인식 관련 논문들
+
+TRINITY:
+  label: TRINITY
+  permalink: /papers/tags/trinity
+  description: TRINITY 시스템 관련 논문들
+
+MDTRIE:
+  label: MDTRIE
+  permalink: /papers/tags/mdtrie
+  description: MDTRIE 관련 논문들
+
+Multi-attribute Data Store:
+  label: Multi-attribute Data Store
+  permalink: /papers/tags/multi-attribute-data-store
+  description: 다중 속성 데이터 저장소 관련 논문들
+
+Compressed Data:
+  label: Compressed Data
+  permalink: /papers/tags/compressed-data
+  description: 압축 데이터 관련 논문들
+
+Real-time Analytics:
+  label: Real-time Analytics
+  permalink: /papers/tags/real-time-analytics
+  description: 실시간 분석 관련 논문들
+
+Space-filling Curves:
+  label: Space-filling Curves
+  permalink: /papers/tags/space-filling-curves
+  description: 공간 채우기 곡선 관련 논문들
+
+Morton Code:
+  label: Morton Code
+  permalink: /papers/tags/morton-code
+  description: 모튼 코드 관련 논문들
+
+Hierarchical Indexing:
+  label: Hierarchical Indexing
+  permalink: /papers/tags/hierarchical-indexing
+  description: 계층적 인덱싱 관련 논문들
+
+Dynamic Data Structure:
+  label: Dynamic Data Structure
+  permalink: /papers/tags/dynamic-data-structure
+  description: 동적 데이터 구조 관련 논문들
+
+Internet of Things:
+  label: Internet of Things
+  permalink: /papers/tags/internet-of-things
+  description: 사물인터넷 관련 논문들
+
+Cloud Infrastructure:
+  label: Cloud Infrastructure
+  permalink: /papers/tags/cloud-infrastructure
+  description: 클라우드 인프라 관련 논문들
+
+Application Programming Interfaces:
+  label: Application Programming Interfaces
+  permalink: /papers/tags/application-programming-interfaces
+  description: 애플리케이션 프로그래밍 인터페이스 관련 논문들
+
+Automation Tools:
+  label: Automation Tools
+  permalink: /papers/tags/automation-tools
+  description: 자동화 도구 관련 논문들
+
+Active Learning:
+  label: Active Learning
+  permalink: /papers/tags/active-learning
+  description: 활성 학습 관련 논문들
+
+Computational Materials Science:
+  label: Computational Materials Science
+  permalink: /papers/tags/computational-materials-science
+  description: 계산 재료 과학 관련 논문들
+
+Density Functional Theory:
+  label: Density Functional Theory
+  permalink: /papers/tags/density-functional-theory
+  description: 밀도 범함수 이론 관련 논문들
+
+Interatomic Potentials:
+  label: Interatomic Potentials
+  permalink: /papers/tags/interatomic-potentials
+  description: 원자간 전위 관련 논문들
+
+GNOME:
+  label: GNOME
+  permalink: /papers/tags/gnome
+  description: GNOME 시스템 관련 논문들
+
+Process Reverse Design:
+  label: Process Reverse Design
+  permalink: /papers/tags/process-reverse-design
+  description: 공정 역설계 관련 논문들
+
+Optimization:
+  label: Optimization
+  permalink: /papers/tags/optimization
+  description: 최적화 관련 논문들
+
+Simulation:
+  label: Simulation
+  permalink: /papers/tags/simulation
+  description: 시뮬레이션 관련 논문들
+
+Regression Chain:
+  label: Regression Chain
+  permalink: /papers/tags/regression-chain
+  description: 회귀 체인 관련 논문들
+
+Data Change Rate:
+  label: Data Change Rate
+  permalink: /papers/tags/data-change-rate
+  description: 데이터 변동률 관련 논문들
+
+Correlation Analysis:
+  label: Correlation Analysis
+  permalink: /papers/tags/correlation-analysis
+  description: 상관 분석 관련 논문들
+
+Error Propagation:
+  label: Error Propagation
+  permalink: /papers/tags/error-propagation
+  description: 오차 전파 관련 논문들
+
+Tensile Properties:
+  label: Tensile Properties
+  permalink: /papers/tags/tensile-properties
+  description: 인장 특성 관련 논문들
+
+Hessian Matrix:
+  label: Hessian Matrix
+  permalink: /papers/tags/hessian-matrix
+  description: 헤시안 행렬 관련 논문들
+
+Optimization Landscape:
+  label: Optimization Landscape
+  permalink: /papers/tags/optimization-landscape
+  description: 최적화 경관 관련 논문들
+
+Foundation Models:
+  label: Foundation Models
+  permalink: /papers/tags/foundation-models
+  description: 기반 모델 관련 논문들
+
+Linear-Time Complexity:
+  label: Linear-Time Complexity
+  permalink: /papers/tags/linear-time-complexity
+  description: 선형 시간 복잡도 관련 논문들
+
+Selective State Spaces:
+  label: Selective State Spaces
+  permalink: /papers/tags/selective-state-spaces
+  description: 선택적 상태 공간 관련 논문들

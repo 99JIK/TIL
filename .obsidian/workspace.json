@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "a48074aceff136ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "34e1170a0b9ba53c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39ed7d3176f2eab6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250820144236"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3df70edc923c9756",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8de6d860481e15f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc3d6a177a23f24c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "d08454e46a1d44dd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "1f372ca755bb10c2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1cf5e76cbf3c1b8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c524e72cb2d271b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e39a180be2b19e7e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Pasted image 20250820144236 의 백링크"
+            }
+          },
+          {
+            "id": "e88a4476f520f719",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Pasted image 20250820144236 의 나가는 링크"
+            }
+          },
+          {
+            "id": "30ff306173e63db6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "b6d725d95841c6de",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Pasted image 20250820144236 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "dc3d6a177a23f24c",
+  "lastOpenFiles": [
+    "papers/Scaling-deep-learning-for-materials-discovery.md",
+    "papers/img/Scaling-deep-learning-for-materials-discovery",
+    "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png",
+    "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144158.png",
+    "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144124.png",
+    "papers/img/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain/Pasted image 20250820142858.png",
+    "papers/img/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain/Pasted image 20250820142916.png",
+    "papers/img/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain",
+    "papers/Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain.md",
+    "papers/img/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain/Pasted image 20250820143001.png",
+    "papers/img/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain/Pasted image 20250820142939.png",
+    "papers/Reverse-design-of-spinning-process-based-on-physical-property-prediction-model.md",
+    "papers/The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error.md",
+    "papers/The-Future-of-Software-Testing-A-Review-of-Trends-Challenges-and-Opportunities.md",
+    "papers/The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics.md",
+    "papers/img/Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing/Pasted image 20250820133245.png",
+    "papers/Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing.md",
+    "papers/img/Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
+    "papers/Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile.md",
+    "papers/Mamba-Linear-Time-Sequence-Modeling-with-Selective-State-Spaces.md",
+    "papers/A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry.md",
+    "papers/img/Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile/Pasted image 20250820132234.png",
+    "papers/img/Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile/Pasted image 20250820132222.png",
+    "papers/img/Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile"
+  ]
+}
