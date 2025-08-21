@@ -1,29 +1,30 @@
 ---
 title: "물성 예측 모델 기반 방사 공정 역설계"
-date: "2023-05-01"
-description: "방사 공정 데이터의 특성을 고려하여, 물성 예측 모델과 시뮬레이션 데이터를 활용해 목표 물성을 달성하는 최적의 공정 변수 조합을 탐색하는 우선순위 기반 역설계 방법을 제안한 논문"
+date: "2023-01-01"
+description: "물성 예측 모델을 활용하여 목표 물성을 달성하기 위한 방사 공정 조건을 역설계하는 연구"
 keywords:
   [
-    Process Reverse Design,
-    Property Prediction,
-    Spinning Process,
-    Optimization,
-    Simulation,
-    Machine Learning,
-    Textile Engineering,
-    Data Analysis,
+    "Process Reverse Design",
+    "Spinning Process",
+    "Property Prediction",
+    "Optimization",
+    "Simulation",
+    "Machine Learning",
+    "Textile Engineering",
+    "Data Analysis",
   ]
 tags:
   [
-    Process Reverse Design,
-    Property Prediction,
-    Spinning Process,
-    Optimization,
-    Simulation,
-    Machine Learning,
-    Textile Engineering,
-    Data Analysis,
+    "Process Reverse Design",
+    "Spinning Process",
+    "Property Prediction",
+    "Optimization",
+    "Simulation",
+    "Machine Learning",
+    "Textile Engineering",
+    "Data Analysis",
   ]
+authors: ["sechan_park", "deokyeop_kim", "gangbok_seo", "woojin_lee"]
 ---
 
 # 물성 예측 모델 기반 방사 공정 역설계

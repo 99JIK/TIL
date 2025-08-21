@@ -1,7 +1,7 @@
 ---
 title: "TRINITY: A Fast Compressed Multi-attribute Data Store"
-date: 2024-04-22
-description: "TRINITY: 빠른 압축 다중 속성 데이터 저장소"
+date: "2024-04-22"
+description: "대용량 다중 속성 데이터를 효율적으로 저장하고 쿼리하기 위한 새로운 인메모리 데이터 저장소 TRINITY를 소개한 논문"
 keywords:
   [
     "TRINITY",
@@ -28,6 +28,7 @@ tags:
     "Dynamic Data Structure",
     "Machine Learning",
   ]
+authors: ["ziming_mao", "kiran_srinivasan", "anurag_khandelwal"]
 ---
 
 # TRINITY: A Fast Compressed Multi-attribute Data Store

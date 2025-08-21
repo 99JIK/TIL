@@ -1,31 +1,34 @@
 ---
-title: "데이터 불균형과 측정 오차를 고려한 생분해성 섬유 인장 강신도 예측 모델 개발"
-date: "2022-12-01"
-description: "섬유 방사 공정 데이터의 불균형과 측정 오차 특성을 고려한 이상치 처리 및 데이터 증강 기법을 제안하여 인장 강신도 예측 모델의 성능을 개선한 논문"
+title: "생분해성 섬유 인장강도 및 신율 예측 모델 개발: 데이터 불균형 및 측정 오차 고려"
+date: "2023-01-01"
+description: "데이터 불균형과 측정 오차를 고려한 생분해성 섬유의 인장강도 및 신율 예측 모델 개발 연구"
 keywords:
   [
-    Property Prediction,
-    Biodegradable Fiber,
-    Data Imbalance,
-    Outlier Detection,
-    Data Augmentation,
-    Machine Learning,
-    Textile Engineering,
-    Data Preprocessing,
-    Tensile Properties,
+    "Biodegradable Fiber",
+    "Tensile Properties",
+    "Tensile Tenacity",
+    "Elongation Prediction",
+    "Property Prediction",
+    "Data Imbalance",
+    "Data Preprocessing",
+    "Machine Learning",
+    "Textile Engineering",
+    "Data Analysis",
   ]
 tags:
   [
-    Property Prediction,
-    Biodegradable Fiber,
-    Data Imbalance,
-    Outlier Detection,
-    Data Augmentation,
-    Machine Learning,
-    Textile Engineering,
-    Data Preprocessing,
-    Tensile Properties,
+    "Biodegradable Fiber",
+    "Tensile Properties",
+    "Tensile Tenacity",
+    "Elongation Prediction",
+    "Property Prediction",
+    "Data Imbalance",
+    "Data Preprocessing",
+    "Machine Learning",
+    "Textile Engineering",
+    "Data Analysis",
   ]
+authors: ["sechan_park", "deokyeop_kim", "gangbok_seo", "woojin_lee"]
 ---
 
 # 데이터 불균형과 측정 오차를 고려한 생분해성 섬유 인장 강신도 예측 모델 개발

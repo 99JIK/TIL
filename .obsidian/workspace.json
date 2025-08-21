@@ -11,12 +11,14 @@
             "id": "39ed7d3176f2eab6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png"
+                "file": "papers/A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250820144236"
+              "icon": "lucide-file",
+              "title": "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png",
+                "file": "papers/A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Pasted image 20250820144236 의 백링크"
+              "title": "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases 의 백링크"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png",
+                "file": "papers/A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Pasted image 20250820144236 의 나가는 링크"
+              "title": "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases 의 나가는 링크"
             }
           },
           {
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png",
+                "file": "papers/A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20250820144236 의 개요"
+              "title": "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases 의 개요"
             }
           }
         ]
@@ -166,11 +168,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dc3d6a177a23f24c",
+  "active": "39ed7d3176f2eab6",
   "lastOpenFiles": [
+    "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png",
+    "papers/A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases.md",
     "papers/Scaling-deep-learning-for-materials-discovery.md",
     "papers/img/Scaling-deep-learning-for-materials-discovery",
-    "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png",
     "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144158.png",
     "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144124.png",
     "papers/img/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain/Pasted image 20250820142858.png",

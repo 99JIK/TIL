@@ -1,27 +1,32 @@
 ---
 title: "Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
-date: 2024-05-31
-description: "맘바: 선택적 상태 공간을 사용한 선형 시간 시퀀스 모델링"
+date: "2023-12-01"
+description: "선택적 상태 공간(Selective State Space)을 사용하여 선형 시간 복잡도로 시퀀스를 모델링하는 Mamba 아키텍처를 제안한 논문"
 keywords:
   [
-    State Space Models,
-    Sequence Modeling,
-    Transformer Alternatives,
-    Linear-Time Complexity,
-    Selective State Spaces,
-    Deep Learning,
-    Foundation Models,
+    "Mamba",
+    "Selective State Spaces",
+    "Linear Time Complexity",
+    "Sequence Modeling",
+    "State Space Models",
+    "Efficient Attention",
+    "Long Sequence Processing",
+    "Deep Learning",
+    "Machine Learning",
   ]
 tags:
   [
-    State Space Models,
-    Sequence Modeling,
-    Transformer Alternatives,
-    Linear-Time Complexity,
-    Selective State Spaces,
-    Deep Learning,
-    Foundation Models,
+    "Mamba",
+    "Selective State Spaces",
+    "Linear Time Complexity",
+    "Sequence Modeling",
+    "State Space Models",
+    "Efficient Attention",
+    "Long Sequence Processing",
+    "Deep Learning",
+    "Machine Learning",
   ]
+authors: ["albert_gu", "tri_dao"]
 ---
 
 # Mamba: Linear-Time Sequence Modeling with Selective State Spaces
@@ -34,7 +39,7 @@ tags:
   - Tri Dao (Department of Computer Science, Princeton University)
 - **학회 또는 저널명 (Conference or Journal Name)**: arXiv preprint (arXiv:2312.00752v2 \[cs.LG\])
 - **제출일 또는 발행일 (Submission or Publication Date)**: 2024년 5월 31일 (v2)
-- **키워드 (Keywords)**: State Space Models, Sequence Modeling, Transformer Alternatives, Linear-Time Complexity, Selective State Spaces, Deep Learning, Foundation Models
+- **키워드 (Keywords)**: State Space Models, Sequence Modeling, Foundation Models, Linear-Time Complexity, Selective State Spaces, Deep Learning
 
 <!-- truncate -->
 

@@ -48,21 +48,42 @@ Multi-Head Attention:
   permalink: /papers/tags/multi-head-attention
   description: 멀티헤드 어텐션 관련 논문들
 
-# 시퀀스 모델링 관련
+# 시퀀스 모델링 관련 (통합)
 Sequence Modeling:
   label: Sequence Modeling
   permalink: /papers/tags/sequence-modeling
-  description: 시퀀스 모델링 관련 논문들
+  description: 시퀀스 모델링 및 변환 관련 논문들
 
 State Space Models:
   label: State Space Models
   permalink: /papers/tags/state-space-models
   description: 상태 공간 모델 관련 논문들
 
-Sequence Transduction:
-  label: Sequence Transduction
-  permalink: /papers/tags/sequence-transduction
-  description: 시퀀스 변환 관련 논문들
+# Mamba 관련 태그
+Mamba:
+  label: Mamba
+  permalink: /papers/tags/mamba
+  description: Mamba 아키텍처 관련 논문들
+
+Selective State Spaces:
+  label: Selective State Spaces
+  permalink: /papers/tags/selective-state-spaces
+  description: 선택적 상태 공간 관련 논문들
+
+Linear Time Complexity:
+  label: Linear Time Complexity
+  permalink: /papers/tags/linear-time-complexity
+  description: 선형 시간 복잡도 관련 논문들
+
+Efficient Attention:
+  label: Efficient Attention
+  permalink: /papers/tags/efficient-attention
+  description: 효율적인 어텐션 메커니즘 관련 논문들
+
+Long Sequence Processing:
+  label: Long Sequence Processing
+  permalink: /papers/tags/long-sequence-processing
+  description: 긴 시퀀스 처리 관련 논문들
 
 # 소프트웨어 테스팅 관련
 Software Testing:
@@ -112,6 +133,37 @@ Spinning Process:
   permalink: /papers/tags/spinning-process
   description: 방사 공정 관련 논문들
 
+# 섬유 공학 구체적 태그들
+Lightfastness Grade:
+  label: Lightfastness Grade
+  permalink: /papers/tags/lightfastness-grade
+  description: 내광성 등급 관련 논문들
+
+Colorfastness Rating:
+  label: Colorfastness Rating
+  permalink: /papers/tags/colorfastness-rating
+  description: 염색견뢰도 등급 관련 논문들
+
+Color Change:
+  label: Color Change
+  permalink: /papers/tags/color-change
+  description: 색상 변화 관련 논문들
+
+Tensile Tenacity:
+  label: Tensile Tenacity
+  permalink: /papers/tags/tensile-tenacity
+  description: 인장강도 관련 논문들
+
+Elongation Prediction:
+  label: Elongation Prediction
+  permalink: /papers/tags/elongation-prediction
+  description: 신율 예측 관련 논문들
+
+Yarn Property:
+  label: Yarn Property
+  permalink: /papers/tags/yarn-property
+  description: 원사 물성 관련 논문들
+
 # 데이터 처리 관련
 Data Analysis:
   label: Data Analysis
@@ -137,6 +189,11 @@ Data Augmentation:
   label: Data Augmentation
   permalink: /papers/tags/data-augmentation
   description: 데이터 증강 관련 논문들
+
+Oversampling:
+  label: Oversampling
+  permalink: /papers/tags/oversampling
+  description: 오버샘플링 관련 논문들
 
 # 기타 기술 관련
 Transfer Learning:
@@ -195,20 +252,22 @@ ChatGPT:
   permalink: /papers/tags/chatgpt
   description: ChatGPT 관련 논문들
 
+# GPT 모델 관련
+GPT-4.1:
+  label: GPT-4.1
+  permalink: /papers/tags/gpt-4-1
+  description: GPT-4.1 모델 관련 논문들
+
+# 문제 해결 관련 (통합)
 Problem Solving:
   label: Problem Solving
   permalink: /papers/tags/problem-solving
-  description: 문제 해결 관련 논문들
+  description: 문제 해결 및 프로그래밍 챌린지 관련 논문들
 
 Competitive Programming:
   label: Competitive Programming
   permalink: /papers/tags/competitive-programming
   description: 경쟁 프로그래밍 관련 논문들
-
-Programming Challenges:
-  label: Programming Challenges
-  permalink: /papers/tags/programming-challenges
-  description: 프로그래밍 챌린지 관련 논문들
 
 Collaboration:
   label: Collaboration
@@ -235,6 +294,7 @@ Student Perceptions:
   permalink: /papers/tags/student-perceptions
   description: 학생 인식 관련 논문들
 
+# TRINITY 관련 태그
 TRINITY:
   label: TRINITY
   permalink: /papers/tags/trinity
@@ -280,6 +340,7 @@ Dynamic Data Structure:
   permalink: /papers/tags/dynamic-data-structure
   description: 동적 데이터 구조 관련 논문들
 
+# 기타 기술 태그들
 Internet of Things:
   label: Internet of Things
   permalink: /papers/tags/internet-of-things
@@ -320,11 +381,12 @@ Interatomic Potentials:
   permalink: /papers/tags/interatomic-potentials
   description: 원자간 전위 관련 논문들
 
-GNOME:
-  label: GNOME
+GNoME:
+  label: GNoME
   permalink: /papers/tags/gnome
-  description: GNOME 시스템 관련 논문들
+  description: GNoME 시스템 관련 논문들
 
+# 공정 및 최적화 관련
 Process Reverse Design:
   label: Process Reverse Design
   permalink: /papers/tags/process-reverse-design
@@ -380,12 +442,76 @@ Foundation Models:
   permalink: /papers/tags/foundation-models
   description: 기반 모델 관련 논문들
 
-Linear-Time Complexity:
-  label: Linear-Time Complexity
-  permalink: /papers/tags/linear-time-complexity
-  description: 선형 시간 복잡도 관련 논문들
+# 기계 번역 관련
+Neural Machine Translation:
+  label: Neural Machine Translation
+  permalink: /papers/tags/neural-machine-translation
+  description: 신경망 기계 번역 관련 논문들
 
-Selective State Spaces:
-  label: Selective State Spaces
-  permalink: /papers/tags/selective-state-spaces
-  description: 선택적 상태 공간 관련 논문들
+# 코드 생성 관련
+Code Generation:
+  label: Code Generation
+  permalink: /papers/tags/code-generation
+  description: 코드 생성 관련 논문들
+
+Test Case:
+  label: Test Case
+  permalink: /papers/tags/test-case
+  description: 테스트 케이스 관련 논문들
+
+Zero-Shot Prompting:
+  label: Zero-Shot Prompting
+  permalink: /papers/tags/zero-shot-prompting
+  description: 제로샷 프롬프팅 관련 논문들
+
+Reliability:
+  label: Reliability
+  permalink: /papers/tags/reliability
+  description: 신뢰성 관련 논문들
+
+Accuracy:
+  label: Accuracy
+  permalink: /papers/tags/accuracy
+  description: 정확도 관련 논문들
+
+# 교육 기술 관련
+Educational Technology:
+  label: Educational Technology
+  permalink: /papers/tags/educational-technology
+  description: 교육 기술 관련 논문들
+
+# 차분 테스트 관련
+Differential Testing:
+  label: Differential Testing
+  permalink: /papers/tags/differential-testing
+  description: 차분 테스트 관련 논문들
+
+# 성능 향상 관련
+Performance Improvement:
+  label: Performance Improvement
+  permalink: /papers/tags/performance-improvement
+  description: 성능 향상 관련 논문들
+
+# 품질 평가 관련
+Quality Assessment:
+  label: Quality Assessment
+  permalink: /papers/tags/quality-assessment
+  description: 품질 평가 관련 논문들
+
+# 고처리량 스크리닝 관련
+High-Throughput Screening:
+  label: High-Throughput Screening
+  permalink: /papers/tags/high-throughput-screening
+  description: 고처리량 스크리닝 관련 논문들
+
+# 프로그래밍 교육 관련
+Programming Education:
+  label: Programming Education
+  permalink: /papers/tags/programming-education
+  description: 프로그래밍 교육 관련 논문들
+
+# 교육에서의 AI 활용 관련
+AI in Education:
+  label: AI in Education
+  permalink: /papers/tags/ai-in-education
+  description: 교육에서의 AI 활용 관련 논문들

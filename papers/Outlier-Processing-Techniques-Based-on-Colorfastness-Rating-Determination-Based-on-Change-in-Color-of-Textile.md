@@ -1,29 +1,32 @@
 ---
 title: "섬유의 변퇴색 기준 판정 내광성 등급 기반 이상치 처리 기법"
 date: "2023-06-01"
-description: "염색 공정 데이터의 비정규 분포 특성을 고려하여, 변퇴색 기준 판정 등급과의 차이를 이용한 이상치 처리 기번을 제안하고 예측 모델의 성능 향상을 입증한 논문"
+description: "섬유의 변퇴색 기준을 판정하여 내광성 등급을 결정하고, 이를 기반으로 이상치를 처리하는 기법에 대한 연구"
 keywords:
   [
-    Outlier Detection,
-    Lightfastness,
-    Textile,
-    Dyeing Process,
-    Prediction Model,
-    Machine Learning,
-    Color Change,
-    Data Analysis,
+    "Outlier Detection",
+    "Colorfastness Rating",
+    "Color Change",
+    "Property Prediction",
+    "Textile Engineering",
+    "Machine Learning",
+    "Data Analysis",
+    "Quality Assessment",
+    "Data Preprocessing",
   ]
 tags:
   [
-    Outlier Detection,
-    Lightfastness,
-    Textile,
-    Dyeing Process,
-    Prediction Model,
-    Machine Learning,
-    Color Change,
-    Data Analysis,
+    "Outlier Detection",
+    "Colorfastness Rating",
+    "Color Change",
+    "Property Prediction",
+    "Textile Engineering",
+    "Machine Learning",
+    "Data Analysis",
+    "Quality Assessment",
+    "Data Preprocessing",
   ]
+authors: ["gangbok_seo", "deokyeop_kim", "woojin_lee"]
 ---
 
 # 섬유의 변퇴색 기준 판정 내광성 등급 기반 이상치 처리 기법

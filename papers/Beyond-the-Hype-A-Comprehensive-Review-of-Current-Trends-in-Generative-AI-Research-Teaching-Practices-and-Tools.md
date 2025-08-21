@@ -1,28 +1,46 @@
 ---
 title: "Beyond the Hype: A Comprehensive Review of Current Trends in Generative AI Research, Teaching Practices, and Tools"
-date: 2024.07.10
-description: "과대광고를 넘어: 생성형 AI 연구, 교육 실제 및 도구의 현재 동향에 대한 포괄적 검토"
+date: "2024-07-08"
+description: "생성형 AI 연구, 교육 실천, 도구에 대한 현재 트렌드를 종합적으로 검토한 연구"
 keywords:
   [
-    Generative AI,
-    Large Language Models,
-    Artificial Intelligence,
-    Machine Learning,
-    Pedagogical Practices,
-    Teaching Computing,
-    Computing Education,
-    Natural Language Processing,
+    "Generative AI",
+    "Large Language Models",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Pedagogical Practices",
+    "Teaching Computing",
+    "Computing Education",
+    "Natural Language Processing",
   ]
 tags:
   [
-    Generative AI,
-    Large Language Models,
-    Artificial Intelligence,
-    Machine Learning,
-    Pedagogical Practices,
-    Teaching Computing,
-    Computing Education,
-    Natural Language Processing,
+    "Generative AI",
+    "Large Language Models",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Pedagogical Practices",
+    "Teaching Computing",
+    "Computing Education",
+    "Natural Language Processing",
+  ]
+authors:
+  [
+    "james_prather",
+    "juho_leinonen",
+    "natalie_kiesler",
+    "jamie_benario",
+    "sam_lau",
+    "stephen_macneil",
+    "narges_norouzi",
+    "simone_opel",
+    "vee_pettit",
+    "leo_porter",
+    "brent_reeves",
+    "jaromir_savelka",
+    "david_smith",
+    "sven_strickroth",
+    "daniel_zingaro",
   ]
 ---
 

@@ -1,28 +1,36 @@
 ---
 title: "AI Adoption for Collaboration: Factors Influencing Inclusive Learning Adoption in Higher Education"
-date: 2025-05-12
-description: "협업을 위한 AI 채택: 고등 교육에서 포용적 학습 채텍에 영향을 미치는 요인"
+date: "2025-01-01"
+description: "고등교육에서 포용적 학습을 위한 협업 도구로서의 AI 채택에 영향을 미치는 요인들을 분석한 연구"
 keywords:
   [
-    Artificial Intelligence,
-    Machine Learning,
-    Collaboration,
-    Inclusive Learning,
-    Higher Education,
-    Technology Acceptance,
-    Student Perceptions,
-    Natural Language Processing,
+    "AI Adoption",
+    "Collaboration",
+    "Inclusive Learning",
+    "Higher Education",
+    "Technology Acceptance",
+    "Student Perceptions",
+    "Machine Learning",
+    "Educational Technology",
   ]
 tags:
   [
-    Artificial Intelligence,
-    Machine Learning,
-    Collaboration,
-    Inclusive Learning,
-    Higher Education,
-    Technology Acceptance,
-    Student Perceptions,
-    Natural Language Processing,
+    "AI Adoption",
+    "Collaboration",
+    "Inclusive Learning",
+    "Higher Education",
+    "Technology Acceptance",
+    "Student Perceptions",
+    "Machine Learning",
+    "Educational Technology",
+  ]
+authors:
+  [
+    "ibrahim_alyoussef",
+    "amr_drwish",
+    "fatimah_albakheet",
+    "rafdan_alhajhoj",
+    "amal_almousa",
   ]
 ---
 

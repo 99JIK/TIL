@@ -1,14 +1,14 @@
 ---
 title: "Attention Is All You Need"
-date: 2023-08-02
-description: "AI가 자연어 처리와 비전 분야에서 월등한 성능 향상을 보인 Transformer를 처음으로 제안한 논문"
+date: "2017-06-12"
+description: "Transformer 아키텍처를 제안한 획기적인 논문으로, 순환 신경망(RNN)과 컨볼루션 신경망(CNN) 없이 Attention 메커니즘만으로 시퀀스 모델링을 수행"
 keywords:
   [
     "Transformer",
     "Attention Mechanism",
     "Self-Attention",
     "Multi-Head Attention",
-    "Sequence Transduction",
+    "Sequence Modeling",
     "Machine Translation",
     "Natural Language Processing",
     "Encoder-Decoder",
@@ -21,12 +21,21 @@ tags:
     "Attention Mechanism",
     "Self-Attention",
     "Multi-Head Attention",
-    "Sequence Transduction",
-    "Machine Translation",
+    "Sequence Modeling",
+    "Deep Learning",
     "Natural Language Processing",
-    "Encoder-Decoder",
-    "Parallelization",
-    "Positional Encoding",
+    "Machine Learning",
+  ]
+authors:
+  [
+    "ashish_vaswani",
+    "noam_shazeer",
+    "niki_parmar",
+    "jakob_uszkoreit",
+    "llion_jones",
+    "aidan_gomez",
+    "lukasz_kaiser",
+    "illia_polosukhin",
   ]
 ---
 
@@ -46,7 +55,7 @@ tags:
   - Illia Polosukhin (+; Work performed while at Google Research)
 - **학회 또는 저널명 (Conference or Journal Name):** 31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, USA
 - **제출일 또는 발행일 (Submission or Publication Date):** 2017년 12월 (NIPS 2017 학회 발표). 이 문서는 2023년 8월 2일자 arXiv:1706.03762v7 버전. 최초 arXiv 제출은 2017년 6월 12일.
-- **키워드 (Keywords):** Transformer, Attention Mechanism, Self-Attention, Multi-Head Attention, Sequence Transduction, Machine Translation, Natural Language Processing, Encoder-Decoder, Parallelization, Positional Encoding
+- **키워드 (Keywords):** Transformer, Attention Mechanism, Self-Attention, Multi-Head Attention, Sequence Modeling, Machine Translation, Natural Language Processing, Encoder-Decoder, Parallelization, Positional Encoding
 
 <!-- truncate -->
 

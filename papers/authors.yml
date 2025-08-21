@@ -3,11 +3,106 @@
 # 'your_name' 이라는 키 대신 본인이 사용할 키로 변경하세요 (예: gilhong)
 JIK:
   name: 김정인 # 여기에 실제 이름을 입력하세요
-  title: KNU M.S.
+  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 석사과정생
   url: https://github.com/99jik # 본인 GitHub 주소 또는 웹사이트 (선택 사항)
   image_url: https://github.com/99jik.png # 프로필 사진 URL (선택 사항, GitHub 프로필 사진 사용 예시)
+  papers:
+    [
+      "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases",
+    ]
 
 # ===== 출신 대학별 분류 =====
+
+# 경북대학교
+woojin_lee:
+  name: 이우진
+  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 담당교수
+  url: mailto:woojin@knu.ac.kr
+  papers:
+    [
+      "WHAT-DOES-IT-MEAN-TO-BE-A-TRANSFORMER-INSIGHTS-FROM-A-THEORETICAL-HESSIAN-ANALYSIS",
+      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
+      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
+      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
+      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
+      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
+      "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile",
+      "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases",
+    ]
+
+sechan_park:
+  name: 박세찬
+  title: 경북대학교 컴퓨터학부
+  url: mailto:park.sechan@knu.ac.kr
+  papers:
+    [
+      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
+      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
+      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
+    ]
+
+deokyeop_kim:
+  name: 김덕엽
+  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 박사과정생
+  url: mailto:kim.deokyeop@knu.ac.kr
+  papers:
+    [
+      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
+      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
+      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
+      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
+      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
+      "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile",
+    ]
+
+gangbok_seo:
+  name: 서강복
+  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 박사
+  url: mailto:seo.gangbok@knu.ac.kr
+  papers:
+    [
+      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
+      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
+      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
+      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
+      "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile",
+    ]
+
+daegyu_lee:
+  name: 이대규
+  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 석사과정생
+  url: mailto:lee.daegyu@knu.ac.kr
+  papers:
+    [
+      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
+    ]
+
+younggyo_ryu:
+  name: 류영교
+  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 학부연구생
+  url: mailto:ryu.younggyo@knu.ac.kr
+  papers:
+    [
+      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
+    ]
+
+bokwon_kang:
+  name: 강보권
+  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 학부연구생
+  url: mailto:kang.bokwon@knu.ac.kr
+  papers:
+    [
+      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
+    ]
+
+taehwan_kim:
+  name: 김태환
+  title: 경북대학교 컴퓨터학부
+  url: mailto:kim.taehwan@knu.ac.kr
+  papers:
+    [
+      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
+    ]
 
 # Google (Google Brain, Google Research, Google DeepMind)
 ashish_vaswani:
@@ -107,96 +202,6 @@ tri_dao:
   title: Princeton University
   url: https://tridao.me/
   papers: ["Mamba-Linear-Time-Sequence-Modeling-with-Selective-State-Spaces"]
-
-# 경북대학교
-woojin_lee:
-  name: 이우진
-  title: 경북대학교 컴퓨터학부
-  url: mailto:woojin@knu.ac.kr
-  papers:
-    [
-      "WHAT-DOES-IT-MEAN-TO-BE-A-TRANSFORMER-INSIGHTS-FROM-A-THEORETICAL-HESSIAN-ANALYSIS",
-      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
-      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
-      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
-      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
-      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
-      "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile",
-    ]
-
-park_sechan:
-  name: 박세찬
-  title: 경북대학교 컴퓨터학부
-  url: mailto:park.sechan@knu.ac.kr
-  papers:
-    [
-      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
-      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
-      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
-    ]
-
-kim_deokyeop:
-  name: 김덕엽
-  title: 경북대학교 컴퓨터학부
-  url: mailto:kim.deokyeop@knu.ac.kr
-  papers:
-    [
-      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
-      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
-      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
-      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
-      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
-      "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile",
-    ]
-
-seo_gangbok:
-  name: 서강복
-  title: 경북대학교 컴퓨터학부
-  url: mailto:seo.gangbok@knu.ac.kr
-  papers:
-    [
-      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
-      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
-      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
-      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
-      "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile",
-    ]
-
-lee_daegyu:
-  name: 이대규
-  title: 경북대학교 컴퓨터학부
-  url: mailto:lee.daegyu@knu.ac.kr
-  papers:
-    [
-      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
-    ]
-
-ryu_younggyo:
-  name: 류영교
-  title: 경북대학교 컴퓨터학부
-  url: mailto:ryu.younggyo@knu.ac.kr
-  papers:
-    [
-      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
-    ]
-
-kang_bokwon:
-  name: 강보권
-  title: 경북대학교 컴퓨터학부
-  url: mailto:kang.bokwon@knu.ac.kr
-  papers:
-    [
-      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
-    ]
-
-kim_taehwan:
-  name: 김태환
-  title: 경북대학교 컴퓨터학부
-  url: mailto:kim.taehwan@knu.ac.kr
-  papers:
-    [
-      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
-    ]
 
 # 전북대학교
 mingle_xu:

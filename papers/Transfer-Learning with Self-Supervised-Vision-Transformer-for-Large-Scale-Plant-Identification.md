@@ -1,27 +1,31 @@
 ---
 title: "Transfer Learning with Self-Supervised Vision Transformer for Large-Scale Plant Identification"
-date: "2022-09-05"
-description: "대규모 식물 식별을 위한 자기지도 비전 트랜스포머 기반 전이 학습"
+date: "2024-01-01"
+description: "자기지도 학습 Vision Transformer를 사용한 대규모 식물 식별을 위한 전이학습 연구"
 keywords:
   [
-    Plant Identification,
-    Image Classification,
-    Transfer Learning,
-    Computer Vision,
-    Self-Supervised Learning,
-    Vision Transformer,
-    Machine Learning,
+    "Transfer Learning",
+    "Self-Supervised Learning",
+    "Vision Transformer",
+    "Plant Identification",
+    "Large-Scale Classification",
+    "Computer Vision",
+    "Deep Learning",
+    "Machine Learning",
   ]
 tags:
   [
-    Plant Identification,
-    Image Classification,
-    Transfer Learning,
-    Computer Vision,
-    Self-Supervised Learning,
-    Vision Transformer,
-    Machine Learning,
+    "Transfer Learning",
+    "Self-Supervised Learning",
+    "Vision Transformer",
+    "Plant Identification",
+    "Large-Scale Classification",
+    "Computer Vision",
+    "Deep Learning",
+    "Machine Learning",
   ]
+authors:
+  ["mingle_xu", "yongchae_jeong", "dong_sun_park", "sook_yoon", "jaesu_lee"]
 ---
 
 # Transfer Learning with Self-Supervised Vision Transformer for Large-Scale Plant Identification

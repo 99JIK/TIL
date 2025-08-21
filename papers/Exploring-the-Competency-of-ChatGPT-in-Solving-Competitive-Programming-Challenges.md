@@ -1,27 +1,30 @@
 ---
-title: Exploring the Competency of ChatGPT in Solving Competitive Programming Challenges
-date: 2024-02-06
-description: ChatGPT의 경쟁 프로그래밍 문제 해결 능력 탐구
+title: "Exploring the Competency of ChatGPT in Solving Competitive Programming Challenges"
+date: "2024-01-01"
+description: "ChatGPT가 경쟁 프로그래밍 문제 해결에서 보이는 능력을 탐구한 연구"
 keywords:
   [
-    ChatGPT,
-    Problem Solving,
-    Competitive Programming,
-    Programming Challenges,
-    Large Language Models,
-    Machine Learning,
-    Natural Language Processing,
+    "ChatGPT",
+    "Competitive Programming",
+    "Code Generation",
+    "Problem Solving",
+    "Large Language Models",
+    "Programming Education",
+    "Machine Learning",
+    "AI in Education",
   ]
 tags:
   [
-    ChatGPT,
-    Problem Solving,
-    Competitive Programming,
-    Programming Challenges,
-    Large Language Models,
-    Machine Learning,
-    Natural Language Processing,
+    "ChatGPT",
+    "Competitive Programming",
+    "Code Generation",
+    "Problem Solving",
+    "Large Language Models",
+    "Programming Education",
+    "Machine Learning",
+    "AI in Education",
   ]
+authors: ["md_eusha_kadir", "tasnim_rahman", "sourav_barman", "md_al_amin"]
 ---
 
 # Exploring the Competency of ChatGPT in Solving Competitive Programming Challenges

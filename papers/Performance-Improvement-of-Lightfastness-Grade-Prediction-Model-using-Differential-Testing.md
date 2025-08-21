@@ -1,31 +1,30 @@
 ---
 title: "차분 테스트를 이용한 내광성 등급 예측 모델 성능 향상"
-date: 2024-06-01
-description: "차분 테스트를 활용하여 내광성 등급 예측 모델의 성능을 향상시키는 연구"
+date: "2024-06-01"
+description: "차분 테스트 방법을 사용하여 섬유의 내광성 등급 예측 모델 성능을 향상시킨 연구"
 keywords:
   [
-    Differential Testing,
-    Lightfastness,
-    Prediction Model,
-    Performance Improvement,
-    Textile,
-    Color Change,
-    Machine Learning,
-    Ensemble,
-    Outlier Detection,
+    "Property Prediction",
+    "Lightfastness Grade",
+    "Differential Testing",
+    "Performance Improvement",
+    "Machine Learning",
+    "Textile Engineering",
+    "Data Analysis",
+    "Quality Assessment",
   ]
 tags:
   [
-    Differential Testing,
-    Lightfastness,
-    Prediction Model,
-    Performance Improvement,
-    Textile,
-    Color Change,
-    Machine Learning,
-    Ensemble,
-    Outlier Detection,
+    "Property Prediction",
+    "Lightfastness Grade",
+    "Differential Testing",
+    "Performance Improvement",
+    "Machine Learning",
+    "Textile Engineering",
+    "Data Analysis",
+    "Quality Assessment",
   ]
+authors: ["daegyu_lee", "gangbok_seo", "deokyeop_kim", "woojin_lee"]
 ---
 
 # 차분 테스트를 이용한 내광성 등급 예측 모델 성능 향상

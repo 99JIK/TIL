@@ -4,26 +4,29 @@ date: "2022-12-21"
 description: "섬유 방사 공정 데이터의 불균형, 소량, 오차 특성을 고려한 이상치 처리 및 오버샘플링 기법을 제안하여 물성 예측 모델의 성능을 개선한 논문"
 keywords:
   [
-    Property Prediction,
-    Biodegradable Fiber,
-    Data Imbalance,
-    Outlier Detection,
-    Oversampling,
-    Machine Learning,
-    Textile Engineering,
-    Data Preprocessing,
+    "Property Prediction",
+    "Biodegradable Fiber",
+    "Data Imbalance",
+    "Outlier Detection",
+    "Data Augmentation",
+    "Oversampling",
+    "Machine Learning",
+    "Textile Engineering",
+    "Data Preprocessing",
   ]
 tags:
   [
-    Property Prediction,
-    Biodegradable Fiber,
-    Data Imbalance,
-    Outlier Detection,
-    Oversampling,
-    Machine Learning,
-    Textile Engineering,
-    Data Preprocessing,
+    "Property Prediction",
+    "Biodegradable Fiber",
+    "Data Imbalance",
+    "Outlier Detection",
+    "Data Augmentation",
+    "Oversampling",
+    "Machine Learning",
+    "Textile Engineering",
+    "Data Preprocessing",
   ]
+authors: ["sechan_park", "deokyeop_kim", "gangbok_seo", "woojin_lee"]
 ---
 
 # 생분해성 섬유 방사 공정 데이터 특성을 고려한 물성 예측 모델 개발

@@ -1,31 +1,35 @@
 ---
-title: "데이터 변동률 기반 회귀 체인을 사용한 생분해성 섬유 원사 물성 예측 모델 개선"
-date: "2024-01-01"
-description: "방사 공정 데이터의 불균형 특성을 고려하여, 데이터 변동률 기반으로 물성 간 종속성을 평가하고 회귀 체인에 적용하여 물성 예측 모델의 성능을 개선한 논문"
+title: "데이터 변화율 기반 회귀 체인을 이용한 생분해성 섬유 원사 물성 예측 모델 성능 향상"
+date: "2023-01-01"
+description: "데이터 변화율 기반 회귀 체인 방법을 사용하여 생분해성 섬유 원사의 물성 예측 모델 성능을 향상시킨 연구"
 keywords:
   [
-    Property Prediction,
-    Biodegradable Fiber,
-    Regression Chain,
-    Data Change Rate,
-    Correlation Analysis,
-    Error Propagation,
-    Machine Learning,
-    Textile Engineering,
-    Data Analysis,
+    "Biodegradable Fiber",
+    "Yarn Property",
+    "Property Prediction",
+    "Regression Chain",
+    "Data Change Rate",
+    "Correlation Analysis",
+    "Error Propagation",
+    "Machine Learning",
+    "Textile Engineering",
+    "Data Analysis",
   ]
 tags:
   [
-    Property Prediction,
-    Biodegradable Fiber,
-    Regression Chain,
-    Data Change Rate,
-    Correlation Analysis,
-    Error Propagation,
-    Machine Learning,
-    Textile Engineering,
-    Data Analysis,
+    "Biodegradable Fiber",
+    "Yarn Property",
+    "Property Prediction",
+    "Regression Chain",
+    "Data Change Rate",
+    "Correlation Analysis",
+    "Error Propagation",
+    "Machine Learning",
+    "Textile Engineering",
+    "Data Analysis",
   ]
+authors:
+  ["deokyeop_kim", "younggyo_ryu", "bokwon_kang", "taehwan_kim", "woojin_lee"]
 ---
 
 # 데이터 변동률 기반 회귀 체인을 사용한 생분해성 섬유 원사 물성 예측 모델 개선

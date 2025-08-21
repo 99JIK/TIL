@@ -1,27 +1,30 @@
 ---
 title: "A Survey on Web Testing: On the Rise of AI and Applications in Industry"
-date: 2025-03-07
-description: "웹 테스팅에 관한 설문 조사: AI의 부상과 산업 응용"
+date: "2024-01-01"
+description: "AI 기술의 부상과 산업계 적용에 대한 웹 테스팅 분야의 종합적인 조사 연구"
 keywords:
   [
-    Web Testing,
-    Software Testing,
-    Artificial Intelligence,
-    Machine Learning,
-    Survey,
-    Computer Vision,
-    Natural Language Processing,
+    "Web Testing",
+    "AI in Testing",
+    "Automated Testing",
+    "Software Testing",
+    "Industry Applications",
+    "Machine Learning",
+    "Test Automation",
+    "Quality Assurance",
   ]
 tags:
   [
-    Web Testing,
-    Software Testing,
-    Artificial Intelligence,
-    Machine Learning,
-    Survey,
-    Computer Vision,
-    Natural Language Processing,
+    "Web Testing",
+    "AI in Testing",
+    "Automated Testing",
+    "Software Testing",
+    "Industry Applications",
+    "Machine Learning",
+    "Test Automation",
+    "Quality Assurance",
   ]
+authors: ["iva_kertusha", "gebremariem_assres", "onur_duman", "andrea_arcuri"]
 ---
 
 # A Survey on Web Testing: On the Rise of AI and Applications in Industry
