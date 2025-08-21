@@ -39,9 +39,9 @@ authors:
   - Jaesu Lee (농촌진흥청)
 - **학회 또는 저널명 (Conference or Journal Name)**: CLEF 2022: Conference and Labs of the Evaluation Forum, CEUR Workshop Proceedings (CEUR-WS.org)
 - **제출일 또는 발행일 (Submission or Publication Date)**: 2022년 9월 5일
+<!-- truncate -->
 - **초록 (Abstract)**:
   본 논문은 수백만 개의 이미지와 80,000개의 클래스를 포함하는 대규모 데이터셋을 사용하여 식물을 식별하는 PlantCLEF2022 챌린지를 위한 연구 노트이다. 클래스당 평균 이미지가 약 36개에 불과하여 소수 샷(few-shot) 이미지 분류 문제로 간주될 수 있다. 이 문제를 해결하기 위해, 기존의 지도 학습 방식의 합성곱 신경망(CNN)을 사용하는 대신 자기지도 학습(self-supervised learning)으로 사전 학습된 비전 트랜스포머(Vision Transformer, ViT)를 활용하는 전이 학습 전략을 제안한다. 제안된 방법은 챌린지에서 MA-MRR 0.62692를 달성하여 1위를 차지했으며, 이는 2위보다 0.019, 3위보다 0.116 높은 수치이다. 또한, 사전 학습된 모델이 식물 질병 인식과 같은 다른 식물 관련 다운스트림 작업에도 효과적임을 실험적으로 입증하였다.
-- **키워드 (Keywords)**: plant identification, image classification, transfer learning, computer vision, self-supervised, vision transformer
 - **주요 연구 내용 (Main Research Content/Methodology)**:
   - **문제 정의**: PlantCLEF2022 챌린지의 대규모(80,000 클래스) 및 소수 샷(클래스당 평균 36개 이미지) 식물 식별 문제를 해결한다.
   - **접근법**: 기존의 지도 학습 방식 CNN 대신, 자기지도 학습으로 사전 학습된 비전 트랜스포머(ViT)를 전이 학습에 사용한다. 이는 CNN의 귀납적 편향(inductive bias)이 없어 더 높은 모델 용량을 가지며, 자기지도 학습을 통해 특정 작업에 종속되지 않는 범용적인 특징 추출기를 얻을 수 있다는 장점이 있다.
@@ -59,8 +59,6 @@ authors:
   - 연구에 사용된 코드와 사전 학습된 모델을 공개하여 커뮤니티의 후속 연구를 촉진했다.
 - **DOI (Digital Object Identifier)**: 제공되지 않음
 - **기타 식별 가능한 정보**: 연구 분야: 컴퓨터 비전, 전이 학습, 식물 식별
-
-<!-- truncate -->
 
 ## 요약
 

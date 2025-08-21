@@ -55,7 +55,6 @@ authors:
   - Illia Polosukhin (+; Work performed while at Google Research)
 - **학회 또는 저널명 (Conference or Journal Name):** 31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, USA
 - **제출일 또는 발행일 (Submission or Publication Date):** 2017년 12월 (NIPS 2017 학회 발표). 이 문서는 2023년 8월 2일자 arXiv:1706.03762v7 버전. 최초 arXiv 제출은 2017년 6월 12일.
-- **키워드 (Keywords):** Transformer, Attention Mechanism, Self-Attention, Multi-Head Attention, Sequence Modeling, Machine Translation, Natural Language Processing, Encoder-Decoder, Parallelization, Positional Encoding
 
 <!-- truncate -->
 

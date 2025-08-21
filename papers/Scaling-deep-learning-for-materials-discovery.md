@@ -53,8 +53,7 @@ authors:
 - **학회 또는 저널명 (Conference or Journal Name):** Nature, Volume 624
 
 - **제출일 또는 발행일 (Submission or Publication Date):** 2023년 11월 29일 (온라인 게재)
-
-- **키워드 (Keywords):** materials discovery, deep learning, graph neural networks, active learning, computational materials science, density functional theory, interatomic potentials, GNoME
+<!-- truncate -->
 
 - **초록 (Abstract):** 새로운 기능성 재료의 발견은 청정에너지부터 정보 처리까지 다양한 기술 분야에서 근본적인 돌파구를 마련한다. 그러나 무기 결정 구조의 발견은 비용이 많이 들고 시간이 오래 걸리는 시행착오적 접근법에 의해 병목 현상을 겪어왔다. 본 연구는 대규모로 훈련된 그래프 신경망(GNN)이 전례 없는 수준의 일반화 능력을 보여주며 재료 발견의 효율성을 10배 향상시킬 수 있음을 입증한다. 이 효율성 향상을 통해 기존에 알려진 48,000개의 안정적인 결정 구조를 기반으로, 현재의 볼록 껍질(convex hull) 아래에 있는 220만 개의 새로운 구조를 발견했다. 이는 인류에게 알려진 안정적인 재료의 수를 10배나 확장한 것이다. 이 중 최종 볼록 껍질에 위치한 안정적인 발견들은 층상 재료 및 고체 전해질 후보 물질 스크리닝 시연과 같이 기술적 응용을 위해 공개될 예정이다. 발견된 안정적인 구조 중 736개는 이미 독립적으로 실험을 통해 구현된 바 있다. 또한, 수억 건의 제일원리 계산(first-principles calculations)을 통해 얻어진 대규모 데이터셋은 응축상 분자 동역학 시뮬레이션에 사용될 수 있는 매우 정확하고 견고한 학습된 원자간 전위(interatomic potentials) 모델과 이온 전도도의 제로샷(zero-shot) 예측 능력을 포함한 다운스트림 애플리케이션을 위한 모델링 역량을 열어주었다.
 
@@ -89,7 +88,7 @@ authors:
   - 연구 분야: 계산 재료 과학 (Computational Materials Science), 딥러닝 (Deep Learning)
   - 본 논문은 딥러닝, 특히 그래프 신경망(GNN)을 대규모로 활용하여 무기 결정(inorganic crystal) 발견 속도를 획기적으로 가속한 연구로, 'GNoME(Graph Networks for Materials Exploration)'라는 프레임워크를 제안했다.
 
-<!-- truncate -->
+
 
 ## 요약
 

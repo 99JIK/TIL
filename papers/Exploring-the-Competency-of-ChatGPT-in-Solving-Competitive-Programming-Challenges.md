@@ -41,7 +41,6 @@ authors: ["md_eusha_kadir", "tasnim_rahman", "sourav_barman", "md_al_amin"]
 - 접수일 (Received Date): 2023년 12월 20일
 - 채택일 (Accepted Date): 2024년 1월 21일
 - 발행일 (Published Date): 2024년 2월 06일
-- 키워드 (Keywords): ChatGPT, 문제 해결(Problem-solving), 경쟁적 프로그래밍(Competitive programming), 프로그래밍 챌린지(Programming challenges)
 
 <!-- truncate -->
 

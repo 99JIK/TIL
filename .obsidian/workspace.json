@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases.md",
+                "file": "papers/Attention-Is-All-You-Need.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases"
+              "title": "Attention-Is-All-You-Need"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:GPT-4.1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases.md",
+                "file": "papers/Attention-Is-All-You-Need.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases 의 백링크"
+              "title": "Attention-Is-All-You-Need 의 백링크"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "papers/A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases.md",
+                "file": "papers/Attention-Is-All-You-Need.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases 의 나가는 링크"
+              "title": "Attention-Is-All-You-Need 의 나가는 링크"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases.md",
+                "file": "papers/Attention-Is-All-You-Need.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases 의 개요"
+              "title": "Attention-Is-All-You-Need 의 개요"
             }
           }
         ]
@@ -170,28 +170,35 @@
   },
   "active": "39ed7d3176f2eab6",
   "lastOpenFiles": [
-    "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png",
-    "papers/A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases.md",
+    "papers/WHAT-DOES-IT-MEAN-TO-BE-A-TRANSFORMER-INSIGHTS-FROM-A-THEORETICAL-HESSIAN-ANALYSIS.md",
+    "papers/TRINITY-A-Fast-Compressed-Multi-attribute-Data-Store.md",
+    "papers/Transfer-Learning with Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification.md",
+    "papers/The-Future-of-Software-Testing-A-Review-of-Trends-Challenges-and-Opportunities.md",
+    "papers/The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics.md",
+    "papers/The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error.md",
     "papers/Scaling-deep-learning-for-materials-discovery.md",
+    "papers/Reverse-design-of-spinning-process-based-on-physical-property-prediction-model.md",
+    "papers/Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing.md",
+    "papers/Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile.md",
+    "papers/Mamba-Linear-Time-Sequence-Modeling-with-Selective-State-Spaces.md",
+    "papers/Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain.md",
+    "papers/Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges.md",
+    "papers/Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools.md",
+    "papers/Attention-Is-All-You-Need.md",
+    "papers/AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education.md",
+    "papers/A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry.md",
+    "papers/A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases.md",
+    "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png",
     "papers/img/Scaling-deep-learning-for-materials-discovery",
     "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144158.png",
     "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144124.png",
     "papers/img/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain/Pasted image 20250820142858.png",
     "papers/img/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain/Pasted image 20250820142916.png",
     "papers/img/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain",
-    "papers/Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain.md",
     "papers/img/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain/Pasted image 20250820143001.png",
     "papers/img/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain/Pasted image 20250820142939.png",
-    "papers/Reverse-design-of-spinning-process-based-on-physical-property-prediction-model.md",
-    "papers/The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error.md",
-    "papers/The-Future-of-Software-Testing-A-Review-of-Trends-Challenges-and-Opportunities.md",
-    "papers/The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics.md",
     "papers/img/Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing/Pasted image 20250820133245.png",
-    "papers/Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing.md",
     "papers/img/Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
-    "papers/Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile.md",
-    "papers/Mamba-Linear-Time-Sequence-Modeling-with-Selective-State-Spaces.md",
-    "papers/A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry.md",
     "papers/img/Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile/Pasted image 20250820132234.png",
     "papers/img/Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile/Pasted image 20250820132222.png",
     "papers/img/Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile"

@@ -40,7 +40,6 @@ authors: ["elavarasi_kesavan"]
 - DOI: 10.69968/ijisem.2025v4i253-57
 - 페이지 (Pages): 53-58
 - 라이선스 (License): Creative Commons Attribution-Share Alike 4.0 International License
-- 키워드 (Keywords): 소프트웨어 테스팅(Software testing), 인공지능(Artificial intelligence (AI)), 사물인터넷(Internet of things (IoT)), 클라우드 인프라(Cloud infrastructure), 애플리케이션 프로그래밍 인터페이스(Application programming interfaces (APIs)), 자동화 도구(Automation tool)
 
 <!-- truncate -->
 

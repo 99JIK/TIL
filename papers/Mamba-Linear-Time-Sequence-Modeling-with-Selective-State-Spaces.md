@@ -39,8 +39,6 @@ authors: ["albert_gu", "tri_dao"]
   - Tri Dao (Department of Computer Science, Princeton University)
 - **학회 또는 저널명 (Conference or Journal Name)**: arXiv preprint (arXiv:2312.00752v2 \[cs.LG\])
 - **제출일 또는 발행일 (Submission or Publication Date)**: 2024년 5월 31일 (v2)
-- **키워드 (Keywords)**: State Space Models, Sequence Modeling, Foundation Models, Linear-Time Complexity, Selective State Spaces, Deep Learning
-
 <!-- truncate -->
 
 - **초록 (Abstract)**:

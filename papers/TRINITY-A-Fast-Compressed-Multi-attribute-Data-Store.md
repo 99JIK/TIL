@@ -38,7 +38,6 @@ authors: ["ziming_mao", "kiran_srinivasan", "anurag_khandelwal"]
 - 저자 (Authors) 및 소속 (Affiliations): Ziming Mao (UC Berkeley), Kiran Srinivasan (NetApp), Anurag Khandelwal (Yale)
 - 학회 또는 저널명 (Conference or Journal Name): Nineteenth European Conference on Computer Systems (EuroSys '24)
 - 제출일 또는 발행일 (Submission or Publication Date): 2024년 4월 22일-25일
-- 키워드 (Keywords): TRINITY, MDTRIE, Multi-attribute data store, Compressed data, Real-time analytics, Space-filling curves, Morton code, Hierarchical indexing, Dynamic data structure
 - DOI (Digital Object Identifier): [https://doi.org/10.1145/3627703.3650072](https://doi.org/10.1145/3627703.3650072)
 <!-- truncate -->
 
