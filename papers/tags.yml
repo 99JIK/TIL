@@ -515,3 +515,115 @@ AI in Education:
   label: AI in Education
   permalink: /papers/tags/ai-in-education
   description: 교육에서의 AI 활용 관련 논문들
+
+# 새로 추가된 태그들
+Hybrid Model:
+  label: Hybrid Model
+  permalink: /papers/tags/hybrid-model
+  description: 하이브리드 모델 관련 논문들
+
+Feature Extraction:
+  label: Feature Extraction
+  permalink: /papers/tags/feature-extraction
+  description: 특징 추출 관련 논문들
+
+Neural Networks:
+  label: Neural Networks
+  permalink: /papers/tags/neural-networks
+  description: 신경망 관련 논문들
+
+Adversarial Training:
+  label: Adversarial Training
+  permalink: /papers/tags/adversarial-training
+  description: 적대적 훈련 관련 논문들
+
+Residual Learning:
+  label: Residual Learning
+  permalink: /papers/tags/residual-learning
+  description: 잔차 학습 관련 논문들
+
+Image Recognition:
+  label: Image Recognition
+  permalink: /papers/tags/image-recognition
+  description: 이미지 인식 관련 논문들
+
+Object Detection:
+  label: Object Detection
+  permalink: /papers/tags/object-detection
+  description: 객체 탐지 관련 논문들
+
+Convolutional Neural Networks:
+  label: Convolutional Neural Networks
+  permalink: /papers/tags/convolutional-neural-networks
+  description: 합성곱 신경망 관련 논문들
+
+CNN:
+  label: CNN
+  permalink: /papers/tags/cnn
+  description: CNN 관련 논문들
+
+ResNet:
+  label: ResNet
+  permalink: /papers/tags/resnet
+  description: ResNet 관련 논문들
+
+Shortcut Connections:
+  label: Shortcut Connections
+  permalink: /papers/tags/shortcut-connections
+  description: 단축 연결 관련 논문들
+
+Degradation Problem:
+  label: Degradation Problem
+  permalink: /papers/tags/degradation-problem
+  description: 성능 저하 문제 관련 논문들
+
+ImageNet:
+  label: ImageNet
+  permalink: /papers/tags/imagenet
+  description: ImageNet 관련 논문들
+
+COCO:
+  label: COCO
+  permalink: /papers/tags/coco
+  description: COCO 데이터셋 관련 논문들
+
+AlphaGo:
+  label: AlphaGo
+  permalink: /papers/tags/alphago
+  description: AlphaGo 관련 논문들
+
+Game AI:
+  label: Game AI
+  permalink: /papers/tags/game-ai
+  description: 게임 AI 관련 논문들
+
+Text Recognition:
+  label: Text Recognition
+  permalink: /papers/tags/text-recognition
+  description: 텍스트 인식 관련 논문들
+
+VGG Network:
+  label: VGG Network
+  permalink: /papers/tags/vgg-network
+  description: VGG 네트워크 관련 논문들
+
+Image Processing:
+  label: Image Processing
+  permalink: /papers/tags/image-processing
+  description: 이미지 처리 관련 논문들
+
+Data Mining:
+  label: Data Mining
+  permalink: /papers/tags/data-mining
+  description: 데이터 마이닝 관련 논문들
+
+Ensemble Methods:
+  label: Ensemble Methods
+  permalink: /papers/tags/ensemble-methods
+  description: 앙상블 방법 관련 논문들
+
+# DYETEC Project 관련 태그
+DYETEC PROJ 2:
+  label: DYETEC PROJ 2
+  permalink: /papers/tags/dyetec-proj-2
+  description: DYETEC Project 2 관련 논문들

@@ -527,6 +527,237 @@ anurag_khandelwal:
   title: Yale
   url: mailto:anurag.khandelwal@yale.edu
   papers: ["TRINITY-A-Fast-Compressed-Multi-attribute-Data-Store"]
+# 새로 추가된 논문 저자들
+
+# Fabric Defect Detection 논문 저자들
+fatma_gunseli_yasar_cikla:
+  name: Fatma Günseli Yaşar Çıkla
+  title: Istanbul Technical University
+  url: mailto:fatma.gunseli@itu.edu.tr
+  papers: ["Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning"]
+
+semih_utku:
+  name: Semih Utku
+  title: Istanbul Technical University
+  url: mailto:semih.utku@itu.edu.tr
+  papers: ["Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning"]
+
+hakan_ozdemir:
+  name: Hakan Özdemir
+  title: Istanbul Technical University
+  url: mailto:hakan.ozdemir@itu.edu.tr
+  papers: ["Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning"]
+
+# Generative Adversarial Nets 논문 저자들
+ian_goodfellow:
+  name: Ian Goodfellow
+  title: Google Research
+  url: https://scholar.google.com/citations?user=iYN86KEAAAAJ&hl=en
+  papers: ["Generative-Adversarial-Nets"]
+
+jean_pouget_abadie:
+  name: Jean Pouget-Abadie
+  title: Université de Montréal
+  url: https://scholar.google.com/citations?user=jean.pouget@umontreal.ca
+  papers: ["Generative-Adversarial-Nets"]
+
+mehdi_mirza:
+  name: Mehdi Mirza
+  title: Université de Montréal
+  url: https://scholar.google.com/citations?user=mehdi.mirza@umontreal.ca
+  papers: ["Generative-Adversarial-Nets"]
+
+bing_xu:
+  name: Bing Xu
+  title: Université de Montréal
+  url: https://scholar.google.com/citations?user=bing.xu@umontreal.ca
+  papers: ["Generative-Adversarial-Nets"]
+
+david_warde_farley:
+  name: David Warde-Farley
+  title: Université de Montréal
+  url: https://scholar.google.com/citations?user=david.warde@umontreal.ca
+  papers: ["Generative-Adversarial-Nets"]
+
+sherjil_ozair:
+  name: Sherjil Ozair
+  title: Université de Montréal
+  url: https://scholar.google.com/citations?user=sherjil.ozair@umontreal.ca
+  papers: ["Generative-Adversarial-Nets"]
+
+aaron_courville:
+  name: Aaron Courville
+  title: Université de Montréal
+  url: https://scholar.google.com/citations?user=aaron.courville@umontreal.ca
+  papers: ["Generative-Adversarial-Nets"]
+
+yoshua_bengio:
+  name: Yoshua Bengio
+  title: Université de Montréal
+  url: https://scholar.google.com/citations?user=yoshua.bengio@umontreal.ca
+  papers: ["Generative-Adversarial-Nets"]
+
+# Deep Residual Learning 논문 저자들
+kaiming_he:
+  name: Kaiming He
+  title: Facebook AI Research
+  url: https://scholar.google.com/citations?user=NfnlzqoAAAAJ&hl=en
+  papers: ["Deep-Residual-Learning-for-Image-Reconition"]
+
+xiangyu_zhang:
+  name: Xiangyu Zhang
+  title: Facebook AI Research
+  url: https://scholar.google.com/citations?user=xiangyu.zhang@fb.com
+  papers: ["Deep-Residual-Learning-for-Image-Reconition"]
+
+shaoqing_ren:
+  name: Shaoqing Ren
+  title: Facebook AI Research
+  url: https://scholar.google.com/citations?user=shaoqing.ren@fb.com
+  papers: ["Deep-Residual-Learning-for-Image-Reconition"]
+
+jian_sun:
+  name: Jian Sun
+  title: Facebook AI Research
+  url: https://scholar.google.com/citations?user=jian.sun@fb.com
+  papers: ["Deep-Residual-Learning-for-Image-Reconition"]
+
+# AlphaGo 논문 저자들
+david_silver:
+  name: David Silver
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=3DzV8kIAAAAJ&hl=en
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+a_junior:
+  name: Aja Huang
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=aja.huang@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+chris_maddison:
+  name: Chris J. Maddison
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=chris.maddison@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+arthur_guez:
+  name: Arthur Guez
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=arthur.guez@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+laurent_sifre:
+  name: Laurent Sifre
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=laurent.sifre@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+george_van_den_driessche:
+  name: George van den Driessche
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=george.vanden@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+thore_graepel:
+  name: Thore Graepel
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=thore.graepel@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+ioannis_antonoglou:
+  name: Ioannis Antonoglou
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=ioannis.antonoglou@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+vedavyas_panneershelvam:
+  name: Veda Panneershelvam
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=vedavyas.panneershelvam@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+marc_lanctot:
+  name: Marc Lanctot
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=marc.lanctot@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+sander_dieleman:
+  name: Sander Dieleman
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=sander.dieleman@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+dominik_grewe:
+  name: Dominik Grewe
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=dominik.grewe@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+john_nham:
+  name: John Nham
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=john.nham@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+nando_de_freitas:
+  name: Nando de Freitas
+  title: Google DeepMind
+  url: https://scholar.google.com/citations?user=nando.defreitas@deepmind.com
+  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
+
+# CRNN 논문 저자들
+baoguang_shi:
+  name: Baoguang Shi
+  title: Huazhong University of Science and Technology
+  url: https://scholar.google.com/citations?user=baoguang.shi@hust.edu.cn
+  papers: ["An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition"]
+
+xiang_bai:
+  name: Xiang Bai
+  title: Huazhong University of Science and Technology
+  url: https://scholar.google.com/citations?user=xiang.bai@hust.edu.cn
+  papers: ["An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition"]
+
+cong_yao:
+  name: Cong Yao
+  title: Huazhong University of Science and Technology
+  url: https://scholar.google.com/citations?user=cong.yao@hust.edu.cn
+  papers: ["An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition"]
+
+# Neural Algorithm of Artistic Style 논문 저자들
+leon_a_gatys:
+  name: Leon A. Gatys
+  title: University of Tübingen
+  url: https://scholar.google.com/citations?user=leon.gatys@uni-tuebingen.de
+  papers: ["A-Neural-Algorithm-of-Artistic-Style"]
+
+alexander_s_ecker:
+  name: Alexander S. Ecker
+  title: University of Tübingen
+  url: https://scholar.google.com/citations?user=alexander.ecker@uni-tuebingen.de
+  papers: ["A-Neural-Algorithm-of-Artistic-Style"]
+
+matthias_bethge:
+  name: Matthias Bethge
+  title: University of Tübingen
+  url: https://scholar.google.com/citations?user=matthias.bethge@uni-tuebingen.de
+  papers: ["A-Neural-Algorithm-of-Artistic-Style"]
+
+# XGBoost 논문 저자들
+tianqi_chen:
+  name: Tianqi Chen
+  title: University of Washington
+  url: https://scholar.google.com/citations?user=tianqi.chen@uw.edu
+  papers: ["XGBoost-A-Scalable-Tree-Boosting-System"]
+
+carlos_guestrin:
+  name: Carlos Guestrin
+  title: University of Washington
+  url: https://scholar.google.com/citations?user=carlos.guestrin@uw.edu
+  papers: ["XGBoost-A-Scalable-Tree-Boosting-System"]
+
 # 다른 작성자가 있다면 추가 가능
 # another_author:
 #   name: 다른 작성자 이름
