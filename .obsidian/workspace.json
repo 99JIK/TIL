@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition.md",
+                "file": "docs/Project/DYETEC Project 2/Project-Proposal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition"
+              "title": "Project-Proposal"
             }
           }
         ]
@@ -171,6 +171,7 @@
   },
   "active": "39ed7d3176f2eab6",
   "lastOpenFiles": [
+    "papers/An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition.md",
     "docs/Project/DYETEC Project 2/Project-Proposal.md",
     "DYETEC-Project-2/Project-Proposal.md",
     "DYETEC-Project-2",
@@ -178,7 +179,6 @@
     "docs/Project/DYETEC Project 2",
     "docs/Project",
     "papers/A-Neural-Algorithm-of-Artistic-Style.md",
-    "papers/An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition.md",
     "papers/Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search.md",
     "papers/XGBoost-A-Scalable-Tree-Boosting-System.md",
     "papers/Deep-Residual-Learning-for-Image-Reconition.md",
