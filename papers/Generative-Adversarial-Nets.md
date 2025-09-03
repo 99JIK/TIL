@@ -36,7 +36,7 @@ tags:
   ]
 authors:
   [
-    "ian_j_goodfellow",
+    "ian_goodfellow",
     "jean_pouget_abadie",
     "mehdi_mirza",
     "bing_xu",
