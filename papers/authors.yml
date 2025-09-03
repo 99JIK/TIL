@@ -534,19 +534,28 @@ fatma_gunseli_yasar_cikla:
   name: Fatma Günseli Yaşar Çıkla
   title: Istanbul Technical University
   url: mailto:fatma.gunseli@itu.edu.tr
-  papers: ["Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning"]
+  papers:
+    [
+      "Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning",
+    ]
 
 semih_utku:
   name: Semih Utku
   title: Istanbul Technical University
   url: mailto:semih.utku@itu.edu.tr
-  papers: ["Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning"]
+  papers:
+    [
+      "Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning",
+    ]
 
 hakan_ozdemir:
   name: Hakan Özdemir
   title: Istanbul Technical University
   url: mailto:hakan.ozdemir@itu.edu.tr
-  papers: ["Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning"]
+  papers:
+    [
+      "Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning",
+    ]
 
 # Generative Adversarial Nets 논문 저자들
 ian_goodfellow:
@@ -712,19 +721,28 @@ baoguang_shi:
   name: Baoguang Shi
   title: Huazhong University of Science and Technology
   url: https://scholar.google.com/citations?user=baoguang.shi@hust.edu.cn
-  papers: ["An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition"]
+  papers:
+    [
+      "An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition",
+    ]
 
 xiang_bai:
   name: Xiang Bai
   title: Huazhong University of Science and Technology
   url: https://scholar.google.com/citations?user=xiang.bai@hust.edu.cn
-  papers: ["An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition"]
+  papers:
+    [
+      "An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition",
+    ]
 
 cong_yao:
   name: Cong Yao
   title: Huazhong University of Science and Technology
   url: https://scholar.google.com/citations?user=cong.yao@hust.edu.cn
-  papers: ["An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition"]
+  papers:
+    [
+      "An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition",
+    ]
 
 # Neural Algorithm of Artistic Style 논문 저자들
 leon_a_gatys:
@@ -758,6 +776,18 @@ carlos_guestrin:
   url: https://scholar.google.com/citations?user=carlos.guestrin@uw.edu
   papers: ["XGBoost-A-Scalable-Tree-Boosting-System"]
 
+# Deep Learning Based Fabric Defect Detection 논문 저자들
+syeda_rabia_arshad:
+  name: Syeda Rabia Arshad
+  title: National University of Sciences and Technology, Islamabad, Pakistan
+  url: mailto:syeda.rabia@nust.edu.pk
+  papers: ["Deep-Learning-Based-Fabric-Defect-Detection"]
+
+muhammad_khuram_shahzad:
+  name: Muhammad Khuram Shahzad
+  title: National University of Sciences and Technology, Islamabad, Pakistan
+  url: mailto:muhammad.khuram@nust.edu.pk
+  papers: ["Deep-Learning-Based-Fabric-Defect-Detection"]
 # 다른 작성자가 있다면 추가 가능
 # another_author:
 #   name: 다른 작성자 이름
