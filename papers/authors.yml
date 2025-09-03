@@ -532,8 +532,8 @@ anurag_khandelwal:
 # Fabric Defect Detection 논문 저자들
 fatma_gunseli_yasar_cikla:
   name: Fatma Günseli Yaşar Çıkla
-  title: Istanbul Technical University
-  url: mailto:fatma.gunseli@itu.edu.tr
+  title: İzmir Katip Çelebi University, Turkey
+  url: mailto:fatma.gunseli@ikcu.edu.tr
   papers:
     [
       "Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning",
@@ -541,8 +541,8 @@ fatma_gunseli_yasar_cikla:
 
 semih_utku:
   name: Semih Utku
-  title: Istanbul Technical University
-  url: mailto:semih.utku@itu.edu.tr
+  title: Dokuz Eylul University, Turkey
+  url: mailto:semih.utku@deu.edu.tr
   papers:
     [
       "Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning",
@@ -550,8 +550,8 @@ semih_utku:
 
 hakan_ozdemir:
   name: Hakan Özdemir
-  title: Istanbul Technical University
-  url: mailto:hakan.ozdemir@itu.edu.tr
+  title: Dokuz Eylul University, Turkey
+  url: mailto:hakan.ozdemir@deu.edu.tr
   papers:
     [
       "Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning",
@@ -813,32 +813,47 @@ rocco_furferi:
   name: Rocco Furferi
   title: University of Florence
   url: mailto:rocco.furferi@unifi.it
-  papers: ["Yarn-Strength-Prediction-A-Practical-Model-Based-on-Artificial-Neural-Networks"]
+  papers:
+    [
+      "Yarn-Strength-Prediction-A-Practical-Model-Based-on-Artificial-Neural-Networks",
+    ]
 
 maurizio_gelli:
   name: Maurizio Gelli
   title: New Mill S.P.A. Research Center
   url: mailto:maurizio.gelli@newmill.it
-  papers: ["Yarn-Strength-Prediction-A-Practical-Model-Based-on-Artificial-Neural-Networks"]
+  papers:
+    [
+      "Yarn-Strength-Prediction-A-Practical-Model-Based-on-Artificial-Neural-Networks",
+    ]
 
 # Development of a model for predicting dyeing color results 논문 저자들
 lee_woo_chang:
   name: 이우창
   title: 다이텍연구원
   url: mailto:lee.woo.chang@dyetec.kr
-  papers: ["Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning"]
+  papers:
+    [
+      "Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning",
+    ]
 
 son_hyun_sik:
   name: 손현식
   title: 다이텍연구원
   url: mailto:son.hyun.sik@dyetec.kr
-  papers: ["Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning"]
+  papers:
+    [
+      "Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning",
+    ]
 
 lee_chung_kwon:
   name: 이충권
   title: 계명대학교 경영정보학전공 교수
   url: mailto:lee.chung.kwon@kmu.ac.kr
-  papers: ["Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning"]
+  papers:
+    [
+      "Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning",
+    ]
 # 다른 작성자가 있다면 추가 가능
 # another_author:
 #   name: 다른 작성자 이름
