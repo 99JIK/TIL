@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition.md",
+                "file": "docs/Project/DYETEC Project 2/Study.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition"
+              "title": "Study"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1cf5e76cbf3c1b8b",
@@ -171,6 +172,8 @@
   },
   "active": "39ed7d3176f2eab6",
   "lastOpenFiles": [
+    "papers/An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition.md",
+    "docs/Project/DYETEC Project 2/Study.md",
     "docs/Project/DYETEC Project 2/Project-Proposal.md",
     "DYETEC-Project-2/Project-Proposal.md",
     "DYETEC-Project-2",
@@ -178,7 +181,6 @@
     "docs/Project/DYETEC Project 2",
     "docs/Project",
     "papers/A-Neural-Algorithm-of-Artistic-Style.md",
-    "papers/An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition.md",
     "papers/Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search.md",
     "papers/XGBoost-A-Scalable-Tree-Boosting-System.md",
     "papers/Deep-Residual-Learning-for-Image-Reconition.md",
@@ -200,7 +202,6 @@
     "papers/Transfer-Learning with Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification.md",
     "papers/The-Future-of-Software-Testing-A-Review-of-Trends-Challenges-and-Opportunities.md",
     "papers/The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics.md",
-    "papers/The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error.md",
     "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144236.png",
     "papers/img/Scaling-deep-learning-for-materials-discovery",
     "papers/img/Scaling-deep-learning-for-materials-discovery/Pasted image 20250820144158.png",
