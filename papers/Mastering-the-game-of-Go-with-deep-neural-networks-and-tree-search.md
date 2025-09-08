@@ -37,25 +37,19 @@ tags:
 authors:
   [
     "david_silver",
-    "aja_huang",
-    "chris_j_maddison",
+    "a_junior",
+    "chris_maddison",
     "arthur_guez",
     "laurent_sifre",
     "george_van_den_driessche",
-    "julian_schrittwieser",
     "ioannis_antonoglou",
-    "veda_panneershelvam",
+    "vedavyas_panneershelvam",
     "marc_lanctot",
     "sander_dieleman",
     "dominik_grewe",
     "john_nham",
-    "nal_kalchbrenner",
-    "ilya_sutskever",
-    "timothy_lillicrap",
-    "madeleine_leach",
-    "koray_kavukcuoglu",
     "thore_graepel",
-    "demis_hassabis",
+    "nando_de_freitas",
   ]
 ---
 

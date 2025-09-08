@@ -627,3 +627,396 @@ DYETEC PROJ 2:
   label: DYETEC PROJ 2
   permalink: /papers/tags/dyetec-proj-2
   description: DYETEC Project 2 관련 논문들
+
+# 추가 누락된 태그들
+Scene Text Recognition:
+  label: Scene Text Recognition
+  permalink: /papers/tags/scene-text-recognition
+  description: 장면 텍스트 인식 관련 논문들
+
+Image Based Sequence Recognition:
+  label: Image Based Sequence Recognition
+  permalink: /papers/tags/image-based-sequence-recognition
+  description: 이미지 기반 시퀀스 인식 관련 논문들
+
+Convolutional Recurrent Neural Network:
+  label: Convolutional Recurrent Neural Network
+  permalink: /papers/tags/convolutional-recurrent-neural-network
+  description: 합성곱 순환 신경망 관련 논문들
+
+CRNN:
+  label: CRNN
+  permalink: /papers/tags/crnn
+  description: CRNN 관련 논문들
+
+End To End Training:
+  label: End To End Training
+  permalink: /papers/tags/end-to-end-training
+  description: 종단간 훈련 관련 논문들
+
+OCR:
+  label: OCR
+  permalink: /papers/tags/ocr
+  description: 광학 문자 인식 관련 논문들
+
+Go:
+  label: Go
+  permalink: /papers/tags/go
+  description: 바둑 게임 관련 논문들
+
+Tree Search:
+  label: Tree Search
+  permalink: /papers/tags/tree-search
+  description: 트리 탐색 관련 논문들
+
+Reinforcement Learning:
+  label: Reinforcement Learning
+  permalink: /papers/tags/reinforcement-learning
+  description: 강화 학습 관련 논문들
+
+Supervised Learning:
+  label: Supervised Learning
+  permalink: /papers/tags/supervised-learning
+  description: 지도 학습 관련 논문들
+
+Monte Carlo Tree Search:
+  label: Monte Carlo Tree Search
+  permalink: /papers/tags/monte-carlo-tree-search
+  description: 몬테카를로 트리 탐색 관련 논문들
+
+Value Networks:
+  label: Value Networks
+  permalink: /papers/tags/value-networks
+  description: 가치 네트워크 관련 논문들
+
+Policy Networks:
+  label: Policy Networks
+  permalink: /papers/tags/policy-networks
+  description: 정책 네트워크 관련 논문들
+
+Generative Adversarial Nets:
+  label: Generative Adversarial Nets
+  permalink: /papers/tags/generative-adversarial-nets
+  description: 생성적 적대 신경망 관련 논문들
+
+GAN:
+  label: GAN
+  permalink: /papers/tags/gan
+  description: GAN 관련 논문들
+
+Generative Models:
+  label: Generative Models
+  permalink: /papers/tags/generative-models
+  description: 생성 모델 관련 논문들
+
+Discriminative Models:
+  label: Discriminative Models
+  permalink: /papers/tags/discriminative-models
+  description: 판별 모델 관련 논문들
+
+Unsupervised Learning:
+  label: Unsupervised Learning
+  permalink: /papers/tags/unsupervised-learning
+  description: 비지도 학습 관련 논문들
+
+Backpropagation:
+  label: Backpropagation
+  permalink: /papers/tags/backpropagation
+  description: 역전파 관련 논문들
+
+Minimax Game:
+  label: Minimax Game
+  permalink: /papers/tags/minimax-game
+  description: 미니맥스 게임 관련 논문들
+
+Yarn Strength:
+  label: Yarn Strength
+  permalink: /papers/tags/yarn-strength
+  description: 원사 강도 관련 논문들
+
+Prediction:
+  label: Prediction
+  permalink: /papers/tags/prediction
+  description: 예측 관련 논문들
+
+Artificial Neural Network:
+  label: Artificial Neural Network
+  permalink: /papers/tags/artificial-neural-network
+  description: 인공 신경망 관련 논문들
+
+Feed Forward Back Propagation:
+  label: Feed Forward Back Propagation
+  permalink: /papers/tags/feed-forward-back-propagation
+  description: 순전파 역전파 관련 논문들
+
+Regression:
+  label: Regression
+  permalink: /papers/tags/regression
+  description: 회귀 분석 관련 논문들
+
+Roving:
+  label: Roving
+  permalink: /papers/tags/roving
+  description: 로빙 관련 논문들
+
+XGBoost:
+  label: XGBoost
+  permalink: /papers/tags/xgboost
+  description: XGBoost 관련 논문들
+
+Tree Boosting:
+  label: Tree Boosting
+  permalink: /papers/tags/tree-boosting
+  description: 트리 부스팅 관련 논문들
+
+Gradient Boosting:
+  label: Gradient Boosting
+  permalink: /papers/tags/gradient-boosting
+  description: 그래디언트 부스팅 관련 논문들
+
+Scalable Machine Learning:
+  label: Scalable Machine Learning
+  permalink: /papers/tags/scalable-machine-learning
+  description: 확장 가능한 기계 학습 관련 논문들
+
+Parallel Computing:
+  label: Parallel Computing
+  permalink: /papers/tags/parallel-computing
+  description: 병렬 컴퓨팅 관련 논문들
+
+Distributed Computing:
+  label: Distributed Computing
+  permalink: /papers/tags/distributed-computing
+  description: 분산 컴퓨팅 관련 논문들
+
+Out Of Core:
+  label: Out Of Core
+  permalink: /papers/tags/out-of-core
+  description: 아웃 오브 코어 관련 논문들
+
+Sparsity Aware:
+  label: Sparsity Aware
+  permalink: /papers/tags/sparsity-aware
+  description: 희소성 인식 관련 논문들
+
+Hessian Analysis:
+  label: Hessian Analysis
+  permalink: /papers/tags/hessian-analysis
+  description: 헤시안 분석 관련 논문들
+
+Theoretical Analysis:
+  label: Theoretical Analysis
+  permalink: /papers/tags/theoretical-analysis
+  description: 이론적 분석 관련 논문들
+
+Mathematical Analysis:
+  label: Mathematical Analysis
+  permalink: /papers/tags/mathematical-analysis
+  description: 수학적 분석 관련 논문들
+
+Large-Scale Classification:
+  label: Large-Scale Classification
+  permalink: /papers/tags/large-scale-classification
+  description: 대규모 분류 관련 논문들
+
+Future Trends:
+  label: Future Trends
+  permalink: /papers/tags/future-trends
+  description: 미래 동향 관련 논문들
+
+Testing Challenges:
+  label: Testing Challenges
+  permalink: /papers/tags/testing-challenges
+  description: 테스팅 도전과제 관련 논문들
+
+Testing Opportunities:
+  label: Testing Opportunities
+  permalink: /papers/tags/testing-opportunities
+  description: 테스팅 기회 관련 논문들
+
+Quality Assurance:
+  label: Quality Assurance
+  permalink: /papers/tags/quality-assurance
+  description: 품질 보증 관련 논문들
+
+Test Automation:
+  label: Test Automation
+  permalink: /papers/tags/test-automation
+  description: 테스트 자동화 관련 논문들
+
+Industry Analysis:
+  label: Industry Analysis
+  permalink: /papers/tags/industry-analysis
+  description: 산업 분석 관련 논문들
+
+Automated Inspection:
+  label: Automated Inspection
+  permalink: /papers/tags/automated-inspection
+  description: 자동화 검사 관련 논문들
+
+Motif Based:
+  label: Motif Based
+  permalink: /papers/tags/motif-based
+  description: 모티프 기반 관련 논문들
+
+Texture Analysis:
+  label: Texture Analysis
+  permalink: /papers/tags/texture-analysis
+  description: 텍스처 분석 관련 논문들
+
+Textile Industry:
+  label: Textile Industry
+  permalink: /papers/tags/textile-industry
+  description: 섬유 산업 관련 논문들
+
+AI Adoption:
+  label: AI Adoption
+  permalink: /papers/tags/ai-adoption
+  description: AI 도입 관련 논문들
+
+AI in Testing:
+  label: AI in Testing
+  permalink: /papers/tags/ai-in-testing
+  description: 테스팅에서의 AI 활용 관련 논문들
+
+Automated Testing:
+  label: Automated Testing
+  permalink: /papers/tags/automated-testing
+  description: 자동화 테스팅 관련 논문들
+
+Industry Applications:
+  label: Industry Applications
+  permalink: /papers/tags/industry-applications
+  description: 산업 응용 관련 논문들
+
+Neural Style Transfer:
+  label: Neural Style Transfer
+  permalink: /papers/tags/neural-style-transfer
+  description: 신경 스타일 전이 관련 논문들
+
+Artistic Style:
+  label: Artistic Style
+  permalink: /papers/tags/artistic-style
+  description: 예술적 스타일 관련 논문들
+
+Content Representation:
+  label: Content Representation
+  permalink: /papers/tags/content-representation
+  description: 콘텐츠 표현 관련 논문들
+
+Style Representation:
+  label: Style Representation
+  permalink: /papers/tags/style-representation
+  description: 스타일 표현 관련 논문들
+
+Image Synthesis:
+  label: Image Synthesis
+  permalink: /papers/tags/image-synthesis
+  description: 이미지 합성 관련 논문들
+
+Fabric Defect:
+  label: Fabric Defect
+  permalink: /papers/tags/fabric-defect
+  description: 직물 결함 관련 논문들
+
+Defect Classification:
+  label: Defect Classification
+  permalink: /papers/tags/defect-classification
+  description: 결함 분류 관련 논문들
+
+Support Vector Machine:
+  label: Support Vector Machine
+  permalink: /papers/tags/support-vector-machine
+  description: 서포트 벡터 머신 관련 논문들
+
+GoogLeNet:
+  label: GoogLeNet
+  permalink: /papers/tags/googlenet
+  description: GoogLeNet 관련 논문들
+
+Polyester Fiber:
+  label: Polyester Fiber
+  permalink: /papers/tags/polyester-fiber
+  description: 폴리에스터 섬유 관련 논문들
+
+Dyeing Color Prediction:
+  label: Dyeing Color Prediction
+  permalink: /papers/tags/dyeing-color-prediction
+  description: 염색 색상 예측 관련 논문들
+
+Color Prediction:
+  label: Color Prediction
+  permalink: /papers/tags/color-prediction
+  description: 색상 예측 관련 논문들
+
+LSTM:
+  label: LSTM
+  permalink: /papers/tags/lstm
+  description: LSTM 관련 논문들
+
+MLP:
+  label: MLP
+  permalink: /papers/tags/mlp
+  description: MLP 관련 논문들
+
+VGG-16:
+  label: VGG-16
+  permalink: /papers/tags/vgg-16
+  description: VGG-16 관련 논문들
+
+Fabric Defect Detection:
+  label: Fabric Defect Detection
+  permalink: /papers/tags/fabric-defect-detection
+  description: 직물 결함 탐지 관련 논문들
+
+Quality Control:
+  label: Quality Control
+  permalink: /papers/tags/quality-control
+  description: 품질 관리 관련 논문들
+
+Automation:
+  label: Automation
+  permalink: /papers/tags/automation
+  description: 자동화 관련 논문들
+
+# 추가 누락된 태그들 (2차)
+Texture Synthesis:
+  label: Texture Synthesis
+  permalink: /papers/tags/texture-synthesis
+  description: 텍스처 합성 관련 논문들
+
+Pattern Recognition:
+  label: Pattern Recognition
+  permalink: /papers/tags/pattern-recognition
+  description: 패턴 인식 관련 논문들
+
+Visual Inspection:
+  label: Visual Inspection
+  permalink: /papers/tags/visual-inspection
+  description: 시각적 검사 관련 논문들
+
+Smart Factory:
+  label: Smart Factory
+  permalink: /papers/tags/smart-factory
+  description: 스마트 팩토리 관련 논문들
+
+Sequential Processing:
+  label: Sequential Processing
+  permalink: /papers/tags/sequential-processing
+  description: 순차 처리 관련 논문들
+
+Nonlinear Modeling:
+  label: Nonlinear Modeling
+  permalink: /papers/tags/nonlinear-modeling
+  description: 비선형 모델링 관련 논문들
+
+# 추가 누락된 태그들 (3차)
+Convolutional Neural Network:
+  label: Convolutional Neural Network
+  permalink: /papers/tags/convolutional-neural-network
+  description: 합성곱 신경망 관련 논문들
+
+Deep Neural Networks:
+  label: Deep Neural Networks
+  permalink: /papers/tags/deep-neural-networks
+  description: 심층 신경망 관련 논문들
