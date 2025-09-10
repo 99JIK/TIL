@@ -854,6 +854,83 @@ lee_chung_kwon:
     [
       "Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning",
     ]
+# POSTECH (포항공과대학교) 저자들
+gyeore_yun:
+  name: 윤겨레
+  title: Pohang University of Science and Technology (POSTECH)
+  url: https://scholar.google.com/citations?user=gyeore.yun@postech.ac.kr
+  papers:
+    [
+      "Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement",
+      "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects",
+      "Real-time-Semantic-Full-Body-Haptic-Feedback-Converted-from-Sound-for-Virtual-Reality-Gameplay",
+    ]
+
+seungmoon_choi:
+  name: 최승문
+  title: Pohang University of Science and Technology (POSTECH)
+  url: https://scholar.google.com/citations?user=seungmoon.choi@postech.ac.kr
+  papers:
+    [
+      "Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement",
+      "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects",
+      "Real-time-Semantic-Full-Body-Haptic-Feedback-Converted-from-Sound-for-Virtual-Reality-Gameplay",
+    ]
+
+minjae_mun:
+  name: 문민재
+  title: Pohang University of Science and Technology (POSTECH)
+  url: https://scholar.google.com/citations?user=minjae.mun@postech.ac.kr
+  papers:
+    [
+      "Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement",
+    ]
+
+jungeun_lee:
+  name: 이준근
+  title: Pohang University of Science and Technology (POSTECH)
+  url: https://scholar.google.com/citations?user=jungeun.lee@postech.ac.kr
+  papers:
+    [
+      "Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement",
+    ]
+
+donggeun_kim:
+  name: 김동근
+  title: Pohang University of Science and Technology (POSTECH)
+  url: https://scholar.google.com/citations?user=donggeun.kim@postech.ac.kr
+  papers:
+    [
+      "Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement",
+    ]
+
+hong_z_tan:
+  name: Hong Z. Tan
+  title: Google LLC
+  url: https://scholar.google.com/citations?user=hong.tan@google.com
+  papers:
+    [
+      "Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement",
+    ]
+
+sangyun_han:
+  name: 한상윤
+  title: Pohang University of Science and Technology (POSTECH)
+  url: https://scholar.google.com/citations?user=sangyun.han@postech.ac.kr
+  papers:
+    [
+      "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects",
+    ]
+
+hyoseung_lee:
+  name: 이효승
+  title: Pohang University of Science and Technology (POSTECH)
+  url: https://scholar.google.com/citations?user=hyoseung.lee@postech.ac.kr
+  papers:
+    [
+      "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects",
+    ]
+
 # 다른 작성자가 있다면 추가 가능
 # another_author:
 #   name: 다른 작성자 이름
