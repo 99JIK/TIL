@@ -931,6 +931,287 @@ hyoseung_lee:
       "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects",
     ]
 
+# 새로 추가된 논문 저자들
+
+# AI-Assisted Discovery of Biodegradable Polymer Alternatives 논문 저자들
+peter_broklyn:
+  name: Peter Broklyn
+  title: N/A
+  url: N/A
+  papers: ["AI-Assisted-Discovery-of-Biodegradable-Polymer-Alternatives"]
+
+sabir_k:
+  name: Sabir K
+  title: N/A
+  url: N/A
+  papers: ["AI-Assisted-Discovery-of-Biodegradable-Polymer-Alternatives"]
+
+# Alternative Methods to SHAP 논문 저자들
+kazuhiro_hiraki:
+  name: Kazuhiro Hiraki
+  title: N/A
+  url: N/A
+  papers:
+    [
+      "Alternative-Methods-to-SHAP-Derived-from-Properties-of-Kernels-A-Note-on-Theoretical-Analysis",
+    ]
+
+shinichi_ishihara:
+  name: Shinichi Ishihara
+  title: N/A
+  url: N/A
+  papers:
+    [
+      "Alternative-Methods-to-SHAP-Derived-from-Properties-of-Kernels-A-Note-on-Theoretical-Analysis",
+    ]
+
+junnosuke_shino:
+  name: Junnosuke Shino
+  title: Waseda University
+  url: N/A
+  papers:
+    [
+      "Alternative-Methods-to-SHAP-Derived-from-Properties-of-Kernels-A-Note-on-Theoretical-Analysis",
+    ]
+
+# Explainable AI for Material Property Prediction 논문 저자들
+faiza_qayyum:
+  name: Faiza Qayyum
+  title: Jeju National University
+  url: N/A
+  papers:
+    [
+      "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach",
+    ]
+
+murad_ali_khan:
+  name: Murad Ali Khan
+  title: Jeju National University
+  url: N/A
+  papers:
+    [
+      "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach",
+    ]
+
+do_hyeun_kim:
+  name: Do-Hyeun Kim
+  title: Jeju National University
+  url: N/A
+  papers:
+    [
+      "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach",
+    ]
+
+hyunseok_ko:
+  name: Hyunseok Ko
+  title: Korea Institute of Ceramic Engineering and Technology
+  url: N/A
+  papers:
+    [
+      "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach",
+    ]
+
+ga_ae_ryu:
+  name: Ga-Ae Ryu
+  title: Korea Institute of Ceramic Engineering and Technology
+  url: N/A
+  papers:
+    [
+      "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach",
+    ]
+
+# Explainable machine learning in materials science 논문 저자들
+xiaoting_zhong:
+  name: Xiaoting Zhong
+  title: Lawrence Livermore National Laboratory
+  url: N/A
+  papers: ["Explainable-machine-learning-in-materials-science"]
+
+brian_gallagher:
+  name: Brian Gallagher
+  title: Lawrence Livermore National Laboratory
+  url: N/A
+  papers: ["Explainable-machine-learning-in-materials-science"]
+
+shusen_liu:
+  name: Shusen Liu
+  title: Lawrence Livermore National Laboratory
+  url: N/A
+  papers: ["Explainable-machine-learning-in-materials-science"]
+
+bhavya_kailkhura:
+  name: Bhavya Kailkhura
+  title: Lawrence Livermore National Laboratory
+  url: N/A
+  papers: ["Explainable-machine-learning-in-materials-science"]
+
+anna_hiszpanski:
+  name: Anna Hiszpanski
+  title: Lawrence Livermore National Laboratory
+  url: N/A
+  papers: ["Explainable-machine-learning-in-materials-science"]
+
+t_yong-jin_han:
+  name: T. Yong-Jin Han
+  title: Lawrence Livermore National Laboratory
+  url: N/A
+  papers: ["Explainable-machine-learning-in-materials-science"]
+
+# Machine learning based prediction models for split tensile strength 논문 저자들
+mohammed_alarfaj:
+  name: Mohammed Alarfaj
+  title: King Faisal University
+  url: N/A
+  papers:
+    [
+      "Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte",
+    ]
+
+hisham_jahangir_qureshi:
+  name: Hisham Jahangir Qureshi
+  title: King Faisal University
+  url: N/A
+  papers:
+    [
+      "Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte",
+    ]
+
+muhammad_zubair_shahab:
+  name: Muhammad Zubair Shahab
+  title: COMSATS University Islamabad, Abbottabad Campus
+  url: N/A
+  papers:
+    [
+      "Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte",
+    ]
+
+muhammad_faisal_javedd:
+  name: Muhammad Faisal Javedd
+  title: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
+  url: N/A
+  papers:
+    [
+      "Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte",
+    ]
+
+md_arifuzzaman:
+  name: Md Arifuzzaman
+  title: Monash University Malaysia
+  url: N/A
+  papers:
+    [
+      "Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte",
+    ]
+
+yaser_gamil:
+  name: Yaser Gamil
+  title: Monash University Malaysia
+  url: N/A
+  papers:
+    [
+      "Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte",
+    ]
+
+# Machine Learning Based Virtual Screening for Biodegradable Polyesters 논문 저자들
+navya_nori:
+  name: Navya Nori
+  title: Milton High School, Milton, USA
+  url: N/A
+  papers:
+    ["Machine-Learning-Based-Virtual-Screening-for-Biodegradable-Polyesters"]
+
+# Material Property Prediction with Element Attribute Knowledge Graphs 논문 저자들
+chao_huang:
+  name: Chao Huang
+  title: Institute of Computing Technology, Chinese Academy of Science, Beijing, China; Ningbo Institute of Information Technology Application, Chinese Academy of Sciences (CAS), Ningbo, China
+  url: N/A
+  papers:
+    [
+      "Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning",
+    ]
+
+chunyan_chen:
+  name: Chunyan Chen
+  title: Institute of Computing Technology, Chinese Academy of Science, Beijing, China; Ningbo Institute of Information Technology Application, Chinese Academy of Sciences (CAS), Ningbo, China
+  url: N/A
+  papers:
+    [
+      "Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning",
+    ]
+
+ling_shil:
+  name: Ling Shil
+  title: Institute of Computing Technology, Chinese Academy of Science, Beijing, China; Ningbo Institute of Information Technology Application, Chinese Academy of Sciences (CAS), Ningbo, China
+  url: N/A
+  papers:
+    [
+      "Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning",
+    ]
+
+chen_chen:
+  name: Chen Chen
+  title: Ningbo Institute of Information Technology Application, Chinese Academy of Sciences (CAS), Ningbo, China
+  url: N/A
+  papers:
+    [
+      "Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning",
+    ]
+
+# Polymer design via SHAP and Bayesian machine learning 논문 저자들
+rishad_j_dalal:
+  name: Rishad J. Dalal
+  title: University of Minnesota
+  url: N/A
+  papers:
+    [
+      "Polymer-design-via-SHAP-and-Bayesian-machine-learning-optimizes-pDNA-and-CRISPR-ribonucleoprotein-delivery",
+    ]
+
+felipe_oviedo:
+  name: Felipe Oviedo
+  title: Nanite Inc., University of Minnesota
+  url: N/A
+  papers:
+    [
+      "Polymer-design-via-SHAP-and-Bayesian-machine-learning-optimizes-pDNA-and-CRISPR-ribonucleoprotein-delivery",
+    ]
+
+michael_c_leyden:
+  name: Michael C. Leyden
+  title: University of Minnesota
+  url: N/A
+  papers:
+    [
+      "Polymer-design-via-SHAP-and-Bayesian-machine-learning-optimizes-pDNA-and-CRISPR-ribonucleoprotein-delivery",
+    ]
+
+theresa_m_reineke:
+  name: Theresa M. Reineke
+  title: University of Minnesota
+  url: N/A
+  papers:
+    [
+      "Polymer-design-via-SHAP-and-Bayesian-machine-learning-optimizes-pDNA-and-CRISPR-ribonucleoprotein-delivery",
+    ]
+
+# The emergent role of explainable artificial intelligence in the materials sciences 논문 저자들
+tommy_liu:
+  name: Tommy Liu
+  title: School of Computing, Australian National University
+  url: N/A
+  papers:
+    [
+      "The-emergent-role-of-explainable-artificial-intelligence-in-the-materials-sciences",
+    ]
+
+amanda_s_barnard:
+  name: Amanda S. Barnard
+  title: School of Computing, Australian National University
+  url: N/A
+  papers:
+    [
+      "The-emergent-role-of-explainable-artificial-intelligence-in-the-materials-sciences",
+    ]
 # 다른 작성자가 있다면 추가 가능
 # another_author:
 #   name: 다른 작성자 이름

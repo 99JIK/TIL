@@ -1111,3 +1111,179 @@ Random Forest:
   label: Random Forest
   permalink: /papers/tags/random-forest
   description: 랜덤 포레스트 관련 논문들
+
+# 새로 추가된 태그들 (재료 과학 및 XAI 관련)
+Biodegradable Polymers:
+  label: Biodegradable Polymers
+  permalink: /papers/tags/biodegradable-polymers
+  description: 생분해성 고분자 관련 논문들
+
+Sustainable Materials:
+  label: Sustainable Materials
+  permalink: /papers/tags/sustainable-materials
+  description: 지속 가능한 재료 관련 논문들
+
+Generative Models:
+  label: Generative Models
+  permalink: /papers/tags/generative-models
+  description: 생성 모델 관련 논문들
+
+SHAP:
+  label: SHAP
+  permalink: /papers/tags/shap
+  description: SHAP 분석 관련 논문들
+
+LIME:
+  label: LIME
+  permalink: /papers/tags/lime
+  description: LIME 설명 기법 관련 논문들
+
+Kernel:
+  label: Kernel
+  permalink: /papers/tags/kernel
+  description: 커널 방법 관련 논문들
+
+ES:
+  label: ES
+  permalink: /papers/tags/es
+  description: Equal Surplus 관련 논문들
+
+FESP:
+  label: FESP
+  permalink: /papers/tags/fesp
+  description: Fair Efficient Symmetric Perturbation 관련 논문들
+
+LS prenucleolus:
+  label: LS prenucleolus
+  permalink: /papers/tags/ls-prenucleolus
+  description: LS 프레뉴클레오루스 관련 논문들
+
+Additive Feature Attribution:
+  label: Additive Feature Attribution
+  permalink: /papers/tags/additive-feature-attribution
+  description: 가법적 특징 기여도 관련 논문들
+
+Ceramic:
+  label: Ceramic
+  permalink: /papers/tags/ceramic
+  description: 세라믹 관련 논문들
+
+TabNet:
+  label: TabNet
+  permalink: /papers/tags/tabnet
+  description: TabNet 모델 관련 논문들
+
+Shapley:
+  label: Shapley
+  permalink: /papers/tags/shapley
+  description: Shapley 값 관련 논문들
+
+Materials Science:
+  label: Materials Science
+  permalink: /papers/tags/materials-science
+  description: 재료 과학 관련 논문들
+
+Materials Informatics:
+  label: Materials Informatics
+  permalink: /papers/tags/materials-informatics
+  description: 재료 정보학 관련 논문들
+
+Shapley Values:
+  label: Shapley Values
+  permalink: /papers/tags/shapley-values
+  description: Shapley 값 관련 논문들
+
+Explainability:
+  label: Explainability
+  permalink: /papers/tags/explainability
+  description: 설명 가능성 관련 논문들
+
+Fiber reinforced Recycled Aggregate Concrete:
+  label: Fiber reinforced Recycled Aggregate Concrete
+  permalink: /papers/tags/fiber-reinforced-recycled-aggregate-concrete
+  description: 섬유보강 재생골재 콘크리트 관련 논문들
+
+Spilt Tensile Strength:
+  label: Spilt Tensile Strength
+  permalink: /papers/tags/spilt-tensile-strength
+  description: 쪼갬 인장강도 관련 논문들
+
+Gene expression programming:
+  label: Gene expression programming
+  permalink: /papers/tags/gene-expression-programming
+  description: 유전자 발현 프로그래밍 관련 논문들
+
+Eco-friendly Concrete:
+  label: Eco-friendly Concrete
+  permalink: /papers/tags/eco-friendly-concrete
+  description: 친환경 콘크리트 관련 논문들
+
+Biodegradability:
+  label: Biodegradability
+  permalink: /papers/tags/biodegradability
+  description: 생분해성 관련 논문들
+
+Molecular Generation:
+  label: Molecular Generation
+  permalink: /papers/tags/molecular-generation
+  description: 분자 생성 관련 논문들
+
+Virtual Screening:
+  label: Virtual Screening
+  permalink: /papers/tags/virtual-screening
+  description: 가상 스크리닝 관련 논문들
+
+Polyesters:
+  label: Polyesters
+  permalink: /papers/tags/polyesters
+  description: 폴리에스터 관련 논문들
+
+Knowledge graph:
+  label: Knowledge graph
+  permalink: /papers/tags/knowledge-graph
+  description: 지식 그래프 관련 논문들
+
+element properties:
+  label: element properties
+  permalink: /papers/tags/element-properties
+  description: 원소 속성 관련 논문들
+
+multimodal representation:
+  label: multimodal representation
+  permalink: /papers/tags/multimodal-representation
+  description: 멀티모달 표현 관련 논문들
+
+property prediction:
+  label: property prediction
+  permalink: /papers/tags/property-prediction
+  description: 물성 예측 관련 논문들
+
+Polymer Design:
+  label: Polymer Design
+  permalink: /papers/tags/polymer-design
+  description: 고분자 설계 관련 논문들
+
+pDNA Delivery:
+  label: pDNA Delivery
+  permalink: /papers/tags/pdna-delivery
+  description: pDNA 전달 관련 논문들
+
+CRISPR RNP Delivery:
+  label: CRISPR RNP Delivery
+  permalink: /papers/tags/crispr-rnp-delivery
+  description: CRISPR RNP 전달 관련 논문들
+
+SHAP Analysis:
+  label: SHAP Analysis
+  permalink: /papers/tags/shap-analysis
+  description: SHAP 분석 관련 논문들
+
+Bayesian Optimization:
+  label: Bayesian Optimization
+  permalink: /papers/tags/bayesian-optimization
+  description: 베이지안 최적화 관련 논문들
+
+Structure-Property Relationships:
+  label: Structure-Property Relationships
+  permalink: /papers/tags/structure-property-relationships
+  description: 구조-물성 관계 관련 논문들
