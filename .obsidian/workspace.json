@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Polymer-design-via-SHAP-and-Bayesian-machine-learning-optimizes-pDNA-and-CRISPR-ribonucleoprotein-delivery.md",
+                "file": "papers/Generative-Adversarial-Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Polymer-design-via-SHAP-and-Bayesian-machine-learning-optimizes-pDNA-and-CRISPR-ribonucleoprotein-delivery"
+              "title": "Generative-Adversarial-Networks"
             }
           }
         ]
@@ -171,26 +171,33 @@
   },
   "active": "39ed7d3176f2eab6",
   "lastOpenFiles": [
-    "papers/The-emergent-role-of-explainable-artificial-intelligence-in-the-materials-sciences.md",
-    "papers/Polymer-design-via-SHAP-and-Bayesian-machine-learning-optimizes-pDNA-and-CRISPR-ribonucleoprotein-delivery.md",
-    "papers/Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning.md",
+    "papers/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain.md",
+    "papers/Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects.md",
+    "papers/Generative-Adversarial-Networks.md",
+    "papers/A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases.md",
+    "papers/Scaling-deep-learning-for-materials-discovery.md",
+    "papers/TRINITY-A-Fast-Compressed-Multi-attribute-Data-Store.md",
+    "papers/The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics.md",
+    "papers/A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry.md",
+    "papers/A-Neural-Algorithm-of-Artistic-Style.md",
+    "papers/Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile.md",
+    "papers/Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing.md",
     "papers/Machine-Learning-Based-Virtual-Screening-for-Biodegradable-Polyesters.md",
+    "papers/Mamba-Linear-Time-Sequence-Modeling-with-Selective-State-Spaces.md",
+    "papers/Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning.md",
+    "papers/Optimization-of-Fiber-Radiation-Processes-Using-Multi-Objective-Reinforcement-Learning.md",
+    "papers/Attention-Is-All-You-Need.md",
+    "papers/The-Future-of-Software-Testing-A-Review-of-Trends-Challenges-and-Opportunities.md",
+    "papers/Application-of-Reinforcement-Learning-to-Dyeing-Processes-for-Residual-Dye-Reduction.md",
+    "papers/The-emergent-role-of-explainable-artificial-intelligence-in-the-materials-sciences.md",
+    "papers/Transfer-Learning-with-Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification.md",
+    "papers/Optimization-of-spinning-processes-in-textile-manufacturing-using-reinforcement-learning.md",
+    "papers/Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search.md",
     "papers/Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte.md",
     "papers/Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach.md",
-    "papers/Explainable-machine-learning-in-materials-science.md",
-    "papers/Alternative-Methods-to-SHAP-Derived-from-Properties-of-Kernels-A-Note-on-Theoretical-Analysis.md",
-    "papers/AI-Assisted-Discovery-of-Biodegradable-Polymer-Alternatives.md",
-    "docs/Project/DYETEC Project 2/Project-Proposal.md",
-    "docs/Project/DYETEC/Study.md",
-    "docs/Project/DYETEC/Rejected-Proposal.md",
-    "docs/Project/DYETEC/Project-2-Proposal.md",
-    "docs/Project/DYETEC/Meeting-250910.md",
+    "papers/The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error.md",
+    "papers/Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning.md",
     "docs/Project/DYETEC",
-    "docs/KNU-MS/2nd_semester/250910.md",
-    "docs/Project/DYETEC Project 2/Study.md",
-    "papers/Real-time-Semantic-Full-Body-Haptic-Feedback-Converted-from-Sound-for-Virtual-Reality-Gameplay.md",
-    "papers/Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects.md",
-    "papers/Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement.md",
     "build/en/papers/feed.json",
     "build/en/papers/atom.xml",
     "build/en/papers/rss.xml",
@@ -209,13 +216,6 @@
     "build/en/assets/images/Pasted image 20250820132111-0e9ba7076934d02664433a1c44b7166e.png",
     "build/en/assets/images/Pasted image 20250820132222-e75568e0543b8c2a9c8dee97eb81a9c7.png",
     "build/en/assets/images/Pasted image 20250820125749-2dac6d4da7bfb782e610c4e6e5d0ee52.png",
-    "build/en/assets/images/image-20250611172646639-63602b09e69ff9ebab74f6a4b6fede64.png",
-    "papers/An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition.md",
-    "DYETEC-Project-2/Project-Proposal.md",
-    "papers/A-Neural-Algorithm-of-Artistic-Style.md",
-    "papers/Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search.md",
-    "papers/XGBoost-A-Scalable-Tree-Boosting-System.md",
-    "papers/Deep-Residual-Learning-for-Image-Reconition.md",
-    "papers/Generative-Adversarial-Nets.md"
+    "build/en/assets/images/image-20250611172646639-63602b09e69ff9ebab74f6a4b6fede64.png"
   ]
 }

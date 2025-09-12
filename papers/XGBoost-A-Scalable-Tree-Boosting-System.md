@@ -1,105 +1,78 @@
 ---
 title: "XGBoost: A Scalable Tree Boosting System"
-date: "2016-06-10"
-description: "확장 가능한 종단간 트리 부스팅 시스템인 XGBoost에 대한 제안"
+date: "2016-08-13"
+description: "희소 데이터를 위한 새로운 알고리즘과 시스템 최적화를 통해 기존 시스템보다 훨씬 적은 리소스로 수십억 개의 예제를 처리할 수 있는 확장 가능한 엔드투엔드 트리 부스팅 시스템인 XGBoost를 제안한다."
 keywords:
   [
-    "XGBoost",
+    "Large-scale Machine Learning",
     "Tree Boosting",
+    "Scalable Systems",
+    "XGBoost",
     "Gradient Boosting",
-    "Scalable Machine Learning",
-    "Parallel Computing",
-    "Distributed Computing",
-    "Out Of Core",
-    "Sparsity Aware",
-    "Machine Learning",
-    "Data Mining",
-    "Ensemble Methods",
-    "Optimization",
-    "DYETEC PROJ 2",
   ]
 tags:
   [
-    "XGBoost",
-    "Tree Boosting",
-    "Gradient Boosting",
-    "Scalable Machine Learning",
-    "Parallel Computing",
-    "Distributed Computing",
-    "Out Of Core",
-    "Sparsity Aware",
     "Machine Learning",
-    "Data Mining",
-    "Ensemble Methods",
+    "Knowledge Discovery and Data Mining",
+    "Tree Boosting",
+    "Scalability",
     "Optimization",
-    "DYETEC PROJ 2",
   ]
-authors: ["tianqi_chen", "carlos_guestrin"]
+authors: ["Tianqi Chen", "Carlos Guestrin"]
 ---
-
-# XGBoost: 확장 가능한 트리 부스팅 시스템
 
 ## 논문 정보
 
-- **제목 (Title)**: XGBoost: 확장 가능한 트리 부스팅 시스템 (XGBoost: A Scalable Tree Boosting System)
-- **저자 (Authors) 및 소속 (Affiliations)**:
-  - Tianqi Chen (University of Washington)
-  - Carlos Guestrin (University of Washington)
-- **학회 또는 저널명 (Conference or Journal Name)**: KDD '16: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining
-- **제출일 또는 발행일 (Submission or Publication Date)**: 2016년 6월 10일
+- [cite_start]**제목**: XGBoost: A Scalable Tree Boosting System [cite: 2]
+- [cite_start]**저자**: Tianqi Chen (University of Washington), Carlos Guestrin (University of Washington) [cite: 3, 4]
+- [cite_start]**학회/저널**: KDD '16 (The 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining) [cite: 27]
+- [cite_start]**발행일**: 2016-08-13 [cite: 27]
+- [cite_start]**DOI**: [10.1145/2939672.2939785](http://dx.doi.org/10.1145/2939672.2939785)
+- **주요 연구 내용**: 본 논문은 확장 가능한 엔드투엔드 트리 부스팅 시스템인 XGBoost를 제안한다. 희소 데이터를 효율적으로 처리하기 위한 새로운 희소성 인지 알고리즘(sparsity-aware algorithm)과 근사 트리 학습을 위한 가중치 분위 스케치(weighted quantile sketch)를 도입했다. [cite_start]또한, 캐시 접근 패턴, 데이터 압축, 샤딩(sharding)과 같은 시스템 최적화를 통해 확장성을 극대화했다. [cite: 8, 9]
+- [cite_start]**주요 결과 및 결론**: XGBoost는 단일 머신에서 기존 솔루션보다 10배 이상 빠른 성능을 보이며, 분산 및 메모리 제한 환경에서도 수십억 개의 대용량 데이터를 훨씬 적은 리소스로 처리할 수 있다. [cite: 43] [cite_start]이러한 알고리즘과 시스템 최적화의 결합을 통해 실제 대규모 문제를 해결하는 강력한 솔루션을 제공한다. [cite: 666]
+- **기여점**: 고도로 확장 가능한 엔드투엔드 트리 부스팅 시스템을 설계 및 구축했다. 병렬 트리 학습을 위한 새로운 희소성 인지 알고리즘과 효율적인 제안 계산을 위한 이론적으로 정당화된 가중치 분위 스케치를 제안했다. [cite_start]또한, 메모리 외부(out-of-core) 트리 학습을 위한 효과적인 캐시 인식 블록 구조를 도입하여 시스템 효율성을 높였다. [cite: 53, 54, 55, 56]
 
-<!-- truncate -->
+## 요약
 
-- **초록 (Abstract)**:
-  트리 부스팅은 매우 효과적이고 널리 사용되는 머신러닝 방법이다. 본 논문에서는 데이터 과학자들이 많은 머신러닝 챌린지에서 최고 수준의 결과를 달성하기 위해 널리 사용하는 확장 가능한 종단간 트리 부스팅 시스템인 XGBoost를 설명한다. 우리는 희소 데이터를 위한 새로운 희소성 인식 알고리즘과 근사 트리 학습을 위한 가중 분위수 스케치(weighted quantile sketch)를 제안한다. 더 중요하게는, 캐시 접근 패턴, 데이터 압축 및 샤딩에 대한 통찰력을 제공하여 확장 가능한 트리 부스팅 시스템을 구축한다. 이러한 통찰력을 결합함으로써 XGBoost는 기존 시스템보다 훨씬 적은 리소스를 사용하여 수십억 개의 예제를 넘어 확장된다. 
-- **주요 연구 내용 (Main Research Content/Methodology)**:
-  - **정규화된 학습 목적 함수 (Regularized Learning Objective)**: 손실 함수와 모델의 복잡도를 제어하는 정규화 항을 결합한 목적 함수를 제안하여 과적합을 방지한다.
-  - **분할 탐색 알고리즘 (Split Finding Algorithms)**: 최적의 분할 지점을 찾기 위해 모든 후보를 탐색하는 Exact Greedy Algorithm과 데이터의 분위수를 기반으로 후보를 제안하는 Approximate Algorithm을 사용한다.
-  - **희소성 인식 분할 탐색 (Sparsity-aware Split Finding)**: 데이터의 희소성을 처리하기 위해 각 트리 노드에 기본 분기 방향(default direction)을 도입하여 결측치나 0값을 효율적으로 처리하고 계산 복잡도를 낮춘다.
-  - **확장성을 위한 시스템 설계 (System Design for Scalability)**: 병렬 학습을 위한 Column Block 구조, CPU 캐시 효율을 높이는 Cache-aware Access, 그리고 메모리 부족 문제를 해결하기 위한 Out-of-core Computation (블록 압축 및 샤딩 포함) 등 시스템 최적화를 적용한다. 
-- **주요 결과 및 결론 (Key Findings and Conclusion)**
-  - **높은 확장성 및 속도**: XGBoost는 단일 머신에서 기존 솔루션보다 10배 이상 빠르며, 분산 및 메모리 제한 환경에서도 수십억 개의 예제를 처리할 수 있는 확장성을 보인다. 
-  - **희소성 인식 알고리즘의 효율성**: 희소 데이터(예: 원-핫 인코딩된 데이터)에서 희소성 인식 알고리즘은 일반 구현보다 50배 이상 빠른 성능을 보여준다. 
-  - **시스템 최적화의 효과**: Cache-aware prefetching은 대용량 데이터셋에서 성능을 2배 향상시키며, Out-of-core 계산을 위한 블록 압축 및 디스크 샤딩은 I/O 오버헤드를 크게 줄인다. 
-  - **최고 수준의 성능**: XGBoost는 분류, 랭킹 등 다양한 머신러닝 문제에서 최고 수준의 성능을 달성했으며, Kaggle과 같은 데이터 분석 대회에서 다수의 우승 솔루션으로 채택되었다. 
-- **기여점 (Contributions)**
-  - 확장성이 뛰어난 종단간(end-to-end) 트리 부스팅 시스템(XGBoost)을 설계하고 구축했다.
-  - 효율적인 후보 분할 지점 계산을 위해 이론적으로 정당화된 Weighted Quantile Sketch와 병렬 트리 학습을 위한 새로운 Sparsity-aware 알고리즘을 도입했다.
-  - Out-of-core 트리 학습을 위해 효율적인 Cache-aware 블록 구조를 제안했다. 
-- **DOI (Digital Object Identifier)**: 10.1145/2939672.2939785
-- **기타 식별 가능한 정보**
-  - **연구 분야**: 대규모 머신러닝 (Large-scale Machine Learning), 그래디언트 부스팅 (Gradient Boosting)
-  - **대상**: 확장 가능하고 효율적인 트리 부스팅 시스템
-  - **데이터셋**: Allstate Insurance Claim, Higgs Boson, Yahoo! LTRC, Criteo Terabyte Click Log 
+### 초록
 
-### **요약**
+트리 부스팅은 매우 효과적이고 널리 사용되는 머신러닝 방법이다. 이 논문에서는 XGBoost라는 확장 가능한 엔드투엔드 트리 부스팅 시스템을 설명한다. 이 시스템은 많은 데이터 과학자들이 머신러닝 챌린지에서 최첨단 결과를 달성하기 위해 널리 사용하고 있다. 희소 데이터를 위한 새로운 희소성 인지 알고리즘과 근사 트리 학습을 위한 가중치 분위 스케치를 제안한다. 더 중요하게는, 캐시 접근 패턴, 데이터 압축 및 샤딩에 대한 통찰력을 제공하여 확장 가능한 트리 부스팅 시스템을 구축한다. [cite_start]이러한 통찰력들을 결합함으로써 XGBoost는 기존 시스템보다 훨씬 적은 리소스를 사용하여 수십억 개의 예제를 넘어 확장된다. [cite: 6, 7, 8, 9, 10]
 
-#### 서론 (Introduction)
+### 서론
 
-머신러닝의 중요성이 커지면서 복잡한 데이터를 효과적으로 모델링하고 대용량 데이터셋을 처리할 수 있는 확장 가능한 시스템이 필요해졌다. 트리 부스팅은 다양한 분야에서 최고 수준의 성능을 보이는 매우 효과적인 기계 학습 방법이다. 이 논문은 확장 가능한 트리 부스팅 시스템인 XGBoost를 제안한다. XGBoost는 다양한 데이터 마이닝 대회에서 널리 사용되며 그 성능을 입증했다. XGBoost의 성공 비결은 모든 시나리오에서의 확장성으로, 이는 희소 데이터를 위한 새로운 트리 학습 알고리즘, 가중치를 고려한 분위수 스케치(weighted quantile sketch), 그리고 캐시 인식 접근, 데이터 압축 등 시스템 및 알고리즘 최적화를 통해 달성되었다. 
+트리 부스팅은 분류, 랭킹 등 다양한 문제에서 최첨단 성능을 보이는 강력한 머신러닝 기법이다. 하지만 대용량 데이터셋에 대한 확장성 확보는 중요한 과제다. 이 논문에서는 이러한 문제를 해결하기 위해 확장 가능한 트리 부스팅 시스템인 XGBoost를 제안한다. XGBoost는 Kaggle과 같은 데이터 분석 대회에서 수많은 우승 솔루션에 채택될 만큼 그 성능과 영향력이 입증되었다. [cite_start]이러한 성공의 핵심 요인은 모든 시나리오에서의 확장성이며, 이는 여러 중요한 시스템 및 알고리즘 최적화를 통해 달성되었다. [cite: 21, 22, 31, 34, 42]
 
-#### 본론 (Main Content)
+### 모델 아키텍처 / 방법론
 
-##### **정규화된 학습 목적 함수 및 트리 부스팅 (Regularized Learning & Boosting)**
-XGBoost는 전통적인 그래디언트 부스팅 모델에 정규화 항을 추가하여 모델의 복잡도를 제어하고 과적합을 방지한다. 목적 함수는 예측값과 실제값의 차이를 측정하는 손실 함수와, 트리의 리프 개수 및 리프 가중치의 L2 노름으로 구성된 정규화 항의 합으로 정의된다. 모델은 이 목적 함수를 최소화하는 방향으로 반복적으로 트리를 추가(additive manner)하며 학습된다. 각 단계에서는 2차 근사(second-order approximation)를 통해 목적 함수를 빠르게 최적화할 수 있는 함수($f_t$)를 탐욕적으로(greedily) 찾는다. 
+- **핵심 구조/방법**: XGBoost는 경사 부스팅(Gradient Boosting) 프레임워크를 기반으로 하며, 여러 개의 결정 트리를 앙상블하여 예측을 수행한다. 모델은 손실 함수와 정규화 항을 포함하는 목적 함수를 최소화하는 방식으로 학습된다. 특히, 모델의 복잡도를 제어하고 과적합을 방지하기 위해 정규화 항을 추가한 것이 특징이다. [cite_start]학습은 이전에 학습된 모델의 잔차를 예측하는 새로운 트리를 반복적으로 추가하는 가산적(additive) 방식으로 진행된다. [cite: 72, 91, 102]
 
-##### **분할 탐색 알고리즘 (Split Finding Algorithms)**
-트리 학습의 핵심은 최적의 분할 지점을 찾는 것이다. XGBoost는 이를 위해 두 가지 주요 알고리즘을 제공한다.
-- **Exact Greedy Algorithm**: 연속형 특성에 대해 모든 가능한 분할 지점을 열거하여 최적의 분할을 찾는다. 이를 효율적으로 수행하기 위해 데이터를 특성 값에 따라 정렬한 후, 정렬된 순서대로 스캔하며 그래디언트 통계치를 누적 계산하여 분할 점수를 평가한다. 
-- **Approximate Algorithm**: 데이터가 메모리에 모두 들어가지 않는 대용량 데이터셋이나 분산 환경을 위해 사용된다. 특성 분포의 백분위수(percentile)를 기반으로 후보 분할 지점을 제안하고, 이 후보 지점들을 기준으로 데이터를 버킷(bucket)으로 나누어 통계치를 집계한 후 최적의 분할을 찾는다. 이 논문에서는 가중치가 있는 데이터를 처리하기 위한 새로운 'Weighted Quantile Sketch' 알고리즘을 제안하여, 이론적 보장 하에 후보 지점을 효과적으로 제안한다. 
+- **주요 구성 요소**:
 
-##### **희소성 인식 분할 탐색 (Sparsity-aware Split Finding)**
-실제 데이터는 결측치, 많은 0값, 원-핫 인코딩 등으로 인해 희소(sparse)한 경우가 많다. XGBoost는 이를 효율적으로 처리하기 위해 각 트리 노드에 '기본 방향(default direction)'을 추가한다. 특성 값이 누락된 경우, 데이터는 학습을 통해 결정된 최적의 기본 방향으로 분류된다. 이 방법은 희소한 데이터 패턴을 통합적으로 처리하며, 데이터에 존재하는 0이 아닌 항목 수에 비례하는 계산 복잡도를 가져 매우 빠른 연산이 가능하다. 
+  - **정규화된 학습 목적 함수**: 손실 함수 $l$과 정규화 항 $\Omega$로 구성되며, $\Omega$는 트리의 리프 개수 T와 리프 가중치 w의 L2 노름으로 모델의 복잡도를 제어한다.
+  - **희소성 인지 분할 탐색 (Sparsity-aware Split Finding)**: 실제 데이터의 희소성(결측치, 0 값, 원-핫 인코딩 등)을 효율적으로 처리한다. 각 노드에 기본 방향(default direction)을 추가하여 결측치를 가진 인스턴스를 어느 쪽으로 보낼지 데이터로부터 학습한다. 이 방법은 연산 복잡도를 전체 데이터가 아닌 non-missing 엔트리 수에 비례하도록 만들어 속도를 크게 향상시킨다. [cite_start]논문의 Figure 4는 이 구조를 보여준다. [cite: 259, 262, 263, 291, 294]
+  - **가중치 분위 스케치 (Weighted Quantile Sketch)**: 대용량 데이터셋에서 근사 분할(approximate split)을 찾을 때, 후보 분할점을 효율적으로 제안하기 위한 방법이다. [cite_start]손실 함수의 2차 미분값($h_i$)을 각 데이터 포인트의 가중치로 취급하여, 가중치가 적용된 데이터 분포에서 분위수를 근사적으로 계산하는 새로운 알고리즘을 제안한다. [cite: 238, 241, 255]
+  - **시스템 최적화**:
+    - **병렬 학습을 위한 컬럼 블록 (Column Block)**: 데이터를 메모리 내 '블록' 단위로 저장하며, 각 블록 내 데이터는 피처 값에 따라 정렬된 압축된 컬럼 형식(CSC)으로 저장된다. 이 구조는 한 번만 계산하면 반복적으로 재사용할 수 있어 정렬 비용을 크게 줄이고 병렬 처리를 용이하게 한다. [cite_start]논문의 Figure 6에서 이 구조를 시각적으로 설명한다. [cite: 321, 322, 323, 326]
+    - [cite_start]**캐시 인식 접근 (Cache-aware Access)**: 분할 탐색 시 발생하는 불연속적인 메모리 접근으로 인한 캐시 미스(cache miss) 문제를 해결하기 위해, 각 스레드에 내부 버퍼를 두고 데이터를 미리 가져오는(prefetching) 캐시 인식 알고리즘을 사용한다. [cite: 394, 397, 398]
+    - **Out-of-core 계산**: 주 메모리에 담을 수 없는 대용량 데이터를 처리하기 위해 블록 압축과 블록 샤딩(여러 디스크에 데이터 분산) 기술을 사용한다. [cite_start]이를 통해 디스크 I/O 비용을 최소화하고 계산과 동시에 데이터를 로드하여 효율성을 극대화한다. [cite: 439, 444, 451]
 
-##### **확장성을 위한 시스템 설계 (System Design for Scalability)**
-- **Column Block for Parallel Learning**: 데이터 정렬 비용을 줄이기 위해 데이터를 인메모리 유닛인 '블록(block)'에 저장한다. 각 블록 내 데이터는 특성(column)별로 정렬된 압축된 형태로 저장된다. 이 구조는 한 번만 계산하면 여러 반복에서 재사용할 수 있으며, 병렬 처리를 통해 분할 탐색 속도를 높인다. 
-- **Cache-aware Access**: 블록 구조는 데이터 접근 시 비연속적인 메모리 접근을 유발하여 CPU 캐시 미스(cache miss)를 일으킬 수 있다. 이를 완화하기 위해 각 스레드에 내부 버퍼를 할당하고 그래디언트 통계치를 미리 가져오는(prefetching) 캐시 인식 알고리즘을 사용한다. 이를 통해 대용량 데이터셋에서 성능을 크게 향상시킨다. 
-- **Out-of-core Computation**: 데이터가 메인 메모리보다 클 경우를 대비해 디스크 공간을 활용한다. 데이터를 여러 블록으로 나누어 디스크에 저장하고, 독립적인 스레드가 블록을 메모리 버퍼로 미리 가져오는 방식을 사용한다. 추가적으로, 블록 압축(Block Compression)을 통해 디스크 I/O 비용을 줄이고, 데이터를 여러 디스크에 분산 저장하는 블록 샤딩(Block Sharding)을 통해 디스크 읽기 처리량을 높인다. 
+- **수식**:
+  - [cite_start]**목적 함수**: $\mathcal{L}(\phi)=\sum_{i}l(\hat{y}_{i},y_{i})+\sum_{k}\Omega(f_{k})$ , 여기서 $\Omega(f)=\gamma T+\frac{1}{2}\lambda||w||^{2}$ [cite: 92]
+  - [cite_start]**최적 리프 가중치**: $w_{j}^{*}=-\frac{\sum_{i\in I_{j}}g_{i}}{\sum_{i\in I_{j}}h_{i}+\lambda}$ [cite: 129]
+  - [cite_start]**구조 점수 (품질 평가)**: $\tilde{\mathcal{L}}^{(t)}(q)=-\frac{1}{2}\sum_{j=1}^{T}\frac{(\sum_{i\in I_{j}}g_{i})^{2}}{\sum_{i\in I_{j}}h_{i}+\lambda}+\gamma T$ (Figure 2 참고) [cite: 130, 135]
+  - [cite_start]**분할 후 손실 감소량 (Gain)**: $\mathcal{L}_{split}=\frac{1}{2}[\frac{(\sum_{i\in I_{L}}g_{i})^{2}}{\sum_{i\in I_{L}}h_{i}+\lambda}+\frac{(\sum_{i\in I_{R}}g_{i})^{2}}{\sum_{i\in I_{R}}h_{i}+\lambda}-\frac{(\sum_{i\in I}g_{i})^{2}}{\sum_{i\in I}h_{i}+\lambda}]-\gamma$ [cite: 140]
 
-#### 결론 (Conclusion)
+### 실험 결과
 
-이 논문은 데이터 과학자들이 널리 사용하는 확장 가능한 트리 부스팅 시스템인 XGBoost를 구축하며 얻은 교훈을 공유했다. 희소 데이터를 처리하기 위한 새로운 희소성 인식 알고리즘과 근사 학습을 위한 이론적으로 정당화된 가중 분위수 스케치를 제안했다. 또한 캐시 접근 패턴, 데이터 압축, 샤딩과 같은 시스템 최적화가 확장 가능한 종단간 시스템을 구축하는 데 필수적임을 보였다. 이러한 통찰들을 결합함으로써 XGBoost는 최소한의 자원으로 실제 대규모 문제를 해결할 수 있게 되었다.
+- **주요 데이터셋**: Allstate 보험 청구, Higgs Boson, Yahoo! [cite_start]LTRC, Criteo 클릭 로그 등 네 가지 대용량 데이터셋을 사용했다. [cite: 485]
+- **핵심 성능 지표**:
+  - [cite_start]희소성 인지 알고리즘은 Allstate 데이터셋에서 순진한(naive) 구현보다 **50배 이상** 빠른 성능을 보였다 (논문의 Figure 5). [cite: 296, 317]
+  - [cite_start]캐시 인식 알고리즘은 대용량 데이터셋(10M)에서 성능을 **2배** 향상시켰다 (논문의 Figure 7). [cite: 367, 424]
+  - [cite_start]Out-of-core 실험에서 블록 압축은 **3배**, 디스크 샤딩은 추가로 **2배**의 속도 향상을 가져와 단일 머신에서 17억 개의 데이터를 처리할 수 있었다 (논문의 Figure 11). [cite: 601]
+- **비교 결과**:
+  - [cite_start]단일 머신 분류 문제(Higgs-1M)에서 XGBoost는 scikit-learn보다 **10배 이상** 빨랐으며 정확도는 유사했다 (Table 3). [cite: 552]
+  - [cite_start]분산 환경(Criteo 데이터)에서 XGBoost는 Spark MLLib, H2O와 같은 인-메모리 프레임워크보다 더 빠르고, Out-of-core 기능을 활용하여 제한된 리소스에서도 17억 개의 전체 데이터를 원활하게 처리하며 뛰어난 확장성을 보였다 (논문의 Figure 12). [cite: 638, 640]
 
----
+### 결론
 
-**📝 안내**: 이 문서는 DYETEC Project 2를 기획하기 위해 읽은 논문입니다.
+이 논문은 데이터 과학자들에게 널리 사용되며 많은 문제에서 최첨단 결과를 제공하는 확장 가능한 트리 부스팅 시스템인 XGBoost를 구축하면서 얻은 교훈을 설명했다. 희소 데이터 처리를 위한 새로운 희소성 인지 알고리즘과 근사 학습을 위한 이론적으로 정당화된 가중치 분위 스케치를 제안했다. 캐시 접근 패턴, 데이터 압축 및 샤딩과 같은 시스템 레벨의 최적화가 확장 가능한 엔드투엔드 시스템 구축에 필수적임을 보였다. [cite_start]이러한 통찰력들을 결합함으로써 XGBoost는 최소한의 리소스로 실제 대규모 문제를 해결할 수 있다. [cite: 662, 663, 664, 666]

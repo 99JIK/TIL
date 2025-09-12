@@ -1,143 +1,72 @@
 ---
 title: "Mastering the game of Go with deep neural networks and tree search"
 date: "2016-01-28"
-description: "딥마인드의 알파고가 심층 신경망과 몬테카를로 트리 탐색을 결합하여 프로 바둑 기사를 이긴 방법을 설명하는 논문"
-keywords:
-  [
-    "Go",
-    "Deep Neural Networks",
-    "Tree Search",
-    "Reinforcement Learning",
-    "Supervised Learning",
-    "Monte Carlo Tree Search",
-    "Value Networks",
-    "Policy Networks",
-    "Machine Learning",
-    "AlphaGo",
-    "Game AI",
-    "Computer Vision",
-    "DYETEC PROJ 2",
-  ]
-tags:
-  [
-    "Go",
-    "Deep Neural Networks",
-    "Tree Search",
-    "Reinforcement Learning",
-    "Supervised Learning",
-    "Monte Carlo Tree Search",
-    "Value Networks",
-    "Policy Networks",
-    "Machine Learning",
-    "AlphaGo",
-    "Game AI",
-    "Computer Vision",
-    "DYETEC PROJ 2",
-  ]
-authors:
-  [
-    "david_silver",
-    "a_junior",
-    "chris_maddison",
-    "arthur_guez",
-    "laurent_sifre",
-    "george_van_den_driessche",
-    "ioannis_antonoglou",
-    "vedavyas_panneershelvam",
-    "marc_lanctot",
-    "sander_dieleman",
-    "dominik_grewe",
-    "john_nham",
-    "thore_graepel",
-    "nando_de_freitas",
-  ]
+description: "심층 신경망과 트리 탐색을 결합하여 세계 최초로 프로 바둑 기사를 이긴 인공지능 프로그램 알파고(AlphaGo)를 소개한다."
+keywords: [Go, artificial intelligence, deep learning, reinforcement learning, Monte Carlo tree search, neural networks]
+tags: [AlphaGo, DeepMind, MCTS, Reinforcement Learning, Supervised Learning]
+authors: [David Silver, Aja Huang, Chris J. Maddison, Arthur Guez, Laurent Sifre, George van den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneershelvam, Marc Lanctot, Sander Dieleman, Dominik Grewe, John Nham, Nal Kalchbrenner, Ilya Sutskever, Timothy Lillicrap, Madeleine Leach, Koray Kavukcuoglu, Thore Graepel, Demis Hassabis]
 ---
-
-# 심층 신경망과 트리 탐색을 이용한 바둑 마스터
 
 ## 논문 정보
-
-- **제목 (Title)**: 심층 신경망과 트리 탐색을 이용한 바둑 마스터 (Mastering the game of Go with deep neural networks and tree search)
-- **저자 (Authors) 및 소속 (Affiliations)**:
-  - David Silver (Google DeepMind)
-  - Aja Huang (Google DeepMind)
-  - Chris J. Maddison (Google DeepMind)
-  - Arthur Guez (Google DeepMind)
-  - Laurent Sifre (Google DeepMind)
-  - George van den Driessche (Google DeepMind)
-  - Julian Schrittwieser (Google DeepMind)
-  - Ioannis Antonoglou (Google DeepMind)
-  - Veda Panneershelvam (Google DeepMind)
-  - Marc Lanctot (Google DeepMind)
-  - Sander Dieleman (Google DeepMind)
-  - Dominik Grewe (Google DeepMind)
-  - John Nham (Google)
-  - Nal Kalchbrenner (Google DeepMind)
-  - Ilya Sutskever (Google)
-  - Timothy Lillicrap (Google DeepMind)
-  - Madeleine Leach (Google DeepMind)
-  - Koray Kavukcuoglu (Google DeepMind)
-  - Thore Graepel (Google DeepMind)
-  - Demis Hassabis (Google DeepMind)
-- **학회 또는 저널명 (Conference or Journal Name)**: Nature
-- **제출일 또는 발행일 (Submission or Publication Date)**: 2016년 1월 28일
-
-<!-- truncate -->
-
-- **초록 (Abstract)**:
-  바둑은 거대한 탐색 공간과 어려운 형세 판단 때문에 오랫동안 인공지능에게 가장 어려운 고전 게임으로 여겨져 왔다. 본 논문에서는 가치망(value networks)으로 바둑판의 형세를 평가하고 정책망(policy networks)으로 수를 선택하는 새로운 접근법을 소개한다. 이 심층 신경망들은 인간 전문가 기보를 이용한 지도학습과 자가 대국을 통한 강화학습의 새로운 조합으로 훈련되었다. 이 신경망들은 별도의 탐색 없이도, 수천 번의 무작위 자가 대국을 시뮬레이션하는 최신 몬테카를로 트리 탐색 프로그램 수준의 기력을 보여주었다. 또한 몬테카를로 시뮬레이션과 가치망, 정책망을 결합한 새로운 탐색 알고리즘을 소개한다. 이 탐색 알고리즘을 사용하여 우리 프로그램 알파고(AlphaGo)는 다른 바둑 프로그램들을 상대로 99.8%의 승률을 기록했으며, 유럽 챔피언을 5대 0으로 이겼다. 이는 컴퓨터 프로그램이 정식 크기의 바둑에서 인간 프로 기사를 이긴 최초의 사례로, 이전에는 적어도 10년은 더 걸릴 것으로 생각되었던 업적이다.
-- **주요 연구 내용 (Main Research Content/Methodology)**:
-  - **심층 신경망 활용**: 바둑판의 형세 평가를 위한 '가치망(value network)'과 다음 수 선택을 위한 '정책망(policy network)'이라는 두 가지 심층 합성곱 신경망(deep convolutional neural networks)을 도입했다.
-  - **독창적인 훈련 파이프라인**: 인간 전문가 기보를 활용한 지도학습(Supervised Learning)으로 정책망을 초기 훈련하고, 이후 정책망이 자체 대국을 통해 학습하는 강화학습(Reinforcement Learning)으로 성능을 더욱 향상시켰다.
-  - **자가 대국 데이터셋 생성**: 강화학습으로 개선된 정책망의 자가 대국(self-play)을 통해 3,000만 개의 고유한 포지션으로 구성된 새로운 데이터셋을 생성하고, 이를 가치망 훈련에 사용하여 과적합(overfitting) 문제를 해결했다.
-  - **신경망과 MCTS의 결합**: 정책망이 제안하는 유망한 수들을 중심으로 탐색의 폭을 좁히고, 가치망과 빠른 롤아웃(rollout) 시뮬레이션 결과를 결합하여 형세를 정밀하게 평가하는 새로운 몬테카를로 트리 탐색(MCTS) 알고리즘을 개발했다.
-- **주요 결과 및 결론 (Key Findings and Conclusion)**:
-  - **압도적인 성능**: 알파고는 다른 최상위 바둑 프로그램들과의 대결에서 495전 494승(승률 99.8%)을 기록했다.
-  - **프로 기사 격파**: 유럽 바둑 챔피언인 판 후이(Fan Hui) 2단과의 공식 5번기에서 5대 0으로 완승하여, 핸디캡 없이 프로 기사를 이긴 최초의 컴퓨터 프로그램이 되었다.
-  - **가치망의 유효성 입증**: 몬테카를로 롤아웃 시뮬레이션 없이 가치망만으로 형세를 평가했을 때에도 다른 모든 바둑 프로그램을 능가하는 성능을 보여, 가치망이 기존 방식의 효과적인 대안이 될 수 있음을 증명했다.
-  - **하이브리드 평가 방식의 우수성**: 가치망 평가와 롤아웃 평가를 결합한 방식(mixing parameter $\lambda=0.5$)이 가장 좋은 성능을 보였으며, 이는 두 메커니즘이 상호 보완적임을 시사한다.
-  - **AI의 새로운 가능성 제시**: 심층 신경망과 트리 탐색의 결합을 통해 바둑이라는 AI의 오랜 난제를 해결함으로써, 다른 해결하기 어려워 보였던 AI 분야에서도 인간 수준의 성능을 달성할 수 있다는 가능성을 열었다.
-- **기여점 (Contributions)**:
-  - **고성능 바둑 평가 함수 개발**: 심층 신경망을 기반으로 바둑의 복잡한 형세를 효과적으로 평가하는 '가치망'과 유망한 수를 선택하는 '정책망'을 최초로 개발했다.
-  - **새로운 학습 패러다임 제시**: 대규모 지도학습과 강화학습(자가 대국)을 결합한 독창적인 훈련 파이프라인을 통해 전문가 수준을 뛰어넘는 모델을 성공적으로 구축했다.
-  - **효율적인 탐색 알고리즘 통합**: 심층 신경망의 정적인 평가(static evaluation)와 몬테카를로 롤아웃의 동적인 시뮬레이션(dynamic simulation)을 성공적으로 결합한 새로운 MCTS 탐색 알고리즘을 도입했다.
-- **DOI (Digital Object Identifier)**: 10.1038/nature16961
-- **기타 식별 가능한 정보**:
-  - **연구 분야**: 인공지능 (Artificial Intelligence), 머신러닝 (Machine Learning)
-  - **연구 대상**: 바둑 (Game of Go)
-  - **데이터셋**: KGS Go Server, 자가 대국 데이터셋 (Self-play dataset)
-
+- **제목**: Mastering the game of Go with deep neural networks and tree search
+- **저자**: David Silver 외 (Google DeepMind)
+- **학회/저널**: Nature
+- **발행일**: 2016-01-28
+- **DOI**: [10.1038/nature16961](https://doi.org/10.1038/nature16961)
+- **주요 연구 내용**: 바둑판의 국면을 평가하는 '가치망(value network)'과 다음 수를 선택하는 '정책망(policy network)'이라는 두 개의 심층 신경망을 몬테카를로 트리 탐색(MCTS)과 결합한 새로운 접근법을 제안. 신경망은 인간 전문가의 기보를 이용한 지도 학습과 알파고 자체 대국을 통한 강화 학습의 조합으로 훈련됨.
+- **주요 결과 및 결론**: 개발된 프로그램 알파고(AlphaGo)는 다른 주요 바둑 프로그램들을 상대로 99.8%의 압도적인 승률을 기록했으며, 당시 유럽 챔피언이었던 판후이 프로 2단을 5대 0으로 이김. 이는 컴퓨터 프로그램이 정식 크기의 바둑판에서 인간 프로 기사를 상대로 거둔 최초의 승리임.
+- **기여점**: 인간 전문가의 기보를 활용한 지도 학습과 자체 대국 기반의 강화 학습을 결합한 혁신적인 신경망 훈련 파이프라인을 구축함. 심층 신경망을 통해 바둑의 복잡한 국면 평가와 수 선택 문제를 해결하고, 이를 효율적으로 몬테카를로 트리 탐색과 통합하여 인간 최고 수준의 기력을 달성함.
+<!--truncate-->
 ## 요약
+### 초록
+바둑은 거대한 탐색 공간과 국면 평가의 어려움 때문에 오랫동안 인공지능에게 가장 도전적인 고전 게임으로 여겨져 왔다. 이 논문에서는 바둑판의 국면을 평가하기 위한 '가치망'과 수를 선택하기 위한 '정책망'을 사용하는 새로운 컴퓨터 바둑 접근법을 소개한다. 이 심층 신경망들은 인간 전문가의 기보를 통한 지도 학습과 자체 대국을 통한 강화 학습의 새로운 조합으로 훈련되었다. 탐색 없이도 이 신경망은 수천 번의 무작위 시뮬레이션을 수행하는 최첨단 몬테카를로 트리 탐색 프로그램 수준의 기력을 보여준다. 또한, 몬테카를로 시뮬레이션과 가치망, 정책망을 결합한 새로운 탐색 알고리즘을 도입했다. 이 탐색 알고리즘을 사용한 알파고 프로그램은 다른 바둑 프로그램을 상대로 99.8%의 승률을 달성했으며, 유럽 바둑 챔피언을 5대 0으로 꺾었다. 이는 컴퓨터 프로그램이 정식 바둑 경기에서 인간 프로 기사를 이긴 최초의 사례로, 이전에는 적어도 10년은 더 걸릴 것으로 예상되었던 업적이다.
 
-### 서론 (Introduction)
+### 서론
+바둑과 같은 게임은 경우의 수가 너무 많아($b \approx 250, d \approx 150$) 모든 경우를 탐색하는 것은 불가능하다. 기존 AI는 탐색의 깊이(depth)를 줄이기 위해 '국면 평가'를, 탐색의 너비(breadth)를 줄이기 위해 유망한 수들을 샘플링하는 '정책'을 사용해왔다. 몬테카를로 트리 탐색(MCTS)은 이런 원칙을 적용해 강한 아마추어 수준에 도달했지만, 얕은 정책이나 선형적인 가치 함수에 의존하는 한계가 있었다. 본 연구에서는 심층 합성곱 신경망(Deep Convolutional Neural Networks)을 사용하여 바둑판을 하나의 이미지처럼 처리하고, 이를 통해 국면 평가(가치망)와 수 선택(정책망)의 정확도를 획기적으로 높여 탐색의 효율성을 극대화하고자 했다.
 
-바둑은 체스보다 탐색 공간이 훨씬 넓고($b\approx250, d\approx150$) 복잡하여 기존의 AI 접근법으로는 정복하기 어려운 영역으로 간주되었다. 이전의 인공지능은 탐색 깊이를 줄이기 위한 '형세 평가'와 탐색 폭을 줄이기 위한 '정책'을 사용했지만, 바둑의 복잡성 때문에 효과적인 평가 함수나 정책을 만드는 데 한계가 있었다. 본 연구는 심층 합성곱 신경망을 사용하여 이 문제를 해결하는 '알파고'를 제안한다. 알파고는 인간의 직관과 유사하게 바둑판을 이미지처럼 처리하여 형세를 평가하는 '가치망'과 다음 수를 예측하는 '정책망'을 핵심으로 하며, 이를 몬테카를로 트리 탐색(MCTS)과 결합하여 인간 프로 기사 수준을 뛰어넘는 기력을 달성했다.
+### 배경
+알파고 이전의 가장 강력한 바둑 프로그램들은 MCTS에 기반했다. MCTS는 시뮬레이션(롤아웃)을 통해 탐색 트리의 각 노드(상황)의 가치를 추정한다. 시뮬레이션을 많이 할수록 더 정확한 값을 얻을 수 있다. 기존 프로그램들은 인간 전문가의 수를 예측하도록 훈련된 정책을 사용하여 탐색의 범위를 유망한 수들로 좁히고 롤아웃의 질을 높이는 방식을 사용했지만, 전문 프로 기사 수준에는 도달하지 못했다. 이는 복잡한 바둑의 국면을 정확히 평가하는 데 한계가 있었기 때문이다.
 
-### 본론 (Main Content)
+### 모델 아키텍처 / 방법론
+알파고의 핵심은 심층 신경망과 MCTS의 결합이며, 훈련 파이프라인은 논문의 Figure 1에 잘 나타나 있다.
 
-#### 신경망 훈련 파이프라인 (Neural Network Training Pipeline)
+- **핵심 구조/방법**: 알파고의 훈련 및 실행은 4단계의 파이프라인으로 구성된다.
+    1.  **지도 학습(SL) 정책망($p_{\sigma}$)**: 인간 전문가들의 기보 데이터(KGS 6~9단) 3,000만 개를 학습하여 다음 수를 예측하도록 훈련된다. 이 신경망은 57.0%의 정확도로 전문가의 수를 예측했다.
+    2.  **강화 학습(RL) 정책망($p_{\rho}$)**: SL 정책망을 초기 가중치로 사용하여, 정책망의 이전 버전들과 자체 대국을 진행하며 승리라는 목표를 달성하도록 정책 경사(policy gradient) 방법으로 미세 조정된다. 이 과정을 통해 예측 정확도보다는 실제 승률을 높이는 방향으로 최적화된다.
+    3.  **가치망($v_{\theta}$)**: 강화 학습으로 고도화된 RL 정책망이 스스로와 대국한 기보를 데이터로, 특정 국면에서 최종 승리 확률을 예측하도록 훈련된다. 이는 MCTS에서 국면 평가의 정확도를 높이는 핵심 요소이다.
+    4.  **MCTS 통합**: 훈련된 정책망과 가치망을 MCTS 알고리즘에 통합한다. 정책망은 탐색할 후보 수를 줄여주고(너비 축소), 가치망은 긴 시뮬레이션(롤아웃) 없이도 국면의 가치를 빠르고 정확하게 평가해준다(깊이 축소).
 
-알파고의 핵심인 신경망들은 여러 단계의 머신러닝 파이프라인을 통해 훈련되었다.
+- **주요 구성 요소**:
+    - **정책망 (Policy Network)**: 13개 층의 CNN 구조로, $19 \times 19$ 크기의 바둑판 상태를 입력받아 각 착수 지점에 대한 확률 분포를 출력한다.
+    - **가치망 (Value Network)**: 정책망과 유사한 CNN 구조이지만, 최종적으로 현재 국면의 승리 확률을 나타내는 하나의 스칼라 값(-1~1)을 출력한다.
+    - **빠른 롤아웃 정책 ($p_{\pi}$)**: MCTS 시뮬레이션 단계에서 매우 빠른 속도로 게임을 끝까지 진행시키기 위해 사용되는 가볍고 간단한 선형 정책이다.
 
-1. **지도학습 정책망 ($p_{\sigma}$)**: KGS Go 서버의 인간 전문가 기보 3,000만 개를 학습하여 다음 수를 예측하는 13계층 정책망을 훈련했다. 이 SL 정책망은 기존 연구보다 높은 57.0%의 예측 정확도를 달성했다.
+- **수식**: MCTS 탐색 과정에서 각 수는 다음 식을 최대화하는 방향으로 선택된다.
+    $$
+    a_t = \arg\max_a (Q(s_t, a) + u(s_t, a))
+    $$
+    여기서 $Q(s, a)$는 행동 가치(평균 승률)이고, $u(s, a)$는 탐색을 장려하는 보너스 항으로 $u(s, a) \propto \frac{P(s, a)}{1+N(s, a)}$ 이다. $P$는 정책망이 예측한 사전 확률, $N$은 방문 횟수다.
+    
+    탐색 트리의 끝(leaf node)에 도달했을 때의 국면 평가는 가치망의 예측($v_{\theta}$)과 빠른 롤아웃의 결과($z_L$)를 혼합하여 사용한다.
+    $$
+    V(s_L) = (1-\lambda)v_\theta(s_L) + \lambda z_L
+    $$
 
-2. **강화학습 정책망 ($p_{\rho}$)**: SL 정책망을 초기 가중치로 사용하여, 정책망이 자신(의 이전 버전)과 대국하며 승률을 극대화하는 방향으로 학습하는 정책 경사(policy gradient) 강화학습을 수행했다. 이렇게 훈련된 RL 정책망은 SL 정책망을 상대로 80% 이상의 승률을 기록했으며, 탐색 없이도 기존의 강한 바둑 프로그램인 Pachi를 85%의 승률로 이겼다.
+- **알고리즘**: 알파고의 MCTS는 논문의 Figure 3에 묘사된 4가지 단계(선택, 확장, 평가, 역전파)를 반복한다.
+    1.  **선택(Selection)**: 현재 트리 내에서 위의 수식을 따라 가장 유망한 노드를 선택하며 내려간다.
+    2.  **확장(Expansion)**: 일정 횟수 이상 방문한 노드에 도달하면, 정책망을 이용해 다음 유망 수를 계산하고 트리를 확장한다.
+    3.  **평가(Evaluation)**: 새로 확장된 노드는 가치망을 통해 한 번 평가되고, 동시에 빠른 롤아웃 정책을 통해 게임 끝까지 시뮬레이션하여 승패 결과를 얻는다.
+    4.  **역전파(Backup)**: 평가 결과를 트리를 따라 루트 노드까지 전파하며 각 노드의 통계(방문 횟수, 승률)를 갱신한다.
 
-3. **가치망 ($v_{\theta}$)**: RL 정책망의 자가 대국 결과를 예측하도록 훈련된 신경망이다. 단일 게임 내의 연속된 수들은 상관관계가 높아 과적합을 유발할 수 있으므로, 3,000만 개의 서로 다른 자가 대국 게임에서 각각 하나의 포지션만 추출하여 비상관(uncorrelated) 데이터셋을 구축했다. 이 가치망은 RL 정책망을 이용한 몬테카를로 롤아웃보다 15,000배나 적은 계산으로 비슷한 수준의 정확도를 보였다.
 
-#### MCTS 탐색 알고리즘
+### 실험 결과
+- **주요 데이터셋**: KGS Go 서버의 6~9단 유저 기보 3,000만 개를 지도 학습에 사용했고, RL 정책망과 가치망 훈련을 위해 3,000만 개의 자체 대국 데이터를 생성했다.
+- **핵심 성능 지표**:
+    - 단일 머신 알파고는 다른 최상위 바둑 프로그램(Crazy Stone, Zen 등)과의 대결에서 495전 494승 (99.8%)을 기록했다.
+    - 분산 버전 알파고는 단일 머신 알파고를 상대로 77%의 승률을 보였다.
+    - 2015년 10월, 유럽 챔피언 판후이 프로 2단과의 공식 5번기에서 5대 0으로 완승했다.
 
-알파고는 정책망과 가치망을 MCTS에 결합하여 탐색을 수행한다.
+- **비교 결과**: 논문의 Figure 4a는 알파고와 다른 프로그램들의 Elo 레이팅을 비교하며 알파고의 압도적인 성능을 보여준다. 기존의 어떤 프로그램보다 수 단계 높은 기력을 달성했다. 또한, Figure 2b는 가치망이 롤아웃 시뮬레이션보다 게임 결과를 훨씬 더 정확하게 예측함을 보여주며, 이는 15,000배나 적은 계산량으로 이룬 결과이다. 가치망과 롤아웃을 함께 사용했을 때(혼합 평가) 가장 좋은 성능을 보였다.
 
-- **탐색 단계 (Selection & Expansion)**: 탐색 트리에서는 정책망($p_{\sigma}$)이 제공하는 사전 확률(prior probability)을 이용해 유망한 수를 더 많이 탐색하고, 방문 횟수가 일정 기준을 넘으면 노드를 확장한다.
-- **평가 단계 (Evaluation)**: 리프 노드(leaf node)에 도달하면, 두 가지 방식으로 형세를 평가한다. 첫째는 가치망($v_{\theta}$)을 통한 빠른 평가이고, 둘째는 가벼운 패턴 기반의 '빠른 롤아웃 정책'($p_{\pi}$)을 이용해 게임 끝까지 시뮬레이션하는 것이다. 이 두 평가 결과는 가중치 $\lambda$를 통해 결합된다 ($V(s_{L})=(1-\lambda)v_{\theta}(s_{L})+\lambda z_{L}$).
-- **갱신 단계 (Backup)**: 평가 결과를 트리의 상위 노드들로 전파하여 각 수의 가치(action-value)를 갱신한다.
-- 이 모든 과정은 CPU와 GPU를 활용한 비동기 병렬 처리를 통해 효율적으로 수행되었다.
-
-### 결론 (Conclusion)
-
-알파고는 심층 신경망과 트리 탐색의 결합을 통해 바둑이라는 AI의 오랜 난제를 해결했다. 지도학습으로 인간의 지식을 습득하고 강화학습을 통한 자가 대국으로 그 지식을 넘어선 알파고의 접근 방식은, 특정 도메인에 고도로 특화된 기존의 AI와 달리 범용적인 학습 방법론의 가능성을 보여주었다. 유럽 챔피언 판 후이를 5-0으로 꺾은 성과는 AI가 복잡하고 직관적인 영역에서도 인간의 능력을 넘어설 수 있음을 입증했으며, 이는 앞으로 다른 과학 및 현실 세계의 문제 해결에 중요한 발판이 될 것이다.
-
----
-
-**📝 안내**: 이 문서는 DYETEC Project 2를 기획하기 위해 읽은 논문입니다.
+### 결론
+본 연구는 심층 신경망과 트리 탐색을 결합하여 인공지능의 오랜 난제였던 바둑에서 프로 기사를 능가하는 수준을 달성했다. 알파고는 체스 챔피언을 이긴 딥블루보다 훨씬 적은 수의 국면을 탐색했지만, 정책망을 통해 더 지능적으로 유망한 수를 선택하고 가치망으로 더 정확하게 국면을 평가함으로써 이를 보완했다. 이는 인간의 직관과 유사한 접근 방식이다. 알파고의 성공은 지도 학습과 강화 학습을 결합한 이 접근법이 바둑을 넘어 다른 해결하기 어려운 인공지능 문제에도 적용될 수 있다는 가능성을 제시한다.

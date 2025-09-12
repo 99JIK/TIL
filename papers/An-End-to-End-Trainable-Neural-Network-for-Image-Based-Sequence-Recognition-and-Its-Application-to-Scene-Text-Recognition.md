@@ -1,117 +1,84 @@
 ---
-title: "An End-to-End Trainable Neural OCR: Text Recognition and Information Extraction"
-date: "2015-07-21"
-description: "CNN과 RNN을 결합한 CRNN 아키텍처를 제안하여 이미지 기반 시퀀스 인식, 특히 장면 텍스트 인식 문제를 해결하는 논문"
+title: "An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition"
+date: "2016-12-28"
+description: "이미지 기반의 시퀀스 인식을 위해 CNN과 RNN을 결합한 종단간 학습 가능한 신경망 아키텍처(CRNN)를 제안하고, 이를 장면 텍스트 인식에 적용하여 뛰어난 성능을 입증함."
 keywords:
   [
-    "Scene Text Recognition",
-    "Image Based Sequence Recognition",
-    "Convolutional Recurrent Neural Network",
-    "CRNN",
-    "End To End Training",
-    "Deep Learning",
-    "Computer Vision",
-    "OCR",
-    "Machine Learning",
-    "Sequence Modeling",
-    "Text Recognition",
-    "Neural Networks",
-    "DYETEC PROJ 2",
+    "Sequence recognition",
+    "scene text recognition",
+    "neural network",
+    "convolutional neural network",
+    "long-short term memory",
+    "optical music recognition",
   ]
 tags:
   [
+    "Optical Character Recognition",
     "Scene Text Recognition",
-    "Image Based Sequence Recognition",
-    "Convolutional Recurrent Neural Network",
-    "CRNN",
-    "End To End Training",
+    "Convolutional Recurrent Neural Networks",
     "Deep Learning",
-    "Computer Vision",
-    "OCR",
-    "Machine Learning",
-    "Sequence Modeling",
-    "Text Recognition",
-    "Neural Networks",
-    "DYETEC PROJ 2",
+    "End-to-End",
   ]
-authors: ["baoguang_shi", "xiang_bai", "cong_yao"]
+authors: ["Baoguang Shi", "Xiang Bai", "Cong Yao"]
 ---
-
-# 이미지 기반 시퀀스 인식을 위한 종단간 학습 가능 신경망과 장면 텍스트 인식에의 적용
 
 ## 논문 정보
 
-- **제목 (Title)**: 이미지 기반 시퀀스 인식을 위한 종단간 학습 가능 신경망과 장면 텍스트 인식에의 적용 (An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition)
-- **저자 (Authors) 및 소속 (Affiliations)**:
-  - Baoguang Shi (Huazhong University of Science and Technology, Wuhan, China)
-  - Xiang Bai (Huazhong University of Science and Technology, Wuhan, China)
-  - Cong Yao (Huazhong University of Science and Technology, Wuhan, China)
-- **학회 또는 저널명 (Conference or Journal Name)**: arXiv
-- **제출일 또는 발행일 (Submission or Publication Date)**: 2015년 7월 21일
-
-<!-- truncate -->
-
-- **초록 (Abstract)**:
-  이미지 기반 시퀀스 인식은 컴퓨터 비전 분야의 오랜 연구 주제이다. 본 논문에서는 그중에서도 가장 중요하고 도전적인 과제인 장면 텍스트 인식 문제를 다룬다. 특징 추출, 시퀀스 모델링, 전사(transcription)를 하나의 통일된 프레임워크로 통합한 새로운 신경망 아키텍처를 제안한다. 이 아키텍처는 기존 시스템과 비교하여 네 가지 독특한 속성을 가진다: (1) 구성 요소가 개별적으로 학습 및 조정되는 기존 알고리즘과 달리 종단간(end-to-end) 학습이 가능하다. (2) 문자 분할이나 수평 스케일 정규화 없이 임의 길이의 시퀀스를 자연스럽게 처리한다. (3) 사전(lexicon)에 국한되지 않으며, 사전 기반 및 비사전 기반 장면 텍스트 인식 작업 모두에서 뛰어난 성능을 보인다. (4) 실제 적용에 더 실용적인, 효과적이면서도 훨씬 작은 모델을 생성한다. IIIT-5K, Street View Text, ICDAR 등 표준 벤치마크에서의 실험을 통해 제안된 알고리즘의 우수성을 입증했으며, 이미지 기반 악보 인식 작업에서도 좋은 성능을 보여 그 일반성을 확인했다.
-
-- **주요 연구 내용 (Main Research Content/Methodology)**:
-  - **CRNN 아키텍처 제안**: 합성곱 신경망(CNN)과 순환 신경망(RNN)을 결합한 새로운 모델인 합성곱 순환 신경망(Convolutional Recurrent Neural Network, CRNN)을 제안했다.
-  - **통합된 3단계 구조**: 아키텍처는 (1) CNN을 이용한 특징 추출, (2) 양방향 LSTM(Bidirectional LSTM)을 이용한 시퀀스 모델링, (3) CTC(Connectionist Temporal Classification) 손실을 이용한 전사(Transcription)의 세 부분으로 구성된다.
-  - **종단간 학습**: 개별 컴포넌트를 따로 학습할 필요 없이, 단일 손실 함수를 사용하여 전체 네트워크를 이미지와 해당 시퀀스 레이블만으로 종단간 학습할 수 있다.
-  - **임의 길이 시퀀스 처리**: 입력 이미지의 너비에 관계없이 특징 시퀀스를 생성하고, RNN과 CTC를 통해 가변 길이의 텍스트 시퀀스를 예측할 수 있어 문자 단위 분할이 필요 없다.
-  - **사전 제약 없는 인식**: CTC 레이어를 통해 사전(lexicon)에 의존하지 않고 텍스트를 인식할 수 있으며, 동시에 사전 기반 검색을 통해 성능을 향상시키는 것도 가능하다.
-
-- **주요 결과 및 결론 (Key Findings and Conclusion)**:
-  - **높은 인식 정확도 달성**: IIIT-5K, SVT, ICDAR 등 주요 장면 텍스트 인식 벤치마크에서 기존 최고 성능(state-of-the-art) 모델들과 대등하거나 더 우수한 성능을 보였다.
-  - **모델의 효율성 입증**: 기존 딥러닝 모델들(예: 490M, 304M 파라미터)에 비해 훨씬 적은 8.3M의 파라미터를 사용하여 작고 효율적인 모델을 구현했다.
-  - **일반성 검증**: 장면 텍스트 인식뿐만 아니라 이미지 기반 악보 인식 문제에도 성공적으로 적용하여, 상용 OMR(Optical Music Recognition) 시스템보다 월등히 높은 성능을 기록하며 모델의 일반성을 입증했다.
-  - **합성 데이터의 유효성**: 실제 이미지를 사용하지 않고 오직 합성 텍스트 데이터만으로 모델을 학습했음에도 불구하고, 실제 환경에서 촬영된 이미지에 대해 높은 인식 성능을 보여주었다.
-  - **종단간 학습의 장점**: 문자 단위의 위치 정보(bounding box) 없이 단어 수준의 레이블만으로 학습이 가능하여, 데이터 준비 과정을 크게 간소화했다.
-
-- **기여점 (Contributions)**:
-  - **최초의 통합 프레임워크 제시**: 특징 추출, 시퀀스 모델링, 전사를 하나의 네트워크에서 종단간 학습할 수 있는 CRNN 프레임워크를 제안하여 이미지 기반 시퀀스 인식의 새로운 패러다임을 제시했다.
-  - **훈련 과정의 간소화**: 문자 단위의 정밀한 레이블링 없이 단어 수준의 레이블만으로 학습이 가능하게 하여, 데이터셋 구축 비용과 노력을 획기적으로 줄였다.
-  - **실용적인 모델 구현**: 기존 모델 대비 파라미터 수를 크게 줄여(8.3M) 저장 공간을 적게 차지하고(33MB), 모바일 기기에도 쉽게 이식할 수 있는 실용적인 모델을 개발했다.
-  - **다양한 분야로의 확장성**: 장면 텍스트 인식 외에 악보 인식 등 다양한 이미지 기반 시퀀스 인식 문제에 적용될 수 있는 일반적인 프레임워크임을 입증했다.
-
-- **DOI (Digital Object Identifier)**: arXiv:1507.05717v1
-
-- **기타 식별 가능한 정보**:
-  - **연구 분야**: 컴퓨터 비전, 딥러닝, 장면 텍스트 인식, 광학 문자 인식(OCR)
-  - **대상**: 이미지 속의 시퀀스 형태 객체 (장면 텍스트, 악보 등)
-  - **데이터셋**:
-    - **학습**: Synth (합성 텍스트 데이터셋)
-    - **평가**: ICDAR 2003, ICDAR 2013, IIIT 5k-word, Street View Text (SVT)
+- **제목**: An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition
+- **저자**: Baoguang Shi, Xiang Bai, Cong Yao (Huazhong University of Science and Technology)
+- **학회/저널**: IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE
+- **발행일**: 2016-12-28
+- **DOI**: [10.1109/TPAMI.2016.2646371](https://doi.org/10.1109/TPAMI.2016.2646371)
+- **주요 연구 내용**: 이미지 기반 시퀀스 인식을 위해 Convolutional Neural Network(CNN)와 Recurrent Neural Network(RNN)을 통합한 새로운 아키텍처인 CRNN(Convolutional Recurrent Neural Network)을 제안함. 이 모델은 특징 추출(CNN), 시퀀스 모델링(RNN), 전사(Transcription)의 세 부분을 하나의 프레임워크로 결합하여 문자 단위의 레이블 없이 종단간(End-to-End) 학습이 가능함.
+- **주요 결과 및 결론**: IIIT-5K, SVT, ICDAR 등 표준 장면 텍스트 인식 벤치마크에서 기존 최고 수준의 알고리즘들과 대등하거나 더 우수한 성능을 보임. 또한, 제안된 모델은 훨씬 적은 파라미터(8.3M)를 사용하여 효율적이며, 악보 인식과 같은 다른 시퀀스 인식 문제에도 일반화될 수 있음을 확인함.
+- **기여점**: 기존 방법들과 달리 구성 요소를 개별적으로 훈련할 필요 없는 완전한 종단간 학습이 가능함. 문자 분할이나 정규화 과정 없이 임의 길이의 시퀀스를 자연스럽게 처리하며, 사전(lexicon) 유무에 관계없이 높은 성능을 달성함. [9, 10, 11]
+<!--truncate-->
 
 ## 요약
 
-### 서론 (Introduction)
+### 초록
 
-이미지 기반 시퀀스 인식은 장면 텍스트, 필기체, 악보와 같이 연속적인 객체를 인식하는 컴퓨터 비전의 중요한 문제이다. 기존의 심층 합성곱 신경망(DCNN)은 고정된 크기의 입출력을 다루기 때문에, 길이가 다양한 시퀀스 객체에 직접 적용하기 어렵다. 이를 해결하기 위해 개별 문자를 검출하고 인식하거나, 단어 전체를 하나의 클래스로 분류하는 접근법이 있었지만, 이는 각각 강력한 문자 탐지기를 요구하거나 방대한 수의 클래스를 다루어야 하는 한계가 있었다. 반면, 순환 신경망(RNN)은 시퀀스 처리에 적합하지만, 보통 이미지에서 특징을 추출하는 전처리 단계가 별도로 필요해 종단간 학습이 어려웠다. 이 논문은 이러한 한계를 극복하기 위해 DCNN의 강력한 특징 추출 능력과 RNN의 시퀀스 모델링 능력을 결합한 새로운 아키텍처인 **합성곱 순환 신경망(CRNN)**을 제안한다. CRNN은 별도의 전처리나 문자 단위의 레이블링 없이, 이미지로부터 직접 가변 길이의 문자 시퀀스를 인식할 수 있는 종단간 학습 모델이다.
+이미지 기반 시퀀스 인식은 컴퓨터 비전 분야의 오랜 연구 주제임. 본 논문에서는 그중에서도 가장 중요하고 도전적인 과제인 장면 텍스트 인식 문제를 다룸. 이를 위해 특징 추출, 시퀀스 모델링, 전사(transcription)를 하나의 프레임워크로 통합한 새로운 신경망 아키텍처를 제안함. 제안된 아키텍처는 기존 시스템과 비교하여 네 가지 뚜렷한 특징을 가짐: (1) 개별 구성 요소를 따로 학습시키던 기존 방식과 달리 종단간 학습이 가능함, (2) 문자 분할이나 수평 스케일 정규화 없이 임의 길이의 시퀀스를 자연스럽게 처리함, (3) 특정 사전에 국한되지 않으며, 사전 기반 및 비사전 기반 인식 작업 모두에서 뛰어난 성능을 보임, (4) 실제 적용에 더 실용적인, 효과적이면서도 훨씬 작은 모델을 생성함. IIIT-5K, Street View Text, ICDAR 데이터셋에서의 실험은 제안된 알고리즘의 우수성을 입증함. 나아가, 이미지 기반 악보 인식 작업에서도 좋은 성능을 보여 모델의 일반성을 확인함.
 
-### 본론 (Main Content)
+### 서론
 
-#### CRNN 네트워크 아키텍처
+최근 딥러닝, 특히 DCNN(Deep Convolutional Neural Networks)의 성공으로 신경망 연구가 활발해졌지만, 대부분 객체 탐지나 분류에 집중되어 있음. 장면 텍스트, 필기체, 악보와 같은 시각적 객체들은 분리된 형태가 아닌 시퀀스 형태로 나타나는 경향이 있음. 이러한 시퀀스 객체들은 길이가 가변적이기 때문에 고정된 크기의 입출력을 다루는 DCNN을 직접 적용하기 어려움. 기존에는 문자를 하나씩 검출하고 인식하거나, 단어 자체를 하나의 클래스로 취급하는 방식을 사용했으나, 이는 각각 강력한 문자 검출기를 요구하거나 일반화가 어려운 단점이 있었음. RNN은 시퀀스 처리에 적합하지만, 입력 이미지를 특징 시퀀스로 변환하는 전처리 과정이 필요해 종단간 학습이 불가능했음. 본 논문에서는 DCNN과 RNN을 결합한 CRNN(Convolutional Recurrent Neural Network)을 제안하여 이러한 문제들을 해결하고자 함. [17, 19, 21, 23, 25, 38, 42, 50]
 
-CRNN은 아래의 세 가지 주요 구성 요소로 이루어져 있다.
+### 모델 아키텍처 / 방법론
 
-1. **합성곱 계층 (Convolutional Layers)**
-   VGGNet과 유사한 구조의 CNN을 사용하여 입력 이미지로부터 특징 맵(feature map)을 추출한다. 입력 이미지는 모두 동일한 높이로 조절된다. CNN의 완전 연결 계층을 제거하고, 추출된 특징 맵을 세로로 스캔하여 각 열(column)을 하나의 프레임으로 하는 특징 시퀀스를 생성한다. 이 방식은 이미지의 너비가 변하더라도 유연하게 특징 시퀀스를 생성할 수 있게 한다.
+논문의 Figure 1에서 제시된 모델 구조도는 CRNN의 전체적인 흐름을 보여줌. 아키텍처는 컨볼루션 계층, 순환 계층, 전사 계층의 세 부분으로 구성됨. [91]
 
-2. **순환 계층 (Recurrent Layers)**
-   합성곱 계층에서 추출된 특징 시퀀스는 깊은 양방향 LSTM(Deep Bidirectional LSTM)으로 구성된 순환 계층에 입력된다. 양방향 LSTM은 순방향과 역방향 두 개의 LSTM을 사용하여 시퀀스의 과거와 미래 문맥 정보를 모두 활용한다. 이를 통해 각 프레임(특징 벡터)에 대한 예측의 정확도를 높인다. 예를 들어, 'il'과 같은 모호한 문자를 주변 문맥을 통해 더 명확하게 구분할 수 있다. 순환 계층은 전체 네트워크가 종단간으로 학습될 수 있도록 오류를 합성곱 계층으로 역전파하는 역할을 한다.
+- **핵심 구조/방법**:
 
-3. **전사 계층 (Transcription Layer)**
-   순환 계층이 출력한 프레임별 예측 결과를 최종 레이블 시퀀스로 변환하는 단계이다. 이 논문에서는 CTC(Connectionist Temporal Classification) 손실 함수를 사용한다. CTC는 입력 시퀀스와 출력 시퀀스 간의 정렬(alignment)을 학습할 필요 없이, 반복되는 문자나 '공백(blank)' 레이블을 제거하여 최종 시퀀스를 생성한다. 이 덕분에 학습 데이터에 문자별 위치 정보가 없어도 단어 수준의 레이블만으로 전체 모델을 종단간으로 학습시킬 수 있다. 인식은 사전에 제약받지 않는 방식(lexicon-free)과 특정 사전 내에서 가장 확률이 높은 단어를 찾는 방식(lexicon-based) 모두 가능하다.
+  1.  **컨볼루션 계층 (Feature Sequence Extraction)**: 표준 DCNN 모델(VGGNet 기반)에서 완전 연결 계층을 제거한 형태로, 입력 이미지로부터 특징 맵(feature map)을 추출함. 이 특징 맵을 세로로 스캔하여 순차적인 특징 벡터 시퀀스를 생성함. 이 방식은 이미지의 너비(즉, 시퀀스 길이) 변화에 강건함. [92, 97, 112]
+  2.  **순환 계층 (Sequence Labeling)**: 컨볼루션 계층에서 추출된 특징 시퀀스를 입력으로 받아, 각 프레임(특징 벡터)에 대한 레이블 분포를 예측함. 여기서는 양방향 LSTM(Bidirectional LSTM)을 여러 층으로 쌓은 깊은 Bi-LSTM 구조를 사용하여 시퀀스 내의 양방향 컨텍스트 정보를 효과적으로 포착함. [93, 114, 144, 145]
+  3.  **전사 계층 (Transcription)**: 순환 계층의 프레임별 예측 결과를 최종 레이블 시퀀스로 변환함. 이 과정에서 Connectionist Temporal Classification(CTC) 손실 함수를 사용함. CTC는 프레임별 예측 결과와 최종 시퀀스 간의 정렬을 자동으로 학습하므로, 문자 단위의 정확한 위치 정보 없이도 종단간 학습이 가능하게 함. [94, 151, 188]
 
-#### 학습 및 실험
+- **수식**:
 
-모델은 ADADELTA 옵티마이저를 사용한 확률적 경사 하강법(SGD)으로 학습되었다. 학습 데이터로는 8백만 개의 합성 텍스트 이미지를 사용했으며, 별도의 미세 조정 없이 실제 이미지로 구성된 벤치마크 데이터셋에서 평가를 진행했다. 실험 결과, CRNN은 IIIT-5K, SVT, ICDAR 등 주요 벤치마크에서 기존 최고 수준의 모델들과 대등하거나 더 높은 성능을 보였다. 특히, 기존 딥러닝 모델들이 수억 개의 파라미터를 가진 것에 비해 CRNN은 830만 개의 파라미터만으로 작고 효율적인 모델을 구현했다. 또한, 동일한 CRNN 구조를 악보 인식 문제에 적용하여 상용 소프트웨어를 크게 능가하는 성능을 보임으로써 모델의 높은 일반성을 증명했다.
+  - CTC는 B 변환을 통해 반복되는 레이블과 'blank'를 제거하여 최종 시퀀스를 만듦 (예: `B(-h-e-ll-o--)` -> `"hello"`). 조건부 확률은 다음과 같이 정의됨. [159, 160]
+    $$p(l|y) = \sum_{\pi:B(\pi)=l} p(\pi|y), \quad \text{where} \quad p(\pi|y) = \prod_{t=1}^{T} y_{\pi_t}^t$$
+  - 여기서 $l$은 최종 레이블 시퀀스, $\pi$는 프레임별 예측 시퀀스, $y$는 RNN의 출력 확률 분포임. [161, 163]
+  - 네트워크 학습의 목적 함수는 전체 학습 데이터셋 $\mathcal{X}$에 대한 음의 로그 우도(negative log-likelihood)를 최소화하는 것임. [185]
+    $$\mathcal{O} = -\sum_{I_i, l_i \in \mathcal{X}} \log p(l_i|y_i)$$
 
-### 결론 (Conclusion)
+- **알고리즘**:
+  - 네트워크는 이미지와 그에 해당하는 단어 시퀀스 쌍으로 구성된 데이터셋을 사용하여 종단간으로 학습됨. [192]
+  - 최적화에는 SGD(Stochastic Gradient Descent)와 ADADELTA를 사용하여 학습률을 자동으로 조정하고 빠른 수렴을 유도함. [196, 206]
+  - 전사 과정은 사전에 제약받지 않는 'Lexicon-Free' 방식과, 주어진 사전 내에서 최적의 단어를 찾는 'Lexicon-Based' 방식 두 가지로 나뉨. 후자의 경우, BK-tree 자료구조를 사용하여 대규모 사전에서도 효율적인 검색이 가능함. [153, 177]
 
-본 논문은 CNN과 RNN의 장점을 결합한 새로운 신경망 아키텍처인 CRNN을 제안했다. CRNN은 가변적인 크기의 이미지로부터 임의 길이의 시퀀스를 예측할 수 있는 종단간 학습 모델이다. 문자 단위의 세부적인 주석 없이 단어 수준의 레이블만으로 학습이 가능하며, 완전 연결 계층을 제거하여 작고 효율적인 모델을 구현했다. 장면 텍스트 인식과 악보 인식 실험을 통해 CRNN이 기존 방법들보다 우수하거나 경쟁력 있는 성능을 보이며, 다양한 이미지 기반 시퀀스 인식 문제에 적용될 수 있는 일반적인 프레임워크임을 입증했다. 이는 CRNN이 실제 애플리케이션에 매우 적합한 접근법임을 시사한다.
+### 실험 결과
 
----
+- **주요 데이터셋**: 학습에는 8백만 개의 이미지로 구성된 합성 텍스트 데이터셋(Synth)을 사용했으며, 별도의 파인튜닝 없이 실제 데이터셋에 대한 평가를 진행함. 평가에는 ICDAR 2003 (IC03), ICDAR 2013 (IC13), IIIT 5k-word (IIIT5k), Street View Text (SVT) 벤치마크를 사용함. [215, 216, 220]
+- **핵심 성능 지표**:
+  - Table 2에 요약된 결과에 따르면, CRNN은 사전(lexicon)을 사용하는 경우와 사용하지 않는 경우 모두에서 높은 인식 정확도를 달성함.
+  - **사전 미사용(None)**: SVT 데이터셋에서 **82.7%**, IC03에서 **91.9%**의 정확도를 기록하며 기존 방법들 대비 뛰어난 성능을 보임. [266]
+  - **사전 사용**: IIIT5k ('50' lexicon)에서 **97.8%**, SVT ('50' lexicon)에서 **97.5%**의 정확도를 달성하며, 대부분의 경우에서 기존 최고 성능을 능가함. [266]
+- **비교 결과**:
+  - Table 3의 비교 분석에 따르면, CRNN은 종단간 학습이 가능하고, 문자 단위의 주석(GT)이 필요 없으며, 사전에 제약받지 않는다는 장점을 가짐. [298]
+  - 특히 모델 크기가 **8.3MB**로, 300MB가 넘는 다른 딥러닝 기반 모델들([6], [18])에 비해 매우 작고 효율적임. [289]
+  - 악보 인식 실험에서도 상용 OMR 엔진보다 월등히 높은 정확도를 보여(Table 4), CRNN의 일반성과 강인함을 입증함. [364]
 
-**📝 안내**: 이 문서는 DYETEC Project 2를 기획하기 위해 읽은 논문입니다.
+### 결론
+
+본 연구는 DCNN의 강력한 특징 추출 능력과 RNN의 시퀀스 모델링 능력을 결합한 CRNN 아키텍처를 제안했음. CRNN은 가변적인 크기의 이미지를 입력받아 다양한 길이의 예측을 생성할 수 있으며, 단어와 같은 대략적인 수준의 레이블만으로 학습이 가능함. 또한, 기존 신경망의 완전 연결 계층을 제거하여 훨씬 작고 효율적인 모델을 구현했음. 장면 텍스트 인식 벤치마크에서의 실험 결과는 CRNN이 기존 방법들보다 우수하거나 매우 경쟁력 있는 성능을 보임을 증명했으며, 악보 인식 과제를 통해 그 일반성을 확인했음. [375, 376, 377, 378, 380]

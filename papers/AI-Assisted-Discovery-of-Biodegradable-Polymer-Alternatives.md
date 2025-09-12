@@ -4,7 +4,7 @@ date: "2024-12-31"
 description: "AI를 활용하여 환경 친화적인 생분해성 고분자 대체 물질의 발견을 가속화하는 기술, 방법론, 사례 연구에 대한 논문"
 keywords:
   [
-    "AI",
+    "Artificial Intelligence",
     "Biodegradable Polymers",
     "Machine Learning",
     "Material Discovery",
@@ -13,7 +13,7 @@ keywords:
   ]
 tags:
   [
-    "AI",
+    "Artificial Intelligence",
     "Biodegradable Polymers",
     "Machine Learning",
     "Material Discovery",
@@ -27,7 +27,7 @@ authors: ["peter_broklyn", "sabir_k"]
 
 ## 논문 정보
 
-- **제목 (Title)**: AI-Assisted Discovery of Biodegradable Polymer Alternatives
+- **제목**: AI-Assisted Discovery of Biodegradable Polymer Alternatives
 - **저자 (Authors) 및 소속 (Affiliations)**:      - Peter Broklyn (N/A)     - Sabir K (N/A)
 - **학회 또는 저널명 (Conference or Journal Name)**: Polymer Recycling
 - **제출일 또는 발행일 (Submission or Publication Date)**: December 2024

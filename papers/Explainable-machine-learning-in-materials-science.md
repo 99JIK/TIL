@@ -5,7 +5,6 @@ description: "재료 과학 분야에서 머신러닝 모델의 설명 가능성
 keywords:
   [
     "Explainable Artificial Intelligence",
-    "XAI",
     "Machine Learning",
     "Materials Science",
     "Deep Neural Networks",
@@ -14,7 +13,6 @@ keywords:
 tags:
   [
     "Explainable Artificial Intelligence",
-    "XAI",
     "Machine Learning",
     "Materials Science",
     "Deep Neural Networks",
@@ -35,33 +33,16 @@ authors:
 
 ## 논문 정보
 
-- **제목 (Title)**: Explainable machine learning in materials science
-- **저자 (Authors) 및 소속 (Affiliations)**:
-  - Xiaoting Zhong (Lawrence Livermore National Laboratory)
-  - Brian Gallagher (Lawrence Livermore National Laboratory)
-  - Shusen Liu (Lawrence Livermore National Laboratory)
-  - Bhavya Kailkhura (Lawrence Livermore National Laboratory)
-  - Anna Hiszpanski (Lawrence Livermore National Laboratory)
-  - T. Yong-Jin Han (Lawrence Livermore National Laboratory)
-- **학회 또는 저널명 (Conference or Journal Name)**: npj Computational Materials
-- **제출일 또는 발행일 (Submission or Publication Date)**: 2022년 9월 22일
-- **키워드 (Keywords)**: 설명 가능한 인공지능(XAI), 머신러닝, 재료 과학, 심층 신경망, 설명 가능성
-- **초록 (Abstract)**: 머신러닝 모델은 뛰어난 정확성으로 재료 과학 연구에 점점 더 많이 사용되고 있지만, 가장 정확한 모델들은 보통 설명하기 어렵다는 한계가 있다. 이러한 문제에 대한 해결책으로, 심층 신경망과 같은 복잡한 머신러닝 모델의 설명 가능성을 다루는 신흥 연구 분야인 설명 가능한 인공지능(XAI)이 주목받고 있다. 본 논문은 재료 과학자들에게 XAI에 대한 입문점을 제공하고자 한다. 재료 과학의 맥락에서 '설명'이 무엇을 의미하는지 개념을 정의하고, XAI가 재료 과학 연구에 어떻게 도움을 주는지 대표적인 연구 사례를 통해 검토하며, 앞으로의 과제와 기회에 대해 논의한다.
-- **주요 연구 내용 (Main Research Content/Methodology)**:
-  - **XAI 개념 및 범위 정의**: Post-hoc/ante-hoc, local/global 등 설명 가능성의 다양한 범주를 정의하고, 재료 과학 맥락에서 유용한 XAI의 기본 개념들을 제안한다.
-  - **Post-hoc DNN 설명 기법 검토**: 학습이 완료된 '블랙박스' 모델의 예측 과정을 사후에 설명하는 기법들을 재료 과학 적용 사례와 함께 검토한다. 주요 기법으로는 Feature Importance (Heat Maps), Explanation by Example, Surrogate Models 등이 있다.
-  - **Ante-hoc 설명 가능한 DNN 설계 기법 검토**: 모델 자체에 내재된 설명 가능성을 확보하기 위한 설계 기법들을 검토한다. 여기에는 설명 가능한 처리/표현, 도메인 지식 기반의 모델 설계, 설명 가능한 출력 생성 등이 포함된다.
-  - **설명 평가의 중요성 및 기준 제시**: 생성된 설명의 신뢰도를 검증하기 위한 평가의 필요성을 강조하고, 유용성(usefulness), 견고성(robustness), 민감성(sensitivity), 단순성(simplicity)과 같은 평가 기준을 제시한다.
-- **주요 결과 및 결론 (Key Findings and Conclusion)**:
-  - **XAI의 재료 과학 적용 가능성 확인**: Feature importance, Surrogate model 등 다양한 XAI 기법들이 재료의 물리적 특성 이해, 새로운 과학적 가설 생성, 모델 예측에 대한 신뢰 확보에 효과적으로 사용될 수 있음을 구체적인 사례를 통해 입증했다.
-  - **설명 평가의 필수성 강조**: 일부 XAI 기법(특히 히트맵)은 모델 파라미터나 학습 데이터와 무관하게 결과를 생성하는 경향이 있으므로, 모델 디버깅과 같은 중요한 목적으로 사용하기 전 반드시 검증(sanity check)이 필요함을 강조했다.
-  - **향후 과제 및 기회 제시**: 재료 데이터의 불분명한 정답(ground truth) 문제, 설명 평가의 어려움 등 현재 XAI 적용의 한계를 지적하고, 도메인 지식 결합, 맞춤형 평가 파이프라인 설계 등을 통한 해결 가능성과 연구 기회를 제시했다.
-- **기여점 (Contributions)**:
-  - **재료 과학자를 위한 포괄적인 XAI 입문서 제공**: 재료 과학 분야 연구자들을 위해 XAI의 핵심 개념부터 주요 기법, 실제 적용 사례, 평가 방법론까지 체계적으로 정리하여 포괄적인 가이드를 제공했다.
-  - **다양한 데이터 유형과 모델에 대한 XAI 적용 사례 제시**: 이미지, 스펙트럼, 테이블 데이터 등 다양한 형태의 재료 데이터와 CNN, GNN, Transformer 등 여러 ML 모델에 XAI를 적용한 최신 연구들을 종합적으로 검토하고 소개했다.
-  - **XAI 적용의 한계 및 향후 연구 방향 제시**: 재료 과학 분야에서 XAI를 적용할 때 마주하는 현실적인 문제점들을 명확히 지적하고, 이를 극복하기 위한 구체적인 연구 기회와 미래 방향을 제시함으로써 후속 연구를 촉진했다.
-- **DOI (Digital Object Identifier)**: 10.1038/s41524-022-00884-7
-- **기타 식별 가능한 정보**:
+- **제목**: Explainable machine learning in materials science
+- **저자**: Xiaoting Zhong, Brian Gallagher, Shusen Liu, Bhavya Kailkhura, Anna Hiszpanski, T. Yong-Jin Han (Lawrence Livermore National Laboratory)
+- **학회/저널**: npj Computational Materials
+- **발행일**: 2022-09-22
+- **DOI**: 10.1038/s41524-022-00843-2
+- **주요 연구 내용**: Post-hoc/ante-hoc, local/global 등 설명 가능성의 다양한 범주를 정의하고 재료 과학 맥락에서 유용한 XAI의 기본 개념들을 제안. 학습이 완료된 '블랙박스' 모델의 예측 과정을 사후에 설명하는 기법들을 재료 과학 적용 사례와 함께 검토. 모델 자체에 내재된 설명 가능성을 확보하기 위한 설계 기법들을 검토. 생성된 설명의 신뢰도를 검증하기 위한 평가의 필요성을 강조하고 유용성, 견고성, 민감성, 단순성과 같은 평가 기준을 제시.
+
+- **주요 결과 및 결론**: Feature importance, Surrogate model 등 다양한 XAI 기법들이 재료의 물리적 특성 이해, 새로운 과학적 가설 생성, 모델 예측에 대한 신뢰 확보에 효과적으로 사용될 수 있음을 구체적인 사례를 통해 입증. 일부 XAI 기법(특히 히트맵)은 모델 파라미터나 학습 데이터와 무관하게 결과를 생성하는 경향이 있으므로 모델 디버깅과 같은 중요한 목적으로 사용하기 전 반드시 검증이 필요함을 강조. 재료 데이터의 불분명한 정답 문제, 설명 평가의 어려움 등 현재 XAI 적용의 한계를 지적하고 도메인 지식 결합, 맞춤형 평가 파이프라인 설계 등을 통한 해결 가능성과 연구 기회를 제시.
+
+- **기여점**: 재료 과학 분야 연구자들을 위해 XAI의 핵심 개념부터 주요 기법, 실제 적용 사례, 평가 방법론까지 체계적으로 정리하여 포괄적인 가이드 제공. 이미지, 스펙트럼, 테이블 데이터 등 다양한 형태의 재료 데이터와 CNN, GNN, Transformer 등 여러 ML 모델에 XAI를 적용한 최신 연구들을 종합적으로 검토하고 소개. 재료 과학 분야에서 XAI를 적용할 때 마주하는 현실적인 문제점들을 명확히 지적하고 이를 극복하기 위한 구체적인 연구 기회와 미래 방향을 제시하여 후속 연구를 촉진.
   - **연구 분야**: 재료 과학, 설명 가능한 인공지능 (XAI)
   - **대상**: 머신러닝 모델 (주로 심층 신경망)
   - **데이터셋**: 리뷰 논문으로 특정 데이터셋에 한정되지 않음

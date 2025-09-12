@@ -37,34 +37,23 @@ authors:
 
 ## 논문 정보
 
-- **제목 (Title)**: Machine learning based prediction models for spilt tensile strength of fiber reinforced recycled aggregate concrete
-- **저자 (Authors) 및 소속 (Affiliations)**:
-  - Mohammed Alarfaj (King Faisal University)
-  - Hisham Jahangir Qureshi (King Faisal University)
-  - Muhammad Zubair Shahab (COMSATS University Islamabad, Abbottabad Campus)
-  - Muhammad Faisal Javedd (Ghulam Ishaq Khan Institute of Engineering Sciences and Technology)
-  - Md Arifuzzaman (Monash University Malaysia)
-  - Yaser Gamil (Monash University Malaysia)
-- **학회 또는 저널명 (Conference or Journal Name)**: Case Studies in Construction Materials
-- **제출일 또는 발행일 (Submission or Publication Date)**: 2024년 1월 5일
-- **키워드 (Keywords)**: 섬유보강 재생골재 콘크리트, 머신러닝, 지속가능성, 친환경 콘크리트, 쪼갬 인장강도, 유전자 발현 프로그래밍, 심층 신경망
-- **초록 (Abstract)**: 콘크리트 생산 수요 증가로 인해 매년 막대한 양의 원자재가 필요하며, 이는 상당한 양의 폐콘크리트를 발생시킨다. 이에 대한 해결책으로 재생골재 콘크리트가 유망하게 부상했지만, 천연 골재에 부착된 경화 모르타르의 취약성으로 인해 균열에 민감하고 강도가 저하되는 문제에 직면해 있다. 본 연구는 심층 신경망 모델 2개(DNN1, DNN2), 최적화 가능한 가우시안 과정 회귀(OGPR) 모델 1개, 유전자 프로그래밍 기반 모델 2개(GEP1, GEP2)를 사용하여 섬유보강 재생골재 콘크리트의 쪼갬 인장강도를 예측하는 데 중점을 둔다. 개발된 모델들은 높은 결정계수(
-  R2), 낮은 평균 제곱근 오차(RMSE) 및 평균 절대 오차(MAE) 값을 보이며 높은 예측 정확도를 나타냈다. 특히 DNN2 모델이
-  R2 값 0.94로 가장 높은 성능을 보였으며, 이는 OGPR 모델보다 3.3%, GEP2 모델보다 13.5% 높은 수치이다. 민감도 분석 결과, 시멘트, 천연 굵은 골재, 재생골재 밀도, 고성능 감수제가 강도에 가장 중요한 긍정적 요인인 반면, 재생골재, 최대 골재 크기, 수분 함량은 가장 부정적인 영향을 미치는 것으로 나타났다.
-- **주요 연구 내용 (Main Research Content/Methodology)**:
-  - **다양한 머신러닝 모델 개발**: 섬유보강 재생골재 콘크리트(FRAC)의 쪼갬 인장강도(STS)를 예측하기 위해 세 가지 다른 계열의 머신러닝 기법(심층 신경망, 베이즈 최적화 가우시안 과정 회귀, 유전자 발현 프로그래밍)을 기반으로 총 5개의 모델(DNN1, DNN2, OGPR, GEP1, GEP2)을 개발했다.
-  - **데이터셋 구축 및 활용**: 기존에 발표된 연구 문헌에서 10개의 입력 변수(시멘트, 물, 천연 굵은 골재, 재생골재, 재생골재 최대 크기, 밀도, 흡수율, 고성능 감수제, 섬유 부피, 섬유 종류)와 1개의 출력 변수(쪼갬 인장강도)로 구성된 257개의 데이터 포인트를 수집하여 모델 학습(80%) 및 테스트(20%)에 사용했다.
-  - **모델 성능 평가**: 각 모델의 예측 정확도를 평가하기 위해 결정계수(R2), 평균 절대 오차(MAE), 평균 제곱근 오차(RMSE), 목적 함수(OBJ), 성능 지수(PI) 등 다양한 통계적 지표를 사용했다.
-  - **민감도 분석 수행**: 입력 변수가 출력값(STS)에 미치는 영향을 정량적으로 평가하기 위해 관련성 계수(Relevancy Factor)와 순열 특성 중요도(Permutation Feature Importance)를 이용한 민감도 분석을 수행했다.
-- **주요 결과 및 결론 (Key Findings and Conclusion)**:
-  - **DNN2 모델의 최우수 성능 입증**: 개발된 5개 모델 중 3개의 은닉층을 가진 심층 신경망 모델인 DNN2가 테스트 단계에서 R2 값 0.94, 가장 낮은 MAE(0.187 MPa) 및 RMSE(0.255 MPa)를 기록하며 가장 우수한 예측 성능을 보였다.
-  - **모델별 성능 순위**: 전반적인 성능은 DNN2, OGPR, DNN1, GEP2, GEP1 순으로 높게 나타났으며, 특히 DNN과 OGPR 모델이 GEP 모델보다 더 강력하고 효율적인 예측 능력을 보여주었다.
-  - **입력 변수의 영향력 규명**: 민감도 분석 결과, 시멘트 함량, 천연 굵은 골재, 재생골재 밀도, 고성능 감수제는 쪼갬 인장강도에 긍정적인 영향을 미치는 주요 요인으로 확인되었다.
-  - **강도 저하 주요 요인 식별**: 반면, 재생골재(RCA) 함량, 재생골재의 최대 크기(Dmax_RCA), 수분 함량은 강도에 가장 큰 부정적 영향을 미치는 요인으로 나타났다.
-- **기여점 (Contributions)**:
-  - **다양한 ML 기법의 종합적 비교**: FRAC의 쪼갬 인장강도 예측이라는 동일한 문제에 대해 서로 다른 원리로 작동하는 세 가지 계열의 머신러닝 모델(DNN, GPR, GEP)을 적용하고 성능을 종합적으로 비교하여 가장 적합한 모델을 제시했다.
-  - **하이퍼파라미터 최적화 적용**: 베이즈 최적화를 OGPR 모델에 적용하는 등 하이퍼파라미터 튜닝을 통해 모델의 예측 정확도를 극대화하여 신뢰성 높은 모델을 구축했다.
-  - **실용적 설계 가이드라인 제공**: 상세한 민감도 분석을 통해 각 원재료가 콘크리트 강도에 미치는 긍정적/부정적 영향을 정량적으로 밝혀, 향후 친환경 콘크리트의 최적 배합 설계에 실용적인 통찰력을 제공했다.
+- **제목**: Machine learning based prediction models for spilt tensile strength of fiber reinforced recycled aggregate concrete
+- **저자**: Mohammed Alarfaj, Hisham Jahangir Qureshi (King Faisal University), Muhammad Zubair Shahab (COMSATS University Islamabad), Muhammad Faisal Javedd (Ghulam Ishaq Khan Institute), Md Arifuzzaman, Yaser Gamil (Monash University Malaysia)
+- **학회/저널**: Case Studies in Construction Materials
+- **발행일**: 2024-01-05
+- **DOI**: [10.1016/j.cscm.2024.e02945](https://doi.org/10.1016/j.cscm.2024.e02945)
+
+- **주요 연구 내용**: 섬유보강 재생골재 콘크리트(FRAC)의 쪼갬 인장강도(STS)를 예측하기 위해 심층 신경망, 베이즈 최적화 가우시안 과정 회귀, 유전자 발현 프로그래밍을 기반으로 총 5개의 모델(DNN1, DNN2, OGPR, GEP1, GEP2)을 개발. 10개의 입력 변수와 1개의 출력 변수로 구성된 257개의 데이터 포인트를 수집하여 모델 학습(80%) 및 테스트(20%)에 사용. 관련성 계수와 순열 특성 중요도를 이용한 민감도 분석 수행.
+
+- **주요 결과 및 결론**: 3개의 은닉층을 가진 심층 신경망 모델인 DNN2가 테스트 단계에서 R2 값 0.94, MAE 0.187 MPa, RMSE 0.255 MPa를 기록하며 가장 우수한 예측 성능을 보임. 전반적인 성능은 DNN2, OGPR, DNN1, GEP2, GEP1 순으로 높게 나타났으며, DNN과 OGPR 모델이 GEP 모델보다 더 강력하고 효율적인 예측 능력을 보여줌. 시멘트 함량, 천연 굵은 골재, 재생골재 밀도, 고성능 감수제는 쪼갬 인장강도에 긍정적인 영향을 미치는 주요 요인으로 확인됨.
+
+- **기여점**: 섬유보강 재생골재 콘크리트의 쪼갬 인장강도 예측을 위한 다양한 머신러닝 모델의 성능을 체계적으로 비교 분석하여 최적의 예측 모델을 제시. 지속가능한 건설 재료로서 재생골재 콘크리트의 활용 가능성을 높이는 데 기여. 민감도 분석을 통해 콘크리트 강도에 영향을 미치는 주요 요인들을 정량적으로 규명하여 향후 콘크리트 설계 및 제조에 실용적인 가이드라인 제공.
+
+<!--truncate-->
+
+- **다양한 ML 기법의 종합적 비교**: FRAC의 쪼갬 인장강도 예측이라는 동일한 문제에 대해 서로 다른 원리로 작동하는 세 가지 계열의 머신러닝 모델(DNN, GPR, GEP)을 적용하고 성능을 종합적으로 비교하여 가장 적합한 모델을 제시했다.
+- **하이퍼파라미터 최적화 적용**: 베이즈 최적화를 OGPR 모델에 적용하는 등 하이퍼파라미터 튜닝을 통해 모델의 예측 정확도를 극대화하여 신뢰성 높은 모델을 구축했다.
+- **실용적 설계 가이드라인 제공**: 상세한 민감도 분석을 통해 각 원재료가 콘크리트 강도에 미치는 긍정적/부정적 영향을 정량적으로 밝혀, 향후 친환경 콘크리트의 최적 배합 설계에 실용적인 통찰력을 제공했다.
 - **DOI (Digital Object Identifier)**: 10.1016/j.cscm.2023.e02836
 - **기타 식별 가능한 정보**:
   - **연구 분야**: 건설 재료, 머신러닝, 지속가능성

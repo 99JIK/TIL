@@ -1,1289 +1,1438 @@
 # tags.yml
-# 논문 태그 정의
 
-# AI/ML 관련 태그
+# AI & Machine Learning
+Artificial Intelligence:
+  name: "Artificial Intelligence"
+  description: "인공지능 관련 연구"
+  color: "#FF6B6B"
+
 Machine Learning:
-  label: Machine Learning
-  permalink: /papers/tags/machine-learning
-  description: 기계 학습 관련 논문들
+  name: "Machine Learning"
+  description: "머신러닝 알고리즘 및 방법론"
+  color: "#4ECDC4"
 
 Deep Learning:
-  label: Deep Learning
-  permalink: /papers/tags/deep-learning
-  description: 딥러닝 관련 논문들
+  name: "Deep Learning"
+  description: "딥러닝 및 신경망 연구"
+  color: "#45B7D1"
 
-Artificial Intelligence:
-  label: Artificial Intelligence
-  permalink: /papers/tags/artificial-intelligence
-  description: 인공지능 관련 논문들
-
-Natural Language Processing:
-  label: Natural Language Processing
-  permalink: /papers/tags/natural-language-processing
-  description: 자연어 처리 관련 논문들
-
-Computer Vision:
-  label: Computer Vision
-  permalink: /papers/tags/computer-vision
-  description: 컴퓨터 비전 관련 논문들
-
-# 트랜스포머 및 어텐션 관련
-Transformer:
-  label: Transformer
-  permalink: /papers/tags/transformer
-  description: 트랜스포머 아키텍처 관련 논문들
-
-Attention Mechanism:
-  label: Attention Mechanism
-  permalink: /papers/tags/attention-mechanism
-  description: 어텐션 메커니즘 관련 논문들
-
-Self-Attention:
-  label: Self-Attention
-  permalink: /papers/tags/self-attention
-  description: 셀프 어텐션 관련 논문들
-
-Multi-Head Attention:
-  label: Multi-Head Attention
-  permalink: /papers/tags/multi-head-attention
-  description: 멀티헤드 어텐션 관련 논문들
-
-# 시퀀스 모델링 관련 (통합)
-Sequence Modeling:
-  label: Sequence Modeling
-  permalink: /papers/tags/sequence-modeling
-  description: 시퀀스 모델링 및 변환 관련 논문들
-
-State Space Models:
-  label: State Space Models
-  permalink: /papers/tags/state-space-models
-  description: 상태 공간 모델 관련 논문들
-
-# Mamba 관련 태그
-Mamba:
-  label: Mamba
-  permalink: /papers/tags/mamba
-  description: Mamba 아키텍처 관련 논문들
-
-Selective State Spaces:
-  label: Selective State Spaces
-  permalink: /papers/tags/selective-state-spaces
-  description: 선택적 상태 공간 관련 논문들
-
-Linear Time Complexity:
-  label: Linear Time Complexity
-  permalink: /papers/tags/linear-time-complexity
-  description: 선형 시간 복잡도 관련 논문들
-
-Efficient Attention:
-  label: Efficient Attention
-  permalink: /papers/tags/efficient-attention
-  description: 효율적인 어텐션 메커니즘 관련 논문들
-
-Long Sequence Processing:
-  label: Long Sequence Processing
-  permalink: /papers/tags/long-sequence-processing
-  description: 긴 시퀀스 처리 관련 논문들
-
-# 소프트웨어 테스팅 관련
-Software Testing:
-  label: Software Testing
-  permalink: /papers/tags/software-testing
-  description: 소프트웨어 테스팅 관련 논문들
-
-Web Testing:
-  label: Web Testing
-  permalink: /papers/tags/web-testing
-  description: 웹 테스팅 관련 논문들
-
-# 교육 관련
-Computing Education:
-  label: Computing Education
-  permalink: /papers/tags/computing-education
-  description: 컴퓨팅 교육 관련 논문들
-
-Pedagogical Practices:
-  label: Pedagogical Practices
-  permalink: /papers/tags/pedagogical-practices
-  description: 교육학적 실무 관련 논문들
-
-Teaching Computing:
-  label: Teaching Computing
-  permalink: /papers/tags/teaching-computing
-  description: 컴퓨팅 교육 관련 논문들
-
-# 섬유 공학 관련
-Textile Engineering:
-  label: Textile Engineering
-  permalink: /papers/tags/textile-engineering
-  description: 섬유 공학 관련 논문들
-
-Biodegradable Fiber:
-  label: Biodegradable Fiber
-  permalink: /papers/tags/biodegradable-fiber
-  description: 생분해성 섬유 관련 논문들
-
-Property Prediction:
-  label: Property Prediction
-  permalink: /papers/tags/property-prediction
-  description: 물성 예측 관련 논문들
-
-Spinning Process:
-  label: Spinning Process
-  permalink: /papers/tags/spinning-process
-  description: 방사 공정 관련 논문들
-
-# 섬유 공학 구체적 태그들
-Lightfastness Grade:
-  label: Lightfastness Grade
-  permalink: /papers/tags/lightfastness-grade
-  description: 내광성 등급 관련 논문들
-
-Colorfastness Rating:
-  label: Colorfastness Rating
-  permalink: /papers/tags/colorfastness-rating
-  description: 염색견뢰도 등급 관련 논문들
-
-Color Change:
-  label: Color Change
-  permalink: /papers/tags/color-change
-  description: 색상 변화 관련 논문들
-
-Tensile Tenacity:
-  label: Tensile Tenacity
-  permalink: /papers/tags/tensile-tenacity
-  description: 인장강도 관련 논문들
-
-Elongation Prediction:
-  label: Elongation Prediction
-  permalink: /papers/tags/elongation-prediction
-  description: 신율 예측 관련 논문들
-
-Yarn Property:
-  label: Yarn Property
-  permalink: /papers/tags/yarn-property
-  description: 원사 물성 관련 논문들
-
-# 데이터 처리 관련
-Data Analysis:
-  label: Data Analysis
-  permalink: /papers/tags/data-analysis
-  description: 데이터 분석 관련 논문들
-
-Data Preprocessing:
-  label: Data Preprocessing
-  permalink: /papers/tags/data-preprocessing
-  description: 데이터 전처리 관련 논문들
-
-Outlier Detection:
-  label: Outlier Detection
-  permalink: /papers/tags/outlier-detection
-  description: 이상치 탐지 관련 논문들
-
-Data Imbalance:
-  label: Data Imbalance
-  permalink: /papers/tags/data-imbalance
-  description: 데이터 불균형 관련 논문들
-
-Data Augmentation:
-  label: Data Augmentation
-  permalink: /papers/tags/data-augmentation
-  description: 데이터 증강 관련 논문들
-
-Oversampling:
-  label: Oversampling
-  permalink: /papers/tags/oversampling
-  description: 오버샘플링 관련 논문들
-
-# 기타 기술 관련
-Transfer Learning:
-  label: Transfer Learning
-  permalink: /papers/tags/transfer-learning
-  description: 전이 학습 관련 논문들
+Generative Artificial Intelligence:
+  name: "Generative Artificial Intelligence"
+  description: "생성형 인공지능"
+  color: "#96CEB4"
 
 Large Language Models:
-  label: Large Language Models
-  permalink: /papers/tags/large-language-models
-  description: 대규모 언어 모델 관련 논문들
-
-Generative AI:
-  label: Generative AI
-  permalink: /papers/tags/generative-ai
-  description: 생성형 AI 관련 논문들
-
-Survey:
-  label: Survey
-  permalink: /papers/tags/survey
-  description: 설문 조사 및 리뷰 논문들
-
-Materials Discovery:
-  label: Materials Discovery
-  permalink: /papers/tags/materials-discovery
-  description: 재료 발견 관련 논문들
-
-Graph Neural Networks:
-  label: Graph Neural Networks
-  permalink: /papers/tags/graph-neural-networks
-  description: 그래프 신경망 관련 논문들
-
-# 추가 태그들
-Plant Identification:
-  label: Plant Identification
-  permalink: /papers/tags/plant-identification
-  description: 식물 식별 관련 논문들
-
-Image Classification:
-  label: Image Classification
-  permalink: /papers/tags/image-classification
-  description: 이미지 분류 관련 논문들
-
-Self-Supervised Learning:
-  label: Self-Supervised Learning
-  permalink: /papers/tags/self-supervised-learning
-  description: 자기지도 학습 관련 논문들
-
-Vision Transformer:
-  label: Vision Transformer
-  permalink: /papers/tags/vision-transformer
-  description: 비전 트랜스포머 관련 논문들
-
-ChatGPT:
-  label: ChatGPT
-  permalink: /papers/tags/chatgpt
-  description: ChatGPT 관련 논문들
-
-# GPT 모델 관련
-GPT-4.1:
-  label: GPT-4.1
-  permalink: /papers/tags/gpt-4-1
-  description: GPT-4.1 모델 관련 논문들
-
-# 문제 해결 관련 (통합)
-Problem Solving:
-  label: Problem Solving
-  permalink: /papers/tags/problem-solving
-  description: 문제 해결 및 프로그래밍 챌린지 관련 논문들
-
-Competitive Programming:
-  label: Competitive Programming
-  permalink: /papers/tags/competitive-programming
-  description: 경쟁 프로그래밍 관련 논문들
-
-Collaboration:
-  label: Collaboration
-  permalink: /papers/tags/collaboration
-  description: 협업 관련 논문들
-
-Inclusive Learning:
-  label: Inclusive Learning
-  permalink: /papers/tags/inclusive-learning
-  description: 포용적 학습 관련 논문들
-
-Higher Education:
-  label: Higher Education
-  permalink: /papers/tags/higher-education
-  description: 고등 교육 관련 논문들
-
-Technology Acceptance:
-  label: Technology Acceptance
-  permalink: /papers/tags/technology-acceptance
-  description: 기술 수용 관련 논문들
-
-Student Perceptions:
-  label: Student Perceptions
-  permalink: /papers/tags/student-perceptions
-  description: 학생 인식 관련 논문들
-
-# TRINITY 관련 태그
-TRINITY:
-  label: TRINITY
-  permalink: /papers/tags/trinity
-  description: TRINITY 시스템 관련 논문들
-
-MDTRIE:
-  label: MDTRIE
-  permalink: /papers/tags/mdtrie
-  description: MDTRIE 관련 논문들
-
-Multi-attribute Data Store:
-  label: Multi-attribute Data Store
-  permalink: /papers/tags/multi-attribute-data-store
-  description: 다중 속성 데이터 저장소 관련 논문들
-
-Compressed Data:
-  label: Compressed Data
-  permalink: /papers/tags/compressed-data
-  description: 압축 데이터 관련 논문들
-
-Real-time Analytics:
-  label: Real-time Analytics
-  permalink: /papers/tags/real-time-analytics
-  description: 실시간 분석 관련 논문들
-
-Space-filling Curves:
-  label: Space-filling Curves
-  permalink: /papers/tags/space-filling-curves
-  description: 공간 채우기 곡선 관련 논문들
-
-Morton Code:
-  label: Morton Code
-  permalink: /papers/tags/morton-code
-  description: 모튼 코드 관련 논문들
-
-Hierarchical Indexing:
-  label: Hierarchical Indexing
-  permalink: /papers/tags/hierarchical-indexing
-  description: 계층적 인덱싱 관련 논문들
-
-Dynamic Data Structure:
-  label: Dynamic Data Structure
-  permalink: /papers/tags/dynamic-data-structure
-  description: 동적 데이터 구조 관련 논문들
-
-# 기타 기술 태그들
-Internet of Things:
-  label: Internet of Things
-  permalink: /papers/tags/internet-of-things
-  description: 사물인터넷 관련 논문들
-
-Cloud Infrastructure:
-  label: Cloud Infrastructure
-  permalink: /papers/tags/cloud-infrastructure
-  description: 클라우드 인프라 관련 논문들
-
-Application Programming Interfaces:
-  label: Application Programming Interfaces
-  permalink: /papers/tags/application-programming-interfaces
-  description: 애플리케이션 프로그래밍 인터페이스 관련 논문들
-
-Automation Tools:
-  label: Automation Tools
-  permalink: /papers/tags/automation-tools
-  description: 자동화 도구 관련 논문들
-
-Active Learning:
-  label: Active Learning
-  permalink: /papers/tags/active-learning
-  description: 활성 학습 관련 논문들
-
-Computational Materials Science:
-  label: Computational Materials Science
-  permalink: /papers/tags/computational-materials-science
-  description: 계산 재료 과학 관련 논문들
-
-Density Functional Theory:
-  label: Density Functional Theory
-  permalink: /papers/tags/density-functional-theory
-  description: 밀도 범함수 이론 관련 논문들
-
-Interatomic Potentials:
-  label: Interatomic Potentials
-  permalink: /papers/tags/interatomic-potentials
-  description: 원자간 전위 관련 논문들
-
-GNoME:
-  label: GNoME
-  permalink: /papers/tags/gnome
-  description: GNoME 시스템 관련 논문들
-
-# 공정 및 최적화 관련
-Process Reverse Design:
-  label: Process Reverse Design
-  permalink: /papers/tags/process-reverse-design
-  description: 공정 역설계 관련 논문들
-
-Optimization:
-  label: Optimization
-  permalink: /papers/tags/optimization
-  description: 최적화 관련 논문들
-
-Simulation:
-  label: Simulation
-  permalink: /papers/tags/simulation
-  description: 시뮬레이션 관련 논문들
-
-Regression Chain:
-  label: Regression Chain
-  permalink: /papers/tags/regression-chain
-  description: 회귀 체인 관련 논문들
-
-Data Change Rate:
-  label: Data Change Rate
-  permalink: /papers/tags/data-change-rate
-  description: 데이터 변동률 관련 논문들
-
-Correlation Analysis:
-  label: Correlation Analysis
-  permalink: /papers/tags/correlation-analysis
-  description: 상관 분석 관련 논문들
-
-Error Propagation:
-  label: Error Propagation
-  permalink: /papers/tags/error-propagation
-  description: 오차 전파 관련 논문들
-
-Tensile Properties:
-  label: Tensile Properties
-  permalink: /papers/tags/tensile-properties
-  description: 인장 특성 관련 논문들
-
-Hessian Matrix:
-  label: Hessian Matrix
-  permalink: /papers/tags/hessian-matrix
-  description: 헤시안 행렬 관련 논문들
-
-Optimization Landscape:
-  label: Optimization Landscape
-  permalink: /papers/tags/optimization-landscape
-  description: 최적화 경관 관련 논문들
-
-Foundation Models:
-  label: Foundation Models
-  permalink: /papers/tags/foundation-models
-  description: 기반 모델 관련 논문들
-
-# 기계 번역 관련
-Neural Machine Translation:
-  label: Neural Machine Translation
-  permalink: /papers/tags/neural-machine-translation
-  description: 신경망 기계 번역 관련 논문들
-
-# 코드 생성 관련
-Code Generation:
-  label: Code Generation
-  permalink: /papers/tags/code-generation
-  description: 코드 생성 관련 논문들
-
-Test Case:
-  label: Test Case
-  permalink: /papers/tags/test-case
-  description: 테스트 케이스 관련 논문들
-
-Zero-Shot Prompting:
-  label: Zero-Shot Prompting
-  permalink: /papers/tags/zero-shot-prompting
-  description: 제로샷 프롬프팅 관련 논문들
-
-Reliability:
-  label: Reliability
-  permalink: /papers/tags/reliability
-  description: 신뢰성 관련 논문들
-
-Accuracy:
-  label: Accuracy
-  permalink: /papers/tags/accuracy
-  description: 정확도 관련 논문들
-
-# 교육 기술 관련
-Educational Technology:
-  label: Educational Technology
-  permalink: /papers/tags/educational-technology
-  description: 교육 기술 관련 논문들
-
-# 차분 테스트 관련
-Differential Testing:
-  label: Differential Testing
-  permalink: /papers/tags/differential-testing
-  description: 차분 테스트 관련 논문들
-
-# 성능 향상 관련
-Performance Improvement:
-  label: Performance Improvement
-  permalink: /papers/tags/performance-improvement
-  description: 성능 향상 관련 논문들
-
-# 품질 평가 관련
-Quality Assessment:
-  label: Quality Assessment
-  permalink: /papers/tags/quality-assessment
-  description: 품질 평가 관련 논문들
-
-# 고처리량 스크리닝 관련
-High-Throughput Screening:
-  label: High-Throughput Screening
-  permalink: /papers/tags/high-throughput-screening
-  description: 고처리량 스크리닝 관련 논문들
-
-# 프로그래밍 교육 관련
-Programming Education:
-  label: Programming Education
-  permalink: /papers/tags/programming-education
-  description: 프로그래밍 교육 관련 논문들
-
-# 교육에서의 AI 활용 관련
-AI in Education:
-  label: AI in Education
-  permalink: /papers/tags/ai-in-education
-  description: 교육에서의 AI 활용 관련 논문들
-
-# 새로 추가된 태그들
-Hybrid Model:
-  label: Hybrid Model
-  permalink: /papers/tags/hybrid-model
-  description: 하이브리드 모델 관련 논문들
-
-Feature Extraction:
-  label: Feature Extraction
-  permalink: /papers/tags/feature-extraction
-  description: 특징 추출 관련 논문들
-
-Neural Networks:
-  label: Neural Networks
-  permalink: /papers/tags/neural-networks
-  description: 신경망 관련 논문들
-
-Adversarial Training:
-  label: Adversarial Training
-  permalink: /papers/tags/adversarial-training
-  description: 적대적 훈련 관련 논문들
-
-Residual Learning:
-  label: Residual Learning
-  permalink: /papers/tags/residual-learning
-  description: 잔차 학습 관련 논문들
-
-Image Recognition:
-  label: Image Recognition
-  permalink: /papers/tags/image-recognition
-  description: 이미지 인식 관련 논문들
-
-Object Detection:
-  label: Object Detection
-  permalink: /papers/tags/object-detection
-  description: 객체 탐지 관련 논문들
-
-Convolutional Neural Networks:
-  label: Convolutional Neural Networks
-  permalink: /papers/tags/convolutional-neural-networks
-  description: 합성곱 신경망 관련 논문들
-
-CNN:
-  label: CNN
-  permalink: /papers/tags/cnn
-  description: CNN 관련 논문들
-
-ResNet:
-  label: ResNet
-  permalink: /papers/tags/resnet
-  description: ResNet 관련 논문들
-
-Shortcut Connections:
-  label: Shortcut Connections
-  permalink: /papers/tags/shortcut-connections
-  description: 단축 연결 관련 논문들
-
-Degradation Problem:
-  label: Degradation Problem
-  permalink: /papers/tags/degradation-problem
-  description: 성능 저하 문제 관련 논문들
-
-ImageNet:
-  label: ImageNet
-  permalink: /papers/tags/imagenet
-  description: ImageNet 관련 논문들
-
-COCO:
-  label: COCO
-  permalink: /papers/tags/coco
-  description: COCO 데이터셋 관련 논문들
-
-AlphaGo:
-  label: AlphaGo
-  permalink: /papers/tags/alphago
-  description: AlphaGo 관련 논문들
-
-Game AI:
-  label: Game AI
-  permalink: /papers/tags/game-ai
-  description: 게임 AI 관련 논문들
-
-Text Recognition:
-  label: Text Recognition
-  permalink: /papers/tags/text-recognition
-  description: 텍스트 인식 관련 논문들
-
-VGG Network:
-  label: VGG Network
-  permalink: /papers/tags/vgg-network
-  description: VGG 네트워크 관련 논문들
+  name: "Large Language Models"
+  description: "대규모 언어 모델"
+  color: "#FFEAA7"
+
+# Computer Vision & Image Processing
+Computer Vision:
+  name: "Computer Vision"
+  description: "컴퓨터 비전 및 이미지 처리"
+  color: "#DDA0DD"
 
 Image Processing:
-  label: Image Processing
-  permalink: /papers/tags/image-processing
-  description: 이미지 처리 관련 논문들
+  name: "Image Processing"
+  description: "이미지 처리 기술"
+  color: "#98D8C8"
 
-Data Mining:
-  label: Data Mining
-  permalink: /papers/tags/data-mining
-  description: 데이터 마이닝 관련 논문들
+Convolutional Neural Networks:
+  name: "Convolutional Neural Networks"
+  description: "합성곱 신경망"
+  color: "#F7DC6F"
 
-Ensemble Methods:
-  label: Ensemble Methods
-  permalink: /papers/tags/ensemble-methods
-  description: 앙상블 방법 관련 논문들
+Vision Transformer:
+  name: "Vision Transformer"
+  description: "비전 트랜스포머"
+  color: "#BB8FCE"
 
-# DYETEC Project 관련 태그
-DYETEC PROJ 2:
-  label: DYETEC PROJ 2
-  permalink: /papers/tags/dyetec-proj-2
-  description: DYETEC Project 2 관련 논문들
+# Natural Language Processing
+Natural Language Processing:
+  name: "Natural Language Processing"
+  description: "자연어 처리"
+  color: "#85C1E9"
 
-# 추가 누락된 태그들
-Scene Text Recognition:
-  label: Scene Text Recognition
-  permalink: /papers/tags/scene-text-recognition
-  description: 장면 텍스트 인식 관련 논문들
+Transformer:
+  name: "Transformer"
+  description: "트랜스포머 아키텍처"
+  color: "#82E0AA"
 
-Image Based Sequence Recognition:
-  label: Image Based Sequence Recognition
-  permalink: /papers/tags/image-based-sequence-recognition
-  description: 이미지 기반 시퀀스 인식 관련 논문들
-
-Convolutional Recurrent Neural Network:
-  label: Convolutional Recurrent Neural Network
-  permalink: /papers/tags/convolutional-recurrent-neural-network
-  description: 합성곱 순환 신경망 관련 논문들
-
-CRNN:
-  label: CRNN
-  permalink: /papers/tags/crnn
-  description: CRNN 관련 논문들
-
-End To End Training:
-  label: End To End Training
-  permalink: /papers/tags/end-to-end-training
-  description: 종단간 훈련 관련 논문들
-
-OCR:
-  label: OCR
-  permalink: /papers/tags/ocr
-  description: 광학 문자 인식 관련 논문들
-
-Go:
-  label: Go
-  permalink: /papers/tags/go
-  description: 바둑 게임 관련 논문들
-
-Tree Search:
-  label: Tree Search
-  permalink: /papers/tags/tree-search
-  description: 트리 탐색 관련 논문들
-
+# Reinforcement Learning
 Reinforcement Learning:
-  label: Reinforcement Learning
-  permalink: /papers/tags/reinforcement-learning
-  description: 강화 학습 관련 논문들
+  name: "Reinforcement Learning"
+  description: "강화학습"
+  color: "#F1948A"
 
-Supervised Learning:
-  label: Supervised Learning
-  permalink: /papers/tags/supervised-learning
-  description: 지도 학습 관련 논문들
+Q-learning:
+  name: "Q-learning"
+  description: "Q-러닝 알고리즘"
+  color: "#85C1E9"
 
 Monte Carlo Tree Search:
-  label: Monte Carlo Tree Search
-  permalink: /papers/tags/monte-carlo-tree-search
-  description: 몬테카를로 트리 탐색 관련 논문들
+  name: "Monte Carlo Tree Search"
+  description: "몬테카를로 트리 탐색"
+  color: "#D7BDE2"
 
-Value Networks:
-  label: Value Networks
-  permalink: /papers/tags/value-networks
-  description: 가치 네트워크 관련 논문들
+# Generative Models
+Generative Adversarial Networks:
+  name: "Generative Adversarial Networks"
+  description: "생성적 적대 신경망"
+  color: "#F9E79F"
 
-Policy Networks:
-  label: Policy Networks
-  permalink: /papers/tags/policy-networks
-  description: 정책 네트워크 관련 논문들
+Generative Model:
+  name: "Generative Model"
+  description: "생성 모델"
+  color: "#AED6F1"
 
-Generative Adversarial Nets:
-  label: Generative Adversarial Nets
-  permalink: /papers/tags/generative-adversarial-nets
-  description: 생성적 적대 신경망 관련 논문들
+# Materials Science
+Materials Science:
+  name: "Materials Science"
+  description: "재료과학"
+  color: "#A9DFBF"
 
-GAN:
-  label: GAN
-  permalink: /papers/tags/gan
-  description: GAN 관련 논문들
+Explainable Artificial Intelligence:
+  name: "Explainable Artificial Intelligence"
+  description: "설명가능한 인공지능"
+  color: "#FADBD8"
 
-Generative Models:
-  label: Generative Models
-  permalink: /papers/tags/generative-models
-  description: 생성 모델 관련 논문들
-
-Discriminative Models:
-  label: Discriminative Models
-  permalink: /papers/tags/discriminative-models
-  description: 판별 모델 관련 논문들
-
-Unsupervised Learning:
-  label: Unsupervised Learning
-  permalink: /papers/tags/unsupervised-learning
-  description: 비지도 학습 관련 논문들
-
-Backpropagation:
-  label: Backpropagation
-  permalink: /papers/tags/backpropagation
-  description: 역전파 관련 논문들
-
-Minimax Game:
-  label: Minimax Game
-  permalink: /papers/tags/minimax-game
-  description: 미니맥스 게임 관련 논문들
-
-Yarn Strength:
-  label: Yarn Strength
-  permalink: /papers/tags/yarn-strength
-  description: 원사 강도 관련 논문들
-
-Prediction:
-  label: Prediction
-  permalink: /papers/tags/prediction
-  description: 예측 관련 논문들
-
-Artificial Neural Network:
-  label: Artificial Neural Network
-  permalink: /papers/tags/artificial-neural-network
-  description: 인공 신경망 관련 논문들
-
-Feed Forward Back Propagation:
-  label: Feed Forward Back Propagation
-  permalink: /papers/tags/feed-forward-back-propagation
-  description: 순전파 역전파 관련 논문들
-
-Regression:
-  label: Regression
-  permalink: /papers/tags/regression
-  description: 회귀 분석 관련 논문들
-
-Roving:
-  label: Roving
-  permalink: /papers/tags/roving
-  description: 로빙 관련 논문들
-
-XGBoost:
-  label: XGBoost
-  permalink: /papers/tags/xgboost
-  description: XGBoost 관련 논문들
-
-Tree Boosting:
-  label: Tree Boosting
-  permalink: /papers/tags/tree-boosting
-  description: 트리 부스팅 관련 논문들
-
-Gradient Boosting:
-  label: Gradient Boosting
-  permalink: /papers/tags/gradient-boosting
-  description: 그래디언트 부스팅 관련 논문들
-
-Scalable Machine Learning:
-  label: Scalable Machine Learning
-  permalink: /papers/tags/scalable-machine-learning
-  description: 확장 가능한 기계 학습 관련 논문들
-
-Parallel Computing:
-  label: Parallel Computing
-  permalink: /papers/tags/parallel-computing
-  description: 병렬 컴퓨팅 관련 논문들
-
-Distributed Computing:
-  label: Distributed Computing
-  permalink: /papers/tags/distributed-computing
-  description: 분산 컴퓨팅 관련 논문들
-
-Out Of Core:
-  label: Out Of Core
-  permalink: /papers/tags/out-of-core
-  description: 아웃 오브 코어 관련 논문들
-
-Sparsity Aware:
-  label: Sparsity Aware
-  permalink: /papers/tags/sparsity-aware
-  description: 희소성 인식 관련 논문들
-
-Hessian Analysis:
-  label: Hessian Analysis
-  permalink: /papers/tags/hessian-analysis
-  description: 헤시안 분석 관련 논문들
-
-Theoretical Analysis:
-  label: Theoretical Analysis
-  permalink: /papers/tags/theoretical-analysis
-  description: 이론적 분석 관련 논문들
-
-Mathematical Analysis:
-  label: Mathematical Analysis
-  permalink: /papers/tags/mathematical-analysis
-  description: 수학적 분석 관련 논문들
-
-Large-Scale Classification:
-  label: Large-Scale Classification
-  permalink: /papers/tags/large-scale-classification
-  description: 대규모 분류 관련 논문들
-
-Future Trends:
-  label: Future Trends
-  permalink: /papers/tags/future-trends
-  description: 미래 동향 관련 논문들
-
-Testing Challenges:
-  label: Testing Challenges
-  permalink: /papers/tags/testing-challenges
-  description: 테스팅 도전과제 관련 논문들
-
-Testing Opportunities:
-  label: Testing Opportunities
-  permalink: /papers/tags/testing-opportunities
-  description: 테스팅 기회 관련 논문들
-
-Quality Assurance:
-  label: Quality Assurance
-  permalink: /papers/tags/quality-assurance
-  description: 품질 보증 관련 논문들
-
-Test Automation:
-  label: Test Automation
-  permalink: /papers/tags/test-automation
-  description: 테스트 자동화 관련 논문들
-
-Industry Analysis:
-  label: Industry Analysis
-  permalink: /papers/tags/industry-analysis
-  description: 산업 분석 관련 논문들
-
-Automated Inspection:
-  label: Automated Inspection
-  permalink: /papers/tags/automated-inspection
-  description: 자동화 검사 관련 논문들
-
-Motif Based:
-  label: Motif Based
-  permalink: /papers/tags/motif-based
-  description: 모티프 기반 관련 논문들
-
-Texture Analysis:
-  label: Texture Analysis
-  permalink: /papers/tags/texture-analysis
-  description: 텍스처 분석 관련 논문들
-
+# Textile & Manufacturing
 Textile Industry:
-  label: Textile Industry
-  permalink: /papers/tags/textile-industry
-  description: 섬유 산업 관련 논문들
+  name: "Textile Industry"
+  description: "섬유 산업"
+  color: "#D5DBDB"
 
-AI Adoption:
-  label: AI Adoption
-  permalink: /papers/tags/ai-adoption
-  description: AI 도입 관련 논문들
-
-AI in Testing:
-  label: AI in Testing
-  permalink: /papers/tags/ai-in-testing
-  description: 테스팅에서의 AI 활용 관련 논문들
-
-Automated Testing:
-  label: Automated Testing
-  permalink: /papers/tags/automated-testing
-  description: 자동화 테스팅 관련 논문들
-
-Industry Applications:
-  label: Industry Applications
-  permalink: /papers/tags/industry-applications
-  description: 산업 응용 관련 논문들
-
-Neural Style Transfer:
-  label: Neural Style Transfer
-  permalink: /papers/tags/neural-style-transfer
-  description: 신경 스타일 전이 관련 논문들
-
-Artistic Style:
-  label: Artistic Style
-  permalink: /papers/tags/artistic-style
-  description: 예술적 스타일 관련 논문들
-
-Content Representation:
-  label: Content Representation
-  permalink: /papers/tags/content-representation
-  description: 콘텐츠 표현 관련 논문들
-
-Style Representation:
-  label: Style Representation
-  permalink: /papers/tags/style-representation
-  description: 스타일 표현 관련 논문들
-
-Image Synthesis:
-  label: Image Synthesis
-  permalink: /papers/tags/image-synthesis
-  description: 이미지 합성 관련 논문들
-
-Fabric Defect:
-  label: Fabric Defect
-  permalink: /papers/tags/fabric-defect
-  description: 직물 결함 관련 논문들
-
-Defect Classification:
-  label: Defect Classification
-  permalink: /papers/tags/defect-classification
-  description: 결함 분류 관련 논문들
-
-Support Vector Machine:
-  label: Support Vector Machine
-  permalink: /papers/tags/support-vector-machine
-  description: 서포트 벡터 머신 관련 논문들
-
-GoogLeNet:
-  label: GoogLeNet
-  permalink: /papers/tags/googlenet
-  description: GoogLeNet 관련 논문들
-
-Polyester Fiber:
-  label: Polyester Fiber
-  permalink: /papers/tags/polyester-fiber
-  description: 폴리에스터 섬유 관련 논문들
-
-Dyeing Color Prediction:
-  label: Dyeing Color Prediction
-  permalink: /papers/tags/dyeing-color-prediction
-  description: 염색 색상 예측 관련 논문들
-
-Color Prediction:
-  label: Color Prediction
-  permalink: /papers/tags/color-prediction
-  description: 색상 예측 관련 논문들
-
-LSTM:
-  label: LSTM
-  permalink: /papers/tags/lstm
-  description: LSTM 관련 논문들
-
-MLP:
-  label: MLP
-  permalink: /papers/tags/mlp
-  description: MLP 관련 논문들
-
-VGG-16:
-  label: VGG-16
-  permalink: /papers/tags/vgg-16
-  description: VGG-16 관련 논문들
-
-Fabric Defect Detection:
-  label: Fabric Defect Detection
-  permalink: /papers/tags/fabric-defect-detection
-  description: 직물 결함 탐지 관련 논문들
-
-Quality Control:
-  label: Quality Control
-  permalink: /papers/tags/quality-control
-  description: 품질 관리 관련 논문들
-
-Automation:
-  label: Automation
-  permalink: /papers/tags/automation
-  description: 자동화 관련 논문들
-
-# 추가 누락된 태그들 (2차)
-Texture Synthesis:
-  label: Texture Synthesis
-  permalink: /papers/tags/texture-synthesis
-  description: 텍스처 합성 관련 논문들
-
-Pattern Recognition:
-  label: Pattern Recognition
-  permalink: /papers/tags/pattern-recognition
-  description: 패턴 인식 관련 논문들
-
-Visual Inspection:
-  label: Visual Inspection
-  permalink: /papers/tags/visual-inspection
-  description: 시각적 검사 관련 논문들
+Manufacturing:
+  name: "Manufacturing"
+  description: "제조업"
+  color: "#FCF3CF"
 
 Smart Factory:
-  label: Smart Factory
-  permalink: /papers/tags/smart-factory
-  description: 스마트 팩토리 관련 논문들
+  name: "Smart Factory"
+  description: "스마트 팩토리"
+  color: "#D1F2EB"
 
-Sequential Processing:
-  label: Sequential Processing
-  permalink: /papers/tags/sequential-processing
-  description: 순차 처리 관련 논문들
+# Software Engineering & Testing
+Software Testing:
+  name: "Software Testing"
+  description: "소프트웨어 테스팅"
+  color: "#E8DAEF"
 
-Nonlinear Modeling:
-  label: Nonlinear Modeling
-  permalink: /papers/tags/nonlinear-modeling
-  description: 비선형 모델링 관련 논문들
+Web Testing:
+  name: "Web Testing"
+  description: "웹 테스팅"
+  color: "#D6EAF8"
 
-# 추가 누락된 태그들 (3차)
-Convolutional Neural Network:
-  label: Convolutional Neural Network
-  permalink: /papers/tags/convolutional-neural-network
-  description: 합성곱 신경망 관련 논문들
+Automation:
+  name: "Automation"
+  description: "자동화"
+  color: "#FAD7A0"
 
-Deep Neural Networks:
-  label: Deep Neural Networks
-  permalink: /papers/tags/deep-neural-networks
-  description: 심층 신경망 관련 논문들
+# Data Processing & Analysis
+Data Preprocessing:
+  name: "Data Preprocessing"
+  description: "데이터 전처리"
+  color: "#D5A6BD"
 
-# 햅틱스 및 게임 관련 태그들
-Haptics:
-  label: Haptics
-  permalink: /papers/tags/haptics
-  description: 햅틱스 관련 논문들
+Outlier:
+  name: "Outlier"
+  description: "이상치 처리"
+  color: "#A9CCE3"
 
-Sound-Haptic Conversion:
-  label: Sound-Haptic Conversion
-  permalink: /papers/tags/sound-haptic-conversion
-  description: 사운드-햅틱 변환 관련 논문들
+Data Imbalance:
+  name: "Data Imbalance"
+  description: "데이터 불균형"
+  color: "#F7DC6F"
 
-Audio-Haptic Conversion:
-  label: Audio-Haptic Conversion
-  permalink: /papers/tags/audio-haptic-conversion
-  description: 오디오-햅틱 변환 관련 논문들
+# Performance & Optimization
+Performance:
+  name: "Performance"
+  description: "성능 최적화"
+  color: "#AED6F1"
 
-Multimodal Haptic Effects:
-  label: Multimodal Haptic Effects
-  permalink: /papers/tags/multimodal-haptic-effects
-  description: 다중 모드 햅틱 효과 관련 논문들
+Optimization:
+  name: "Optimization"
+  description: "최적화"
+  color: "#A9DFBF"
 
-Automatic Generation:
-  label: Automatic Generation
-  permalink: /papers/tags/automatic-generation
-  description: 자동 생성 관련 논문들
+Scalability:
+  name: "Scalability"
+  description: "확장성"
+  color: "#F9E79F"
 
-Real-Time:
-  label: Real-Time
-  permalink: /papers/tags/real-time
-  description: 실시간 처리 관련 논문들
+# Review & Survey
+Review:
+  name: "Review"
+  description: "리뷰 논문"
+  color: "#D7BDE2"
 
-User Experience:
-  label: User Experience
-  permalink: /papers/tags/user-experience
-  description: 사용자 경험 관련 논문들
+Systematic Literature Review:
+  name: "Systematic Literature Review"
+  description: "체계적 문헌 고찰"
+  color: "#FADBD8"
 
+# Specific Applications
+Lightfastness:
+  name: "Lightfastness"
+  description: "내광성"
+  color: "#D5DBDB"
+
+Differential Testing:
+  name: "Differential Testing"
+  description: "차분 테스팅"
+  color: "#FCF3CF"
+
+Plant Identification:
+  name: "Plant Identification"
+  description: "식물 식별"
+  color: "#D1F2EB"
+
+# Gaming & Virtual Reality
 Virtual Reality:
-  label: Virtual Reality
-  permalink: /papers/tags/virtual-reality
-  description: 가상현실 관련 논문들
+  name: "Virtual Reality"
+  description: "가상현실"
+  color: "#E8DAEF"
 
-Haptic Suit:
-  label: Haptic Suit
-  permalink: /papers/tags/haptic-suit
-  description: 햅틱 슈트 관련 논문들
-
-Full Body:
-  label: Full Body
-  permalink: /papers/tags/full-body
-  description: 전신 관련 논문들
-
-Motion Effect:
-  label: Motion Effect
-  permalink: /papers/tags/motion-effect
-  description: 모션 효과 관련 논문들
-
-Viewing Experience:
-  label: Viewing Experience
-  permalink: /papers/tags/viewing-experience
-  description: 시청 경험 관련 논문들
+Haptics:
+  name: "Haptics"
+  description: "햅틱 기술"
+  color: "#D6EAF8"
 
 First Person Shooter:
-  label: First Person Shooter
-  permalink: /papers/tags/first-person-shooter
-  description: 1인칭 슈팅 게임 관련 논문들
+  name: "First Person Shooter"
+  description: "1인칭 슈팅 게임"
+  color: "#FAD7A0"
 
-Gameplay:
-  label: Gameplay
-  permalink: /papers/tags/gameplay
-  description: 게임플레이 관련 논문들
+# Education
+Computing Education:
+  name: "Computing Education"
+  description: "컴퓨팅 교육"
+  color: "#D5A6BD"
 
-Motion Chair:
-  label: Motion Chair
-  permalink: /papers/tags/motion-chair
-  description: 모션 체어 관련 논문들
+Teaching Practices:
+  name: "Teaching Practices"
+  description: "교육 실천"
+  color: "#A9CCE3"
 
-4D Experience:
-  label: 4D Experience
-  permalink: /papers/tags/4d-experience
-  description: 4D 경험 관련 논문들
+# Data Structures & Algorithms
+Data Store:
+  name: "Data Store"
+  description: "데이터 저장소"
+  color: "#F7DC6F"
 
-Semantic Sound Classification:
-  label: Semantic Sound Classification
-  permalink: /papers/tags/semantic-sound-classification
-  description: 시맨틱 사운드 분류 관련 논문들
+Multi-dimensional Index:
+  name: "Multi-dimensional Index"
+  description: "다차원 인덱스"
+  color: "#AED6F1"
 
-Random Forest:
-  label: Random Forest
-  permalink: /papers/tags/random-forest
-  description: 랜덤 포레스트 관련 논문들
+# Specific Technologies
+AlphaGo:
+  name: "AlphaGo"
+  description: "알파고"
+  color: "#A9DFBF"
 
-# 새로 추가된 태그들 (재료 과학 및 XAI 관련)
-Biodegradable Polymers:
-  label: Biodegradable Polymers
-  permalink: /papers/tags/biodegradable-polymers
-  description: 생분해성 고분자 관련 논문들
+DeepMind:
+  name: "DeepMind"
+  description: "딥마인드"
+  color: "#F9E79F"
 
-Sustainable Materials:
-  label: Sustainable Materials
-  permalink: /papers/tags/sustainable-materials
-  description: 지속 가능한 재료 관련 논문들
+XGBoost:
+  name: "XGBoost"
+  description: "XGBoost 알고리즘"
+  color: "#D7BDE2"
 
-Generative Models:
-  label: Generative Models
-  permalink: /papers/tags/generative-models
-  description: 생성 모델 관련 논문들
+# Quality Control
+Quality Control:
+  name: "Quality Control"
+  description: "품질 관리"
+  color: "#FADBD8"
 
+Fabric Defect Detection:
+  name: "Fabric Defect Detection"
+  description: "직물 결함 검출"
+  color: "#D5DBDB"
+
+# Transfer Learning
+Transfer Learning:
+  name: "Transfer Learning"
+  description: "전이학습"
+  color: "#FCF3CF"
+
+Self-Supervised Learning:
+  name: "Self-Supervised Learning"
+  description: "자기지도학습"
+  color: "#D1F2EB"
+
+Few-Shot Learning:
+  name: "Few-Shot Learning"
+  description: "소수샷 학습"
+  color: "#E8DAEF"
+
+# Prompt Engineering
+Prompt Engineering:
+  name: "Prompt Engineering"
+  description: "프롬프트 엔지니어링"
+  color: "#D6EAF8"
+
+# Competitive Programming
+Competitive Programming:
+  name: "Competitive Programming"
+  description: "경쟁 프로그래밍"
+  color: "#FAD7A0"
+
+Code Generation:
+  name: "Code Generation"
+  description: "코드 생성"
+  color: "#D5A6BD"
+
+# Internet of Things & Cloud
+Internet of Things:
+  name: "Internet of Things"
+  description: "사물인터넷"
+  color: "#A9CCE3"
+
+Cloud:
+  name: "Cloud"
+  description: "클라우드"
+  color: "#F7DC6F"
+
+# Future Trends
+Future Trends:
+  name: "Future Trends"
+  description: "미래 동향"
+  color: "#AED6F1"
+
+# Position Paper
+Position Paper:
+  name: "Position Paper"
+  description: "포지션 페이퍼"
+  color: "#A9DFBF"
+
+# Agentic AI
+Agentic Artificial Intelligence:
+  name: "Agentic Artificial Intelligence"
+  description: "에이전트 AI"
+  color: "#F9E79F"
+
+# Language Models
+Language Models:
+  name: "Language Models"
+  description: "언어 모델"
+  color: "#D7BDE2"
+
+# Software Engineering
+Software Engineering:
+  name: "Software Engineering"
+  description: "소프트웨어 공학"
+  color: "#FADBD8"
+
+# AI in Testing
+Artificial Intelligence in Testing:
+  name: "Artificial Intelligence in Testing"
+  description: "테스팅에서의 AI"
+  color: "#D5DBDB"
+
+# ChatGPT
+ChatGPT:
+  name: "ChatGPT"
+  description: "ChatGPT"
+  color: "#FCF3CF"
+
+# Performance Evaluation
+Performance Evaluation:
+  name: "Performance Evaluation"
+  description: "성능 평가"
+  color: "#D1F2EB"
+
+# Efficiency
+Efficiency:
+  name: "Efficiency"
+  description: "효율성"
+  color: "#E8DAEF"
+
+# Long-context
+Long-context:
+  name: "Long-context"
+  description: "긴 맥락"
+  color: "#D6EAF8"
+
+# Architecture
+Architecture:
+  name: "Architecture"
+  description: "아키텍처"
+  color: "#FAD7A0"
+
+# State Space Models
+State Space Models:
+  name: "State Space Models"
+  description: "상태 공간 모델"
+  color: "#D5A6BD"
+
+# Style Transfer
+Style Transfer:
+  name: "Style Transfer"
+  description: "스타일 전이"
+  color: "#A9CCE3"
+
+# VGGNet
+VGGNet:
+  name: "VGGNet"
+  description: "VGGNet"
+  color: "#F7DC6F"
+
+# Artificial Neural Networks
+Artificial Neural Networks:
+  name: "Artificial Neural Networks"
+  description: "인공신경망"
+  color: "#AED6F1"
+
+# Predictive Modeling
+Predictive Modeling:
+  name: "Predictive Modeling"
+  description: "예측 모델링"
+  color: "#A9DFBF"
+
+# Optical Character Recognition
+Optical Character Recognition:
+  name: "Optical Character Recognition"
+  description: "광학 문자 인식"
+  color: "#F9E79F"
+
+# Scene Text Recognition
+Scene Text Recognition:
+  name: "Scene Text Recognition"
+  description: "장면 텍스트 인식"
+  color: "#D7BDE2"
+
+# Convolutional Recurrent Neural Networks
+Convolutional Recurrent Neural Networks:
+  name: "Convolutional Recurrent Neural Networks"
+  description: "CRNN"
+  color: "#FADBD8"
+
+# End-to-End
+End-to-End:
+  name: "End-to-End"
+  description: "엔드투엔드"
+  color: "#D5DBDB"
+
+# SHAP
 SHAP:
-  label: SHAP
-  permalink: /papers/tags/shap
-  description: SHAP 분석 관련 논문들
+  name: "SHAP"
+  description: "SHAP"
+  color: "#FCF3CF"
 
+# LIME
 LIME:
-  label: LIME
-  permalink: /papers/tags/lime
-  description: LIME 설명 기법 관련 논문들
+  name: "LIME"
+  description: "LIME"
+  color: "#D1F2EB"
 
-Kernel:
-  label: Kernel
-  permalink: /papers/tags/kernel
-  description: 커널 방법 관련 논문들
+# Feature Attribution
+Feature Attribution:
+  name: "Feature Attribution"
+  description: "특성 귀속"
+  color: "#E8DAEF"
 
-ES:
-  label: ES
-  permalink: /papers/tags/es
-  description: Equal Surplus 관련 논문들
+# Sound Classification
+Sound Classification:
+  name: "Sound Classification"
+  description: "음향 분류"
+  color: "#D6EAF8"
 
-FESP:
-  label: FESP
-  permalink: /papers/tags/fesp
-  description: Fair Efficient Symmetric Perturbation 관련 논문들
+# Long Short-Term Memory
+Long Short-Term Memory:
+  name: "Long Short-Term Memory"
+  description: "LSTM"
+  color: "#FAD7A0"
 
-LS prenucleolus:
-  label: LS prenucleolus
-  permalink: /papers/tags/ls-prenucleolus
-  description: LS 프레뉴클레오루스 관련 논문들
+# User Experience
+User Experience:
+  name: "User Experience"
+  description: "사용자 경험"
+  color: "#D5A6BD"
 
-Additive Feature Attribution:
-  label: Additive Feature Attribution
-  permalink: /papers/tags/additive-feature-attribution
-  description: 가법적 특징 기여도 관련 논문들
+# Motion Chair
+Motion Chair:
+  name: "Motion Chair"
+  description: "모션 체어"
+  color: "#A9CCE3"
 
-Ceramic:
-  label: Ceramic
-  permalink: /papers/tags/ceramic
-  description: 세라믹 관련 논문들
+# 4D Experience
+4D Experience:
+  name: "4D Experience"
+  description: "4D 경험"
+  color: "#F7DC6F"
 
-TabNet:
-  label: TabNet
-  permalink: /papers/tags/tabnet
-  description: TabNet 모델 관련 논문들
+# Human-Computer Interaction
+Human-Computer Interaction:
+  name: "Human-Computer Interaction"
+  description: "인간-컴퓨터 상호작용"
+  color: "#AED6F1"
 
-Shapley:
-  label: Shapley
-  permalink: /papers/tags/shapley
-  description: Shapley 값 관련 논문들
+# Tree Boosting
+Tree Boosting:
+  name: "Tree Boosting"
+  description: "트리 부스팅"
+  color: "#A9DFBF"
 
-Materials Science:
-  label: Materials Science
-  permalink: /papers/tags/materials-science
-  description: 재료 과학 관련 논문들
+# Knowledge Discovery and Data Mining
+Knowledge Discovery and Data Mining:
+  name: "Knowledge Discovery and Data Mining"
+  description: "지식 발견 및 데이터 마이닝"
+  color: "#F9E79F"
 
-Materials Informatics:
-  label: Materials Informatics
-  permalink: /papers/tags/materials-informatics
-  description: 재료 정보학 관련 논문들
+# Neural Information Processing Systems
+Neural Information Processing Systems:
+  name: "Neural Information Processing Systems"
+  description: "NIPS"
+  color: "#D7BDE2"
 
-Shapley Values:
-  label: Shapley Values
-  permalink: /papers/tags/shapley-values
-  description: Shapley 값 관련 논문들
+# Supervised Learning
+Supervised Learning:
+  name: "Supervised Learning"
+  description: "지도학습"
+  color: "#FADBD8"
 
-Explainability:
-  label: Explainability
-  permalink: /papers/tags/explainability
-  description: 설명 가능성 관련 논문들
+# Biodegradable Polyesters
+Biodegradable Polyesters:
+  name: "Biodegradable Polyesters"
+  description: "생분해성 폴리에스터"
+  color: "#D5DBDB"
 
-Fiber reinforced Recycled Aggregate Concrete:
-  label: Fiber reinforced Recycled Aggregate Concrete
-  permalink: /papers/tags/fiber-reinforced-recycled-aggregate-concrete
-  description: 섬유보강 재생골재 콘크리트 관련 논문들
-
-Spilt Tensile Strength:
-  label: Spilt Tensile Strength
-  permalink: /papers/tags/spilt-tensile-strength
-  description: 쪼갬 인장강도 관련 논문들
-
-Gene expression programming:
-  label: Gene expression programming
-  permalink: /papers/tags/gene-expression-programming
-  description: 유전자 발현 프로그래밍 관련 논문들
-
-Eco-friendly Concrete:
-  label: Eco-friendly Concrete
-  permalink: /papers/tags/eco-friendly-concrete
-  description: 친환경 콘크리트 관련 논문들
-
-Biodegradability:
-  label: Biodegradability
-  permalink: /papers/tags/biodegradability
-  description: 생분해성 관련 논문들
-
-Molecular Generation:
-  label: Molecular Generation
-  permalink: /papers/tags/molecular-generation
-  description: 분자 생성 관련 논문들
-
+# Virtual Screening
 Virtual Screening:
-  label: Virtual Screening
-  permalink: /papers/tags/virtual-screening
-  description: 가상 스크리닝 관련 논문들
+  name: "Virtual Screening"
+  description: "가상 스크리닝"
+  color: "#FCF3CF"
 
-Polyesters:
-  label: Polyesters
-  permalink: /papers/tags/polyesters
-  description: 폴리에스터 관련 논문들
+# Cheminformatics
+Cheminformatics:
+  name: "Cheminformatics"
+  description: "화학정보학"
+  color: "#D1F2EB"
 
-Knowledge graph:
-  label: Knowledge graph
-  permalink: /papers/tags/knowledge-graph
-  description: 지식 그래프 관련 논문들
+# Sustainability
+Sustainability:
+  name: "Sustainability"
+  description: "지속가능성"
+  color: "#E8DAEF"
 
-element properties:
-  label: element properties
-  permalink: /papers/tags/element-properties
-  description: 원소 속성 관련 논문들
+# TabNet
+TabNet:
+  name: "TabNet"
+  description: "TabNet"
+  color: "#D6EAF8"
 
-multimodal representation:
-  label: multimodal representation
-  permalink: /papers/tags/multimodal-representation
-  description: 멀티모달 표현 관련 논문들
+# Data Augmentation
+Data Augmentation:
+  name: "Data Augmentation"
+  description: "데이터 증강"
+  color: "#FAD7A0"
 
-property prediction:
-  label: property prediction
-  permalink: /papers/tags/property-prediction
-  description: 물성 예측 관련 논문들
+# Regression
+Regression:
+  name: "Regression"
+  description: "회귀"
+  color: "#D5A6BD"
 
+# Polylactic Acid
+Polylactic Acid:
+  name: "Polylactic Acid"
+  description: "폴리락틱산"
+  color: "#A9CCE3"
+
+# Polyester
+Polyester:
+  name: "Polyester"
+  description: "폴리에스터"
+  color: "#F7DC6F"
+
+# Dyeing
+Dyeing:
+  name: "Dyeing"
+  description: "염색"
+  color: "#AED6F1"
+
+# Color Prediction
+Color Prediction:
+  name: "Color Prediction"
+  description: "색상 예측"
+  color: "#A9DFBF"
+
+# Multi-Layer Perceptron
+Multi-Layer Perceptron:
+  name: "Multi-Layer Perceptron"
+  description: "다층 퍼셉트론"
+  color: "#F9E79F"
+
+# Autoencoder
+Autoencoder:
+  name: "Autoencoder"
+  description: "오토인코더"
+  color: "#D7BDE2"
+
+# Gene Therapy
+Gene Therapy:
+  name: "Gene Therapy"
+  description: "유전자 치료"
+  color: "#FADBD8"
+
+# Drug Delivery
+Drug Delivery:
+  name: "Drug Delivery"
+  description: "약물 전달"
+  color: "#D5DBDB"
+
+# Knowledge Graph
+Knowledge Graph:
+  name: "Knowledge Graph"
+  description: "지식 그래프"
+  color: "#FCF3CF"
+
+# Property Prediction
+Property Prediction:
+  name: "Property Prediction"
+  description: "물성 예측"
+  color: "#D1F2EB"
+
+# Technology Acceptance Model
+Technology Acceptance Model:
+  name: "Technology Acceptance Model"
+  description: "기술수용모델"
+  color: "#E8DAEF"
+
+# Inclusive Learning
+Inclusive Learning:
+  name: "Inclusive Learning"
+  description: "포용적 학습"
+  color: "#D6EAF8"
+
+# Collaboration
+Collaboration:
+  name: "Collaboration"
+  description: "협업"
+  color: "#FAD7A0"
+
+# Higher Education
+Higher Education:
+  name: "Higher Education"
+  description: "고등교육"
+  color: "#D5A6BD"
+
+# Artificial Intelligence in Education
+Artificial Intelligence in Education:
+  name: "Artificial Intelligence in Education"
+  description: "교육에서의 AI"
+  color: "#A9CCE3"
+
+# Process Optimization
+Process Optimization:
+  name: "Process Optimization"
+  description: "공정 최적화"
+  color: "#F7DC6F"
+
+# Textile Manufacturing
+Textile Manufacturing:
+  name: "Textile Manufacturing"
+  description: "섬유 제조"
+  color: "#AED6F1"
+
+# Digital Transformation
+Digital Transformation:
+  name: "Digital Transformation"
+  description: "디지털 전환"
+  color: "#A9DFBF"
+
+# Computational Chemistry
+Computational Chemistry:
+  name: "Computational Chemistry"
+  description: "계산화학"
+  color: "#F9E79F"
+
+# Materials Discovery
+Materials Discovery:
+  name: "Materials Discovery"
+  description: "재료 발견"
+  color: "#D7BDE2"
+
+# Graph Neural Networks
+Graph Neural Networks:
+  name: "Graph Neural Networks"
+  description: "그래프 신경망"
+  color: "#FADBD8"
+
+# Density Functional Theory
+Density Functional Theory:
+  name: "Density Functional Theory"
+  description: "밀도 범함수 이론"
+  color: "#D5DBDB"
+
+# Active Learning
+Active Learning:
+  name: "Active Learning"
+  description: "능동학습"
+  color: "#FCF3CF"
+
+# Inorganic Crystals
+Inorganic Crystals:
+  name: "Inorganic Crystals"
+  description: "무기 결정"
+  color: "#D1F2EB"
+
+# Quality Assurance
+Quality Assurance:
+  name: "Quality Assurance"
+  description: "품질보증"
+  color: "#E8DAEF"
+
+# In-memory Database
+In-memory Database:
+  name: "In-memory Database"
+  description: "인메모리 데이터베이스"
+  color: "#D6EAF8"
+
+# Multi-attribute
+Multi-attribute:
+  name: "Multi-attribute"
+  description: "다중 속성"
+  color: "#FAD7A0"
+
+# Compressed Data
+Compressed Data:
+  name: "Compressed Data"
+  description: "압축 데이터"
+  color: "#D5A6BD"
+
+# Query Processing
+Query Processing:
+  name: "Query Processing"
+  description: "쿼리 처리"
+  color: "#A9CCE3"
+
+# Succinct Data Structure
+Succinct Data Structure:
+  name: "Succinct Data Structure"
+  description: "간결한 데이터 구조"
+  color: "#F7DC6F"
+
+# Morton Code
+Morton Code:
+  name: "Morton Code"
+  description: "모튼 코드"
+  color: "#AED6F1"
+
+# Materials Engineering
+Materials Engineering:
+  name: "Materials Engineering"
+  description: "재료공학"
+  color: "#A9DFBF"
+
+# Cement
+Cement:
+  name: "Cement"
+  description: "시멘트"
+  color: "#F9E79F"
+
+# Carbon Reduction
+Carbon Reduction:
+  name: "Carbon Reduction"
+  description: "탄소 저감"
+  color: "#D7BDE2"
+
+# Waste Recycling
+Waste Recycling:
+  name: "Waste Recycling"
+  description: "폐기물 재활용"
+  color: "#FADBD8"
+
+# Biodegradable Polymers
+Biodegradable Polymers:
+  name: "Biodegradable Polymers"
+  description: "생분해성 고분자"
+  color: "#E8F8F5"
+
+# Material Discovery
+Material Discovery:
+  name: "Material Discovery"
+  description: "재료 발견"
+  color: "#F0F8FF"
+
+# Sustainable Materials
+Sustainable Materials:
+  name: "Sustainable Materials"
+  description: "지속가능한 재료"
+  color: "#F5FFFA"
+
+# Generative Models
+Generative Models:
+  name: "Generative Models"
+  description: "생성 모델"
+  color: "#FFF8DC"
+
+# Small Language Models
+Small Language Models:
+  name: "Small Language Models"
+  description: "소규모 언어 모델"
+  color: "#F0E68C"
+
+# AI Agents
+AI Agents:
+  name: "AI Agents"
+  description: "AI 에이전트"
+  color: "#E6E6FA"
+
+# Model Deployment
+Model Deployment:
+  name: "Model Deployment"
+  description: "모델 배포"
+  color: "#F5DEB3"
+
+# AI Economics
+AI Economics:
+  name: "AI Economics"
+  description: "AI 경제학"
+  color: "#DDA0DD"
+
+# Agentic Artificial Intelligence
+Agentic Artificial Intelligence:
+  name: "Agentic Artificial Intelligence"
+  description: "에이전트 AI"
+  color: "#98FB98"
+
+# Adversarial Networks
+Adversarial Networks:
+  name: "Adversarial Networks"
+  description: "적대적 신경망"
+  color: "#FFB6C1"
+
+# Unsupervised Learning
+Unsupervised Learning:
+  name: "Unsupervised Learning"
+  description: "비지도학습"
+  color: "#D3D3D3"
+
+# Game Theory
+Game Theory:
+  name: "Game Theory"
+  description: "게임 이론"
+  color: "#F0E68C"
+
+# Explainability
+Explainability:
+  name: "Explainability"
+  description: "설명가능성"
+  color: "#FFE4B5"
+
+# Deep Neural Networks
+Deep Neural Networks:
+  name: "Deep Neural Networks"
+  description: "심층 신경망"
+  color: "#E0FFFF"
+
+# Fabric Defect
+Fabric Defect:
+  name: "Fabric Defect"
+  description: "직물 결함"
+  color: "#F5F5DC"
+
+# Support Vector Machine
+Support Vector Machine:
+  name: "Support Vector Machine"
+  description: "서포트 벡터 머신"
+  color: "#FFEFD5"
+
+# Cooperative Game Theory
+Cooperative Game Theory:
+  name: "Cooperative Game Theory"
+  description: "협력 게임 이론"
+  color: "#F0F8FF"
+
+# Additive Feature Attribution
+Additive Feature Attribution:
+  name: "Additive Feature Attribution"
+  description: "가산적 특성 귀속"
+  color: "#FFFACD"
+
+# Kernel
+Kernel:
+  name: "Kernel"
+  description: "커널"
+  color: "#F5F5F5"
+
+# Fuzzing
+Fuzzing:
+  name: "Fuzzing"
+  description: "퍼징"
+  color: "#E6E6FA"
+
+# SBST
+SBST:
+  name: "SBST"
+  description: "탐색 기반 소프트웨어 테스팅"
+  color: "#F0F8FF"
+
+# Front-end
+Front-end:
+  name: "Front-end"
+  description: "프론트엔드"
+  color: "#FFF8DC"
+
+# GUI Testing
+GUI Testing:
+  name: "GUI Testing"
+  description: "GUI 테스팅"
+  color: "#F5F5DC"
+
+# Survey
+Survey:
+  name: "Survey"
+  description: "서베이"
+  color: "#E0FFFF"
+
+# Deep Learning
+Deep Learning:
+  name: "Deep Learning"
+  description: "딥러닝"
+  color: "#F0F8FF"
+
+# Machine Learning
+Machine Learning:
+  name: "Machine Learning"
+  description: "머신러닝"
+  color: "#F5F5F5"
+
+# Materials Discovery
+Materials Discovery:
+  name: "Materials Discovery"
+  description: "재료 발견"
+  color: "#F0F8FF"
+
+# Graph Neural Networks
+Graph Neural Networks:
+  name: "Graph Neural Networks"
+  description: "그래프 신경망"
+  color: "#E6E6FA"
+
+# Density Functional Theory
+Density Functional Theory:
+  name: "Density Functional Theory"
+  description: "밀도 범함수 이론"
+  color: "#F0F8FF"
+
+# Active Learning
+Active Learning:
+  name: "Active Learning"
+  description: "능동학습"
+  color: "#F5F5F5"
+
+# Inorganic Crystals
+Inorganic Crystals:
+  name: "Inorganic Crystals"
+  description: "무기 결정"
+  color: "#E0FFFF"
+
+# Outlier Detection
+Outlier Detection:
+  name: "Outlier Detection"
+  description: "이상치 검출"
+  color: "#F5F5F5"
+
+# Colorfastness
+Colorfastness:
+  name: "Colorfastness"
+  description: "내색성"
+  color: "#E6E6FA"
+
+# Textile
+Textile:
+  name: "Textile"
+  description: "섬유"
+  color: "#F0F8FF"
+
+# Spinning Process
+Spinning Process:
+  name: "Spinning Process"
+  description: "방사 공정"
+  color: "#E6E6FA"
+
+# Property Prediction
+Property Prediction:
+  name: "Property Prediction"
+  description: "물성 예측"
+  color: "#F0F8FF"
+
+# Oversampling
+Oversampling:
+  name: "Oversampling"
+  description: "오버샘플링"
+  color: "#E6E6FA"
+
+# Data Imbalance
+Data Imbalance:
+  name: "Data Imbalance"
+  description: "데이터 불균형"
+  color: "#F0F8FF"
+
+# Biodegradable Fiber
+Biodegradable Fiber:
+  name: "Biodegradable Fiber"
+  description: "생분해성 섬유"
+  color: "#E6E6FA"
+
+# Knowledge Graph
+Knowledge Graph:
+  name: "Knowledge Graph"
+  description: "지식 그래프"
+  color: "#F0F8FF"
+
+# Element Properties
+Element Properties:
+  name: "Element Properties"
+  description: "원소 특성"
+  color: "#E6E6FA"
+
+# Multimodal Representation
+Multimodal Representation:
+  name: "Multimodal Representation"
+  description: "다중모달 표현"
+  color: "#F0F8FF"
+
+# Manufacturing Process Optimization
+Manufacturing Process Optimization:
+  name: "Manufacturing Process Optimization"
+  description: "제조 공정 최적화"
+  color: "#E6E6FA"
+
+# Smart Manufacturing
+Smart Manufacturing:
+  name: "Smart Manufacturing"
+  description: "스마트 제조"
+  color: "#F0F8FF"
+
+# Green Manufacturing
+Green Manufacturing:
+  name: "Green Manufacturing"
+  description: "친환경 제조"
+  color: "#E6E6FA"
+
+# Dyeing Process
+Dyeing Process:
+  name: "Dyeing Process"
+  description: "염색 공정"
+  color: "#F0F8FF"
+
+# Q-Learning
+Q-Learning:
+  name: "Q-Learning"
+  description: "Q-러닝"
+  color: "#E6E6FA"
+
+# Gene Expression Programming
+Gene Expression Programming:
+  name: "Gene Expression Programming"
+  description: "유전자 발현 프로그래밍"
+  color: "#F0F8FF"
+
+# Deep Neural Networks
+Deep Neural Networks:
+  name: "Deep Neural Networks"
+  description: "심층 신경망"
+  color: "#E6E6FA"
+
+# Eco-friendly Concrete
+Eco-friendly Concrete:
+  name: "Eco-friendly Concrete"
+  description: "친환경 콘크리트"
+  color: "#F0F8FF"
+
+# Spilt Tensile Strength
+Spilt Tensile Strength:
+  name: "Spilt Tensile Strength"
+  description: "분할 인장 강도"
+  color: "#E6E6FA"
+
+# Fiber Reinforced Recycled Aggregate Concrete
+Fiber Reinforced Recycled Aggregate Concrete:
+  name: "Fiber Reinforced Recycled Aggregate Concrete"
+  description: "섬유 보강 재활용 골재 콘크리트"
+  color: "#F0F8FF"
+
+# Sound-Haptic Conversion
+Sound-Haptic Conversion:
+  name: "Sound-Haptic Conversion"
+  description: "음향-햅틱 변환"
+  color: "#E6E6FA"
+
+# Audio-Haptic Conversion
+Audio-Haptic Conversion:
+  name: "Audio-Haptic Conversion"
+  description: "오디오-햅틱 변환"
+  color: "#F0F8FF"
+
+# Multimodal Haptic Effects
+Multimodal Haptic Effects:
+  name: "Multimodal Haptic Effects"
+  description: "다중모달 햅틱 효과"
+  color: "#E6E6FA"
+
+# Automatic Generation
+Automatic Generation:
+  name: "Automatic Generation"
+  description: "자동 생성"
+  color: "#F0F8FF"
+
+# Game
+Game:
+  name: "Game"
+  description: "게임"
+  color: "#E6E6FA"
+
+# Real-Time
+Real-Time:
+  name: "Real-Time"
+  description: "실시간"
+  color: "#F0F8FF"
+
+# Random Forest
+Random Forest:
+  name: "Random Forest"
+  description: "랜덤 포레스트"
+  color: "#E6E6FA"
+
+# Image Classification
+Image Classification:
+  name: "Image Classification"
+  description: "이미지 분류"
+  color: "#F0F8FF"
+
+# Object Detection
+Object Detection:
+  name: "Object Detection"
+  description: "객체 검출"
+  color: "#E6E6FA"
+
+# Fly Oil Shale Ash
+Fly Oil Shale Ash:
+  name: "Fly Oil Shale Ash"
+  description: "플라이 오일 셰일 애쉬"
+  color: "#F0F8FF"
+
+# FOSA
+FOSA:
+  name: "FOSA"
+  description: "FOSA"
+  color: "#E6E6FA"
+
+# Carbonation Curing
+Carbonation Curing:
+  name: "Carbonation Curing"
+  description: "탄산화 양생"
+  color: "#F0F8FF"
+
+# CO2 Curing
+CO2 Curing:
+  name: "CO2 Curing"
+  description: "CO2 양생"
+  color: "#E6E6FA"
+
+# Compressive Strength
+Compressive Strength:
+  name: "Compressive Strength"
+  description: "압축 강도"
+  color: "#F0F8FF"
+
+# Sustainable Construction Materials
+Sustainable Construction Materials:
+  name: "Sustainable Construction Materials"
+  description: "지속 가능한 건설 재료"
+  color: "#E6E6FA"
+
+
+# ResNet
+ResNet:
+  name: "ResNet"
+  description: "ResNet"
+  color: "#E6E6FA"
+
+# ImageNet
+ImageNet:
+  name: "ImageNet"
+  description: "ImageNet"
+  color: "#F0F8FF"
+
+# Degradation Problem
+Degradation Problem:
+  name: "Degradation Problem"
+  description: "성능 저하 문제"
+  color: "#E6E6FA"
+
+# Hessian
+Hessian:
+  name: "Hessian"
+  description: "헤시안"
+  color: "#F0F8FF"
+
+# Optimization Landscape
+Optimization Landscape:
+  name: "Optimization Landscape"
+  description: "최적화 환경"
+  color: "#E6E6FA"
+
+# Self-Attention
+Self-Attention:
+  name: "Self-Attention"
+  description: "셀프 어텐션"
+  color: "#F0F8FF"
+
+# Deep Learning Theory
+Deep Learning Theory:
+  name: "Deep Learning Theory"
+  description: "딥러닝 이론"
+  color: "#E6E6FA"
+
+# Neural Style Transfer
+Neural Style Transfer:
+  name: "Neural Style Transfer"
+  description: "신경망 스타일 전이"
+  color: "#F0F8FF"
+
+# Artistic Style
+Artistic Style:
+  name: "Artistic Style"
+  description: "예술적 스타일"
+  color: "#E6E6FA"
+
+# Sequence Recognition
+Sequence Recognition:
+  name: "Sequence Recognition"
+  description: "시퀀스 인식"
+  color: "#F0F8FF"
+
+# Optical Music Recognition
+Optical Music Recognition:
+  name: "Optical Music Recognition"
+  description: "광학 음악 인식"
+  color: "#E6E6FA"
+
+# Gameplay
+Gameplay:
+  name: "Gameplay"
+  description: "게임플레이"
+  color: "#F0F8FF"
+
+# Viewing Experience
+Viewing Experience:
+  name: "Viewing Experience"
+  description: "시청 경험"
+  color: "#E6E6FA"
+
+# Motion Effect
+Motion Effect:
+  name: "Motion Effect"
+  description: "모션 효과"
+  color: "#F0F8FF"
+
+# Polymer Design
 Polymer Design:
-  label: Polymer Design
-  permalink: /papers/tags/polymer-design
-  description: 고분자 설계 관련 논문들
+  name: "Polymer Design"
+  description: "고분자 설계"
+  color: "#E6E6FA"
 
-pDNA Delivery:
-  label: pDNA Delivery
-  permalink: /papers/tags/pdna-delivery
-  description: pDNA 전달 관련 논문들
-
-CRISPR RNP Delivery:
-  label: CRISPR RNP Delivery
-  permalink: /papers/tags/crispr-rnp-delivery
-  description: CRISPR RNP 전달 관련 논문들
-
-SHAP Analysis:
-  label: SHAP Analysis
-  permalink: /papers/tags/shap-analysis
-  description: SHAP 분석 관련 논문들
-
+# Bayesian Optimization
 Bayesian Optimization:
-  label: Bayesian Optimization
-  permalink: /papers/tags/bayesian-optimization
-  description: 베이지안 최적화 관련 논문들
+  name: "Bayesian Optimization"
+  description: "베이지안 최적화"
+  color: "#F0F8FF"
 
-Structure-Property Relationships:
-  label: Structure-Property Relationships
-  permalink: /papers/tags/structure-property-relationships
-  description: 구조-물성 관계 관련 논문들
+# Gene Delivery
+Gene Delivery:
+  name: "Gene Delivery"
+  description: "유전자 전달"
+  color: "#E6E6FA"
+
+# pDNA
+pDNA:
+  name: "pDNA"
+  description: "플라스미드 DNA"
+  color: "#F0F8FF"
+
+# CRISPR
+CRISPR:
+  name: "CRISPR"
+  description: "CRISPR"
+  color: "#E6E6FA"
+
+# Ribonucleoprotein
+Ribonucleoprotein:
+  name: "Ribonucleoprotein"
+  description: "리보핵단백질"
+  color: "#F0F8FF"
+
+# Semantic Sound Classification
+Semantic Sound Classification:
+  name: "Semantic Sound Classification"
+  description: "의미론적 음향 분류"
+  color: "#E6E6FA"
+
+# Haptic Suit
+Haptic Suit:
+  name: "Haptic Suit"
+  description: "햅틱 슈트"
+  color: "#F0F8FF"
+
+# Full Body
+Full Body:
+  name: "Full Body"
+  description: "전신"
+  color: "#E6E6FA"
+
+# Large-scale Machine Learning
+Large-scale Machine Learning:
+  name: "Large-scale Machine Learning"
+  description: "대규모 머신러닝"
+  color: "#F0F8FF"
+
+# Scalable Systems
+Scalable Systems:
+  name: "Scalable Systems"
+  description: "확장 가능한 시스템"
+  color: "#E6E6FA"
+
+# Gradient Boosting
+Gradient Boosting:
+  name: "Gradient Boosting"
+  description: "그래디언트 부스팅"
+  color: "#F0F8FF"
+
+# Fabric Defects
+Fabric Defects:
+  name: "Fabric Defects"
+  description: "직물 결함"
+  color: "#E6E6FA"
+
+# Detection of Defects
+Detection of Defects:
+  name: "Detection of Defects"
+  description: "결함 검출"
+  color: "#F0F8FF"
+
+# Learning-based Image Processing
+Learning-based Image Processing:
+  name: "Learning-based Image Processing"
+  description: "학습 기반 이미지 처리"
+  color: "#E6E6FA"
+
+# Problem-solving
+Problem-solving:
+  name: "Problem-solving"
+  description: "문제 해결"
+  color: "#F0F8FF"
+
+# Programming Challenges
+Programming Challenges:
+  name: "Programming Challenges"
+  description: "프로그래밍 챌린지"
+  color: "#E6E6FA"
+
+# AI Adoption
+AI Adoption:
+  name: "AI Adoption"
+  description: "AI 도입"
+  color: "#F0F8FF"
+
+# Student Perceptions
+Student Perceptions:
+  name: "Student Perceptions"
+  description: "학생 인식"
+  color: "#E6E6FA"
+
+# Material
+Material:
+  name: "Material"
+  description: "재료"
+  color: "#F0F8FF"
+
+# Ceramic
+Ceramic:
+  name: "Ceramic"
+  description: "세라믹"
+  color: "#E6E6FA"
+
+# Image Recognition
+Image Recognition:
+  name: "Image Recognition"
+  description: "이미지 인식"
+  color: "#F0F8FF"
+
+# Residual Learning
+Residual Learning:
+  name: "Residual Learning"
+  description: "잔차 학습"
+  color: "#E6E6FA"
+
+# Neural Network
+Neural Network:
+  name: "Neural Network"
+  description: "신경망"
+  color: "#F0F8FF"
+
+# Convolutional Neural Network
+Convolutional Neural Network:
+  name: "Convolutional Neural Network"
+  description: "합성곱 신경망"
+  color: "#E6E6FA"
+
+# Long-short Term Memory
+Long-short Term Memory:
+  name: "Long-short Term Memory"
+  description: "장단기 기억"
+  color: "#F0F8FF"
+
+# Yarn Strength
+Yarn Strength:
+  name: "Yarn Strength"
+  description: "실 강도"
+  color: "#E6E6FA"
+
+# Predictive Model
+Predictive Model:
+  name: "Predictive Model"
+  description: "예측 모델"
+  color: "#F0F8FF"
+
+# Feed Forward Back Propagation
+Feed Forward Back Propagation:
+  name: "Feed Forward Back Propagation"
+  description: "순전파 역전파"
+  color: "#E6E6FA"
+
+# Textile Engineering
+Textile Engineering:
+  name: "Textile Engineering"
+  description: "섬유 공학"
+  color: "#F0F8FF"
+
+# Go
+Go:
+  name: "Go"
+  description: "바둑"
+  color: "#E6E6FA"
+
+# MCTS
+MCTS:
+  name: "MCTS"
+  description: "몬테카를로 트리 탐색"
+  color: "#F0F8FF"
+
+# Supervised Learning
+Supervised Learning:
+  name: "Supervised Learning"
+  description: "지도학습"
+  color: "#E6E6FA"
+
+# Performance Improvement
+Performance Improvement:
+  name: "Performance Improvement"
+  description: "성능 개선"
+  color: "#F0F8FF"

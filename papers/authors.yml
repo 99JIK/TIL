@@ -1,1220 +1,1040 @@
 # authors.yml
-
-# 'your_name' 이라는 키 대신 본인이 사용할 키로 변경하세요 (예: gilhong)
 JIK:
-  name: 김정인 # 여기에 실제 이름을 입력하세요
+  name: 김정인
   title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 석사과정생
-  url: https://github.com/99jik # 본인 GitHub 주소 또는 웹사이트 (선택 사항)
-  image_url: https://github.com/99jik.png # 프로필 사진 URL (선택 사항, GitHub 프로필 사진 사용 예시)
+  url: https://github.com/99jik
+  image_url: https://github.com/99jik.png
   papers:
-    [
-      "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases",
-    ]
+    - "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases"
 
-# ===== 출신 대학별 분류 =====
-
-# 경북대학교
-woojin_lee:
+Woojin Lee:
   name: 이우진
-  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 담당교수
-  url: mailto:woojin@knu.ac.kr
+  title: 경북대학교 컴퓨터학부 교수
+  url:
+  image_url:
   papers:
-    [
-      "WHAT-DOES-IT-MEAN-TO-BE-A-TRANSFORMER-INSIGHTS-FROM-A-THEORETICAL-HESSIAN-ANALYSIS",
-      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
-      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
-      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
-      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
-      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
-      "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile",
-      "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases",
-    ]
+    - "A-Study-on-the-Capability-of-Generative-AI-to-Understand-and-Utilize-Test-Cases"
+    - "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics"
+    - "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile"
 
-sechan_park:
-  name: 박세찬
-  title: 경북대학교 컴퓨터학부
-  url: mailto:park.sechan@knu.ac.kr
-  papers:
-    [
-      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
-      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
-      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
-    ]
-
-deokyeop_kim:
-  name: 김덕엽
-  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 박사과정생
-  url: mailto:kim.deokyeop@knu.ac.kr
-  papers:
-    [
-      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
-      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
-      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
-      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
-      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
-      "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile",
-    ]
-
-gangbok_seo:
-  name: 서강복
-  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 박사
-  url: mailto:seo.gangbok@knu.ac.kr
-  papers:
-    [
-      "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics",
-      "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error",
-      "Reverse-design-of-spinning-process-based-on-physical-property-prediction-model",
-      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
-      "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile",
-    ]
-
-daegyu_lee:
+Daegyu Lee:
   name: 이대규
-  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 석사과정생
-  url: mailto:lee.daegyu@knu.ac.kr
+  title: 경북대학교 컴퓨터학부 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing",
-    ]
+    - "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing"
+    - "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile"
 
-younggyo_ryu:
-  name: 류영교
-  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 학부연구생
-  url: mailto:ryu.younggyo@knu.ac.kr
+Kangbok Seo:
+  name: 서강복
+  title: 경북대학교 컴퓨터학부 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
-    ]
+    - "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing"
+    - "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics"
+    - "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile"
 
-bokwon_kang:
-  name: 강보권
-  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 학부연구생
-  url: mailto:kang.bokwon@knu.ac.kr
+Deokyeop Kim:
+  name: 김덕엽
+  title: 경북대학교 컴퓨터학부 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
-    ]
+    - "Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing"
+    - "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics"
+    - "Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile"
 
-taehwan_kim:
-  name: 김태환
-  title: 경북대학교 컴퓨터학부
-  url: mailto:kim.taehwan@knu.ac.kr
+Sechan Park:
+  name: 박세찬
+  title: 경북대학교 컴퓨터학부 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Improving-biodegradable-fiber-uarn-property-prediction-model-using-data-change-rate-based-regression-chain",
-    ]
+    - "The-Development-of-Property-Prediction-Model-in-Consideration-of-Biodegradable-Fiber-Spinning-Process-Data-Characteristics"
 
-# Google (Google Brain, Google Research, Google DeepMind)
-ashish_vaswani:
-  name: Ashish Vaswani
-  title: Google Brain
-  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
-  papers: ["Attention-Is-All-You-Need"]
-
-noam_shazeer:
-  name: Noam Shazeer
-  title: Google Brain
-  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
-  papers: ["Attention-Is-All-You-Need"]
-
-niki_parmar:
-  name: Niki Parmar
-  title: Google Research
-  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
-  papers: ["Attention-Is-All-You-Need"]
-
-jakob_uszkoreit:
-  name: Jakob Uszkoreit
-  title: Google Research
-  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
-  papers: ["Attention-Is-All-You-Need"]
-
-llion_jones:
-  name: Llion Jones
-  title: Google Research
-  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
-  papers: ["Attention-Is-All-You-Need"]
-
-aidan_gomez:
-  name: Aidan N. Gomez
-  title: University of Toronto (Google Brain에서 연구 수행)
-  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
-  papers: ["Attention-Is-All-You-Need"]
-
-lukasz_kaiser:
-  name: Łukasz Kaiser
-  title: Google Brain
-  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
-  papers: ["Attention-Is-All-You-Need"]
-
-illia_polosukhin:
-  name: Illia Polosukhin
-  title: Google Research
-  url: https://scholar.google.com/citations?user=oR9sCGYAAAAJ&hl=en
-  papers: ["Attention-Is-All-You-Need"]
-
-ekin_cubuk:
-  name: Ekin Dogus Cubuk
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=Mu_8iOEAAAAJ&hl=en
-  papers: ["Scaling-deep-learning-for-materials-discovery"]
-
-amil_merchant:
-  name: Amil Merchant
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=uRImMPoAAAAJ&hl=en
-  papers: ["Scaling-deep-learning-for-materials-discovery"]
-
-simon_batzner:
-  name: Simon Batzner
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=uRImMPoAAAAJ&hl=en
-  papers: ["Scaling-deep-learning-for-materials-discovery"]
-
-samuel_schoenholz:
-  name: Samuel S. Schoenholz
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=uRImMPoAAAAJ&hl=en
-  papers: ["Scaling-deep-learning-for-materials-discovery"]
-
-muratahan_aykol:
-  name: Muratahan Aykol
-  title: Google Research
-  url: https://scholar.google.com/citations?user=uRImMPoAAAAJ&hl=en
-  papers: ["Scaling-deep-learning-for-materials-discovery"]
-
-gowoon_cheon:
-  name: Gowoon Cheon
-  title: Google Research
-  url: https://scholar.google.com/citations?user=uRImMPoAAAAJ&hl=en
-  papers: ["Scaling-deep-learning-for-materials-discovery"]
-
-# Carnegie Mellon University
-albert_gu:
-  name: Albert Gu
-  title: Carnegie Mellon University
-  url: https://scholar.google.com/citations?user=DVCHv1kAAAAJ&hl=en
-  papers: ["Mamba-Linear-Time-Sequence-Modeling-with-Selective-State-Spaces"]
-
-# Princeton University
-tri_dao:
-  name: Tri Dao
-  title: Princeton University
-  url: https://tridao.me/
-  papers: ["Mamba-Linear-Time-Sequence-Modeling-with-Selective-State-Spaces"]
-
-# 전북대학교
-mingle_xu:
-  name: Mingle Xu
-  title: 전북대학교 전자공학부
-  url: mailto:mingle.xu@jbnu.ac.kr
-  papers:
-    [
-      "Transfer-Learning with Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification",
-    ]
-
-yongchae_jeong:
-  name: Yongchae Jeong
-  title: 전북대학교 전자공학부
-  url: mailto:yongchae.jeong@jbnu.ac.kr
-  papers:
-    [
-      "Transfer-Learning with Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification",
-    ]
-
-dong_sun_park:
-  name: Dong Sun Park
-  title: 전북대학교 전자공학부
-  url: mailto:dspark@jbnu.ac.kr
-  papers:
-    [
-      "Transfer-Learning with Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification",
-    ]
-
-# 목포대학교
-sook_yoon:
-  name: Sook Yoon
-  title: 목포대학교 컴퓨터공학과
-  url: mailto:sook.yoon@mokpo.ac.kr
-  papers:
-    [
-      "Transfer-Learning with Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification",
-    ]
-
-# 농촌진흥청
-jaesu_lee:
-  name: Jaesu Lee
-  title: 농촌진흥청
-  url: mailto:jaesu.lee@korea.kr
-  papers:
-    [
-      "Transfer-Learning with Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification",
-    ]
-
-# Noakhali Science and Technology University
-md_eusha_kadir:
-  name: Md. Eusha Kadir
-  title: Institute of Information Technology, Noakhali Science and Technology University
-  url: mailto:eusha.kadir@nstu.edu.bd
-  papers:
-    [
-      "Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges",
-    ]
-
-tasnim_rahman:
-  name: Tasnim Rahman
-  title: Institute of Information Technology, Noakhali Science and Technology University
-  url: mailto:tasnim.iit@nstu.edu.bd
-  papers:
-    [
-      "Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges",
-    ]
-
-sourav_barman:
-  name: Sourav Barman
-  title: Institute of Information Technology, Noakhali Science and Technology University
-  url: mailto:sourav.barman@nstu.edu.bd
-  papers:
-    [
-      "Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges",
-    ]
-
-md_al_amin:
-  name: Md. Al-Amin
-  title: Institute of Information Technology, Noakhali Science and Technology University
-  url: mailto:al.amin@nstu.edu.bd
-  papers:
-    [
-      "Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges",
-    ]
-
-# University of Luxembourg
-iva_kertusha:
-  name: Iva Kertusha
-  title: University of Luxembourg
-  url: mailto:iva.kertusha@uni.lu
-  papers:
-    ["A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry"]
-
-gebremariem_assres:
-  name: Gebremariem Assres
-  title: University of Luxembourg
-  url: mailto:gebremariem.assres@uni.lu
-  papers:
-    ["A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry"]
-
-onur_duman:
-  name: Onur Duman
-  title: University of Luxembourg
-  url: mailto:onur.duman@uni.lu
-  papers:
-    ["A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry"]
-
-andrea_arcuri:
-  name: Andrea Arcuri
-  title: University of Luxembourg
-  url: mailto:andrea.arcuri@uni.lu
-  papers:
-    ["A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry"]
-
-# Cognizant
-elavarasi_kesavan:
-  name: Mrs. Elavarasi Kesavan
-  title: Full Stack QA Architect, Cognizant
-  url: mailto:elavarasi.kesavan@cognizant.com
-  papers:
-    [
-      "The-Future-of-Software-Testing-A-Review-of-Trends-Challenges-and-Opportunities",
-    ]
-
-# King Faisal University
-ibrahim_alyoussef:
-  name: Ibrahim Youssef Alyoussef
-  title: Education Technology, Faculty of Education, King Faisal University
-  url: mailto:ialyoussef@kfu.edu.sa
-  papers:
-    [
-      "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education",
-    ]
-
-amr_drwish:
-  name: Amr Mohammed Drwish
-  title: Education Technology, Faculty of Education, King Faisal University
-  url: mailto:amr.drwish@kfu.edu.sa
-  papers:
-    [
-      "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education",
-    ]
-
-fatimah_albakheet:
-  name: Fatimah Adel Albakheet
-  title: Education Technology, Faculty of Education, King Faisal University
-  url: mailto:fatimah.albakheet@kfu.edu.sa
-  papers:
-    [
-      "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education",
-    ]
-
-rafdan_alhajhoj:
-  name: Rafdan Hassan Alhajhoj
-  title: Education Technology, Faculty of Education, King Faisal University
-  url: mailto:rafdan.alhajhoj@kfu.edu.sa
-  papers:
-    [
-      "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education",
-    ]
-
-amal_almousa:
-  name: Amal Ahmed Almousa
-  title: Education Technology, Faculty of Education, King Faisal University
-  url: mailto:amal.almousa@kfu.edu.sa
-  papers:
-    [
-      "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education",
-    ]
-
-# Beyond the Hype 논문 저자들
-james_prather:
-  name: James Prather
-  title: Abilene Christian University
-  url: mailto:james.prather@acu.edu
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-juho_leinonen:
-  name: Juho Leinonen
-  title: Aalto University
-  url: mailto:juho.leinonen@aalto.fi
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-natalie_kiesler:
-  name: Natalie Kiesler
-  title: Nuremberg Tech
-  url: mailto:natalie.kiesler@th-nuernberg.de
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-jamie_benario:
-  name: Jamie Gorson Benario
-  title: Google
-  url: mailto:jamie.benario@google.com
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-sam_lau:
-  name: Sam Lau
-  title: University of California San Diego
-  url: mailto:sam.lau@ucsd.edu
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-stephen_macneil:
-  name: Stephen MacNeil
-  title: Temple University
-  url: mailto:stephen.macneil@temple.edu
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-narges_norouzi:
-  name: Narges Norouzi
-  title: University of California Berkeley
-  url: mailto:narges.norouzi@berkeley.edu
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-simone_opel:
-  name: Simone Opel
-  title: FernUniversität in Hagen
-  url: mailto:simone.opel@fernuni-hagen.de
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-vee_pettit:
-  name: Vee Pettit
-  title: Virginia Tech
-  url: mailto:vee.pettit@vt.edu
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-leo_porter:
-  name: Leo Porter
-  title: University of Illinois
-  url: mailto:leo.porter@illinois.edu
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-brent_reeves:
-  name: Brent N. Reeves
-  title: LMU Munich
-  url: mailto:brent.reeves@lmu.de
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-jaromir_savelka:
-  name: Jaromir Savelka
-  title: University of Toronto Mississauga
-  url: mailto:jaromir.savelka@utoronto.ca
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-david_smith:
-  name: David H. Smith IV
-  title: University of Toronto Mississauga
-  url: mailto:david.smith@utoronto.ca
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-sven_strickroth:
-  name: Sven Strickroth
-  title: University of Toronto Mississauga
-  url: mailto:sven.strickroth@utoronto.ca
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-daniel_zingaro:
-  name: Daniel Zingaro
-  title: University of Toronto Mississauga
-  url: mailto:daniel.zingaro@utoronto.ca
-  papers:
-    [
-      "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools",
-    ]
-
-# TRINITY 논문 저자들
-ziming_mao:
-  name: Ziming Mao
-  title: UC Berkeley
-  url: mailto:ziming.mao@berkeley.edu
-  papers: ["TRINITY-A-Fast-Compressed-Multi-attribute-Data-Store"]
-
-kiran_srinivasan:
-  name: Kiran Srinivasan
-  title: NetApp
-  url: mailto:kiran.srinivasan@netapp.com
-  papers: ["TRINITY-A-Fast-Compressed-Multi-attribute-Data-Store"]
-
-anurag_khandelwal:
-  name: Anurag Khandelwal
-  title: Yale
-  url: mailto:anurag.khandelwal@yale.edu
-  papers: ["TRINITY-A-Fast-Compressed-Multi-attribute-Data-Store"]
-# 새로 추가된 논문 저자들
-
-# Fabric Defect Detection 논문 저자들
-fatma_gunseli_yasar_cikla:
-  name: Fatma Günseli Yaşar Çıkla
-  title: İzmir Katip Çelebi University, Turkey
-  url: mailto:fatma.gunseli@ikcu.edu.tr
-  papers:
-    [
-      "Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning",
-    ]
-
-semih_utku:
-  name: Semih Utku
-  title: Dokuz Eylul University, Turkey
-  url: mailto:semih.utku@deu.edu.tr
-  papers:
-    [
-      "Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning",
-    ]
-
-hakan_ozdemir:
-  name: Hakan Özdemir
-  title: Dokuz Eylul University, Turkey
-  url: mailto:hakan.ozdemir@deu.edu.tr
-  papers:
-    [
-      "Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning",
-    ]
-
-# Generative Adversarial Nets 논문 저자들
-ian_goodfellow:
+Ian Goodfellow:
   name: Ian Goodfellow
-  title: Google Research
-  url: https://scholar.google.com/citations?user=iYN86KEAAAAJ&hl=en
-  papers: ["Generative-Adversarial-Nets"]
+  title: Google Brain 연구원
+  url:
+  image_url:
+  papers:
+    - "Generative-Adversarial-Networks"
+    - "Generative-Adversarial-Nets"
 
-jean_pouget_abadie:
-  name: Jean Pouget-Abadie
-  title: Université de Montréal
-  url: https://scholar.google.com/citations?user=jean.pouget@umontreal.ca
-  papers: ["Generative-Adversarial-Nets"]
+Ashish Vaswani:
+  name: Ashish Vaswani
+  title: Google Research 연구원
+  url:
+  image_url:
+  papers:
+    - "Attention-Is-All-You-Need"
 
-mehdi_mirza:
-  name: Mehdi Mirza
-  title: Université de Montréal
-  url: https://scholar.google.com/citations?user=mehdi.mirza@umontreal.ca
-  papers: ["Generative-Adversarial-Nets"]
-
-bing_xu:
-  name: Bing Xu
-  title: Université de Montréal
-  url: https://scholar.google.com/citations?user=bing.xu@umontreal.ca
-  papers: ["Generative-Adversarial-Nets"]
-
-david_warde_farley:
-  name: David Warde-Farley
-  title: Université de Montréal
-  url: https://scholar.google.com/citations?user=david.warde@umontreal.ca
-  papers: ["Generative-Adversarial-Nets"]
-
-sherjil_ozair:
-  name: Sherjil Ozair
-  title: Université de Montréal
-  url: https://scholar.google.com/citations?user=sherjil.ozair@umontreal.ca
-  papers: ["Generative-Adversarial-Nets"]
-
-aaron_courville:
-  name: Aaron Courville
-  title: Université de Montréal
-  url: https://scholar.google.com/citations?user=aaron.courville@umontreal.ca
-  papers: ["Generative-Adversarial-Nets"]
-
-yoshua_bengio:
-  name: Yoshua Bengio
-  title: Université de Montréal
-  url: https://scholar.google.com/citations?user=yoshua.bengio@umontreal.ca
-  papers: ["Generative-Adversarial-Nets"]
-
-# Deep Residual Learning 논문 저자들
-kaiming_he:
-  name: Kaiming He
-  title: Facebook AI Research
-  url: https://scholar.google.com/citations?user=NfnlzqoAAAAJ&hl=en
-  papers: ["Deep-Residual-Learning-for-Image-Reconition"]
-
-xiangyu_zhang:
-  name: Xiangyu Zhang
-  title: Facebook AI Research
-  url: https://scholar.google.com/citations?user=xiangyu.zhang@fb.com
-  papers: ["Deep-Residual-Learning-for-Image-Reconition"]
-
-shaoqing_ren:
-  name: Shaoqing Ren
-  title: Facebook AI Research
-  url: https://scholar.google.com/citations?user=shaoqing.ren@fb.com
-  papers: ["Deep-Residual-Learning-for-Image-Reconition"]
-
-jian_sun:
-  name: Jian Sun
-  title: Facebook AI Research
-  url: https://scholar.google.com/citations?user=jian.sun@fb.com
-  papers: ["Deep-Residual-Learning-for-Image-Reconition"]
-
-# AlphaGo 논문 저자들
-david_silver:
+David Silver:
   name: David Silver
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=3DzV8kIAAAAJ&hl=en
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-a_junior:
-  name: Aja Huang
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=aja.huang@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-chris_maddison:
-  name: Chris J. Maddison
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=chris.maddison@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-arthur_guez:
-  name: Arthur Guez
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=arthur.guez@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-laurent_sifre:
-  name: Laurent Sifre
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=laurent.sifre@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-george_van_den_driessche:
-  name: George van den Driessche
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=george.vanden@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-thore_graepel:
-  name: Thore Graepel
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=thore.graepel@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-ioannis_antonoglou:
-  name: Ioannis Antonoglou
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=ioannis.antonoglou@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-vedavyas_panneershelvam:
-  name: Veda Panneershelvam
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=vedavyas.panneershelvam@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-marc_lanctot:
-  name: Marc Lanctot
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=marc.lanctot@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-sander_dieleman:
-  name: Sander Dieleman
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=sander.dieleman@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-dominik_grewe:
-  name: Dominik Grewe
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=dominik.grewe@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-john_nham:
-  name: John Nham
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=john.nham@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-nando_de_freitas:
-  name: Nando de Freitas
-  title: Google DeepMind
-  url: https://scholar.google.com/citations?user=nando.defreitas@deepmind.com
-  papers: ["Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"]
-
-# CRNN 논문 저자들
-baoguang_shi:
-  name: Baoguang Shi
-  title: Huazhong University of Science and Technology
-  url: https://scholar.google.com/citations?user=baoguang.shi@hust.edu.cn
+  title: Google DeepMind 연구원
+  url:
+  image_url:
   papers:
-    [
-      "An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition",
-    ]
+    - "Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"
 
-xiang_bai:
-  name: Xiang Bai
-  title: Huazhong University of Science and Technology
-  url: https://scholar.google.com/citations?user=xiang.bai@hust.edu.cn
-  papers:
-    [
-      "An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition",
-    ]
-
-cong_yao:
-  name: Cong Yao
-  title: Huazhong University of Science and Technology
-  url: https://scholar.google.com/citations?user=cong.yao@hust.edu.cn
-  papers:
-    [
-      "An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition",
-    ]
-
-# Neural Algorithm of Artistic Style 논문 저자들
-leon_a_gatys:
-  name: Leon A. Gatys
-  title: University of Tübingen
-  url: https://scholar.google.com/citations?user=leon.gatys@uni-tuebingen.de
-  papers: ["A-Neural-Algorithm-of-Artistic-Style"]
-
-alexander_s_ecker:
-  name: Alexander S. Ecker
-  title: University of Tübingen
-  url: https://scholar.google.com/citations?user=alexander.ecker@uni-tuebingen.de
-  papers: ["A-Neural-Algorithm-of-Artistic-Style"]
-
-matthias_bethge:
-  name: Matthias Bethge
-  title: University of Tübingen
-  url: https://scholar.google.com/citations?user=matthias.bethge@uni-tuebingen.de
-  papers: ["A-Neural-Algorithm-of-Artistic-Style"]
-
-# XGBoost 논문 저자들
-tianqi_chen:
+Tianqi Chen:
   name: Tianqi Chen
-  title: University of Washington
-  url: https://scholar.google.com/citations?user=tianqi.chen@uw.edu
-  papers: ["XGBoost-A-Scalable-Tree-Boosting-System"]
+  title: University of Washington 연구원
+  url:
+  image_url:
+  papers:
+    - "XGBoost-A-Scalable-Tree-Boosting-System"
 
-carlos_guestrin:
-  name: Carlos Guestrin
-  title: University of Washington
-  url: https://scholar.google.com/citations?user=carlos.guestrin@uw.edu
-  papers: ["XGBoost-A-Scalable-Tree-Boosting-System"]
+Kaiming He:
+  name: Kaiming He
+  title: Facebook AI Research 연구원
+  url:
+  image_url:
+  papers:
+    - "Deep-Residual-Learning-for-Image-Reconition"
 
-# Deep Learning Based Fabric Defect Detection 논문 저자들
-syeda_rabia_arshad:
-  name: Syeda Rabia Arshad
-  title: National University of Sciences and Technology, Islamabad, Pakistan
-  url: mailto:syeda.rabia@nust.edu.pk
-  papers: ["Deep-Learning-Based-Fabric-Defect-Detection"]
+Leon Gatys:
+  name: Leon A. Gatys
+  title: University of Tübingen 연구원
+  url:
+  image_url:
+  papers:
+    - "A-Neural-Algorithm-of-Artistic-Style"
 
-muhammad_khuram_shahzad:
-  name: Muhammad Khuram Shahzad
-  title: National University of Sciences and Technology, Islamabad, Pakistan
-  url: mailto:muhammad.khuram@nust.edu.pk
-  papers: ["Deep-Learning-Based-Fabric-Defect-Detection"]
+Albert Gu:
+  name: Albert Gu
+  title: Stanford University 연구원
+  url:
+  image_url:
+  papers:
+    - "Mamba-Linear-Time-Sequence-Modeling-with-Selective-State-Spaces"
 
-# Automated Fabric Defect Detection - A Review 논문 저자들
-henry_y_t_ngan:
-  name: Henry Y. T. Ngan
-  title: The University of Hong Kong
-  url: mailto:henry.ngan@hku.hk
-  papers: ["Automated-Fabric-Defect-Detection-A-Review"]
+Elavarasi Kesavan:
+  name: Elavarasi Kesavan
+  title: Cognizant Full Stack QA Architect
+  url:
+  image_url:
+  papers:
+    - "The-Future-of-Software-Testing-A-Review-of-Trends-Challenges-and-Opportunities"
 
-grantham_k_h_pang:
-  name: Grantham K. H. Pang
-  title: The University of Hong Kong
-  url: mailto:grantham.pang@hku.hk
-  papers: ["Automated-Fabric-Defect-Detection-A-Review"]
+Amil Merchant:
+  name: Amil Merchant
+  title: Google DeepMind 연구원
+  url:
+  image_url:
+  papers:
+    - "Scaling-deep-learning-for-materials-discovery"
 
-nelson_h_c_yung:
-  name: Nelson H.C. Yung
-  title: The University of Hong Kong
-  url: mailto:nelson.yung@hku.hk
-  papers: ["Automated-Fabric-Defect-Detection-A-Review"]
+Tommy Liu:
+  name: Tommy Liu
+  title: Australian National University 연구원
+  url:
+  image_url:
+  papers:
+    - "The-emergent-role-of-explainable-artificial-intelligence-in-the-materials-sciences"
 
-# Yarn Strength Prediction 논문 저자들
-rocco_furferi:
+Hye Kyung Choi:
+  name: Hye Kyung Choi
+  title: 성균관대학교 연구원
+  url:
+  image_url:
+  papers:
+    - "Optimization-of-Fiber-Radiation-Processes-Using-Multi-Objective-Reinforcement-Learning"
+    - "Optimization-of-spinning-processes-in-textile-manufacturing-using-reinforcement-learning"
+
+Whan Lee:
+  name: Whan Lee
+  title: 성균관대학교 연구원
+  url:
+  image_url:
+  papers:
+    - "Optimization-of-Fiber-Radiation-Processes-Using-Multi-Objective-Reinforcement-Learning"
+    - "Optimization-of-spinning-processes-in-textile-manufacturing-using-reinforcement-learning"
+    - "Application-of-Reinforcement-Learning-to-Dyeing-Processes-for-Residual-Dye-Reduction"
+
+Sang Do Noh:
+  name: Sang Do Noh
+  title: 성균관대학교 교수
+  url:
+  image_url:
+  papers:
+    - "Optimization-of-Fiber-Radiation-Processes-Using-Multi-Objective-Reinforcement-Learning"
+    - "Optimization-of-spinning-processes-in-textile-manufacturing-using-reinforcement-learning"
+    - "Application-of-Reinforcement-Learning-to-Dyeing-Processes-for-Residual-Dye-Reduction"
+
+Ziming Mao:
+  name: Ziming Mao
+  title: UC Berkeley 연구원
+  url:
+  image_url:
+  papers:
+    - "TRINITY-A-Fast-Compressed-Multi-attribute-Data-Store"
+
+Mingle Xu:
+  name: Mingle Xu
+  title: 전북대학교 연구원
+  url:
+  image_url:
+  papers:
+    - "Transfer-Learning-with-Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification"
+
+Yavuz Kahraman:
+  name: Yavuz Kahraman
+  title: Adiyaman University 연구원
+  url:
+  image_url:
+  papers:
+    - "Deep-Learning-Based-Fabric-Defect-Detection"
+
+Henry Ngan:
+  name: Henry Y.T. Ngan
+  title: The University of Hong Kong 연구원
+  url:
+  image_url:
+  papers:
+    - "Automated-fabric-defect-detection-A-review"
+
+James Prather:
+  name: James Prather
+  title: Abilene Christian University 교수
+  url:
+  image_url:
+  papers:
+    - "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools"
+
+Gyeore Yun:
+  name: Gyeore Yun
+  title: POSTECH 연구원
+  url:
+  image_url:
+  papers:
+    - "Real-time-Semantic-Full-Body-Haptic-Feedback-Converted-from-Sound-for-Virtual-Reality-Gameplay"
+    - "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects"
+
+Seungmoon Choi:
+  name: Seungmoon Choi
+  title: POSTECH 교수
+  url:
+  image_url:
+  papers:
+    - "Real-time-Semantic-Full-Body-Haptic-Feedback-Converted-from-Sound-for-Virtual-Reality-Gameplay"
+    - "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects"
+
+Peter Belcak:
+  name: Peter Belcak
+  title: NVIDIA 연구원
+  url:
+  image_url:
+  papers:
+    - "Small-Language-Models-are-the-Future-of-Agentic-AI"
+
+Iva Kertusha:
+  name: Iva Kertusha
+  title: University of Oslo 연구원
+  url:
+  image_url:
+  papers:
+    - "A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry"
+
+Chao Huang:
+  name: Chao Huang
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning"
+
+Weronika Ormaniec:
+  name: Weronika Ormaniec
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "WHAT-DOES-IT-MEAN-TO-BE-A-TRANSFORMER-INSIGHTS-FROM-A-THEORETICAL-HESSIAN-ANALYSIS"
+
+Rocco Furferi:
   name: Rocco Furferi
-  title: University of Florence
-  url: mailto:rocco.furferi@unifi.it
+  title: University of Florence 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Yarn-Strength-Prediction-A-Practical-Model-Based-on-Artificial-Neural-Networks",
-    ]
+    - "Yarn-Strength-Prediction-A-Practical-Model-Based-on-Artificial-Neural-Networks"
 
-maurizio_gelli:
-  name: Maurizio Gelli
-  title: New Mill S.P.A. Research Center
-  url: mailto:maurizio.gelli@newmill.it
+Baoguang Shi:
+  name: Baoguang Shi
+  title: Huazhong University of Science and Technology 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Yarn-Strength-Prediction-A-Practical-Model-Based-on-Artificial-Neural-Networks",
-    ]
+    - "An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition"
 
-# Development of a model for predicting dyeing color results 논문 저자들
-lee_woo_chang:
-  name: 이우창
-  title: 다이텍연구원
-  url: mailto:lee.woo.chang@dyetec.kr
+Rishad Dalal:
+  name: Rishad J. Dalal
+  title: University of Minnesota 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning",
-    ]
+    - "Polymer-design-via-SHAP-and-Bayesian-machine-learning-optimizes-pDNA-and-CRISPR-ribonucleoprotein-delivery"
 
-son_hyun_sik:
-  name: 손현식
-  title: 다이텍연구원
-  url: mailto:son.hyun.sik@dyetec.kr
-  papers:
-    [
-      "Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning",
-    ]
-
-lee_chung_kwon:
-  name: 이충권
-  title: 계명대학교 경영정보학전공 교수
-  url: mailto:lee.chung.kwon@kmu.ac.kr
-  papers:
-    [
-      "Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning",
-    ]
-# POSTECH (포항공과대학교) 저자들
-gyeore_yun:
-  name: 윤겨레
-  title: Pohang University of Science and Technology (POSTECH)
-  url: https://scholar.google.com/citations?user=gyeore.yun@postech.ac.kr
-  papers:
-    [
-      "Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement",
-      "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects",
-      "Real-time-Semantic-Full-Body-Haptic-Feedback-Converted-from-Sound-for-Virtual-Reality-Gameplay",
-    ]
-
-seungmoon_choi:
-  name: 최승문
-  title: Pohang University of Science and Technology (POSTECH)
-  url: https://scholar.google.com/citations?user=seungmoon.choi@postech.ac.kr
-  papers:
-    [
-      "Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement",
-      "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects",
-      "Real-time-Semantic-Full-Body-Haptic-Feedback-Converted-from-Sound-for-Virtual-Reality-Gameplay",
-    ]
-
-minjae_mun:
-  name: 문민재
-  title: Pohang University of Science and Technology (POSTECH)
-  url: https://scholar.google.com/citations?user=minjae.mun@postech.ac.kr
-  papers:
-    [
-      "Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement",
-    ]
-
-jungeun_lee:
-  name: 이준근
-  title: Pohang University of Science and Technology (POSTECH)
-  url: https://scholar.google.com/citations?user=jungeun.lee@postech.ac.kr
-  papers:
-    [
-      "Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement",
-    ]
-
-donggeun_kim:
-  name: 김동근
-  title: Pohang University of Science and Technology (POSTECH)
-  url: https://scholar.google.com/citations?user=donggeun.kim@postech.ac.kr
-  papers:
-    [
-      "Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement",
-    ]
-
-hong_z_tan:
-  name: Hong Z. Tan
-  title: Google LLC
-  url: https://scholar.google.com/citations?user=hong.tan@google.com
-  papers:
-    [
-      "Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement",
-    ]
-
-sangyun_han:
-  name: 한상윤
-  title: Pohang University of Science and Technology (POSTECH)
-  url: https://scholar.google.com/citations?user=sangyun.han@postech.ac.kr
-  papers:
-    [
-      "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects",
-    ]
-
-hyoseung_lee:
-  name: 이효승
-  title: Pohang University of Science and Technology (POSTECH)
-  url: https://scholar.google.com/citations?user=hyoseung.lee@postech.ac.kr
-  papers:
-    [
-      "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects",
-    ]
-
-# 새로 추가된 논문 저자들
-
-# AI-Assisted Discovery of Biodegradable Polymer Alternatives 논문 저자들
-peter_broklyn:
-  name: Peter Broklyn
-  title: N/A
-  url: N/A
-  papers: ["AI-Assisted-Discovery-of-Biodegradable-Polymer-Alternatives"]
-
-sabir_k:
-  name: Sabir K
-  title: N/A
-  url: N/A
-  papers: ["AI-Assisted-Discovery-of-Biodegradable-Polymer-Alternatives"]
-
-# Alternative Methods to SHAP 논문 저자들
-kazuhiro_hiraki:
+Kazuhiro Hiraki:
   name: Kazuhiro Hiraki
-  title: N/A
-  url: N/A
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Alternative-Methods-to-SHAP-Derived-from-Properties-of-Kernels-A-Note-on-Theoretical-Analysis",
-    ]
+    - "Alternative-Methods-to-SHAP-Derived-from-Properties-of-Kernels-A-Note-on-Theoretical-Analysis"
 
-shinichi_ishihara:
-  name: Shinichi Ishihara
-  title: N/A
-  url: N/A
+Fatma Günseli:
+  name: Fatma Günseli YAŞAR ÇIKLAÇANDIR
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Alternative-Methods-to-SHAP-Derived-from-Properties-of-Kernels-A-Note-on-Theoretical-Analysis",
-    ]
+    - "Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning"
 
-junnosuke_shino:
-  name: Junnosuke Shino
-  title: Waseda University
-  url: N/A
+Navya Nori:
+  name: Navya Nori
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Alternative-Methods-to-SHAP-Derived-from-Properties-of-Kernels-A-Note-on-Theoretical-Analysis",
-    ]
+    - "Machine-Learning-Based-Virtual-Screening-for-Biodegradable-Polyesters"
 
-# Explainable AI for Material Property Prediction 논문 저자들
-faiza_qayyum:
+Faiza Qayyum:
   name: Faiza Qayyum
-  title: Jeju National University
-  url: N/A
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach",
-    ]
+    - "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach"
 
-murad_ali_khan:
-  name: Murad Ali Khan
-  title: Jeju National University
-  url: N/A
+Se-Chan Park:
+  name: Se-Chan Park
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach",
-    ]
+    - "The-Development-of-Biodegradable-Fiber-Tensile-Tenacity-and-Elongation-Prediction-Model-Considering-Data-Imbalance-and-Measurement-Error"
 
-do_hyeun_kim:
-  name: Do-Hyeun Kim
-  title: Jeju National University
-  url: N/A
+이우창:
+  name: 이우창
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach",
-    ]
+    - "Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning"
 
-hyunseok_ko:
-  name: Hyunseok Ko
-  title: Korea Institute of Ceramic Engineering and Technology
-  url: N/A
+손현식:
+  name: 손현식
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach",
-    ]
+    - "Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning"
 
-ga_ae_ryu:
-  name: Ga-Ae Ryu
-  title: Korea Institute of Ceramic Engineering and Technology
-  url: N/A
+이충권:
+  name: 이충권
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach",
-    ]
+    - "Development-of-a-model-for-predicting-dyeing-color-results-of-polyester-fibers-based-on-deep-learning"
 
-# Explainable machine learning in materials science 논문 저자들
+Md. Eusha Kadir:
+  name: Md. Eusha Kadir
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges"
+
+Wesam Alaloul:
+  name: Wesam Salah Alaloul
+  title: Universiti Teknologi PETRONAS 연구원
+  url:
+  image_url:
+  papers:
+    - "Utilizing-calcined-and-raw-fly-oil-shale-ash-in-the-carbonation-process-of-OPC-cement-paste-and-mortar"
+
+IBRAHIM ALYOUSSEF:
+  name: IBRAHIM YOUSSEF ALYOUSSEF
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education"
+
+peter_broklyn:
+  name: peter_broklyn
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "AI-Assisted-Discovery-of-Biodegradable-Polymer-Alternatives"
+
+Jean Pouget-Abadie:
+  name: Jean Pouget-Abadie
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Generative-Adversarial-Nets"
+
+Mehdi Mirza:
+  name: Mehdi Mirza
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Generative-Adversarial-Nets"
+
+Bing Xu:
+  name: Bing Xu
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Generative-Adversarial-Nets"
+
+David Warde-Farley:
+  name: David Warde-Farley
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Generative-Adversarial-Nets"
+
+Sherjil Ozair:
+  name: Sherjil Ozair
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Generative-Adversarial-Nets"
+
+Aaron Courville:
+  name: Aaron Courville
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Generative-Adversarial-Nets"
+
+Yoshua Bengio:
+  name: Yoshua Bengio
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Generative-Adversarial-Nets"
+
+Noam Shazeer:
+  name: Noam Shazeer
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Attention-Is-All-You-Need"
+
+Niki Parmar:
+  name: Niki Parmar
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Attention-Is-All-You-Need"
+
+Jakob Uszkoreit:
+  name: Jakob Uszkoreit
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Attention-Is-All-You-Need"
+
+Llion Jones:
+  name: Llion Jones
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Attention-Is-All-You-Need"
+
+Aidan Gomez:
+  name: Aidan Gomez
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Attention-Is-All-You-Need"
+
+Lukasz Kaiser:
+  name: Lukasz Kaiser
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Attention-Is-All-You-Need"
+
+Illia Polosukhin:
+  name: Illia Polosukhin
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Attention-Is-All-You-Need"
+
+Aja Huang:
+  name: Aja Huang
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"
+
+Chris J. Maddison:
+  name: Chris J. Maddison
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"
+
+Arthur Guez:
+  name: Arthur Guez
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"
+
+Laurent Sifre:
+  name: Laurent Sifre
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"
+
+George van den Driessche:
+  name: George van den Driessche
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"
+
+Thore Graepel:
+  name: Thore Graepel
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search"
+
+Seyed Mohammad Mehdi Sajadieh:
+  name: Seyed Mohammad Mehdi Sajadieh
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Optimization-of-Fiber-Radiation-Processes-Using-Multi-Objective-Reinforcement-Learning"
+    - "Application-of-Reinforcement-Learning-to-Dyeing-Processes-for-Residual-Dye-Reduction"
+
+Seung Bum Sim:
+  name: Seung Bum Sim
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Optimization-of-Fiber-Radiation-Processes-Using-Multi-Objective-Reinforcement-Learning"
+
+Jisoo Park:
+  name: Jisoo Park
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Application-of-Reinforcement-Learning-to-Dyeing-Processes-for-Residual-Dye-Reduction"
+
+Sook Yoon:
+  name: Sook Yoon
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Transfer-Learning-with-Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification"
+
+Yongchae Jeong:
+  name: Yongchae Jeong
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Transfer-Learning-with-Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification"
+
+Jaesu Lee:
+  name: Jaesu Lee
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Transfer-Learning-with-Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification"
+
+Dong Sun Park:
+  name: Dong Sun Park
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Transfer-Learning-with-Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification"
+
+Navya Nori:
+  name: Navya Nori
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Machine-Learning-Based-Virtual-Screening-for-Biodegradable-Polyesters"
+
+Alptekin Durmuşoğlu:
+  name: Alptekin Durmuşoğlu
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Deep-Learning-Based-Fabric-Defect-Detection"
+
+Maurizio Gelli:
+  name: Maurizio Gelli
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Yarn-Strength-Prediction-A-Practical-Model-Based-on-Artificial-Neural-Networks"
+
+Tasnim Rahman:
+  name: Tasnim Rahman
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges"
+
+Sourav Barman:
+  name: Sourav Barman
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges"
+
+Md. Al-Amin:
+  name: Md. Al-Amin
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges"
+
+Hyoseung Lee:
+  name: Hyoseung Lee
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects"
+
+Sangyoon Han:
+  name: Sangyoon Han
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects"
+
+Carlos Guestrin:
+  name: Carlos Guestrin
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "XGBoost-A-Scalable-Tree-Boosting-System"
+
+Xiang Bai:
+  name: Xiang Bai
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition"
+
+Cong Yao:
+  name: Cong Yao
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "An-End-to-End-Trainable-Neural-Network-for-Image-Based-Sequence-Recognition-and-Its-Application-to-Scene-Text-Recognition"
+
+Alexander S. Ecker:
+  name: Alexander S. Ecker
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "A-Neural-Algorithm-of-Artistic-Style"
+
+Matthias Bethge:
+  name: Matthias Bethge
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "A-Neural-Algorithm-of-Artistic-Style"
+
+AMR MOHAMMED DRWISH:
+  name: AMR MOHAMMED DRWISH
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education"
+
+FATIMAH ADEL ALBAKHEET:
+  name: FATIMAH ADEL ALBAKHEET
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education"
+
+RAFDAN HASSAN ALHAJHOJ:
+  name: RAFDAN ALHAJHOJ
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "AI-Adoption-for-Collaboration-Factors-Influencing-Inclusive-Learning-Adoption-in-Higher-Education"
+
+Felix Dangel:
+  name: Felix Dangel
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "WHAT-DOES-IT-MEAN-TO-BE-A-TRANSFORMER-INSIGHTS-FROM-A-THEORETICAL-HESSIAN-ANALYSIS"
+
+Sidak Pal Singh:
+  name: Sidak Pal Singh
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "WHAT-DOES-IT-MEAN-TO-BE-A-TRANSFORMER-INSIGHTS-FROM-A-THEORETICAL-HESSIAN-ANALYSIS"
+
+Xiangyu Zhang:
+  name: Xiangyu Zhang
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Deep-Residual-Learning-for-Image-Reconition"
+
+Shaoqing Ren:
+  name: Shaoqing Ren
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Deep-Residual-Learning-for-Image-Reconition"
+
+Jian Sun:
+  name: Jian Sun
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Deep-Residual-Learning-for-Image-Reconition"
+
+Juho Leinonen:
+  name: Juho Leinonen
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools"
+
+Natalie Kiesler:
+  name: Natalie Kiesler
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools"
+
+Jamie Gorson Benario:
+  name: Jamie Gorson Benario
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Beyond-the-Hype-A-Comprehensive-Review-of-Current-Trends-in-Generative-AI-Research-Teaching-Practices-and-Tools"
+
 xiaoting_zhong:
-  name: Xiaoting Zhong
-  title: Lawrence Livermore National Laboratory
-  url: N/A
-  papers: ["Explainable-machine-learning-in-materials-science"]
+  name: xiaoting_zhong
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Explainable-machine-learning-in-materials-science"
 
 brian_gallagher:
-  name: Brian Gallagher
-  title: Lawrence Livermore National Laboratory
-  url: N/A
-  papers: ["Explainable-machine-learning-in-materials-science"]
+  name: brian_gallagher
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Explainable-machine-learning-in-materials-science"
 
 shusen_liu:
-  name: Shusen Liu
-  title: Lawrence Livermore National Laboratory
-  url: N/A
-  papers: ["Explainable-machine-learning-in-materials-science"]
+  name: shusen_liu
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Explainable-machine-learning-in-materials-science"
 
 bhavya_kailkhura:
-  name: Bhavya Kailkhura
-  title: Lawrence Livermore National Laboratory
-  url: N/A
-  papers: ["Explainable-machine-learning-in-materials-science"]
-
-anna_hiszpanski:
-  name: Anna Hiszpanski
-  title: Lawrence Livermore National Laboratory
-  url: N/A
-  papers: ["Explainable-machine-learning-in-materials-science"]
-
-t_yong-jin_han:
-  name: T. Yong-Jin Han
-  title: Lawrence Livermore National Laboratory
-  url: N/A
-  papers: ["Explainable-machine-learning-in-materials-science"]
-
-# Machine learning based prediction models for split tensile strength 논문 저자들
-mohammed_alarfaj:
-  name: Mohammed Alarfaj
-  title: King Faisal University
-  url: N/A
+  name: bhavya_kailkhura
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte",
-    ]
+    - "Explainable-machine-learning-in-materials-science"
 
-hisham_jahangir_qureshi:
-  name: Hisham Jahangir Qureshi
-  title: King Faisal University
-  url: N/A
-  papers:
-    [
-      "Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte",
-    ]
-
-muhammad_zubair_shahab:
-  name: Muhammad Zubair Shahab
-  title: COMSATS University Islamabad, Abbottabad Campus
-  url: N/A
-  papers:
-    [
-      "Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte",
-    ]
-
-muhammad_faisal_javedd:
-  name: Muhammad Faisal Javedd
-  title: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
-  url: N/A
-  papers:
-    [
-      "Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte",
-    ]
-
-md_arifuzzaman:
-  name: Md Arifuzzaman
-  title: Monash University Malaysia
-  url: N/A
-  papers:
-    [
-      "Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte",
-    ]
-
-yaser_gamil:
-  name: Yaser Gamil
-  title: Monash University Malaysia
-  url: N/A
-  papers:
-    [
-      "Machine-learning-based-prediction-models-for-split-tensile-strength-of-fiber-reinforced-recycled-aggregate-concerte",
-    ]
-
-# Machine Learning Based Virtual Screening for Biodegradable Polyesters 논문 저자들
-navya_nori:
-  name: Navya Nori
-  title: Milton High School, Milton, USA
-  url: N/A
-  papers:
-    ["Machine-Learning-Based-Virtual-Screening-for-Biodegradable-Polyesters"]
-
-# Material Property Prediction with Element Attribute Knowledge Graphs 논문 저자들
-chao_huang:
-  name: Chao Huang
-  title: Institute of Computing Technology, Chinese Academy of Science, Beijing, China; Ningbo Institute of Information Technology Application, Chinese Academy of Sciences (CAS), Ningbo, China
-  url: N/A
-  papers:
-    [
-      "Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning",
-    ]
-
-chunyan_chen:
+Chunyan Chen:
   name: Chunyan Chen
-  title: Institute of Computing Technology, Chinese Academy of Science, Beijing, China; Ningbo Institute of Information Technology Application, Chinese Academy of Sciences (CAS), Ningbo, China
-  url: N/A
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning",
-    ]
+    - "Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning"
 
-ling_shil:
+Ling Shil:
   name: Ling Shil
-  title: Institute of Computing Technology, Chinese Academy of Science, Beijing, China; Ningbo Institute of Information Technology Application, Chinese Academy of Sciences (CAS), Ningbo, China
-  url: N/A
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning",
-    ]
+    - "Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning"
 
-chen_chen:
+Chen Chen:
   name: Chen Chen
-  title: Ningbo Institute of Information Technology Application, Chinese Academy of Sciences (CAS), Ningbo, China
-  url: N/A
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning",
-    ]
+    - "Meterial-Property-Prediction-with-Element-Attribute-Knowledge-Graphs-and-Multimodal-Representation-Learning"
 
-# Polymer design via SHAP and Bayesian machine learning 논문 저자들
-rishad_j_dalal:
-  name: Rishad J. Dalal
-  title: University of Minnesota
-  url: N/A
+Marsail Al Salaheen:
+  name: Marsail Al Salaheen
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Polymer-design-via-SHAP-and-Bayesian-machine-learning-optimizes-pDNA-and-CRISPR-ribonucleoprotein-delivery",
-    ]
+    - "Utilizing-calcined-and-raw-fly-oil-shale-ash-in-the-carbonation-process-of-OPC-cement-paste-and-mortar"
 
-felipe_oviedo:
-  name: Felipe Oviedo
-  title: Nanite Inc., University of Minnesota
-  url: N/A
+Khalid Alzubi:
+  name: Khalid Alzubi
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Polymer-design-via-SHAP-and-Bayesian-machine-learning-optimizes-pDNA-and-CRISPR-ribonucleoprotein-delivery",
-    ]
+    - "Utilizing-calcined-and-raw-fly-oil-shale-ash-in-the-carbonation-process-of-OPC-cement-paste-and-mortar"
 
-michael_c_leyden:
-  name: Michael C. Leyden
-  title: University of Minnesota
-  url: N/A
+Muhammad Ali Musarat:
+  name: Muhammad Ali Musarat
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Polymer-design-via-SHAP-and-Bayesian-machine-learning-optimizes-pDNA-and-CRISPR-ribonucleoprotein-delivery",
-    ]
+    - "Utilizing-calcined-and-raw-fly-oil-shale-ash-in-the-carbonation-process-of-OPC-cement-paste-and-mortar"
 
-theresa_m_reineke:
-  name: Theresa M. Reineke
-  title: University of Minnesota
-  url: N/A
+Gebremariam Assres:
+  name: Gebremariam Assres
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "Polymer-design-via-SHAP-and-Bayesian-machine-learning-optimizes-pDNA-and-CRISPR-ribonucleoprotein-delivery",
-    ]
+    - "A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry"
 
-# The emergent role of explainable artificial intelligence in the materials sciences 논문 저자들
-tommy_liu:
-  name: Tommy Liu
-  title: School of Computing, Australian National University
-  url: N/A
+Onur Duman:
+  name: Onur Duman
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "The-emergent-role-of-explainable-artificial-intelligence-in-the-materials-sciences",
-    ]
+    - "A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry"
 
-amanda_s_barnard:
+Andrea Arcuri:
+  name: Andrea Arcuri
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "A-Survey-on-Web-Testing-On-the-Rise-of-AI-and-Applications-in-Industry"
+
+Murad Ali Khan:
+  name: Murad Ali Khan
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach"
+
+Do-Hyeun Kim:
+  name: Do-Hyeun Kim
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach"
+
+Hyunseok Ko:
+  name: Hyunseok Ko
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach"
+
+Ga-Ae Ryu:
+  name: Ga-Ae Ryu
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Explainable-AI-for-Material-Property-Prediction-Based-on-Energy-Cloud-A-Shapley-Driven-Approach"
+
+Greg Heinrich:
+  name: Greg Heinrich
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Small-Language-Models-are-the-Future-of-Agentic-AI"
+
+Saurav Muralidharan:
+  name: Saurav Muralidharan
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Small-Language-Models-are-the-Future-of-Agentic-AI"
+
+Shizhe Diao:
+  name: Shizhe Diao
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Small-Language-Models-are-the-Future-of-Agentic-AI"
+
+Semih UTKU:
+  name: Semih UTKU
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning"
+
+Hakan ÖZDEMİR:
+  name: Hakan ÖZDEMİR
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning"
+
+Shinichi Ishihara:
+  name: Shinichi Ishihara
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Alternative-Methods-to-SHAP-Derived-from-Properties-of-Kernels-A-Note-on-Theoretical-Analysis"
+
+Junnosuke Shino:
+  name: Junnosuke Shino
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Alternative-Methods-to-SHAP-Derived-from-Properties-of-Kernels-A-Note-on-Theoretical-Analysis"
+
+sabir_k:
+  name: sabir_k
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "AI-Assisted-Discovery-of-Biodegradable-Polymer-Alternatives"
+
+Amanda S. Barnard:
   name: Amanda S. Barnard
-  title: School of Computing, Australian National University
-  url: N/A
+  title: 연구원
+  url:
+  image_url:
   papers:
-    [
-      "The-emergent-role-of-explainable-artificial-intelligence-in-the-materials-sciences",
-    ]
-# 다른 작성자가 있다면 추가 가능
-# another_author:
-#   name: 다른 작성자 이름
-#   title: Designer
-#   url: https://example.com
-#   image_url: img/another_author.png # static/img/ 폴더에 이미지 저장 후 경로 지정
+    - "The-emergent-role-of-explainable-artificial-intelligence-in-the-materials-sciences"
+
+Tri Dao:
+  name: Tri Dao
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Mamba-Linear-Time-Sequence-Modeling-with-Selective-State-Spaces"
+
+Kiran Srinivasan:
+  name: Kiran Srinivasan
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "TRINITY-A-Fast-Compressed-Multi-attribute-Data-Store"
+
+Anurag Khandelwal:
+  name: Anurag Khandelwal
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "TRINITY-A-Fast-Compressed-Multi-attribute-Data-Store"
+
+Simon Batzner:
+  name: Simon Batzner
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Scaling-deep-learning-for-materials-discovery"
+
+Samuel S. Schoenholz:
+  name: Samuel S. Schoenholz
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Scaling-deep-learning-for-materials-discovery"
+
+Muratahan Aykol:
+  name: Muratahan Aykol
+  title: 연구원
+  url:
+  image_url:
+  papers:
+    - "Scaling-deep-learning-for-materials-discovery"

@@ -2,9 +2,39 @@
 title: "Generating Real-Time, Selective, and Multimodal Haptic Effects from Sound for Gaming Experience Enhancement"
 date: "2023-04-23"
 description: "게임 사운드로부터 실시간으로 선택적, 다중 모드(진동, 충격) 햅틱 효과를 자동 생성하여 사용자 경험을 향상시키는 알고리즘에 대한 논문"
-keywords: ["Machine Learning", "Sound-Haptic Conversion", "Audio-Haptic Conversion", "Multimodal Haptic Effects", "Automatic Generation", "Game", "Real-Time", "Random Forest", "User Experience"]
-tags: ["Machine Learning", "Sound-Haptic Conversion", "Audio-Haptic Conversion", "Multimodal Haptic Effects", "Automatic Generation", "Game", "Real-Time", "Random Forest", "User Experience"]
-authors: ["gyeore_yun", "minjae_mun", "jungeun_lee", "donggeun_kim", "hong_z_tan", "seungmoon_choi"]
+keywords:
+  [
+    "Machine Learning",
+    "Sound-Haptic Conversion",
+    "Audio-Haptic Conversion",
+    "Multimodal Haptic Effects",
+    "Automatic Generation",
+    "Game",
+    "Real-Time",
+    "Random Forest",
+    "User Experience",
+  ]
+tags:
+  [
+    "Machine Learning",
+    "Sound-Haptic Conversion",
+    "Audio-Haptic Conversion",
+    "Multimodal Haptic Effects",
+    "Automatic Generation",
+    "Game",
+    "Real-Time",
+    "Random Forest",
+    "User Experience",
+  ]
+authors:
+  [
+    "gyeore_yun",
+    "minjae_mun",
+    "jungeun_lee",
+    "donggeun_kim",
+    "hong_z_tan",
+    "seungmoon_choi",
+  ]
 ---
 
 # Generating Real-Time, Selective, and Multimodal Haptic Effects from Sound for Gaming Experience Enhancement
@@ -12,38 +42,38 @@ authors: ["gyeore_yun", "minjae_mun", "jungeun_lee", "donggeun_kim", "hong_z_tan
 ## 논문 정보
 
 - **제목 (Title)**: Generating Real-Time, Selective, and Multimodal Haptic Effects from Sound for Gaming Experience Enhancement
-- **저자 (Authors) 및 소속 (Affiliations)**: 
-    - 윤겨레 (Pohang University of Science and Technology)
-    - 문민재 (Pohang University of Science and Technology)
-    - 이준근 (Pohang University of Science and Technology)
-    - 김동근 (Pohang University of Science and Technology)
-    - Hong Z. Tan (Google LLC)
-    - 최승문 (Pohang University of Science and Technology)
+- **저자 (Authors) 및 소속 (Affiliations)**:
+  - 윤겨레 (Pohang University of Science and Technology)
+  - 문민재 (Pohang University of Science and Technology)
+  - 이준근 (Pohang University of Science and Technology)
+  - 김동근 (Pohang University of Science and Technology)
+  - Hong Z. Tan (Google LLC)
+  - 최승문 (Pohang University of Science and Technology)
 - **학회 또는 저널명 (Conference or Journal Name)**: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23)
 - **제출일 또는 발행일 (Submission or Publication Date)**: 2023년 4월 23-28일
 - **키워드 (Keywords)**: 사운드-햅틱 변환, 오디오-햅틱 변환, 다중 모드 햅틱 효과, 자동 생성, 게임
 - **초록 (Abstract)**:
-    본 논문은 사운드 신호를 실시간으로 처리하여 진동, 충격, 또는 진동과 충격이 결합된 햅틱 효과를 생성하는 알고리즘을 제안한다. 제안하는 알고리즘은 전문가가 레이블링한 데이터셋으로 구축된 머신러닝 분류기(랜덤 포레스트)를 사용하여 사운드에 가장 적합한 유형의 햅틱 효과를 매칭한다는 점에서 '선택적'이다. 이 알고리즘은 비디오 게임 플레이 경험을 향상시키기 위해 맞춤화되었으며, RPG와 FPS 장르에 대한 두 가지 예시를 제시한다. 동일한 교차 모달 변환을 위한 다른 최신 기술(SOTA) 방법들과 비교하는 사용자 연구를 통해 알고리즘의 효과를 입증했으며, 두 게임 장르 모두에서 SOTA 알고리즘보다 더 나은 다중감각 사용자 경험을 이끌어냈다.
+  본 논문은 사운드 신호를 실시간으로 처리하여 진동, 충격, 또는 진동과 충격이 결합된 햅틱 효과를 생성하는 알고리즘을 제안한다. 제안하는 알고리즘은 전문가가 레이블링한 데이터셋으로 구축된 머신러닝 분류기(랜덤 포레스트)를 사용하여 사운드에 가장 적합한 유형의 햅틱 효과를 매칭한다는 점에서 '선택적'이다. 이 알고리즘은 비디오 게임 플레이 경험을 향상시키기 위해 맞춤화되었으며, RPG와 FPS 장르에 대한 두 가지 예시를 제시한다. 동일한 교차 모달 변환을 위한 다른 최신 기술(SOTA) 방법들과 비교하는 사용자 연구를 통해 알고리즘의 효과를 입증했으며, 두 게임 장르 모두에서 SOTA 알고리즘보다 더 나은 다중감각 사용자 경험을 이끌어냈다.
 - **주요 연구 내용 (Main Research Content/Methodology)**:
-    - **실시간 사운드-햅틱 변환 시스템 제안**: 게임의 오디오 스트림을 실시간으로 캡처하고 처리하여 진동, 충격, 또는 이 둘을 결합한 다중 모드 햅틱 효과를 생성한다.
-    - **머신러닝 기반 선택적 분류**: 전문가가 RPG 및 FPS 게임 사운드에 대해 레이블링한 데이터셋을 구축하고, 이를 기반으로 학습된 랜덤 포레스트(Random Forest) 분류기를 사용하여 사운드에 가장 적합한 햅틱 유형(없음, 진동, 충격, 복합)을 실시간으로 선택한다.
-    - **다중 모드 햅틱 렌더링**: 분류된 햅틱 유형에 따라 진동 액추에이터(Vibrotactile Actuator)와 충격 액추에이터(Impact Actuator)를 제어하여 풍부하고 다양한 햅틱 피드백을 사용자에게 제공한다.
-    - **실시간 성능 최적화**: 사용자가 사운드와 햅틱을 동시에 인지할 수 있도록, 데이터 캡처 윈도우 크기와 분류 모델 파라미터를 최적화하여 전체 계산 지연 시간을 최소화했다(사운드-충격 평균 63.3ms).
-    - **사용자 경험 평가**: 기존의 대표적인 사운드-햅틱 변환 알고리즘(단순 저역 통과 필터, 심리음향학 기반 SOTA)과 제안된 알고리즘(진동만, 다중 모드)을 RPG 및 FPS 게임 영상에 적용하여 사용자 경험을 비교 평가했다.
+  - **실시간 사운드-햅틱 변환 시스템 제안**: 게임의 오디오 스트림을 실시간으로 캡처하고 처리하여 진동, 충격, 또는 이 둘을 결합한 다중 모드 햅틱 효과를 생성한다.
+  - **머신러닝 기반 선택적 분류**: 전문가가 RPG 및 FPS 게임 사운드에 대해 레이블링한 데이터셋을 구축하고, 이를 기반으로 학습된 랜덤 포레스트(Random Forest) 분류기를 사용하여 사운드에 가장 적합한 햅틱 유형(없음, 진동, 충격, 복합)을 실시간으로 선택한다.
+  - **다중 모드 햅틱 렌더링**: 분류된 햅틱 유형에 따라 진동 액추에이터(Vibrotactile Actuator)와 충격 액추에이터(Impact Actuator)를 제어하여 풍부하고 다양한 햅틱 피드백을 사용자에게 제공한다.
+  - **실시간 성능 최적화**: 사용자가 사운드와 햅틱을 동시에 인지할 수 있도록, 데이터 캡처 윈도우 크기와 분류 모델 파라미터를 최적화하여 전체 계산 지연 시간을 최소화했다(사운드-충격 평균 63.3ms).
+  - **사용자 경험 평가**: 기존의 대표적인 사운드-햅틱 변환 알고리즘(단순 저역 통과 필터, 심리음향학 기반 SOTA)과 제안된 알고리즘(진동만, 다중 모드)을 RPG 및 FPS 게임 영상에 적용하여 사용자 경험을 비교 평가했다.
 - **주요 결과 및 결론 (Key Findings and Conclusion)**:
-    - **제안 시스템의 우수성 입증**: 제안된 ML 기반 시스템은 적절성, 방해 정도, 즐거움, 동기화, 피로도, 선호도 등 대부분의 사용자 경험 지표에서 기존 SOTA 알고리즘들보다 통계적으로 유의미하게 우수한 평가를 받았다.
-    - **선택적 변환의 효과**: 배경음악과 같은 불필요한 사운드까지 햅틱으로 변환하는 단순 필터링 방식에 비해, 제안된 시스템처럼 중요한 이벤트 사운드만 '선택적으로' 변환하는 것이 사용자의 방해와 피로감을 크게 줄이고 전반적인 경험을 향상시켰다.
-    - **ML 분류기의 견고성**: 제안된 랜덤 포레스트 분류기(98.7% 정확도)는 단순 임계값에 의존하는 심리음향학적 SOTA 방법에 비해 다양한 사운드 환경(e.g., 배경음악 볼륨이 큰 경우)에서도 더 일관되고 안정적으로 목표 사운드를 감지하여 햅틱 효과를 생성했다.
-    - **다중 모드 햅틱의 잠재성**: 진동만 사용한 경우와 진동+충격을 함께 사용한 경우 간에 통계적으로 유의미한 선호도 차이는 없었다. 인터뷰 결과, 충격 효과가 현실감과 몰입감을 높인다는 긍정적 의견과, 과도하거나 피곤하다는 부정적 의견이 공존하여 개인 선호도 차이가 큰 것으로 나타났다.
+  - **제안 시스템의 우수성 입증**: 제안된 ML 기반 시스템은 적절성, 방해 정도, 즐거움, 동기화, 피로도, 선호도 등 대부분의 사용자 경험 지표에서 기존 SOTA 알고리즘들보다 통계적으로 유의미하게 우수한 평가를 받았다.
+  - **선택적 변환의 효과**: 배경음악과 같은 불필요한 사운드까지 햅틱으로 변환하는 단순 필터링 방식에 비해, 제안된 시스템처럼 중요한 이벤트 사운드만 '선택적으로' 변환하는 것이 사용자의 방해와 피로감을 크게 줄이고 전반적인 경험을 향상시켰다.
+  - **ML 분류기의 견고성**: 제안된 랜덤 포레스트 분류기(98.7% 정확도)는 단순 임계값에 의존하는 심리음향학적 SOTA 방법에 비해 다양한 사운드 환경(e.g., 배경음악 볼륨이 큰 경우)에서도 더 일관되고 안정적으로 목표 사운드를 감지하여 햅틱 효과를 생성했다.
+  - **다중 모드 햅틱의 잠재성**: 진동만 사용한 경우와 진동+충격을 함께 사용한 경우 간에 통계적으로 유의미한 선호도 차이는 없었다. 인터뷰 결과, 충격 효과가 현실감과 몰입감을 높인다는 긍정적 의견과, 과도하거나 피곤하다는 부정적 의견이 공존하여 개인 선호도 차이가 큰 것으로 나타났다.
 - **기여점 (Contributions)**:
-    - **최초의 다중 모드 선택적 사운드-햅틱 변환 시스템**: 게임 사운드로부터 실시간으로 작동하며, 머신러닝을 기반으로 '선택적'으로 햅틱 효과를 생성하는 최초의 '다중 모드(진동+충격)' 사운드-햅틱 변환 알고리즘과 시스템을 제안했다.
-    - **사용자 경험 향상의 실험적 검증**: 사용자 연구를 통해 제안된 접근 방식이 기존의 단순 변환 방식이나 심리음향학 기반의 SOTA 방법에 비해 게임 경험을 유의미하게 향상시킨다는 것을 실험적으로 검증했다.
-    - **실시간 성능과 정확도의 균형 달성**: 실시간 성능(낮은 지연 시간)과 높은 분류 정확도를 동시에 달성하기 위한 시스템 파라미터 최적화 과정을 제시했다.
+  - **최초의 다중 모드 선택적 사운드-햅틱 변환 시스템**: 게임 사운드로부터 실시간으로 작동하며, 머신러닝을 기반으로 '선택적'으로 햅틱 효과를 생성하는 최초의 '다중 모드(진동+충격)' 사운드-햅틱 변환 알고리즘과 시스템을 제안했다.
+  - **사용자 경험 향상의 실험적 검증**: 사용자 연구를 통해 제안된 접근 방식이 기존의 단순 변환 방식이나 심리음향학 기반의 SOTA 방법에 비해 게임 경험을 유의미하게 향상시킨다는 것을 실험적으로 검증했다.
+  - **실시간 성능과 정확도의 균형 달성**: 실시간 성능(낮은 지연 시간)과 높은 분류 정확도를 동시에 달성하기 위한 시스템 파라미터 최적화 과정을 제시했다.
 - **DOI (Digital Object Identifier)**: 10.1145/3544548.3580787
 - **기타 식별 가능한 정보**:
-    - **연구 분야**: 인간-컴퓨터 상호작용(HCI), 햅틱스, 게임
-    - **연구 대상**: 비디오 게임 (RPG, FPS)
-    - **데이터셋**: 유튜브 게임플레이 영상에서 사운드 샘플을 수집하여 전문가 레이블링을 통해 자체 데이터셋 구축
+  - **연구 분야**: 인간-컴퓨터 상호작용(HCI), 햅틱스, 게임
+  - **연구 대상**: 비디오 게임 (RPG, FPS)
+  - **데이터셋**: 유튜브 게임플레이 영상에서 사운드 샘플을 수집하여 전문가 레이블링을 통해 자체 데이터셋 구축
 
 <!-- truncate -->
 
@@ -75,19 +105,21 @@ authors: ["gyeore_yun", "minjae_mun", "jungeun_lee", "donggeun_kim", "hong_z_tan
 #### 다중 모드 햅틱 렌더링
 
 분류 결과에 따라 시스템은 다음과 같이 햅틱 신호를 생성한다.
-* **진동 (Vibration)**: 'VIB' 또는 'MM'으로 분류된 경우, 원본 오디오 신호에 저역 통과 필터(low-pass filter)를 적용하여 생성된 신호를 진동 액추에이터로 전송한다.
-* **충격 (Impact)**: 'IMP' 또는 'MM'으로 분류된 경우, 충격 액추에이터에 단일 명령을 전송하여 최대 강도의 충격을 발생시킨다. 액추에이터의 물리적 지연 시간을 고려하여 한 번의 충격 후 40ms 동안은 추가 명령을 비활성화한다.
+
+- **진동 (Vibration)**: 'VIB' 또는 'MM'으로 분류된 경우, 원본 오디오 신호에 저역 통과 필터(low-pass filter)를 적용하여 생성된 신호를 진동 액추에이터로 전송한다.
+- **충격 (Impact)**: 'IMP' 또는 'MM'으로 분류된 경우, 충격 액추에이터에 단일 명령을 전송하여 최대 강도의 충격을 발생시킨다. 액추에이터의 물리적 지연 시간을 고려하여 한 번의 충격 후 40ms 동안은 추가 명령을 비활성화한다.
 
 #### 사용자 연구 및 결과
 
 제안된 시스템의 효과를 검증하기 위해 4가지 사운드-햅틱 변환 알고리즘을 비교하는 사용자 연구를 진행했다.
-* **비교 알고리즘**: (1) **LPF-VIB**: 단순 저역 통과 필터링 (비선택적), (2) **PSY-VIB**: 심리음향학 기반 SOTA (선택적), (3) **RF-VIB**: 제안된 ML 모델 (진동만), (4) **RF-MM**: 제안된 ML 모델 (진동+충격)
-* **실험 방법**: 참가자들은 RPG 및 FPS 게임 영상을 시청하며 각 알고리즘이 생성하는 햅틱 효과를 경험하고, 적절성, 방해, 즐거움 등의 항목을 평가했다.
-* **주요 결과**:
-    * 전반적으로 제안된 알고리즘(RF-VIB, RF-MM)이 다른 두 알고리즘보다 더 나은 사용자 경험을 제공했다.
-    * 특히 배경음악이 큰 RPG 게임에서, 불필요한 진동을 모두 생성하는 LPF-VIB는 방해와 피로도가 가장 높았다. 이를 통해 '선택적' 변환의 중요성이 확인되었다.
-    * 단순 임계값에 의존하는 PSY-VIB는 특정 영상에서 중요한 이벤트를 자주 놓쳐 일관성이 부족하다는 평가를 받은 반면, RF-VIB는 더 견고한 성능을 보였다.
-    * RF-MM의 충격 효과에 대해서는 현실감을 높여 몰입에 도움이 되었다는 의견과, 너무 강하고 피곤하게 느껴졌다는 의견이 나뉘어 개인차가 크게 나타났다.
+
+- **비교 알고리즘**: (1) **LPF-VIB**: 단순 저역 통과 필터링 (비선택적), (2) **PSY-VIB**: 심리음향학 기반 SOTA (선택적), (3) **RF-VIB**: 제안된 ML 모델 (진동만), (4) **RF-MM**: 제안된 ML 모델 (진동+충격)
+- **실험 방법**: 참가자들은 RPG 및 FPS 게임 영상을 시청하며 각 알고리즘이 생성하는 햅틱 효과를 경험하고, 적절성, 방해, 즐거움 등의 항목을 평가했다.
+- **주요 결과**:
+  - 전반적으로 제안된 알고리즘(RF-VIB, RF-MM)이 다른 두 알고리즘보다 더 나은 사용자 경험을 제공했다.
+  - 특히 배경음악이 큰 RPG 게임에서, 불필요한 진동을 모두 생성하는 LPF-VIB는 방해와 피로도가 가장 높았다. 이를 통해 '선택적' 변환의 중요성이 확인되었다.
+  - 단순 임계값에 의존하는 PSY-VIB는 특정 영상에서 중요한 이벤트를 자주 놓쳐 일관성이 부족하다는 평가를 받은 반면, RF-VIB는 더 견고한 성능을 보였다.
+  - RF-MM의 충격 효과에 대해서는 현실감을 높여 몰입에 도움이 되었다는 의견과, 너무 강하고 피곤하게 느껴졌다는 의견이 나뉘어 개인차가 크게 나타났다.
 
 ### 결론 (Conclusion)
 
