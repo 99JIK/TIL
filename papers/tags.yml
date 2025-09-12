@@ -1,1433 +1,464 @@
-# tags.yml
-
-# AI & Machine Learning
 Artificial Intelligence:
-  name: "Artificial Intelligence"
-  description: "인공지능 관련 연구"
-  color: "#FF6B6B"
-
+  description: 인공지능 관련 연구
 Machine Learning:
-  name: "Machine Learning"
-  description: "머신러닝 알고리즘 및 방법론"
-  color: "#4ECDC4"
-
+  description: 머신러닝 알고리즘 및 방법론
 Deep Learning:
-  name: "Deep Learning"
-  description: "딥러닝 및 신경망 연구"
-  color: "#45B7D1"
-
+  description: 딥러닝 및 신경망 연구
 Generative Artificial Intelligence:
-  name: "Generative Artificial Intelligence"
-  description: "생성형 인공지능"
-  color: "#96CEB4"
-
+  description: 생성형 인공지능
 Large Language Models:
-  name: "Large Language Models"
-  description: "대규모 언어 모델"
-  color: "#FFEAA7"
-
-# Computer Vision & Image Processing
+  description: 대규모 언어 모델
 Computer Vision:
-  name: "Computer Vision"
-  description: "컴퓨터 비전 및 이미지 처리"
-  color: "#DDA0DD"
-
+  description: 컴퓨터 비전 및 이미지 처리
 Image Processing:
-  name: "Image Processing"
-  description: "이미지 처리 기술"
-  color: "#98D8C8"
-
+  description: 이미지 처리 기술
 Convolutional Neural Networks:
-  name: "Convolutional Neural Networks"
-  description: "합성곱 신경망"
-  color: "#F7DC6F"
-
+  description: 합성곱 신경망
 Vision Transformer:
-  name: "Vision Transformer"
-  description: "비전 트랜스포머"
-  color: "#BB8FCE"
-
-# Natural Language Processing
+  description: 비전 트랜스포머
 Natural Language Processing:
-  name: "Natural Language Processing"
-  description: "자연어 처리"
-  color: "#85C1E9"
-
+  description: 자연어 처리
 Transformer:
-  name: "Transformer"
-  description: "트랜스포머 아키텍처"
-  color: "#82E0AA"
-
-# Reinforcement Learning
+  description: 트랜스포머 아키텍처
 Reinforcement Learning:
-  name: "Reinforcement Learning"
-  description: "강화학습"
-  color: "#F1948A"
-
+  description: 강화학습
 Q-learning:
-  name: "Q-learning"
-  description: "Q-러닝 알고리즘"
-  color: "#85C1E9"
-
+  description: Q-러닝 알고리즘
 Monte Carlo Tree Search:
-  name: "Monte Carlo Tree Search"
-  description: "몬테카를로 트리 탐색"
-  color: "#D7BDE2"
-
-# Generative Models
+  description: 몬테카를로 트리 탐색
 Generative Adversarial Networks:
-  name: "Generative Adversarial Networks"
-  description: "생성적 적대 신경망"
-  color: "#F9E79F"
-
+  description: 생성적 적대 신경망
 Generative Model:
-  name: "Generative Model"
-  description: "생성 모델"
-  color: "#AED6F1"
-
-# Materials Science
+  description: 생성 모델
 Materials Science:
-  name: "Materials Science"
-  description: "재료과학"
-  color: "#A9DFBF"
-
+  description: 재료과학
 Explainable Artificial Intelligence:
-  name: "Explainable Artificial Intelligence"
-  description: "설명가능한 인공지능"
-  color: "#FADBD8"
-
-# Textile & Manufacturing
+  description: 설명가능한 인공지능
 Textile Industry:
-  name: "Textile Industry"
-  description: "섬유 산업"
-  color: "#D5DBDB"
-
+  description: 섬유 산업
 Manufacturing:
-  name: "Manufacturing"
-  description: "제조업"
-  color: "#FCF3CF"
-
+  description: 제조업
 Smart Factory:
-  name: "Smart Factory"
-  description: "스마트 팩토리"
-  color: "#D1F2EB"
-
-# Software Engineering & Testing
+  description: 스마트 팩토리
 Software Testing:
-  name: "Software Testing"
-  description: "소프트웨어 테스팅"
-  color: "#E8DAEF"
-
+  description: 소프트웨어 테스팅
 Web Testing:
-  name: "Web Testing"
-  description: "웹 테스팅"
-  color: "#D6EAF8"
-
+  description: 웹 테스팅
 Automation:
-  name: "Automation"
-  description: "자동화"
-  color: "#FAD7A0"
-
-# Data Processing & Analysis
+  description: 자동화
 Data Preprocessing:
-  name: "Data Preprocessing"
-  description: "데이터 전처리"
-  color: "#D5A6BD"
-
+  description: 데이터 전처리
 Outlier:
-  name: "Outlier"
-  description: "이상치 처리"
-  color: "#A9CCE3"
-
+  description: 이상치 처리
 Data Imbalance:
-  name: "Data Imbalance"
-  description: "데이터 불균형"
-  color: "#F7DC6F"
-
-# Performance & Optimization
+  description: 데이터 불균형
 Performance:
-  name: "Performance"
-  description: "성능 최적화"
-  color: "#AED6F1"
-
+  description: 성능 최적화
 Optimization:
-  name: "Optimization"
-  description: "최적화"
-  color: "#A9DFBF"
-
+  description: 최적화
 Scalability:
-  name: "Scalability"
-  description: "확장성"
-  color: "#F9E79F"
-
-# Review & Survey
+  description: 확장성
 Review:
-  name: "Review"
-  description: "리뷰 논문"
-  color: "#D7BDE2"
-
+  description: 리뷰 논문
 Systematic Literature Review:
-  name: "Systematic Literature Review"
-  description: "체계적 문헌 고찰"
-  color: "#FADBD8"
-
-# Specific Applications
+  description: 체계적 문헌 고찰
 Lightfastness:
-  name: "Lightfastness"
-  description: "내광성"
-  color: "#D5DBDB"
-
+  description: 내광성
 Differential Testing:
-  name: "Differential Testing"
-  description: "차분 테스팅"
-  color: "#FCF3CF"
-
+  description: 차분 테스팅
 Plant Identification:
-  name: "Plant Identification"
-  description: "식물 식별"
-  color: "#D1F2EB"
-
-# Gaming & Virtual Reality
+  description: 식물 식별
 Virtual Reality:
-  name: "Virtual Reality"
-  description: "가상현실"
-  color: "#E8DAEF"
-
+  description: 가상현실
 Haptics:
-  name: "Haptics"
-  description: "햅틱 기술"
-  color: "#D6EAF8"
-
+  description: 햅틱 기술
 First Person Shooter:
-  name: "First Person Shooter"
-  description: "1인칭 슈팅 게임"
-  color: "#FAD7A0"
-
-# Education
+  description: 1인칭 슈팅 게임
 Computing Education:
-  name: "Computing Education"
-  description: "컴퓨팅 교육"
-  color: "#D5A6BD"
-
+  description: 컴퓨팅 교육
 Teaching Practices:
-  name: "Teaching Practices"
-  description: "교육 실천"
-  color: "#A9CCE3"
-
-# Data Structures & Algorithms
+  description: 교육 실천
 Data Store:
-  name: "Data Store"
-  description: "데이터 저장소"
-  color: "#F7DC6F"
-
+  description: 데이터 저장소
 Multi-dimensional Index:
-  name: "Multi-dimensional Index"
-  description: "다차원 인덱스"
-  color: "#AED6F1"
-
-# Specific Technologies
+  description: 다차원 인덱스
 AlphaGo:
-  name: "AlphaGo"
-  description: "알파고"
-  color: "#A9DFBF"
-
+  description: 알파고
 DeepMind:
-  name: "DeepMind"
-  description: "딥마인드"
-  color: "#F9E79F"
-
+  description: 딥마인드
 XGBoost:
-  name: "XGBoost"
-  description: "XGBoost 알고리즘"
-  color: "#D7BDE2"
-
-# Quality Control
+  description: XGBoost 알고리즘
 Quality Control:
-  name: "Quality Control"
-  description: "품질 관리"
-  color: "#FADBD8"
-
+  description: 품질 관리
 Fabric Defect Detection:
-  name: "Fabric Defect Detection"
-  description: "직물 결함 검출"
-  color: "#D5DBDB"
-
-# Transfer Learning
+  description: 직물 결함 검출
 Transfer Learning:
-  name: "Transfer Learning"
-  description: "전이학습"
-  color: "#FCF3CF"
-
+  description: 전이학습
 Self-Supervised Learning:
-  name: "Self-Supervised Learning"
-  description: "자기지도학습"
-  color: "#D1F2EB"
-
+  description: 자기지도학습
 Few-Shot Learning:
-  name: "Few-Shot Learning"
-  description: "소수샷 학습"
-  color: "#E8DAEF"
-
-# Prompt Engineering
+  description: 소수샷 학습
 Prompt Engineering:
-  name: "Prompt Engineering"
-  description: "프롬프트 엔지니어링"
-  color: "#D6EAF8"
-
-# Competitive Programming
+  description: 프롬프트 엔지니어링
 Competitive Programming:
-  name: "Competitive Programming"
-  description: "경쟁 프로그래밍"
-  color: "#FAD7A0"
-
+  description: 경쟁 프로그래밍
 Code Generation:
-  name: "Code Generation"
-  description: "코드 생성"
-  color: "#D5A6BD"
-
-# Internet of Things & Cloud
+  description: 코드 생성
 Internet of Things:
-  name: "Internet of Things"
-  description: "사물인터넷"
-  color: "#A9CCE3"
-
+  description: 사물인터넷
 Cloud:
-  name: "Cloud"
-  description: "클라우드"
-  color: "#F7DC6F"
-
-# Future Trends
+  description: 클라우드
 Future Trends:
-  name: "Future Trends"
-  description: "미래 동향"
-  color: "#AED6F1"
-
-# Position Paper
+  description: 미래 동향
 Position Paper:
-  name: "Position Paper"
-  description: "포지션 페이퍼"
-  color: "#A9DFBF"
-
-# Agentic AI
+  description: 포지션 페이퍼
 Agentic Artificial Intelligence:
-  name: "Agentic Artificial Intelligence"
-  description: "에이전트 AI"
-  color: "#F9E79F"
-
-# Language Models
+  description: 에이전트 AI
 Language Models:
-  name: "Language Models"
-  description: "언어 모델"
-  color: "#D7BDE2"
-
-# Software Engineering
+  description: 언어 모델
 Software Engineering:
-  name: "Software Engineering"
-  description: "소프트웨어 공학"
-  color: "#FADBD8"
-
-# AI in Testing
+  description: 소프트웨어 공학
 Artificial Intelligence in Testing:
-  name: "Artificial Intelligence in Testing"
-  description: "테스팅에서의 AI"
-  color: "#D5DBDB"
-
-# ChatGPT
+  description: 테스팅에서의 AI
 ChatGPT:
-  name: "ChatGPT"
-  description: "ChatGPT"
-  color: "#FCF3CF"
-
-# Performance Evaluation
+  description: ChatGPT
 Performance Evaluation:
-  name: "Performance Evaluation"
-  description: "성능 평가"
-  color: "#D1F2EB"
-
-# Efficiency
+  description: 성능 평가
 Efficiency:
-  name: "Efficiency"
-  description: "효율성"
-  color: "#E8DAEF"
-
-# Long-context
+  description: 효율성
 Long-context:
-  name: "Long-context"
-  description: "긴 맥락"
-  color: "#D6EAF8"
-
-# Architecture
+  description: 긴 맥락
 Architecture:
-  name: "Architecture"
-  description: "아키텍처"
-  color: "#FAD7A0"
-
-# State Space Models
+  description: 아키텍처
 State Space Models:
-  name: "State Space Models"
-  description: "상태 공간 모델"
-  color: "#D5A6BD"
-
-# Style Transfer
+  description: 상태 공간 모델
 Style Transfer:
-  name: "Style Transfer"
-  description: "스타일 전이"
-  color: "#A9CCE3"
-
-# VGGNet
+  description: 스타일 전이
 VGGNet:
-  name: "VGGNet"
-  description: "VGGNet"
-  color: "#F7DC6F"
-
-# Artificial Neural Networks
+  description: VGGNet
 Artificial Neural Networks:
-  name: "Artificial Neural Networks"
-  description: "인공신경망"
-  color: "#AED6F1"
-
-# Predictive Modeling
+  description: 인공신경망
 Predictive Modeling:
-  name: "Predictive Modeling"
-  description: "예측 모델링"
-  color: "#A9DFBF"
-
-# Optical Character Recognition
+  description: 예측 모델링
 Optical Character Recognition:
-  name: "Optical Character Recognition"
-  description: "광학 문자 인식"
-  color: "#F9E79F"
-
-# Scene Text Recognition
+  description: 광학 문자 인식
 Scene Text Recognition:
-  name: "Scene Text Recognition"
-  description: "장면 텍스트 인식"
-  color: "#D7BDE2"
-
-# Convolutional Recurrent Neural Networks
+  description: 장면 텍스트 인식
 Convolutional Recurrent Neural Networks:
-  name: "Convolutional Recurrent Neural Networks"
-  description: "CRNN"
-  color: "#FADBD8"
-
-# End-to-End
+  description: CRNN
 End-to-End:
-  name: "End-to-End"
-  description: "엔드투엔드"
-  color: "#D5DBDB"
-
-# SHAP
+  description: 엔드투엔드
 SHAP:
-  name: "SHAP"
-  description: "SHAP"
-  color: "#FCF3CF"
-
-# LIME
+  description: SHAP
 LIME:
-  name: "LIME"
-  description: "LIME"
-  color: "#D1F2EB"
-
-# Feature Attribution
+  description: LIME
 Feature Attribution:
-  name: "Feature Attribution"
-  description: "특성 귀속"
-  color: "#E8DAEF"
-
-# Sound Classification
+  description: 특성 귀속
 Sound Classification:
-  name: "Sound Classification"
-  description: "음향 분류"
-  color: "#D6EAF8"
-
-# Long Short-Term Memory
+  description: 음향 분류
 Long Short-Term Memory:
-  name: "Long Short-Term Memory"
-  description: "LSTM"
-  color: "#FAD7A0"
-
-# User Experience
+  description: LSTM
 User Experience:
-  name: "User Experience"
-  description: "사용자 경험"
-  color: "#D5A6BD"
-
-# Motion Chair
+  description: 사용자 경험
 Motion Chair:
-  name: "Motion Chair"
-  description: "모션 체어"
-  color: "#A9CCE3"
-
-# 4D Experience
+  description: 모션 체어
 4D Experience:
-  name: "4D Experience"
-  description: "4D 경험"
-  color: "#F7DC6F"
-
-# Human-Computer Interaction
+  description: 4D 경험
 Human-Computer Interaction:
-  name: "Human-Computer Interaction"
-  description: "인간-컴퓨터 상호작용"
-  color: "#AED6F1"
-
-# Tree Boosting
+  description: 인간-컴퓨터 상호작용
 Tree Boosting:
-  name: "Tree Boosting"
-  description: "트리 부스팅"
-  color: "#A9DFBF"
-
-# Knowledge Discovery and Data Mining
+  description: 트리 부스팅
 Knowledge Discovery and Data Mining:
-  name: "Knowledge Discovery and Data Mining"
-  description: "지식 발견 및 데이터 마이닝"
-  color: "#F9E79F"
-
-# Neural Information Processing Systems
+  description: 지식 발견 및 데이터 마이닝
 Neural Information Processing Systems:
-  name: "Neural Information Processing Systems"
-  description: "NIPS"
-  color: "#D7BDE2"
-
-# Supervised Learning
+  description: NIPS
 Supervised Learning:
-  name: "Supervised Learning"
-  description: "지도학습"
-  color: "#FADBD8"
-
-# Biodegradable Polyesters
+  description: 지도학습
 Biodegradable Polyesters:
-  name: "Biodegradable Polyesters"
-  description: "생분해성 폴리에스터"
-  color: "#D5DBDB"
-
-# Virtual Screening
+  description: 생분해성 폴리에스터
 Virtual Screening:
-  name: "Virtual Screening"
-  description: "가상 스크리닝"
-  color: "#FCF3CF"
-
-# Cheminformatics
+  description: 가상 스크리닝
 Cheminformatics:
-  name: "Cheminformatics"
-  description: "화학정보학"
-  color: "#D1F2EB"
-
-# Sustainability
+  description: 화학정보학
 Sustainability:
-  name: "Sustainability"
-  description: "지속가능성"
-  color: "#E8DAEF"
-
-# TabNet
+  description: 지속가능성
 TabNet:
-  name: "TabNet"
-  description: "TabNet"
-  color: "#D6EAF8"
-
-# Data Augmentation
+  description: TabNet
 Data Augmentation:
-  name: "Data Augmentation"
-  description: "데이터 증강"
-  color: "#FAD7A0"
-
-# Regression
+  description: 데이터 증강
 Regression:
-  name: "Regression"
-  description: "회귀"
-  color: "#D5A6BD"
-
-# Polylactic Acid
+  description: 회귀
 Polylactic Acid:
-  name: "Polylactic Acid"
-  description: "폴리락틱산"
-  color: "#A9CCE3"
-
-# Polyester
+  description: 폴리락틱산
 Polyester:
-  name: "Polyester"
-  description: "폴리에스터"
-  color: "#F7DC6F"
-
-# Dyeing
+  description: 폴리에스터
 Dyeing:
-  name: "Dyeing"
-  description: "염색"
-  color: "#AED6F1"
-
-# Color Prediction
+  description: 염색
 Color Prediction:
-  name: "Color Prediction"
-  description: "색상 예측"
-  color: "#A9DFBF"
-
-# Multi-Layer Perceptron
+  description: 색상 예측
 Multi-Layer Perceptron:
-  name: "Multi-Layer Perceptron"
-  description: "다층 퍼셉트론"
-  color: "#F9E79F"
-
-# Autoencoder
+  description: 다층 퍼셉트론
 Autoencoder:
-  name: "Autoencoder"
-  description: "오토인코더"
-  color: "#D7BDE2"
-
-# Gene Therapy
+  description: 오토인코더
 Gene Therapy:
-  name: "Gene Therapy"
-  description: "유전자 치료"
-  color: "#FADBD8"
-
-# Drug Delivery
+  description: 유전자 치료
 Drug Delivery:
-  name: "Drug Delivery"
-  description: "약물 전달"
-  color: "#D5DBDB"
-
-# Knowledge Graph
+  description: 약물 전달
 Knowledge Graph:
-  name: "Knowledge Graph"
-  description: "지식 그래프"
-  color: "#FCF3CF"
-
-# Property Prediction
+  description: 지식 그래프
 Property Prediction:
-  name: "Property Prediction"
-  description: "물성 예측"
-  color: "#D1F2EB"
-
-# Technology Acceptance Model
+  description: 물성 예측
 Technology Acceptance Model:
-  name: "Technology Acceptance Model"
-  description: "기술수용모델"
-  color: "#E8DAEF"
-
-# Inclusive Learning
+  description: 기술수용모델
 Inclusive Learning:
-  name: "Inclusive Learning"
-  description: "포용적 학습"
-  color: "#D6EAF8"
-
-# Collaboration
+  description: 포용적 학습
 Collaboration:
-  name: "Collaboration"
-  description: "협업"
-  color: "#FAD7A0"
-
-# Higher Education
+  description: 협업
 Higher Education:
-  name: "Higher Education"
-  description: "고등교육"
-  color: "#D5A6BD"
-
-# Artificial Intelligence in Education
+  description: 고등교육
 Artificial Intelligence in Education:
-  name: "Artificial Intelligence in Education"
-  description: "교육에서의 AI"
-  color: "#A9CCE3"
-
-# Process Optimization
+  description: 교육에서의 AI
 Process Optimization:
-  name: "Process Optimization"
-  description: "공정 최적화"
-  color: "#F7DC6F"
-
-# Textile Manufacturing
+  description: 공정 최적화
 Textile Manufacturing:
-  name: "Textile Manufacturing"
-  description: "섬유 제조"
-  color: "#AED6F1"
-
-# Digital Transformation
+  description: 섬유 제조
 Digital Transformation:
-  name: "Digital Transformation"
-  description: "디지털 전환"
-  color: "#A9DFBF"
-
-# Computational Chemistry
+  description: 디지털 전환
 Computational Chemistry:
-  name: "Computational Chemistry"
-  description: "계산화학"
-  color: "#F9E79F"
-
-# Materials Discovery
+  description: 계산화학
 Materials Discovery:
-  name: "Materials Discovery"
-  description: "재료 발견"
-  color: "#D7BDE2"
-
-# Graph Neural Networks
+  description: 재료 발견
 Graph Neural Networks:
-  name: "Graph Neural Networks"
-  description: "그래프 신경망"
-  color: "#FADBD8"
-
-# Density Functional Theory
+  description: 그래프 신경망
 Density Functional Theory:
-  name: "Density Functional Theory"
-  description: "밀도 범함수 이론"
-  color: "#D5DBDB"
-
-# Active Learning
+  description: 밀도 범함수 이론
 Active Learning:
-  name: "Active Learning"
-  description: "능동학습"
-  color: "#FCF3CF"
-
-# Inorganic Crystals
+  description: 능동학습
 Inorganic Crystals:
-  name: "Inorganic Crystals"
-  description: "무기 결정"
-  color: "#D1F2EB"
-
-# Quality Assurance
+  description: 무기 결정
 Quality Assurance:
-  name: "Quality Assurance"
-  description: "품질보증"
-  color: "#E8DAEF"
-
-# In-memory Database
+  description: 품질보증
 In-memory Database:
-  name: "In-memory Database"
-  description: "인메모리 데이터베이스"
-  color: "#D6EAF8"
-
-# Multi-attribute
+  description: 인메모리 데이터베이스
 Multi-attribute:
-  name: "Multi-attribute"
-  description: "다중 속성"
-  color: "#FAD7A0"
-
-# Compressed Data
+  description: 다중 속성
 Compressed Data:
-  name: "Compressed Data"
-  description: "압축 데이터"
-  color: "#D5A6BD"
-
-# Query Processing
+  description: 압축 데이터
 Query Processing:
-  name: "Query Processing"
-  description: "쿼리 처리"
-  color: "#A9CCE3"
-
-# Succinct Data Structure
+  description: 쿼리 처리
 Succinct Data Structure:
-  name: "Succinct Data Structure"
-  description: "간결한 데이터 구조"
-  color: "#F7DC6F"
-
-# Morton Code
+  description: 간결한 데이터 구조
 Morton Code:
-  name: "Morton Code"
-  description: "모튼 코드"
-  color: "#AED6F1"
-
-# Materials Engineering
+  description: 모튼 코드
 Materials Engineering:
-  name: "Materials Engineering"
-  description: "재료공학"
-  color: "#A9DFBF"
-
-# Cement
+  description: 재료공학
 Cement:
-  name: "Cement"
-  description: "시멘트"
-  color: "#F9E79F"
-
-# Carbon Reduction
+  description: 시멘트
 Carbon Reduction:
-  name: "Carbon Reduction"
-  description: "탄소 저감"
-  color: "#D7BDE2"
-
-# Waste Recycling
+  description: 탄소 저감
 Waste Recycling:
-  name: "Waste Recycling"
-  description: "폐기물 재활용"
-  color: "#FADBD8"
-
-# Biodegradable Polymers
+  description: 폐기물 재활용
 Biodegradable Polymers:
-  name: "Biodegradable Polymers"
-  description: "생분해성 고분자"
-  color: "#E8F8F5"
-
-# Material Discovery
+  description: 생분해성 고분자
 Material Discovery:
-  name: "Material Discovery"
-  description: "재료 발견"
-  color: "#F0F8FF"
-
-# Sustainable Materials
+  description: 재료 발견
 Sustainable Materials:
-  name: "Sustainable Materials"
-  description: "지속가능한 재료"
-  color: "#F5FFFA"
-
-# Generative Models
+  description: 지속가능한 재료
 Generative Models:
-  name: "Generative Models"
-  description: "생성 모델"
-  color: "#FFF8DC"
-
-# Small Language Models
+  description: 생성 모델
 Small Language Models:
-  name: "Small Language Models"
-  description: "소규모 언어 모델"
-  color: "#F0E68C"
-
-# AI Agents
+  description: 소규모 언어 모델
 AI Agents:
-  name: "AI Agents"
-  description: "AI 에이전트"
-  color: "#E6E6FA"
-
-# Model Deployment
+  description: AI 에이전트
 Model Deployment:
-  name: "Model Deployment"
-  description: "모델 배포"
-  color: "#F5DEB3"
-
-# AI Economics
+  description: 모델 배포
 AI Economics:
-  name: "AI Economics"
-  description: "AI 경제학"
-  color: "#DDA0DD"
-
-
-# Adversarial Networks
+  description: AI 경제학
 Adversarial Networks:
-  name: "Adversarial Networks"
-  description: "적대적 신경망"
-  color: "#FFB6C1"
-
-# Unsupervised Learning
+  description: 적대적 신경망
 Unsupervised Learning:
-  name: "Unsupervised Learning"
-  description: "비지도학습"
-  color: "#D3D3D3"
-
-# Game Theory
+  description: 비지도학습
 Game Theory:
-  name: "Game Theory"
-  description: "게임 이론"
-  color: "#F0E68C"
-
-# Explainability
+  description: 게임 이론
 Explainability:
-  name: "Explainability"
-  description: "설명가능성"
-  color: "#FFE4B5"
-
-# Deep Neural Networks
+  description: 설명가능성
 Deep Neural Networks:
-  name: "Deep Neural Networks"
-  description: "심층 신경망"
-  color: "#E0FFFF"
-
-# Fabric Defect
+  description: 심층 신경망
 Fabric Defect:
-  name: "Fabric Defect"
-  description: "직물 결함"
-  color: "#F5F5DC"
-
-# Support Vector Machine
+  description: 직물 결함
 Support Vector Machine:
-  name: "Support Vector Machine"
-  description: "서포트 벡터 머신"
-  color: "#FFEFD5"
-
-# Cooperative Game Theory
+  description: 서포트 벡터 머신
 Cooperative Game Theory:
-  name: "Cooperative Game Theory"
-  description: "협력 게임 이론"
-  color: "#F0F8FF"
-
-# Additive Feature Attribution
+  description: 협력 게임 이론
 Additive Feature Attribution:
-  name: "Additive Feature Attribution"
-  description: "가산적 특성 귀속"
-  color: "#FFFACD"
-
-# Kernel
+  description: 가산적 특성 귀속
 Kernel:
-  name: "Kernel"
-  description: "커널"
-  color: "#F5F5F5"
-
-# Fuzzing
+  description: 커널
 Fuzzing:
-  name: "Fuzzing"
-  description: "퍼징"
-  color: "#E6E6FA"
-
-# SBST
+  description: 퍼징
 SBST:
-  name: "SBST"
-  description: "탐색 기반 소프트웨어 테스팅"
-  color: "#F0F8FF"
-
-# Front-end
+  description: 탐색 기반 소프트웨어 테스팅
 Front-end:
-  name: "Front-end"
-  description: "프론트엔드"
-  color: "#FFF8DC"
-
-# GUI Testing
+  description: 프론트엔드
 GUI Testing:
-  name: "GUI Testing"
-  description: "GUI 테스팅"
-  color: "#F5F5DC"
-
-# Survey
+  description: GUI 테스팅
 Survey:
-  name: "Survey"
-  description: "서베이"
-  color: "#E0FFFF"
-
-# Deep Learning
-Deep Learning:
-  name: "Deep Learning"
-  description: "딥러닝"
-  color: "#F0F8FF"
-
-# Machine Learning
-Machine Learning:
-  name: "Machine Learning"
-  description: "머신러닝"
-  color: "#F5F5F5"
-
-# Materials Discovery
-Materials Discovery:
-  name: "Materials Discovery"
-  description: "재료 발견"
-  color: "#F0F8FF"
-
-# Graph Neural Networks
-Graph Neural Networks:
-  name: "Graph Neural Networks"
-  description: "그래프 신경망"
-  color: "#E6E6FA"
-
-# Density Functional Theory
-Density Functional Theory:
-  name: "Density Functional Theory"
-  description: "밀도 범함수 이론"
-  color: "#F0F8FF"
-
-# Active Learning
-Active Learning:
-  name: "Active Learning"
-  description: "능동학습"
-  color: "#F5F5F5"
-
-# Inorganic Crystals
-Inorganic Crystals:
-  name: "Inorganic Crystals"
-  description: "무기 결정"
-  color: "#E0FFFF"
-
-# Outlier Detection
+  description: 서베이
 Outlier Detection:
-  name: "Outlier Detection"
-  description: "이상치 검출"
-  color: "#F5F5F5"
-
-# Colorfastness
+  description: 이상치 검출
 Colorfastness:
-  name: "Colorfastness"
-  description: "내색성"
-  color: "#E6E6FA"
-
-# Textile
+  description: 내색성
 Textile:
-  name: "Textile"
-  description: "섬유"
-  color: "#F0F8FF"
-
-# Spinning Process
+  description: 섬유
 Spinning Process:
-  name: "Spinning Process"
-  description: "방사 공정"
-  color: "#E6E6FA"
-
-# Property Prediction
-Property Prediction:
-  name: "Property Prediction"
-  description: "물성 예측"
-  color: "#F0F8FF"
-
-# Oversampling
+  description: 방사 공정
 Oversampling:
-  name: "Oversampling"
-  description: "오버샘플링"
-  color: "#E6E6FA"
-
-# Data Imbalance
-Data Imbalance:
-  name: "Data Imbalance"
-  description: "데이터 불균형"
-  color: "#F0F8FF"
-
-# Biodegradable Fiber
+  description: 오버샘플링
 Biodegradable Fiber:
-  name: "Biodegradable Fiber"
-  description: "생분해성 섬유"
-  color: "#E6E6FA"
-
-# Knowledge Graph
-Knowledge Graph:
-  name: "Knowledge Graph"
-  description: "지식 그래프"
-  color: "#F0F8FF"
-
-# Element Properties
+  description: 생분해성 섬유
 Element Properties:
-  name: "Element Properties"
-  description: "원소 특성"
-  color: "#E6E6FA"
-
-# Multimodal Representation
+  description: 원소 특성
 Multimodal Representation:
-  name: "Multimodal Representation"
-  description: "다중모달 표현"
-  color: "#F0F8FF"
-
-# Manufacturing Process Optimization
+  description: 다중모달 표현
 Manufacturing Process Optimization:
-  name: "Manufacturing Process Optimization"
-  description: "제조 공정 최적화"
-  color: "#E6E6FA"
-
-# Smart Manufacturing
+  description: 제조 공정 최적화
 Smart Manufacturing:
-  name: "Smart Manufacturing"
-  description: "스마트 제조"
-  color: "#F0F8FF"
-
-# Green Manufacturing
+  description: 스마트 제조
 Green Manufacturing:
-  name: "Green Manufacturing"
-  description: "친환경 제조"
-  color: "#E6E6FA"
-
-# Dyeing Process
+  description: 친환경 제조
 Dyeing Process:
-  name: "Dyeing Process"
-  description: "염색 공정"
-  color: "#F0F8FF"
-
-# Q-Learning
+  description: 염색 공정
 Q-Learning:
-  name: "Q-Learning"
-  description: "Q-러닝"
-  color: "#E6E6FA"
-
-# Gene Expression Programming
+  description: Q-러닝
 Gene Expression Programming:
-  name: "Gene Expression Programming"
-  description: "유전자 발현 프로그래밍"
-  color: "#F0F8FF"
-
-# Deep Neural Networks
-Deep Neural Networks:
-  name: "Deep Neural Networks"
-  description: "심층 신경망"
-  color: "#E6E6FA"
-
-# Eco-friendly Concrete
+  description: 유전자 발현 프로그래밍
 Eco-friendly Concrete:
-  name: "Eco-friendly Concrete"
-  description: "친환경 콘크리트"
-  color: "#F0F8FF"
-
-# Spilt Tensile Strength
+  description: 친환경 콘크리트
 Spilt Tensile Strength:
-  name: "Spilt Tensile Strength"
-  description: "분할 인장 강도"
-  color: "#E6E6FA"
-
-# Fiber Reinforced Recycled Aggregate Concrete
+  description: 분할 인장 강도
 Fiber Reinforced Recycled Aggregate Concrete:
-  name: "Fiber Reinforced Recycled Aggregate Concrete"
-  description: "섬유 보강 재활용 골재 콘크리트"
-  color: "#F0F8FF"
-
-# Sound-Haptic Conversion
+  description: 섬유 보강 재활용 골재 콘크리트
 Sound-Haptic Conversion:
-  name: "Sound-Haptic Conversion"
-  description: "음향-햅틱 변환"
-  color: "#E6E6FA"
-
-# Audio-Haptic Conversion
+  description: 음향-햅틱 변환
 Audio-Haptic Conversion:
-  name: "Audio-Haptic Conversion"
-  description: "오디오-햅틱 변환"
-  color: "#F0F8FF"
-
-# Multimodal Haptic Effects
+  description: 오디오-햅틱 변환
 Multimodal Haptic Effects:
-  name: "Multimodal Haptic Effects"
-  description: "다중모달 햅틱 효과"
-  color: "#E6E6FA"
-
-# Automatic Generation
+  description: 다중모달 햅틱 효과
 Automatic Generation:
-  name: "Automatic Generation"
-  description: "자동 생성"
-  color: "#F0F8FF"
-
-# Game
+  description: 자동 생성
 Game:
-  name: "Game"
-  description: "게임"
-  color: "#E6E6FA"
-
-# Real-Time
+  description: 게임
 Real-Time:
-  name: "Real-Time"
-  description: "실시간"
-  color: "#F0F8FF"
-
-# Random Forest
+  description: 실시간
 Random Forest:
-  name: "Random Forest"
-  description: "랜덤 포레스트"
-  color: "#E6E6FA"
-
-# Image Classification
+  description: 랜덤 포레스트
 Image Classification:
-  name: "Image Classification"
-  description: "이미지 분류"
-  color: "#F0F8FF"
-
-# Object Detection
+  description: 이미지 분류
 Object Detection:
-  name: "Object Detection"
-  description: "객체 검출"
-  color: "#E6E6FA"
-
-# Fly Oil Shale Ash
+  description: 객체 검출
 Fly Oil Shale Ash:
-  name: "Fly Oil Shale Ash"
-  description: "플라이 오일 셰일 애쉬"
-  color: "#F0F8FF"
-
-# FOSA
+  description: 플라이 오일 셰일 애쉬
 FOSA:
-  name: "FOSA"
-  description: "FOSA"
-  color: "#E6E6FA"
-
-# Carbonation Curing
+  description: FOSA
 Carbonation Curing:
-  name: "Carbonation Curing"
-  description: "탄산화 양생"
-  color: "#F0F8FF"
-
-# CO2 Curing
+  description: 탄산화 양생
 CO2 Curing:
-  name: "CO2 Curing"
-  description: "CO2 양생"
-  color: "#E6E6FA"
-
-# Compressive Strength
+  description: CO2 양생
 Compressive Strength:
-  name: "Compressive Strength"
-  description: "압축 강도"
-  color: "#F0F8FF"
-
-# Sustainable Construction Materials
+  description: 압축 강도
 Sustainable Construction Materials:
-  name: "Sustainable Construction Materials"
-  description: "지속 가능한 건설 재료"
-  color: "#E6E6FA"
-
-
-# ResNet
+  description: 지속 가능한 건설 재료
 ResNet:
-  name: "ResNet"
-  description: "ResNet"
-  color: "#E6E6FA"
-
-# ImageNet
+  description: ResNet
 ImageNet:
-  name: "ImageNet"
-  description: "ImageNet"
-  color: "#F0F8FF"
-
-# Degradation Problem
+  description: ImageNet
 Degradation Problem:
-  name: "Degradation Problem"
-  description: "성능 저하 문제"
-  color: "#E6E6FA"
-
-# Hessian
+  description: 성능 저하 문제
 Hessian:
-  name: "Hessian"
-  description: "헤시안"
-  color: "#F0F8FF"
-
-# Optimization Landscape
+  description: 헤시안
 Optimization Landscape:
-  name: "Optimization Landscape"
-  description: "최적화 환경"
-  color: "#E6E6FA"
-
-# Self-Attention
+  description: 최적화 환경
 Self-Attention:
-  name: "Self-Attention"
-  description: "셀프 어텐션"
-  color: "#F0F8FF"
-
-# Deep Learning Theory
+  description: 셀프 어텐션
 Deep Learning Theory:
-  name: "Deep Learning Theory"
-  description: "딥러닝 이론"
-  color: "#E6E6FA"
-
-# Neural Style Transfer
+  description: 딥러닝 이론
 Neural Style Transfer:
-  name: "Neural Style Transfer"
-  description: "신경망 스타일 전이"
-  color: "#F0F8FF"
-
-# Artistic Style
+  description: 신경망 스타일 전이
 Artistic Style:
-  name: "Artistic Style"
-  description: "예술적 스타일"
-  color: "#E6E6FA"
-
-# Sequence Recognition
+  description: 예술적 스타일
 Sequence Recognition:
-  name: "Sequence Recognition"
-  description: "시퀀스 인식"
-  color: "#F0F8FF"
-
-# Optical Music Recognition
+  description: 시퀀스 인식
 Optical Music Recognition:
-  name: "Optical Music Recognition"
-  description: "광학 음악 인식"
-  color: "#E6E6FA"
-
-# Gameplay
+  description: 광학 음악 인식
 Gameplay:
-  name: "Gameplay"
-  description: "게임플레이"
-  color: "#F0F8FF"
-
-# Viewing Experience
+  description: 게임플레이
 Viewing Experience:
-  name: "Viewing Experience"
-  description: "시청 경험"
-  color: "#E6E6FA"
-
-# Motion Effect
+  description: 시청 경험
 Motion Effect:
-  name: "Motion Effect"
-  description: "모션 효과"
-  color: "#F0F8FF"
-
-# Polymer Design
+  description: 모션 효과
 Polymer Design:
-  name: "Polymer Design"
-  description: "고분자 설계"
-  color: "#E6E6FA"
-
-# Bayesian Optimization
+  description: 고분자 설계
 Bayesian Optimization:
-  name: "Bayesian Optimization"
-  description: "베이지안 최적화"
-  color: "#F0F8FF"
-
-# Gene Delivery
+  description: 베이지안 최적화
 Gene Delivery:
-  name: "Gene Delivery"
-  description: "유전자 전달"
-  color: "#E6E6FA"
-
-# pDNA
+  description: 유전자 전달
 pDNA:
-  name: "pDNA"
-  description: "플라스미드 DNA"
-  color: "#F0F8FF"
-
-# CRISPR
+  description: 플라스미드 DNA
 CRISPR:
-  name: "CRISPR"
-  description: "CRISPR"
-  color: "#E6E6FA"
-
-# Ribonucleoprotein
+  description: CRISPR
 Ribonucleoprotein:
-  name: "Ribonucleoprotein"
-  description: "리보핵단백질"
-  color: "#F0F8FF"
-
-# Semantic Sound Classification
+  description: 리보핵단백질
 Semantic Sound Classification:
-  name: "Semantic Sound Classification"
-  description: "의미론적 음향 분류"
-  color: "#E6E6FA"
-
-# Haptic Suit
+  description: 의미론적 음향 분류
 Haptic Suit:
-  name: "Haptic Suit"
-  description: "햅틱 슈트"
-  color: "#F0F8FF"
-
-# Full Body
+  description: 햅틱 슈트
 Full Body:
-  name: "Full Body"
-  description: "전신"
-  color: "#E6E6FA"
-
-# Large-scale Machine Learning
+  description: 전신
 Large-scale Machine Learning:
-  name: "Large-scale Machine Learning"
-  description: "대규모 머신러닝"
-  color: "#F0F8FF"
-
-# Scalable Systems
+  description: 대규모 머신러닝
 Scalable Systems:
-  name: "Scalable Systems"
-  description: "확장 가능한 시스템"
-  color: "#E6E6FA"
-
-# Gradient Boosting
+  description: 확장 가능한 시스템
 Gradient Boosting:
-  name: "Gradient Boosting"
-  description: "그래디언트 부스팅"
-  color: "#F0F8FF"
-
-# Fabric Defects
+  description: 그래디언트 부스팅
 Fabric Defects:
-  name: "Fabric Defects"
-  description: "직물 결함"
-  color: "#E6E6FA"
-
-# Detection of Defects
+  description: 직물 결함
 Detection of Defects:
-  name: "Detection of Defects"
-  description: "결함 검출"
-  color: "#F0F8FF"
-
-# Learning-based Image Processing
+  description: 결함 검출
 Learning-based Image Processing:
-  name: "Learning-based Image Processing"
-  description: "학습 기반 이미지 처리"
-  color: "#E6E6FA"
-
-# Problem-solving
+  description: 학습 기반 이미지 처리
 Problem-solving:
-  name: "Problem-solving"
-  description: "문제 해결"
-  color: "#F0F8FF"
-
-# Programming Challenges
+  description: 문제 해결
 Programming Challenges:
-  name: "Programming Challenges"
-  description: "프로그래밍 챌린지"
-  color: "#E6E6FA"
-
-# AI Adoption
+  description: 프로그래밍 챌린지
 AI Adoption:
-  name: "AI Adoption"
-  description: "AI 도입"
-  color: "#F0F8FF"
-
-# Student Perceptions
+  description: AI 도입
 Student Perceptions:
-  name: "Student Perceptions"
-  description: "학생 인식"
-  color: "#E6E6FA"
-
-# Material
+  description: 학생 인식
 Material:
-  name: "Material"
-  description: "재료"
-  color: "#F0F8FF"
-
-# Ceramic
+  description: 재료
 Ceramic:
-  name: "Ceramic"
-  description: "세라믹"
-  color: "#E6E6FA"
-
-# Image Recognition
+  description: 세라믹
 Image Recognition:
-  name: "Image Recognition"
-  description: "이미지 인식"
-  color: "#F0F8FF"
-
-# Residual Learning
+  description: 이미지 인식
 Residual Learning:
-  name: "Residual Learning"
-  description: "잔차 학습"
-  color: "#E6E6FA"
-
-# Neural Network
+  description: 잔차 학습
 Neural Network:
-  name: "Neural Network"
-  description: "신경망"
-  color: "#F0F8FF"
-
-# Convolutional Neural Network
+  description: 신경망
 Convolutional Neural Network:
-  name: "Convolutional Neural Network"
-  description: "합성곱 신경망"
-  color: "#E6E6FA"
-
-# Long-short Term Memory
+  description: 합성곱 신경망
 Long-short Term Memory:
-  name: "Long-short Term Memory"
-  description: "장단기 기억"
-  color: "#F0F8FF"
-
-# Yarn Strength
+  description: 장단기 기억
 Yarn Strength:
-  name: "Yarn Strength"
-  description: "실 강도"
-  color: "#E6E6FA"
-
-# Predictive Model
+  description: 실 강도
 Predictive Model:
-  name: "Predictive Model"
-  description: "예측 모델"
-  color: "#F0F8FF"
-
-# Feed Forward Back Propagation
+  description: 예측 모델
 Feed Forward Back Propagation:
-  name: "Feed Forward Back Propagation"
-  description: "순전파 역전파"
-  color: "#E6E6FA"
-
-# Textile Engineering
+  description: 순전파 역전파
 Textile Engineering:
-  name: "Textile Engineering"
-  description: "섬유 공학"
-  color: "#F0F8FF"
-
-# Go
+  description: 섬유 공학
 Go:
-  name: "Go"
-  description: "바둑"
-  color: "#E6E6FA"
-
-# MCTS
+  description: 바둑
 MCTS:
-  name: "MCTS"
-  description: "몬테카를로 트리 탐색"
-  color: "#F0F8FF"
-
-# Supervised Learning
-Supervised Learning:
-  name: "Supervised Learning"
-  description: "지도학습"
-  color: "#E6E6FA"
-
-# Performance Improvement
+  description: 몬테카를로 트리 탐색
 Performance Improvement:
-  name: "Performance Improvement"
-  description: "성능 개선"
-  color: "#F0F8FF"
+  description: 성능 개선
