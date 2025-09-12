@@ -794,11 +794,6 @@ AI Economics:
   description: "AI 경제학"
   color: "#DDA0DD"
 
-# Agentic Artificial Intelligence
-Agentic Artificial Intelligence:
-  name: "Agentic Artificial Intelligence"
-  description: "에이전트 AI"
-  color: "#98FB98"
 
 # Adversarial Networks
 Adversarial Networks:
