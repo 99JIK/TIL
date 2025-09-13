@@ -12,7 +12,7 @@ keywords:
     morton code,
   ]
 tags: [Data Store, In-memory Database, Multi-dimensional Index, Performance]
-authors: [Ziming Mao, Kiran Srinivasan, Anurag Khandelwal]
+authors: ["Ziming Mao", "Kiran Srinivasan", "Anurag Khandelwal"]
 ---
 
 ## 논문 정보

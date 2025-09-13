@@ -18,7 +18,7 @@ tags:
     "Support Vector Machine",
     "Convolutional Neural Networks",
   ]
-authors: ["Fatma Günseli YAŞAR ÇIKLAÇANDIR", "Semih UTKU", "Hakan ÖZDEMİR"]
+authors: ["Semih UTKU", "Hakan ÖZDEMİR"]
 ---
 
 ## 논문 정보

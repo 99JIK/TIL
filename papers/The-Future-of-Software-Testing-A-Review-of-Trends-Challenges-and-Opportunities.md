@@ -21,7 +21,7 @@ tags:
     Quality Assurance,
     Future Trends,
   ]
-authors: [Elavarasi Kesavan]
+authors: ["Elavarasi Kesavan"]
 ---
 
 ## 논문 정보

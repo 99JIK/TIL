@@ -16,11 +16,7 @@ tags:
   - CO2 Curing
   - Compressive Strength
   - Sustainable Construction Materials
-authors:
-  - Wesam Salah Alaloul
-  - Marsail Al Salaheen
-  - Khalid Alzubi
-  - Muhammad Ali Musarat
+authors: ["Wesam Alaloul", "Marsail Al Salaheen", "Khalid Alzubi", "Muhammad Ali Musarat"]
 ---
 
 ## 논문 정보

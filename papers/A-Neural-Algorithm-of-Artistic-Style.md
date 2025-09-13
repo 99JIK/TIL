@@ -17,7 +17,7 @@ tags:
     "VGGNet",
     "Generative Model",
   ]
-authors: ["Leon A. Gatys", "Alexander S. Ecker", "Matthias Bethge"]
+authors: ["Leon Gatys", "Alexander S. Ecker", "Matthias Bethge"]
 ---
 
 ## 논문 정보

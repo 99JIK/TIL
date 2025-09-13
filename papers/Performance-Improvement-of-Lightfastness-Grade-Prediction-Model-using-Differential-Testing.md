@@ -12,7 +12,7 @@ keywords:
     performance improvement,
   ]
 tags: [Lightfastness, Differential Testing, Outlier]
-authors: [Daegyu Lee, Kangbok Seo, Deokyeop Kim, Woojin Lee]
+authors: ["Daegyu Lee", "Kangbok Seo", "Deokyeop Kim", "Woojin Lee"]
 ---
 
 ## 논문 정보

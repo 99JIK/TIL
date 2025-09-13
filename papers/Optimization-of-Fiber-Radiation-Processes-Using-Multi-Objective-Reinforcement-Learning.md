@@ -4,29 +4,27 @@ date: "2024-07-26"
 description: "비디지털화된 섬유 방사 공정에서 생산 품질과 수율(생산성)이라는 두 가지 상충하는 목표를 최적화하기 위해 다중 목표 강화 학습을 적용한 연구"
 keywords:
   [
-    Digital transformation,
-    Fiber radiation industry,
-    Optimization,
-    AI learning,
-    Reinforcement learning,
+    "Digital transformation",
+    "Fiber radiation industry",
+    "Optimization",
+    "AI learning",
+    "Reinforcement learning",
   ]
 tags:
   [
-    Multi-objective Reinforcement Learning,
-    Smart Manufacturing,
-    Digital Transformation,
-    Textile Industry,
-    Process Optimization,
+    "Multi-objective Reinforcement Learning",
+    "Smart Manufacturing",
+    "Digital Transformation",
+    "Textile Industry",
+    "Process Optimization",
   ]
 authors:
   [
-    Hye Kyung Choi,
-    Whan Lee,
-    Seyed Mohammad Mehdi Sajadieh,
-    Seung Bum Sim,
-    Wu chang Jung,
-    Jeong Ho Jeong,
-    Sang Do Noh,
+    "Hye Kyung Choi",
+    "Whan Lee",
+    "Seyed Mohammad Mehdi Sajadieh",
+    "Seung Bum Sim",
+    "Sang Do Noh",
   ]
 ---
 

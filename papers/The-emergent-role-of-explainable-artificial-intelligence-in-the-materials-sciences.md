@@ -17,7 +17,7 @@ tags:
     Machine Learning,
     Review,
   ]
-authors: [Tommy Liu, Amanda S. Barnard]
+authors: ["Tommy Liu", "Amanda S. Barnard"]
 ---
 
 ## 논문 정보

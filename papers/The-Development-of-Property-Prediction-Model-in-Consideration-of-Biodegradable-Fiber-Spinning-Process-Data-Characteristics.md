@@ -12,7 +12,7 @@ keywords:
     "data imbalance",
   ]
 tags: [Data Preprocessing, Machine Learning, Textile Industry]
-authors: [Sechan Park, Deokyeop Kim, Kangbok Seo, Woojin Lee]
+authors: ["Sechan Park", "Deokyeop Kim", "Kangbok Seo", "Woojin Lee"]
 ---
 
 ## 논문 정보

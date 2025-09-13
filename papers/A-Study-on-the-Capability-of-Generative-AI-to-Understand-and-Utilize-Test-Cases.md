@@ -11,7 +11,7 @@ keywords:
     Code Generation,
   ]
 tags: [Large Language Models, ChatGPT, Software Testing, Prompt Engineering]
-authors: [JIK, Woojin Lee]
+authors: ["JIK", "Woojin Lee"]
 ---
 
 ## 논문 정보

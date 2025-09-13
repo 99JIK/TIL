@@ -24,8 +24,6 @@ authors:
     "brian_gallagher",
     "shusen_liu",
     "bhavya_kailkhura",
-    "anna_hiszpanski",
-    "t_yong-jin_han",
   ]
 ---
 

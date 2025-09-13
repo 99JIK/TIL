@@ -15,7 +15,7 @@ tags:
     "Autoencoder",
     "Long Short-Term Memory",
   ]
-authors: [Yavuz Kahraman, Alptekin Durmuşoğlu]
+authors: ["Yavuz Kahraman", "Alptekin Durmuşoğlu"]
 ---
 
 ## 논문 정보

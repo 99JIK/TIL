@@ -14,7 +14,7 @@ keywords:
     ribonucleoprotein,
   ]
 tags: ["Gene Therapy", "Drug Delivery", "Materials Science", "Machine Learning"]
-authors: [Rishad J. Dalal, Felipe Oviedo, Michael C. Leyden, Theresa M. Reineke]
+authors: ["Rishad Dalal"]
 ---
 
 ## 논문 정보

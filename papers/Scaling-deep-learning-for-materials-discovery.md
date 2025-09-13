@@ -18,8 +18,6 @@ authors:
     "Simon Batzner",
     "Samuel S. Schoenholz",
     "Muratahan Aykol",
-    "Gowoon Cheon",
-    "Ekin Dogus Cubuk",
   ]
 ---
 

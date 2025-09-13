@@ -328,8 +328,8 @@ Green Manufacturing:
   description: 친환경 제조
 Dyeing Process:
   description: 염색 공정
-Q-Learning:
-  description: Q-러닝
+Q-Learning-Advanced:
+  description: Q-러닝 고급
 Gene Expression Programming:
   description: 유전자 발현 프로그래밍
 Eco-friendly Concrete:
@@ -446,8 +446,8 @@ Neural Network:
   description: 신경망
 Convolutional Neural Network:
   description: 합성곱 신경망
-Long-short Term Memory:
-  description: 장단기 기억
+Long-short Term Memory-Advanced:
+  description: 장단기 기억 고급
 Yarn Strength:
   description: 실 강도
 Predictive Model:

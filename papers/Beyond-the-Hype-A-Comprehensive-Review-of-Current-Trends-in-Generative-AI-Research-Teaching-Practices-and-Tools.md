@@ -24,17 +24,6 @@ authors:
     "Juho Leinonen",
     "Natalie Kiesler",
     "Jamie Gorson Benario",
-    "Sam Lau",
-    "Stephen MacNeil",
-    "Narges Norouzi",
-    "Simone Opel",
-    "Vee Pettit",
-    "Leo Porter",
-    "Brent N. Reeves",
-    "Jaromir Savelka",
-    "David H. Smith IV",
-    "Sven Strickroth",
-    "Daniel Zingaro",
   ]
 ---
 

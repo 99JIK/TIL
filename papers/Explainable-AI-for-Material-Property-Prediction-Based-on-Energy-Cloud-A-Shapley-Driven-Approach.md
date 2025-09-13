@@ -22,7 +22,7 @@ tags:
     "Explainable Artificial Intelligence",
     "SHAP",
   ]
-authors: [Faiza Qayyum, Murad Ali Khan, Do-Hyeun Kim, Hyunseok Ko, Ga-Ae Ryu]
+authors: ["Faiza Qayyum", "Murad Ali Khan", "Do-Hyeun Kim", "Hyunseok Ko", "Ga-Ae Ryu"]
 ---
 
 ## 논문 정보

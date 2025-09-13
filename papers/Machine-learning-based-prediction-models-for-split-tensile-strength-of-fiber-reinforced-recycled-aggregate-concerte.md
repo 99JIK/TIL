@@ -24,12 +24,8 @@ tags:
   ]
 authors:
   [
-    "mohammed_alarfaj",
-    "hisham_jahangir_qureshi",
-    "muhammad_zubair_shahab",
-    "muhammad_faisal_javedd",
-    "md_arifuzzaman",
-    "yaser_gamil",
+    "Wesam Alaloul",
+    "IBRAHIM ALYOUSSEF",
   ]
 ---
 

@@ -18,14 +18,14 @@ tags:
   ]
 authors:
   [
-    Ashish Vaswani,
-    Noam Shazeer,
-    Niki Parmar,
-    Jakob Uszkoreit,
-    Llion Jones,
-    Aidan N. Gomez,
-    Łukasz Kaiser,
-    Illia Polosukhin,
+    "Ashish Vaswani",
+    "Noam Shazeer",
+    "Niki Parmar",
+    "Jakob Uszkoreit",
+    "Llion Jones",
+    "Aidan Gomez",
+    "Lukasz Kaiser",
+    "Illia Polosukhin",
   ]
 ---
 

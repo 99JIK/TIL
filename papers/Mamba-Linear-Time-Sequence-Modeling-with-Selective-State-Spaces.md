@@ -5,7 +5,7 @@ description: "선택적 상태 공간 모델(Selective State Space Model)을 도
 keywords:
   [sequence modeling, state space model, ssm, mamba, transformer, linear time]
 tags: ["State Space Models", "Architecture", "Efficiency", "Long-context"]
-authors: [Albert Gu, Tri Dao]
+authors: ["Albert Gu", "Tri Dao"]
 ---
 
 ## 논문 정보

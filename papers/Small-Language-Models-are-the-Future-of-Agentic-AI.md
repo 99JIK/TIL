@@ -26,10 +26,6 @@ authors:
     "Greg Heinrich",
     "Saurav Muralidharan",
     "Shizhe Diao",
-    "Yonggan Fu",
-    "Xin Dong",
-    "Yingyan Celine Lin",
-    "Pavlo Molchanov",
   ]
 ---
 

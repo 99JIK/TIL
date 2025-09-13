@@ -28,12 +28,8 @@ tags:
   ]
 authors:
   [
-    "gyeore_yun",
-    "minjae_mun",
-    "jungeun_lee",
-    "donggeun_kim",
-    "hong_z_tan",
-    "seungmoon_choi",
+    "Gyeore Yun",
+    "Seungmoon Choi",
   ]
 ---
 

@@ -4,7 +4,7 @@ date: "2011-02-27"
 description: "자동화된 직물 결함 검출 방법에 대한 포괄적인 리뷰로, 방법론을 7가지 접근법으로 분류하고 각각의 강점, 약점 및 성공률을 비교 분석함."
 keywords: [Fabric defect detection, Textile, Motif-based, Automation, Quality control, Manufacturing]
 tags: [Review, Computer Vision, Image Processing, Quality Control]
-authors: [Henry Y.T. Ngan, Grantham K.H. Pang, Nelson H.C. Yung]
+authors: ["Henry Ngan"]
 ---
 ## 논문 정보
 

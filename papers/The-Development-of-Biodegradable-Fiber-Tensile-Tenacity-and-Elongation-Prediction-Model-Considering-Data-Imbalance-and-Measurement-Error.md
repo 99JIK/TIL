@@ -20,7 +20,7 @@ tags:
     Textile Industry,
     Polylactic Acid,
   ]
-authors: [Se-Chan Park, Deokyeop Kim, Kangbok Seo, Woojin Lee]
+authors: ["Se-Chan Park", "Deokyeop Kim", "Kangbok Seo", "Woojin Lee"]
 ---
 
 ## 논문 정보
