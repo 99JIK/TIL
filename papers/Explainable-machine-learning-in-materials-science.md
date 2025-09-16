@@ -10,17 +10,7 @@ keywords:
     Deep Neural Networks,
     XAI Techniques,
   ]
-tags:
-  [
-    Review,
-    Explainable,
-    Artificial,
-    Intelligence,
-    Machine,
-    Learning,
-    Materials,
-    Science,
-  ]
+tags: [Review, Explainable Artificial Intelligence, Machine Learning, Materials]
 authors:
   [
     Xiaoting Zhong,
