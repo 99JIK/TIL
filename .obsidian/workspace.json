@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "34e1170a0b9ba53c",
+        "id": "204ad8b875c52232",
         "type": "tabs",
         "children": [
           {
-            "id": "39ed7d3176f2eab6",
+            "id": "b0de54d433bb3bb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/KNU-MS/2nd_semester/연구실-안전교육.md",
+                "file": "docs/Project/DYETEC/for paper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "연구실-안전교육"
+              "title": "for paper"
             }
           }
         ]
@@ -169,8 +169,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "39ed7d3176f2eab6",
+  "active": "b0de54d433bb3bb1",
   "lastOpenFiles": [
+    "무제 1.base",
+    "무제.base",
+    "docs/Project/DYETEC/for paper.md",
+    "docs/KNU-MS/2nd_semester/연구실-안전교육.md",
     "build/papers/feed.json",
     "build/papers/atom.xml",
     "build/papers/rss.xml",
@@ -180,8 +184,6 @@
     "build/docs/KNU-MS/TA/2025-1-PB/25-06-12.html",
     "build/docs/KNU-MS/TA/2025-1-PB/25-06-10.html",
     "build/docs/KNU-MS/TA/2025-1-PB/25-06-05.html",
-    "build/docs/KNU-MS/TA/2025-1-PB/25-05-22.html",
-    "build/docs/KNU-MS/TA/2025-1-PB/25-05-29.html",
     "build/img/profile_light.jpg",
     "build/img/profile_dark.jpg",
     "build/img/favicon.svg",
@@ -194,7 +196,6 @@
     "build/assets/images/image-20250512151043281-3f4614c143bf1a89c264cdede534c135.png",
     "papers/Automated-Fabric-Defect-Detection-A-Review.md",
     "docs/KNU-MS/2nd_semester/COMP0730.md",
-    "docs/KNU-MS/2nd_semester/연구실-안전교육.md",
     "papers/Generative-Adversarial-Networks.md",
     "papers/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain.md",
     "papers/Improving-Viewing-Experiences-of-First-Person-Shooter-Gamplays-with-Automatically-Generated-Motion-Effects.md",
@@ -215,7 +216,6 @@
     "papers/Application-of-Reinforcement-Learning-to-Dyeing-Processes-for-Residual-Dye-Reduction.md",
     "papers/The-emergent-role-of-explainable-artificial-intelligence-in-the-materials-sciences.md",
     "papers/Transfer-Learning-with-Self-Supervised-Vision-Transformer-for-Large-Scale-Plant-Identification.md",
-    "papers/Optimization-of-spinning-processes-in-textile-manufacturing-using-reinforcement-learning.md",
-    "papers/Mastering-the-game-of-Go-with-deep-neural-networks-and-tree-search.md"
+    "papers/Optimization-of-spinning-processes-in-textile-manufacturing-using-reinforcement-learning.md"
   ]
 }
