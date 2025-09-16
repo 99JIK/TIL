@@ -41,6 +41,7 @@ const config: Config = {
           path: './blog',
           routeBasePath: 'notes',
           blogSidebarTitle: 'All posts',
+          onUntruncatedBlogPosts: 'ignore',
           blogSidebarCount: 0,
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,

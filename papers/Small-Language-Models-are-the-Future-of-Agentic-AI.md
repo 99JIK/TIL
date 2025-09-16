@@ -20,13 +20,7 @@ tags:
     "Model Deployment",
     "AI Economics",
   ]
-authors:
-  [
-    "Peter Belcak",
-    "Greg Heinrich",
-    "Saurav Muralidharan",
-    "Shizhe Diao",
-  ]
+authors: ["Peter Belcak", "Greg Heinrich", "Saurav Muralidharan", "Shizhe Diao"]
 ---
 
 ## 논문 정보
@@ -39,6 +33,7 @@ authors:
 - **주요 연구 내용**: 에이전트 AI 시스템의 대부분 작업이 반복적이고 범위가 한정되어 있어, 범용 LLM보다는 특정 작업에 특화된 SLM이 더 적합하다고 주장한다. SLM이 충분한 성능을 갖추고 있으며(V1), 운영상 더 적합하고(V2), 경제적으로 필연적인 선택(V3)임을 다양한 근거를 통해 설명한다. [12, 47, 48, 49]
 - **주요 결과 및 결론**: 최신 SLM들은 이미 LLM에 필적하는 성능을 보이며 추론 비용, 미세조정, 엣지 배포 등에서 상당한 이점을 가진다. 따라서 에이전트 시스템은 SLM을 기본으로 사용하고 필요할 때만 LLM을 호출하는 이기종(heterogeneous) 시스템으로 발전해야 하며, 이를 위한 LLM-to-SLM 변환 알고리즘을 제안한다. [14, 15]
 - **기여점**: 에이전트 AI 분야에서 LLM 중심 패러다임에 대한 비판적 관점을 제시하고, SLM의 효용성과 경제성을 강조하여 지속 가능하고 책임감 있는 AI 배포의 필요성에 대한 논의를 촉발한다. 또한, 기존 LLM 기반 에이전트를 SLM 기반으로 전환할 수 있는 구체적인 알고리즘을 제공한다. [15, 16, 17]
+<!--truncate-->
 
 ## 요약
 

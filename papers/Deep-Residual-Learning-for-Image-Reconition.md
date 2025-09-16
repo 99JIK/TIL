@@ -28,7 +28,7 @@ authors: ["Kaiming He", "Xiangyu Zhang", "Shaoqing Ren", "Jian Sun"]
 - **저자**: Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun (Microsoft Research)
 - **학회/저널**: arXiv (ILSVRC 2015 우승)
 - **발행일**: 2015-12-10
-- **DOI**: [https://arxiv.org/abs/1512.03385](https://arxiv.org/abs/1512.03385)
+- **DOI**: [arxiv.org/abs/1512.03385](https://arxiv.org/abs/1512.03385)
 - **주요 연구 내용**: 네트워크가 깊어질수록 정확도가 떨어지는 'degradation' 문제를 해결하기 위해 잔차 학습(residual learning) 프레임워크를 제안함. 네트워크가 목표 함수를 직접 학습하는 대신, 입력에 대한 잔차 함수(residual function)를 학습하도록 shortcut connection을 도입하여 매우 깊은 네트워크의 최적화를 용이하게 함.
 - **주요 결과 및 결론**: ImageNet 데이터셋에서 최대 152개 레이어의 매우 깊은 잔차 네트워크(ResNet)를 성공적으로 훈련시켰으며, 이는 VGGNet보다 8배 깊지만 복잡도는 더 낮음. ResNet 앙상블 모델은 ImageNet test set에서 3.57%의 top-5 error를 달성하여 ILSVRC 2015 분류 과제에서 1위를 차지함.
 - **기여점**: 심층 신경망의 'degradation' 문제를 해결하는 잔차 학습 프레임워크(ResNet)를 제안함. 이전보다 훨씬 깊은 네트워크(152-layer)의 훈련을 가능하게 하여 이미지 인식 분야에서 SOTA(State-of-the-art) 성능을 달성함. 잔차 학습의 효과를 ImageNet 및 CIFAR-10 데이터셋에서 실험적으로 증명하고, COCO 데이터셋을 사용한 객체 탐지에서도 우수성을 입증함.
