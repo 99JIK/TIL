@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Project/DYETEC/for paper.md",
+                "file": "docs/Project/DYETEC/KSC2025-RESEARCH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "for paper"
+              "title": "KSC2025-RESEARCH"
             }
           }
         ]
@@ -173,7 +173,7 @@
   "lastOpenFiles": [
     "무제 1.base",
     "무제.base",
-    "docs/Project/DYETEC/for paper.md",
+    "docs/Project/DYETEC/KSC2025-RESEARCH.md",
     "docs/KNU-MS/2nd_semester/연구실-안전교육.md",
     "build/papers/feed.json",
     "build/papers/atom.xml",
