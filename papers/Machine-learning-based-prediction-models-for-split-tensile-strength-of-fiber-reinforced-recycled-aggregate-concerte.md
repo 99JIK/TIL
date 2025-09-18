@@ -13,10 +13,10 @@ keywords:
 tags:
   [
     "Machine Learning",
-    "Deep neural networks",
+    "Deep Neural Networks",
     "Sustainability",
     "Eco-friendly Concrete",
-    "Gene expression programming",
+    "Gene Expression Programming",
   ]
 authors: ["Wesam Alaloul", "IBRAHIM ALYOUSSEF"]
 ---

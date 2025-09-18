@@ -466,3 +466,7 @@ Polymer discovery:
   description: 고분자 발견
 Multi-objective Reinforcement Learning:
   description: 다중 목표 강화학습
+Knowledge Distillation:
+  description: 지식 흡수
+Model Compression:
+  description: 모델 압축
