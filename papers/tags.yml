@@ -474,7 +474,7 @@ Stroke Prediction:
   description: 신경망 예측
 Automated Machine Learning:
   description: 자동 머신러닝
-Hyperparameter Optimization
+Hyperparameter Optimization:
   description: 하이퍼파라미터 최적화
 Model Interpretability:
   description: 모델 해석
