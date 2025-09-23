@@ -141,7 +141,7 @@ const config: Config = {
     colorMode: { respectPrefersColorScheme: true},
     announcementBar: {
       id: 'announcementBar-2',
-      content: '⭐️ 저의 학습 기록에 <b>별표</b>를 눌러주세요! <a target="_blank" rel="noopener noreferrer" href="https://github.com/99jik/Today-I-Learned">99JIK</a> ⭐️',
+      content: '⭐️ 저의 사이트에 <b>별표</b>를 눌러주세요! <a target="_blank" rel="noopener noreferrer" href="https://github.com/99jik/Today-I-Learned">99JIK</a> ⭐️',
       backgroundColor: '#fafbfc',
       textColor: '#091E42',
       isCloseable: true,
