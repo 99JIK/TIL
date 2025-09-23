@@ -504,3 +504,9 @@ Protein Structure Prediction:
   description: 단백질 구조 예측
 Melt Spinning Machine:
   description: 멜트 스핀닝 기계
+Edge Artificial Intelligence:
+  description: 엣지 인공지능
+On-device Inference:
+  description: 온디바이스 추론
+Language Model Survey:
+  description: 언어 모델 설문조사
