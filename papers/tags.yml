@@ -472,35 +472,35 @@ Model Compression:
   description: 모델 압축
 Stroke Prediction:
   description: 신경망 예측
-Automated Machine Learning
+Automated Machine Learning:
   description: 자동 머신러닝
 Hyperparameter Optimization
   description: 하이퍼파라미터 최적화
-Model Interpretability
+Model Interpretability:
   description: 모델 해석
-Feature Importance
+Feature Importance:
   description: 특성 중요도
 Biased Estimator:
   description: 편향 추정기
-Least Trimmed Squares
+Least Trimmed Squares:
   description: 최소자승법
-Robust Estimation
+Robust Estimation:
   description: 강건 추정
-Regression Analysis
+Regression Analysis:
   description: 회귀 분석
-Multicollinearity
+Multicollinearity:
   description: 다중공성성
-Outliers
+Outliers:
   description: 이상치
-Synthetic Fiber Ropes 
+Synthetic Fiber Ropes:
   description: 합성섬유 로프
-Tensile Characterization
+Tensile Characterization:
   description: 인장 특성
-Statistical Models
+Statistical Models:
   description: 통계 모델
-Bioinformatics
+Bioinformatics:
   description: 생물정보학
-Protein Structure Prediction
+Protein Structure Prediction:
   description: 단백질 구조 예측
-Melt Spinning Machine
+Melt Spinning Machine:
   description: 멜트 스핀닝 기계
