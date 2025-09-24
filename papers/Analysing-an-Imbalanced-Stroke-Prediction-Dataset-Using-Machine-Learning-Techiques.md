@@ -60,7 +60,7 @@ authors:
 - **Adasyn (Adaptive Synthetic Sampling)**: SMOTE를 개선한 기법으로, 분류하기 어려운 소수 클래스 샘플 주변에 더 많은 합성 샘플을 집중적으로 생성하여 데이터 분포를 적응적으로 학습한다.
 
 ### 모델 아키텍처 / 방법론
-
+![Figure 6](img/Pasted%20image%2020250923143750.png)
 논문의 전체적인 방법론은 Figure 6에 제시된 아키텍처를 따른다.
 
 - **핵심 구조/방법**: 원본 뇌졸중 데이터셋을 전처리하고, SMOTE와 Adasyn 오버샘플링을 적용하여 훈련 데이터를 재구성한 후, 제안하는 하이브리드 NN-RF 모델과 다른 분류 모델들을 학습시키고 성능을 비교한다.
@@ -81,6 +81,10 @@ authors:
   - **SMOTE 적용**: NN-RF 모델이 F1-score 0.72, 정확도 0.76을 기록했다.
   - **Adasyn 적용**: NN-RF 모델이 **F1-score 0.75**, **정확도 0.84**, **AUC 0.86**으로 모든 시나리오 중 가장 뛰어난 성능을 달성했다.
   - 실험 결과는 논문의 Table 5, 6, 7 및 Figure 10, 11, 12에서 상세히 비교되어 있으며, Adasyn 기법이 SMOTE보다 성능 향상에 더 효과적이었음을 보여준다.
+![Table 5, 6, 7](img/Pasted%20image%2020250923144011.png)
+![Figure 10](img/Pasted%20image%2020250923144112.png)
+![Figure 11](img/Pasted%20image%2020250923144134.png)
+![Figure 12](img/Pasted%20image%2020250923144154.png)
 
 ### 결론
 
