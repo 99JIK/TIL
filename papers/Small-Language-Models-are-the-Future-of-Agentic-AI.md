@@ -22,7 +22,6 @@ tags:
   ]
 authors: ["Peter Belcak", "Greg Heinrich", "Saurav Muralidharan", "Shizhe Diao"]
 ---
-
 ## 논문 정보
 
 - **제목**: Small Language Models are the Future of Agentic AI
@@ -80,7 +79,7 @@ authors: ["Peter Belcak", "Greg Heinrich", "Saurav Muralidharan", "Shizhe Diao"]
   - **NVIDIA Nemotron-H family (9B)**: 추론 FLOPs가 훨씬 적음에도 불구하고 30B LLM과 유사한 명령어 준수 및 코드 생성 정확도를 달성했다.
   - **Salesforce xLAM-2-8B**: 8B 크기에도 불구하고 GPT-4o 및 Claude 3.5와 같은 최신 모델을 능가하는 도구 호출(tool calling) 성능을 보였다. 
   - **DeepSeek-R1-Distill-Qwen-7B**: Claude-3.5-Sonnet, GPT-4o-0513과 같은 대형 독점 모델보다 뛰어난 상식 추론 능력을 보여주었다.
-- **비교 결과 (사례 연구)**: 부록 B에서 세 가지 유명 오픈소스 에이전트에 대해 LLM 호출을 SLM으로 대체할 수 있는 잠재력을 분석했다.
+- **비교 결과 (사례 연구)**: [부록 B](#부록-B)에서 세 가지 유명 오픈소스 에이전트에 대해 LLM 호출을 SLM으로 대체할 수 있는 잠재력을 분석했다.
   - **MetaGPT**: 약 60%의 LLM 쿼리를 특화된 SLM으로 대체 가능하다고 추정했다.
   - **Open Operator**: 약 40%의 LLM 쿼리를 대체 가능하다고 추정했다.
   - **Cradle**: 약 70%의 LLM 쿼리를 대체 가능하다고 추정했다.
@@ -119,8 +118,22 @@ Open Operator is a workflow automation agent enabling users to define behaviours
 - Natural Language Processing. Parses user intent.
 - Decision Making. Guides execution flow.
 - Content Generation. Writes summaries, reports.
-Assessment for SLM Replacement.
+###### Assessment for SLM Replacement.
 SLMs would be well-suited for tasks such as simple command parsing and routing, as well as generating messages based on predefined templates. They could be meeting their limitations when dealing with more complex tasks that would require multi-step reasoning or the ability to maintain conversation flow and context over time—areas where LLMs would continue to offer significant advantages.
-Conclusion. 
+###### Conclusion. 
 In the case of Open Operator, we estimate that about 40% of its LLM queries could be reliably handled by appropriately specialized SLMs. 
-B.3 Case study 3: Cradle Name. Cradle License. MIT License Purpose Cradle is designed for General Computer Control (GCC), enabling agents to operate GUI applications via screenshot input and simulated user interaction. LLM Invocations. • Interface Interpretation. Understands visual context. • Task Execution Planning. Determines sequences of GUI actions. • Error Handling. Diagnoses and reacts to unexpected software states. Assessment for SLM Replacement SLMs would be well-suited for handling repetitive GUI interaction workflows and the execution of pre-learned click sequences. However, they would face challenges when it comes to tasks involving dynamic GUI adaptation or unstructured error resolution, which would require a higher degree of contextual understanding typically provided by LLMs. Conclusion In the case of Cradle, we estimate that about 70% of its LLM queries could be reliably handled by appropriately specialized SLMs.
+##### B.3 Case study 3: Cradle 
+###### Name. 
+Cradle 
+###### License. 
+MIT License 
+###### Purpose. 
+Cradle is designed for General Computer Control (GCC), enabling agents to operate GUI applications via screenshot input and simulated user interaction. 
+###### LLM Invocations. 
+- Interface Interpretation. Understands visual context.
+- Task Execution Planning. Determines sequences of GUI actions.
+- Error Handling. Diagnoses and reacts to unexpected software states.
+###### Assessment for SLM Replacement.
+SLMs would be well-suited for handling repetitive GUI interaction workflows and the execution of pre-learned click sequences. However, they would face challenges when it comes to tasks involving dynamic GUI adaptation or unstructured error resolution, which would require a higher degree of contextual understanding typically provided by LLMs. 
+###### Conclusion.
+In the case of Cradle, we estimate that about 70% of its LLM queries could be reliably handled by appropriately specialized SLMs.
