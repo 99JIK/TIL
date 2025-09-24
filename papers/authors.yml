@@ -2,22 +2,22 @@ JIK:
   name: 김정인
   url: https://github.com/99JIK
   image_url: https://github.com/99JIK/img/profile.png
-  title: 경북대학교 컴퓨터학부 소프트웨어테스팅연구실 석사과정생
+  title: 경북대학교 컴퓨터학부 석사과정생
 Woojin Lee:
   name: 이우진
-  title: 경북대학교 컴퓨터학부 교수
+  title: 경북대학교 컴퓨터학부 전임교수
 Daegyu Lee:
   name: 이대규
-  title: 경북대학교 컴퓨터학부 연구원
+  title: 경북대학교 컴퓨터학부 석사과정생
 Kangbok Seo:
   name: 서강복
-  title: 경북대학교 컴퓨터학부 연구원
+  title: 경북대학교 컴퓨터학부 박사
 Deokyeop Kim:
   name: 김덕엽
-  title: 경북대학교 컴퓨터학부 연구원
+  title: 경북대학교 컴퓨터학부 박사과정생
 Sechan Park:
   name: 박세찬
-  title: 경북대학교 컴퓨터학부 연구원
+  title: 경북대학교 컴퓨터학부 박사
 Ian Goodfellow:
   name: Ian Goodfellow
   title: Google Brain 연구원
@@ -483,3 +483,24 @@ Nicholas D. Lane:
 Mengwei Xu:
   name: Mengwei Xu
   title: 연구원
+Bokai Liu:
+  name: Bokai Liu
+  title: 연구원
+Pengju Liu:
+  name: Pengju Liu
+  title: 연구원
+Weizhuo Lu:
+  name: Weizhuo Lu
+  title: 연구원
+Thomas Olofsson:
+  name: Thomas Olofsson
+  title: 연구원
+김태환:
+  name: 김태환
+  title: 경북대학교
+류영교:
+  name: 류영교
+  title: 경북대학교 학부연구생
+강보권:
+  name: 강보권
+  title: 경북대학교 학부연구생

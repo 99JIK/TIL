@@ -30,9 +30,9 @@ authors: ["Kazuhiro Hiraki", "Shinichi Ishihara", "Junnosuke Shino"]
 - **학회/저널**: 2024 IEEE International Conference on Big Data (Big Data)
 - **발행일**: 2024-12-15 (추정)
 - **DOI**: [10.1109/BigData62323.2024.10825215](https://doi.org/10.1109/BigData62323.2024.10825215)
-- **주요 연구 내용**: 본 연구는 LIME(Local Interpretable Model-agnostic Explanations)의 커널을 이용하여 AFA(Additive Feature Attribution)의 일반적인 분석식을 유도한다. 커널에 대칭성 조건을 부과하여, 특정 커널로부터 AFA 값을 분석적으로 계산할 수 있는 일반적인 프레임워크를 제시한다.
-- **주요 결과 및 결론**: 이 프레임워크를 통해 기존의 AFA 방법론인 SHAP, ES, FESP를 커널 기반으로 재해석하고, LS prenucleolus 개념과 일치하거나 LIME의 커널 속성과 부합하는 새로운 AFA 방법론 4가지를 제안한다. 이를 통해 SHAP의 대안이 될 수 있는 설명가능 AI 방법론의 이론적 기반을 확장했다.
-- **기여점**: LIME의 커널 관점에서 AFA 방법론들을 통합적으로 분석하고 생성할 수 있는 일반화된 분석식을 최초로 유도했다. 이를 통해 SHAP, ES 등 기존 방법론들을 커널 기반으로 재정의하고, LIME의 철학에 더 부합하는 새로운 AFA 대안들을 제시하여 설명가능 AI 분야의 이론적 토대를 넓혔다.
+- **주요 연구 내용**: 본 연구는 LIME(Local Interpretable Model-agnostic Explanations)의 커널을 이용하여 AFA(Additive Feature Attribution)의 일반적인 분석식을 유도함. 커널에 대칭성 조건을 부과하여, 특정 커널로부터 AFA 값을 분석적으로 계산할 수 있는 일반적인 프레임워크를 제시함.
+- **주요 결과 및 결론**: 이 프레임워크를 통해 기존의 AFA 방법론인 SHAP, ES, FESP를 커널 기반으로 재해석하고, LS prenucleolus 개념과 일치하거나 LIME의 커널 속성과 부합하는 새로운 AFA 방법론 4가지를 제안함. 이를 통해 SHAP의 대안이 될 수 있는 설명가능 AI 방법론의 이론적 기반을 확장함.
+- **기여점**: LIME의 커널 관점에서 AFA 방법론들을 통합적으로 분석하고 생성할 수 있는 일반화된 분석식을 최초로 유도함. 이를 통해 SHAP, ES 등 기존 방법론들을 커널 기반으로 재정의하고, LIME의 철학에 더 부합하는 새로운 AFA 대안들을 제시하여 설명가능 AI 분야의 이론적 토대를 넓힘.
 <!--truncate-->
 
 ## 요약

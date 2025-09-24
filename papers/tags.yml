@@ -510,3 +510,15 @@ On-device Inference:
   description: 온디바이스 추론
 Language Model Survey:
   description: 언어 모델 설문조사
+FOR_KSC:
+  description: KSC 논문을 작성하기 위해 참고할 논문들
+High-Performance Concrete:
+  description: 고성능 콘크리트
+Material Informatics:
+  description: 재료 정보학
+Science Cloud Deployment:
+  description: 과학 클라우드 배포
+Regression Chain:
+  description: 회귀 체인
+Data Change Rate:
+  description: 데이터 변동률

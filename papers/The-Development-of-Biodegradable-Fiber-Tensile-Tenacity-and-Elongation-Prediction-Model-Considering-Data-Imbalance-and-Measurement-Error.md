@@ -1,26 +1,27 @@
 ---
-title: "데이터 불균형과 측정 오차를 고려한 생분해성 섬유 인장 강신도 예측 모델 개발"
-date: "2022-12-01"
-description: "섬유 방사 공정 데이터의 불균형과 측정 오차 특성을 고려한 이상치 처리 및 데이터 증강 기법을 제안하여 인장 강신도 예측 모델의 성능을 개선한다."
+title: 데이터 불균형과 측정 오차를 고려한 생분해성 섬유 인장 강신도 예측 모델 개발
+date: 2022-12-01
+description: 섬유 방사 공정 데이터의 불균형과 측정 오차 특성을 고려한 이상치 처리 및 데이터 증강 기법을 제안하여 인장 강신도 예측 모델의 성능을 개선한다.
 keywords:
-  [
-    Data Imbalance,
-    Outlier Handling,
-    Data Augmentation,
-    Tensile Tenacity and Tensile Elongation,
-    Biodegradable Fiber,
-    PLA,
-  ]
+  - Data Imbalance
+  - Outlier Handling
+  - Data Augmentation
+  - Tensile Tenacity and Tensile Elongation
+  - Biodegradable Fiber
+  - PLA
 tags:
-  [
-    Data Imbalance,
-    Outlier,
-    Data Augmentation,
-    Regression,
-    Textile Industry,
-    Polylactic Acid,
-  ]
-authors: ["Se-Chan Park", "Deokyeop Kim", "Kangbok Seo", "Woojin Lee"]
+  - Data Imbalance
+  - Outlier
+  - Data Augmentation
+  - Regression
+  - Textile Industry
+  - Polylactic Acid
+  - FOR_KSC
+authors:
+  - Se-Chan Park
+  - Deokyeop Kim
+  - Kangbok Seo
+  - Woojin Lee
 ---
 
 ## 논문 정보
@@ -50,12 +51,11 @@ authors: ["Se-Chan Park", "Deokyeop Kim", "Kangbok Seo", "Woojin Lee"]
 기존 섬유 산업 연구는 주로 통계적 분석이나 수학적 모델링에 의존했으나, 이는 복잡한 비선형 관계를 분석하는 데 한계가 있었다. 인공지능을 적용한 소수의 연구는 데이터 부족으로 모델의 신뢰도가 낮았다. 일반적인 이상치 처리 기법은 데이터가 불균형할 경우 정상적인 소수 데이터를 이상치로 오탐지할 수 있다. 또한, 회귀 문제에서의 데이터 증강은 분류 문제와 달리 연속적인 변수의 구간별 불균형을 다루어야 하고, 특정 변수를 증강할 때 다른 변수의 불균형이 심화될 수 있는 문제를 고려해야 한다.
 
 ### 모델 아키텍처 / 방법론
-
+![Figure 3](img/Pasted%20image%2020250924143514.png)
 - **핵심 구조/방법**:
-
   1.  **거리 기준 이상치 처리**: 전체 데이터를 동일한 방사 조건을 기준으로 클러스터링한다. 각 클러스터 내에서 샘플들의 평균값을 계산하고, 이 평균값으로부터 사전에 정의된 '이상치 판단 거리 기준' 이상으로 벗어난 데이터를 이상치로 간주하여 제거한다. 이 방법은 논문의 Figure 3에서 시각적으로 설명된다.
   2.  **복합 데이터 증강**: 여러 변수에서 복합적으로 나타나는 데이터 불균형을 해결하기 위해, 각 주요 공정 변수가 예측 목표(인장 강도, 인장 신도)에 미치는 영향(상관계수)과 해당 변수의 데이터 불균형 정도를 모두 고려한다. 이를 바탕으로 데이터 증강의 우선순위와 증강 비율을 결정하여 소수 구간 데이터를 균형 있게 증강한다.
-
+![Table 7](img/Pasted%20image%2020250924143600.png)
 - **주요 구성 요소**:
   - **이상치 판단 거리 기준**: 산업 현장의 공정관리한계 허용오차를 기반으로 실험을 통해 최적의 값을 설정했다. 인장 강도는 `0.4`, 인장 신도는 `4.5`를 기준으로 사용했다.
   - **데이터 증강 우선순위**: 상관계수와 불균형 정도를 종합적으로 고려하여 우선순위를 정한다. 예를 들어, 인장 강도 예측 시 롤러1 속도와 롤러2 온도가 1순위로, 스핀빔 온도가 3순위로 설정되었다 (논문의 Table 7 참조).
@@ -64,6 +64,7 @@ authors: ["Se-Chan Park", "Deokyeop Kim", "Kangbok Seo", "Woojin Lee"]
 
 - **주요 데이터셋**: 816개의 생분해성 섬유(PLA) 방사 공정 데이터를 사용했으며, 6개의 주요 공정 변수(스핀빔 온도, 롤러 속도 등)를 통해 인장 강도와 인장 신도를 예측했다.
 - **핵심 성능 지표**: 평균절대오차(MAE), 평균제곱오차(MSE), 조정된 결정계수(Adjusted $R^2$), 허용오차 내 예측치 비율을 사용했다.
+![Figure 5](img/Pasted%20image%2020250924143537.png)
 - **비교 결과**:
   - **이상치 처리**: 제안 기법은 박스 플롯이나 CBLOF 기법과 달리 정상적인 소수 구간 데이터를 보존하면서 이상치를 효과적으로 제거했다(논문의 Figure 5). 이를 통해 인장 강도 예측 MAE가 0.165에서 0.148로 개선되었다.
   - **데이터 증강**: 제안 기법은 ROS, SMOTE와 달리 다른 변수의 불균형을 악화시키지 않고, 소수 구간 _내_ 데이터 불균형까지 완화했다 (롤러2 온도 소수 구간 내 데이터 비율이 7:1에서 3:2로 개선).
