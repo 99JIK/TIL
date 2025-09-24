@@ -1,5 +1,5 @@
 ---
-title: "트랜스포머가 된다는 것은 무엇을 의미하는가?: 이론적 헤시안 분석으로부터의 통찰"
+title: "WHAT DOES IT MEAN TO BE A TRANSFORMER? INSIGHTS FROM A THEORETICAL HESSIAN ANALYSIS"
 date: "2025-03-17"
 description: "셀프 어텐션의 손실 함수 헤시안(Hessian)을 이론적으로 분석하여 트랜스포머의 독특한 최적화 환경과 구조적 특징의 근원을 규명한 논문"
 keywords:
