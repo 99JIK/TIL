@@ -522,3 +522,9 @@ Regression Chain:
   description: 회귀 체인
 Data Change Rate:
   description: 데이터 변동률
+Tomato Production:
+  description: 토마토 생산
+Precision Agriculture:
+  description: 정밀 농업
+Wireless Sensor Networks:
+  description: 무선 센서 네트워크
