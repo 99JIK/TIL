@@ -1,53 +1,140 @@
-용융 방사 공정-구조-물성 관계를 이해하여야 역설계 모델 개발에 도움이 될 거라고 생각하여 검색 및 AI를 활용해 얻는 지식을 정리해 놓은 문서이다.
+# 용융 방사(Melt Spinning) 공정-구조(Structure)-물성(Property) 관계 및 AI 모델링 기초
 
-만약 문서가 틀렸을 경우 주기적으로 수정할 예정이다.
+> Melt Spinning 공정의 Structure와 Property 관계를 이해하고, 이를 바탕으로 Inverse Design Model 개발에 도움이 될 정보를 정리한 문서이다.
 
----
-## 물성
-### 원료 데이터
+## 방사(Spinning) 공정
+
+### 물성
+
 #### Melt Index
-- MFI(Melt Flow Index), 용융 흐름 지수 또는 용융 지수는 폴리머의 분자량에 대한 간접적 척도이자 용융 상태에서의 유동성을 직접적으로 나타내는 지표이다. 특정 온도와 압력에서 표준화된 모세관 다이(Die)를 통해 10분 동안 흘러나오는 폴리머의 질량(g)으로 정의된다.
-### 공정 데이터
+
+- MFI(Melt Flow Index)는 Polymer의 Molecular Weight에 대한 간접적 척도이자 용융 상태에서의 유동성(Fluidity)을 직접적으로 나타내는 지표이다.
+    
+- 특정 조건에서 10분 동안 Capillary Die를 통해 압출되는 Polymer의 Mass(g)로 정의된다.
+    
+
+### 공정 변수
+
 #### Denier
-- 섬유의 선형 질량 밀도를 나타내는 단위이다. 섬유 9000미터 당 질량(g)으로 정의된다. 이는 섬유 굵기나 섬도를 직접적으로 측정하는 값이다.
-#### Spinbeam \/ Manifold Temp
-- 폴리머 칩을 녹이고, 용융된 폴리머가 방사구(spinneret)에 도달하기 전 일정한 온도로 유지하는 가열 구역을 스핀빔이라고 한다. 스핀빔은 방사구로 용융물을 공급하는 이송 라인과 계량 펌프를 포함하며, 매니폴드는 용융물을 모든 방사구 구멍에 균일하게 분해하는 역할을 한다.
-#### Godet Roller 1 \/ 2 - Speed \/ Temp
-- 고뎃 롤러은 압출된 필라멘트를 잡아 방사구로부터 끌어당기는 정밀히 제어되는 가열 롤러이다. 첫 번째 고뎃 롤러는 연신 공정의 초기 속도를 설정하며, 그 온도는 연신을 위한 섬유의 열적 컨디셔닝을 시작한다.
-- 두번째 고뎃 롤러 세트의 속도와 온도의 차이는 DR, Draw Ratio, 연신비를 결정한다. 두 번째 고뎃 롤러의 온도는 주된 연신 단계 동안의 열 환경을 제어한다.
-#### Draw Ratio
-- DR, 연신비는 섬유에 가해지는 기계적 연신 정도를 나타내는 값이다. 연신 구역의 최종 속도를 초기 속도로 나눈 비율이며 GR2_Speed \/ GR1_Speed로 계산한다. **DR은 독립 변수가 아니므로 세 변수를 모두 모델에 포함하면 완벽한 다중공성선(multicollinearity)을 유발할 수 있다**. AI 모델링 시 DR을 강력한 공학적 특성으로 사용하고, 개별 속도 변수를 제외하거나, 개별 속도 변수만 사용해 복잡한 모델이 상호작용을 학습하도록 하는 접근이 필요해 보인다.
+
+- 섬유의 Linear Mass Density를 나타내는 단위로, 섬유 9,000미터당 Mass(g)로 정의된다.
+- 섬유의 굵기를 나타낸다.
+    
+
+#### Spinbeam / Manifold Temp
+
+- Spinbeam은 Polymer 칩을 녹여 Spinneret에 도달하기 전까지 용융 상태의 온도를 일정하게 유지하는 가열 구역이다.
+    
+- Manifold는 용융된 Polymer를 각 Spinneret 구멍으로 균일하게 분배하는 역할을 한다.
+    
+
+#### Godet Roller Speed / Temp
+
+- Godet Roller는 Spinneret에서 압출된 Filament를 끌어당겨 연신(Drawing)하는 가열 롤러이다.
+    
+- 롤러 간의 속도 및 온도 차이는 최종 섬유의 기계적 물성을 결정하는 핵심 Variable이다.
+    
+
+#### Draw Ratio (DR)
+
+- 연신 구역의 최종 속도를 초기 속도로 나눈 비율(`GR2_Speed / GR1_Speed`)로, 섬유에 가해지는 기계적 연신 정도를 나타낸다.
+    
+- **DR은 Independent Variable이 아니므로, 개별 롤러 속도와 DR을 모두 Model Feature로 사용하면 Multicollinearity를 유발할 수 있다.**
+    
+
 #### Final Roller Speed
-- 최종 롤러, Winder, 와인더의 속도로 완성된 실을 감는 속도이다. GR2_Speed와 동기화되거나 장력을 유지하기 위해 조금의 차이를 둘 수도 있어 보인다. 압출기에서 나오는 질량 처리량에 기반하여 목표 Denier를 달성하는 데 역할을 한다.
-### 물성 데이터
-#### TENACITY
-- 강도, 섬유가 끊어지기 전 견딜 수 있는 최대 인장 응력을 Denier로 나눈 값이다.
-- 강도와 신도는 근본적인 상충 관계가 존재한다.
-#### ELONGATION
-- 신도, 섬유가 끊어지기 전까지 늘어날 수 있는 능력을 나타내는 척도로 원래 길이의 백분율로 표현된다.
-- 강도와 신도는 근본적인 상충 관계가 존재한다.
-#### UNEVENNESS
-- 불균일도, 실의 길이에 따른 단위 길이당 질량의 변화를 측정한 값이며 변동 계수(CV%)로 표현되기도 하며, 섬유 굵기의 일관성을 정량화한다.
-- 품질 관리 지표가 될 수 있다.
-	- 불균일도가 높다는 뜻은 외관 결함, 실의 약점 발생, 염색과 제직 같은 후속 공정에서 문제를 유발할 수 있다.
-#### CRYSTALLINITY
-- 결정화도, 폴리머 부피 중 무질서한 비정질 상태가 아니고 정렬된 결정질 상태의 백분율이다.
-- 폴리머는 두 영역(비정질, 결정질)을 모두 포함하는 반결정질 상태이다.
-- 결정화도는 다른 많은 물성을 결정하는 구조적 특성이라고 한다.
-	- 결정화도가 높으면 강성, 강도, 열 안정성, 내화학성이 증가한다.
-	- 신도, 염색성이 감소한다.
-#### DEGRADATION_TEMP
-- 열분해 온도, 폴리머가 화학적으로 분해되기 시작하는 개시 온도로, 일반적으로 열중량 분석을 통해 측정된다.
-- 열 안정성 상한선을 정의하며 이 값이 높을수록 폴리머가 더 안정적인 구조임을 의미한다.
-#### MELT_TEMP
-- 용융 온도, 폴리머의 결정 영역이 녹아 액체 상태로 전이되는 온도이며, 시차 주사 열량측정법으로 측정한다.
-- 핵심적인 열적 특성이다.
-- 크고 완벽한 폴리머 결정일수록 용융 온도가 높다.
-#### GLASS_TRAN_TEMP
-- 유리 전이 온도는 폴리머의 비정질 영역이 단단하고 유리 같은 상태에서 유연하고 고무같은 상태로 전이되는 온도이다.
-- 결정적인 공정 온도로 필요한 분자 사슬 이동을 허용하기 위해 연신은 반드시 유리 전이 온도 이상에서 수행되어야 한다.
-#### TS_AVG TEMP \/ STR
-- 열응력 평균 온도 \/ 강도, 열응력은 섬유의 치수 안정성을 나타내는 핵심 지표이다.
-- 높은 열응력은 섬유가 고온 환경에 노출되면 수축한다는 것을 의미한다.
-	- 연신 공정 중 배향되었으나 완전히 이완되지 않은 비정질 영역의 분자 사슬들이 열에너지를 받아 다시 무질서 상태로 돌아가려는 경향때문에 발생한다고 한다.
-	- 타이어와 같이 고온에서 치수 안정성이 요구되는 소재는 낮은 열응력 값이 필요로 한다.
+
+- 최종적으로 완성된 실을 감는 Winder의 속도이다. 압출량과 함께 목표 Denier를 결정하는 데 중요한 역할을 한다.
+    
+
+### 물성
+
+#### TENACITY (강도)
+
+- 섬유가 끊어지기 전까지 견딜 수 있는 최대 Tensile Stress를 Denier로 나눈 값이다.
+    
+
+#### ELONGATION (신도)
+
+- 섬유가 끊어지기 전까지 늘어날 수 있는 최대 비율(%)이다. Tenacity와는 일반적으로 Trade-off 관계에 있다.
+    
+
+#### CRYSTALLINITY (결정화도)
+
+- Polymer 내에서 분자 사슬이 규칙적으로 배열된 Crystalline 영역의 비율이다. Tenacity, Stiffness, Thermal Stability 등에 직접적인 영향을 미친다.
+    
+
+## Artificial Intelligence & Machine Learning
+
+### 2.1. 기본 개념: AI, ML, Deep Learning
+
+- **AI**
+    
+    - 인간의 지능(학습, 추론, 문제 해결 등)을 모방하는 컴퓨터 시스템을 구축하는 포괄적인 학문 분야.
+        
+- **ML**
+    
+    - 명시적인 프로그래밍 없이, Data로 패턴을 학습하여 특정 작업을 수행하는 Model 구축하는 AI 핵심 분야
+        
+    - **핵심 원리**: Representation(Data 표현 및 평가) & Generalization(일반화)
+        
+- **Deep Learning**
+    
+    - 여러 계층(Layer)의 인공신경망(Artificial Neural Network, ANN)을 사용하여 복잡한 패턴을 학습하는 ML의 한 분야(Subset)
+        
+
+### 2.2. Machine Learning Model의 분류
+
+- **학습 방식에 따른 분류 (By Supervision)**
+    
+    - **Supervised Learning (지도 학습)**: 정답(Label)이 있는 Data로 학습하여 예측 Model 생성
+        
+        - **Classification (분류)**, **Regression (회귀)**
+            
+    - **Unsupervised Learning (비지도 학습)**: Label이 없는 Data에서 숨겨진 Pattern이나 Structure 발견
+        
+        - **Clustering (군집화)**, **Dimension Reduction (차원 축소)**
+	    
+    - **Semi-supervised Learning (반지도 학습)**: Supervised + Unsupervised
+            
+    - **Reinforcement Learning (강화 학습)**: Agent가 환경과 상호작용하며 보상(Reward)을 최대화하는 방향으로 행동 학습
+        
+
+### 2.3. Modeling의 핵심 요소
+
+#### Data
+
+- Model의 성능을 결정하는 가장 중요한 요소
+    
+- **주요 이슈**:
+    
+    - **Sampling Noise / Bias**: Data가 모집단을 대표하지 못하는 문제
+        
+    - **Overfitting / Underfitting**: Model이 Training Data에만 과도하게 최적화(Overfitting)되거나, Data의 Pattern을 충분히 학습하지 못하는(Underfitting) 문제
+        
+
+#### Parameter와 Hyperparameter
+
+- **Model Parameter**
+    
+    - Model이 **Data로부터 학습하는** 내부 Variable
+        
+    - 사용자가 직접 설정할 수 없으며, 학습 과정의 결과물이다.
+        
+    - **예**: Linear Regression의 계수(Coefficients), Neural Network의 가중치(Weights)
+        
+- **Hyperparameter**
+    
+    - Model의 **학습 과정을 제어하기 위해** 사용자가 직접 설정하는 외부 값
+        
+    - 최적의 Model 성능을 위해 Tuning 과정이 필요하다.
+        
+    - **예**: Learning Rate, Epochs 수, Hidden Layer의 수, k-NN의 k 값
+        
+    - **Tuning 기법**:
+        
+        - **Grid Search**: 지정된 모든 Hyperparameter 조합 탐색
+            
+        - **Random Search**: 지정된 범위 내에서 무작위로 조합 탐색
+		    
+        - **Bayesian Optimization**: 더 유망한 영역을 효율적으로 탐색하는 고급 기법
