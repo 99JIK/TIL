@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Project/DYETEC/Study.md",
+                "file": "docs/Project/DYETEC/New Idea.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Study"
+              "title": "New Idea"
             }
           }
         ]
@@ -171,6 +171,8 @@
   },
   "active": "84cb54a556ccad1c",
   "lastOpenFiles": [
+    "docs/Project/DYETEC/New Idea.md",
+    "docs/Project/DYETEC/Study.md",
     "docs/Project/DYETEC/(REJECTED)KSC2025-RESEARCH.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/진행 상황 로그.md",
     "papers/Deep-learning-driven-IoT-solution-for-smart-tomato-farming.md",
@@ -179,8 +181,6 @@
     "papers/img/Pasted image 20250925153339.png",
     "papers/img/Pasted image 20250925153318.png",
     "papers/img/Pasted image 20250925153218.png",
-    "docs/Project/DYETEC/Study.md",
-    "docs/Project/DYETEC/New Idea.md",
     "무제.md",
     "().md",
     "papers/The-emergent-role-of-explainable-artificial-intelligence-in-the-materials-sciences.md",
