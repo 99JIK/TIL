@@ -528,3 +528,33 @@ Precision Agriculture:
   description: 정밀 농업
 Wireless Sensor Networks:
   description: 무선 센서 네트워크
+Fiber-reinforced Concrete:
+  description: 섬유 보강 콘크리트
+Flexural Fatigue Life:
+  description: 휨 피로 수명
+Prediction:
+  description: 예측
+Stacking Ensemble Model:
+  description: 스태킹 앙상블 모델
+Fatigue:
+  description: 피로
+Fused Deposition Modeling:
+  description: 퓨전 디포제이션 모델링
+Tensile Strength Prediction:
+  description: 인장 강도 예측
+Defect Prediction:
+  description: 결함 예측
+Manufacturing Quality Control:
+  description: 제조 품질 관리
+Clustering:
+  description: 클러스터링
+Generalization And Induction:
+  description: 일반화 및 유도
+Combining Generalizers:
+  description: 일반화기 결합
+Learning Set Pre-processing:
+  description: 학습 세트 전처리
+Cross Validation:
+  description: 교차 검증
+Error Estimation And Correction:
+  description: 오류 추정 및 수정

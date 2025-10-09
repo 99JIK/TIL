@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Project/DYETEC/Project-2-Log.md",
+                "file": "papers/Stacked-Generalization.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Project-2-Log"
+              "title": "Stacked-Generalization"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Project/DYETEC/Project-2-Log.md",
+                "file": "papers/Stacked-Generalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Project-2-Log"
+              "title": "Backlinks for Stacked-Generalization"
             }
           },
           {
@@ -170,8 +170,12 @@
   },
   "active": "84cb54a556ccad1c",
   "lastOpenFiles": [
-    "docs/Project/DYETEC/New Idea.md",
+    "papers/A-machine-learning-intergrated-framework-for-mechanical-property-prediction-of-FDM-printed-PLA.md",
+    "papers/Stacked-Generalization.md",
+    "papers/A-stacking-ensemble-model-for-prediting-the-flexural-fatigue-life-of-fiber-reinforced-concrete.md",
+    "papers/Comparative-Analysis-of-Explainable-AI-Methods-for-Manufacturing-Defect-Prediction-A-Mathematical-Perspective.md",
     "docs/Project/DYETEC/Project-2-Log.md",
+    "docs/Project/DYETEC/New Idea.md",
     "docs/Project/DYETEC/Meeting-250910.md",
     "docs/Project/DYETEC/Project-2-Proposal.md",
     "docs/Project/DYETEC/Study.md",
@@ -203,10 +207,6 @@
     "papers/Alternative-Methods-to-SHAP-Derived-from-Properties-of-Kernels-A-Note-on-Theoretical-Analysis.md",
     "papers/AI-Assisted-Discovery-of-Biodegradable-Polymer-Alternatives.md",
     "papers/Optimization-of-spinning-processes-in-textile-manufacturing-using-reinforcement-learning.md",
-    "papers/Optimization-of-Fiber-Radiation-Processes-Using-Multi-Objective-Reinforcement-Learning.md",
-    "papers/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain.md",
-    "papers/Performance-Improvement-of-Lightfastness-Grade-Prediction-Model-using-Differential-Testing.md",
-    "papers/Outlier-Processing-Techniques-Based-on-Colorfastness-Rating-Determination-Based-on-Change-in-Color-of-Textile.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/_category_.json",
     "docs/KNU-MS/TA/2025-ITEC0401-002",
     "papers/img",
