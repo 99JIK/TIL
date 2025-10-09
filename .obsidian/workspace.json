@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Stacked-Generalization.md",
+                "file": "docs/KNU-MS/TA/2025-ITEC0401-002/진행 상황 로그.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Stacked-Generalization"
+              "title": "진행 상황 로그"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/Stacked-Generalization.md",
+                "file": "docs/KNU-MS/TA/2025-ITEC0401-002/진행 상황 로그.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Stacked-Generalization"
+              "title": "Backlinks for 진행 상황 로그"
             }
           },
           {
@@ -170,8 +170,11 @@
   },
   "active": "84cb54a556ccad1c",
   "lastOpenFiles": [
-    "papers/A-machine-learning-intergrated-framework-for-mechanical-property-prediction-of-FDM-printed-PLA.md",
+    "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251010031151.png",
+    "docs/KNU-MS/TA/2025-ITEC0401-002/진행 상황 로그.md",
+    "docs/KNU-MS/TA/2025-ITEC0401-002/img",
     "papers/Stacked-Generalization.md",
+    "papers/A-machine-learning-intergrated-framework-for-mechanical-property-prediction-of-FDM-printed-PLA.md",
     "papers/A-stacking-ensemble-model-for-prediting-the-flexural-fatigue-life-of-fiber-reinforced-concrete.md",
     "papers/Comparative-Analysis-of-Explainable-AI-Methods-for-Manufacturing-Defect-Prediction-A-Mathematical-Perspective.md",
     "docs/Project/DYETEC/Project-2-Log.md",
@@ -188,11 +191,9 @@
     "docs/Project/DYETEC/img/image11.png",
     "docs/Project/DYETEC/img/image10.png",
     "docs/Project/DYETEC/img/image09.png",
-    "docs/Project/DYETEC/img/image08.png",
     "docs/Project/DYETEC/img",
     "docs/Project/DYETEC/Project-Log.md",
     "docs/Project/DYETEC/(REJECTED)KSC2025-RESEARCH.md",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/진행 상황 로그.md",
     "papers/Deep-learning-driven-IoT-solution-for-smart-tomato-farming.md",
     "무제.md",
     "().md",
@@ -206,7 +207,6 @@
     "papers/Explainable-machine-learning-in-materials-science.md",
     "papers/Alternative-Methods-to-SHAP-Derived-from-Properties-of-Kernels-A-Note-on-Theoretical-Analysis.md",
     "papers/AI-Assisted-Discovery-of-Biodegradable-Polymer-Alternatives.md",
-    "papers/Optimization-of-spinning-processes-in-textile-manufacturing-using-reinforcement-learning.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/_category_.json",
     "docs/KNU-MS/TA/2025-ITEC0401-002",
     "papers/img",
@@ -214,7 +214,6 @@
     "무제 1.base",
     "build/papers/feed.json",
     "build/papers/atom.xml",
-    "build/papers/rss.xml",
-    "build/sitemap.xml"
+    "build/papers/rss.xml"
   ]
 }
