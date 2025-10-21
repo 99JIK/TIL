@@ -41,7 +41,8 @@ authors: ["Mohammad Sharghi", "Hoyoung Jeong"]
 모델 성능은 $RMSE$ (평균제곱근오차)와 $R^2$ (결정계수) 두 가지 통계 지표로 평가했다.
 - $RMSE = \sqrt{\frac{\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}{n}}$
 - $R^{2}=1-\frac{\sum(y_{i}-\hat{y}_{i})^{2}}{\sum(y_{i}-\overline{y})^{2}}$
-
+![](img/Pasted%20image%2020251021200419.png)
+![](img/Pasted%20image%2020251021200441.png)
 ### 실험 결과
 - **MLR 결과**: $FN_m$ 예측은 $R^2$ = 0.743, RMSE = 5.236 kN을 기록했다. $FC_m$ 예측은 $R^2$ = 0.674로 $FN_m$보다 다소 낮은 상관관계를 보였다. 논문의 Figure 5에 관련 산점도가 제시되어 있다. MLR로 도출된 예측식은 다음과 같다:
     - $FN_{m}=0.342UCS-2.365BTS+0.188d_{t}-0.067\rho+0.149d-0.045s+0.953s/d-0.054\gamma-0.016\epsilon$
