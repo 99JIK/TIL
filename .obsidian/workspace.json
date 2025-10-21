@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "{",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "검색"
+              "title": "Search"
             }
           },
           {
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,7 +185,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "56d9c4a58c3f166f",
+  "active": "d08454e46a1d44dd",
   "lastOpenFiles": [
     "docs/KNU-MS/2nd_semester/COMP0811.md",
     "docs/KNU-MS/2nd_semester/COMP0730.md",
