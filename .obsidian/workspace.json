@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/KNU-MS/2nd_semester/COMP0730.md",
+                "file": "papers/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "COMP0730"
+              "title": "Untitled"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/KNU-MS/2nd_semester/COMP0730.md",
+                "file": "papers/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for COMP0730"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -182,8 +182,8 @@
   },
   "active": "8debd10dd07bc88a",
   "lastOpenFiles": [
-    "papers/Untitled.md",
     "docs/KNU-MS/2nd_semester/COMP0730.md",
+    "papers/Untitled.md",
     "papers/img/Pasted image 20251021200612.png",
     "papers/img/Pasted image 20251021200544.png",
     "papers/img/Pasted image 20251021200525.png",
