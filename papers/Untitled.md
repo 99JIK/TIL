@@ -31,7 +31,7 @@ authors: ["Mohammad Sharghi", "Hoyoung Jeong"]
 
 ### 모델 아키텍처 / 방법론
 연구는 2단계 예측 모델링 접근 방식을 사용했다.
-
+![](img/Pasted%20image%2020251021200612.png)
 - **1단계: 다변수 선형 회귀 (MLR)**: 먼저 MLR 모델을 사용하여 입력 변수와 $FN_m$, $FC_m$ 간의 기초적인 선형 상관관계를 파악하고 기준 성능을 설정했다.
 - **2단계: 최적화된 랜덤 포레스트 (RF)**:
     - **핵심 구조/방법**: RF는 앙상블 학습 방법으로, 데이터의 무작위 하위 샘플을 사용하여 다수의 의사결정 트리를 구축하고 그 예측을 평균(회귀)하여 과적합을 줄이고 견고성을 높인다.
@@ -41,6 +41,8 @@ authors: ["Mohammad Sharghi", "Hoyoung Jeong"]
 모델 성능은 $RMSE$ (평균제곱근오차)와 $R^2$ (결정계수) 두 가지 통계 지표로 평가했다.
 - $RMSE = \sqrt{\frac{\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}{n}}$
 - $R^{2}=1-\frac{\sum(y_{i}-\hat{y}_{i})^{2}}{\sum(y_{i}-\overline{y})^{2}}$
+![](img/Pasted%20image%2020251021200525.png)
+![](img/Pasted%20image%2020251021200544.png)
 ![](img/Pasted%20image%2020251021200419.png)
 ![](img/Pasted%20image%2020251021200441.png)
 ### 실험 결과
