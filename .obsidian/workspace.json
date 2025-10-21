@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Deep-learning-driven-IoT-solution-for-smart-tomato-farming.md",
+                "file": "docs/KNU-MS/2nd_semester/COMP0730.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deep-learning-driven-IoT-solution-for-smart-tomato-farming"
+              "title": "COMP0730"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/Deep-learning-driven-IoT-solution-for-smart-tomato-farming.md",
+                "file": "docs/KNU-MS/2nd_semester/COMP0730.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Deep-learning-driven-IoT-solution-for-smart-tomato-farming"
+              "title": "Backlinks for COMP0730"
             }
           },
           {
@@ -186,9 +186,10 @@
   },
   "active": "56d9c4a58c3f166f",
   "lastOpenFiles": [
+    "docs/KNU-MS/2nd_semester/COMP0738.md",
+    "papers/Deep-learning-driven-IoT-solution-for-smart-tomato-farming.md",
     "papers/Deep-Learning-Based-Fabric-Defect-Detection.md",
     "docs/KNU-MS/2nd_semester/COMP0730.md",
-    "docs/KNU-MS/2nd_semester/COMP0738.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/250114/Report.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/250114/img/보고서.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/진행 상황 로그.md",
@@ -226,7 +227,6 @@
     "papers/Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning.md",
     "papers/Exploring-the-Competency-of-ChatGPT-in-Solving-Competitive-Programming-Challenges.md",
     "papers/Explainable-machine-learning-in-materials-science.md",
-    "papers/Explainable-Artificial-Intelligence-XAI-for-Material-Design-and-Engineering-Applications-A-Quantitative-Computational-Framework.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251010031151.png",
     "docs/Project/DYETEC/img/image17.png",
     "docs/Project/DYETEC/img/image16.png",
