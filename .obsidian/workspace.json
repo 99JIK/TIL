@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "{",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,7 +185,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "d08454e46a1d44dd",
+  "active": "56d9c4a58c3f166f",
   "lastOpenFiles": [
     "docs/KNU-MS/2nd_semester/COMP0811.md",
     "docs/KNU-MS/2nd_semester/COMP0730.md",
