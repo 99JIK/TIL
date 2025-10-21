@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Untitled.md",
+                "file": "docs/KNU-MS/2nd_semester/COMP0730.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "COMP0730"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/Untitled.md",
+                "file": "docs/KNU-MS/2nd_semester/COMP0730.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for COMP0730"
             }
           },
           {
@@ -182,15 +182,15 @@
   },
   "active": "8debd10dd07bc88a",
   "lastOpenFiles": [
+    "papers/Untitled.md",
+    "docs/KNU-MS/2nd_semester/COMP0730.md",
     "papers/img/Pasted image 20251021200612.png",
     "papers/img/Pasted image 20251021200544.png",
     "papers/img/Pasted image 20251021200525.png",
     "papers/img/Pasted image 20251021200441.png",
     "papers/img/Pasted image 20251021200419.png",
     "docs/KNU-MS/TA/2025-ITEC0401-002/250114/Report.md",
-    "papers/Untitled.md",
     "Untitled 2.canvas",
-    "docs/KNU-MS/2nd_semester/COMP0730.md",
     "docs/KNU-MS/2nd_semester/COMP0811.md",
     "docs/KNU-MS/2nd_semester/COMP0738.md",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251021174329.png",
@@ -229,7 +229,6 @@
     "papers/Generative-Adversarial-Networks.md",
     "papers/Generative-Adversarial-Nets.md",
     "papers/Generating-Real-Time-Selective-and-Multimodal-Haptic-Effects-from-Sound-for-Gaming-Experience-Enhancement.md",
-    "papers/Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning.md",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251010031151.png"
+    "papers/Fabric-Defect-Classification-Using-Combination-of-Deep-Learning-and-Machine-Learning.md"
   ]
 }
