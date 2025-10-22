@@ -562,3 +562,13 @@ Rock Mechanics:
   description: 석공
 Cutting Force:
   description: 절삭력
+Dimensionality Reduction:
+  description: Dimensionality Reduction
+Feature Selection:
+  description: Feature Selection
+Elementary Effect:
+  description: Elementar
+Global Sensitivity Analysis:
+  description: Global Sensitivity Analysis
+Elementary Effect:
+  description: Elementary Effect
