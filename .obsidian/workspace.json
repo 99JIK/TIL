@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/KNU-MS/2nd_semester/COMP0730.md",
+                "file": "docs/KNU-MS/2nd_semester/COMP0811.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "COMP0730"
+              "title": "COMP0811"
             }
           }
         ]
@@ -182,9 +182,10 @@
   },
   "active": "8debd10dd07bc88a",
   "lastOpenFiles": [
+    "docs/KNU-MS/2nd_semester/COMP0738.md",
+    "docs/KNU-MS/2nd_semester/COMP0730.md",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022173652.png",
     "img/Pasted.md",
-    "docs/KNU-MS/2nd_semester/COMP0730.md",
     "img",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022211654.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022204053.png",
@@ -195,13 +196,11 @@
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022203925.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022203855.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022203834.png",
-    "docs/KNU-MS/2nd_semester/img/Pasted image 20251022203756.png",
     "papers/Dimensionality-reduction-using-statistical-analysis-and-model-based-method-and-random-forest-regressor.md",
     "papers/Prediction-of-Pick-Acting-Forces-Using-an-Random-Forest-Model-based-on-Mechanical-Properties-of-Rocks-and-Cutting-Parameters.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/250114/Report.md",
     "Untitled 2.canvas",
     "docs/KNU-MS/2nd_semester/COMP0811.md",
-    "docs/KNU-MS/2nd_semester/COMP0738.md",
     "papers/Deep-learning-driven-IoT-solution-for-smart-tomato-farming.md",
     "papers/Deep-Learning-Based-Fabric-Defect-Detection.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/250114/img/보고서.md",
