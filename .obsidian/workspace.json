@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "COMP0730"
             }
+          },
+          {
+            "id": "82432417c1e917c9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "docs/KNU-MS/2nd_semester/img/Pasted image 20251022185020.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251022185020"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,8 +193,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "8debd10dd07bc88a",
+  "active": "82432417c1e917c9",
   "lastOpenFiles": [
+    "docs/KNU-MS/2nd_semester/COMP0730.md",
+    "docs/KNU-MS/2nd_semester/img/Pasted image 20251022185020.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022184312.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022184222.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022184216.png",
@@ -192,10 +207,7 @@
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022183704.png",
     "papers/Dimensionality-reduction-using-statistical-analysis-and-model-based-method-and-random-forest-regressor.md",
     "papers/Prediction-of-Pick-Acting-Forces-Using-an-Random-Forest-Model-based-on-Mechanical-Properties-of-Rocks-and-Cutting-Parameters.md",
-    "docs/KNU-MS/2nd_semester/COMP0730.md",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022174408.png",
-    "docs/KNU-MS/2nd_semester/img/Pasted image 20251022174341.png",
-    "docs/KNU-MS/2nd_semester/img/Pasted image 20251022174307.png",
     "docs/KNU-MS/TA/2025-ITEC0401-002/250114/Report.md",
     "Untitled 2.canvas",
     "docs/KNU-MS/2nd_semester/COMP0811.md",
