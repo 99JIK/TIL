@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/KNU-MS/2nd_semester/COMP0811.md",
+                "file": "docs/Project/KOJ/Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "COMP0811"
+              "title": "Guide"
             }
           }
         ]
@@ -180,9 +180,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "dc3d6a177a23f24c",
+  "active": "8debd10dd07bc88a",
   "lastOpenFiles": [
-    "docs/Project/Untitled",
+    "docs/KNU-MS/2nd_semester/COMP0811.md",
+    "docs/Project/KOJ/Guide.md",
+    "docs/Project/KOJ",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022223204.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022223121.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022223030.png",
@@ -195,7 +197,6 @@
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251022220705.png",
     "docs/KNU-MS/2nd_semester/COMP0738.md",
     "docs/KNU-MS/2nd_semester/COMP0730.md",
-    "docs/KNU-MS/2nd_semester/COMP0811.md",
     "img/Pasted.md",
     "img",
     "papers/Dimensionality-reduction-using-statistical-analysis-and-model-based-method-and-random-forest-regressor.md",
@@ -220,7 +221,6 @@
     "스태킹 앙상블을 활용한 생분해성 섬유 원사 물성 예측 모델의 확장.pdf",
     "Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.pdf",
     "docs/Paper/KCC",
-    "docs/Paper/KSC",
     "docs/Project/DYETEC/Project-2-Log.md",
     "docs/Paper/My P.md",
     "docs/Project/DYETEC/Study.md",
