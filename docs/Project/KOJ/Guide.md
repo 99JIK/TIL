@@ -1,5 +1,6 @@
 ## KOJ (KNU Online Judge) 사용자 설명서 요약
 이 문서는 KNU Online Judge (KOJ) 시스템의 주요 기능과 사용 방법을 요약한다.
+[문의 메일](mailto:99jik@99jik.com)
 
 ---
 
