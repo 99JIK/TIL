@@ -48,9 +48,9 @@ OPENFACE 3.0 시스템의 아키텍처는 논문의 Figure 1에 시각화되어 
 
 - **수식 (손실 함수 가중치)**:
     서로 다른 스케일을 가진 여러 작업의 손실을 효과적으로 균형 맞추기 위해, Homoscedastic Uncertainty(동질 분산 불확실성) 기반 가중치 방법을 사용한다. 각 작업의 불확실성을 학습 가능한 파라미터($\hat{\sigma}_{task}$)로 모델링한다.
-    $$L(W,\hat{\sigma}_{au}^{2},\hat{\sigma}_{gaze}^{2},\hat{\sigma}_{\mathfrak{cmoticn}^{2}) = 
-    \frac{1}{2\hat{\sigma}_{au}^{2}}L_{AU}(W) + \frac{1}{2\hat{\sigma}_{gare}^{2}}L_{gure}(W) + \frac{1}{2\hat{\sigma}_{emotion}^{2}}L_{cmofion}(W) 
-    + log(\hat{\sigma}_{AU}^{2}) + log(\hat{\sigma}_{gaxc}^{2}) + log(\hat{\sigma}_{\mathfrak{emiotion}^{2}})
+    $$L(W,\hat{\sigma}_{au}^{2},\hat{\sigma}_{gaze}^{2},\hat{\sigma}_{emotion}^{2}) =
+    \frac{1}{2\hat{\sigma}_{au}^{2}}L_{AU}(W) + \frac{1}{2\hat{\sigma}_{gaze}^{2}}L_{gaze}(W) + \frac{1}{2\hat{\sigma}_{emotion}^{2}}L_{emotion}(W)
+    + log(\hat{\sigma}_{au}^{2}) + log(\hat{\sigma}_{gaze}^{2}) + log(\hat{\sigma}_{emotion}^{2})
     $$
 
 ### 실험 결과
