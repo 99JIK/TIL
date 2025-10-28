@@ -62,6 +62,7 @@ OPENFACE 3.0 시스템의 아키텍처는 논문의 Figure 1에 시각화되어 
     * 시선 추정: MPII Gaze, Gaze360
     * 감정 인식: AffectNet
 ![](img/Pasted%20image%2020251028133615.png)
+![](img/Pasted%20image%2020251028133634.png)
 - **핵심 성능 지표 (Table III 참고)**:
     * **랜드마크 감지 (NME↓)**: 300W 데이터셋에서 2.87 NME을 달성하여 SOTA small 모델(3.17) 및 OpenFace 2.0(5.20)보다 우수했다.
     * **AU 감지 (F1↑)**: DISFA(59%) 및 BP4D(59%)에서 SOTA small 모델(각각 61%, 62%)과 유사한 성능을 보였다.
