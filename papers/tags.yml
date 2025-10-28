@@ -1,5 +1,6 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
+
 Active Learning:
   description: 능동 학습 - 모델이 학습에 가장 유용한 데이터를 선택적으로 질의하여 효율성을 높이는 학습 방법
 Additive Feature Attribution:
@@ -40,6 +41,7 @@ Automated Machine Learning:
   description: 자동 머신러닝 - 모델 선택, 하이퍼파라미터 튜닝 등 머신러닝 파이프라인을 자동화하는 기술
 Automation:
   description: 자동화 - 사람의 개입 없이 작업을 자동으로 수행하는 시스템이나 프로세스
+
 Bayesian Optimization:
   description: 베이지안 최적화 - 불확실성을 고려하여 탐색과 활용의 균형을 맞추는 최적화 기법
 Biased Estimator:
@@ -52,6 +54,7 @@ Biodegradable Polymers:
   description: 생분해성 고분자 - 미생물에 의해 분해 가능한 친환경 고분자 재료
 Bioinformatics:
   description: 생물정보학 - 컴퓨터 과학과 통계를 활용하여 생물학적 데이터를 분석하는 학문
+
 Carbonation Curing:
   description: 탄산화 양생 - CO2를 흡수시켜 콘크리트를 경화시키는 친환경 양생 방법
 Carbon Reduction:
@@ -102,6 +105,7 @@ Cross Validation:
   description: 교차 검증 - 데이터를 여러 부분으로 나누어 모델을 검증하는 기법
 Cutting Force:
   description: 절삭력 - 재료 가공 시 공구에 작용하는 힘
+
 Data Augmentation:
   description: 데이터 증강 - 기존 데이터를 변형하여 학습 데이터를 인위적으로 늘리는 기법
 Data Change Rate:
@@ -140,6 +144,7 @@ Dyeing:
   description: 염색 - 섬유나 직물에 색을 입히는 화학적 공정
 Dyeing Process:
   description: 염색 공정 - 섬유 재료에 색상을 부여하는 일련의 화학적 처리 과정
+
 Eco-friendly Concrete:
   description: 친환경 콘크리트 - 환경 부하를 줄인 지속가능한 콘크리트 재료
 Edge Artificial Intelligence:
@@ -158,6 +163,7 @@ Explainability:
   description: 설명가능성 - AI 모델의 의사결정 과정을 인간이 이해할 수 있도록 설명하는 능력
 Explainable Artificial Intelligence:
   description: 설명가능한 인공지능 - 모델의 예측 근거와 작동 원리를 투명하게 설명할 수 있는 AI
+
 Fabric Defect:
   description: 직물 결함 - 섬유 제품에 발생하는 품질 불량이나 외관 결함
 Fabric Defect Detection:
@@ -202,6 +208,7 @@ Future Trends:
   description: 미래 동향 - 기술이나 산업의 향후 발전 방향과 트렌드 예측
 Fuzzing:
   description: 퍼징 - 무작위 입력을 주입하여 소프트웨어의 취약점을 찾는 테스팅 기법
+
 Game:
   description: 게임 - 규칙 기반의 상호작용적 엔터테인먼트 또는 학습 시스템
 Game Theory:
@@ -236,6 +243,7 @@ Green Manufacturing:
   description: 친환경 제조 - 환경 영향을 최소화하는 지속가능한 제조 방식
 GUI Testing:
   description: GUI 테스팅 - 그래픽 사용자 인터페이스의 기능과 사용성을 검증하는 테스팅
+
 Haptic Suit:
   description: 햅틱 슈트 - 전신에 촉각 피드백을 제공하는 웨어러블 장비
 Haptics:
@@ -250,6 +258,7 @@ Human-Computer Interaction:
   description: 인간-컴퓨터 상호작용 - 사람과 컴퓨터 간의 효과적인 인터페이스 설계와 연구
 Hyperparameter Optimization:
   description: 하이퍼파라미터 최적화 - 모델 성능을 극대화하는 하이퍼파라미터 값을 찾는 과정
+
 Image Classification:
   description: 이미지 분류 - 이미지를 미리 정의된 카테고리로 분류하는 컴퓨터 비전 작업
 Image Processing:
@@ -266,6 +275,7 @@ Inorganic Crystals:
   description: 무기 결정 - 무기 화합물로 이루어진 결정 구조 재료
 Internet of Things:
   description: 사물인터넷 - 일상 사물들이 인터넷에 연결되어 데이터를 교환하는 네트워크
+
 Kernel:
   description: 커널 - 데이터를 고차원 공간으로 매핑하는 함수 또는 운영체제의 핵심
 Knowledge Discovery and Data Mining:
@@ -274,6 +284,7 @@ Knowledge Distillation:
   description: 지식 증류 - 큰 모델의 지식을 작은 모델로 전이하여 경량화하는 기법
 Knowledge Graph:
   description: 지식 그래프 - 개체와 관계를 그래프로 표현한 구조화된 지식 베이스
+
 Language Model Survey:
   description: 언어 모델 서베이 - 언어 모델 연구 동향과 발전 방향을 종합적으로 조사한 연구
 Language Models:
@@ -298,6 +309,7 @@ Long Short-Term Memory:
   description: LSTM - 장기 의존성을 학습할 수 있는 순환 신경망 구조
 Long-short Term Memory-Advanced:
   description: 고급 LSTM - 개선된 구조와 학습 기법을 적용한 LSTM 변형
+
 Machine Learning:
   description: 머신러닝 - 데이터로부터 패턴을 학습하여 예측과 의사결정을 수행하는 기술
 Manufacturing:
@@ -352,6 +364,7 @@ Multi-objective Reinforcement Learning:
   description: 다중 목표 강화학습 - 여러 목표를 동시에 최적화하는 강화학습 기법
 Multitask Learning:
   description: 다중 작업 학습 - 여러 관련 작업을 동시에 학습하여 공유 표현을 활용하고 일반화 성능을 향상시키는 학습 방법
+
 Natural Language Processing:
   description: 자연어 처리 - 인간 언어를 컴퓨터가 이해하고 생성하도록 하는 기술
 Neural Information Processing Systems:
@@ -360,6 +373,7 @@ Neural Network:
   description: 신경망 - 뉴런을 모방한 노드들의 연결로 학습하는 계산 모델
 Neural Style Transfer:
   description: 신경망 스타일 전이 - 한 이미지의 스타일을 다른 이미지에 적용하는 딥러닝 기법
+
 Object Detection:
   description: 객체 검출 - 이미지나 영상에서 객체의 위치와 클래스를 식별하는 기술
 On-device Inference:
@@ -380,6 +394,7 @@ Outliers:
   description: 이상치 - 데이터의 일반적 패턴에서 현저히 벗어난 값들
 Oversampling:
   description: 오버샘플링 - 소수 클래스 샘플을 증가시켜 데이터 불균형을 해소하는 기법
+
 pDNA:
   description: 플라스미드 DNA - 유전자 치료와 백신 개발에 사용되는 원형 DNA 분자
 Performance:
@@ -420,6 +435,7 @@ Property Prediction:
   description: 물성 예측 - 재료의 물리적, 화학적 특성을 예측하는 기술
 Protein Structure Prediction:
   description: 단백질 구조 예측 - 아미노산 서열로부터 3차원 단백질 구조를 예측하는 기술
+
 Q-learning:
   description: Q-러닝 - 상태-행동 쌍의 가치를 학습하는 강화학습 알고리즘
 Q-Learning-Advanced:
@@ -430,6 +446,7 @@ Quality Control:
   description: 품질 관리 - 제품의 품질을 모니터링하고 유지하는 프로세스
 Query Processing:
   description: 쿼리 처리 - 데이터베이스 질의를 효율적으로 실행하는 과정
+
 Random Forest:
   description: 랜덤 포레스트 - 여러 결정 트리를 결합한 앙상블 학습 알고리즘
 Real-Time:
@@ -454,6 +471,7 @@ Robust Estimation:
   description: 강건 추정 - 이상치의 영향을 최소화하는 통계적 추정 방법
 Rock Mechanics:
   description: 암석역학 - 암석의 물리적 특성과 거동을 연구하는 공학 분야
+
 SBST:
   description: 탐색 기반 소프트웨어 테스팅 - 검색 알고리즘으로 테스트 케이스를 최적화하는 기법
 Scalability:
@@ -522,6 +540,7 @@ Synthetic Fiber Ropes:
   description: 합성섬유 로프 - 인조 고분자로 제작된 고강도 로프
 Systematic Literature Review:
   description: 체계적 문헌 고찰 - 연구 질문에 대한 문헌을 체계적으로 검색하고 분석하는 방법
+
 TabNet:
   description: TabNet - 정형 데이터 처리에 특화된 어텐션 기반 딥러닝 모델
 Teaching Practices:
@@ -548,10 +567,12 @@ Transformer:
   description: 트랜스포머 - 어텐션 메커니즘 기반의 시퀀스 처리 신경망 아키텍처
 Tree Boosting:
   description: 트리 부스팅 - 결정 트리를 순차적으로 결합하는 앙상블 학습 기법
+
 Unsupervised Learning:
   description: 비지도학습 - 레이블 없이 데이터의 패턴을 학습하는 머신러닝 방법
 User Experience:
   description: 사용자 경험 - 제품이나 서비스 사용 시 느끼는 전반적인 경험
+
 VGGNet:
   description: VGGNet - 작은 필터를 깊게 쌓은 CNN 아키텍처
 Viewing Experience:
@@ -562,13 +583,16 @@ Virtual Screening:
   description: 가상 스크리닝 - 계산 모델로 약물 후보 물질을 선별하는 기법
 Vision Transformer:
   description: 비전 트랜스포머 - 트랜스포머 아키텍처를 이미지 처리에 적용한 모델
+
 Waste Recycling:
   description: 폐기물 재활용 - 폐기물을 재사용 가능한 자원으로 전환하는 과정
 Web Testing:
   description: 웹 테스팅 - 웹 애플리케이션의 기능, 성능, 보안을 검증하는 테스팅
 Wireless Sensor Networks:
   description: 무선 센서 네트워크 - 센서 노드들이 무선으로 연결되어 데이터를 수집하는 네트워크
+
 XGBoost:
   description: XGBoost - 고성능 그래디언트 부스팅 라이브러리
+
 Yarn Strength:
   description: 실 강도 - 섬유 실의 인장 강도와 내구성
