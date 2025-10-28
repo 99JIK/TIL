@@ -570,3 +570,9 @@ Global Sensitivity Analysis:
   description: Global Sensitivity Analysis
 Elementary Effect:
   description: Elementary Effect
+Facial Behavior Analysis:
+  description: Facial Behavior Analysis
+Multitask Learning:
+  description: Multitask Learning
+Affective Computing:
+  description: Affective Computing

@@ -573,3 +573,11 @@ Mohammad Sharghi:
 정인범:
   name: 정인범
   title: 한양대학교 석사
+
+authors:
+  [
+    "Jiewen Hu (Carnegie Mellon University)",
+    "Leena Mathur (Carnegie Mellon University)",
+    "Paul Pu Liang (Massachusetts Institute of Technology)",
+    "Louis-Philippe Morency (Carnegie Mellon University)",
+  ]
