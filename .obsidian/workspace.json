@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/OpenFace-3.0-A-Lightweight-Multitask-System-for-Comprehensive-Facial-Behavior-Analysis.md",
+                "file": "docs/Project/DYETEC/img/Untitled.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "OpenFace-3.0-A-Lightweight-Multitask-System-for-Comprehensive-Facial-Behavior-Analysis"
+              "title": "Untitled"
             }
           }
         ]
@@ -182,11 +182,13 @@
   },
   "active": "8debd10dd07bc88a",
   "lastOpenFiles": [
+    "docs/Project/DYETEC/Meeting-250910.md",
+    "docs/Project/DYETEC/img/Untitled.md",
+    "papers/OpenFace-3.0-A-Lightweight-Multitask-System-for-Comprehensive-Facial-Behavior-Analysis.md",
     "papers/img/Pasted image 20251028133634.png",
     "papers/img/Pasted image 20251028133615.png",
     "papers/img/Pasted image 20251028133507.png",
     "docs/Project/KOJ/Guide.md",
-    "papers/OpenFace-3.0-A-Lightweight-Multitask-System-for-Comprehensive-Facial-Behavior-Analysis.md",
     "docs/Project/KOJ/img/Pasted image 20251024201658.png",
     "docs/Project/KOJ/img/Pasted image 20251024201632.png",
     "docs/Project/KOJ/img/Pasted image 20251024201612.png",
@@ -194,7 +196,6 @@
     "docs/Project/KOJ/img/Pasted image 20251024201542.png",
     "docs/Project/KOJ/img/Pasted image 20251024201513.png",
     "docs/Project/KOJ/img/Pasted image 20251024201456.png",
-    "docs/Project/KOJ/img/Pasted image 20251024201429.png",
     "docs/Project/KOJ/img",
     "docs/KNU-MS/2nd_semester/COMP0811.md",
     "docs/Project/KOJ",
@@ -229,7 +230,6 @@
     "docs/Project/DYETEC/Rejected-Proposal.md",
     "docs/Project/DYETEC/Project-2-Proposal.md",
     "docs/Project/DYETEC/New Idea.md",
-    "docs/Project/DYETEC/Meeting-250910.md",
     "papers/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain.md"
   ]
 }
