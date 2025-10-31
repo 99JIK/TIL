@@ -19,7 +19,8 @@ Sphere는 반구형 공연장으로, 외벽이 전부 미디어 파사드로 덮
 접근 방식은 개인이 디바이스를 착용하여 뇌파 탐지를 통한 상태 인지 및 개선 방향 제공으로 보인다.
 현재 프로젝트와 큰 방향성은 같으나 하드웨어적인 측면이 많이 다르나, 같은 디지털 웰니스 영역에 포함되어 기입했다.
 ### S/W
-####
+#### [Calm](https://www.calm.com/)
+세계 1위 수면, 명상, 휴식 부문 어플리케이션 Calm이 
 #### [Alchera](https://www.alchera.ai/)
 ![Alchera 주요 Vision AI 활용처](img/Pasted%20image%2020251031115328.png)
 ![Alchera 얼굴 인식의 핵심 기술](img/Pasted%20image%2020251031115801.png)
