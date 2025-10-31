@@ -63,3 +63,126 @@ Sphere는 반구형 공연장으로, 외벽이 전부 미디어 파사드로 덮
 ![Alchera 얼굴 인식의 핵심 기술](img/Pasted%20image%2020251031115801.png)
 아직 Device에 대한 확정은 없으나 과하게 정보를 많이 인식해 무거울 것으로 추측한다.
 현재 필요한 기능은 얼굴 랜드마크 인식과 감정 유추에 불과하기에 벤치마크 삼으나 경량화에 초점을 두기에 기입한다.
+## FACS
+### List of A.U.s and A.D.s (with underlying facial muscles)
+
+#### Main codes
+
+| A.U. number | F.A.C.S. name          | Muscular basis                                                                                                                                                                                                                                                                                                |
+| ----------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0           | Neutral face           |                                                                                                                                                                                                                                                                                                               |
+| 1           | Inner brow raiser      | _[frontalis](https://en.wikipedia.org/wiki/Frontalis_muscle "Frontalis muscle")_ (_[pars medialis](https://en.wikipedia.org/wiki/Pars_medialis "Pars medialis")_)                                                                                                                                             |
+| 2           | Outer brow raiser      | _frontalis_ (_[pars lateralis](https://en.wikipedia.org/wiki/Pars_lateralis "Pars lateralis")_)                                                                                                                                                                                                               |
+| 4           | Brow lowerer           | _[depressor glabellae](https://en.wikipedia.org/wiki/Depressor_glabellae "Depressor glabellae")_, _[depressor supercilii](https://en.wikipedia.org/wiki/Depressor_supercilii "Depressor supercilii")_, _[corrugator supercilii](https://en.wikipedia.org/wiki/Corrugator_supercilii "Corrugator supercilii")_ |
+| 5           | Upper lid raiser       | _[levator palpebrae superioris](https://en.wikipedia.org/wiki/Levator_palpebrae_superioris "Levator palpebrae superioris")_, [superior tarsal muscle](https://en.wikipedia.org/wiki/Superior_tarsal_muscle "Superior tarsal muscle")                                                                          |
+| 6           | Cheek raiser           | _[orbicularis oculi](https://en.wikipedia.org/wiki/Orbicularis_oculi "Orbicularis oculi")_ (_[pars orbitalis](https://en.wikipedia.org/wiki/Orbital_part_of_frontal_bone "Orbital part of frontal bone")_)                                                                                                    |
+| 7           | Lid tightener          | _orbicularis oculi_ (_[pars palpebralis](https://en.wikipedia.org/wiki/Pars_palpebralis "Pars palpebralis")_)                                                                                                                                                                                                 |
+| 8           | Lips toward each other | _[orbicularis oris](https://en.wikipedia.org/wiki/Orbicularis_oris "Orbicularis oris")_                                                                                                                                                                                                                       |
+| 9           | Nose wrinkler          | _[levator labii superioris alaeque nasi](https://en.wikipedia.org/wiki/Levator_labii_superioris_alaeque_nasi "Levator labii superioris alaeque nasi")_                                                                                                                                                        |
+| 10          | Upper lip raiser       | _levator labii superioris_, _[caput infraorbitalis](https://en.wikipedia.org/wiki/Levator_labii_superioris "Levator labii superioris")_                                                                                                                                                                       |
+| 11          | Nasolabial deepener    | _[zygomaticus minor](https://en.wikipedia.org/wiki/Zygomaticus_minor "Zygomaticus minor")_                                                                                                                                                                                                                    |
+| 12          | Lip corner puller      | _[zygomaticus major](https://en.wikipedia.org/wiki/Zygomaticus_major "Zygomaticus major")_                                                                                                                                                                                                                    |
+| 13          | Sharp lip puller       | _[levator anguli oris](https://en.wikipedia.org/wiki/Levator_anguli_oris "Levator anguli oris")_ (also known as _[caninus](https://en.wikipedia.org/wiki/Caninus "Caninus")_)                                                                                                                                 |
+| 14          | Dimpler                | _[buccinator](https://en.wikipedia.org/wiki/Buccinator "Buccinator")_                                                                                                                                                                                                                                         |
+| 15          | Lip corner depressor   | _depressor anguli oris_ (also known as _[triangularis](https://en.wikipedia.org/wiki/Triangularis "Triangularis")_)                                                                                                                                                                                           |
+| 16          | Lower lip depressor    | _[depressor labii inferioris](https://en.wikipedia.org/wiki/Depressor_labii_inferioris "Depressor labii inferioris")_                                                                                                                                                                                         |
+| 17          | Chin raiser            | _[mentalis](https://en.wikipedia.org/wiki/Mentalis "Mentalis")_                                                                                                                                                                                                                                               |
+| 18          | Lip pucker             | _[incisivii labii superioris](https://en.wikipedia.org/wiki/Incisivii_labii_superioris "Incisivii labii superioris")_ and _[incisivii labii inferioris](https://en.wikipedia.org/wiki/Incisivii_labii_inferioris "Incisivii labii inferioris")_                                                               |
+| 19          | Tongue show            |                                                                                                                                                                                                                                                                                                               |
+| 20          | Lip stretcher          | _[risorius](https://en.wikipedia.org/wiki/Risorius "Risorius")_ with _[platysma](https://en.wikipedia.org/wiki/Platysma "Platysma")_                                                                                                                                                                          |
+| 21          | Neck tightener         | _platysma]_                                                                                                                                                                                                                                                                                                   |
+| 22          | Lip funneler           | _[orbicularis oris](https://en.wikipedia.org/wiki/Orbicularis_oris "Orbicularis oris")_                                                                                                                                                                                                                       |
+| 23          | Lip tightener          | _orbicularis oris_                                                                                                                                                                                                                                                                                            |
+| 24          | Lip pressor            | _orbicularis oris_                                                                                                                                                                                                                                                                                            |
+| 25          | Lips part              | _[depressor labii inferioris](https://en.wikipedia.org/wiki/Depressor_labii_inferioris "Depressor labii inferioris")_, or relaxation of _mentalis_ or _orbicularis oris_                                                                                                                                      |
+| 26          | Jaw drop               | _[masseter](https://en.wikipedia.org/wiki/Masseter "Masseter")_; relaxed _[temporalis](https://en.wikipedia.org/wiki/Temporalis "Temporalis")_ and [internal _pterygoid_](https://en.wikipedia.org/wiki/Medial_pterygoid_muscle "Medial pterygoid muscle")                                                    |
+| 27          | Mouth stretch          | _[pterygoids](https://en.wikipedia.org/wiki/Pterygoid_bone "Pterygoid bone")_, _[digastric](https://en.wikipedia.org/wiki/Digastric "Digastric")_                                                                                                                                                             |
+| 28          | Lip suck               | _orbicularis oris_                                                                                                                                                                                                                                                                                            |
+
+#### Head movement codes
+
+|A.U. number|F.A.C.S. name|Action|
+|---|---|---|
+|51|Head turn left||
+|52|Head turn right||
+|53|Head up||
+|54|Head down||
+|55|Head tilt left||
+|M55|Head tilt left|The onset of the symmetrical 14 is immediately preceded or accompanied by a head tilt to the left.|
+|56|Head tilt right||
+|M56|Head tilt right|The onset of the symmetrical 14 is immediately preceded or accompanied by a head tilt to the right.|
+|57|Head forward||
+|M57|Head thrust forward|The onset of 17+24 is immediately preceded, accompanied, or followed by a head thrust forward.|
+|58|Head back||
+|M59|Head shake up and down|The onset of 17+24 is immediately preceded, accompanied, or followed by an up-down head shake (nod).|
+|M60|Head shake side to side|The onset of 17+24 is immediately preceded, accompanied, or followed by a side to side head shake.|
+|M83|Head upward and to the side|The onset of the symmetrical 14 is immediately preceded or accompanied by a movement of the head, upward and turned or tilted to either the left or right.|
+
+#### Eye movement codes
+
+|A.U. number|F.A.C.S. name|Action|
+|---|---|---|
+|61|Eyes turn left||
+|M61|Eyes left|The onset of the symmetrical 14 is immediately preceded or accompanied by eye movement to the left.|
+|62|Eyes turn right||
+|M62|Eyes right|The onset of the symmetrical 14 is immediately preceded or accompanied by eye movement to the right.|
+|63|Eyes up||
+|64|Eyes down||
+|65|[Walleye](https://en.wikipedia.org/wiki/Strabismus "Strabismus")||
+|66|Cross-eye||
+|M68|Upward rolling of eyes|The onset of the symmetrical 14 is immediately preceded or accompanied by an upward rolling of the eyes.|
+|69|Eyes positioned to look at other person|The 4, 5, or 7, alone or in combination, occurs while the eye position is fixed on the other person in the conversation.|
+|M69|Head or eyes look at other person|The onset of the symmetrical 14 or A.U.s 4, 5, and 7, alone or in combination, is immediately preceded or accompanied by a movement of the eyes or of the head and eyes to look at the other person in the conversation.|
+
+#### Visibility codes
+
+|A.U. number|F.A.C.S. name|
+|---|---|
+|70|Brows and forehead not visible|
+|71|Eyes not visible|
+|72|Lower face not visible|
+|73|Entire face not visible|
+|74|Unscorable|
+
+#### Gross behavior codes
+
+These codes are reserved for recording information about gross behaviors that may be relevant to the facial actions that are scored.
+
+|A.U. number|F.A.C.S. name|Muscular basis|
+|---|---|---|
+|29|Jaw thrust||
+|30|Jaw sideways||
+|31|Jaw clencher|_[masseter](https://en.wikipedia.org/wiki/Masseter "Masseter")_|
+|32|[Lip] bite||
+|33|[Cheek] blow||
+|34|[Cheek] puff||
+|35|[Cheek] suck||
+|36|[Tongue] bulge||
+|37|Lip wipe||
+|38|Nostril dilator|_[nasalis (pars alaris)](https://en.wikipedia.org/wiki/Nasalis_muscle "Nasalis muscle")_|
+|39|Nostril compressor|_nasalis_ (_pars transversa_) and _[depressor septi nasi](https://en.wikipedia.org/wiki/Depressor_septi_nasi_muscle "Depressor septi nasi muscle")_|
+|40|Sniff|
+|41|Lid droop|_[levator palpebrae superioris](https://en.wikipedia.org/wiki/Levator_palpebrae_superioris "Levator palpebrae superioris")_ (relaxation)|
+|42|Slit|_[orbicularis oculi muscle](https://en.wikipedia.org/wiki/Orbicularis_oculi_muscle "Orbicularis oculi muscle")_|
+|43|Eyes closed|relaxation of _levator palpebrae superioris_|
+|44|Squint|_[corrugator supercilii](https://en.wikipedia.org/wiki/Corrugator_supercilii "Corrugator supercilii")_ and _orbicularis oculi_ muscle|
+|45|Blink|relaxation of _levator palpebrae superioris_; contraction of _orbicularis oculi_ (_pars palpebralis_)|
+|46|Wink|_orbicularis oculi_|
+|50|Speech|
+|80|Swallow|
+|81|Chewing|
+|82|Shoulder shrug|
+|84|Head shake back and forth|
+|85|Head nod up and down|
+|91|Flash|
+|92|Partial flash|
+|97*|Shiver/tremble|
+|98*|Fast up-down look|
+
+|Emotion|Action units|
+|---|---|
+|Happiness|6+12|
+|Sadness|1+4+15|
+
+| 6           | Cheek raiser           | _[orbicularis oculi](https://en.wikipedia.org/wiki/Orbicularis_oculi "Orbicularis oculi")_ (_[pars orbitalis](https://en.wikipedia.org/wiki/Orbital_part_of_frontal_bone "Orbital part of frontal bone")_)                                                                                                    |
+| ----------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
