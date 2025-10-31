@@ -73,7 +73,6 @@ Sphere는 반구형 공연장으로, 외벽이 전부 미디어 파사드로 덮
 | Happiness | 6+12         |
 | Sadness   | 1+4+15       |
 
-
 | AU  | Description       | About Happiness                                                                                                                                                                                            |
 | --- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 6   | Cheek raiser      | _[orbicularis oculi](https://en.wikipedia.org/wiki/Orbicularis_oculi "Orbicularis oculi")_ (_[pars orbitalis](https://en.wikipedia.org/wiki/Orbital_part_of_frontal_bone "Orbital part of frontal bone")_) |
@@ -84,7 +83,10 @@ Sphere는 반구형 공연장으로, 외벽이 전부 미디어 파사드로 덮
 | 1   | Inner brow raiser    | _[frontalis](https://en.wikipedia.org/wiki/Frontalis_muscle "Frontalis muscle")_ (_[pars medialis](https://en.wikipedia.org/wiki/Pars_medialis "Pars medialis")_)                                                                                                                                             |
 | 4   | Brow lowerer         | _[depressor glabellae](https://en.wikipedia.org/wiki/Depressor_glabellae "Depressor glabellae")_, _[depressor supercilii](https://en.wikipedia.org/wiki/Depressor_supercilii "Depressor supercilii")_, _[corrugator supercilii](https://en.wikipedia.org/wiki/Corrugator_supercilii "Corrugator supercilii")_ |
 | 15  | Lip corner depressor | _depressor anguli oris_ (also known as _[triangularis](https://en.wikipedia.org/wiki/Triangularis "Triangularis")_)                                                                                                                                                                                           |
-<
+
+<details>
+<summary>세부내용</summary>
+<div markdown="1">
 
 | A.U. number | F.A.C.S. name          | Muscular basis                                                                                                                                                                                                                                                                                                |
 | ----------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -196,3 +198,5 @@ These codes are reserved for recording information about gross behaviors that ma
 |92|Partial flash|
 |97*|Shiver/tremble|
 |98*|Fast up-down look|
+</div>
+</details>
