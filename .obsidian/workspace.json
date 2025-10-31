@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Project/DYETEC/Meeting-250910.md",
+                "file": "docs/Project/Y-DESIGN-LAB/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Meeting-250910"
+              "title": "Untitled"
             }
           }
         ]
@@ -180,11 +180,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "dc3d6a177a23f24c",
+  "active": "8debd10dd07bc88a",
   "lastOpenFiles": [
+    "docs/Project/DYETEC/Meeting-250910.md",
+    "docs/Project/Y-DESIGN-LAB/Untitled.md",
     "docs/Project/Y-DESIGN-LAB",
     "docs/Project/DYETEC/img/Untitled.md",
-    "docs/Project/DYETEC/Meeting-250910.md",
     "papers/OpenFace-3.0-A-Lightweight-Multitask-System-for-Comprehensive-Facial-Behavior-Analysis.md",
     "papers/img/Pasted image 20251028133634.png",
     "papers/img/Pasted image 20251028133615.png",
@@ -224,7 +225,6 @@
     "docs/KNU-MS/TA/2025-ITEC0401-002/250114",
     "docs/Paper/KSC/스태킹 앙상블을 활용한 생분해성 섬유 원사 물성 예측 모델의 확장.md",
     "스태킹 앙상블을 활용한 생분해성 섬유 원사 물성 예측 모델의 확장.pdf",
-    "Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.pdf",
     "docs/Project/DYETEC/Project-2-Log.md",
     "docs/Paper/My P.md",
     "docs/Project/DYETEC/Study.md",
