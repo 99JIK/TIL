@@ -13,3 +13,4 @@ Sphere는 반구형 공연장으로, 외벽이 전부 미디어 파사드로 덮
 뇌파 기반 명상 클래스 서비스인 Mind Breeze, B2C/B2B 집중 습관 형성 솔루션 Focus Mate 등을 운영 중이다.
 ![Link Band 2.0](img/Pasted%20image%2020251031112850.png)
 ![Mind Breeze](img/Pasted%20image%2020251031112926.png)
+![Focus Mate](img/Pasted%20image%2020251031113053.png)
