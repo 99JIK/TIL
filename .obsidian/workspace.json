@@ -180,8 +180,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "8debd10dd07bc88a",
+  "active": "dc3d6a177a23f24c",
   "lastOpenFiles": [
+    "docs/Project/Y-DESIGN-LAB",
     "docs/Project/DYETEC/img/Untitled.md",
     "docs/Project/DYETEC/Meeting-250910.md",
     "papers/OpenFace-3.0-A-Lightweight-Multitask-System-for-Comprehensive-Facial-Behavior-Analysis.md",
@@ -229,7 +230,6 @@
     "docs/Project/DYETEC/Study.md",
     "docs/Project/DYETEC/Rejected-Proposal.md",
     "docs/Project/DYETEC/Project-2-Proposal.md",
-    "docs/Project/DYETEC/New Idea.md",
-    "papers/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain.md"
+    "docs/Project/DYETEC/New Idea.md"
   ]
 }
