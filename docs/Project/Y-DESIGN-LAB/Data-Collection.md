@@ -20,3 +20,4 @@ Sphere는 반구형 공연장으로, 외벽이 전부 미디어 파사드로 덮
 현재 프로젝트와 큰 방향성은 같으나 하드웨어적인 측면이 많이 다르나, 같은 디지털 웰니스 영역에 포함되어 기입했다.
 ### [Alchera](https://www.alchera.ai/)
 ![Alchera 주요 Vision AI 활용처](img/Pasted%20image%2020251031115328.png)
+![Alchera 얼굴 인식의 핵심 기술](img/Pasted%20image%2020251031115801.png)
