@@ -1,6 +1,6 @@
 # 자료 수집
 ## Wellness
-### Global Wellness Insitute
+### Global Wellness Insitute![](img/WellnessEconMonitor2024PDF.pdf)
 ![](img/Pasted%20image%2020251031123041.png)
 ![](img/Pasted%20image%2020251031123133.png)
 ![](img/Pasted%20image%2020251031124035.png)
