@@ -4,7 +4,9 @@
 
 
 ## Benchmarking
-###
+### Related Article
+- ["심리상담 30분에 5만원" 앱켜고 속풀이...입소문 난 '멘탈테크'](https://www.mt.co.kr/future/2025/06/27/2025062616543636338)
+- 
 ### H/W
 #### [Sphere](https://www.thesphere.com/)
 이 프로젝트를 보자마자 생각났던 건 미국 라스베이거스의 Sphere였다.
