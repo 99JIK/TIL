@@ -4,6 +4,7 @@
 
 
 ## Benchmarking
+### Related Rea
 ### Related Article
 - ["심리상담 30분에 5만원" 앱켜고 속풀이...입소문 난 '멘탈테크'](https://www.mt.co.kr/future/2025/06/27/2025062616543636338)
 - ["우울해" 그래도 병원 안찾는 사람들...낙인 걱정 없는 '앱' 찾았다](https://www.unicornfactory.co.kr/article/2025062517403583270)
