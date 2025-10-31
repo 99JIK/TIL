@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Project/Y-DESIGN-LAB/Development of a Spherical LED Media Therapy Device for Mental Wellness.md",
+                "file": "docs/Project/Y-DESIGN-LAB/Data-Collection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Development of a Spherical LED Media Therapy Device for Mental Wellness"
+              "title": "Data-Collection"
             }
           }
         ]
@@ -182,8 +182,10 @@
   },
   "active": "8debd10dd07bc88a",
   "lastOpenFiles": [
+    "docs/Project/Y-DESIGN-LAB/img/R47nCaSSkIrtK4dw010eN9IdzvcbvXya3ZpIAy6Qdiul26LZldhTKBmwLFLhTOtZFcyGQKBoho10UEnWAvm_UyIQxCsSEKLaNGOWAp-3aoZLEPFrph6xW0sj4v3HI3bL9j1Shk462vp538SUZIsmyQ.webp",
+    "docs/Project/Y-DESIGN-LAB/img",
+    "docs/Project/Y-DESIGN-LAB/Development-of-a-Spherical-LED-Media-Therapy-Device-for-Mental-Wellness.md",
     "docs/Project/Y-DESIGN-LAB/Data-Collection.md",
-    "docs/Project/Y-DESIGN-LAB/Development of a Spherical LED Media Therapy Device for Mental Wellness.md",
     "docs/Project/DYETEC/Meeting-250910.md",
     "docs/Project/Y-DESIGN-LAB",
     "docs/Project/DYETEC/img/Untitled.md",
@@ -225,11 +227,9 @@
     "정리한 회의록.pdf",
     "docs/KNU-MS/TA/2025-ITEC0401-002/250114",
     "docs/Paper/KSC/스태킹 앙상블을 활용한 생분해성 섬유 원사 물성 예측 모델의 확장.md",
-    "스태킹 앙상블을 활용한 생분해성 섬유 원사 물성 예측 모델의 확장.pdf",
     "docs/Project/DYETEC/Project-2-Log.md",
     "docs/Paper/My P.md",
     "docs/Project/DYETEC/Study.md",
-    "docs/Project/DYETEC/Rejected-Proposal.md",
-    "docs/Project/DYETEC/Project-2-Proposal.md"
+    "docs/Project/DYETEC/Rejected-Proposal.md"
   ]
 }
