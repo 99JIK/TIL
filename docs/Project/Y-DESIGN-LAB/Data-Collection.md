@@ -184,5 +184,11 @@ These codes are reserved for recording information about gross behaviors that ma
 |Happiness|6+12|
 |Sadness|1+4+15|
 
-| 6           | Cheek raiser           | _[orbicularis oculi](https://en.wikipedia.org/wiki/Orbicularis_oculi "Orbicularis oculi")_ (_[pars orbitalis](https://en.wikipedia.org/wiki/Orbital_part_of_frontal_bone "Orbital part of frontal bone")_)                                                                                                    |
-| ----------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+| AU  | Description       | About Happiness                                                                                                                                                                                            |
+| --- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 6   | Cheek raiser      | _[orbicularis oculi](https://en.wikipedia.org/wiki/Orbicularis_oculi "Orbicularis oculi")_ (_[pars orbitalis](https://en.wikipedia.org/wiki/Orbital_part_of_frontal_bone "Orbital part of frontal bone")_) |
+| 12  | Lip corner puller | _[zygomaticus major](https://en.wikipedia.org/wiki/Zygomaticus_major "Zygomaticus major")_                                                                                                                 |
+
+| AU  | Description | About Sadness |
+| --- | ----------- | ------------- |
