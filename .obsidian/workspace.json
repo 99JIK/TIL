@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Project/DYETEC/img/Untitled.md",
+                "file": "docs/Project/DYETEC/Meeting-250910.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Meeting-250910"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "8debd10dd07bc88a",
   "lastOpenFiles": [
-    "docs/Project/DYETEC/Meeting-250910.md",
     "docs/Project/DYETEC/img/Untitled.md",
+    "docs/Project/DYETEC/Meeting-250910.md",
     "papers/OpenFace-3.0-A-Lightweight-Multitask-System-for-Comprehensive-Facial-Behavior-Analysis.md",
     "papers/img/Pasted image 20251028133634.png",
     "papers/img/Pasted image 20251028133615.png",
