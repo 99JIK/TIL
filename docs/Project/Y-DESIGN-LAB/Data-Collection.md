@@ -1,7 +1,7 @@
 # 자료 수집
 ## Wellness
 ### Global Wellness Insitute
-
+![](img/Pasted%20image%2020251031123041.png)
 
 ## Benchmarking
 ### Related Research
