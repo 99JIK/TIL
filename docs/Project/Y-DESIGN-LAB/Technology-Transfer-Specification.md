@@ -222,9 +222,9 @@ python view_landmarks.py
 #### (1) 시스템 아키텍처
 
 ```
-[입력 단계]          [처리 단계]           [분석 단계]         [출력 단계]
-웹캠/영상            얼굴 검출             AU 추출             감정 분류
-    ↓                  ↓                     ↓                   ↓
+[입력 단계]        [처리 단계]           [분석 단계]         [출력 단계]
+웹캠/영상          얼굴 검출             AU 추출             감정 분류
+    ↓                 ↓                    ↓                  ↓
 프레임 입력    →   BlazeFace      →    Face Mesh      →   Classifier    →   결과 저장
 (30 FPS)          (다중 얼굴)         (478 landmarks)     (AU → Emotion)    (JSON/CSV)
                       ↓
