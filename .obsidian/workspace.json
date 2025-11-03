@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Project/Y-DESIGN-LAB/Technology-Transfer-Specification.md",
+                "file": "docs/KNU-MS/TA/2025-ITEC0401-002/250114/Report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Technology-Transfer-Specification"
+              "title": "Report"
+            }
+          },
+          {
+            "id": "56d9c4a58c3f166f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,7 +76,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "검색"
             }
           },
           {
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/Prediction-of-Pick-Acting-Forces-Using-an-Random-Forest-Model-based-on-Mechanical-Properties-of-Rocks-and-Cutting-Parameters.md",
+                "file": "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Prediction-of-Pick-Acting-Forces-Using-an-Random-Forest-Model-based-on-Mechanical-Properties-of-Rocks-and-Cutting-Parameters"
+              "title": "Backlinks for Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble"
             }
           },
           {
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/KNU-MS/2nd_semester/COMP0811.md",
+                "file": "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "COMP0811 의 나가는 링크"
+              "title": "Outgoing links from Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble"
             }
           },
           {
@@ -142,27 +157,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/KNU-MS/2nd_semester/COMP0811.md",
+                "file": "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "COMP0811 의 개요"
-            }
-          },
-          {
-            "id": "a949b4f1da12db0c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,66 +175,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8debd10dd07bc88a",
+  "active": "e88a4476f520f719",
   "lastOpenFiles": [
-    "docs/Project/Y-DESIGN-LAB/Data-Collection.md",
-    "docs/Project/Y-DESIGN-LAB/Technology-Transfer-Specification.md",
-    "docs/Project/Y-DESIGN-LAB/img/WellnessEconMonitor2024PDF.pdf",
-    "docs/Project/Y-DESIGN-LAB/img/Pasted image 20251031124035.png",
-    "docs/Project/Y-DESIGN-LAB/img/Pasted image 20251031124029.png",
-    "docs/Project/Y-DESIGN-LAB/img/Pasted image 20251031123638.png",
-    "docs/Project/Y-DESIGN-LAB/img/Pasted image 20251031123356.png",
-    "docs/Project/Y-DESIGN-LAB/img/Pasted image 20251031123336.png",
-    "docs/Project/Y-DESIGN-LAB/img/Pasted image 20251031123240.png",
-    "docs/Project/Y-DESIGN-LAB/img/Pasted image 20251031123159.png",
-    "docs/Project/Y-DESIGN-LAB/img/Pasted image 20251031123146.png",
-    "docs/Project/Y-DESIGN-LAB/img/Pasted image 20251031123133.png",
-    "docs/Project/Y-DESIGN-LAB/img/Pasted image 20251031123041.png",
-    "docs/Project/Y-DESIGN-LAB/Development-of-a-Spherical-LED-Media-Therapy-Device-for-Mental-Wellness.md",
-    "docs/Project/Y-DESIGN-LAB/img",
-    "docs/Project/DYETEC/Meeting-250910.md",
-    "docs/Project/Y-DESIGN-LAB",
-    "docs/Project/DYETEC/img/Untitled.md",
+    "papers/img/Pasted image 20251028133634.png",
+    "papers/img/Pasted image 20251028133615.png",
+    "papers/img/Pasted image 20251028133507.png",
+    "papers/img/Pasted image 20251022162213.png",
+    "papers/img/Pasted image 20251022162124.png",
+    "papers/img/Pasted image 20251022162026.png",
+    "papers/img/Pasted image 20251022162006.png",
+    "papers/img/Pasted image 20251022161748.png",
+    "papers/img/Pasted image 20251021200612.png",
+    "papers/img/Pasted image 20251021200544.png",
+    "papers/img/Pasted image 20251021200525.png",
+    "papers/Prediction-of-Pick-Acting-Forces-Using-an-Random-Forest-Model-based-on-Mechanical-Properties-of-Rocks-and-Cutting-Parameters.md",
     "papers/OpenFace-3.0-A-Lightweight-Multitask-System-for-Comprehensive-Facial-Behavior-Analysis.md",
-    "docs/Project/KOJ/Guide.md",
-    "docs/Project/KOJ/img",
-    "docs/KNU-MS/2nd_semester/COMP0811.md",
-    "docs/Project/KOJ",
-    "docs/KNU-MS/2nd_semester/COMP0738.md",
-    "docs/KNU-MS/2nd_semester/COMP0730.md",
+    "papers/Dimensionality-reduction-using-statistical-analysis-and-model-based-method-and-random-forest-regressor.md",
     "img/Pasted.md",
     "img",
-    "papers/Dimensionality-reduction-using-statistical-analysis-and-model-based-method-and-random-forest-regressor.md",
-    "papers/Prediction-of-Pick-Acting-Forces-Using-an-Random-Forest-Model-based-on-Mechanical-Properties-of-Rocks-and-Cutting-Parameters.md",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/250114/Report.md",
-    "Untitled 2.canvas",
-    "papers/Deep-learning-driven-IoT-solution-for-smart-tomato-farming.md",
-    "papers/Deep-Learning-Based-Fabric-Defect-Detection.md",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/250114/img/보고서.md",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/진행 상황 로그.md",
-    "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/250114/a.md",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/250114/b.md",
+    "docs/Project/Y-DESIGN-LAB/img/WellnessEconMonitor2024PDF.pdf",
+    "docs/Project/Y-DESIGN-LAB/Technology-Transfer-Specification.md",
+    "docs/Project/Y-DESIGN-LAB/img",
+    "docs/Project/Y-DESIGN-LAB/Development-of-a-Spherical-LED-Media-Therapy-Device-for-Mental-Wellness.md",
+    "docs/Project/Y-DESIGN-LAB/Data-Collection.md",
+    "docs/Project/Y-DESIGN-LAB",
+    "docs/Project/KOJ/img",
+    "docs/Project/KOJ/Guide.md",
+    "docs/Project/KOJ",
+    "docs/KNU-MS/2nd_semester/COMP0811.md",
+    "docs/KNU-MS/2nd_semester/COMP0738.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
+    "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
+    "docs/KNU-MS/TA/2025-ITEC0401-002/250114/img/보고서.md",
     "보고서.pdf",
+    "docs/KNU-MS/TA/2025-ITEC0401-002/250114/Report.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/250114/img",
     "Report.pdf",
+    "docs/KNU-MS/TA/2025-ITEC0401-002/250114/b.md",
+    "docs/KNU-MS/TA/2025-ITEC0401-002/250114/a.md",
     "정리한 회의록.pdf",
     "docs/Paper/KSC/스태킹 앙상블을 활용한 생분해성 섬유 원사 물성 예측 모델의 확장.md",
     "docs/Project/DYETEC/Project-2-Log.md",
     "docs/Paper/My P.md",
     "docs/Project/DYETEC/Study.md",
-    "docs/Project/DYETEC/Rejected-Proposal.md"
+    "docs/Project/DYETEC/Rejected-Proposal.md",
+    "docs/Project/DYETEC/Project-2-Proposal.md",
+    "docs/Project/DYETEC/New Idea.md",
+    "docs/Project/DYETEC/Meeting-250910.md",
+    "papers/Improving-biodegradable-fiber-yarn-property-prediction-model-using-data-change-rate-based-regression-chain.md",
+    "papers/Generative-Adversarial-Networks.md"
   ]
 }
