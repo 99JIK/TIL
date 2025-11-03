@@ -226,8 +226,7 @@ python view_landmarks.py
 웹캠/영상          얼굴 검출             AU 추출             감정 분류
     ↓                 ↓                    ↓                  ↓
 프레임 입력    →   BlazeFace      →    Face Mesh      →   Classifier    →   결과 저장
-(30 FPS)          (다중 얼굴)         (478 landmarks)     (AU → Emotion)    (JSON/CSV)
-                      ↓
+(30 FPS)          (다중 얼굴)         (478 landmarks)     (AU → Emotion)    (JSON/CSV)            ↓
                   얼굴 추적
                   (Centroid + IoU)
 ```
