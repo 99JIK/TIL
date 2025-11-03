@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
+                "file": "docs/Project/Y-DESIGN-LAB/Technology-Transfer-Specification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble"
+              "title": "Technology-Transfer-Specification"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
+                "file": "docs/Project/Y-DESIGN-LAB/Technology-Transfer-Specification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble"
+              "title": "Backlinks for Technology-Transfer-Specification"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
+                "file": "docs/Project/Y-DESIGN-LAB/Technology-Transfer-Specification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble"
+              "title": "Outgoing links from Technology-Transfer-Specification"
             }
           },
           {
@@ -148,7 +148,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "태그"
+              "title": "Tags"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
+                "file": "docs/Project/Y-DESIGN-LAB/Technology-Transfer-Specification.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble"
+              "title": "Outline of Technology-Transfer-Specification"
             }
           }
         ],
@@ -185,8 +185,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e88a4476f520f719",
+  "active": "56d9c4a58c3f166f",
   "lastOpenFiles": [
+    "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
     "papers/img/Pasted image 20251028133634.png",
     "papers/img/Pasted image 20251028133615.png",
     "papers/img/Pasted image 20251028133507.png",
@@ -197,7 +198,6 @@
     "papers/img/Pasted image 20251022161748.png",
     "papers/img/Pasted image 20251021200612.png",
     "papers/img/Pasted image 20251021200544.png",
-    "papers/img/Pasted image 20251021200525.png",
     "papers/Prediction-of-Pick-Acting-Forces-Using-an-Random-Forest-Model-based-on-Mechanical-Properties-of-Rocks-and-Cutting-Parameters.md",
     "papers/OpenFace-3.0-A-Lightweight-Multitask-System-for-Comprehensive-Facial-Behavior-Analysis.md",
     "papers/Dimensionality-reduction-using-statistical-analysis-and-model-based-method-and-random-forest-regressor.md",
@@ -216,7 +216,6 @@
     "docs/KNU-MS/2nd_semester/COMP0738.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/250114/img/보고서.md",
     "보고서.pdf",
     "docs/KNU-MS/TA/2025-ITEC0401-002/250114/Report.md",

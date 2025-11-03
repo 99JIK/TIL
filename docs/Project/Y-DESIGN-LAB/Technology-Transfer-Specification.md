@@ -21,7 +21,7 @@
 
 ### 2.1 이론적 기반
 
-본 기술은 **폴 에크만(Paul Ekman)의 얼굴 움직임 부호화 시스템(Facial Action Coding System, FACS)**을 기반으로 합니다.
+본 기술은 폴 에크만(Paul Ekman)의 얼굴 움직임 부호화 시스템(Facial Action Coding System, FACS)을 기반으로 합니다.
 
 FACS는 얼굴 근육의 움직임을 **Action Unit(AU)**이라는 단위로 체계화한 해부학적으로 검증된 시스템으로, 감정 연구의 국제 표준입니다.
 
