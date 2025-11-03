@@ -6,7 +6,7 @@
 
 ## 1. 기술의 개요
 
-본 기술은 영상 데이터에서 획득한 사용자의 얼굴 이미지를 실시간으로 분석하여, **행복(Happy)·보통(Neutral)·우울(Sad)** 3가지 감정 상태를 인식 및 분류하는 인공지능 기반 노하우입니다.
+본 기술은 영상 데이터에서 획득한 사용자의 얼굴 이미지를 실시간으로 분석하여, 행복(Happy)·보통(Neutral)·우울(Sad) 3가지 감정 상태를 인식 및 분류하는 인공지능 기반 노하우입니다.
 
 **핵심 특징:**
 - FACS(Facial Action Coding System) 기반 비침습적 감정 인식
@@ -252,12 +252,12 @@ python view_landmarks.py
    - 얼굴 크기 정규화 (눈 간격 기준)
    - AU 강도 0.0~1.0 범위로 정량화
 
-1. *감정 분류 (Emotion Classification)
+4. 감정 분류 (Emotion Classification)
    - 규칙 기반 / ML / CNN / 앙상블 중 선택
    - 시간적 평활화 (5프레임 이동평균)
    - 감정 강도 0-100% 출력
 
-5. **데이터 저장 (Data Recording)**
+5. 데이터 저장 (Data Recording)
    - JSON: 478개 랜드마크 좌표 + 메타데이터
    - CSV: AU 시계열 데이터 + 감정 결과
    - InfluxDB 라인 프로토콜 지원
@@ -345,7 +345,7 @@ recording:
 | CNN 추론 (MobileNetV2) | 10-15 FPS | CPU (Intel i7) |
 | 전체 파이프라인 | 15-25 FPS | CPU + GPU |
 
-**실시간 분석 시 초당 처리 프레임(FPS)**: 15-25 FPS 이상
+실시간 분석 시 초당 처리 프레임(FPS): 15-25 FPS 이상
 **권장 하드웨어**: Intel i7 이상 CPU, NVIDIA RTX 20/30/40 시리즈 GPU (선택)
 
 ### 4.2 감정 분류 정확도
