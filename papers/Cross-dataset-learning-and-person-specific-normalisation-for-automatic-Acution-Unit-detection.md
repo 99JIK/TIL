@@ -68,6 +68,9 @@ AU 인식은 많은 주목을 받아왔음. 이전 연구들에서 데이터셋 
   - **분류/회귀**: AU 발생 감지에는 선형 SVM(Support Vector Machines), 강도 추정에는 선형 SVR(Support Vector Regression) 사용. 실시간 성능을 위해 선형 커널을 사용.
   - **데이터 불균형 처리**: 훈련 데이터에서 음성(negative) AU 샘플을 언더샘플링하여 긍정/음성 샘플 수를 동일하게 맞춤.
 ![Figure 2](img/Pasted%20image%2020251104205351.png)
+![Table 1](img/Pasted%20image%2020251104205423.png)
+![Table 2](img/Pasted%20image%2020251104205456.png)
+
 ### 실험 결과
 
 - **주요 데이터셋**: DISFA, BP4D-Spontaneous, SEMAINE 세 가지 데이터셋을 주로 사용함.
