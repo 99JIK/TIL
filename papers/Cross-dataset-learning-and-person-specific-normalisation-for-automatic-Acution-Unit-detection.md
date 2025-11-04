@@ -72,7 +72,7 @@ AU 인식은 많은 주목을 받아왔음. 이전 연구들에서 데이터셋 
 ![Table 2](img/Pasted%20image%2020251104205456.png)
 ![Table 3](img/Pasted%20image%2020251104205515.png)
 ![Table 4](img/Pasted%20image%2020251104205532.png)
-
+![Table 5](img/Pasted%20image%2020251104205609.png)
 ![Table 6](img/Pasted%20image%2020251104205548.png)
 ### 실험 결과
 
