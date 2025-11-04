@@ -6,7 +6,7 @@
 
 ## 1. 기술의 개요
 
-본 기술은 영상 데이터에서 획득한 사용자의 얼굴 이미지를 실시간으로 분석하여, **행복(Happy)·보통(Neutral)·우울(Sad)** 3가지 감정 상태를 인식 및 분류하는 인공지능 기반 노하우입니다.
+본 기술은 영상 데이터에서 획득한 사용자의 얼굴 이미지를 실시간으로 분석하여, 행복(Happy)·보통(Neutral)·우울(Sad) 3가지 감정 상태를 인식 및 분류하는 인공지능 기반 노하우입니다.
 
 **핵심 특징:**
 - FACS(Facial Action Coding System) 기반 비침습적 감정 인식
@@ -21,39 +21,39 @@
 
 ### 2.1 이론적 기반
 
-본 기술은 **폴 에크만(Paul Ekman)의 얼굴 움직임 부호화 시스템(Facial Action Coding System, FACS)**을 기반으로 합니다.
+본 기술은 폴 에크만(Paul Ekman)의 얼굴 움직임 부호화 시스템(Facial Action Coding System, FACS)을 기반으로 합니다.
 
-FACS는 얼굴 근육의 움직임을 **Action Unit(AU)**이라는 단위로 체계화한 해부학적으로 검증된 시스템으로, 감정 연구의 국제 표준입니다.
+FACS는 얼굴 근육의 움직임을 Action Unit(AU)이라는 단위로 체계화한 해부학적으로 검증된 시스템으로, 감정 연구의 국제 표준입니다.
 
 ### 2.2 사용되는 Action Units
 
 본 기술에서 행복 및 우울 감정 인식을 위해 탐지하는 AU는 다음과 같습니다:
 
-| Action Unit | 영문명 | 설명 | 감정 연관성 |
-|------------|--------|------|------------|
-| **AU1** | Inner Brow Raiser | 내측 눈썹 올림 | 슬픔, 두려움 |
-| **AU4** | Brow Lowerer | 눈썹 찌푸리기 | 슬픔, 분노 |
-| **AU6** | Cheek Raiser | 뺨 올리기 | 행복 (진정한 미소) |
-| **AU12** | Lip Corner Puller | 입꼬리 올리기 | 행복 (미소) |
-| **AU15** | Lip Corner Depressor | 입꼬리 내리기 | 슬픔, 우울 |
+| Action Unit | 영문명                  | 설명       | 감정 연관성      |
+| ----------- | -------------------- | -------- | ----------- |
+| **AU1**     | Inner Brow Raiser    | 내측 눈썹 올림 | 슬픔, 두려움     |
+| **AU4**     | Brow Lowerer         | 눈썹 찌푸리기  | 슬픔, 분노      |
+| **AU6**     | Cheek Raiser         | 뺨 올리기    | 행복 (진정한 미소) |
+| **AU12**    | Lip Corner Puller    | 입꼬리 올리기  | 행복 (미소)     |
+| **AU15**    | Lip Corner Depressor | 입꼬리 내리기  | 슬픔, 우울      |
 
 ### 2.3 감정 분류 로직
 
 탐지된 AU의 조합과 강도를 통해 다음과 같이 감정을 인식합니다:
 
-#### **행복(Happy)**
+#### 행복(Happy)
 - **주요 AU 조합**: AU6 (뺨 올림) + AU12 (입꼬리 올림)
 - **가중치**: AU12 70%, AU6 30%
 - **임계값**: 0.3 이상
 - **특징**: Duchenne Smile(진정한 미소)를 위해 AU6와 AU12가 함께 활성화
 
-#### **슬픔/우울(Sad)**
+#### 슬픔/우울(Sad)
 - **주요 AU 조합**: AU1 (내측 눈썹 올림) + AU4 (눈썹 찌푸림) + AU15 (입꼬리 내림)
 - **가중치**: AU15 50%, AU4 25%, AU1 25%
 - **임계값**: 0.3 이상
 - **특징**: 눈썹의 안쪽 상승과 입꼬리 하강이 동시에 발생
 
-#### **보통(Neutral)**
+#### 보통(Neutral)
 - **조건**: 모든 AU 활성화 강도가 0.15 미만
 - **특징**: 표정 근육의 뚜렷한 움직임이 없는 중립 상태
 
@@ -86,7 +86,7 @@ FACS는 얼굴 근육의 움직임을 **Action Unit(AU)**이라는 단위로 체
 
 #### (3) 감정 상태 분류 모델
 
-**방법 A: 규칙 기반 분류기 (Rule-based Classifier)**
+방법 A: 규칙 기반 분류기 (Rule-based Classifier)
 - **구현 파일**: `src/models/emotion_classifier.py`
 - **분류 로직**:
   ```
@@ -100,7 +100,7 @@ FACS는 얼굴 근육의 움직임을 **Action Unit(AU)**이라는 단위로 체
   ```
 - **시간적 평활화**: 5프레임 이동평균으로 떨림 방지
 
-**방법 B: 머신러닝 기반 분류기 (ML Classifier)**
+방법 B: 머신러닝 기반 분류기 (ML Classifier)
 - **구현 파일**: `src/models/ml_emotion_classifier.py`
 - **지원 알고리즘**:
   - Random Forest
@@ -109,7 +109,7 @@ FACS는 얼굴 근육의 움직임을 **Action Unit(AU)**이라는 단위로 체
 - **입력 특징**: 5개 AU 값 (au1, au4, au6, au12, au15)
 - **학습 방법**: `src/train_emotion_model.py`
 
-**방법 C: CNN 기반 직접 분류기 (Deep Learning)**
+방법 C: CNN 기반 직접 분류기 (Deep Learning)
 - **구현 파일**: `src/models/cnn_emotion_classifier.py`
 - **학습 스크립트**: `src/models/train_cnn.py`
 - **지원 아키텍처**:
@@ -120,7 +120,7 @@ FACS는 얼굴 근육의 움직임을 **Action Unit(AU)**이라는 단위로 체
 - **출력**: 3-class 감정 확률 분포
 - **전이 학습**: ImageNet 사전학습 가중치 활용
 
-**방법 D: 앙상블 분류기 (Ensemble)**
+방법 D: 앙상블 분류기 (Ensemble)
 - **구현 파일**: `src/models/ensemble_classifier.py`
 - **결합 방식**: AU 기반(60%) + CNN 기반(40%) 가중 평균
 - **장점**: 더 안정적이고 강건한 예측
@@ -222,42 +222,41 @@ python view_landmarks.py
 #### (1) 시스템 아키텍처
 
 ```
-[입력 단계]          [처리 단계]           [분석 단계]         [출력 단계]
-웹캠/영상            얼굴 검출             AU 추출             감정 분류
-    ↓                  ↓                     ↓                   ↓
+[입력 단계]        [처리 단계]           [분석 단계]         [출력 단계]
+웹캠/영상          얼굴 검출             AU 추출             감정 분류
+    ↓                 ↓                    ↓                  ↓
 프레임 입력    →   BlazeFace      →    Face Mesh      →   Classifier    →   결과 저장
-(30 FPS)          (다중 얼굴)         (478 landmarks)     (AU → Emotion)    (JSON/CSV)
-                      ↓
+(30 FPS)          (다중 얼굴)         (478 landmarks)     (AU → Emotion)    (JSON/CSV)            ↓
                   얼굴 추적
                   (Centroid + IoU)
 ```
 
 **단계별 설명**:
 
-1. **얼굴 검출 (Face Detection)**
+1. 얼굴 검출 (Face Detection)
    - MediaPipe BlazeFace 사용
    - 다중 얼굴 동시 검출 (최대 10명)
    - 5m 거리까지 감지 가능
    - 15-30 FPS 처리 속도
 
-2. **얼굴 추적 (Face Tracking)**
+2. 얼굴 추적 (Face Tracking)
    - Centroid + IoU(Intersection over Union) 기반
    - 프레임 간 ID 유지
    - 30프레임(1초) 안정성 검증
    - 최대 30프레임 일시 소실 허용
 
-3. **Action Unit 추출 (AU Extraction)**
+3. Action Unit 추출 (AU Extraction)
    - MediaPipe Face Mesh로 478개 랜드마크 추출
    - 기하학적 거리 계산
    - 얼굴 크기 정규화 (눈 간격 기준)
    - AU 강도 0.0~1.0 범위로 정량화
 
-4. **감정 분류 (Emotion Classification)**
+4. 감정 분류 (Emotion Classification)
    - 규칙 기반 / ML / CNN / 앙상블 중 선택
    - 시간적 평활화 (5프레임 이동평균)
    - 감정 강도 0-100% 출력
 
-5. **데이터 저장 (Data Recording)**
+5. 데이터 저장 (Data Recording)
    - JSON: 478개 랜드마크 좌표 + 메타데이터
    - CSV: AU 시계열 데이터 + 감정 결과
    - InfluxDB 라인 프로토콜 지원
@@ -345,7 +344,7 @@ recording:
 | CNN 추론 (MobileNetV2) | 10-15 FPS | CPU (Intel i7) |
 | 전체 파이프라인 | 15-25 FPS | CPU + GPU |
 
-**실시간 분석 시 초당 처리 프레임(FPS)**: 15-25 FPS 이상
+실시간 분석 시 초당 처리 프레임(FPS): 15-25 FPS 이상
 **권장 하드웨어**: Intel i7 이상 CPU, NVIDIA RTX 20/30/40 시리즈 GPU (선택)
 
 ### 4.2 감정 분류 정확도
@@ -662,5 +661,5 @@ cv2.destroyAllWindows()
 
 **문서 작성일**: 2025년 11월 3일
 **문서 버전**: 1.0
-**기술 제공**: 경북대학교
+**기술 제공**: 경북대학교 소프트웨어 테스팅 연구실
 **기술 이전 대상**: 주식회사 와이디자인랩
