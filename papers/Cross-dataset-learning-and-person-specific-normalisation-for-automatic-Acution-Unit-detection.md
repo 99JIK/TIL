@@ -70,7 +70,10 @@ AU 인식은 많은 주목을 받아왔음. 이전 연구들에서 데이터셋 
 ![Figure 2](img/Pasted%20image%2020251104205351.png)
 ![Table 1](img/Pasted%20image%2020251104205423.png)
 ![Table 2](img/Pasted%20image%2020251104205456.png)
+![Table 3](img/Pasted%20image%2020251104205515.png)
+![Table 4](img/Pasted%20image%2020251104205532.png)
 
+![Table 6](img/Pasted%20image%2020251104205548.png)
 ### 실험 결과
 
 - **주요 데이터셋**: DISFA, BP4D-Spontaneous, SEMAINE 세 가지 데이터셋을 주로 사용함.
