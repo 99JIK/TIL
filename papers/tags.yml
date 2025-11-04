@@ -1,6 +1,8 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
 
+Action Unit Detection:
+  description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
 Active Learning:
   description: 능동 학습 - 모델이 학습에 가장 유용한 데이터를 선택적으로 질의하여 효율성을 높이는 학습 방법
 Additive Feature Attribution:
@@ -36,7 +38,7 @@ Audio-Haptic Conversion:
 Autoencoder:
   description: 오토인코더 - 입력 데이터를 압축했다가 복원하며 특징을 학습하는 비지도 신경망
 Automatic Generation:
-  description: 자동 생성 - 알고리즘을 통해 콘텐츠나 데이터를 자동으로 생성하는 기술
+  description: 자동 생성 - 알고리즘을 통해 콘텐츠나 데이터를 자동으로 생성하는 기술b
 Automated Machine Learning:
   description: 자동 머신러닝 - 모델 선택, 하이퍼파라미터 튜닝 등 머신러닝 파이프라인을 자동화하는 기술
 Automation:
@@ -89,6 +91,8 @@ Compressive Strength:
   description: 압축 강도 - 재료가 압축력에 견딜 수 있는 최대 응력
 Computational Chemistry:
   description: 계산화학 - 화학 현상을 시뮬레이션하고 예측하는 컴퓨터 기반 연구 분야
+Computer Vision:
+  description: 컴퓨터 비전 - 이미지와 영상을 분석하여 시각 정보를 이해하는 인공지능 기술
 Computing Education:
   description: 컴퓨팅 교육 - 프로그래밍과 컴퓨터 과학을 가르치는 교육 분야
 Convolutional Neural Network:
@@ -101,6 +105,8 @@ Cooperative Game Theory:
   description: 협력 게임 이론 - 참여자들이 협력하여 이익을 극대화하는 게임 이론 분야
 CRISPR:
   description: 크리스퍼 - 정밀한 유전자 편집을 가능하게 하는 혁신적인 유전자 가위 기술
+Cross-Dataset Learning:
+  description: 교차 데이터셋 학습 - 서로 다른 데이터셋 간에 지식을 전이하여 일반화 성능을 향상시키는 학습 방법
 Cross Validation:
   description: 교차 검증 - 데이터를 여러 부분으로 나누어 모델을 검증하는 기법
 Cutting Force:
@@ -172,6 +178,8 @@ Fabric Defects:
   description: 직물 결함 - 직조나 염색 과정에서 발생하는 다양한 형태의 직물 불량
 Facial Behavior Analysis:
   description: 안면 행동 분석 - 얼굴 표정, 시선, 랜드마크 등을 분석하여 감정 상태와 행동 패턴을 인식하는 기술
+Facial Expression Analysis:
+  description: 얼굴 표정 분석 - 얼굴의 미세한 근육 움직임과 표정 변화를 분석하여 감정 상태를 인식하는 기술
 Fatigue:
   description: 피로 - 반복적인 응력으로 인한 재료의 점진적 손상
 Feature Attribution:
@@ -403,6 +411,8 @@ Performance Evaluation:
   description: 성능 평가 - 시스템이나 모델의 성능을 측정하고 분석하는 과정
 Performance Improvement:
   description: 성능 개선 - 시스템이나 알고리즘의 효율성과 효과성을 향상시키는 과정
+Person-Specific Normalisation:
+  description: 개인별 정규화 - 개인의 고유한 특성을 고려하여 데이터를 정규화하는 기법
 Plant Identification:
   description: 식물 식별 - 이미지나 특징으로 식물 종을 자동 분류하는 기술
 Polylactic Acid:
