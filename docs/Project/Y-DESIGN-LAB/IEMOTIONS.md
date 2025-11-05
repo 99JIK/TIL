@@ -20,7 +20,7 @@
 특히 편도체(Amygdala)는 시각적 또는 청각적 위협에 직면했을 때 활성화되며, 감정적 각성(emotional arousal)을 제어한다.
 ![PDF p.6: 뇌 다이어그램 (Motor cortex 및 Amygdala 위치)](img/Pasted%20image%2020251106002054.png)
 편도체는 코르티솔과 같은 스트레스 호르몬 방출을 조절하고, 심박수, 피부 전도도, 호흡 및 얼굴 표정과 같은 관찰 가능한 행동을 제어한다.
-![PDF p.7: 감정 반응 경로 다이어그램 (Motor cortex, Amygdala 및 생리적 반응)]
+![PDF p.7: 감정 반응 경로 다이어그램 (Motor cortex, Amygdala 및 생리적 반응)]![(img/Pasted%20image%2020251106004146.png)
 
 **얼굴 피드백 가설 (Facial feedback hypothesis)**
 Fritz Strack의 1988년 연구에 따르면, 얼굴 표정과 감정은 밀접하게 얽혀 있다.
