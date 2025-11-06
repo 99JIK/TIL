@@ -53,6 +53,9 @@ PaperCoder는 논문(R)을 코드 리포지토리(C)로 매핑하는 함수 $M(R
 
 #### 3. Coding (코딩)
 모든 이전 단계의 산출물(논문 R, 계획 P, 분석 A)을 기반으로 실제 코드를 생성하는 마지막 단계. 'Logic Design'에서 결정된 실행 순서에 따라 파일을 순차적으로 생성한다. $i$번째 파일을 생성할 때는 이전에 생성된 코드 파일 $\{c_1, ..., c_{i-1}\}$을 컨텍스트로 함께 제공하여 리포지토리 전체의 일관성을 보장한다.
+![Table 1](img/Pasted%20image%2020251106172533.png)
+![Table 2](img/Pasted%20image%2020251106172604.png)
+![Table 3](img/Pasted%20image%2020251106172624.png)
 
 ### 실험 결과
 -   **데이터셋**: 자체 구축한 `Paper2CodeBench` (ICLR, ICML, NeurIPS 2024 논문 90개) 및 공개 벤치마크 `PaperBench Code-Dev`.
