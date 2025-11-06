@@ -29,7 +29,9 @@
 	2. 시각화
 		- 도출된 파레토 프론트는 다차원 데이터다. 직관적 이해를 위해, Figure를 위해 시각화가 필수적이다.
 			- $4^+$ Objective: 4차원 이상의 다차원 관계는 Parallel Coordinate Plot(PCP)를 사용하여 시각화한다.
-			- $3$ Objective: 3D Scatter Plot이나 Bubble Chart를 통해 파레토 프론트를 시각화한다.
-			- $2$ Objective: 2D Scatter Plot으로 파레토 프론트를 시각화한다.
+				- PCP는 각 축을 물성으로 놓고, 각 레시피가 이 축들을 어떻게 통과하는 지의 선으로 시각화한다.
+				- 신도 축에서 ㅅ
+			- $3$ Objective: 3D Scatter Plot이나 Bubble Chart를 통해 파레토 프론트를 시각화한다. PCP도 추가적으로 사용한다.
+			- $2$ Objective: 2D Scatter Plot으로 파레토 프론트를 시각화한다. PCP도 추가적으로 사용한다.
 	3. 상호작용
 	4. 의사결정 지원
