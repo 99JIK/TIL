@@ -60,7 +60,7 @@ PaperCoder는 논문(R)을 코드 리포지토리(C)로 매핑하는 함수 $M(R
 ![Figure 3](img/Pasted%20image%2020251106172724.png)
 ![Figure 5](img/Pasted%20image%2020251106172758.png)
 ![Figure 7](img/Pasted%20image%2020251106172834.png)
-
+![Figure 8](img/Pasted%20image%2020251106172901.png)
 ### 실험 결과
 -   **데이터셋**: 자체 구축한 `Paper2CodeBench` (ICLR, ICML, NeurIPS 2024 논문 90개) 및 공개 벤치마크 `PaperBench Code-Dev`.
 -   **평가 방식**: 1) **Reference-Based**: 저자 공식 코드를 정답으로 사용. 2) **Reference-Free**: 공식 코드 없이 논문만으로 평가. (두 방식 모두 LLM-as-judge 활용) 3) **Human Evaluation**: 원본 논문 저자가 직접 생성된 리포지토리들을 순위 매김.
