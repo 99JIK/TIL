@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Flow2Code-Evaluating-Large-Language-Models-for-FlowChart.md",
+                "file": "papers/Flow2Code-Evaluating-Large-Language-Models-for-Flowchart-based-Code-Generation-Capability.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flow2Code-Evaluating-Large-Language-Models-for-FlowChart"
+              "title": "Flow2Code-Evaluating-Large-Language-Models-for-Flowchart-based-Code-Generation-Capability"
             }
           }
         ]
@@ -183,7 +183,7 @@
   "active": "c98d865b4e4e3886",
   "lastOpenFiles": [
     "papers/From-image-to-UML-First-results-of-image-based-UML-diagram-generation-using-LLMs.md",
-    "papers/Flow2Code-Evaluating-Large-Language-Models-for-FlowChart.md",
+    "papers/Flow2Code-Evaluating-Large-Language-Models-for-Flowchart-based-Code-Generation-Capability.md",
     "papers/img/Pasted image 20251106175137.png",
     "papers/img/Pasted image 20251106175124.png",
     "papers/img/Pasted image 20251106175043.png",
