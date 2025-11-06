@@ -12,14 +12,14 @@ authors: ["Aaron Conrardy", "Jordi Cabot"]
 - **저자**: Aaron Conrardy (Luxembourg Institute of Science and Technology), Jordi Cabot (Luxembourg Institute of Science and Technology, University of Luxembourg)
 - **학회/저널**: First Large Language Models for Model-Driven Engineering Workshop (LLM4MDE 2024)
 - **발행일**: 2024
-- **DOI**: (제공되지 않음, CEUR-WS.org/Vol-3727/paper5.pdf 로 제공)
+- **DOI**: (제공되지 않음)
 - **주요 연구 내용**: 본 연구는 GPT-4V, Gemini (Pro/Ultra), CogVLM과 같은 최신 시각적 LLM을 사용하여, 손으로 그린 UML 클래스 다이어그램 이미지를 PlantUML 텍스트 코드로 변환하는 성능을 평가함. 다이어그램의 복잡도, 의미적 정확성, 프롬프트의 상세 수준을 변수로 설정하여 실험을 수행함.
 - **주요 결과 및 결론**: GPT-4V가 PlantUML 구문 오류 없이 가장 정확하고 일관된 변환 결과를 보여주었음. 반면, 다른 모델들은 구문 오류가 잦거나(Gemini, CogVLM), 의미적으로 무의미한 다이어그램의 변환을 거부하는 경향을 보임.
 - **기여점**: LLM을 활용한 이미지 기반 UML 다이어그램 생성 가능성을 최초로 실증적으로 평가함. 소프트웨어 엔지니어링 초기 설계 단계에서 발생하는 수동 모델링 작업을 자동화하여 '로우-모델링(low-modeling)'을 지원할 수 있음을 시사하며, 현재 기술 수준에서는 '인간-참여형(human-in-the-loop)' 접근이 필수적임을 강조함.
-
+<!--truncate-->
 ## 요약
 ### 초록
-소프트웨어 엔지니어링 초기 단계에서는 화이트보드나 종이에 UML 같은 모델을 그리는 경우가 많음. 하지만 이를 공식적인, 기계가 읽을 수 있는 모델로 변환하는 작업은 시간이 많이 소모됨. 이 연구는 LLM(Large Language Models)을 사용하여 손으로 그린 UML 클래스 다이어그램 이미지를 공식적인 모델 표현(PlantUML)으로 자동 생성하는 방안을 탐구함. 여러 LLM의 성능을 평가한 결과, 모델 기반 엔지니어링 파이프라인의 일부로 활용하기에 충분히 좋은 결과를 보였지만, 여전히 한계가 존재하며 이를 극복하기 위해 '인간-참여형(human-in-the-loop)' 접근이 필요함을 확인함.
+소프트웨어 엔지니어링 초기 단계에서는 화이트보드나 종이에 UML 같은 모델을 그리는 경우가 많음. 하지만 이를 공식적인, 기계가 읽을 수 있는 모델로 변환하는 작업은 시간이 많이 소모된다. 이 연구는 LLM(Large Language Models)을 사용하여 손으로 그린 UML 클래스 다이어그램 이미지를 공식적인 모델 표현(PlantUML)으로 자동 생성하는 방안을 탐구한다. 여러 LLM의 성능을 평가한 결과, 모델 기반 엔지니어링 파이프라인의 일부로 활용하기에 충분히 좋은 결과를 보였지만, 여전히 한계가 존재하며 이를 극복하기 위해 '인간-참여형(human-in-the-loop)' 접근이 필요함을 확인함.
 
 ### 서론
 LLM은 프로그래밍 보조나 자연어 기반 모델 생성 등 소프트웨어 개발 여러 분야에 통합되고 있음. 특히 GPT-4V, Gemini 등 이미지 입력(visual LLM)을 지원하는 모델이 등장하면서 웹페이지 목업을 코드로 변환하는 등의 활용 사례가 나옴. 소프트웨어 모델링 분야에서도 초기 디자인 스케치를 공식적인 UML 다이어그램으로 변환하는 데 이 기술을 활용할 수 있음. 이는 기존 모델링 도구의 사용성 문제를 해결하고, 레거시 프로젝트의 문서를 복원하며, 로우-코드(low-code) 개발 파이프라인을 가속화하는 '로우-모델링(low-modeling)'을 가능하게 할 잠재력이 있음.
