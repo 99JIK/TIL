@@ -58,6 +58,8 @@ PaperCoder는 논문(R)을 코드 리포지토리(C)로 매핑하는 함수 $M(R
 ![Table 3](img/Pasted%20image%2020251106172624.png)
 ![Table 5](img/Pasted%20image%2020251106172651.png)
 ![Figure 3](img/Pasted%20image%2020251106172724.png)
+![Figure 5](img/Pasted%20image%2020251106172758.png)
+![Figure 7](img/Pasted%20image%2020251106172834.png)
 
 ### 실험 결과
 -   **데이터셋**: 자체 구축한 `Paper2CodeBench` (ICLR, ICML, NeurIPS 2024 논문 90개) 및 공개 벤치마크 `PaperBench Code-Dev`.
