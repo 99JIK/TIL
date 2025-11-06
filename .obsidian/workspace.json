@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/PAPER2CODE-AUTOMATING-CODE-GENERATION-FROM-SCIENTIFIC-PAPERS-IN-MACHINE-LEARNING.md",
+                "file": "papers/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PAPER2CODE-AUTOMATING-CODE-GENERATION-FROM-SCIENTIFIC-PAPERS-IN-MACHINE-LEARNING"
+              "title": "Untitled"
             }
           }
         ]
@@ -182,6 +182,8 @@
   },
   "active": "c98d865b4e4e3886",
   "lastOpenFiles": [
+    "papers/PAPER2CODE-AUTOMATING-CODE-GENERATION-FROM-SCIENTIFIC-PAPERS-IN-MACHINE-LEARNING.md",
+    "papers/Untitled.md",
     "papers/img/Pasted image 20251106172901.png",
     "papers/img/Pasted image 20251106172834.png",
     "papers/img/Pasted image 20251106172758.png",
@@ -193,11 +195,9 @@
     "papers/img/Pasted image 20251106172501.png",
     "papers/img/Pasted image 20251106172437.png",
     "docs/Paper/UCWIT/Using-Regression-Chains-to-Find-Optimal-Solutions-for-Biodegradable-Fiber-Spinning-Recipes.md",
-    "papers/PAPER2CODE-AUTOMATING-CODE-GENERATION-FROM-SCIENTIFIC-PAPERS-IN-MACHINE-LEARNING.md",
     "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
     "docs/Paper/UCWIT",
     "docs/Project/Y-DESIGN-LAB/IEMOTIONS.md",
-    "docs/Project/Y-DESIGN-LAB/img/Pasted image 20251106004522.png",
     "papers/Cross-dataset-learning-and-person-specific-normalisation-for-automatic-Acution-Unit-detection.md",
     "docs/Project/Y-DESIGN-LAB/Technology-Transfer-Specification.md",
     "docs/Project/Y-DESIGN-LAB/Data-Collection.md",
