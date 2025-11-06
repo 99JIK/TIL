@@ -33,6 +33,8 @@ authors: ["Minju Seo", "Jinheon Baek", "Seongyun Lee", "Sung Ju Hwang"]
 
 ### 모델 아키텍처 / 방법론
 PaperCoder는 논문(R)을 코드 리포지토리(C)로 매핑하는 함수 $M(R) = C$를 구현하는 것을 목표로 한다. LLM에 논문 전체를 입력해 한 번에 생성하는($M(R) := LLM(\mathcal{T}(R))$) 'Naive' 방식은 논문의 복잡성, 긴 컨텍스트, 파일 간 일관성 유지 문제로 인해 비현실적이다.
+![Figure 2](img/Pasted%20image%2020251106172437.png)
+![Figure 4](img/Pasted%20image%2020251106172501.png)
 
 대신 PaperCoder는 작업을 3단계로 분해하는 멀티 에이전트 프레임워크를 제안한다 (논문의 Figure 2와 Figure 4에 전체 개요가 시각화되어 있음).
 -   **Planning (계획)**: $P = M_{plan}(R)$
