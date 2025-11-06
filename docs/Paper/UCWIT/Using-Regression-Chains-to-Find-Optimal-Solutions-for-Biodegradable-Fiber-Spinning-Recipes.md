@@ -28,8 +28,8 @@
 		- 과정이 끝날 경우 비지배 솔루션의 집합인 파레토 프론트가 도출된다. 각 집합의 정점은 $(x, y)$로 나타나며 $x=$ 레시피, $y=$ 예측 물성 쌍을 갖는다.
 	2. 시각화
 		- 도출된 파레토 프론트는 다차원 데이터다. 직관적 이해를 위해, Figure를 위해 시각화가 필수적이다.
-			- 2-Objective
-			- 3-Objective
-			- 4-Objective
+			- 2-Objective: 2D Scatter Plot으로 파레토 프론트를 시각화한다.
+			- 3-Objective: 3D Scatter Plot
+			- 4+-Objective
 	3. 상호작용
 	4. 의사결정 지원
