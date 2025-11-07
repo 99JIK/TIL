@@ -128,14 +128,11 @@ Inline과 Reference가 존재하며 둘 다 Rendering 시 동일하게 표시된
 
 ```markdown
 [Google](https://google.com)
-[JIK\'s TIL](TIL)
-[TIL]: https://til.jungin.kim
+[JIK\'s TIL](https://til.jungin.kim)
 ```
 
 [Google](https://google.com)
-[JIK\'s TIL](TIL)
-
-[TIL]: https://til.jungin.kim
+[JIK\'s TIL](https://til.jungin.kim)
 
 ### Images
 
