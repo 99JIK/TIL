@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/From-image-to-UML-First-results-of-image-based-UML-diagram-generation-using-LLMs.md",
+                "file": "docs/Paper/UCWIT/Using-Regression-Chains-to-Find-Optimal-Solutions-for-Biodegradable-Fiber-Spinning-Recipes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "From-image-to-UML-First-results-of-image-based-UML-diagram-generation-using-LLMs"
+              "title": "Using-Regression-Chains-to-Find-Optimal-Solutions-for-Biodegradable-Fiber-Spinning-Recipes"
             }
           }
         ]
@@ -180,8 +180,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "a949b4f1da12db0c",
+  "active": "c98d865b4e4e3886",
   "lastOpenFiles": [
+    "papers/From-image-to-UML-First-results-of-image-based-UML-diagram-generation-using-LLMs.md",
     "docusaurus.config.ts.tmp.55328.1762477210447",
     "papers/A-stacking-ensemble-model-for-prediting-the-flexural-fatigue-life-of-fiber-reinforced-concrete.md",
     "papers/A-Neural-Algorithm-of-Artistic-Style.md",
@@ -193,7 +194,6 @@
     "papers/img/Pasted image 20251106180136.png",
     "papers/img/Pasted image 20251106180110.png",
     "papers/img/Pasted image 20251106180038.png",
-    "papers/From-image-to-UML-First-results-of-image-based-UML-diagram-generation-using-LLMs.md",
     "papers/img/Pasted image 20251106175137.png",
     "papers/img/Pasted image 20251106175124.png",
     "papers/img/Pasted image 20251106175043.png",
@@ -229,7 +229,6 @@
     "Untitled 1.canvas",
     "Untitled.canvas",
     "보고서.pdf",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/250114/img",
-    "Report.pdf"
+    "docs/KNU-MS/TA/2025-ITEC0401-002/250114/img"
   ]
 }
