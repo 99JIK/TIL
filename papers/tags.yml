@@ -1,12 +1,5 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
-tags:
-  [
-    "Undefied Modeling Language",
-    "Image Recognition",
-    "Reverse Engineering",
-    "Model Driven Engineering",
-  ]
 
 Action Unit Detection:
   description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
@@ -357,6 +350,8 @@ Model Compression:
   description: 모델 압축 - 모델 크기를 줄여 배포와 추론 효율성을 높이는 기술
 Model Deployment:
   description: 모델 배포 - 학습된 모델을 실제 서비스 환경에 배치하는 과정
+Model Driven Engineering:
+  description:
 Model Interpretability:
   description: 모델 해석성 - 모델의 작동 방식과 예측 근거를 이해할 수 있는 정도
 Monte Carlo Tree Search:
@@ -486,6 +481,8 @@ Residual Learning:
   description: 잔차 학습 - 입력과 출력의 차이를 학습하여 깊은 네트워크를 훈련하는 기법
 ResNet:
   description: ResNet - 잔차 연결을 사용하여 매우 깊은 네트워크를 학습 가능하게 한 CNN 아키텍처
+Reverse Engineering:
+  description:
 Review:
   description: 리뷰 논문 - 특정 분야의 연구를 종합적으로 검토하고 분석한 논문
 Ribonucleoprotein:
