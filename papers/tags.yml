@@ -591,6 +591,8 @@ Transformer:
 Tree Boosting:
   description: 트리 부스팅 - 결정 트리를 순차적으로 결합하는 앙상블 학습 기법
 
+Undefied Modeling Language:
+  description:
 Unsupervised Learning:
   description: 비지도학습 - 레이블 없이 데이터의 패턴을 학습하는 머신러닝 방법
 User Experience:
