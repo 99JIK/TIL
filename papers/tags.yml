@@ -271,7 +271,7 @@ Human-Computer Interaction:
 Hyperparameter Optimization:
   description: 하이퍼파라미터 최적화 - 모델 성능을 극대화하는 하이퍼파라미터 값을 찾는 과정
 Internet Of Things:
-  description:
+  description: 사물인터넷 - 일상 사물들이 인터넷에 연결되어 데이터를 교환하는 네트워크
 Image Classification:
   description: 이미지 분류 - 이미지를 미리 정의된 카테고리로 분류하는 컴퓨터 비전 작업
 Image Processing:
@@ -481,7 +481,7 @@ Regression Chain:
 Reinforcement Learning:
   description: 강화학습 - 보상을 최대화하는 행동을 학습하는 머신러닝 방법
 Reproducibility:
-  description:
+  description: 재현성 - 동일한 조건에서 실험이나 연구 결과를 반복하여 얻을 수 있는 능력
 Residual Learning:
   description: 잔차 학습 - 입력과 출력의 차이를 학습하여 깊은 네트워크를 훈련하는 기법
 ResNet:
