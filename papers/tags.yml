@@ -270,8 +270,7 @@ Human-Computer Interaction:
   description: 인간-컴퓨터 상호작용 - 사람과 컴퓨터 간의 효과적인 인터페이스 설계와 연구
 Hyperparameter Optimization:
   description: 하이퍼파라미터 최적화 - 모델 성능을 극대화하는 하이퍼파라미터 값을 찾는 과정
-Internet Of Things:
-  description: 사물인터넷 - 일상 사물들이 인터넷에 연결되어 데이터를 교환하는 네트워크
+
 Image Classification:
   description: 이미지 분류 - 이미지를 미리 정의된 카테고리로 분류하는 컴퓨터 비전 작업
 Image Processing:

@@ -7,7 +7,7 @@ keywords:
     "Deep Learning",
     "Tomato Production",
     "Precision Agriculture",
-    "Internet Of Things",
+    "Internet of Things",
     "Wireless Sensor Networks",
   ]
 tags:
@@ -15,7 +15,7 @@ tags:
     "Deep Learning",
     "Tomato Production",
     "Precision Agriculture",
-    "Internet Of Things",
+    "Internet of Things",
     "Wireless Sensor Networks",
   ]
 authors:
@@ -41,6 +41,7 @@ authors:
 - **주요 결과 및 결론**: 제안된 시스템은 실시간 모니터링 기능을 성공적으로 시연했으며, 양자화 및 가지치기 등 최적화된 YOLOv8 모델은 52.8%의 분류 정확도를 유지하면서 추론 속도를 35% 향상시켰음. 에너지 소비량 분석 결과, ESP32 센서는 일일 8.91Wh, 라즈베리 파이는 78Wh를 소모하는 것으로 나타남.
 - **기여점**: 실제 온실 환경에서 수집한 이미지를 활용하여 IoT와 딥러닝을 통합한 실용적인 토마토 농업 모니터링 프로토타입을 구현함. 또한, 시스템 구성 요소의 상세한 에너지 소비 프로파일링을 제공하여 향후 엣지 AI 기반의 확장 가능한 시스템 설계에 기여함.
 <!--truncate-->
+
 ## 요약
 
 ### 초록
