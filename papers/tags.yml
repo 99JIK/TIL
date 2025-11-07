@@ -203,7 +203,7 @@ First Person Shooter:
 Flexural Fatigue Life:
   description: 휨 피로 수명 - 반복적인 휨 응력 하에서 재료가 견디는 수명
 Flowchart:
-  description:
+  description: 순서도 - 프로세스나 알고리즘의 흐름을 시각적으로 표현한 다이어그램
 Fly Oil Shale Ash:
   description: 플라이 오일 셰일 애쉬 - 오일 셰일 연소 시 발생하는 부산물 재료
 FOR_KSC:
@@ -322,7 +322,7 @@ Long Short-Term Memory:
 Long-short Term Memory-Advanced:
   description: 고급 LSTM - 개선된 구조와 학습 기법을 적용한 LSTM 변형
 Low-code:
-  description:
+  description: 로우코드 - 최소한의 코딩으로 애플리케이션을 개발할 수 있는 플랫폼
 
 Machine Learning:
   description: 머신러닝 - 데이터로부터 패턴을 학습하여 예측과 의사결정을 수행하는 기술
@@ -353,7 +353,7 @@ Model Compression:
 Model Deployment:
   description: 모델 배포 - 학습된 모델을 실제 서비스 환경에 배치하는 과정
 Model Driven Engineering:
-  description:
+  description: 모델 주도 공학 - 모델을 중심으로 소프트웨어를 개발하는 체계적 접근 방법
 Model Interpretability:
   description: 모델 해석성 - 모델의 작동 방식과 예측 근거를 이해할 수 있는 정도
 Monte Carlo Tree Search:
@@ -373,7 +373,7 @@ Multi-Layer Perceptron:
 Multicollinearity:
   description: 다중공선성 - 독립 변수 간 높은 상관관계로 인한 회귀 분석 문제
 Multimodal:
-  description:
+  description: 다중모달 - 여러 종류의 데이터나 감각 양식을 통합하여 처리하는 방식
 Multimodal Haptic Effects:
   description: 다중모달 햅틱 효과 - 여러 감각 채널을 결합한 촉각 피드백
 Multimodal Representation:
@@ -484,7 +484,7 @@ Residual Learning:
 ResNet:
   description: ResNet - 잔차 연결을 사용하여 매우 깊은 네트워크를 학습 가능하게 한 CNN 아키텍처
 Reverse Engineering:
-  description:
+  description: 역공학 - 완성된 제품이나 시스템을 분석하여 설계 원리와 구조를 파악하는 기법
 Review:
   description: 리뷰 논문 - 특정 분야의 연구를 종합적으로 검토하고 분석한 논문
 Ribonucleoprotein:
@@ -523,7 +523,7 @@ Small Language Models:
 Software Engineering:
   description: 소프트웨어 공학 - 소프트웨어 개발과 유지보수를 체계적으로 수행하는 공학 분야
 Software Models:
-  description:
+  description: 소프트웨어 모델 - 소프트웨어 시스템의 구조와 행위를 추상화하여 표현한 모델
 Software Testing:
   description: 소프트웨어 테스팅 - 소프트웨어의 결함을 발견하고 품질을 검증하는 과정
 Sound Classification:
@@ -593,9 +593,9 @@ Tree Boosting:
   description: 트리 부스팅 - 결정 트리를 순차적으로 결합하는 앙상블 학습 기법
 
 Unified Modeling Language:
-  description:
+  description: 통합 모델링 언어 - 소프트웨어 시스템을 시각적으로 설계하고 문서화하는 표준 모델링 언어
 Unified Modeling Language Diagram:
-  description:
+  description: UML 다이어그램 - UML을 사용하여 시스템의 구조와 동작을 표현한 시각적 다이어그램
 Unsupervised Learning:
   description: 비지도학습 - 레이블 없이 데이터의 패턴을 학습하는 머신러닝 방법
 User Experience:
