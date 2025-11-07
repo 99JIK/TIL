@@ -594,21 +594,16 @@ Marwa Mahmoud:
 Peter Robinson:
   name: Peter Robinson
   title: Cambridge University
-
-tags:
-  [
-    "Flowchart",
-    "Code Generation",
-    "Large Language Models",
-    "Benchmark",
-    "Multimodal",
-  ]
-authors:
-  [
-    Mengliang He,
-    Jiayi Zeng,
-    Yankai Jiang,
-    Wei Zhang,
+Mengliang He:
+  name: Mengliang He
+Jiayi Zeng:
+  name: Jiayi Zeng
+Yankai Jiang:
+  name: Yankai Jiang
+Wei Zhang:
+  name: Wei Zhang
+Zeming Liu:
+  name: Zeming Liu
     Zeming Liu,
     Xiaoming Shi,
     Aimin Zhou,
