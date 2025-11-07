@@ -16,7 +16,6 @@ tags:
     Software Testing,
     Artificial Intelligence,
     Internet of Things,
-    Cloud,
     Automation,
     Quality Assurance,
     Future Trends,

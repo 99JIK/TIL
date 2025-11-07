@@ -480,6 +480,8 @@ Regression Chain:
   description: 회귀 체인 - 여러 회귀 모델을 연쇄적으로 연결한 예측 기법
 Reinforcement Learning:
   description: 강화학습 - 보상을 최대화하는 행동을 학습하는 머신러닝 방법
+Reproducibility:
+  description:
 Residual Learning:
   description: 잔차 학습 - 입력과 출력의 차이를 학습하여 깊은 네트워크를 훈련하는 기법
 ResNet:
