@@ -32,6 +32,7 @@ authors:
 - **주요 연구 내용**: 실시간 AU(Facial Action Unit) 감지 및 강도 추정 시스템을 제안함. 외형(HOG) 및 기하학적(landmark) 특징을 사용. 개인별 중립 표정 차이를 보정하기 위해 간단한 중간값(median) 기반 특징 정규화 기법을 사용.
 - **주요 결과 및 결론**: 제안한 시스템이 FERA 2015 챌린지의 3가지 태스크(AU 발생 감지, 완전 자동 AU 강도, 사전 분할 AU 강도 추정)에서 모두 기준선(baseline) 성능을 능가함. 여러 데이터셋을 함께 훈련(cross-dataset learning)하는 것이 일반화(generic) 모델 훈련에 이점을 보임.
 - **기여점**: 특정 AU 감지 시 개인 맞춤형 중립 표정 정규화의 이점을 시연. 일반화 모델 훈련을 위한 다중 데이터셋 사용의 이점을 시연. 20-30fps로 실시간 실행 가능한 전체 AU 감지 파이프라인을 제시.
+<!--truncate-->
 
 ## 요약
 
@@ -47,6 +48,7 @@ authors:
 
 AU 인식은 많은 주목을 받아왔음. 이전 연구들에서 데이터셋 간 일반화가 가능함이 밝혀졌으나, 훈련 데이터셋에 성능이 크게 영향받고 데이터셋의 균형이 중요함이 지적됨. 본 연구는 광범위한 데이터셋에서 차원 축소 기법을 학습하여 일반화 가능성을 향상시킴. 또한, 기존의 복잡한 개인화 기법과 달리, 더 간단하고 온라인 적응이 가능한 방식으로 개인 정규화를 수행함.
 ![Figure 1](img/Pasted%20image%2020251104205326.png)
+
 ### 모델 아키텍처 / 방법론
 
 - **핵심 구조/방법**: 논문의 Figure 1에서 볼 수 있듯이, 전체 파이프라인은 '얼굴 랜드마크 감지' → '얼굴 정렬 및 마스킹' → '특징 추출(외형/기하학)' → 'PCA 차원 축소' → '(선택적) 개인 정규화' → 'SVM/SVR 분류/회귀' 순서로 진행됨.
@@ -66,13 +68,14 @@ AU 인식은 많은 주목을 받아왔음. 이전 연구들에서 데이터셋 
 - **알고리즘**:
   - **분류/회귀**: AU 발생 감지에는 선형 SVM(Support Vector Machines), 강도 추정에는 선형 SVR(Support Vector Regression) 사용. 실시간 성능을 위해 선형 커널을 사용.
   - **데이터 불균형 처리**: 훈련 데이터에서 음성(negative) AU 샘플을 언더샘플링하여 긍정/음성 샘플 수를 동일하게 맞춤.
-![Figure 2](img/Pasted%20image%2020251104205351.png)
-![Table 1](img/Pasted%20image%2020251104205423.png)
-![Table 2](img/Pasted%20image%2020251104205456.png)
-![Table 3](img/Pasted%20image%2020251104205515.png)
-![Table 4](img/Pasted%20image%2020251104205532.png)
-![Table 5](img/Pasted%20image%2020251104205609.png)
-![Table 6](img/Pasted%20image%2020251104205548.png)
+    ![Figure 2](img/Pasted%20image%2020251104205351.png)
+    ![Table 1](img/Pasted%20image%2020251104205423.png)
+    ![Table 2](img/Pasted%20image%2020251104205456.png)
+    ![Table 3](img/Pasted%20image%2020251104205515.png)
+    ![Table 4](img/Pasted%20image%2020251104205532.png)
+    ![Table 5](img/Pasted%20image%2020251104205609.png)
+    ![Table 6](img/Pasted%20image%2020251104205548.png)
+
 ### 실험 결과
 
 - **주요 데이터셋**: DISFA, BP4D-Spontaneous, SEMAINE 세 가지 데이터셋을 주로 사용함.
