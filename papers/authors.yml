@@ -459,4 +459,15 @@ Bilal Karasneh:
   name: Bilal Karasneh
 Michel R.V. Chaudron:
   name: Michel R.V. Chaudron
-authors: ["Minju Seo", "Jinheon Baek", "Seongyun Lee", "Sung Ju Hwang"]
+Minju Seo:
+  name: Minju Seo
+  title: KAIST
+Jinheon Baek:
+  name: Jinheon Baek
+  title: KAIST
+Seongyun Lee:
+  name: Seongyun Lee
+  title: KAIST
+Sung Ju Hwang:
+  name: Sung Ju Hwang
+  title: KAIST, DeepAuto.ai
