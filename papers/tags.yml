@@ -1,7 +1,7 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
 
-tags: ["Flowchart", "Code Generation", "Large Language Models", "Benchmark", ""]
+tags: ["Flowchart", "Code Generation", "Large Language Models", "", ""]
 Action Unit Detection:
   description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
 Active Learning:
@@ -47,6 +47,8 @@ Automation:
 
 Bayesian Optimization:
   description: 베이지안 최적화 - 불확실성을 고려하여 탐색과 활용의 균형을 맞추는 최적화 기법
+Benchmark:
+  description:
 Biased Estimator:
   description: 편향 추정기 - 체계적으로 참값과 차이가 나는 통계적 추정량
 Biodegradable Fiber:
