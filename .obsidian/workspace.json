@@ -180,8 +180,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "c98d865b4e4e3886",
+  "active": "a949b4f1da12db0c",
   "lastOpenFiles": [
+    "docusaurus.config.ts.tmp.55328.1762477210447",
     "papers/A-stacking-ensemble-model-for-prediting-the-flexural-fatigue-life-of-fiber-reinforced-concrete.md",
     "papers/A-Neural-Algorithm-of-Artistic-Style.md",
     "papers/A-machine-learning-intergrated-framework-for-mechanical-property-prediction-of-FDM-printed-PLA.md",
@@ -225,7 +226,6 @@
     "papers/Prediction-of-Pick-Acting-Forces-Using-an-Random-Forest-Model-based-on-Mechanical-Properties-of-Rocks-and-Cutting-Parameters.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/250114/Report.md",
     "Untitled 2.canvas",
-    "papers/Deep-learning-driven-IoT-solution-for-smart-tomato-farming.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "보고서.pdf",

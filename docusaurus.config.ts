@@ -5,6 +5,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
+const katexOptions = {
+  strict: false, // 또는 'ignore'로 설정
+};
+
 const config: Config = {
   title: '99JIK',
   tagline: 'From Yesterday\'s Insights to Today\'s Wisdom: My Learning  Chronicle.',
@@ -49,7 +53,7 @@ const config: Config = {
           postsPerPage: 1,
           feedOptions: {},
           remarkPlugins: [remarkMath],
-          rehypePlugins: [rehypeKatex],
+          rehypePlugins: [[rehypeKatex, katexOptions]],
           blogListComponent: '@site/src/components/EmptyBlogList',
         },
         docs: {
@@ -59,7 +63,7 @@ const config: Config = {
           showLastUpdateAuthor: true,
           editUrl: 'https://github.com/99jik/today_i_learned/tree/main/',
           remarkPlugins: [remarkMath],
-          rehypePlugins: [rehypeKatex],
+          rehypePlugins: [[rehypeKatex, katexOptions]],
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -89,7 +93,7 @@ const config: Config = {
           blogSidebarCount: 'ALL',
           postsPerPage: 10, feedOptions: { type: 'all', copyright: `Copyright © ${new Date().getFullYear()} 99JIK` },
           remarkPlugins: [remarkMath],
-          rehypePlugins: [rehypeKatex],
+          rehypePlugins: [[rehypeKatex, katexOptions]],
         },
     ]
   ],
