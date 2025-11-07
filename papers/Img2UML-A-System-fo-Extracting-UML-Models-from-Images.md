@@ -11,7 +11,7 @@ keywords:
   ]
 tags:
   [
-    "Undefied Modeling Language",
+    "Unified Modeling Language",
     "Image Recognition",
     "Reverse Engineering",
     "Model Driven Engineering",

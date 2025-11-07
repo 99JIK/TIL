@@ -6,7 +6,7 @@ keywords: ["Large Language Model", "UML Diagram", "Software Models", "Low-code"]
 tags:
   [
     "Large Language Models",
-    "Undified Modeling Language Diagram",
+    "Unified Modeling Language Diagram",
     "Software Models",
     "Low-code",
   ]

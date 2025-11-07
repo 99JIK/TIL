@@ -324,6 +324,8 @@ Long Short-Term Memory:
   description: LSTM - 장기 의존성을 학습할 수 있는 순환 신경망 구조
 Long-short Term Memory-Advanced:
   description: 고급 LSTM - 개선된 구조와 학습 기법을 적용한 LSTM 변형
+Low-code:
+  description:
 
 Machine Learning:
   description: 머신러닝 - 데이터로부터 패턴을 학습하여 예측과 의사결정을 수행하는 기술
