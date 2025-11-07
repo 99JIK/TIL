@@ -117,7 +117,7 @@ const config: Config = {
       links: [
         { title: '99JIK',
           items: [
-            { label: 'Docs', to: '/docs/intro'},
+            { label: 'Docs', to: '/docs/Intro'},
             { label: 'Notes', to: '/notes'},
             { label: 'Papers', to: '/papers'}
           ],
