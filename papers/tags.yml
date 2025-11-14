@@ -1,12 +1,6 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
-tags:
-  [
-    "Dynamic Taint Analysis",
-    "Forward Symbolic Execution",
-    "Program Analysis",
-    "Security",
-  ]
+
 Action Unit Detection:
   description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
 Active Learning:
@@ -518,6 +512,8 @@ Scene Text Recognition:
   description: 장면 텍스트 인식 - 자연 환경의 이미지에서 텍스트를 인식하는 기술
 Science Cloud Deployment:
   description: 과학 클라우드 배포 - 과학 연구를 위한 클라우드 인프라 구축
+Security:
+  description:
 Self-Attention:
   description: 셀프 어텐션 - 입력 시퀀스 내 요소 간 관계를 학습하는 어텐션 메커니즘
 Self-Supervised Learning:
