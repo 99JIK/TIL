@@ -29,6 +29,7 @@ authors: ["Edward J. Schwartz", "Thanassis Avgerinos", "David Brumley"]
 DTA와 FSE를 정밀하게 정의하기 위해, 이 논문은 SIMPIL(Simple Intermediate Language)이라는 간단한 중간 언어를 정의한다. (논문의 Table I 참고)
 SIMPIL의 운영 시맨틱(operational semantics)을 정의하여 프로그램이 어떻게 실행되는지 명확히 기술한다. (논문의 Figure 1 참고)
 동적 분석은 실제 프로그램 실행을 기반으로 하므로, 운영 시맨틱은 DTA와 FSE를 정의하는 자연스러운 기반이 된다.
+![Figure 5](img/Pasted%20image%2020251114162310.png)
 ![Table 3](img/Pasted%20image%2020251114162227.png)
 ### 방법론 1: 동적 테인트 분석 (Dynamic Taint Analysis)
 - **핵심 구조/방법**: DTA는 정보 흐름을 '소스(source)'에서 '싱크(sink)'까지 추적한다. 값이 소스(예: `get_input()`)로부터 파생되면 'Tainted'(T), 그렇지 않으면 'Untainted'(F)로 표시된다.
