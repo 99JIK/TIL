@@ -153,7 +153,7 @@ Dyeing:
 Dyeing Process:
   description: 염색 공정 - 섬유 재료에 색상을 부여하는 일련의 화학적 처리 과정
 Dynamic Taint Analysis:
-  description:
+  description: 동적 오염 분석 - 프로그램 실행 중 데이터 흐름을 추적하여 보안 취약점을 탐지하는 동적 분석 기법
 
 Eco-friendly Concrete:
   description: 친환경 콘크리트 - 환경 부하를 줄인 지속가능한 콘크리트 재료
@@ -211,7 +211,7 @@ Fly Oil Shale Ash:
 FOR_KSC:
   description: KSC 논문 참고자료 - 한국정보과학회 논문 작성을 위해 참고할 연구 논문들
 Forward Symbolic Execution:
-  description:
+  description: 순방향 기호 실행 - 프로그램 시작점부터 기호적 입력으로 실행 경로를 탐색하는 프로그램 분석 기법
 FOSA:
   description: FOSA - Fly Oil Shale Ash의 약자
 Front-end:
@@ -452,7 +452,7 @@ Problem-solving:
 Process Optimization:
   description: 공정 최적화 - 생산 프로세스의 효율성과 품질을 극대화하는 기술
 Program Analysis:
-  description:
+  description: 프로그램 분석 - 소프트웨어의 동작과 속성을 자동으로 분석하여 버그와 취약점을 발견하는 기술
 Programming Challenges:
   description: 프로그래밍 챌린지 - 알고리즘과 코딩 능력을 시험하는 문제 해결 과제
 Prompt Engineering:
@@ -513,7 +513,7 @@ Scene Text Recognition:
 Science Cloud Deployment:
   description: 과학 클라우드 배포 - 과학 연구를 위한 클라우드 인프라 구축
 Security:
-  description:
+  description: 보안 - 시스템과 데이터를 위협으로부터 보호하는 기술과 정책
 Self-Attention:
   description: 셀프 어텐션 - 입력 시퀀스 내 요소 간 관계를 학습하는 어텐션 메커니즘
 Self-Supervised Learning:
