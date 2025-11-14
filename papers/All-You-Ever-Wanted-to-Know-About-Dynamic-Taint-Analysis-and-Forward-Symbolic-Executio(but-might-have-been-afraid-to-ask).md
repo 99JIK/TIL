@@ -45,7 +45,7 @@ Example 4![Example 4](img/Pasted%20image%2020251114162445.png)
     - **Control-Flow Taint**: DTA는 데이터 흐름만 추적한다. `if (tainted_x == 1) y = 1; else y = 42;` (논문의 Example 5)에서 `y`의 값은 `x`에 '제어 의존적'이지만, 데이터 흐름이 없으므로 DTA는 `y`를 untainted로 간주하여 undertainting이 발생한다.
     - **Sanitization**: $b = a \oplus a$ 처럼 항상 0이 되는 연산은 `a`가 T여도 `b`는 F여야 한다. 하지만 기본 정책은 `b`를 T로 전파시켜 'taint spread'(테인트 확산) 문제를 일으킨다.
     - **Time of Detection vs. Attack**: 버퍼 오버플로우 시, DTA는 반환 주소가 '덮어쓰일 때'가 아니라, 나중에 그 주소로 점프하여 '사용될 때' 공격을 탐지한다. 덮어쓰기와 탐지 사이의 시간 갭 동안 추가적인 피해가 발생할 수 있다.
-
+![Figure 5, Table 7](img/Pasted%20image%2020251114162627.png)
 ### 방법론 2: 순방향 심볼릭 실행 (Forward Symbolic Execution)
 - **핵심 구조/방법**: 프로그램 실행 경로를 나타내는 논리 공식(path predicate, $\Pi$)을 구축하여 여러 입력을 한 번에 추론한다.
 - **형식화**: `get_input()`이 구체적인 값 대신 '심볼'(예: $s$)을 반환하도록 시맨틱을 수정한다. 값은 $s+5$ 같은 심볼릭 표현식이 된다.
