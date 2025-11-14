@@ -24,12 +24,12 @@ authors: ["Edward J. Schwartz", "Thanassis Avgerinos", "David Brumley"]
 ### 서론
 동적 분석(dynamic analysis)은 코드가 실행될 때 모니터링하여 런타임 정보를 기반으로 정밀한 분석을 가능하게 한다. 이 중 가장 널리 쓰이는 DTA와 FSE는 각각 사용자 입력 같은 'taint source'의 영향을 추적하고, 프로그램 실행 경로를 논리 공식으로 구축하는 기법이다. 이 기법들은 널리 사용됨에도 불구하고, 구현 시 참고할 만한 정확한 알고리즘이나 함정(pitfall)에 대한 정리가 부족하여 연구자들이 동일한 한계와 구현 트릭을 재발견하는 비효율이 발생했다.
 ![Table 1](img/Pasted%20image%2020251114162051.png)
-
+![Figure 1](img/Pasted%20image%2020251114162136.png)
 ### 배경: SIMPIL과 운영 시맨틱
 DTA와 FSE를 정밀하게 정의하기 위해, 이 논문은 SIMPIL(Simple Intermediate Language)이라는 간단한 중간 언어를 정의한다. (논문의 Table I 참고)
 SIMPIL의 운영 시맨틱(operational semantics)을 정의하여 프로그램이 어떻게 실행되는지 명확히 기술한다. (논문의 Figure 1 참고)
 동적 분석은 실제 프로그램 실행을 기반으로 하므로, 운영 시맨틱은 DTA와 FSE를 정의하는 자연스러운 기반이 된다.
-
+![Table 3](img/Pasted%20image%2020251114162227.png)
 ### 방법론 1: 동적 테인트 분석 (Dynamic Taint Analysis)
 - **핵심 구조/방법**: DTA는 정보 흐름을 '소스(source)'에서 '싱크(sink)'까지 추적한다. 값이 소스(예: `get_input()`)로부터 파생되면 'Tainted'(T), 그렇지 않으면 'Untainted'(F)로 표시된다.
 - **형식화**: 운영 시맨틱을 확장하여 DTA를 정의한다. (논문의 Figure 5 참고) 변수용 테인트 상태($\tau_{\Delta}$)와 메모리용 테인트 상태($\tau_{\mu}$) 컨텍스트를 추가한다.
