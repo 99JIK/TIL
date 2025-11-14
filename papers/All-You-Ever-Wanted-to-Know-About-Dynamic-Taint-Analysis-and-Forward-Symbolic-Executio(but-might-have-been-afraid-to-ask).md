@@ -23,6 +23,7 @@ authors: ["Edward J. Schwartz", "Thanassis Avgerinos", "David Brumley"]
 
 ### 서론
 동적 분석(dynamic analysis)은 코드가 실행될 때 모니터링하여 런타임 정보를 기반으로 정밀한 분석을 가능하게 한다. 이 중 가장 널리 쓰이는 DTA와 FSE는 각각 사용자 입력 같은 'taint source'의 영향을 추적하고, 프로그램 실행 경로를 논리 공식으로 구축하는 기법이다. 이 기법들은 널리 사용됨에도 불구하고, 구현 시 참고할 만한 정확한 알고리즘이나 함정(pitfall)에 대한 정리가 부족하여 연구자들이 동일한 한계와 구현 트릭을 재발견하는 비효율이 발생했다.
+![Table 1](img/Pasted%20image%2020251114162051.png)
 
 ### 배경: SIMPIL과 운영 시맨틱
 DTA와 FSE를 정밀하게 정의하기 위해, 이 논문은 SIMPIL(Simple Intermediate Language)이라는 간단한 중간 언어를 정의한다. (논문의 Table I 참고)
