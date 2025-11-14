@@ -64,35 +64,3 @@ Example 4![Example 4](img/Pasted%20image%2020251114162445.png)
 ### 결론
 이 논문은 DTA와 FSE를 운영 시맨틱을 통해 공식적으로 정의했다. 이 형식화를 도구로 삼아, 두 기법을 보안 분야에 적용할 때 발생하는 핵심 도전 과제(예: undertainting, overtainting, 성능)와 다양한 정책적 트레이드오프를 체계적으로 분석하고 정리했다.
 
-```mermaid
-classDiagram
-    direction LR
-
-    %% -- 행위자(Actor) 정의 --
-    actor User
-
-    %% -- 클래스(Class) 정의 --
-    class ChatInterface {
-        <<Boundary>>
-        +displayMessage(Message message)
-        +onUserInput(String text)
-    }
-
-    class SLMService {
-        <<Service>>
-        +generateResponse(String prompt) Message
-    }
-
-    class Message {
-        <<Data Object>>
-        -String sender
-        -String content
-        -DateTime timestamp
-    }
-
-    %% -- 관계(Relationships) 정의 --
-    User -- interacts --> ChatInterface
-    ChatInterface ..> SLMService : uses
-    ChatInterface ..> Message : displays
-    SLMService ..> Message : creates
-```
