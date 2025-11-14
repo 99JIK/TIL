@@ -1,6 +1,12 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
-
+tags:
+  [
+    "Dynamic Taint Analysis",
+    "Forward Symbolic Execution",
+    "Program Analysis",
+    "Security",
+  ]
 Action Unit Detection:
   description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
 Active Learning:
@@ -152,6 +158,8 @@ Dyeing:
   description: 염색 - 섬유나 직물에 색을 입히는 화학적 공정
 Dyeing Process:
   description: 염색 공정 - 섬유 재료에 색상을 부여하는 일련의 화학적 처리 과정
+Dynamic Taint Analysis:
+  description:
 
 Eco-friendly Concrete:
   description: 친환경 콘크리트 - 환경 부하를 줄인 지속가능한 콘크리트 재료
@@ -208,6 +216,8 @@ Fly Oil Shale Ash:
   description: 플라이 오일 셰일 애쉬 - 오일 셰일 연소 시 발생하는 부산물 재료
 FOR_KSC:
   description: KSC 논문 참고자료 - 한국정보과학회 논문 작성을 위해 참고할 연구 논문들
+Forward Symbolic Execution:
+  description:
 FOSA:
   description: FOSA - Fly Oil Shale Ash의 약자
 Front-end:
@@ -447,6 +457,8 @@ Problem-solving:
   description: 문제 해결 - 주어진 문제를 분석하고 해결책을 찾는 인지 과정
 Process Optimization:
   description: 공정 최적화 - 생산 프로세스의 효율성과 품질을 극대화하는 기술
+Program Analysis:
+  description:
 Programming Challenges:
   description: 프로그래밍 챌린지 - 알고리즘과 코딩 능력을 시험하는 문제 해결 과제
 Prompt Engineering:
