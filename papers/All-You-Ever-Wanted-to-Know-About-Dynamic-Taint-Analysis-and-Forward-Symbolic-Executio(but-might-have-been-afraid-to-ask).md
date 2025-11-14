@@ -46,6 +46,8 @@ Example 4![Example 4](img/Pasted%20image%2020251114162445.png)
     - **Sanitization**: $b = a \oplus a$ 처럼 항상 0이 되는 연산은 `a`가 T여도 `b`는 F여야 한다. 하지만 기본 정책은 `b`를 T로 전파시켜 'taint spread'(테인트 확산) 문제를 일으킨다.
     - **Time of Detection vs. Attack**: 버퍼 오버플로우 시, DTA는 반환 주소가 '덮어쓰일 때'가 아니라, 나중에 그 주소로 점프하여 '사용될 때' 공격을 탐지한다. 덮어쓰기와 탐지 사이의 시간 갭 동안 추가적인 피해가 발생할 수 있다.
 ![Figure 5, Table 7](img/Pasted%20image%2020251114162627.png)
+![Example 7](img/Pasted%20image%2020251114162657.png)
+![Example 9](img/Pasted%20image%2020251114162726.png)
 ### 방법론 2: 순방향 심볼릭 실행 (Forward Symbolic Execution)
 - **핵심 구조/방법**: 프로그램 실행 경로를 나타내는 논리 공식(path predicate, $\Pi$)을 구축하여 여러 입력을 한 번에 추론한다.
 - **형식화**: `get_input()`이 구체적인 값 대신 '심볼'(예: $s$)을 반환하도록 시맨틱을 수정한다. 값은 $s+5$ 같은 심볼릭 표현식이 된다.
