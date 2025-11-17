@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/All-You-Ever-Wanted-to-Know-About-Dynamic-Taint-Analysis-and-Forward-Symbolic-Executio(but-might-have-been-afraid-to-ask).md",
+                "file": "papers/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "All-You-Ever-Wanted-to-Know-About-Dynamic-Taint-Analysis-and-Forward-Symbolic-Executio(but-might-have-been-afraid-to-ask)"
+              "title": "Untitled"
             }
           }
         ]
@@ -182,6 +182,8 @@
   },
   "active": "c98d865b4e4e3886",
   "lastOpenFiles": [
+    "papers/All-You-Ever-Wanted-to-Know-About-Dynamic-Taint-Analysis-and-Forward-Symbolic-Executio(but-might-have-been-afraid-to-ask).md",
+    "papers/Untitled.md",
     "papers/img/Pasted image 20251114162726.png",
     "papers/img/Pasted image 20251114162657.png",
     "papers/img/Pasted image 20251114162627.png",
@@ -192,7 +194,6 @@
     "papers/img/Pasted image 20251114162136.png",
     "papers/img/Pasted image 20251114162051.png",
     "docs/Paper/ST-SLM.md",
-    "papers/All-You-Ever-Wanted-to-Know-About-Dynamic-Taint-Analysis-and-Forward-Symbolic-Executio(but-might-have-been-afraid-to-ask).md",
     "docs/Paper/img/Pasted image 20251114143534.png",
     "docs/Paper/img",
     "docs/Paper/UCWIT/Using-Regression-Chains-to-Find-Optimal-Solutions-for-Biodegradable-Fiber-Spinning-Recipes.md",
@@ -203,7 +204,6 @@
     "papers/A-machine-learning-intergrated-framework-for-mechanical-property-prediction-of-FDM-printed-PLA.md",
     "papers/Img2UML-A-System-fo-Extracting-UML-Models-from-Images.md",
     "papers/Flow2Code-Evaluating-Large-Language-Models-for-Flowchart-based-Code-Generation-Capability.md",
-    "papers/img/Pasted image 20251106180203.png",
     "papers/PAPER2CODE-AUTOMATING-CODE-GENERATION-FROM-SCIENTIFIC-PAPERS-IN-MACHINE-LEARNING.md",
     "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
     "docs/Paper/UCWIT",
