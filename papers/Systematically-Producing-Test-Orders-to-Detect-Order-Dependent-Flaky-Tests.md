@@ -38,7 +38,7 @@ Flaky Test는 개발자에게 혼란을 주며, 이 중 '순서 의존적 테스
     - **목표**: 모든 '테스트 클래스 페어'와 모든 '클래스 내부 테스트 페어(intra-class test pairs)'를 커버.
     - **장점**: 기존 방식이 놓치던 동일 클래스 내의 Polluter/Victim 관계(예: Figure 3의 t2->t1)를 탐지 가능.
     - **한계**: 여전히 복잡한 cross-class 의존성(Cleaner가 포함된 경우, 예: Figure 3의 t6)은 탐지 보장 못 함.
-
+![Figure 4](img/Pasted%20image%2020251117122129.png)
 - **2. Tuscan Inter-Class**:
     - **핵심 구조**: 'Tuscan Intra-Class'를 확장하여, '클래스 간 테스트 페어(cross-class test pairs)'까지 *모두* 커버.
     - **작동**: 인접한 두 클래스(A, B)의 *모든* 테스트 순열 조합을 탐색. (예: A의 마지막 테스트와 B의 첫 테스트가 페어를 이루도록 함. Figure 4 참고)
