@@ -36,3 +36,7 @@ AI-Based Software Testing 분야는 성장하고 있다.
 - AI/ML과 테스팅
 	- 스스로 학습하여 TC를 생성하거나, UI가 변경되어도 Element를 잘 찾아내는 Self Healing 기술
 	- 결함 위치를 파악하여 Debugging을 돕는 것도 주요 연구 주제에 포함
+## 아이디어
+- [ ] 예측적 결함 위치 파악
+- [ ] 멀티모달 모델을 이용한 선제적 테스트 자가 치유
+- [ ] 생성형 AI Test를 위한 
