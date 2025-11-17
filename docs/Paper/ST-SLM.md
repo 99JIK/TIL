@@ -8,4 +8,8 @@ AI-Based Software Testing 분야는 성장하고 있다.
 	- Smoke Test
 	- Regression Test
 	- Acceptance Test
-	- Black Box/White Bo
+	- Black Box/White Box Test
+- Bug Reporting
+## Programming
+- 테스트 자동화를 위해 프로그래밍해야 함
+## 
