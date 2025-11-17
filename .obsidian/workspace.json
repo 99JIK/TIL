@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Repairing-Order-Dependent-Flaky-Tests-via-Test-Generation.md",
+                "file": "papers/Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Repairing-Order-Dependent-Flaky-Tests-via-Test-Generation"
+              "title": "Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories"
             }
           }
         ]
@@ -182,19 +182,19 @@
   },
   "active": "c98d865b4e4e3886",
   "lastOpenFiles": [
+    "papers/Repairing-Order-Dependent-Flaky-Tests-via-Test-Generation.md",
+    "papers/Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories.md",
     "papers/img/Pasted image 20251117123142.png",
     "papers/img/Pasted image 20251117123113.png",
     "papers/img/Pasted image 20251117123045.png",
     "papers/img/Pasted image 20251117123027.png",
     "papers/img/Pasted image 20251117123005.png",
     "papers/Systematically-Producing-Test-Orders-to-Detect-Order-Dependent-Flaky-Tests.md",
-    "papers/Repairing-Order-Dependent-Flaky-Tests-via-Test-Generation.md",
     "papers/img/Pasted image 20251117122422.png",
     "papers/img/Pasted image 20251117122325.png",
     "papers/img/Pasted image 20251117122256.png",
     "papers/img/Pasted image 20251117122238.png",
     "papers/img/Pasted image 20251117122129.png",
-    "papers/img/Pasted image 20251117121941.png",
     "papers/All-You-Ever-Wanted-to-Know-About-Dynamic-Taint-Analysis-and-Forward-Symbolic-Executio(but-might-have-been-afraid-to-ask).md",
     "docs/Paper/ST-SLM.md",
     "docs/Paper/img",
