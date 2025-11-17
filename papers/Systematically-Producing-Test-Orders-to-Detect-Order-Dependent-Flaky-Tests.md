@@ -23,7 +23,7 @@ authors: ["Chengpeng Li", "M. Mahdi Khosravi", "Wing Lam", "August Shi"]
 
 ### 서론
 Flaky Test는 개발자에게 혼란을 주며, 이 중 '순서 의존적 테스트'(OD test)가 상당 부분을 차지한다. OD test는 이전 테스트가 공유 상태(shared state)를 수정한 후 초기화하지 않아, 다음 테스트가 예기치 않은 상태에서 실행되어 실패하는 경우 발생한다. 기존의 무작위 순서(random order) 생성 방식은 모든 OD test 탐지를 보장하지 못한다. Wei et al.이 제안한 Tuscan squares 기반의 체계적 접근법(본 논문에서 'Tuscan Class-Only'로 명명)은 테스트 '클래스' 단위의 페어만 커버하여, 클래스 내부의 테스트 페어(intra-class)나 다른 클래스의 특정 테스트 간 페어(cross-class)를 놓치는 한계가 있었다.
-
+![Figure 2](img/Pasted%20image%2020251117121859.png)
 ### 배경
 - **OD Test 유형**: OD test는 'Victim'(오염원(Polluter) 테스트가 먼저 실행되면 실패)과 'Brittle'(상태 설정자(State Setter) 테스트가 먼저 실행되어야만 통과)로 나뉜다. 'Cleaner' 테스트는 오염원과 Victim 사이에 실행되어 오염된 상태를 정리, Victim이 통과하게 만들 수 있다.
 - **Tuscan Squares**: N개의 항목에 대해, 모든 순서쌍 (a, b)가 연속적으로 나타나도록 하는 N (또는 N+1)개의 순열 집합.
