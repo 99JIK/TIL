@@ -2,7 +2,6 @@
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
 tags:
   ["Flaky Test", "Order-Dependent Test", "Test Generation", "Automated Repair"]
-authors: ["Chengpeng Li", "Chenguang Zhu", "Wenxi Wang", "August Shi"]
 Action Unit Detection:
   description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
 Active Learning:
@@ -413,6 +412,8 @@ Optimization:
 Optimization Landscape:
   description: 최적화 경관 - 파라미터 공간에서 손실 함수의 지형 구조
 Order-Dependent Flaky Test:
+  description:
+Order-Dependent Test:
   description:
 Outlier:
   description: 이상치 - 전체 데이터 분포에서 크게 벗어난 관측값
