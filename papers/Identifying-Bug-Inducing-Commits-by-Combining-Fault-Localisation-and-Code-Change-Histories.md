@@ -50,11 +50,11 @@ FONTE는 3단계 프로세스를 통해 BIC를 식별한다. (논문의 Figure 2
     - **최종 커밋 점수**: (논문의 Figure 4에 예시)
         $$commitScore(c) = \sum_{e \in E_{F,c}} vote(e) \cdot (1-\lambda)^{depth(e,c)}$$
         ($\lambda$는 감쇠 인자(decay factor))
-
+![Figure 5](img/Pasted%20image%2020251117123946.png)
 - **가중 이진 탐색 (Weighted Bisection)**
     - 표준 이진 탐색은 커밋 목록의 중간 지점을 피벗(pivot)으로 선택한다.
     - 가중 이진 탐색(Algorithm 1)은 FONTE 점수를 가중치로 사용하여, 남은 '점수의 합'이 절반이 되는 지점을 피벗으로 선택한다. (논문의 Figure 5 참조)
-
+![Figure 6](img/Pasted%20image%2020251117124033.png)
 ### 실험 결과
 - **주요 데이터셋**: Defects4J v2.0.0의 16개 Java 프로젝트에서 수집한 206개의 실제 BIC (기존 67개 + 수동 큐레이션 139개).
 - **RQ1-1 (탐색 공간 축소)**: 1, 2단계를 통해 전체 커밋 히스토리의 약 11% 수준으로 탐색 공간이 축소됨. 코드 이력 추적 도구(git log, CodeShovel, CodeTracker) 중 `git log`가 100%의 유효성(BIC 포함)과 가장 빠른 속도(평균 27.3초)를 보임.
