@@ -22,4 +22,14 @@ AI-Based Software Testing 분야는 성장하고 있다.
 	- Requests
 - Mobile
 	- Appium
-## Framework ^
+## Framework & Infrastructure
+- Test Runner
+- Design Pattern
+- Container
+## 심화
+- 성능 테스트
+	- JMeter
+	- k6
+	- Gatling
+- Visual Regression Test
+	- 
