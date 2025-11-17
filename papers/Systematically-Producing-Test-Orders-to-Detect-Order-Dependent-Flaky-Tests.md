@@ -32,7 +32,7 @@ Flaky Test는 개발자에게 혼란을 주며, 이 중 '순서 의존적 테스
 
 ### 모델 아키텍처 / 방법론
 본 논문은 기존 'Tuscan Class-Only'를 확장한 세 가지 기법을 제안한다.
-
+![Figure 3](img/Pasted%20image%2020251117121941.png)
 - **1. Tuscan Intra-Class**:
     - **핵심 구조**: Tuscan squares를 (1) 테스트 클래스 간 순서와 (2) 각 클래스 *내부*의 테스트 순서 모두에 적용.
     - **목표**: 모든 '테스트 클래스 페어'와 모든 '클래스 내부 테스트 페어(intra-class test pairs)'를 커버.
