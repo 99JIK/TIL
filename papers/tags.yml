@@ -2,8 +2,6 @@
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
 
 tags:
-  [
-    "Bug Inducing Commit",
     "Fault Localization",
     "Code Change History",
     "Bisection",
@@ -68,6 +66,8 @@ Biodegradable Polymers:
   description: 생분해성 고분자 - 미생물에 의해 분해 가능한 친환경 고분자 재료
 Bioinformatics:
   description: 생물정보학 - 컴퓨터 과학과 통계를 활용하여 생물학적 데이터를 분석하는 학문
+Bisection:
+  description:
 Bug Inducing Commit:
   description:
 Carbonation Curing:
@@ -86,6 +86,8 @@ Clustering:
   description: 군집화 - 유사한 데이터를 그룹으로 묶는 비지도 학습 기법
 CO2 Curing:
   description: CO2 양생 - 이산화탄소를 이용한 콘크리트 경화 및 강화 공정
+Code Change History:
+  description:
 Code Generation:
   description: 코드 생성 - 자연어 명령이나 사양으로부터 프로그램 코드를 자동으로 생성하는 기술
 Collaboration:
@@ -197,6 +199,8 @@ Facial Expression Analysis:
   description: 얼굴 표정 분석 - 얼굴의 미세한 근육 움직임과 표정 변화를 분석하여 감정 상태를 인식하는 기술
 Fatigue:
   description: 피로 - 반복적인 응력으로 인한 재료의 점진적 손상
+Fault Localization:
+  description:
 Feature Attribution:
   description: 특성 귀속 - 모델 예측에 대한 각 입력 특성의 기여도를 계산하는 기법
 Feature Importance:
