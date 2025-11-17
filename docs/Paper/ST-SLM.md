@@ -44,4 +44,5 @@ AI-Based Software Testing 분야는 성장하고 있다.
 	1. 멀티모달 AI가 UI Screenshoot, 변경된 Frontend Code, Selenium/Cypress 테스트 코드를 동시에 이해하여 깨질 테스트를 예측 가능한가?
 	2. 테스트가 실패하기 전, AI가 테스트 코드의 수정안을 생성 가능한가?
 - [ ] 생성형 AI Test를 위한 Meta-Testing Framework
-	1. 테스터 LLM이 타겟 LLM의 논리적 모순이나 사실 오류를 유발하는 프롬프트를 자동으로 생성하도록 강화학습 ㅅ
+	1. 테스터 LLM이 타겟 LLM의 논리적 모순이나 사실 오류를 유발하는 프롬프트를 자동으로 생성하도록 강화학습 시킬 수 있는가?
+	2. AI가 생성한 테스트 케이스의 품질을 측정할 새로운 메타-지표는 무엇인가?
