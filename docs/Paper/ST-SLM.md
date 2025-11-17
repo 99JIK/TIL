@@ -12,4 +12,14 @@ AI-Based Software Testing 분야는 성장하고 있다.
 - Bug Reporting
 ## Programming
 - 테스트 자동화를 위해 프로그래밍해야 함
-## 
+## 자동화 대상에 따른 도구
+- Web
+	- Selenium
+	- Cypress
+	- Playwright
+- API
+	- Postman
+	- Requests
+- Mobile
+	- Appium
+## Framework ^
