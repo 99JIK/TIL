@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Paper/ST-SLM.md",
+                "file": "docs/KNU-MS/2nd_semester/COMP0730.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ST-SLM"
+              "title": "COMP0730"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "c98d865b4e4e3886",
   "lastOpenFiles": [
+    "docs/Paper/ST-SLM.md",
     "papers/Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories.md",
     "papers/img/Pasted image 20251117124033.png",
     "papers/img/Pasted image 20251117123946.png",
@@ -196,7 +197,6 @@
     "papers/Systematically-Producing-Test-Orders-to-Detect-Order-Dependent-Flaky-Tests.md",
     "papers/img/Pasted image 20251117122422.png",
     "papers/All-You-Ever-Wanted-to-Know-About-Dynamic-Taint-Analysis-and-Forward-Symbolic-Executio(but-might-have-been-afraid-to-ask).md",
-    "docs/Paper/ST-SLM.md",
     "docs/Paper/img",
     "docs/Paper/UCWIT/Using-Regression-Chains-to-Find-Optimal-Solutions-for-Biodegradable-Fiber-Spinning-Recipes.md",
     "papers/From-image-to-UML-First-results-of-image-based-UML-diagram-generation-using-LLMs.md",
