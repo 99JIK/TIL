@@ -38,6 +38,8 @@ Audio-Haptic Conversion:
   description: 오디오-햅틱 변환 - 음향 신호를 촉각 피드백으로 변환하는 기술
 Autoencoder:
   description: 오토인코더 - 입력 데이터를 압축했다가 복원하며 특징을 학습하는 비지도 신경망
+Automated Repair:
+  description:
 Automatic Generation:
   description: 자동 생성 - 알고리즘을 통해 콘텐츠나 데이터를 자동으로 생성하는 기술b
 Automated Machine Learning:
@@ -592,6 +594,8 @@ Tensile Characterization:
   description: 인장 특성화 - 재료의 인장 강도와 변형 특성을 측정하는 과정
 Tensile Strength Prediction:
   description: 인장 강도 예측 - 재료의 인장 강도를 사전에 예측하는 기술
+Test Generation:
+  description:
 Textile:
   description: 섬유 - 천이나 직물을 만드는 재료
 Textile Engineering:
