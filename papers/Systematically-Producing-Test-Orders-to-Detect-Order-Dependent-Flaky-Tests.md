@@ -32,19 +32,19 @@ Flaky Test는 개발자에게 혼란을 주며, 이 중 '순서 의존적 테스
 
 ### 모델 아키텍처 / 방법론
 본 논문은 기존 'Tuscan Class-Only'를 확장한 세 가지 기법을 제안한다.
-![Figure 3](img/Pasted%20image%2020251117121941.png)
+![Figure 3](img/Pasted%20image%2020251117122238.png)
 - **1. Tuscan Intra-Class**:
     - **핵심 구조**: Tuscan squares를 (1) 테스트 클래스 간 순서와 (2) 각 클래스 *내부*의 테스트 순서 모두에 적용.
     - **목표**: 모든 '테스트 클래스 페어'와 모든 '클래스 내부 테스트 페어(intra-class test pairs)'를 커버.
     - **장점**: 기존 방식이 놓치던 동일 클래스 내의 Polluter/Victim 관계(예: Figure 3의 t2->t1)를 탐지 가능.
     - **한계**: 여전히 복잡한 cross-class 의존성(Cleaner가 포함된 경우, 예: Figure 3의 t6)은 탐지 보장 못 함.
-![Figure 4](img/Pasted%20image%2020251117122129.png)
+![Figure 4](img/Pasted%20image%2020251117122256.png)
 - **2. Tuscan Inter-Class**:
     - **핵심 구조**: 'Tuscan Intra-Class'를 확장하여, '클래스 간 테스트 페어(cross-class test pairs)'까지 *모두* 커버.
     - **작동**: 인접한 두 클래스(A, B)의 *모든* 테스트 순열 조합을 탐색. (예: A의 마지막 테스트와 B의 첫 테스트가 페어를 이루도록 함. Figure 4 참고)
     - **장점**: 모든 테스트가 다른 모든 테스트 직전/직후에 실행되는 순서를 생성하므로, Cleaner를 포함한 *모든* 유형의 OD test(단일 의존성) 탐지를 이론적으로 보장.
     - **단점**: 생성해야 하는 테스트 순서의 수가 기하급수적으로 증가함 (평균 76만 개, 최대 2,400만 개).
-
+![](img/Pasted%20image%2020251117122325.png)
 - **3. Target Pairs**:
     - **핵심 구조**: 모든 페어를 커버하는 대신, '공유 상태'를 갖는 페어만 타겟팅하여 커버하는 그리디(greedy) 알고리즘. (Figure 5 알고리즘 참고)
     - **대상 선정**: `getstatic`/`putstatic` 바이트코드 분석을 통해, 동일한 'static 필드'에 접근하는 테스트들을 페어로 구성.
