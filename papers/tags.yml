@@ -1,12 +1,6 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
 
-tags:
-    "Fault Localization",
-    "Code Change History",
-    "Bisection",
-    "Batch Testing",
-  ]
 Action Unit Detection:
   description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
 Active Learning:
@@ -52,6 +46,8 @@ Automated Machine Learning:
 Automation:
   description: 자동화 - 사람의 개입 없이 작업을 자동으로 수행하는 시스템이나 프로세스
 
+Batch Testing:
+  description:
 Bayesian Optimization:
   description: 베이지안 최적화 - 불확실성을 고려하여 탐색과 활용의 균형을 맞추는 최적화 기법
 Benchmark:
@@ -70,6 +66,7 @@ Bisection:
   description:
 Bug Inducing Commit:
   description:
+
 Carbonation Curing:
   description: 탄산화 양생 - CO2를 흡수시켜 콘크리트를 경화시키는 친환경 양생 방법
 Carbon Reduction:
