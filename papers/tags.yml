@@ -1,6 +1,14 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
 
+tags:
+  [
+    "Bug Inducing Commit",
+    "Fault Localization",
+    "Code Change History",
+    "Bisection",
+    "Batch Testing",
+  ]
 Action Unit Detection:
   description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
 Active Learning:
@@ -60,7 +68,8 @@ Biodegradable Polymers:
   description: 생분해성 고분자 - 미생물에 의해 분해 가능한 친환경 고분자 재료
 Bioinformatics:
   description: 생물정보학 - 컴퓨터 과학과 통계를 활용하여 생물학적 데이터를 분석하는 학문
-
+Bug Inducing Commit:
+  description:
 Carbonation Curing:
   description: 탄산화 양생 - CO2를 흡수시켜 콘크리트를 경화시키는 친환경 양생 방법
 Carbon Reduction:
