@@ -15,7 +15,7 @@
               "state": {
                 "file": "papers/Systematically-Producing-Test-Orders-to-Detect-Order-Dependent-Flaky-Tests.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Systematically-Producing-Test-Orders-to-Detect-Order-Dependent-Flaky-Tests"
