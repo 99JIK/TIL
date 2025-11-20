@@ -1,4 +1,5 @@
 - https://youtu.be/w8dzkimc7_o?si=zQNFewKU5D8-C5IG Melt Spinning 부분 추가 검토
+- https://youtu.be/H82HxwKSimU?si=U5wDU3sEYp_a1-em 섬유 인장강도 측정법
 ##  발명 내용 설명서 양식
 - 발표의 명칭
 	- 국문
