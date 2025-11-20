@@ -1,4 +1,4 @@
-- 섬유 방사 과정의 센싱 데이터를 시계열 DB에 전달하는 식
+- https://youtu.be/w8dzkimc7_o?si=zQNFewKU5D8-C5IG Melt Spinning 부분 추가 검토
 ##  발명 내용 설명서 양식
 - 발표의 명칭
 	- 국문
