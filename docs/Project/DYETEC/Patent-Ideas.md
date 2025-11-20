@@ -14,10 +14,10 @@
 	- 발명의 명칭
 - 대표도면
 ## Idea List
-### 파괴 검사 데이터 피드백을 이용하 자가 적응형 섬유 물성 가상 계측 시스템
+### 파괴 검사 데이터 피드백을 이용한 자가 적응형 섬유 물성 가상 계측 시스템
 - 발표의 명칭
 	- 국문: 파괴 검사 데이터 피드백을 이용한 자가 적응형 섬유 물성 가상 계측 시스템
-	- 영문: Fiber Spinning Process Monitoring System based on Slf-Learning Property Prediction AI
+	- 영문: Self-Adaptive Virtual Metrology System for Fiber Properties using Destructive 
 - 발명의 주요내용: 실시간 데이터 수집 및 물성 예측
 - 발명의 효과
 	- 품질 관리 효율화 - 전수 검사가 불가능한 섬유 물성을 가상 계측으로 전수 관리 가능
