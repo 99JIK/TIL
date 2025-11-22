@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Test-Intention-Guide-LLM-based-Unit-Test-Generation.md",
+                "file": "docs/Project/DYETEC/Patent-Ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test-Intention-Guide-LLM-based-Unit-Test-Generation"
+              "title": "Patent-Ideas"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1cf5e76cbf3c1b8b",
@@ -181,15 +180,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c98d865b4e4e3886",
+  "active": "a949b4f1da12db0c",
   "lastOpenFiles": [
     "papers/img/Pasted image 20251122204049.png",
     "papers/img/Pasted image 20251122204004.png",
     "papers/img/Pasted image 20251122203926.png",
     "papers/img/Pasted image 20251122203901.png",
-    "docs/Project/DYETEC/Patent-Ideas.md",
     "papers/Test-Intention-Guide-LLM-based-Unit-Test-Generation.md",
     "docs/Paper/Paper-Writing-Method-Built-on-Experience.md",
+    "docs/Project/DYETEC/Patent-Ideas.md",
     "docs/KNU-MS/2nd_semester/COMP0730.md",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251117182954.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251117182918.png",
