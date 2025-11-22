@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Project/DYETEC/Patent-Ideas.md",
+                "file": "papers/Test-Intention-Guide-LLM-based-Unit-Test-Generation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Patent-Ideas"
-            }
-          },
-          {
-            "id": "af54b786419b8383",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "title": "Test-Intention-Guide-LLM-based-Unit-Test-Generation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,10 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af54b786419b8383",
+  "active": "c98d865b4e4e3886",
   "lastOpenFiles": [
-    "docs/Paper/Paper-Writing-Method-Built-on-Experience.md",
     "docs/Project/DYETEC/Patent-Ideas.md",
+    "papers/Test-Intention-Guide-LLM-based-Unit-Test-Generation.md",
+    "docs/Paper/Paper-Writing-Method-Built-on-Experience.md",
     "docs/KNU-MS/2nd_semester/COMP0730.md",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251117182954.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251117182918.png",
@@ -236,7 +224,6 @@
     "docs/Project/Y-DESIGN-LAB",
     "docs/Project/DYETEC/img/Untitled.md",
     "papers/OpenFace-3.0-A-Lightweight-Multitask-System-for-Comprehensive-Facial-Behavior-Analysis.md",
-    "docs/Project/KOJ/Guide.md",
     "docs/Project/KOJ/img",
     "docs/Project/KOJ",
     "img",
