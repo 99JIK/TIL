@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Patent-Ideas"
             }
+          },
+          {
+            "id": "af54b786419b8383",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c98d865b4e4e3886",
+  "active": "af54b786419b8383",
   "lastOpenFiles": [
     "docs/Paper/Paper-Writing-Method-Built-on-Experience.md",
     "docs/Project/DYETEC/Patent-Ideas.md",
