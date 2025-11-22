@@ -29,7 +29,7 @@ LLM(Large Language Models)의 등장은 단위 테스트 생성에 새로운 가
 본 연구를 이해하기 위해 다음과 같은 개념이 전제된다.
 * **제어 흐름 그래프(Control-Flow Graph, CFG)**: 프로그램의 실행 흐름을 방향 그래프 $G=(B, E)$로 모델링한 것. 여기서 $B$는 기본 블록(basic block), $E$는 제어 흐름을 나타내는 엣지이다.
 * **Mocking**: 테스트 대상 코드(Focal Method)가 의존하는 외부 객체의 동작을 흉내 내어, 테스트를 격리하고 실행 속도와 안정성을 보장하는 기법이다.
-
+![Figure 4](img/Pasted%20image%2020251122204004.png)
 ### 모델 아키텍처 / 방법론
 **IntUT**는 크게 테스트 의도 생성(PAINT)과 프롬프트 조립 및 LLM 생성의 두 단계로 구성된다(Figure 4 참조).
 
@@ -38,7 +38,7 @@ PAINT(Program Analysis-driven test Intention generation)는 정적 분석을 통
 * **블록 분석 (Block Analysis)**: 소스 코드를 CFG로 변환하고 If, Switch, Exception, Hybrid 블록으로 분류하여 분석한다. 각 분기로 나가는 엣지(Edge)에 True/False 조건을 레이블링한다.
 * **SSM-DFS 알고리즘**: Subgraph-Split-Merge Depth-First Search 알고리즘을 사용하여 CFG를 순회한다. 이는 함수 호출이나 예외 처리가 포함된 복잡한 구조에서, 특정 분기(Leaf Node)에 도달하기 위해 만족해야 하는 조건들의 체인(Condition Chain)을 추출한다. 경로 폭발(Path Explosion) 문제를 완화하기 위해 중첩 조건(Nested Condition) 위주로 가지치기(Pruning)를 수행한다.
 * **Mock Classifier**: CodeBERT 기반으로 학습된 분류기를 사용하여, 조건 체인 내의 함수 호출이 실제 실행되어야 하는지 혹은 Mocking 되어야 하는지를 결정한다. Mocking이 필요한 경우, 해당 분기에 도달하기 위한 반환값을 Mock 조건으로 설정한다.
-
+![Figure 6](img/Pasted%20image%2020251122204049.png)
 #### 2. 프롬프트 구성 (Figure 6 참조)
 추출된 테스트 의도는 다음과 같은 템플릿 형태로 변환되어 LLM 프롬프트에 포함된다.
 * **Input Parameters**: 해당 분기를 타기 위해 필요한 입력 변수 설정 (예: `StringUtils.isEmpty(id)`가 False가 되도록 id 설정).
