@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1cf5e76cbf3c1b8b",
@@ -182,6 +183,7 @@
   },
   "active": "c98d865b4e4e3886",
   "lastOpenFiles": [
+    "papers/img/Pasted image 20251122203901.png",
     "docs/Project/DYETEC/Patent-Ideas.md",
     "papers/Test-Intention-Guide-LLM-based-Unit-Test-Generation.md",
     "docs/Paper/Paper-Writing-Method-Built-on-Experience.md",
@@ -223,7 +225,6 @@
     "docs/Project/DYETEC/Meeting-250910.md",
     "docs/Project/Y-DESIGN-LAB",
     "docs/Project/DYETEC/img/Untitled.md",
-    "papers/OpenFace-3.0-A-Lightweight-Multitask-System-for-Comprehensive-Facial-Behavior-Analysis.md",
     "docs/Project/KOJ/img",
     "docs/Project/KOJ",
     "img",
