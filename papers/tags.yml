@@ -1,6 +1,6 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
-tags: ["Automated Software Repair", "Genetic Programming", "Legacy Systems"
+
 Action Unit Detection:
   description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
 Active Learning:
@@ -40,7 +40,9 @@ Autoencoder:
 Automated Repair:
   description: 자동 수정 - 소프트웨어 버그를 자동으로 탐지하고 수정하는 기술
 Automatic Generation:
-  description: 자동 생성 - 알고리즘을 통해 콘텐츠나 데이터를 자동으로 생성하는 기술b
+  description: 자동 생성 - 알고리즘을 통해 콘텐츠나 데이터를 자동으로 생성하는 기술
+Automated Software Repair:
+  description:
 Automated Machine Learning:
   description: 자동 머신러닝 - 모델 선택, 하이퍼파라미터 튜닝 등 머신러닝 파이프라인을 자동화하는 기술
 Automation:
@@ -331,6 +333,8 @@ Learning-based Image Processing:
   description: 학습 기반 이미지 처리 - 머신러닝을 활용한 이미지 분석 및 변환 기술
 Least Trimmed Squares:
   description: 최소절사제곱법 - 이상치에 강건한 회귀 분석 방법
+Legacy Systems:
+  description:
 Lightfastness:
   description: 내광성 - 빛에 노출되어도 색이 바래지 않는 성질
 LIME:
