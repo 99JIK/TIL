@@ -15,7 +15,7 @@
               "state": {
                 "file": "papers/Fault-Localization-with-Code-Coverage-Representation-Learning.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Fault-Localization-with-Code-Coverage-Representation-Learning"
