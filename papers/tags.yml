@@ -379,7 +379,7 @@ MCTS:
 Melt Spinning Machine:
   description: 멜트 스피닝 기계 - 용융 고분자를 방사하여 섬유를 제조하는 장비
 Mocking:
-  description:
+  description: 모킹 - 테스트 시 실제 객체 대신 가짜 객체를 사용하여 독립적인 테스트를 수행하는 기법
 Model Compression:
   description: 모델 압축 - 모델 크기를 줄여 배포와 추론 효율성을 높이는 기술
 Model Deployment:
@@ -486,7 +486,7 @@ Process Optimization:
 Program Analysis:
   description: 프로그램 분석 - 소프트웨어의 동작과 속성을 자동으로 분석하여 버그와 취약점을 발견하는 기술
 Program Spectra:
-  description:
+  description: 프로그램 스펙트라 - 프로그램 실행 중 코드 요소의 실행 빈도를 기록한 데이터
 Programming Challenges:
   description: 프로그래밍 챌린지 - 알고리즘과 코딩 능력을 시험하는 문제 해결 과제
 Prompt Engineering:
@@ -520,7 +520,7 @@ Regression Chain:
 Reinforcement Learning:
   description: 강화학습 - 보상을 최대화하는 행동을 학습하는 머신러닝 방법
 Representation Learning:
-  description:
+  description: 표현 학습 - 원시 데이터로부터 유용한 특징을 자동으로 학습하는 머신러닝 기법
 Reproducibility:
   description: 재현성 - 동일한 조건에서 실험이나 연구 결과를 반복하여 얻을 수 있는 능력
 Residual Learning:
@@ -585,7 +585,7 @@ Stacking Ensemble Model:
 State Space Models:
   description: 상태 공간 모델 - 시스템의 동적 상태를 확률적으로 표현하는 모델
 Static Analysis:
-  description:
+  description: 정적 분석 - 프로그램을 실행하지 않고 소스 코드를 분석하여 오류와 취약점을 탐지하는 기법
 Statistical Models:
   description: 통계 모델 - 확률 분포를 기반으로 데이터를 설명하는 수학적 모델
 Stroke Prediction:
@@ -649,7 +649,7 @@ Unified Modeling Language:
 Unified Modeling Language Diagram:
   description: UML 다이어그램 - UML을 사용하여 시스템의 구조와 동작을 표현한 시각적 다이어그램
 Unit Test Generation:
-  description:
+  description: 단위 테스트 생성 - 개별 함수나 모듈을 검증하는 테스트 코드를 자동으로 생성하는 기술
 Unsupervised Learning:
   description: 비지도학습 - 레이블 없이 데이터의 패턴을 학습하는 머신러닝 방법
 User Experience:
