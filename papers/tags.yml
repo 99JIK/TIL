@@ -1,6 +1,6 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
-tags: ["Bug Localization", "Information Retrieval", "Program Spectra", "Software Engineering", "Debugging"
+
 Action Unit Detection:
   description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
 Active Learning:
@@ -305,6 +305,8 @@ ImageNet:
   description: ImageNet - 대규모 이미지 데이터베이스이자 컴퓨터 비전 벤치마크
 Inclusive Learning:
   description: 포용적 학습 - 모든 학습자의 다양성을 존중하고 접근성을 보장하는 교육 방식
+Information Retrieval:
+  description:
 In-memory Database:
   description: 인메모리 데이터베이스 - 데이터를 메모리에 저장하여 빠른 접근을 제공하는 데이터베이스
 Inorganic Crystals:
@@ -479,6 +481,8 @@ Process Optimization:
   description: 공정 최적화 - 생산 프로세스의 효율성과 품질을 극대화하는 기술
 Program Analysis:
   description: 프로그램 분석 - 소프트웨어의 동작과 속성을 자동으로 분석하여 버그와 취약점을 발견하는 기술
+Program Spectra:
+  description:
 Programming Challenges:
   description: 프로그래밍 챌린지 - 알고리즘과 코딩 능력을 시험하는 문제 해결 과제
 Prompt Engineering:
