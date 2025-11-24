@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/GenProg-A-Generic-Method-for-Automatic-Software-Repair.md",
+                "file": "papers/Fault-Localization-with-Code-Coverage-Representation-Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GenProg-A-Generic-Method-for-Automatic-Software-Repair"
+              "title": "Fault-Localization-with-Code-Coverage-Representation-Learning"
             }
           }
         ]
@@ -182,10 +182,12 @@
   },
   "active": "72c63cf7cab85b72",
   "lastOpenFiles": [
+    "papers/GenProg-A-Generic-Method-for-Automatic-Software-Repair.md",
+    "papers/Fault-Localization-with-Code-Coverage-Representation-Learning.md",
+    "papers/img/Pasted image 20251124143438.png",
     "papers/img/Pasted image 20251124143411.png",
     "papers/img/Pasted image 20251124143317.png",
     "papers/Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together.md",
-    "papers/GenProg-A-Generic-Method-for-Automatic-Software-Repair.md",
     "papers/Large-Language-Models-for-Test-Free-Fault-Localization.md",
     "papers/img/Pasted image 20251124142033.png",
     "papers/img/Pasted image 20251124141952.png",
@@ -198,8 +200,6 @@
     "papers/Test-Intention-Guide-LLM-based-Unit-Test-Generation.md",
     "papers/img/Pasted image 20251122204049.png",
     "papers/img/Pasted image 20251122204004.png",
-    "papers/img/Pasted image 20251122203926.png",
-    "papers/img/Pasted image 20251122203901.png",
     "docs/Project/DYETEC/Patent-Ideas.md",
     "docs/Paper/Paper-Writing-Method-Built-on-Experience.md",
     "docs/KNU-MS/2nd_semester/COMP0730.md",
