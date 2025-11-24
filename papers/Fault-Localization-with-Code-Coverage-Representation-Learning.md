@@ -12,10 +12,10 @@ authors: [Yi Li, Shaohua Wang, Tien N. Nguyen]
 - **저자**: Yi Li, Shaohua Wang, Tien N. Nguyen (New Jersey Institute of Technology, The University of Texas at Dallas)
 - **학회/저널**: arXiv:2103.00270v1 (ICSE 2021 등재 연구 기반)
 - **발행일**: 2021-02-27
-- **주요 연구 내용**: 결함 위치 추정(FL)을 이미지 패턴 인식 문제로 접근하여, 코드 커버리지 행렬(Code Coverage Matrix)의 테스트 케이스를 시각적 패턴이 드러나도록 재정렬하고, 문장 간 데이터 의존성을 학습하여 CNN으로 결함을 탐지하는 DEEPRL4FL 모델을 제안했다.
-- **주요 결과 및 결론**: Defects4J 벤치마크에서 기존 최고 성능의 Statement-level FL 모델 대비 Top-1 정확도를 173.1%에서 491.7%까지 향상시켰으며, Method-level에서도 기존 기법들을 크게 상회하는 성능을 입증했다.
-- **기여점**: 단순한 통계적 점수 계산을 넘어 코드 커버리지 행렬의 전체 정보를 활용하는 새로운 표현 학습(Representation Learning) 방식을 제시하고, 테스트 케이스 정렬 알고리즘과 데이터 의존성 통합을 통해 딥러닝 모델의 FL 성능을 극대화했다.
-
+- **주요 연구 내용**: 결함 위치 추정(FL)을 이미지 패턴 인식 문제로 접근하여, 코드 커버리지 행렬(Code Coverage Matrix)의 테스트 케이스를 시각적 패턴이 드러나도록 재정렬하고, 문장 간 데이터 의존성을 학습하여 CNN으로 결함을 탐지하는 DEEPRL4FL 모델을 제안함.
+- **주요 결과 및 결론**: Defects4J 벤치마크에서 기존 최고 성능의 Statement-level FL 모델 대비 Top-1 정확도를 173.1%에서 491.7%까지 향상시켰으며, Method-level에서도 기존 기법들을 크게 상회하는 성능을 입증함.
+- **기여점**: 단순한 통계적 점수 계산을 넘어 코드 커버리지 행렬의 전체 정보를 활용하는 새로운 표현 학습(Representation Learning) 방식을 제시하고, 테스트 케이스 정렬 알고리즘과 데이터 의존성 통합을 통해 딥러닝 모델의 FL 성능을 극대화함.
+<!--truncate-->
 ## 요약
 
 ### 초록
