@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b97f705d27e4747b",
+        "id": "51d8fedc37e0f625",
         "type": "tabs",
         "children": [
           {
-            "id": "c98d865b4e4e3886",
+            "id": "72c63cf7cab85b72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Systematically-Producing-Test-Orderes-to-Detect-Order-Dependent-Flaky-Tests.md",
+                "file": "papers/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Systematically-Producing-Test-Orderes-to-Detect-Order-Dependent-Flaky-Tests"
+              "title": "Untitled"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,10 +180,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d08454e46a1d44dd",
+  "active": "72c63cf7cab85b72",
   "lastOpenFiles": [
-    "papers/Test-Intention-Guide-LLM-based-Unit-Test-Generation.md",
+    "Untitled 1.base",
+    "papers/Untitled.md",
+    "Untitled.base",
     "papers/Systematically-Producing-Test-Orderes-to-Detect-Order-Dependent-Flaky-Tests.md",
+    "papers/img/Pasted image 20251124141618.png",
+    "papers/Test-Intention-Guide-LLM-based-Unit-Test-Generation.md",
     "papers/img/Pasted image 20251122204049.png",
     "papers/img/Pasted image 20251122204004.png",
     "papers/img/Pasted image 20251122203926.png",
@@ -199,7 +202,6 @@
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251117173559.png",
     "docs/Paper/ST-SLM.md",
     "papers/Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories.md",
-    "papers/img/Pasted image 20251117124033.png",
     "papers/Repairing-Order-Dependent-Flaky-Tests-via-Test-Generation.md",
     "papers/Systematically-Producing-Test-Orders-to-Detect-Order-Dependent-Flaky-Tests.md",
     "papers/All-You-Ever-Wanted-to-Know-About-Dynamic-Taint-Analysis-and-Forward-Symbolic-Executio(but-might-have-been-afraid-to-ask).md",
@@ -222,15 +224,11 @@
     "docs/Project/Y-DESIGN-LAB/img/WellnessEconMonitor2024PDF.pdf",
     "docs/Project/Y-DESIGN-LAB/Development-of-a-Spherical-LED-Media-Therapy-Device-for-Mental-Wellness.md",
     "docs/Project/Y-DESIGN-LAB/img",
-    "docs/Project/DYETEC/Meeting-250910.md",
     "docs/Project/Y-DESIGN-LAB",
-    "docs/Project/DYETEC/img/Untitled.md",
     "docs/Project/KOJ/img",
     "docs/Project/KOJ",
-    "img",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "보고서.pdf"
+    "Untitled.canvas"
   ]
 }
