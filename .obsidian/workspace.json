@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/GenProg-A-Generic-Method-for-Automatic-Software-Repair.md",
+                "file": "papers/Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "GenProg-A-Generic-Method-for-Automatic-Software-Repair"
+              "title": "Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together"
             }
           }
         ]
@@ -182,9 +182,9 @@
   },
   "active": "72c63cf7cab85b72",
   "lastOpenFiles": [
+    "papers/GenProg-A-Generic-Method-for-Automatic-Software-Repair.md",
     "papers/Fault-Localization-with-Code-Coverage-Representation-Learning.md",
     "papers/img/Pasted image 20251124143640.png",
-    "papers/GenProg-A-Generic-Method-for-Automatic-Software-Repair.md",
     "papers/img/Pasted image 20251124143438.png",
     "papers/img/Pasted image 20251124143411.png",
     "papers/img/Pasted image 20251124143317.png",
