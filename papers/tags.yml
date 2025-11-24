@@ -1,6 +1,6 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
-tags: ["Automated Software Repair", "Genetic Programming", "Software Engineering", "Legacy Systems"
+tags: ["Automated Software Repair", "Genetic Programming", "Legacy Systems"
 Action Unit Detection:
   description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
 Active Learning:
@@ -251,6 +251,8 @@ Gene Expression Programming:
   description: 유전자 발현 프로그래밍 - 유전 알고리즘을 이용한 자동 프로그램 생성 기법
 Gene Therapy:
   description: 유전자 치료 - 유전자를 조작하여 질병을 치료하는 의학 기술
+Genetic Programming:
+  description:
 Generalization And Induction:
   description: 일반화 및 귀납 - 특정 사례로부터 일반적 규칙을 도출하는 학습 과정
 Generative Adversarial Networks:
