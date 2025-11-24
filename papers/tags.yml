@@ -1,6 +1,6 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
-
+tags: ["Bug Localization", "Information Retrieval", "Program Spectra", "Software Engineering", "Debugging"
 Action Unit Detection:
   description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
 Active Learning:
@@ -136,6 +136,8 @@ Data Preprocessing:
   description: 데이터 전처리 - 원시 데이터를 정제하고 변환하여 분석에 적합하게 만드는 과정
 Data Store:
   description: 데이터 저장소 - 데이터를 체계적으로 저장하고 관리하는 시스템
+Debugging:
+  description:
 Deep Learning:
   description: 딥러닝 - 다층 신경망을 이용한 표현 학습 및 패턴 인식 기술
 Deep Learning Theory:
