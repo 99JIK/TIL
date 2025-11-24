@@ -33,7 +33,7 @@ authors: [Yi Li, Shaohua Wang, Tien N. Nguyen]
     3.  **상습 용의자 (Source Code Rep)**: 훈련 데이터에서 학습된 유사한 버그 코드 패턴.
 - **기존 문제점 (Observation 1)**: 기존 기법들은 행/열을 하나의 점수로 요약하여 정보 손실이 발생한다.
 - **기존 문제점 (Observation 2)**: 오류가 발현된 위치(Error-exhibiting line)와 실제 버그 위치가 다를 수 있으므로, 데이터 의존성을 고려해야 한다.
-
+![Figure 5](img/Pasted%20image%2020251124143640.png)
 ### 모델 아키텍처 / 방법론
 DEEPRL4FL은 크게 세 가지 표현 학습 과정으로 구성된다. (논문의 Figure 5 참조)
 
