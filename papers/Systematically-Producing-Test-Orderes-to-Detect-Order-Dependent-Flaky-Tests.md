@@ -30,20 +30,20 @@ OD 테스트는 특정 테스트가 먼저 실행되어 공유 상태(shared sta
 OD 테스트는 결정론적으로(deterministically) 특정 순서에서는 성공하고 다른 순서에서는 실패한다. 
 - **Victim & Polluter**: Victim은 혼자 실행하면 성공하지만, Polluter가 먼저 실행되어 공유 상태를 오염시키면 실패한다.
 - **Cleaner**: Polluter와 Victim 사이에 실행되어 오염된 상태를 초기화해 Victim이 성공하게 만드는 테스트다.
-- [cite_start]**Brittle & State Setter**: Brittle은 혼자 실행하면 실패하지만, State Setter가 먼저 실행되어 필요한 상태를 설정해주면 성공한다. [cite: 96, 97]
+- **Brittle & State Setter**: Brittle은 혼자 실행하면 실패하지만, State Setter가 먼저 실행되어 필요한 상태를 설정해주면 성공한다.
 
 #### Tuscan Squares
-자연수 $N$에 대해 Tuscan square는 $N$개의 행을 가지며, 각 행은 $1$부터 $N$까지의 순열로 이루어진다. [cite_start]모든 서로 다른 숫자 쌍 $(a, b)$에 대해 $a$가 $b$ 바로 앞에 오는 행이 적어도 하나 존재한다는 특성이 있다. [cite: 136] [cite_start]이를 테스트 순서에 적용하면, $N$개의 테스트에 대해 $N$ (또는 $N+1$)개의 순서를 생성하여 모든 인접한 테스트 쌍을 실행해 볼 수 있다. [cite: 137, 139]
+자연수 $N$에 대해 Tuscan square는 $N$개의 행을 가지며, 각 행은 $1$부터 $N$까지의 순열로 이루어진다. 모든 서로 다른 숫자 쌍 $(a, b)$에 대해 $a$가 $b$ 바로 앞에 오는 행이 적어도 하나 존재한다는 특성이 있다. 이를 테스트 순서에 적용하면, $N$개의 테스트에 대해 $N$ (또는 $N+1$)개의 순서를 생성하여 모든 인접한 테스트 쌍을 실행해 볼 수 있다.
 
 ### 모델 아키텍처 / 방법론
 
 #### 1. Tuscan Intra-Class
-[cite_start]기존의 Tuscan Class-Only 방식이 테스트 클래스 간의 순서만 바꿨다면, 이 기법은 클래스 내부의 테스트 순서도 체계적으로 변경한다. [cite: 62]
-- **방법**: 먼저 Tuscan squares를 이용해 테스트 클래스들의 순열을 생성한다. [cite_start]그 후, 각 테스트 클래스 내부에서도 Tuscan squares를 적용해 테스트 메소드들의 순열을 생성한다. [cite: 241, 242]
-- [cite_start]**장점**: 같은 클래스 내부에 있는 Polluter/Victim 관계를 탐지할 수 있다. [cite: 254]
+기존의 Tuscan Class-Only 방식이 테스트 클래스 간의 순서만 바꿨다면, 이 기법은 클래스 내부의 테스트 순서도 체계적으로 변경한다.
+- **방법**: 먼저 Tuscan squares를 이용해 테스트 클래스들의 순열을 생성한다. 그 후, 각 테스트 클래스 내부에서도 Tuscan squares를 적용해 테스트 메소드들의 순열을 생성한다.
+- **장점**: 같은 클래스 내부에 있는 Polluter/Victim 관계를 탐지할 수 있다.
 
 #### 2. Tuscan Inter-Class
-[cite_start]모든 테스트(다른 클래스에 속한 테스트 포함)가 서로 바로 다음에 실행되는 경우(Cross-class test pairs)를 커버한다. [cite: 64, 326]
+모든 테스트(다른 클래스에 속한 테스트 포함)가 서로 바로 다음에 실행되는 경우(Cross-class test pairs)를 커버한다.
 - **방법**: JUnit 등의 제약으로 인해 다른 클래스의 테스트를 섞어서 실행할 수는 없다. [cite_start]따라서 테스트 클래스 $A$와 $B$가 인접했을 때, $A$의 마지막 테스트와 $B$의 첫 번째 테스트가 되는 모든 조합을 시도한다. [cite: 327, 330]
 - [cite_start]**특징**: 이론적으로 모든 OD 테스트를 탐지할 수 있지만, 생성되는 테스트 순서의 수가 매우 많다(수십만~수백만 개). [cite: 75, 537]
 
