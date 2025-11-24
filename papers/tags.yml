@@ -503,6 +503,8 @@ Regression Chain:
   description: 회귀 체인 - 여러 회귀 모델을 연쇄적으로 연결한 예측 기법
 Reinforcement Learning:
   description: 강화학습 - 보상을 최대화하는 행동을 학습하는 머신러닝 방법
+Representation Learning:
+  description:
 Reproducibility:
   description: 재현성 - 동일한 조건에서 실험이나 연구 결과를 반복하여 얻을 수 있는 능력
 Residual Learning:

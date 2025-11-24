@@ -3,7 +3,7 @@ title: "Fault Localization with Code Coverage Representation Learning"
 date: "2021-02-27"
 description: "결함 위치 추정(Fault Localization)을 이미지 패턴 인식 문제로 정의하고, 테스트 케이스 정렬 및 데이터 의존성 표현 학습을 결합한 CNN 기반 모델 DEEPRL4FL 제안"
 keywords: [Fault Localization, Deep Learning, Code Coverage, CNN, Representation Learning]
-tags: ["Fault Localization", "Deep Learning", "Software Engineering", "CNN", "Representation Learning"]
+tags: ["Fault Localization", "Deep Learning", "Software Engineering", "Convolutional Neural Networks", "Representation Learning"]
 authors: [Yi Li, Shaohua Wang, Tien N. Nguyen]
 ---
 
