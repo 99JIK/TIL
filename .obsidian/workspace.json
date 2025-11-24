@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Large-Language-Models-for-Test-Free-Fault-Localization.md",
+                "file": "papers/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Large-Language-Models-for-Test-Free-Fault-Localization"
+              "title": "Untitled"
             }
           }
         ]
@@ -182,11 +182,13 @@
   },
   "active": "72c63cf7cab85b72",
   "lastOpenFiles": [
+    "papers/Large-Language-Models-for-Test-Free-Fault-Localization.md",
+    "papers/Untitled.md",
+    "papers/img/Pasted image 20251124142033.png",
     "papers/img/Pasted image 20251124141952.png",
     "papers/img/Pasted image 20251124141909.png",
     "papers/img/Pasted image 20251124141827.png",
     "Untitled 1.base",
-    "papers/Large-Language-Models-for-Test-Free-Fault-Localization.md",
     "Untitled.base",
     "papers/Systematically-Producing-Test-Orderes-to-Detect-Order-Dependent-Flaky-Tests.md",
     "papers/img/Pasted image 20251124141618.png",
@@ -199,8 +201,6 @@
     "docs/Paper/Paper-Writing-Method-Built-on-Experience.md",
     "docs/KNU-MS/2nd_semester/COMP0730.md",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251117182954.png",
-    "docs/KNU-MS/2nd_semester/img/Pasted image 20251117182918.png",
-    "docs/KNU-MS/2nd_semester/img/Pasted image 20251117182846.png",
     "docs/Paper/ST-SLM.md",
     "papers/Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories.md",
     "papers/Repairing-Order-Dependent-Flaky-Tests-via-Test-Generation.md",
