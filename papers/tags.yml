@@ -70,7 +70,7 @@ Bug Localization:
   description:
 Bug Inducing Commit:
   description: 버그 유발 커밋 - 소프트웨어에 결함을 도입한 코드 변경 이력
-"", "Static Analysis", ""]
+
 Carbonation Curing:
   description: 탄산화 양생 - CO2를 흡수시켜 콘크리트를 경화시키는 친환경 양생 방법
 Carbon Reduction:
@@ -584,6 +584,8 @@ Stacking Ensemble Model:
   description: 스태킹 앙상블 모델 - 여러 모델의 예측을 메타 모델로 결합하는 앙상블 기법
 State Space Models:
   description: 상태 공간 모델 - 시스템의 동적 상태를 확률적으로 표현하는 모델
+Static Analysis:
+  description:
 Statistical Models:
   description: 통계 모델 - 확률 분포를 기반으로 데이터를 설명하는 수학적 모델
 Stroke Prediction:
