@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c98d865b4e4e3886",
+  "active": "d08454e46a1d44dd",
   "lastOpenFiles": [
     "papers/Test-Intention-Guide-LLM-based-Unit-Test-Generation.md",
     "papers/Systematically-Producing-Test-Orderes-to-Detect-Order-Dependent-Flaky-Tests.md",
