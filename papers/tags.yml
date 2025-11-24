@@ -66,6 +66,8 @@ Bioinformatics:
   description: 생물정보학 - 컴퓨터 과학과 통계를 활용하여 생물학적 데이터를 분석하는 학문
 Bisection:
   description: 이분법 - 구간을 반으로 나누어 해를 찾는 수치 해석 알고리즘
+Bug Localization:
+  description:
 Bug Inducing Commit:
   description: 버그 유발 커밋 - 소프트웨어에 결함을 도입한 코드 변경 이력
 

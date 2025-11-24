@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together.md",
+                "file": "papers/Large-Language-Models-for-Test-Free-Fault-Localization.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together"
+              "title": "Large-Language-Models-for-Test-Free-Fault-Localization"
             }
           }
         ]
@@ -182,13 +182,13 @@
   },
   "active": "72c63cf7cab85b72",
   "lastOpenFiles": [
+    "papers/Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together.md",
     "papers/GenProg-A-Generic-Method-for-Automatic-Software-Repair.md",
     "papers/Fault-Localization-with-Code-Coverage-Representation-Learning.md",
     "papers/img/Pasted image 20251124143640.png",
     "papers/img/Pasted image 20251124143438.png",
     "papers/img/Pasted image 20251124143411.png",
     "papers/img/Pasted image 20251124143317.png",
-    "papers/Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together.md",
     "papers/Large-Language-Models-for-Test-Free-Fault-Localization.md",
     "papers/img/Pasted image 20251124142033.png",
     "papers/img/Pasted image 20251124141952.png",
