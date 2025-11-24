@@ -16,7 +16,7 @@ authors: [Claire Le Goues, Thanh Vu Nguyen, Stephanie Forrest, Westley Weimer]
 - **주요 연구 내용**: 공식적인 명세(Specification)가 없는 기성(off-the-shelf) C 프로그램의 결함을 수정하기 위해, 유전 프로그래밍(Genetic Programming)을 확장하여 자동화된 수정을 생성하는 기법인 GenProg를 제안함. 기존 테스트 케이스를 활용해 결함과 필수 기능을 정의하고, AST(추상 구문 트리) 수준에서 유전 연산(변경, 교차)을 수행하여 수정한 뒤 델타 디버깅으로 최소한의 패치를 생성함.
 - **주요 결과 및 결론**: 총 125만 줄(LOC)에 달하는 16개의 오픈 소스 프로그램(웹 서버, 미디어 플레이어 등)에서 8가지 유형의 결함을 대상으로 실험한 결과, 평균 357초 만에 수리에 성공함. 생성된 패치는 입력 암기(Input Memorization) 방식이 아닌 실제 결함을 해결하는 일반적인 수정본임이 검증됨.
 - **기여점**: 주석이나 특수 코딩 관행 없이도 실제 레거시 소프트웨어에 적용 가능한 최초의 범용 자동 수리 방법을 입증했으며, 유전 프로그래밍을 소프트웨어 유지보수 영역으로 확장함.
-
+<!--truncate-->
 ## 요약
 
 ### 초록
@@ -43,7 +43,7 @@ GenProg는 프로그램 변형을 **(1) 추상 구문 트리(AST)**와 **(2) 가
 적합도 함수는 테스트 케이스 통과 여부로 결정된다.
 $$fitness(P) = W_{PosT} \times |\{t \in PosT | P \text{ passes } t\}| + W_{NegT} \times |\{t \in NegT | P \text{ passes } t\}|$$
 여기서 $PosT$는 긍정적 테스트 셋, $NegT$는 부정적 테스트 셋이며, $W$는 각 가중치이다. 컴파일되지 않는 변형은 적합도가 0이다.
-
+![Figure 1](img/Pasted%20image%2020251124143317.png)
 #### 수리 최소화 (Repair Minimization)
 GP가 찾은 초기 수리(Primary Repair)는 불필요한 변경을 포함할 수 있다. 논문의 Figure 1에서 보여지듯, 델타 디버깅(Delta Debugging)과 구조적 차이(Structural Differencing) 알고리즘을 사용하여 테스트 통과에 필수적이지 않은 변경 사항을 제거하고 1-minimal 패치를 생성한다.
 
