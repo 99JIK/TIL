@@ -54,10 +54,17 @@
 	- 국문: 데이터 밀도 기반 군집화 및 공정 민감도 분석을 이용한 섬유 방사 공정 최적 레시피 추천 시스템 및 방법
 	- 영문: System and Method for Recommending Optimal Fiber Spinning Recipe using Data Density-based Clustering and Process Sensitivity Analysis
 - 발명의 주요내용
-	1. 데이터 군집화 및
+	1. 데이터 군집화 및 주력 영역 선정
+	2. 국소 반응 표면 모델링
+	3. 민감도 기반 최적화
 - 발명의 효과
+	- 공정 불량률 감소
+	- 신제품 생산 준비 시간 단축
 - 기술의 특징
+	- 신뢰성 확보
+	- 안정성 확보
 - 시장성 및 기업화 전망
+	- 스마트 팩토리 
 - 적용 및 응용분야
 - 발명이 속하는 기술분야
 - 요약서
