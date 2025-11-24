@@ -54,7 +54,9 @@
 	- 국문: 순방향 예측 모델 기반 가상 해공간 탐색 및 민감도 분석을 이용한 섬유 방사 공정 레시피 추천 시스템
 	- 영문: Optimal Fiber Spinning Recipe Recommendation System using Forward Prediction Model-based Virtual Solution Space Search and Sensitivity Analysis
 - 발명의 주요내용
-	1. 입력 변수(공정 조건)에 따른 출력 변수(물성)
+	1. 입력 변수(공정 조건)에 따른 출력 변수(물성)를 예측하는 AI 기반 순방향 모델을 구축하여 가상 계측 환경을 마련함
+	2. 상기 모델을 이용하여 목표 물성을 만족하는 다수의 가상 레시피를 생성하고, 이를 군집화하여 해의 밀도가 가장 높은 고밀도 후보 영역을 선정함
+	3. 선정된 영역 냉
 - 발명의 효과
 	- 공정 불량률 감소
 	- 신제품 생산 준비 시간 단축
