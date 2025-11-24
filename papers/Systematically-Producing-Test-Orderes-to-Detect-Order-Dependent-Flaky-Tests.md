@@ -8,11 +8,11 @@ authors: ["Chengpeng Li", "M. Mahdi Khosravi", "Wing Lam", "August Shi"]
 ---
 
 ## 논문 정보
-- [cite_start]**제목**: Systematically Producing Test Orders to Detect Order-Dependent Flaky Tests [cite: 3, 4]
-- [cite_start]**저자**: Chengpeng Li (University of Texas at Austin), M. Mahdi Khosravi (Middle East Technical University), Wing Lam (George Mason University), August Shi (University of Texas at Austin) [cite: 5, 8, 29, 31]
-- [cite_start]**학회/저널**: ISSTA '23 (International Symposium on Software Testing and Analysis) [cite: 25]
-- [cite_start]**발행일**: 2023-07-17 [cite: 25]
-- [cite_start]**DOI**: https://doi.org/10.1145/3597926.3598083 [cite: 28]
+- **제목**: Systematically Producing Test Orders to Detect Order-Dependent Flaky Tests 
+- **저자**: Chengpeng Li (University of Texas at Austin), M. Mahdi Khosravi (Middle East Technical University), Wing Lam (George Mason University), August Shi (University of Texas at Austin)
+- **학회/저널**: ISSTA '23 (International Symposium on Software Testing and Analysis)
+- **발행일**: 2023-07-17 [cite: 25]
+- **DOI**: https://doi.org/10.1145/3597926.3598083 [cite: 28]
 - [cite_start]**주요 연구 내용**: 기존의 무작위 테스트 순서 변경 방식의 한계를 극복하기 위해, Tuscan squares 이론을 기반으로 테스트 순서를 체계적으로 생성하여 순서 의존적(Order-Dependent) 불규칙 테스트를 효율적으로 탐지하는 세 가지 새로운 기법(Tuscan Intra-Class, Tuscan Inter-Class, Target Pairs)을 제안한다. [cite: 15, 16, 17]
 - [cite_start]**주요 결과 및 결론**: 47개 오픈 소스 프로젝트의 289개 OD 테스트를 대상으로 평가한 결과, 제안된 'Tuscan Intra-Class' 기법이 평균 104.7개의 테스트 순서만으로 97.2%의 OD 테스트를 탐지하여 비용 대비 효과가 가장 뛰어남을 확인했다. [cite: 18, 77]
 - [cite_start]**기여점**: 무작위가 아닌 체계적인 접근법으로 OD 테스트 탐지 보장성을 높였으며, 특히 테스트 클래스 내부 및 클래스 간의 관계를 고려한 새로운 순서 생성 알고리즘을 제시하고, 효율적인 탐지를 위한 최소 테스트 순서의 존재를 입증하여 향후 연구 방향을 제시했다. [cite: 79, 81, 83]
