@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together.md",
+                "file": "papers/GenProg-A-Generic-Method-for-Automatic-Software-Repair.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together"
+              "title": "GenProg-A-Generic-Method-for-Automatic-Software-Repair"
             }
           }
         ]
@@ -182,8 +182,9 @@
   },
   "active": "72c63cf7cab85b72",
   "lastOpenFiles": [
-    "papers/Large-Language-Models-for-Test-Free-Fault-Localization.md",
     "papers/Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together.md",
+    "papers/GenProg-A-Generic-Method-for-Automatic-Software-Repair.md",
+    "papers/Large-Language-Models-for-Test-Free-Fault-Localization.md",
     "papers/img/Pasted image 20251124142033.png",
     "papers/img/Pasted image 20251124141952.png",
     "papers/img/Pasted image 20251124141909.png",
@@ -223,7 +224,6 @@
     "docs/Project/Y-DESIGN-LAB/Technology-Transfer-Specification.md",
     "docs/Project/Y-DESIGN-LAB/Data-Collection.md",
     "docs/Project/Y-DESIGN-LAB/img/WellnessEconMonitor2024PDF.pdf",
-    "docs/Project/Y-DESIGN-LAB/Development-of-a-Spherical-LED-Media-Therapy-Device-for-Mental-Wellness.md",
     "docs/Project/Y-DESIGN-LAB/img",
     "docs/Project/Y-DESIGN-LAB",
     "docs/Project/KOJ/img",
