@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "a48074aceff136ca",
+    "id": "8724d46ca7e943b1",
     "type": "split",
     "children": [
       {
-        "id": "b97f705d27e4747b",
+        "id": "d6bc49d12279a839",
         "type": "tabs",
         "children": [
           {
-            "id": "c98d865b4e4e3886",
+            "id": "17362c8d805ff2cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3df70edc923c9756",
+    "id": "41e67fb6429c1154",
     "type": "split",
     "children": [
       {
-        "id": "f8de6d860481e15f",
+        "id": "68f149bff6911a29",
         "type": "tabs",
         "children": [
           {
-            "id": "dc3d6a177a23f24c",
+            "id": "d9352efed4d3ce7b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "d08454e46a1d44dd",
+            "id": "0171dacf801eab4a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "1f372ca755bb10c2",
+            "id": "68640580cf143ee3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "1cf5e76cbf3c1b8b",
+    "id": "bd7c6f59287dd5c0",
     "type": "split",
     "children": [
       {
-        "id": "4c524e72cb2d271b",
+        "id": "70152934428a856f",
         "type": "tabs",
         "children": [
           {
-            "id": "e39a180be2b19e7e",
+            "id": "b1d4cd2a33880863",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/Prediction-of-Pick-Acting-Forces-Using-an-Random-Forest-Model-based-on-Mechanical-Properties-of-Rocks-and-Cutting-Parameters.md",
+                "file": "docs/Project/DYETEC/Patent-Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Prediction-of-Pick-Acting-Forces-Using-an-Random-Forest-Model-based-on-Mechanical-Properties-of-Rocks-and-Cutting-Parameters"
+              "title": "Backlinks for Patent-Ideas"
             }
           },
           {
-            "id": "e88a4476f520f719",
+            "id": "f434ccc3f689a9e2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/KNU-MS/2nd_semester/COMP0811.md",
+                "file": "docs/Project/DYETEC/Patent-Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "COMP0811 의 나가는 링크"
+              "title": "Outgoing links from Patent-Ideas"
             }
           },
           {
-            "id": "30ff306173e63db6",
+            "id": "3426d3f483292d57",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,40 +133,30 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "태그"
+              "title": "Tags"
             }
           },
           {
-            "id": "b6d725d95841c6de",
+            "id": "0e2fe0f18af5783f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/KNU-MS/2nd_semester/COMP0811.md",
+                "file": "docs/Project/DYETEC/Patent-Ideas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "COMP0811 의 개요"
-            }
-          },
-          {
-            "id": "a949b4f1da12db0c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Patent-Ideas"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,56 +170,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a949b4f1da12db0c",
+  "active": "17362c8d805ff2cf",
   "lastOpenFiles": [
-    "papers/img/Pasted image 20251122204049.png",
-    "papers/img/Pasted image 20251122204004.png",
-    "papers/img/Pasted image 20251122203926.png",
-    "papers/img/Pasted image 20251122203901.png",
-    "papers/Test-Intention-Guide-LLM-based-Unit-Test-Generation.md",
-    "docs/Paper/Paper-Writing-Method-Built-on-Experience.md",
-    "docs/Project/DYETEC/Patent-Ideas.md",
-    "docs/KNU-MS/2nd_semester/COMP0730.md",
-    "docs/KNU-MS/2nd_semester/img/Pasted image 20251117182954.png",
-    "docs/KNU-MS/2nd_semester/img/Pasted image 20251117182918.png",
-    "docs/KNU-MS/2nd_semester/img/Pasted image 20251117182846.png",
-    "docs/KNU-MS/2nd_semester/img/Pasted image 20251117181035.png",
-    "docs/KNU-MS/2nd_semester/img/Pasted image 20251117173559.png",
-    "docs/Paper/ST-SLM.md",
-    "papers/Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories.md",
-    "papers/img/Pasted image 20251117124033.png",
-    "papers/img/Pasted image 20251117123946.png",
-    "papers/Repairing-Order-Dependent-Flaky-Tests-via-Test-Generation.md",
-    "papers/Systematically-Producing-Test-Orders-to-Detect-Order-Dependent-Flaky-Tests.md",
-    "papers/All-You-Ever-Wanted-to-Know-About-Dynamic-Taint-Analysis-and-Forward-Symbolic-Executio(but-might-have-been-afraid-to-ask).md",
-    "docs/Paper/img",
-    "docs/Paper/UCWIT/Using-Regression-Chains-to-Find-Optimal-Solutions-for-Biodegradable-Fiber-Spinning-Recipes.md",
-    "papers/From-image-to-UML-First-results-of-image-based-UML-diagram-generation-using-LLMs.md",
-    "docusaurus.config.ts.tmp.55328.1762477210447",
-    "papers/A-stacking-ensemble-model-for-prediting-the-flexural-fatigue-life-of-fiber-reinforced-concrete.md",
-    "papers/A-Neural-Algorithm-of-Artistic-Style.md",
-    "papers/A-machine-learning-intergrated-framework-for-mechanical-property-prediction-of-FDM-printed-PLA.md",
-    "papers/Img2UML-A-System-fo-Extracting-UML-Models-from-Images.md",
-    "papers/Flow2Code-Evaluating-Large-Language-Models-for-Flowchart-based-Code-Generation-Capability.md",
-    "papers/PAPER2CODE-AUTOMATING-CODE-GENERATION-FROM-SCIENTIFIC-PAPERS-IN-MACHINE-LEARNING.md",
-    "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
-    "docs/Paper/UCWIT",
-    "docs/Project/Y-DESIGN-LAB/IEMOTIONS.md",
-    "papers/Cross-dataset-learning-and-person-specific-normalisation-for-automatic-Acution-Unit-detection.md",
-    "docs/Project/Y-DESIGN-LAB/Technology-Transfer-Specification.md",
-    "docs/Project/Y-DESIGN-LAB/Data-Collection.md",
-    "docs/Project/Y-DESIGN-LAB/img/WellnessEconMonitor2024PDF.pdf",
-    "docs/Project/Y-DESIGN-LAB/Development-of-a-Spherical-LED-Media-Therapy-Device-for-Mental-Wellness.md",
-    "docs/Project/Y-DESIGN-LAB/img",
-    "docs/Project/DYETEC/Meeting-250910.md",
-    "docs/Project/Y-DESIGN-LAB",
-    "docs/Project/DYETEC/img/Untitled.md",
-    "docs/Project/KOJ/img",
-    "docs/Project/KOJ",
-    "img",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "보고서.pdf"
+    "conflict-files-obsidian-git.md",
+    "docs/Project/DYETEC/Patent-Ideas.md"
   ]
 }

@@ -40,7 +40,9 @@ Autoencoder:
 Automated Repair:
   description: 자동 수정 - 소프트웨어 버그를 자동으로 탐지하고 수정하는 기술
 Automatic Generation:
-  description: 자동 생성 - 알고리즘을 통해 콘텐츠나 데이터를 자동으로 생성하는 기술b
+  description: 자동 생성 - 알고리즘을 통해 콘텐츠나 데이터를 자동으로 생성하는 기술
+Automated Software Repair:
+  description: 자동 소프트웨어 수정 - 프로그램 버그를 자동으로 탐지하고 수정하는 기술
 Automated Machine Learning:
   description: 자동 머신러닝 - 모델 선택, 하이퍼파라미터 튜닝 등 머신러닝 파이프라인을 자동화하는 기술
 Automation:
@@ -64,6 +66,8 @@ Bioinformatics:
   description: 생물정보학 - 컴퓨터 과학과 통계를 활용하여 생물학적 데이터를 분석하는 학문
 Bisection:
   description: 이분법 - 구간을 반으로 나누어 해를 찾는 수치 해석 알고리즘
+Bug Localization:
+  description: 버그 위치 추적 - 소프트웨어 내에서 결함이 발생한 정확한 위치를 식별하는 기법
 Bug Inducing Commit:
   description: 버그 유발 커밋 - 소프트웨어에 결함을 도입한 코드 변경 이력
 
@@ -134,6 +138,8 @@ Data Preprocessing:
   description: 데이터 전처리 - 원시 데이터를 정제하고 변환하여 분석에 적합하게 만드는 과정
 Data Store:
   description: 데이터 저장소 - 데이터를 체계적으로 저장하고 관리하는 시스템
+Debugging:
+  description: 디버깅 - 소프트웨어의 오류를 찾아내고 수정하는 과정
 Deep Learning:
   description: 딥러닝 - 다층 신경망을 이용한 표현 학습 및 패턴 인식 기술
 Deep Learning Theory:
@@ -251,6 +257,8 @@ Gene Expression Programming:
   description: 유전자 발현 프로그래밍 - 유전 알고리즘을 이용한 자동 프로그램 생성 기법
 Gene Therapy:
   description: 유전자 치료 - 유전자를 조작하여 질병을 치료하는 의학 기술
+Genetic Programming:
+  description: 유전 프로그래밍 - 진화 원리를 이용하여 프로그램을 자동으로 생성하고 최적화하는 기법
 Generalization And Induction:
   description: 일반화 및 귀납 - 특정 사례로부터 일반적 규칙을 도출하는 학습 과정
 Generative Adversarial Networks:
@@ -299,6 +307,8 @@ ImageNet:
   description: ImageNet - 대규모 이미지 데이터베이스이자 컴퓨터 비전 벤치마크
 Inclusive Learning:
   description: 포용적 학습 - 모든 학습자의 다양성을 존중하고 접근성을 보장하는 교육 방식
+Information Retrieval:
+  description: 정보 검색 - 대규모 데이터에서 사용자 요구에 맞는 정보를 찾아내는 기술
 In-memory Database:
   description: 인메모리 데이터베이스 - 데이터를 메모리에 저장하여 빠른 접근을 제공하는 데이터베이스
 Inorganic Crystals:
@@ -329,6 +339,8 @@ Learning-based Image Processing:
   description: 학습 기반 이미지 처리 - 머신러닝을 활용한 이미지 분석 및 변환 기술
 Least Trimmed Squares:
   description: 최소절사제곱법 - 이상치에 강건한 회귀 분석 방법
+Legacy Systems:
+  description: 레거시 시스템 - 오래되었지만 여전히 사용 중인 구형 소프트웨어나 하드웨어 시스템
 Lightfastness:
   description: 내광성 - 빛에 노출되어도 색이 바래지 않는 성질
 LIME:
@@ -366,6 +378,8 @@ MCTS:
   description: MCTS - 몬테카를로 시뮬레이션 기반 의사결정 트리 탐색 알고리즘
 Melt Spinning Machine:
   description: 멜트 스피닝 기계 - 용융 고분자를 방사하여 섬유를 제조하는 장비
+Mocking:
+  description: 모킹 - 테스트 시 실제 객체 대신 가짜 객체를 사용하여 독립적인 테스트를 수행하는 기법
 Model Compression:
   description: 모델 압축 - 모델 크기를 줄여 배포와 추론 효율성을 높이는 기술
 Model Deployment:
@@ -471,6 +485,8 @@ Process Optimization:
   description: 공정 최적화 - 생산 프로세스의 효율성과 품질을 극대화하는 기술
 Program Analysis:
   description: 프로그램 분석 - 소프트웨어의 동작과 속성을 자동으로 분석하여 버그와 취약점을 발견하는 기술
+Program Spectra:
+  description: 프로그램 스펙트라 - 프로그램 실행 중 코드 요소의 실행 빈도를 기록한 데이터
 Programming Challenges:
   description: 프로그래밍 챌린지 - 알고리즘과 코딩 능력을 시험하는 문제 해결 과제
 Prompt Engineering:
@@ -503,6 +519,8 @@ Regression Chain:
   description: 회귀 체인 - 여러 회귀 모델을 연쇄적으로 연결한 예측 기법
 Reinforcement Learning:
   description: 강화학습 - 보상을 최대화하는 행동을 학습하는 머신러닝 방법
+Representation Learning:
+  description: 표현 학습 - 원시 데이터로부터 유용한 특징을 자동으로 학습하는 머신러닝 기법
 Reproducibility:
   description: 재현성 - 동일한 조건에서 실험이나 연구 결과를 반복하여 얻을 수 있는 능력
 Residual Learning:
@@ -566,6 +584,8 @@ Stacking Ensemble Model:
   description: 스태킹 앙상블 모델 - 여러 모델의 예측을 메타 모델로 결합하는 앙상블 기법
 State Space Models:
   description: 상태 공간 모델 - 시스템의 동적 상태를 확률적으로 표현하는 모델
+Static Analysis:
+  description: 정적 분석 - 프로그램을 실행하지 않고 소스 코드를 분석하여 오류와 취약점을 탐지하는 기법
 Statistical Models:
   description: 통계 모델 - 확률 분포를 기반으로 데이터를 설명하는 수학적 모델
 Stroke Prediction:
@@ -628,6 +648,8 @@ Unified Modeling Language:
   description: 통합 모델링 언어 - 소프트웨어 시스템을 시각적으로 설계하고 문서화하는 표준 모델링 언어
 Unified Modeling Language Diagram:
   description: UML 다이어그램 - UML을 사용하여 시스템의 구조와 동작을 표현한 시각적 다이어그램
+Unit Test Generation:
+  description: 단위 테스트 생성 - 개별 함수나 모듈을 검증하는 테스트 코드를 자동으로 생성하는 기술
 Unsupervised Learning:
   description: 비지도학습 - 레이블 없이 데이터의 패턴을 학습하는 머신러닝 방법
 User Experience:
