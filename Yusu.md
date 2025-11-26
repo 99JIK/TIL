@@ -1,8 +1,12 @@
 #### Slide 1
-Hi everyone, My name is 노유수  
-Today I will present about, “Identifying Bug-Inducing Commits by Combining Fault Localization and Code Change Histories.”
+This is the application to industry software section.
 #### Slide 2
-This is the introduction section.
+In this study, the authors demonstrate the applicability of FONTE to industry-scale software by experimenting with SAP HANA.  
+SAP HANA is a commercial database system with over ten million lines of C and C++ code. In its CI process, multiple commits that pass pre-submit tests are merged into the delivery branch and tested together as a single batch once a day.
+
+This batch-testing approach helps reduce testing costs, but it also introduces challenges.  
+When a batch test fails, it becomes unclear which commit actually caused the failure.  
+The paper also notes that using bisection in this environment can be very time-consuming due to the heavy compilation and testing cost.
 #### Slide 3
 - Before getting into the details, let me briefly introduce the paper.
 - This work was done by Gabin An et al, from the School of Computing at KAIST, South Korea.
