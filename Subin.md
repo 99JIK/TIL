@@ -37,23 +37,22 @@ The reason FONTE performed better with SBFL was simply that, for this particular
 This is a key conclusion from the paper: FONTE's performance is directly tied to the accuracy of the underlying FL tool. 
 As better FL techniques are developed, the authors suggest FONTE's performance will automatically improve with them.
 #### Slide 9
-For construct validity, the paper discusses one main point.
-
-Since the evaluation uses MRR and Accuracy@n—both absolute-rank metrics—the results may appear overly optimistic when the number of candidate commits is small.  
-To address this, the authors provide the expected and worst values of a random ranking as baselines in every experiment.  
-This allows us to see how much FONTE improves over random ranking, ensuring that its performance is not simply an artifact of having fewer candidates.
+For RQ1-3, the authors conducted an ablation study to see which parts of FONTE mattered most. 
+The results are clear. When they removed 'Rank-based Voting', which translates FL scores into ranks, performance dropped by 7.3%. 
+When they removed 'Depth-based Decay', which penalizes older commits, performance also dropped by 7.3%. 
+And when they removed both, the performance drop was nearly 14%. 
+This result confirms that both of these features are critical components of FONTE's success.
 #### Slide 10
-This is the conclusion section.
+So, how does FONTE stack up against other State-of-the-Art (SOTA) tools? This is RQ2. 
+As the graph shows, FONTE significantly outperforms all of them. 
+The authors' best model, FONTE with SBFL, achieved an MRR of 0.481. 
+This is at least 45% better than the next best baseline, Bug2Commit, and even further ahead of others. 
+It's also important to note that many of these other tools, marked with a dagger, require bug reports, whereas this SBFL-based approach does not.
 #### Slide 11
-This paper proposes a BIC identification technique that can be used immediately when a failure is observed.
-
-The approach consists of three main steps:
-
-1. **Failure coverage** is used to narrow down the initial set of candidate commits.
-
-2. **AST-based syntactic analysis** filters out semantic-preserving commits.
-
-3. **Code-level suspiciousness scores** are effectively aggregated and translated into **commit-level scores.**
+Finally, RQ3 looked at the efficiency of the authors' 'Weighted Bisection' method, which uses FONTE's scores to guide the search. 
+When searching the entire commit history, their method reduced the number of bisection steps in 98% of cases, saving an average of 6.3 steps. 
+Even on the already-reduced search space, it still saved steps in 65% of cases. 
+This confirms it is a much more efficient way to pinpoint the BIC than a standard binary search.
 #### Slide 12
 The key experimental results of the paper are as follows.
 
