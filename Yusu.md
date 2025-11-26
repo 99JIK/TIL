@@ -32,7 +32,26 @@ This is the introduction section.
     However, since they require the existence of a fixing commit, they cannot be used during the early debugging phase, when the bug has not yet been fixed.
 - So overall, existing methods are either too expensive, too text-dependent, or simply unavailable when developers need them most.  
     This is why a new approach like FONTE is required.
-    
-
-  
-**
+#### Slide 7
+- In this part, I will introduce the core idea of FONTE and explain how it fundamentally differs from existing BIC identification approaches.
+- First, traditional methods such as bisection and IR-based techniques try to directly connect a failure with a commit.  
+    For example, they test different commits through repeated builds, or compare bug reports with commit messages using text similarity.
+- However, FONTE takes a different perspective.  
+    It does not directly match failure to commits.  
+    Instead, it introduces a structured two-step relationship mapping:  
+    from Failure to Code, and then from Code to Commit.
+- So the flow becomes:  
+    Failure → Code → Commit, rather than Failure → Commit.
+- Let me explain each step.
+#### Slide 8
+- In the first step, FONTE builds the relationship between failure and code elements.  
+    This is done using Fault Localization techniques, such as Spectrum-Based Fault Localization and IR-based Fault Localization.  
+    These techniques analyze failing test executions and assign a suspiciousness score to each code element, such as a statement or a method.
+- An important advantage here is that FONTE is not tied to a specific fault localization method.  
+    As long as a new technique can provide suspiciousness scores, it can be integrated into FONTE seamlessly.  
+    So FONTE is designed to evolve together with future advances in fault localization.
+#### Slide 9
+- In the second step, FONTE establishes the relationship between code elements and commits.  
+    It uses version control history and history tracking tools such as git log, CodeShovel, and CodeTracker to trace how each piece of code has evolved over time.
+- This allows FONTE to identify which commits modified or introduced the suspicious code elements.
+#### Slide 10
