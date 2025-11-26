@@ -19,25 +19,23 @@ They broke this down into its filtering performance, its final ranking performan
 Second (RQ2), does FONTE actually outperform existing state-of-the-art approaches? 
 And third (RQ3), is the paper's proposed 'weighted bisection' method more efficient than standard bisection for finding the BIC?
 #### Slide 5
-**
-
 Now, let's move on to Section 6 and discuss the results of these experiments.
 #### Slide 6
-This is the threats to validity section.
+First, for RQ1-1: How well do the authors' filters work? The results were excellent. 
+Their two filtering stages—Failure-Irrelevant and Semantic-Preserving—dramatically reduced the search space. 
+On average, they only had to analyze about 11% of the original commit history.
+They also confirmed that using git log for history tracking was the right choice, as it was fast and, most importantly, had a 100% validity ratio, meaning it never accidentally filtered out the true BIC.
 #### Slide 7
-In terms of internal validity, the paper discusses two main points.
-
-First, FONTE heavily depends on two relationships:  
-the Cover relation between tests and code, and the Evolve relation between code and commits.  
-To ensure correctness, the authors compared multiple code-history tools, evaluated their validity ratio and cost, and ultimately selected git log as the most reliable option.
-
-Second, the reliability of baseline data was addressed by using Defects4J, a benchmark that provides well-validated links between real bug reports and buggy versions. This helps ensure that baseline methods receive accurate input data.
+Next, RQ1-2: How good is FONTE's final ranking? 
+As you can see from the chart, FONTE combined with SBFL achieved a Mean Reciprocal Rank (MRR) of 0.481. 
+This is significantly better than the random baseline. 
+To put this in perspective, this means FONTE placed the correct BIC in the number one spot 32% of the time, and within the top 5 spots over 70% of the time. 
+The IRFL combination was also strong, but SBFL performed slightly better in the authors' dataset.
 #### Slide 8
-For external validity, the paper highlights two main points.
-
-First, the generalizability of the results is strengthened by additionally applying FONTE to SAP HANA, a large-scale industrial C/C++ system. This demonstrates that FONTE can also work in real industry environments beyond open-source Java projects.
-
-Second, the authors acknowledge a limitation: FONTE fundamentally assumes that failures are caused by bugs in executable source code. Therefore, it does not directly apply to bugs introduced through non-executable files such as configuration files or build scripts. They explicitly leave this issue as future work.
+This leads to an important finding about the impact of the FL technique. 
+The reason FONTE performed better with SBFL was simply that, for this particular dataset, SBFL was more accurate at the code level, outperforming IRFL on 60% of the bugs. 
+This is a key conclusion from the paper: FONTE's performance is directly tied to the accuracy of the underlying FL tool. 
+As better FL techniques are developed, the authors suggest FONTE's performance will automatically improve with them.
 #### Slide 9
 For construct validity, the paper discusses one main point.
 
