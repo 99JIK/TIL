@@ -1,16 +1,28 @@
 #### Slide 1
-**
-Hello, Everyone. My name is 정인 
-We'll start with Section 5, which covers our Evaluation Setup.
-
-**
+Hello, Everyone. My name is 정인
+I'll start with Section 5, which covers Evaluation Setup.
 #### Slide 2
-In this study, the authors demonstrate the applicability of FONTE to industry-scale software by experimenting with SAP HANA.  
-SAP HANA is a commercial database system with over ten million lines of C and C++ code. In its CI process, multiple commits that pass pre-submit tests are merged into the delivery branch and tested together as a single batch once a day.
+**
 
-This batch-testing approach helps reduce testing costs, but it also introduces challenges.  
-When a batch test fails, it becomes unclear which commit actually caused the failure.  
-The paper also notes that using bisection in this environment can be very time-consuming due to the heavy compilation and testing cost.
+To build a reliable evaluation, the authors first needed a solid dataset.
+
+  
+
+They started with Defects4J, which has over 800 real Java bugs.
+
+  
+
+However, it doesn't provide the ground-truth BIC information.
+
+  
+
+So, they began with an existing dataset of 91 BICs, refined it down to 67 by removing irrelevant or inaccurate data, and then manually identified an additional 139 new BICs.
+
+  
+
+This resulted in a final, high-quality dataset of 206 ground-truth BICs for their evaluation.
+
+**
 #### Slide 3
 For the SAP HANA experiment, the authors set up the evaluation as follows.
 
