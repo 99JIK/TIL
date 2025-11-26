@@ -60,3 +60,18 @@ This is the introduction section.
 - In this way, FONTE extends traditional fault localization from the spatial domain — where the problem is in the code — into the temporal domain — when the problem was introduced in the commit history.
 #### Slide 11
 This is the background section.
+#### Slide 12
+- The main goal is to identify Bug Inducing Commits using only the information available at the start of debugging.  
+    That means right after a failure is observed and reproduced 
+- Based on the figure, FONTE follows a three-stage process.  
+    First, it reduces the search space by focusing only on commits related to failure-covered code.  
+    Second, it filters out irrelevant or semantic-preserving commits.  
+    Finally, it scores and ranks the remaining commits based on their likelihood of being the real BIC.
+- So instead of testing many historical versions, FONTE efficiently narrows down and prioritizes(프라이어리타이즈) commit candidates using only early debugging information.
+#### Slide 13
+- This slide defines the basic notations used in FONTE.
+- C is the set of commits, E is the set of code elements, and T is the set of test cases, with T_F being the failing tests.  
+    We define two key relations:  
+    Cover, which links tests to executed code, and Evolve, which links commits to modified code.
+- The goal is to design a scoring function s: C → R,  
+    where a higher score means a higher probability of being the Bug Inducing Commit.
