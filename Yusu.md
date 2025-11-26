@@ -55,3 +55,8 @@ This is the introduction section.
     It uses version control history and history tracking tools such as git log, CodeShovel, and CodeTracker to trace how each piece of code has evolved over time.
 - This allows FONTE to identify which commits modified or introduced the suspicious code elements.
 #### Slide 10
+- Finally, FONTE combines these two relationships to derive a failure-to-commit mapping.  
+    A commit is considered more suspicious if it recently changed code that is highly related to the observed failure.
+- In this way, FONTE extends traditional fault localization from the spatial domain — where the problem is in the code — into the temporal domain — when the problem was introduced in the commit history.
+#### Slide 11
+This is the background section.
