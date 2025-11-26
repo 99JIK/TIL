@@ -54,25 +54,11 @@ When searching the entire commit history, their method reduced the number of bis
 Even on the already-reduced search space, it still saved steps in 65% of cases. 
 This confirms it is a much more efficient way to pinpoint the BIC than a standard binary search.
 #### Slide 12
-The key experimental results of the paper are as follows.
-
-FONTE achieves an MRR of 0.481, significantly outperforming all existing baselines, including the latest state-of-the-art techniques.
-
-It also successfully translates code-level suspiciousness into commit-level scores, enabling accurate ranking of BIC candidates.
-
-Using FONTE’s commit scores, the weighted bisection reduces search iterations in 98% of cases, compared to standard bisection.
-
-Finally, in a real industrial setting like SAP HANA’s batch-testing CI system, FONTE demonstrates a meaningful reduction in BIC identification cost.
+To put this work in context, let's briefly look at Section 9: Related Work.
 #### Slide 13
-This is the Strength & Weak
-#### Slide 14
-First, the strengths.  
-FONTE is practical because it can be used immediately after a failure is observed.  
-Applying weighted bisection significantly reduces the number of search iterations compared to the standard approach, which leads to meaningful debugging time reduction.  
-In addition, FONTE preserves the true BIC by using conservative filtering — it removes only semantic-preserving commits, ensuring that real BICs are never discarded.  
-Thanks to this design, FONTE becomes a practical and reusable framework.
-
-As for the weaknesses:  
-FONTE is sensitive to the accuracy of fault localization and the quality of commit-history tools.  
-Core components such as Rank-based Voting Power and Depth-based Decay lack strong theoretical justification.  
-The evaluation of real engineering cost is still limited, and although the paper identifies why weighted detection sometimes degrades performance, it does not yet offer concrete solutions.
+Existing BIC identification techniques fall into two main categories. 
+First, IR-based techniques like Bug2Commit rely on textual similarity between bug reports and commits.
+FONTE is different because it doesn't require these textual artifacts. 
+Second, FL-Score-based techniques have tried to use fault localization, but they haven't effectively mapped these scores to the commit history. 
+The authors state that FONTE's main contribution is providing a robust algorithm that successfully bridges this gap, ranking the commit history itself based on code-level fault data.
+Thank you for your attention. Next, Soo-bin Park will continue the presentation with the Conclusion and Application section.
