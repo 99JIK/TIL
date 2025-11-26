@@ -79,3 +79,14 @@ Using FONTE’s commit scores, the weighted bisection reduces search iterations 
 Finally, in a real industrial setting like SAP HANA’s batch-testing CI system, FONTE demonstrates a meaningful reduction in BIC identification cost.
 #### Slide 13
 This is the Strength & Weak
+#### Slide 14
+First, the strengths.  
+FONTE is practical because it can be used immediately after a failure is observed.  
+Applying weighted bisection significantly reduces the number of search iterations compared to the standard approach, which leads to meaningful debugging time reduction.  
+In addition, FONTE preserves the true BIC by using conservative filtering — it removes only semantic-preserving commits, ensuring that real BICs are never discarded.  
+Thanks to this design, FONTE becomes a practical and reusable framework.
+
+As for the weaknesses:  
+FONTE is sensitive to the accuracy of fault localization and the quality of commit-history tools.  
+Core components such as Rank-based Voting Power and Depth-based Decay lack strong theoretical justification.  
+The evaluation of real engineering cost is still limited, and although the paper identifies why weighted detection sometimes degrades performance, it does not yet offer concrete solutions.
