@@ -2,53 +2,26 @@
 Hello, Everyone. My name is 정인
 I'll start with Section 5, which covers Evaluation Setup.
 #### Slide 2
-**
-
 To build a reliable evaluation, the authors first needed a solid dataset.
-
-  
-
 They started with Defects4J, which has over 800 real Java bugs.
-
-  
-
 However, it doesn't provide the ground-truth BIC information.
-
-  
-
 So, they began with an existing dataset of 91 BICs, refined it down to 67 by removing irrelevant or inaccurate data, and then manually identified an additional 139 new BICs.
-
-  
-
 This resulted in a final, high-quality dataset of 206 ground-truth BICs for their evaluation.
-
-**
 #### Slide 3
-For the SAP HANA experiment, the authors set up the evaluation as follows.
-
-They collected 23 batch testing failures that occurred between July and August 2022, along with the BICs identified by the existing bisection process, using internal CI logs.
-
-Because SAP HANA does not measure test coverage for each batch but updates coverage periodically through a separate process, the experiment uses the latest line-level coverage to compute Ochiai scores.  
-Since Ochiai only requires the lines covered by failing tests, there is no need to compute coverage information for the entire codebase.
-
-All commits in each batch were submitted on the same day, so there is little temporal difference between them.  
-For this reason, depth-based decay was not applied, and the other hyperparameters were set to α = 1 and τ = max, which showed the best performance for λ = 0 in the Defects4J experiment.
+Let's look at the implementation described in the paper. 
+For the 'Cover Relation' between tests and code, the study used Cobertura to get statement-level coverage. 
+For the 'Evolve Relation' between code and commits, the authors used git log to track change history, which they found to be faster and more accurate than other tools. 
+Finally, they integrated two well-known Fault Localization (FL) techniques to compare their impact: the spectrum-based method Ochiai, and the IR-based method Blues.
 #### Slide 4
-The performance results of applying FONTE to SAP HANA are as follows.
-
-Each batch contains about 18.5 commits on average, and the evaluation measures how highly FONTE ranks the true BIC among these commits.
-
-FONTE achieves a strong MRR of 0.600, and in terms of accuracy, more than half of the cases place the BIC within the top 2.  
-Compared to the random baseline, the improvement is substantial: the MRR is about 5.5 times higher, and for Accuracy@5, the difference is 1 case versus 20 cases.
-
-Overall, this shows that when there are roughly 18–19 candidate commits, FONTE is able to place the BIC almost always within the top 10, and in many cases within the top 1 or 2.
+The authors' evaluation was guided by three core Research Questions. 
+First (RQ1), how accurately does FONTE find BICs? 
+They broke this down into its filtering performance, its final ranking performance, and the impact of its key features. 
+Second (RQ2), does FONTE actually outperform existing state-of-the-art approaches? 
+And third (RQ3), is the paper's proposed 'weighted bisection' method more efficient than standard bisection for finding the BIC?
 #### Slide 5
-The study also compares weighted bisection, using FONTE’s commit scores, with standard bisection.
+**
 
-Among the 23 batch failures, weighted bisection reduced the number of iterations in 18 cases—about 78%—while it increased in 3 cases.  
-Overall, this corresponds to roughly a 32% reduction in the number of required iterations.
-
-Since a single iteration in SAP HANA can take several hours due to compilation and testing, this reduction implies a substantial decrease in the average cost of identifying the BIC.
+Now, let's move on to Section 6 and discuss the results of these experiments.
 #### Slide 6
 This is the threats to validity section.
 #### Slide 7
