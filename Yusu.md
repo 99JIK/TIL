@@ -8,56 +8,56 @@ This batch-testing approach helps reduce testing costs, but it also introduces c
 When a batch test fails, it becomes unclear which commit actually caused the failure.  
 The paper also notes that using bisection in this environment can be very time-consuming due to the heavy compilation and testing cost.
 #### Slide 3
-- Before getting into the details, let me briefly introduce the paper.
-- This work was done by Gabin An et al, from the School of Computing at KAIST, South Korea.
-- It was published at ICSE 2023, and an extended version was released in February 2025 on arXiv.
+For the SAP HANA experiment, the authors set up the evaluation as follows.
+
+They collected 23 batch testing failures that occurred between July and August 2022, along with the BICs identified by the existing bisection process, using internal CI logs.
+
+Because SAP HANA does not measure test coverage for each batch but updates coverage periodically through a separate process, the experiment uses the latest line-level coverage to compute Ochiai scores.  
+Since Ochiai only requires the lines covered by failing tests, there is no need to compute coverage information for the entire codebase.
+
+All commits in each batch were submitted on the same day, so there is little temporal difference between them.  
+For this reason, depth-based decay was not applied, and the other hyperparameters were set to α = 1 and τ = max, which showed the best performance for λ = 0 in the Defects4J experiment.
 #### Slide 4
-- I gonna explain the concept of a Bug Inducing Commit, or BIC.
-- A BIC is the commit that actually introduces buggy code into the system.  
-    Even if the bug does not cause an immediate failure, it can eventually lead to program failure later in the development cycle.
-- Identifying a BIC is very important for three reasons.
--  First, it supports faster bug triage(트리아지). Since studies show that developers often fix their own bugs, knowing the BIC helps assign the issue to the right person quickly.
-- Second, it enables more efficient debugging. In some cases, simply reverting the BIC can fix the bug, and it also improves the accuracy of fault localization techniques.
-- Third, it can reduce testing cost, especially in batch testing environments, because it helps narrow down suspicious commits without rerunning too many tests.
-- In CI/CD environments where code changes happen frequently and in parallel, finding the real BIC is not easy.  
-    That is why automatic BIC identification techniques, like the one introduced in this work, are highly important.
+The performance results of applying FONTE to SAP HANA are as follows.
+
+Each batch contains about 18.5 commits on average, and the evaluation measures how highly FONTE ranks the true BIC among these commits.
+
+FONTE achieves a strong MRR of 0.600, and in terms of accuracy, more than half of the cases place the BIC within the top 2.  
+Compared to the random baseline, the improvement is substantial: the MRR is about 5.5 times higher, and for Accuracy@5, the difference is 1 case versus 20 cases.
+
+Overall, this shows that when there are roughly 18–19 candidate commits, FONTE is able to place the BIC almost always within the top 10, and in many cases within the top 1 or 2.
 #### Slide 5
-- On this slide, I explain the main limitations of existing approaches for identifying Bug Inducing Commits.
-- First, bisection-based methods perform a binary search over the commit history.  
-    They repeatedly check out old versions, build the program, and run failing tests.  
-    While this approach is intuitive, it has a very high computational cost, especially for large projects where building and testing each version is expensive.
-- Second, we have IR-based techniques.  
-    These treat the bug report as a query and commits as documents, and then calculate textual similarity between them.  
-    Although they are lightweight, they heavily depend on the quality of the bug report and can only capture textual information.  
-    As a result, they are weak at handling complex behavior-level failures and runtime issues.
+The study also compares weighted bisection, using FONTE’s commit scores, with standard bisection.
+
+Among the 23 batch failures, weighted bisection reduced the number of iterations in 18 cases—about 78%—while it increased in 3 cases.  
+Overall, this corresponds to roughly a 32% reduction in the number of required iterations.
+
+Since a single iteration in SAP HANA can take several hours due to compilation and testing, this reduction implies a substantial decrease in the average cost of identifying the BIC.
 #### Slide 6
-- Third, there are SZZ-based methods.  
-    These work by tracing back from a Bug Fixing Commit, or BFC, to find the commit that introduced the bug.  
-    However, since they require the existence of a fixing commit, they cannot be used during the early debugging phase, when the bug has not yet been fixed.
-- So overall, existing methods are either too expensive, too text-dependent, or simply unavailable when developers need them most.  
-    This is why a new approach like FONTE is required.
+This is the threats to validity section.
 #### Slide 7
-- In this part, I will introduce the core idea of FONTE and explain how it fundamentally differs from existing BIC identification approaches.
-- First, traditional methods such as bisection and IR-based techniques try to directly connect a failure with a commit.  
-    For example, they test different commits through repeated builds, or compare bug reports with commit messages using text similarity.
-- However, FONTE takes a different perspective.  
-    It does not directly match failure to commits.  
-    Instead, it introduces a structured two-step relationship mapping:  
-    from Failure to Code, and then from Code to Commit.
-- So the flow becomes:  
-    Failure → Code → Commit, rather than Failure → Commit.
-- Let me explain each step.
+In terms of internal validity, the paper discusses two main points.
+
+First, FONTE heavily depends on two relationships:  
+the Cover relation between tests and code, and the Evolve relation between code and commits.  
+To ensure correctness, the authors compared multiple code-history tools, evaluated their validity ratio and cost, and ultimately selected git log as the most reliable option.
+
+Second, the reliability of baseline data was addressed by using Defects4J, a benchmark that provides well-validated links between real bug reports and buggy versions. This helps ensure that baseline methods receive accurate input data.
 #### Slide 8
-- In the first step, FONTE builds the relationship between failure and code elements.  
-    This is done using Fault Localization techniques, such as Spectrum-Based Fault Localization and IR-based Fault Localization.  
-    These techniques analyze failing test executions and assign a suspiciousness score to each code element, such as a statement or a method.
-- An important advantage here is that FONTE is not tied to a specific fault localization method.  
-    As long as a new technique can provide suspiciousness scores, it can be integrated into FONTE seamlessly.  
-    So FONTE is designed to evolve together with future advances in fault localization.
+For external validity, the paper highlights two main points.
+
+First, the generalizability of the results is strengthened by additionally applying FONTE to SAP HANA, a large-scale industrial C/C++ system. This demonstrates that FONTE can also work in real industry environments beyond open-source Java projects.
+
+Second, the authors acknowledge a limitation: FONTE fundamentally assumes that failures are caused by bugs in executable source code. Therefore, it does not directly apply to bugs introduced through non-executable files such as configuration files or build scripts. They explicitly leave this issue as future work.
 #### Slide 9
-- In the second step, FONTE establishes the relationship between code elements and commits.  
-    It uses version control history and history tracking tools such as git log, CodeShovel, and CodeTracker to trace how each piece of code has evolved over time.
-- This allows FONTE to identify which commits modified or introduced the suspicious code elements.
+For construct validity, the paper discusses one main point.
+
+Since the evaluation uses MRR and Accuracy@n—both absolute-rank metrics—the results may appear overly optimistic when the number of candidate commits is small.  
+To address this, the authors provide the expected and worst values of a random ranking as baselines in every experiment.  
+This allows us to see how much FONTE improves over random ranking, ensuring that its performance is not simply an artifact of having fewer candidates.
+
+  
+**
 #### Slide 10
 - Finally, FONTE combines these two relationships to derive a failure-to-commit mapping.  
     A commit is considered more suspicious if it recently changed code that is highly related to the observed failure.
