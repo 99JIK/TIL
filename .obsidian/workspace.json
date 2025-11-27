@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories.md",
+                "file": "papers/Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories"
+              "title": "Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together"
             }
           }
         ]
@@ -182,6 +182,8 @@
   },
   "active": "72c63cf7cab85b72",
   "lastOpenFiles": [
+    "papers/GenProg-A-Generic-Method-for-Automatic-Software-Repair.md",
+    "papers/Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories.md",
     "papers/img/Pasted image 20251127100734.png",
     "docs/Project/DYETEC/Patent-Ideas.md",
     "conflict-files-obsidian-git.md",
@@ -200,7 +202,6 @@
     "papers/Systematically-Producing-Test-Orderes-to-Detect-Order-Dependent-Flaky-Tests.md",
     "papers/Large-Language-Models-for-Test-Free-Fault-Localization.md",
     "papers/Information-Retrieval-and-Spectrum-Based-Bug-Localization-Better-Together.md",
-    "papers/GenProg-A-Generic-Method-for-Automatic-Software-Repair.md",
     "papers/Fault-Localization-with-Code-Coverage-Representation-Learning.md",
     "papers/img/Pasted image 20251124143640.png",
     "papers/img/Pasted image 20251124143438.png",
@@ -211,11 +212,9 @@
     "papers/img/Pasted image 20251124141909.png",
     "papers/img/Pasted image 20251124141827.png",
     "papers/img/Pasted image 20251124141618.png",
-    "papers/img/Pasted image 20251122204049.png",
     "docs/Paper/Paper-Writing-Method-Built-on-Experience.md",
     "docs/KNU-MS/2nd_semester/COMP0730.md",
     "docs/Paper/ST-SLM.md",
-    "papers/Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories.md",
     "papers/Repairing-Order-Dependent-Flaky-Tests-via-Test-Generation.md",
     "papers/All-You-Ever-Wanted-to-Know-About-Dynamic-Taint-Analysis-and-Forward-Symbolic-Executio(but-might-have-been-afraid-to-ask).md",
     "docs/Paper/UCWIT/Using-Regression-Chains-to-Find-Optimal-Solutions-for-Biodegradable-Fiber-Spinning-Recipes.md",
