@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Project/DYETEC/Patent-Ideas.md",
+                "file": "papers/Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Patent-Ideas"
+              "title": "Identifying-Bug-Inducing-Commits-by-Combining-Fault-Localisation-and-Code-Change-Histories"
             }
           }
         ]
@@ -182,8 +182,9 @@
   },
   "active": "72c63cf7cab85b72",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "papers/img/Pasted image 20251127100734.png",
     "docs/Project/DYETEC/Patent-Ideas.md",
+    "conflict-files-obsidian-git.md",
     "papers/Test-Intention-Guide-LLM-based-Unit-Test-Generation.md",
     "papers/tags.yml.tmp.23388.1763966519336",
     "papers/tags.yml.tmp.23388.1763966516921",
@@ -227,7 +228,6 @@
     "papers/PAPER2CODE-AUTOMATING-CODE-GENERATION-FROM-SCIENTIFIC-PAPERS-IN-MACHINE-LEARNING.md",
     "docs/Paper/KSC/Extension-of-a-Biodegradable-Fiber-Yarn-Property-Prediction-Model-Using-Stacking-Ensemble.md",
     "docs/Project/Y-DESIGN-LAB/IEMOTIONS.md",
-    "papers/Cross-dataset-learning-and-person-specific-normalisation-for-automatic-Acution-Unit-detection.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
