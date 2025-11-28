@@ -26,7 +26,7 @@ uname -m
 ```bash
 sudo apt update && sudo apt ugrade
 ```
-
+![](img/Pasted%20image%2020251128175900.png)
 ### 2. Ollama 설치
 Ollama 설치 스크립트 실행
 ```bash
