@@ -1,4 +1,6 @@
 # Raspberry Pi 5 기반 커스텀 sLM 배포 절차
+## Raspberry Pi 5 설치 및 실행
+
 ## Raspberry Pi 5 환경 설정
 ### 1. OS bit 수 확인 및 업데이트
 Ollama는 64-bit OS에서 정상 작동하므로 OS 버전 확인
