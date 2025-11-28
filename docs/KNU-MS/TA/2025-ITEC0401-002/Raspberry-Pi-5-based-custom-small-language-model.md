@@ -64,3 +64,9 @@ ollama create <model> -f Modelfile
 ```
 ![](img/Pasted%20image%2020251128184345.png)
 ![](img/Pasted%20image%2020251128184814.png)
+## 모델 실행 및 테스트
+### 터미널 대화 모드 실행
+```bash
+ollama run <model>
+```
+![](img/Pasted%20image%2020251128185130.png)
