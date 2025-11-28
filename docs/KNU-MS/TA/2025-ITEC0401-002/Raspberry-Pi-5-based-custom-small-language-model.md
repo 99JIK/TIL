@@ -1,5 +1,7 @@
 # Raspberry Pi 5 기반 커스텀 sLM 배포 절차
 ## Raspberry Pi 5 설치 및 실행
+Raspberry Pi Imager 실행
+![](img/Pasted%20image%2020251128170221.png)
 
 ## Raspberry Pi 5 환경 설정
 ### 1. OS bit 수 확인 및 업데이트
