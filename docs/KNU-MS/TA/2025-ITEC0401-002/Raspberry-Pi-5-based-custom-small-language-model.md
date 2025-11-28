@@ -14,17 +14,19 @@
 ![](img/Pasted%20image%2020251128171106.png)
 ![](img/Pasted%20image%2020251128171118.png)
 ![](img/Pasted%20image%2020251128171556.png)
-
+![](img/Pasted%20image%2020251128175022.png)
 ## Raspberry Pi 5 환경 설정
 ### 1. OS bit 수 확인 및 업데이트
 Ollama는 64-bit OS에서 정상 작동하므로 OS 버전 확인
 ```bash
 uname -m
 ```
+![](img/Pasted%20image%2020251128175054.png)
 패키지 리스트 업데이트 및 업그레이드
 ```bash
 sudo apt update && sudo apt ugrade
 ```
+
 ### 2. Ollama 설치
 Ollama 설치 스크립트 실행
 ```bash
