@@ -42,7 +42,7 @@ systemctl status ollama
 ## PC에서 Raspberry Pi 5로 학습된 모델 전송
 학습된 모델을 gguf 포맷으로 변환하여 Raspberry Pi 5로 전송
 - USB
-
+![](img/Pasted%20image%2020251128183632.png)
 - `scp`
 ```bash
 scp ./<path>/<model>.gguf <pi_user>@<ip_address>:/home/<pi_user>
