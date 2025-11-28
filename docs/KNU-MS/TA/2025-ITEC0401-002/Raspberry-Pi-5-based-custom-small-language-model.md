@@ -41,7 +41,8 @@ systemctl status ollama
 ![](img/Pasted%20image%2020251128180521.png)
 ## PC에서 Raspberry Pi 5로 학습된 모델 전송
 학습된 모델을 gguf 포맷으로 변환하여 Raspberry Pi 5로 전송
-### USB
-### `scp`
+- USB
 
+- `scp`
+위 항목들로 Raspberry Pi 5에 학습된 모델을 전송
 ## Modelfile 작성 및 Ollama 모델 빌드
