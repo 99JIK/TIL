@@ -1,10 +1,10 @@
 # Raspberry Pi 5 기반 커스텀 sLM 배포 절차
 ## Raspberry Pi 5 설치 및 실행
-[Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 Pi Desktop을 설치
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
-64-bit 선택
+Ollama는 64-bit 에서 정상작동하므로 64-bit를 선택한다.
 ![](img/Pasted%20image%2020251128170332.png)
-설치할 저장소 선택(Micro SD card)
+설치할 저장소를 선택(Micro SD card)
 ![](img/Pasted%20image%2020251128170356.png)
 원하는 Custom 진행
 ![](img/Pasted%20image%2020251128170622.png)
