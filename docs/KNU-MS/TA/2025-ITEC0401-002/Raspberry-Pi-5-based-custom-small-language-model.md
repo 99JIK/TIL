@@ -20,6 +20,8 @@ curl -fsSL https://ollama.com/install.sh | sh
 systemctl status ollama
 ```
 ## PC에서 Raspberry Pi 5로 학습된 모델 전송
-학습된 모델을 gguf 포맷으로 변환하여 Raspberry Pi 5 
+학습된 모델을 gguf 포맷으로 변환하여 Raspberry Pi 5로 전송
+- USB: 망
+- `scp`
 
 ## Modelfile 작성 및 Ollama 모델 빌드
