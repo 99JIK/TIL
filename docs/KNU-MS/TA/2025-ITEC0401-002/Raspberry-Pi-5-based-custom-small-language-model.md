@@ -70,3 +70,5 @@ ollama create <model> -f Modelfile
 ollama run <model>
 ```
 ![](img/Pasted%20image%2020251128185130.png)
+실행 후 프롬프트가 뜨면 질문을 입력하여 확인할 수 있다.
+### API 모드 실행
