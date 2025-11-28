@@ -5,11 +5,16 @@ Ollama는 64-bit OS에서 정상 작동하므로 OS 버전 확인
 ```bash
 uname -m
 ```
-- Ollama는 OS가 64비틍
+- Ollama는 64-bit OS에서 정상 작동하므로 OS가 64-bit인 지 확인
+	- ```bash
+	  aarch64
+	  ```
 ```bash
 sudo apt update && sudo apt ugrade
 ```
+- 패키지 리스트 업데이트 및 업그레이드
 ### 2. Ollama 설치
+
 ### 3. 서비스 상태 확인
 ## PC에서 Raspberry Pi 5로 학습된 모델 전송
 ## Modelfile 작성 및 Ollama 모델 빌드
