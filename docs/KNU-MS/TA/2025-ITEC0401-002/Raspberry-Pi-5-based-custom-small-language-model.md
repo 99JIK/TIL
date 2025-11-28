@@ -13,6 +13,7 @@
 ![](img/Pasted%20image%2020251128171049.png)
 ![](img/Pasted%20image%2020251128171106.png)
 ![](img/Pasted%20image%2020251128171118.png)
+![](img/Pasted%20image%2020251128171556.png)
 
 ## Raspberry Pi 5 환경 설정
 ### 1. OS bit 수 확인 및 업데이트
