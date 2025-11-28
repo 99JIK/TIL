@@ -2,4 +2,6 @@
 ## Raspberry Pi 5 환경 설정
 ### 1. OS bit 수 확인 및 업데이트
 ### 2. Ollama 설치
-### 3. 서비스 상태 화
+### 3. 서비스 상태 확인
+## PC에서 Raspberry Pi 5로 학습된 모델 전송
+## Modelfile 작성 및 Ollama 모델 빌드
