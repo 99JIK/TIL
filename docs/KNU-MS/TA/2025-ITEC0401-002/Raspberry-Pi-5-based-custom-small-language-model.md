@@ -23,7 +23,7 @@ Ollama는 64-bit OS에서 정상 작동하므로 OS 버전을 확인한다
 uname -m
 ```
 ![](img/Pasted%20image%2020251128175054.png)
-패키지 리스트 업데이트 및 업그레이드를 진행한ㄷ
+패키지 리스트 업데이트 및 업그레이드를 진행한다.
 ```bash
 sudo apt update && sudo apt ugrade
 ```
@@ -63,3 +63,4 @@ FROM /home/<pi_user>/<model>.gguf
 ollama create <model> -f Modelfile
 ```
 ![](img/Pasted%20image%2020251128184345.png)
+![](img/Pasted%20image%2020251128184814.png)
