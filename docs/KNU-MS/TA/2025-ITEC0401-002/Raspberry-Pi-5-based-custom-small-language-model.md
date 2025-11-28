@@ -4,9 +4,10 @@
 ![](img/Pasted%20image%2020251128170221.png)
 Ollama는 64-bit 에서 정상작동하므로 64-bit를 선택한다.
 ![](img/Pasted%20image%2020251128170332.png)
-설치할 저장소를 선택(Micro SD card)
+설치할 저장소를 선택한다.
 ![](img/Pasted%20image%2020251128170356.png)
-원하는 Custom 진행
+원하는 Custom을 진행한다.
+Raspberry Pi Connect를 사용하면 주변기기 없이 원격 접속으로 쉽게 진행이 가능하다. 
 ![](img/Pasted%20image%2020251128170622.png)
 ![](img/Pasted%20image%2020251128170843.png)
 ![](img/Pasted%20image%2020251128170856.png)
@@ -17,12 +18,12 @@ Ollama는 64-bit 에서 정상작동하므로 64-bit를 선택한다.
 ![](img/Pasted%20image%2020251128175022.png)
 ## Raspberry Pi 5 환경 설정
 ### 1. OS bit 수 확인 및 업데이트
-Ollama는 64-bit OS에서 정상 작동하므로 OS 버전 확인
+Ollama는 64-bit OS에서 정상 작동하므로 OS 버전을 확인한다
 ```bash
 uname -m
 ```
 ![](img/Pasted%20image%2020251128175054.png)
-패키지 리스트 업데이트 및 업그레이드
+패키지 리스트 업데이트 및 업그레이드를 진행한ㄷ
 ```bash
 sudo apt update && sudo apt ugrade
 ```
