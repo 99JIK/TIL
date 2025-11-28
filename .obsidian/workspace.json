@@ -46,9 +46,21 @@
               "icon": "lucide-file",
               "title": "Raspberry-Pi-5-based-custom-small-language-model"
             }
+          },
+          {
+            "id": "76ad0ceb2e070712",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128171049.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251128171049"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,8 +209,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "513ff88c1cd89803",
+  "active": "76ad0ceb2e070712",
   "lastOpenFiles": [
+    "docs/KNU-MS/TA/2025-ITEC0401-002/Raspberry-Pi-5-based-custom-small-language-model.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128171118.png",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128171106.png",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128171049.png",
@@ -209,7 +222,6 @@
     "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128170332.png",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128170221.png",
     "docs/KNU-MS/2nd_semester/COMP0811.md",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/Raspberry-Pi-5-based-custom-small-language-model.md",
     "docs/KNU-MS/2nd_semester/COMP0738.md",
     "Jeongin.md",
     "conflict-files-obsidian-git.md",
