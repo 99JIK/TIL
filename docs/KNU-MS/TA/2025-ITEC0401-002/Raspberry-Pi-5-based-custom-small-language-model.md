@@ -52,4 +52,7 @@ scp ./<path>/<model>.gguf <pi_user>@<ip_address>:/home/<pi_user>
 ```bash
 nano Modelfile
 ```
-![](img/Pasted%20image%2020251128184038.png)
+![](img/Pasted%20image%2020251128184038.png)![](img/Pasted%20image%2020251128184046.png)
+```bash
+FROM /home/<pi_user>/<model>.gguf
+```
