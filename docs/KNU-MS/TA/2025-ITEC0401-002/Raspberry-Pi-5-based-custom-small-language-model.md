@@ -56,3 +56,5 @@ nano Modelfile
 ```bash
 FROM /home/<pi_user>/<model>.gguf
 ```
+![](img/Pasted%20image%2020251128184200.png)
+![](img/Pasted%20image%2020251128184220.png)
