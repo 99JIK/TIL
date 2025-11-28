@@ -1,6 +1,6 @@
 # Raspberry Pi 5 기반 커스텀 sLM 배포 절차
 ## Raspberry Pi 5 설치 및 실행
-[Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 Pi Desktop을 설치
 ![](img/Pasted%20image%2020251128170221.png)
 64-bit 선택
 ![](img/Pasted%20image%2020251128170332.png)
