@@ -4,9 +4,9 @@
 ![](img/Pasted%20image%2020251128170221.png)
 64-bit 선택
 ![](img/Pasted%20image%2020251128170332.png)
-
+설치할 저장소 선택(Micro SD card)
 ![](img/Pasted%20image%2020251128170356.png)
-설치할 드라이브 
+
 ## Raspberry Pi 5 환경 설정
 ### 1. OS bit 수 확인 및 업데이트
 Ollama는 64-bit OS에서 정상 작동하므로 OS 버전 확인
