@@ -32,6 +32,7 @@ Ollama 설치 스크립트 실행
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
+![](img/Pasted%20image%2020251128180451.png)
 ### 3. 서비스 상태 확인
 설치 후 Ollama가 백그라운드에서 동작중인지 확인
 ```bash
