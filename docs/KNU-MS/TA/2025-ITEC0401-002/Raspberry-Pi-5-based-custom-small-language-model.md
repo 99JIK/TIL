@@ -49,3 +49,7 @@ systemctl status ollama
 scp ./<path>/<model>.gguf <pi_user>@<ip_address>:/home/<pi_user>
 ```
 ## Modelfile 작성 및 Ollama 모델 빌드
+```bash
+nano Modelfile
+```
+![](img/Pasted%20image%2020251128184038.png)
