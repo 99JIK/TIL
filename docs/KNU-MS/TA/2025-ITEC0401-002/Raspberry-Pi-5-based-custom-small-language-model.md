@@ -15,6 +15,10 @@ Ollama 설치 스크립트 실행
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 ### 3. 서비스 상태 확인
-
+설치 후 Ollama가 백그라운드에서 동작중인지 확인
+```bash
+systemctl status ollama
+```
 ## PC에서 Raspberry Pi 5로 학습된 모델 전송
+
 ## Modelfile 작성 및 Ollama 모델 빌드
