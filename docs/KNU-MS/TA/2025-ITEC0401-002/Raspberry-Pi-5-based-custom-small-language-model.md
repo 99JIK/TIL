@@ -8,7 +8,10 @@
 - Power: 5V/5A 전용 어댑터(고부하 추론 시 안정적인 전원 공급 필수)
 - Interface: 키보드, 마우스, 모니터
 ### 2.2. 소프트웨어
-- OS: Raspberry Pi OS Book
+- OS: Raspberry Pi OS Bookworm(64-bit 필수)
+- Runtime: Python 3.11.x ~ 3.12.x
+- Inference Engine: Ollama(v0.13.0 이상, ARM64 Build)
+- Model Build: llama.cpp(Build 2025.9 이상), PyTorch
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
