@@ -46,9 +46,14 @@ Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 
 ## 4. Raspberry Pi 배포
 ### 4.1. OS 설치 및 초기 설정
 1. Imaging: [Raspberry Pi Imager](https://www.raspberrypi.com/software/)를 사용하여 SD 카드에 OS를 설치한다.
+   ![](img/Pasted%20image%2020251128170221.png)![](img/Pasted%20image%2020251128170332.png)
+   ![](img/Pasted%20image%2020251128170356.png)
 2. OS Customization: Imager 설정 메뉴에서 OS Customisation을 진행한다.
 	- Network Setting: Wireless LAN을 활성화하고 사용중인 Wi-Fi의 SSID와 비밀번호를 정확히 입력하여 부팅 직후 네트워크 접속 및 패키지 설치가 가능하게 설정한다.
+	  ![](img/Pasted%20image%2020251128170622.png)
+	  ![](img/Pasted%20image%2020251128170843.png)
 	- Enable SSH: 원활한 원격 접속 및 파일 전송을 위해 Services 탭에서 SSH를 활성화한다.
+	  ![](img/Pasted%20image%2020251128170856.png)
 3. Update Package: 부팅 후 Terminal에서 시스템을 최신 상태로 갱신한다.
    ``` Bash
    uname -m # aarch64 확인
@@ -110,16 +115,16 @@ olamam run <custom_model_name>
   3. Check Results: 생성된 output_results.json 파일에서 각 질문에 대한 답변 및 inference_time_sec을 확인한다.
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
-![](img/Pasted%20image%2020251128170221.png)
+
 Ollama는 64-bit 에서 정상작동하므로 64-bit를 선택한다.
-![](img/Pasted%20image%2020251128170332.png)
+
 설치할 저장소를 선택한다.
-![](img/Pasted%20image%2020251128170356.png)
+
 원하는 Custom을 진행한다.
 Raspberry Pi Connect를 사용하면 주변기기 없이 원격 접속으로 쉽게 진행이 가능하다. 
-![](img/Pasted%20image%2020251128170622.png)
-![](img/Pasted%20image%2020251128170843.png)
-![](img/Pasted%20image%2020251128170856.png)
+
+
+
 ![](img/Pasted%20image%2020251128171049.png)
 ![](img/Pasted%20image%2020251128171106.png)
 ![](img/Pasted%20image%2020251128171118.png)
