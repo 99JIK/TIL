@@ -84,7 +84,14 @@ Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 
    ollama create <custom_model_name> -f Modelfile
    ```
 ## 5. 테스트 및 운영
-### 4
+### 5.1. CLI 기반 테스트
+Terminal에서 즉시 모델을 Load하여 추론 성능을 확인한다.
+```bash
+olamam run <custom_model_name>
+```
+### 5.2. Python API 기반 테스트
+대량의 질의응답 세트를 처리하고 추론 시간을 측정하기 위한 Python Script를 사용한다.
+1. 
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
