@@ -10,7 +10,7 @@ drive/
        └── 1st/
            ├── data/  # Pruning, LoRA, Test Datasets
            │    
-           ├── models/ # 각 모델 저장
+           ├── models/ # Save each models
            │   ├── LoRA/
            │   │   ├── activation/
            │   │   ├── gradient/
@@ -31,7 +31,7 @@ drive/
            │   │   └── original/
            │   └── original/
            │       └── gemma-3-4b-it/
-           ├── results/ # 코드 테스트 결과
+           ├── results/ # Test Results
            │   ├── pruned/ 
            │   │   ├── activation/
            │   │   ├── gradient/
@@ -42,7 +42,7 @@ drive/
            │       ├── lora/
            │       ├── magnitude/
            │       └── original/
-           ├── src/ # 코드 스크립트
+           ├── src/ # Code of Scripts
            │   ├── pruning/
            │   │   ├── activation/
            │   │   ├── gradient/
