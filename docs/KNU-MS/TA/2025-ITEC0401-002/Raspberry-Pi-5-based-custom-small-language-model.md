@@ -104,8 +104,10 @@ olamam run <custom_model_name>
 	  ```
 	- test.py 실행 전 Ollama Server가 Background에서 실행 중이여야 한다.
 	  ```bash
-	  systemctl start ollama #새
+	  systemctl status ollama # 확인
+	  systemctl start ollama #실행
 	  ```
+  3. Check Results: 생성된 output_results.json 파일에서 각 질문에 대한 답변 및 inference_time_sec을 확인한다.
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
