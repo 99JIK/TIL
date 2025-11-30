@@ -32,6 +32,12 @@
 Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 학습을 수행한다.
 - Run Script: src/LoRA/LoRA_train.py(Pruned Model 18종에 대해 순차 학습을 자동화한 Script)
 - Key Parameters
+	- Rank(r): 16
+	- Alpha: 32
+	- Target Modules: q_proj, v_proj(안정성 확보)
+	- Precision: BF16(FP16의 Overflow 문제 해결 및 Loss 수렴 안정화)
+### 3.4. 모델 병합 및 양자화
+1. Merge: 
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
