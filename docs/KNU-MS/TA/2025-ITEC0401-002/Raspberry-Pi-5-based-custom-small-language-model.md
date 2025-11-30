@@ -55,7 +55,12 @@ Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 
    sudo apt update && sudo apt upgrade -y
    ```
 ### 4.2. Ollama 추론 엔진 구축
-1. Install: 공식 S
+1. Install: 공식 Script를 통해 Ollama를 설치한다.
+   ```bash
+   curl -fsSL https://
+   ```
+2. Check Status: Service Daemon이 정상 작동하는지 확인한다.
+### 4.3. 모델 배포
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
