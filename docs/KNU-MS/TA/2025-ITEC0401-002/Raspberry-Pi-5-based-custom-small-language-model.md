@@ -43,7 +43,10 @@ Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 
    python convert_hf_to_gguf.py <model_path> --outfile <output_gguf> --outtype q8_0
    ```
    - Result: models/quantized/ 경로에 최종 .gguf 파일이 생성된다.
-## 4. 
+## 4. Raspberry Pi 배포
+### 4.1. OS 설치 및 초기 설정
+1. Imaging: [Raspberry Pi Imager](https://www.raspberrypi.com/software/)를 사용하여 SD 카드에 OS를 설치한다.
+2. OS Cus
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
