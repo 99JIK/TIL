@@ -47,7 +47,9 @@ Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 
 ### 4.1. OS 설치 및 초기 설정
 1. Imaging: [Raspberry Pi Imager](https://www.raspberrypi.com/software/)를 사용하여 SD 카드에 OS를 설치한다.
 2. OS Customization: Imager 설정 메뉴에서 OS Customisation을 진행한다.
-	- Network Setting: Wireless LAN을 활성화하고 
+	- Network Setting: Wireless LAN을 활성화하고 사용중인 Wi-Fi의 SSID와 비밀번호를 정확히 입력하여 부팅 직후 네트워크 접속 및 패키지 설치가 가능하게 설정한다.
+	- Enable SSH: 원활한 원격 접속 및 파일 전송을 위해 Services 탭에서 SSH를 활성화한다.
+3. Package
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
