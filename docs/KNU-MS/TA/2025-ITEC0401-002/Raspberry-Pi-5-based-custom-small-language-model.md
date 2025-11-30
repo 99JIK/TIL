@@ -147,3 +147,20 @@ OUTPUT_FILE = "output_results.json"
 	  systemctl start ollama #실행
 	  ```
   3. Check Results: 생성된 output_results.json 파일에서 각 질문에 대한 답변 및 inference_time_sec을 확인한다.
+     ```json
+     # Example of output_result.json
+	[
+		{
+	        "id": 1,
+	        "question": "Why are my tomatoes experiencing leaf curling during the fruit development stage? Answer in short.",
+	        "answer": "Try adjusting watering and ensure steady sunlight to keep your tomatoes healthy! 🍅",
+	        "inference_time_sec": 9.9485
+	    },
+	    {
+	        "id": 2,
+	        "question": "Leaves green but wilting; leaves roll and drop; fruits may develop blossom-end rot symptoms. Answer in short.",
+	        "answer": "Calcium deficiency; improve soil pH & watering.",
+	        "inference_time_sec": 7.714
+	    }
+	]
+     ```
