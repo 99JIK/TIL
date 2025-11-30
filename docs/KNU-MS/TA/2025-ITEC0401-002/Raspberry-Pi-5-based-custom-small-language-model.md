@@ -29,7 +29,9 @@
   역전파 Gradient 크기 기반 민감도를 측정한다.
 - Setting: 각 스크립트 상단의 PRUNE_RATIO를 조정하여 경량화 강도를 결정한다.
 ### 3.3. LoRA Fine-Tuning
-Pruning으로 
+Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 학습을 수행한다.
+- Run Script: src/LoRA/LoRA_train.py(Pruned Model 18종에 대해 순차 학습을 자동화한 Script)
+- Key Parameters
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
