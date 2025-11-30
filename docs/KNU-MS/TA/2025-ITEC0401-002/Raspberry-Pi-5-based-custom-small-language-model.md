@@ -4,7 +4,11 @@
 ## 2. 시스템 요구사항
 ### 2.1. 하드웨어
 - Edge Device: Raspberry Pi 5(RAM 16GB 권장) - ARM Cortex-A76 8-Core 기반
-- Storage: Micro SD Card(OS 구동용), 
+- Storage: Micro SD Card(OS 구동용), USB 3.0 이상 저장장치(Model file 전송 및 스왑용)
+- Power: 5V/5A 전용 어댑터(고부하 추론 시 안정적인 전원 공급 필수)
+- Interface: 키보드, 마우스, 모니터
+### 2.2. 소프트웨어
+- OS: Raspberry Pi OS Book
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
