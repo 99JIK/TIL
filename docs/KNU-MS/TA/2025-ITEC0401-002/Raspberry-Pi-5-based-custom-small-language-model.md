@@ -55,7 +55,12 @@ Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 
 	- Enable SSH: 원활한 원격 접속 및 파일 전송을 위해 Services 탭에서 SSH를 활성화한다.
 	  ![](img/Pasted%20image%2020251128170856.png)
 	- Enable Raspberry Pi Connect: 편의를 위해 Raspberry Pi Connect를 활성화한다.
-	- 
+	  ![](img/Pasted%20image%2020251128171049.png)
+	- Installation Complete: 나머지 설정들을 진행하여 설치한다.
+	  ![](img/Pasted%20image%2020251128171106.png)
+	  ![](img/Pasted%20image%2020251128171118.png)
+	  ![](img/Pasted%20image%2020251128171556.png)
+	  ![](img/Pasted%20image%2020251128175022.png)
 	  
 3. Update Package: 부팅 후 Terminal에서 시스템을 최신 상태로 갱신한다.
    ``` Bash
@@ -129,17 +134,17 @@ Raspberry Pi Connect를 사용하면 주변기기 없이 원격 접속으로 쉽
 
 
 
-![](img/Pasted%20image%2020251128171106.png)
-![](img/Pasted%20image%2020251128171118.png)
-![](img/Pasted%20image%2020251128171556.png)
-![](img/Pasted%20image%2020251128175022.png)
+
+
+
+
 ## Raspberry Pi 5 환경 설정
 ### 1. OS bit 수 확인 및 업데이트
 Ollama는 64-bit OS에서 정상 작동하므로 OS 버전을 확인한다
 ```bash
 uname -m
 ```
-![](img/Pasted%20image%2020251128175054.png)
+
 패키지 리스트 업데이트 및 업그레이드를 진행한다.
 ```bash
 sudo apt update && sudo apt ugrade
