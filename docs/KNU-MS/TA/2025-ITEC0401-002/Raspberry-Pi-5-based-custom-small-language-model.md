@@ -3,7 +3,61 @@
 본 문서는 Raspberry Pi 5 Edge Device 환경에서 경량화된 sLM(Small Language Model)을 빌드, 배포 및 운용하기 위한 표준 절차를 기술한다. 본 가이드는 데이터 수집부터 Pruning, LoRA Fine-Tuning, Quantization을 거쳐 On-Device 환경에서 최종 구동까지의 전 과정을 포함한다.
 ### 1.1. 프로젝트 파일구조
 본 문서는 Google Drive에 파일들을 아래와 같은 기준으로 배치하였으며, 경로가 다를 경우 모든 Script의 내부 경로를 수정해야 한다.
-``
+```
+drive/
+└── MyDrive/
+    └── smartfarm_pruning/
+       └── 1st/
+           ├── data/  # Pruning, LoRA, Test Datasets
+           │    
+           ├── models/ # 각 모델 저장
+           │   ├── LoRA/
+           │   │   ├── activation/
+           │   │   ├── gradient/
+           │   │   ├── magnitude/
+           │   │   └── original/
+           │   ├── pruned/    
+           │   │   ├── activation/
+           │   │   ├── gradient/
+           │   │   └── magnitude/
+           │   ├── quantized/   
+           │   │   ├── activation/
+           │   │   ├── activation_lora/
+           │   │   ├── gradient/
+           │   │   ├── gradient_lora/
+           │   │   ├── lora/
+           │   │   ├── magnitude/
+           │   │   ├── magnitude_lora/
+           │   │   └── original/
+           │   └── original/
+           │       └── gemma-3-4b-it/
+           ├── results/ # 코드 테스트 결과
+           │   ├── pruned/ 
+           │   │   ├── activation/
+           │   │   ├── gradient/
+           │   │   └── magnitude/
+           │   └── quantization/     
+           │       ├── activation/
+           │       ├── gradient/
+           │       ├── lora/
+           │       ├── magnitude/
+           │       └── original/
+           ├── src/ # 코드 스크립트
+           │   ├── pruning/
+           │   │   ├── activation/
+           │   │   ├── gradient/
+           │   │   └── magnitude/
+           │   ├── LoRA/
+           │   ├── quantized/
+				   |   |   ├── quantize.py
+           │   └── utils/
+           │       ├── data_loader.py
+           │       ├── model_loader.py
+           │       └── test.py
+           ├── lora.py
+           ├── lora_combine.ipynb
+           └── requirements.txt
+```
 ## 2. 시스템 요구사항
 ### 2.1. 하드웨어
 - Edge Device: Raspberry Pi 5(RAM 16GB 권장) - ARM Cortex-A76 8-Core 기반
