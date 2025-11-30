@@ -46,9 +46,19 @@
               "icon": "lucide-file",
               "title": "Raspberry-Pi-5-based-custom-small-language-model"
             }
+          },
+          {
+            "id": "72e6a689e9b76feb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,8 +207,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "513ff88c1cd89803",
+  "active": "72e6a689e9b76feb",
   "lastOpenFiles": [
+    "docs/KNU-MS/TA/2025-ITEC0401-002/Raspberry-Pi-5-based-custom-small-language-model.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/RP5.zip",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img.zip",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128185130.png",
@@ -211,7 +222,6 @@
     "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128184035.png",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128183803.png",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128183632.png",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/Raspberry-Pi-5-based-custom-small-language-model.md",
     "docs/KNU-MS/2nd_semester/COMP0811.md",
     "docs/KNU-MS/2nd_semester/COMP0738.md",
     "Jeongin.md",
