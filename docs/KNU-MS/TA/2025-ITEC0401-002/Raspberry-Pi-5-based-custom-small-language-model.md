@@ -184,14 +184,13 @@ olamam run <custom_model_name>
 	  ```
 	  
 	  ```python
-# === Settings ===
-MODEL_NAME = "model" 
-INPUT_FILE = "test_dataset.json"
-OUTPUT_FILE = "output_results.json"
-# ==================
+	# Settings 
+	MODEL_NAME = "model" 
+	INPUT_FILE = "test_dataset.json"
+	OUTPUT_FILE = "output_results.json"
 	```
 	
-		```json
+	```json
 	# Example of test_dataset.json
 	[
 	  {
