@@ -67,15 +67,19 @@ Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 
    uname -m # aarch64 확인
    sudo apt update && sudo apt upgrade -y
    ```
+   ![](img/Pasted%20image%2020251128175054.png)
+   ![](img/Pasted%20image%2020251128175900.png)
 ### 4.2. Ollama 추론 엔진 구축
 1. Install: 공식 Script를 통해 Ollama를 설치한다.
    ```bash
    curl -fsSL https://ollama.com/install.sh | sh
    ```
+   ![](img/Pasted%20image%2020251128180451.png)
 2. Check Status: Service Daemon이 정상 작동하는지 확인한다.
    ```bash
    systemctl status ollama
    ```
+   ![](img/Pasted%20image%2020251128180521.png)
 ### 4.3. 모델 배포
 1. Send Model: 생성한 .gguf 파일을 Raspberry Pi로 전송한다.
 	1. scp
@@ -83,15 +87,19 @@ Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 
 	   scp ./<pruned_model>.gguf <pi_user>@<ip_address>:/home/<pi_user>/
 	   ```
 	2. USB Mount 후 이동
+	   ![](img/Pasted%20image%2020251128183632.png)
+	   ![](img/Pasted%20image%2020251128183803.png)
 2. Write Modelfile: Model의 Metadata를 정의한다.
    ```bash
    nano Modelfile
    ```
+   ![](img/Pasted%20image%2020251128184038.png)
    ```Dockerfile
    FROM /home/<pi_user>/<pruned_model>.gguf
    # PARAMETER ... # Parameter 설정
    # SYSTEM "..." # System Prompt 설정
    ```
+   ![](img/Pasted%20image%2020251128184200.png)
 3. Build Model: Ollama Library에 Model을 등록한다.
    ```bash
    ollama create <custom_model_name> -f Modelfile
@@ -149,24 +157,24 @@ uname -m
 ```bash
 sudo apt update && sudo apt ugrade
 ```
-![](img/Pasted%20image%2020251128175900.png)
+
 ### 2. Ollama 설치
 Ollama 설치 스크립트 실행
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
-![](img/Pasted%20image%2020251128180451.png)
+
 ### 3. 서비스 상태 확인
 설치 후 Ollama가 백그라운드에서 동작중인지 확인
 ```bash
 systemctl status ollama
 ```
-![](img/Pasted%20image%2020251128180521.png)
+
 ## PC에서 Raspberry Pi 5로 학습된 모델 전송
 학습된 모델을 gguf 포맷으로 변환하여 Raspberry Pi 5로 전송
 - USB
-![](img/Pasted%20image%2020251128183632.png)
-![](img/Pasted%20image%2020251128183803.png)
+
+
 - `scp`
 ```bash
 scp ./<path>/<model>.gguf <pi_user>@<ip_address>:/home/<pi_user>
@@ -175,11 +183,11 @@ scp ./<path>/<model>.gguf <pi_user>@<ip_address>:/home/<pi_user>
 ```bash
 nano Modelfile
 ```
-![](img/Pasted%20image%2020251128184038.png)![](img/Pasted%20image%2020251128184046.png)
+![](img/Pasted%20image%2020251128184046.png)
 ```bash
 FROM /home/<pi_user>/<model>.gguf
 ```
-![](img/Pasted%20image%2020251128184200.png)
+
 ![](img/Pasted%20image%2020251128184220.png)
 ```bash
 ollama create <model> -f Modelfile
