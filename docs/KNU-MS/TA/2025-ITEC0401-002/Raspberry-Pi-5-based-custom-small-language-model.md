@@ -188,9 +188,8 @@ olamam run <custom_model_name>
 	INPUT_FILE = "test_dataset.json"
 	OUTPUT_FILE = "output_results.json"
 	  ```
-	  test_dataset.json 
+	  test_dataset.json 예시
 	  ```json
-	# Example of test_dataset.json
 	[
 	  {
 	    "instruction": "Why are my tomatoes not developing good growth?",
@@ -206,8 +205,8 @@ olamam run <custom_model_name>
 	  systemctl start ollama #실행
 	  ```
   3. Check Results: 생성된 output_results.json 파일에서 각 질문에 대한 답변 및 inference_time_sec을 확인한다.
+     output_result.json 예시
      ```json
-     # Example of output_result.json
 	[
 		{
 	        "id": 1,
