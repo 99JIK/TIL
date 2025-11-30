@@ -125,82 +125,16 @@ olamam run <custom_model_name>
 	  ```bash
 	  python3 scr/utins/test.py
 	  ```
+	  ```python
+# === Settings ===
+MODEL_NAME = "model" 
+INPUT_FILE = "test_dataset.json"
+OUTPUT_FILE = "output_results.json"
+# ==================
+```
 	- test.py 실행 전 Ollama Server가 Background에서 실행 중이여야 한다.
 	  ```bash
 	  systemctl status ollama # 확인
 	  systemctl start ollama #실행
 	  ```
   3. Check Results: 생성된 output_results.json 파일에서 각 질문에 대한 답변 및 inference_time_sec을 확인한다.
-## Raspberry Pi 5 설치 및 실행
-[Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
-
-Ollama는 64-bit 에서 정상작동하므로 64-bit를 선택한다.
-
-설치할 저장소를 선택한다.
-
-원하는 Custom을 진행한다.
-Raspberry Pi Connect를 사용하면 주변기기 없이 원격 접속으로 쉽게 진행이 가능하다. 
-
-
-
-
-
-
-
-
-## Raspberry Pi 5 환경 설정
-### 1. OS bit 수 확인 및 업데이트
-Ollama는 64-bit OS에서 정상 작동하므로 OS 버전을 확인한다
-```bash
-uname -m
-```
-
-패키지 리스트 업데이트 및 업그레이드를 진행한다.
-```bash
-sudo apt update && sudo apt ugrade
-```
-
-### 2. Ollama 설치
-Ollama 설치 스크립트 실행
-```bash
-curl -fsSL https://ollama.com/install.sh | sh
-```
-
-### 3. 서비스 상태 확인
-설치 후 Ollama가 백그라운드에서 동작중인지 확인
-```bash
-systemctl status ollama
-```
-
-## PC에서 Raspberry Pi 5로 학습된 모델 전송
-학습된 모델을 gguf 포맷으로 변환하여 Raspberry Pi 5로 전송
-- USB
-
-
-- `scp`
-```bash
-scp ./<path>/<model>.gguf <pi_user>@<ip_address>:/home/<pi_user>
-```
-## Modelfile 작성 및 Ollama 모델 빌드
-```bash
-nano Modelfile
-```
-![](img/Pasted%20image%2020251128184046.png)
-```bash
-FROM /home/<pi_user>/<model>.gguf
-```
-
-![](img/Pasted%20image%2020251128184220.png)
-```bash
-ollama create <model> -f Modelfile
-```
-
-![](img/Pasted%20image%2020251128184814.png)
-## 모델 실행 및 테스트
-### 터미널 대화 모드 실행
-```bash
-ollama run <model>
-```
-
-실행 후 프롬프트가 뜨면 질문을 입력하여 확인할 수 있다.
-### API 모드 실행
