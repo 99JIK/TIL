@@ -1,6 +1,10 @@
 # Raspberry Pi 5 기반 sLM 배포 및 운용 매뉴얼
 ## 1. 개요
-본 문서는 Raspberry Pi 5 Edge Device 환경에서 경량회된 sLM(Small Language Model)을 빌드, 배포 및 운용하기 위한 표준 절차를 기술한다. 본 가이드는 데이터 수집부터 Pruning, LoRA Fine Tuning, Quantization을 거쳐 On-Device
+본 문서는 Raspberry Pi 5 Edge Device 환경에서 경량회된 sLM(Small Language Model)을 빌드, 배포 및 운용하기 위한 표준 절차를 기술한다. 본 가이드는 데이터 수집부터 Pruning, LoRA Fine Tuning, Quantization을 거쳐 On-Device 환경에서 최종 구동까지의 전 과정을 포함한다.
+## 2. 시스템 요구사항
+### 2.1. 하드웨어
+- Edge Device: Raspberry Pi 5(RAM 16GB 권장) - ARM Cortex-A76 8-Core 기반
+- Storage: Micro SD Card(OS 구동용), 
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
