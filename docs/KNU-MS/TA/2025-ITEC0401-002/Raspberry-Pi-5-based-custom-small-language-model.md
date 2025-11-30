@@ -52,8 +52,10 @@ Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 
 3. Update Package: 부팅 후 Terminal에서 시스템을 최신 상태로 갱신한다.
    ``` Bash
    uname -m # aarch64 확인
-   
+   sudo apt update && sudo apt upgrade -y
    ```
+### 4.2. Ollama 추론 엔진 구축
+1. Install: 공식 S
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
