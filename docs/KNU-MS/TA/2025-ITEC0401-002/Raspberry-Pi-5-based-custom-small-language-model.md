@@ -54,6 +54,9 @@ Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 
 	  ![](img/Pasted%20image%2020251128170843.png)
 	- Enable SSH: 원활한 원격 접속 및 파일 전송을 위해 Services 탭에서 SSH를 활성화한다.
 	  ![](img/Pasted%20image%2020251128170856.png)
+	- Enable Raspberry Pi Connect: 편의를 위해 Raspberry Pi Connect를 활성화한다.
+	- 
+	  
 3. Update Package: 부팅 후 Terminal에서 시스템을 최신 상태로 갱신한다.
    ``` Bash
    uname -m # aarch64 확인
@@ -125,7 +128,7 @@ Raspberry Pi Connect를 사용하면 주변기기 없이 원격 접속으로 쉽
 
 
 
-![](img/Pasted%20image%2020251128171049.png)
+
 ![](img/Pasted%20image%2020251128171106.png)
 ![](img/Pasted%20image%2020251128171118.png)
 ![](img/Pasted%20image%2020251128171556.png)
