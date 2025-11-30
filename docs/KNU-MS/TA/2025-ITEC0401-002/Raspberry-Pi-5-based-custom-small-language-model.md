@@ -17,7 +17,10 @@
 이 단계는 GPU 리소스가 확보된 서버(또는 Google Colab)에서 수행한다.
 ### 3.1. 환경 구성 및 모델 준비
 1. Storage Mount: Google Drive나 Local Storage 경로를 확보한다.
-2. Model Download: Hugging Face Token 인증 후 google/gemma-3-4b-it Model과 Toke
+2. Model Download: Hugging Face Token 인증 후 google/gemma-3-4b-it Model과 Tokenizer를 다운로드 한다.
+	- Note: torch.float16 Data type 및 device_map="auto" 설정을 사용하여 Memory 효율을 확보한다.
+### 3.2. 구조적 프루닝
+
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
