@@ -131,7 +131,16 @@ MODEL_NAME = "model"
 INPUT_FILE = "test_dataset.json"
 OUTPUT_FILE = "output_results.json"
 # ==================
-```
+	```
+	```json
+	# Example of test_dataset.json
+	[
+	  {
+	    "instruction": "Why are my tomatoes not developing good growth?",
+	    "output": "This usually happens during the ripening stage. Keep the environment steady and avoid sudden changes in watering or temperature."
+	  }
+	]
+	```
 	- test.py 실행 전 Ollama Server가 Background에서 실행 중이여야 한다.
 	  ```bash
 	  systemctl status ollama # 확인
