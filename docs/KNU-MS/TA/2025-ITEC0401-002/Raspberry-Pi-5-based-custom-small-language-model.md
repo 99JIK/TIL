@@ -11,7 +11,10 @@
 - OS: Raspberry Pi OS Bookworm(64-bit 필수)
 - Runtime: Python 3.11.x ~ 3.12.x
 - Inference Engine: Ollama(v0.13.0 이상, ARM64 Build)
-- Model Build: llama.cpp(Build 2025.9 이상), PyTorch
+- Model Build: llama.cpp(Build 2025.9 이상), PyTorch 2.0.0+, Transformers 4.35.0+
+- Traning Env: Google Colab Pro(A100 GPU) 혹은 이에 준하는 GPU 서버
+## 3. 모델 경량화 및 최적화
+이 단계는 GPU 리소스가 확보된 서버(또는 Google Colab)
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
