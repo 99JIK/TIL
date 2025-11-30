@@ -91,7 +91,14 @@ olamam run <custom_model_name>
 ```
 ### 5.2. Python API 기반 테스트
 대량의 질의응답 세트를 처리하고 추론 시간을 측정하기 위한 Python Script를 사용한다.
-1. 
+1. Config Virtual Environment: 독립적인 실행 환경을 생성한다.
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install ollama
+   ```
+2. Run Test Script
+	- src/utils/test.py 내 
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
