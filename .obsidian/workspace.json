@@ -41,7 +41,7 @@
               "state": {
                 "file": "docs/KNU-MS/TA/2025-ITEC0401-002/Raspberry-Pi-5-based-custom-small-language-model.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Raspberry-Pi-5-based-custom-small-language-model"
@@ -197,7 +197,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9352efed4d3ce7b",
+  "active": "513ff88c1cd89803",
   "lastOpenFiles": [
     "docs/KNU-MS/TA/2025-ITEC0401-002/RP5.zip",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img.zip",
