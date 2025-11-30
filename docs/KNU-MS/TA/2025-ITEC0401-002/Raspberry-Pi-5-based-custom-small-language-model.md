@@ -98,7 +98,14 @@ olamam run <custom_model_name>
    pip install ollama
    ```
 2. Run Test Script
-	- src/utils/test.py 내 
+	- src/utils/test.py 내 MODEL_NAME, INPUT_FILE 변수를 수정하여 실행한다.
+	  ```bash
+	  python3 scr/utins/test.py
+	  ```
+	- test.py 실행 전 Ollama Server가 Background에서 실행 중이여야 한다.
+	  ```bash
+	  systemctl start ollama #새
+	  ```
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
