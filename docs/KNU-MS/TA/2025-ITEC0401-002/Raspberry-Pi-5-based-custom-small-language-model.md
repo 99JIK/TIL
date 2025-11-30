@@ -20,7 +20,11 @@
 2. Model Download: Hugging Face Token 인증 후 google/gemma-3-4b-it Model과 Tokenizer를 다운로드 한다.
 	- Note: torch.float16 Data type 및 device_map="auto" 설정을 사용하여 Memory 효율을 확보한다.
 ### 3.2. 구조적 프루닝
-
+데이터 기반 분석을 통해 FFN 뉴런과 Attention Head의 중요도를 측정하고 제거한다.
+- Activation Pruning: src/pruning/activation/ 내 Script를 실행한다.
+  SwiGLU 활성화 패턴을 분석한다.
+- Magnitude Pruning: src/pruning/magnitude/ 내 Script를 실행한다.
+  가중치 
 ## Raspberry Pi 5 설치 및 실행
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 실행 혹은 해당하는 [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)를 다운로드 받아 설치한다.
 ![](img/Pasted%20image%2020251128170221.png)
