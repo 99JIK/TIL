@@ -104,12 +104,14 @@ Pruning으로 손실된 정보를 복구하기 위해 Low-Rank Adaptation(LoRA) 
    ```bash
    ollama create <custom_model_name> -f Modelfile
    ```
+   ![](img/Pasted%20image%2020251128184345.png)
 ## 5. 테스트 및 운영
 ### 5.1. CLI 기반 테스트
 Terminal에서 즉시 모델을 Load하여 추론 성능을 확인한다.
 ```bash
 olamam run <custom_model_name>
 ```
+![](img/Pasted%20image%2020251128185130.png)
 ### 5.2. Python API 기반 테스트
 대량의 질의응답 세트를 처리하고 추론 시간을 측정하기 위한 Python Script를 사용한다.
 1. Config Virtual Environment: 독립적인 실행 환경을 생성한다.
@@ -192,13 +194,13 @@ FROM /home/<pi_user>/<model>.gguf
 ```bash
 ollama create <model> -f Modelfile
 ```
-![](img/Pasted%20image%2020251128184345.png)
+
 ![](img/Pasted%20image%2020251128184814.png)
 ## 모델 실행 및 테스트
 ### 터미널 대화 모드 실행
 ```bash
 ollama run <model>
 ```
-![](img/Pasted%20image%2020251128185130.png)
+
 실행 후 프롬프트가 뜨면 질문을 입력하여 확인할 수 있다.
 ### API 모드 실행
