@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1cf5e76cbf3c1b8b",
@@ -182,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "72c63cf7cab85b72",
+  "active": "dc3d6a177a23f24c",
   "lastOpenFiles": [
     "docs/KNU-MS/2nd_semester/COMP0738.md",
     "docs/Paper/img/Pasted image 20251114143534.png",
