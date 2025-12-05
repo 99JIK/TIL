@@ -37,7 +37,7 @@
     *  **목표**: 합성 데이터 뭉치의 평균과 분산이 원본 데이터 뭉치와 똑같아져야 함.
     *  **방법**: MMD(Maximum Mean Discrepancy) 개념을 차용해서 1차(평균), 2차(분산) 모멘트를 매칭시키는 제약조건을 검.
 2.  **Local Structure Refinement (국소 구조 정제)**
-    * **목표**: 통계가 맞아도 엉뚱한 위치(Manifold 밖)에 있으면 안 됨.  내 진짜 이웃들과 친해야 함.
+    * **목표**: 통계가 맞아도 엉뚱한 위치(Manifold 밖)에 있으면 안 됨. 진짜 이웃값들과 근접해야 함.
     * **방법**: **SNN(Soft Nearest Neighbor) Loss**를 사용.  내 주변에 진짜 데이터가 없으면 페널티를 줘서 가중치를 낮춤.
 
 ## 3. 실험 결과 (Performance)
@@ -54,7 +54,7 @@
 * **Q: 왜 굳이 Calibration을 해야 하는가?**
     * A: Ablation Study 결과, Mixup만 하면 성능 향상이 크지 않음.  Calibration과 SNN을 모두 썼을 때 시너지가 나서 성능이 제일 좋았음.
 * **Q: 한계점은?**
-    * A: Binning 개수나 타겟 사이즈($\kappa$) 같은 하이퍼파라미터에 의존적임.  향후엔 데이터 밀도에 따라 자동으로 구간을 나누는 Adaptive Binning이 필요함.
+    * A: Binning 개수나 타겟 사이즈($\kappa$) 같은 하이퍼파라미터에 의존적. 향후엔 데이터 밀도에 따라 자동으로 구간을 나누는 Adaptive Binning이 필요함.
 
 ---
 
