@@ -1,5 +1,5 @@
 - Nathaniel Kang 박사후 연구원님
-# 📝 [세미나 노트] Calibrated Mixup for Imbalanced Regression
+# 📝 Calibrated Mixup for Imbalanced Regression
 
 **발표 주제**: 타블로 데이터의 불균형 회귀(Imbalanced Regression) 해결을 위한 Calibrated Mixup 프레임워크
 **날짜**: 2025.12.05
@@ -46,21 +46,21 @@
 *  **데이터셋**: 7개 타블로 데이터 + 1개 이미지 데이터(IMDB-WIKI).
 * **성능**:
     *  SOTA(LDS, FDS, RankSim 등) 대비 **MAE 10~20% 감소**.
-    *  특히 **희귀값(Rare values, 상위 1% Tail)** 예측에서 압도적임 (바닐라 모델 대비 20-30% 성능 향상)  426].
-    *  이미지 데이터(IMDB-WIKI)에서도 FS 방식이 1등 함 (MAE 6.64) → 타블로뿐만 아니라 범용성 있음  379].
+    *  특히 **희귀값(Rare values, 상위 1% Tail)** 예측에서 압도적임 (바닐라 모델 대비 20-30% 성능 향상).
+    *  이미지 데이터(IMDB-WIKI)에서도 FS 방식이 1등 함 (MAE 6.64) → 타블로뿐만 아니라 범용성 있음.
 *  **호환성**: 기존 모델(LDS, FDS)의 전처리기로 써도 성능이 오름.
 
 ## 4. 토의 및 Q&A (Discussion)
 * **Q: FS(Feature Similarity) 방식이 NC보다 항상 좋은가?**
-    *  A: 성능은 FS가 대체로 좋지만, 샴 네트워크를 학습해야 해서 계산 비용이 비쌈  469]. 가성비는 NC가 좋음.
+    *  A: 성능은 FS가 대체로 좋지만, 샴 네트워크를 학습해야 해서 계산 비용이 비쌈. 가성비는 NC가 좋음.
 * **Q: 왜 굳이 Calibration을 해야 하는가?**
-    * A: Ablation Study 결과, Mixup만 하면 성능 향상이 크지 않음.  Calibration과 SNN을 모두 썼을 때 시너지가 나서 성능이 제일 좋았음  440].
+    * A: Ablation Study 결과, Mixup만 하면 성능 향상이 크지 않음.  Calibration과 SNN을 모두 썼을 때 시너지가 나서 성능이 제일 좋았음.
 * **Q: 한계점은?**
-    * A: Binning 개수나 타겟 사이즈($\kappa$) 같은 하이퍼파라미터에 의존적임.  향후엔 데이터 밀도에 따라 자동으로 구간을 나누는 Adaptive Binning이 필요함  468].
+    * A: Binning 개수나 타겟 사이즈($\kappa$) 같은 하이퍼파라미터에 의존적임.  향후엔 데이터 밀도에 따라 자동으로 구간을 나누는 Adaptive Binning이 필요함.
 
 ---
 
-## 💡 나의 인사이트 (Takeaways)
-1.  **"Tabular는 Tabular답게 다뤄야 한다"**: 이미지용 방법론을 무지성으로 가져다 쓰면 안 됨. 타블로 데이터는 Discretize(구간화)하고 통계량(Moment)을 맞추는 접근이 훨씬 유효함.
-2.  **Data-Centric AI의 모범 사례**: 모델 구조를 바꾸는 게 아니라, 학습 데이터(Training Set)의 품질(Calibration + Structure)을 높여서 성능을 올림.
-3.  **활용 방안**: 현업에서 불균형 시계열 예측이나 이상치 탐지 회귀 문제를 풀 때, 이 논문의 전처리 방식(Mixup + SNN Filtering)을 적용해볼 만함.
+## 나의 인사이트 (Takeaways)
+1. **"Tabular는 Tabular답게 다뤄야 한다"**: 이미지용 방법론을 무지성으로 가져다 쓰면 안 됨. 타블로 데이터는 Discretize(구간화)하고 통계량(Moment)을 맞추는 접근이 훨씬 유효함.
+2. **Data-Centric AI의 모범 사례**: 모델 구조를 바꾸는 게 아니라, 학습 데이터(Training Set)의 품질(Calibration + Structure)을 높여서 성능을 올림.
+3. **활용 방안**: 현업에서 불균형 시계열 예측이나 이상치 탐지 회귀 문제를 풀 때, 이 논문의 전처리 방식(Mixup + SNN Filtering)을 적용해볼 만함.
