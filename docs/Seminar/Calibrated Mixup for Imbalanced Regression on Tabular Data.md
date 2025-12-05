@@ -1,7 +1,5 @@
-- Nathaniel Kang 박사후 연구원님
-# 📝 Calibrated Mixup for Imbalanced Regression
-
 **발표 주제**: 타블로 데이터의 불균형 회귀(Imbalanced Regression) 해결을 위한 Calibrated Mixup 프레임워크
+**발표자**: Nathaniel Kang 연세대학교 박사후 연구원님
 **날짜**: 2025.12.05
 **핵심 키워드**: #ImbalancedRegression #TabularData #Mixup #Calibration #SNN
 
@@ -10,9 +8,9 @@
 ## 1. 연구 배경 & 문제 제기 (Why?)
 > "이미지 데이터용 방법론(LDS/FDS)을 타블로 데이터에 그대로 쓰면 안 된다."
 
-*  **현황**: 현실의 데이터(의료, 금융 등)는 타겟값(y)의 분포가 매우 불균형함(Skewed)  26].
+*  **현황**: 현실의 데이터(의료, 금융 등)는 타겟값(y)의 분포가 매우 불균형함(Skewed).
 * **문제점**:
-    *  표준 회귀 모델은 다수 클래스(평균 근처)에 편향되어 희귀하지만 중요한 값(Rare values)을 못 맞춤  27].
+    *  표준 회귀 모델은 다수 클래스(평균 근처)에 편향되어 희귀하지만 중요한 값(Rare values)을 못 맞춤.
     *  기존 딥러닝 해결책(LDS, FDS 등)은 '분포 스무딩(Smoothing)'을 쓰는데, 이는 이미지의 공간적 연속성을 가정한 것임  36].
     *  **Tabular Data의 특성**: 특성 간 경계가 뚜렷하고 이질적(Heterogeneous)이라서, 무작위로 스무딩하면 정보가 뭉개짐  37, 85].
 * **목표**: 타블로 데이터의 특성을 살리면서, 부족한 구간의 데이터를 '잘' 만들어내자.
@@ -20,10 +18,10 @@
 ## 2. 제안 방법론: Calibrated Mixup (How?)
 > "데이터를 만들고(Mixup), 통계를 맞추고(Calibration), 위치를 잡는다(SNN)."
 
- 이 논문의 핵심은 **Dual Refinement Strategy (이중 정제 전략)** 임  41]. 단순히 Mixup으로 데이터를 뻥튀기하는 게 아니라, 생성된 데이터가 진짜 데이터처럼 보이게 만듦.
+ 이 논문의 핵심은 **Dual Refinement Strategy (이중 정제 전략)** 임. 단순히 Mixup으로 데이터를 뻥튀기하는 게 아니라, 생성된 데이터가 진짜 데이터처럼 보이게 만듦.
 
 ### Step 1. 전처리 (Binning & Target)
-*  타겟 $y$를 $K$개의 구간(Bin)으로 나눔  143].
+*  타겟 $y$를 $K$개의 구간(Bin)으로 나눔.
 *  구간별 데이터 수의 중앙값(Median)을 기준으로 타겟 수($m_j$)를 정함  203].
 *  많으면 줄이고(Undersampling), 적으면 채운다(Oversampling)  230].
 
