@@ -48,13 +48,17 @@
             }
           },
           {
-            "id": "72e6a689e9b76feb",
+            "id": "bbb0252bcd020537",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
@@ -207,25 +211,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "72e6a689e9b76feb",
+  "active": "bbb0252bcd020537",
   "lastOpenFiles": [
     "docs/KNU-MS/TA/2025-ITEC0401-002/Raspberry-Pi-5-based-custom-small-language-model.md",
+    "conflict-files-obsidian-git.md",
+    "papers/img/Pasted image 20251127100734.png",
+    "docs/KNU-MS/2nd_semester/img/Pasted image 20251201164156.png",
+    "docs/KNU-MS/2nd_semester/img/Pasted image 20251201164130.png",
+    "docs/KNU-MS/2nd_semester/img/Pasted image 20251201163807.png",
+    "docs/KNU-MS/2nd_semester/img/Pasted image 20251201163743.png",
+    "docs/KNU-MS/2nd_semester/img/Pasted image 20251201163710.png",
+    "docs/KNU-MS/2nd_semester/img/Pasted image 20251201163156.png",
+    "docs/KNU-MS/2nd_semester/img/Pasted image 20251201163130.png",
+    "docs/KNU-MS/2nd_semester/img/Pasted image 20251201163035.png",
+    "docs/KNU-MS/2nd_semester/img/Pasted image 20251201163033.png",
+    "docs/KNU-MS/2nd_semester/COMP0811_backup.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/RP5.zip",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img.zip",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128185130.png",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128184814.png",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128184345.png",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128184220.png",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128184200.png",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128184046.png",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128184038.png",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128184035.png",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128183803.png",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/img/Pasted image 20251128183632.png",
     "docs/KNU-MS/2nd_semester/COMP0811.md",
     "docs/KNU-MS/2nd_semester/COMP0738.md",
     "Jeongin.md",
-    "conflict-files-obsidian-git.md",
     "docs/Project/DYETEC/Patent-Ideas.md"
   ]
 }

@@ -51,6 +51,7 @@ FONTE는 3단계 프로세스를 통해 BIC를 식별한다. (논문의 Figure 2
         $$commitScore(c) = \sum_{e \in E_{F,c}} vote(e) \cdot (1-\lambda)^{depth(e,c)}$$
         ($\lambda$는 감쇠 인자(decay factor))
 ![Figure 5](img/Pasted%20image%2020251117123946.png)
+![](img/Pasted%20image%2020251127100734.png)
 - **가중 이진 탐색 (Weighted Bisection)**
     - 표준 이진 탐색은 커밋 목록의 중간 지점을 피벗(pivot)으로 선택한다.
     - 가중 이진 탐색(Algorithm 1)은 FONTE 점수를 가중치로 사용하여, 남은 '점수의 합'이 절반이 되는 지점을 피벗으로 선택한다. (논문의 Figure 5 참조)
