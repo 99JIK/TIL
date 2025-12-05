@@ -18,7 +18,7 @@
 ## 2. 제안 방법론: Calibrated Mixup (How?)
 > 데이터를 만들고(Mixup), 통계를 맞추고(Calibration), 위치를 잡는다(SNN).
 
- 이 논문의 핵심은 **Dual Refinement Strategy (이중 정제 전략)** 임. 단순히 Mixup으로 데이터를 뻥튀기하는 게 아니라, 생성된 데이터가 진짜 데이터처럼 보이게 만듦.
+ 이 논문의 핵심은 **Dual Refinement Strategy (이중 정제 전략)**. 단순히 Mixup으로 데이터를 증량하는 게 아니라, 생성된 데이터가 진짜 데이터처럼 보이게 만듦.
 
 ### Step 1. 전처리 (Binning & Target)
 *  타겟 $y$를 $K$개의 구간(Bin)으로 나눔.
@@ -31,7 +31,7 @@
 2.  **FS (Feature Similarity)**: 샴 네트워크(Siamese Net)로 학습된 임베딩 공간에서 특성이 비슷한 놈끼리 섞음. (복잡하지만 정교함)
 
 ### Step 3. 이중 정제 (Dual Refinement)
-만들어진 데이터($\hat{x}$)에 가중치($w$)를 부여해서 옥석을 가림.
+만들어진 데이터($\hat{x}$)에 가중치($w$)를 부여해서 이중 정제.
 
 1.  **Global Statistical Calibration (전역적 통계 보정)**
     *  **목표**: 합성 데이터 뭉치의 평균과 분산이 원본 데이터 뭉치와 똑같아져야 함.
