@@ -1,1 +1,1 @@
-- Nathanie
+- Nathaniel Kang 박사후 연구원님
