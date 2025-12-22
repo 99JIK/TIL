@@ -63,4 +63,5 @@ Autocoding이나 Handcoding을 통해 구현될 수 있으며, 주로 코드 검
 이 단계에서는 코드 배포 및 실행을 반복해야 하므로 개발 속도가 더욱 느려진다.
 ### Hardware in the Loop
 ![](img/Pasted%20image%2020251222145303.png)
-Contoller가 최종 Controller HW에 완전히 배포되며, Plant model은 Real-time simulation environment
+Contoller가 최종 Controller HW에 완전히 배포되며, Plant model은 Real-time simulation environment에서 실행된다. 이 Simulation environment는 Controller가 실제 Plant에 연결된 것처럼 동작하도록 I/O 신호를 조작하여 구현된다.
+실제 Application environment와 가장 유사한 Test environment를 제공해
