@@ -40,3 +40,4 @@ Computer Architecture + SW Architecture 설계 단계를 합쳐 고수준 설계
 반드시 최종 단계 테스팅이라곤 할 수 없다.
 사용자 인수 테스팅, 운영상 인수 테스팅 등의 전형적인 형태가 있다.
 ## X in the Loop
+- MIL, Model in Loop:
