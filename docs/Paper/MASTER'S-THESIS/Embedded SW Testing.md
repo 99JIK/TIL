@@ -67,3 +67,4 @@ Contoller가 최종 Controller HW에 완전히 배포되며, Plant model은 Real
 실제 Application environment와 가장 유사한 Test environment를 제공해 최종적인 문제점을 찾고 수정하는 데 매우 효과적이다.
 ## GAI for SIL Environment Agent Modeling
 https://caixxuan.github.io/Text2Scenario.GitHub.io/
+https://arxiv.org/pdf/2409.09040
