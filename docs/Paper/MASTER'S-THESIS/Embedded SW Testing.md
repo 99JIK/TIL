@@ -47,4 +47,7 @@ Computer Architecture + SW Architecture 설계 단계를 합쳐 고수준 설계
 - Controller: Control system
 - Plant: Mechatronic system
 ### Model in the Loop
-MIL은 Con을 사용해 Plan
+![](img/Pasted%20image%2020251222144853.png)
+MIL은 Control model을 사용해 Plant model과 함께 시뮬레이션 하는 방식이다.
+일반적으로 Simulink에서 제어 모델을 작성, 동일한 Simulink diagram 내에서 물리 시스템 모델과 직접 연결해 테스트를 수행한다.
+모델의 변경이 즉시 테스트될 수 있어 개발 속도가 매우 빠르다.
