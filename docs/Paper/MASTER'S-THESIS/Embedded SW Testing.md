@@ -42,4 +42,6 @@ Computer Architecture + SW Architecture 설계 단계를 합쳐 고수준 설계
 ## X in the Loop
 - MIL, Model in the Loop: 컨트롤러를 모델로 시뮬레이션
 - SIL, Software in the Loop: 모델을 변환한 코드 기반의 시뮬레이션
-- PIL, Processor in the Loop: 실제 컨트롤러 프로세서에서 코드 실행(wo I/P)
+- PIL, Processor in the Loop: 실제 컨트롤러 프로세서에서 코드 실행(Without I/O)
+- HIL, Hardware in the Loop: 실제 컨트롤러 하드웨어와 I/O를 포함한 테스트
+- Controller: Control system의
