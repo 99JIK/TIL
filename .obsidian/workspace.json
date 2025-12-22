@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/KNU-MS/TA/2025-ITEC0401-002/Raspberry-Pi-5-based-custom-small-language-model.md",
+                "file": "docs/Paper/MASTER'S-THESIS/Untitled.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Raspberry-Pi-5-based-custom-small-language-model"
+              "title": "Untitled"
             }
           }
         ]
@@ -170,11 +170,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9352efed4d3ce7b",
+  "active": "513ff88c1cd89803",
   "lastOpenFiles": [
-    "docs/KNU-MS/TA/2025-ITEC0401-002/Raspberry-Pi-5-based-custom-small-language-model.md",
     "conflict-files-obsidian-git.md",
-    "docs/Paper/GRADUATION",
+    "docs/Paper/MASTER'S-THESIS/Untitled.md",
+    "docs/KNU-MS/TA/2025-ITEC0401-002/Raspberry-Pi-5-based-custom-small-language-model.md",
+    "docs/Paper/MASTER'S-THESIS",
     "docs/Project/DYETEC/Patent-Ideas.md",
     "papers/img/Pasted image 20251127100734.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251201164156.png",
