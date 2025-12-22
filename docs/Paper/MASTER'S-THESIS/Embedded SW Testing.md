@@ -68,3 +68,4 @@ Contoller가 최종 Controller HW에 완전히 배포되며, Plant model은 Real
 ## GAI for SIL Environment Agent Modeling
 https://caixxuan.github.io/Text2Scenario.GitHub.io/
 https://arxiv.org/pdf/2409.09040
+https://arxiv.org/pdf/2309.13193
