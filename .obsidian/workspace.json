@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Paper/MASTER'S-THESIS/Embedded SW Testing.md",
+                "file": "docs/Project/KOJ/Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Embedded SW Testing"
+              "title": "Guide"
             }
           }
         ]
@@ -172,6 +172,8 @@
   },
   "active": "513ff88c1cd89803",
   "lastOpenFiles": [
+    "docs/KNU-MS/STLAB-Site-Deployment-Plan.md",
+    "docs/Paper/MASTER'S-THESIS/Embedded SW Testing.md",
     "docs/Paper/MASTER'S-THESIS/img/Pasted image 20251222145303.png",
     "docs/Paper/MASTER'S-THESIS/img/Pasted image 20251222145209.png",
     "docs/Paper/MASTER'S-THESIS/img/Pasted image 20251222145030.png",
@@ -179,7 +181,6 @@
     "docs/Paper/MASTER'S-THESIS/img/Pasted image 20251222140420.png",
     "docs/Paper/MASTER'S-THESIS/img",
     "conflict-files-obsidian-git.md",
-    "docs/Paper/MASTER'S-THESIS/Embedded SW Testing.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/Raspberry-Pi-5-based-custom-small-language-model.md",
     "docs/Paper/MASTER'S-THESIS",
     "docs/Project/DYETEC/Patent-Ideas.md",
@@ -188,7 +189,6 @@
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251201164130.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251201163807.png",
     "docs/KNU-MS/2nd_semester/img/Pasted image 20251201163743.png",
-    "docs/KNU-MS/2nd_semester/img/Pasted image 20251201163710.png",
     "docs/KNU-MS/2nd_semester/COMP0811_backup.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/RP5.zip",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img.zip",
