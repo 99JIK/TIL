@@ -3,7 +3,7 @@ title: "Robot Behavior-Tree-Based Task Generation with Large Language Models"
 date: "2023-02-24"
 description: "대규모 언어 모델(LLM)과 Phase-Step 프롬프트 설계를 활용하여 로봇의 행동 트리(Behavior Tree)를 자동으로 생성하는 새로운 접근 방식을 제안함"
 keywords: [Large Language Model, Behavior Tree, Robot Task Planning, Prompt Engineering, GPT-3]
-tags: [Large Language Model, Behavior Tree, Robot Task Planning, Prompt Engineering, GPT-3]
+tags: [Large Language Model, Behavior Tree, Robot Task Planning, Prompt Engineering, ChatGPT]
 authors: [Yue Cao, C.S. George Lee]
 ---
 
