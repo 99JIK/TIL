@@ -29,7 +29,7 @@ authors: [Yue Cao, C.S. George Lee]
 행동 트리는 Directed Rooted Tree 형태로 정의되며, 실행을 담당하는 리프 노드(Action, Condition)와 제어 흐름을 담당하는 브랜치 노드(Sequence, Fallback 등)로 구성된다. LLM 분야에서는 소수 샷(few-shot) 학습 능력을 활용한 '프롬프트 기반 학습'이 대두되었다. 본 연구는 입력 텍스트를 템플릿화하여 LLM이 기존 지식을 바탕으로 원하는 구조의 출력을 생성하도록 유도한다.
 
 ### 모델 아키텍처 / 방법론
-
+![Figure 3](img/Pasted%20image%2020251226174052.png)
 **1. Phase-Step 프롬프트 (Phase-Step Prompt)**
 3계층 행동 트리(Root → Phase → Step)를 생성하기 위한 프롬프트 설계다. Figure 3에서 보여지는 구조를 텍스트 형태로 변환하여 입력한다. 'Source Task'에 예시 작업 절차를 Phase와 Step으로 구분하여 제공하고, 'Target Task'에 원하는 작업 설명을 입력하여 LLM이 동일한 구조로 출력을 생성하도록 유도한다.
 
@@ -39,7 +39,7 @@ authors: [Yue Cao, C.S. George Lee]
   $$Sim(v, L_i) = 1 - \frac{2 \arccos(\frac{Enc_1(v) \cdot Enc_1(L_i)}{\|Enc_1(v)\| \|Enc_1(L_i)\|})}{\pi}$$
   유사도가 임계값 미만일 경우, 해당 하위 작업을 다시 LLM에 입력하여 더 세분화된 트리로 확장(Decomposition)한다.
 - **예외 처리**: "안정성을 위해(for stability)"와 같은 추가 사양이 있는 경우, Fallback 노드와 Condition 노드를 삽입하여 구조를 보강한다.
-
+![Figure 4](img/Pasted%20image%2020251226174116.png)
 **3. 자동 소스 작업 선택 (Automatic Source-Task Selection)**
 프롬프트에 사용할 가장 적절한 'Source Task'를 지식 기반(Knowledge Base)에서 자동으로 검색한다.
 - **행동 트리 임베딩**: 타겟 작업 설명($v_{target}$)과 지식 기반 내의 행동 트리들($u_i$) 간의 유사도를 계산하여 가장 유사한 트리를 템플릿으로 선택한다.
