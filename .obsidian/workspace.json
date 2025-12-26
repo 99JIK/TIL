@@ -15,7 +15,7 @@
               "state": {
                 "file": "papers/Robot-Behavior-Tree-Based-Task-Generation-with-Large-Language-Models.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Robot-Behavior-Tree-Based-Task-Generation-with-Large-Language-Models"
