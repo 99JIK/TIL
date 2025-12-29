@@ -30,4 +30,5 @@
 4. 검증 및 실행
 	- 문법 확인 및 표준 행동을 실제 시뮬레이터 API로 변환하여 Agent를 소환해 확인한다.
 ### Core Technology Elements
-- 
+- Semantic Capabilities Registry: 각 도메인의 Agent가 수행 가능한 행동과 감지 가능한 상태를 정의한 메타데이터의 집합
+- Behavior Tree(BT): 복잡한 Agent Logic을 Sequence, Fallback, Parallel Node로 표현하여 가독성 및 디버깅 용이성을 확보
