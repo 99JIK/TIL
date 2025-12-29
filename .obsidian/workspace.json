@@ -15,7 +15,7 @@
               "state": {
                 "file": "docs/Paper/MASTER'S-THESIS/Automated-Modeling-of-Environment-Agents-for-Autonomous-Driving-SITL-via-LLM-based-Behavior-Tree-Generation.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Automated-Modeling-of-Environment-Agents-for-Autonomous-Driving-SITL-via-LLM-based-Behavior-Tree-Generation"
