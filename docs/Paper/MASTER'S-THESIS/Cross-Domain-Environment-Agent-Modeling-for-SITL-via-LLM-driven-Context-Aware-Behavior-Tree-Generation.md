@@ -26,9 +26,12 @@
 	- LLM이 입력을 분석하여 도메인을 분류한다.
 	- JSON 파일에서 해당 도메인의 허용된 행동 리스트를 불러온다.
 3. 맥락 인식형 생성
-	- 불러온 행동 리스트를 Prompt에 주입하여 LLM이 요구사항을 분해해 행동트리(XML)로 생성한다.
+	- 불러온 행동 리스트를 Prompt에 주입하여 LLM이 요구사항을 분해해 행동 트리(XML)로 생성한다.
 4. 검증 및 실행
 	- 문법 확인 및 표준 행동을 실제 시뮬레이터 API로 변환하여 Agent를 소환해 확인한다.
 ### Core Technology Elements
 - Semantic Capabilities Registry: 각 도메인의 Agent가 수행 가능한 행동과 감지 가능한 상태를 정의한 메타데이터의 집합
-- Behavior Tree(BT): 복잡한 Agent Logic을 Sequence, Fallback, Parallel Node로 표현하여 가독성 및 디버깅 용이성을 확보
+- Behavior Tree(BT): 복잡한 Agent Logic을 Sequence, Fallback, Parallel Node로 표현하여 가독성 및 디버깅 용이성을 확보하는 행동 트리
+- Simulator Adapter: 이기종 시뮬레이터(CARLA, Gazebo, Custom Sim)와 BT Engine을 연결하는 Interface
+## Evaluation Plan
+### Testbed
