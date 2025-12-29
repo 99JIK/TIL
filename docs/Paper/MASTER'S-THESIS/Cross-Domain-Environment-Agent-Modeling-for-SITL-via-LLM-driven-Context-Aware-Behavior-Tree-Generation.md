@@ -48,4 +48,8 @@
 4. 확장성: 새로운 도메인 추가 시 필요 공수
 ## Expected Impact
 ### Academic Contribution
-### Industrial Contr
+- LLM을 활용한 Simulation-based Testing 분야에서 GAI와 BT를 결합한 Neuro-Symbolic 접근법 유효성 입증
+- Cross-Domain Agent Modeling 방법론 제시
+### Industrial Contribution
+- 자율주행 및 로보틱스 개발사들의 QA 비용 절감
+- 비전문가도 ㅈ
