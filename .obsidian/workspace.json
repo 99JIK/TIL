@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Paper/MASTER'S-THESIS/Cross-Domain-Environment-Agent-Modeling-for-SITL-via-LLM-driven-Context-Aware-Behavior-Tree-Generation.md",
+                "file": "docs/Paper/MASTER'S-THESIS/LLM 기반 맥락 인식형 행동 트리 생성을 통한 SITL용 교차 도메인 환경 에이전트 모델링.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cross-Domain-Environment-Agent-Modeling-for-SITL-via-LLM-driven-Context-Aware-Behavior-Tree-Generation"
+              "title": "LLM 기반 맥락 인식형 행동 트리 생성을 통한 SITL용 교차 도메인 환경 에이전트 모델링"
             }
           }
         ]
@@ -173,7 +173,7 @@
   "active": "513ff88c1cd89803",
   "lastOpenFiles": [
     "docs/Paper/MASTER'S-THESIS/Embedded SW Testing.md",
-    "docs/Paper/MASTER'S-THESIS/Cross-Domain-Environment-Agent-Modeling-for-SITL-via-LLM-driven-Context-Aware-Behavior-Tree-Generation.md",
+    "docs/Paper/MASTER'S-THESIS/LLM 기반 맥락 인식형 행동 트리 생성을 통한 SITL용 교차 도메인 환경 에이전트 모델링.md",
     "papers/Robot-Behavior-Tree-Based-Task-Generation-with-Large-Language-Models.md",
     "conflict-files-obsidian-git.md",
     "docs/Seminar/25-12-29_ABB.md",
