@@ -13,9 +13,9 @@
 ### Hypothesis
 > LLM에게 도메인별 행동 제약조건을 동적으로 주입하는 RAG(Retrieval-Augmented Generation) 기법을 적용하면, 단일 Framework로 이종 도메인의 Environment Agent를 오류 없이 생성 가능하며, 이를 행동 트리로 구조화해 테스트 시나리오의 수정 및 재사용 비용을 획기적으로 절감 가능하다.
 
-
-LLM에게 자연어로 요구사항을 주면 LLM이 이를 해석하여 해당 에이전트의 행동 패턴을 행동 트리로 자동 생성한다.
-행동트리로 생성하는 이유는 모듈성과 재사용성을 높여 생성한 서브 트리를 다른 시나리오에 쉽게 끼워 넣을 수 있어 생산성이 향상되기 때문이다.
+### Novelty(Contribution)
+- 중간 표현으로 행동 트리 활용: LLM이 직접 코드를 짜는 대신 행동 트리를 생성하여 모듈성 및 안정성을 확보한다.
+- 
 ## Keyword
 - Senario Generation
 - Simulation-based Testing
