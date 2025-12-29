@@ -35,3 +35,9 @@
 - Simulator Adapter: 이기종 시뮬레이터(CARLA, Gazebo, Custom Sim)와 BT Engine을 연결하는 Interface
 ## Evaluation Plan
 ### Testbed
+- CARLA(자율주행)
+	- SUT: 자율주행 차량
+	- Agent: 보행자, 일반 차량
+- Gazebo(스마트 빌딩 등 시뮬레이터)
+	- SUT: 중앙 관제 시스템
+	- Agent: 엘리베잍
