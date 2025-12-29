@@ -15,7 +15,8 @@
 
 ### Novelty(Contribution)
 - 중간 표현으로 행동 트리 활용: LLM이 직접 코드를 짜는 대신 행동 트리를 생성하여 모듈성 및 안정성을 확보한다.
-- 
+- 기능 인식 생성: 단순 프롬프팅이 아닌, 시스템의 물리, 기능적 제약사항을 JSON 형태의 Registry로 관리해 환각을 차단하는 아키텍처를 제안한다.
+- 이종 도메인 적용: 다양한 시뮬레이션 환경에 적용 가능한 표준 어댑터 패턴을 도입한다.
 ## Keyword
 - Senario Generation
 - Simulation-based Testing
