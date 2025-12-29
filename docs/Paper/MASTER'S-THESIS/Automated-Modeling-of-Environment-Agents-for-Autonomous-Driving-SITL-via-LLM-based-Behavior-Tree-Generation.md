@@ -11,3 +11,7 @@ LLM에게 자연어로 요구사항을 주면 LLM이 이를 해석하여 해당 
 - Environment Agents
 - Behavior Tree
 ## System Architecture
+1. 요구사항 입력
+2. 행동 추출
+3. 행동 필터링
+4. 
