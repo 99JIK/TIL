@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Robot-Behavior-Tree-Based-Task-Generation-with-Large-Language-Models"
             }
+          },
+          {
+            "id": "58723cf67bb05864",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +185,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "513ff88c1cd89803",
+  "active": "58723cf67bb05864",
   "lastOpenFiles": [
+    "papers/Robot-Behavior-Tree-Based-Task-Generation-with-Large-Language-Models.md",
+    "conflict-files-obsidian-git.md",
+    "docs/Seminar/25-12-29_ABB.md",
     "papers/img/Pasted image 20251226174156.png",
     "papers/img/Pasted image 20251226174116.png",
     "papers/img/Pasted image 20251226174052.png",
     "docs/Project/KOJ/Guide.md",
-    "papers/Robot-Behavior-Tree-Based-Task-Generation-with-Large-Language-Models.md",
     "docs/Project/KOJ/img/Pasted image 20251024095726.png",
     "docs/KNU-MS/STLAB-Site-Deployment-Plan.md",
     "docs/Paper/MASTER'S-THESIS/Embedded SW Testing.md",
@@ -186,12 +203,10 @@
     "docs/Paper/MASTER'S-THESIS/img/Pasted image 20251222144853.png",
     "docs/Paper/MASTER'S-THESIS/img/Pasted image 20251222140420.png",
     "docs/Paper/MASTER'S-THESIS/img",
-    "conflict-files-obsidian-git.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/Raspberry-Pi-5-based-custom-small-language-model.md",
     "docs/Paper/MASTER'S-THESIS",
     "docs/Project/DYETEC/Patent-Ideas.md",
     "papers/img/Pasted image 20251127100734.png",
-    "docs/KNU-MS/2nd_semester/img/Pasted image 20251201164156.png",
     "docs/KNU-MS/2nd_semester/COMP0811_backup.md",
     "docs/KNU-MS/TA/2025-ITEC0401-002/RP5.zip",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img.zip",
