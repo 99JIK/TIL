@@ -52,4 +52,4 @@
 - Cross-Domain Agent Modeling 방법론 제시
 ### Industrial Contribution
 - 자율주행 및 로보틱스 개발사들의 QA 비용 절감
-- 비전문가도 ㅈ
+- 비전문가도 자연어로 다양한 Edge Case를 생성하여 안전성 검증 수준 향상
