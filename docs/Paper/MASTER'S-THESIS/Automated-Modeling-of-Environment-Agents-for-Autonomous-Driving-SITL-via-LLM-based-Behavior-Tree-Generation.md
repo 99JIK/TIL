@@ -10,3 +10,4 @@ LLM에게 자연어로 요구사항을 주면 LLM이 이를 해석하여 해당 
 - Simulation-based Testing
 - Environment Agents
 - Behavior Tree
+## System Architecture
