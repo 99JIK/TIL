@@ -200,11 +200,11 @@ Java는 single-entry/single-exit 제어 문만을 포함한다.
 
 Bohm과 Jacopini에 따르면 알고리즘을 구현하는 데는 Sequence, Selection, Repetition의 세 가지 제어 형태만 필요하다.
 * Sequence: 문장들을 순서대로 나열
-* Selection: if (단일 선택), if...else (이중 선택), switch (다중 선택)
-* Repetition: while, do...while, for
+* Selection: `if` (단일 선택), `if...else` (이중 선택), `switch` (다중 선택)
+* Repetition: `while`, `do...while`, `for`
 
-모든 형태의 선택은 if 문만으로 구현 가능하며, 모든 형태의 반복은 while 문만으로 구현 가능하다.
-따라서 모든 Java 프로그램의 제어 흐름은 Sequence, if 문(selection), while 문(repetition)만을 사용하여 stacking과 nesting으로 표현할 수 있다.
+모든 형태의 선택은 `if` 문만으로 구현 가능하며, 모든 형태의 반복은 `while` 문만으로 구현 가능하다.
+따라서 모든 Java 프로그램의 제어 흐름은 Sequence, `if` 문(selection), `while` 문(repetition)만을 사용하여 stacking과 nesting으로 표현할 수 있다.
 
 ## 9. (선택) GUI 및 그래픽 사례 연구: 간단한 그림 그리기
 
