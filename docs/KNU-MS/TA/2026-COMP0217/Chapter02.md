@@ -23,13 +23,13 @@ System.out.print는 문자열을 출력하고 커서를 다음 줄로 이동시�
 ### 3.2 이스케이프 시퀀스
 백슬래시(\) 문자를 사용하여 이스케이프 시퀀스를 나타낼 수 있다. \n은 줄 바꿈, \t는 탭, \r은 캐리지 리턴, \\는 백슬래시 출력, \"는 큰따옴표 출력을 의미한다.
 
-| Escape Sequence | Description                                                                                                                  |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `\n`            | Newline. Position the screen cursor at the beginning of the next line.                                                       |
-| `\t`            | Horizontal tab. Move the screen cursor to the next tab stop.                                                                 |
-| `\r`            | Carriage return. Position the screen cursor at the beginning of the current line-do not advance to the next line. Any charac |
-| `\\`            |                                                                                                                              |
-| `\"`            |                                                                                                                              |
+| Escape Sequence | Description                                                                                                                                                                                                               |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `\n`            | Newline. Position the screen cursor at the beginning of the next line.                                                                                                                                                    |
+| `\t`            | Horizontal tab. Move the screen cursor to the next tab stop.                                                                                                                                                              |
+| `\r`            | Carriage return. Position the screen cursor at the beginning of the current line-do not advance to the next line. Any characters output after the carriage return overwrite the characters previously output on the line. |
+| `\\`            | Backslash. Ised to print a backslash character.                                                                                                                                                                           |
+| `\"`            | Double Quote. Used to print a double-quote character.                                                                                                                                                                     |
 
 ![PDF p.14: Table of common escape sequences]
 
