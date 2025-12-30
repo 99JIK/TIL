@@ -91,10 +91,19 @@ public class GradeBook {
 		System.out.printf("%s\n%s\n    %s\n    %s\n"),
 			"Enter the integer grades in the range 0-100.",
 			"Type the end-of-file indicator to terminate input:",
-			"On UNIX/Linux/MacOS X Type <Ctrl> d then press En"
+			"On UNIX/Linux/MacOS X Type <Ctrl> d then press Enter",
+			"On windows type <Ctrl> z then press Enter");
+		
+		while(input.hasNext()) {
+			grade = input.nextInt();
+			total += grade;
+			++gradeCounter;
+			incrementLetterGradeCounter(grade);
+		}
 	}
 }
 
+private void incrementLett
 ```
 GradeBook 클래스 예제에서는 사용자가 입력한 점수를 `switch` 문을 사용하여 학점(A, B, C, D, F)별로 카운트한다.
 `case` 레이블의 값과 제어 표현식의 값을 비교하여 일치하는 경우 해당 `case`의 동작을 수행한다.
