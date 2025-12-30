@@ -65,18 +65,18 @@ Java의 산술 연산자에는 덧셈(`+`), 뺄셈(`-`), 곱셈(`*`), 나눗셈(
 ### 7.2 동등 및 관계 연산자
 동등 연산자에는 `==`(같다)와 `!=`(같지 않다)가 있다. 관계 연산자에는 `>`(크다), `<`(작다), `>=`(크거나 같다), `<=`(작거나 같다)가 있다. 관계 연산자는 동등 연산자보다 높은 우선순위를 가진다.
 
-| Standard algebraic operator | Java operator | Sample Java condition | Meaning of Java condition |
-| --------------------------- | ------------- | --------------------- | ------------------------- |
-| $=$                         | `==`          | `x == y`              | `x` is equal to `y`       |
-| $\not =$                    | `!=`          | `x != y`              | `x` isn't equal to `y`    |
-| $>$                         | `>`           | `x > y`               | `x`                       |
-| $<$                         | `<`           | `x < y`               |                           |
-| $\geq$                      | `>=`          | `x >= y`              |                           |
-| $\leq$                      | `<=`          | `x <= y`              |                           |
+| Standard algebraic operator | Java operator | Sample Java condition | Meaning of Java condition           |
+| --------------------------- | ------------- | --------------------- | ----------------------------------- |
+| $=$                         | `==`          | `x == y`              | `x` is equal to `y`                 |
+| $\not =$                    | `!=`          | `x != y`              | `x` isn't equal to `y`              |
+| $>$                         | `>`           | `x > y`               | `x` is greater than `y`             |
+| $<$                         | `<`           | `x < y`               | `x` is less than `y`                |
+| $\geq$                      | `>=`          | `x >= y`              | `x` is greater than or eqaul to `y` |
+| $\leq$                      | `<=`          | `x <= y`              | `x` is less than or eqaul to `y`    |
 
-![PDF p.27: Table of Equality and Relational operators]
 
 ### 7.3 주의사항
-if 문의 조건 뒤에 세미콜론(;)을 붙이는 것은 논리 오류를 유발한다. 또한 동등 연산자(==)와 대입 연산자(=)를 혼동하는 것은 일반적인 프로그래밍 오류이다.
-
-![PDF p.33: Precedence and associativity table of all operators discussed]
+if 문의 조건 뒤에 세미콜론(;)을 붙이는 것은 논리 오류를 유발한다. 또한 동등 연산자(`==`)와 대입 연산자(`=`)를 혼동하는 것은 일반적인 프로그래밍 오류이다.
+```java
+import java.util.Scanner;
+```
