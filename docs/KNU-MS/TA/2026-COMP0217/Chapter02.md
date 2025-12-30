@@ -36,18 +36,18 @@ System.out.println 메소드는 큰따옴표 사이의 문자열을 출력한다
 
 ## 4. 정수 덧셈 애플리케이션
 ### 4.1 Scanner 클래스와 import
-`Scanner` 클래스를 사용하면 키보드나 디스크 파일 등 다양한 소스로부터 데이터를 읽을 수 있다. 이를 사용하기 위해서는 java.util.Scanner를 import 해야 한다. import 선언은 컴파일러가 프로그램에서 사용되는 클래스를 찾는 것을 돕는다.
+`Scanner` 클래스를 사용하면 키보드나 디스크 파일 등 다양한 소스로부터 데이터를 읽을 수 있다. 이를 사용하기 위해서는 `java.util.Scanner`를 import 해야 한다. import 선언은 컴파일러가 프로그램에서 사용되는 클래스를 찾는 것을 돕는다.
 
 ### 4.2 변수 선언 및 입력
-변수는 컴퓨터 메모리의 위치로 값을 저장하기 위해 사용된다. 변수는 사용하기 전에 반드시 이름과 타입이 선언되어야 한다. new 키워드는 새로운 객체를 생성한다. Scanner 객체의 nextInt 메소드는 사용자로부터 정수를 입력받는다.
+변수는 컴퓨터 메모리의 위치로 값을 저장하기 위해 사용된다. 변수는 사용하기 전에 반드시 이름과 타입이 선언되어야 한다. `new` 키워드는 새로운 객체를 생성한다. `Scanner` 객체의 `nextInt` 메소드는 사용자로부터 정수를 입력받는다.
 
 ### 4.3 정수 출력
-printf 메소드에서 %d 형식 지정자는 int 값을 출력하기 위한 자리 표시자이다. 여기서 d는 10진수 정수(decimal integer)를 의미한다.
+`printf` 메소드에서 `%d` 형식 지정자는 `int` 값을 출력하기 위한 자리 표시자이다. 여기서 `d`는 10진수 정수(decimal integer)를 의미한다.
 
 ## 5. 메모리 개념
 모든 변수는 이름, 타입, 크기, 그리고 값을 가진다. 변수에 새로운 값을 저장하면 이전 값은 대체되어 사라진다. 반면 변수에서 값을 읽어오는 작업은 변수의 값을 변경하지 않는다.
 
-![PDF p.21: Memory locations showing destructive update of variables]
+![PDF p.21: Memory locations showing destructive update of variables](img/Pasted%20image%2020251230153119.png)
 
 ## 6. 산술 연산
 ### 6.1 산술 연산자
