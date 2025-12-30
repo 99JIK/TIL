@@ -213,14 +213,14 @@ GUI 컴포넌트의 왼쪽 상단 모서리 좌표는 (0, 0)이다.
 좌표 단위는 픽셀(pixel)로 측정된다.
 x축은 수평 좌표(왼쪽에서 오른쪽), y축은 수직 좌표(위에서 아래)를 설명한다.
 
-![PDF p.49: Java coordinate system]
+![PDF p.49: Java coordinate system](img/Pasted%20image%2020251230173841.png)
 
-Graphics 클래스(java.awt 패키지)는 텍스트와 도형을 그리는 메서드를 제공한다.
-JPanel 클래스(javax.swing 패키지)는 그림을 그릴 수 있는 영역을 제공한다.
+`Graphics` 클래스(java.awt 패키지)는 텍스트와 도형을 그리는 메서드를 제공한다.
+`JPanel` 클래스(javax.swing 패키지)는 그림을 그릴 수 있는 영역을 제공한다.
 
-간단한 그림 그리기 예제에서 DrawPanel 클래스는 JPanel을 상속(extends)한다.
-이 상속 관계에서 JPanel은 superclass, DrawPanel은 subclass가 된다.
-JPanel은 paintComponent 메서드를 가지며, 시스템은 JPanel을 표시해야 할 때마다 이 메서드를 호출한다.
+간단한 그림 그리기 예제에서 `DrawPanel` 클래스는 `JPanel`을 상속(extends)한다.
+이 상속 관계에서 `JPanel`은 superclass, `DrawPanel`은 subclass가 된다.
+`JPanel`은 paintComponent 메서드를 가지며, 시스템은 JPanel을 표시해야 할 때마다 이 메서드를 호출한다.
 paintComponent 메서드의 첫 번째 문장은 항상 super.paintComponent(g);여야 한다.
 
 Graphics 객체의 drawLine 메서드는 두 점 사이의 선을 그리며, 4개의 인수(x1, y1, x2, y2)를 받는다.
