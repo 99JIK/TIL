@@ -239,9 +239,19 @@ public class DrawPanel extends JPanel {
 		int width = getWidth();
 		int height = getHeight();
 		
-		g.drawLine(0, 0, wid)
+		g.drawLine(0, 0, width, height);
+		g.drawLine(0, height, width, 0);
+	}
+}
+
+// DrawPanelTest.java
+import.javax.swing.JFrame;
+public class DrawPanelTest {
+	public static void main(String[] args) {
+		DrawPanel panel = new DrawPanel();
+		
+		J
 	}
 } 
-// DrawPanelTest.java
 
 ```
