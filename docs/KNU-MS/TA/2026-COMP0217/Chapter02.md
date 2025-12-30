@@ -89,7 +89,12 @@ public class Comparison {
 		System.out.print("Enter second integer: ");
 		number2 = input.nextInt(); // Read second number from user
 		
-		if(number1 == number 2) System.out.printlnf("%d == %d")
+		if(number1 == number 2) System.out.printf("%d == %d\n", number1, number2);
+		if(number1 != number 2) System.out.printf("%d != %d\n", number1, number2);
+		if(number1 < number 2) System.out.printf("%d < %d\n", number1, number2);
+		if(number1 > number 2) System.out.printf("%d > %d\n", number1, number2);
+		if(number1 <= number 2) System.out.printf("%d == %d\n", number1, number2);
+		if(number1 >= number 2) System.out.printf("%d == %d\n", number1, number2);
 	}
 }
 ```
