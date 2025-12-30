@@ -75,7 +75,13 @@ Java의 타입은 기본 타입(Primitive types)과 참조 타입(Reference type
 
 클래스에 생성자를 명시적으로 선언하지 않으면 컴파일러가 매개변수가 없는 기본 생성자(Default constructor)를 제공한다. 하지만 생성자를 하나라도 선언하면 컴파일러는 기본 생성자를 생성하지 않는다.
 
-![PDF p.29: GradeBook class with a constructor to initialize the course name]
+```java
+public class GradeBook {
+	private String courseName;
+	public GradeBook(String name) {
+	}
+}
+```
 
 ## 7. Floating-Point Numbers and Type double
 
