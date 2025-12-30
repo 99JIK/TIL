@@ -135,7 +135,14 @@ public class GradeBook {
 	}
 }
 
-//
+// GradeBookTest.java
+public class GradeBookTest {
+	public static void main(String[] args) {
+		GradeBook myGradeBook = new GradeBook("CS101 Introduction to Java Programming");
+		
+		myGrade
+	}
+}
 ```
 GradeBook 클래스 예제에서는 사용자가 입력한 점수를 `switch` 문을 사용하여 학점(A, B, C, D, F)별로 카운트한다.
 `case` 레이블의 값과 제어 표현식의 값을 비교하여 일치하는 경우 해당 `case`의 동작을 수행한다.
