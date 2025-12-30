@@ -85,8 +85,9 @@ public class Comparison {
 		Scanner input = new Scanner(System.in);
 		int number1, number2;
 		System.out.print("Enter first integer: ");
-		number1 = input.nextInt();
-		
+		number1 = input.nextInt(); // read 
+		System.out.print("Enter second integer: ");
+		number2 = input.nextInt(); // Read second number from user
 	}
 }
 ```
