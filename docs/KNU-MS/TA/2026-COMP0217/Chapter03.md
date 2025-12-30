@@ -12,11 +12,19 @@
 
 [cite_start]새로운 클래스를 선언할 때 public 키워드는 해당 클래스가 공용으로 사용 가능함을 의미한다 [cite: 56][cite_start]. public으로 선언된 클래스는 클래스 이름과 동일한 파일명(.java)을 가져야 한다[cite: 54].
 
-![PDF p.9: Class declaration with one method displayMessage]
+```java
+public class GradeBook{
+	public void displayMessage() {
+		System.out.println("Welcom to the Grade Book!");
+	}
+}
+```
 
 [cite_start]GradeBook 클래스는 환영 메시지를 출력하는 displayMessage 메서드를 포함한다[cite: 70]. [cite_start]하지만 이 클래스 자체에는 main 메서드가 없어 독립적으로 실행할 수 없다[cite: 84, 85]. [cite_start]실행을 위해서는 main 메서드를 포함한 별도의 드라이버 클래스(Driver class)가 필요하다[cite: 88, 90].
 
 ![PDF p.11: Creating a GradeBook object and calling its displayMessage method]
+```Java
+```
 
 [cite_start]객체 생성 표현식(Class instance creation expression)에서 new 키워드는 새 객체를 생성하고, 괄호는 생성자(Constructor)를 호출하여 객체를 초기화한다[cite: 127, 128]. [cite_start]생성된 객체의 메서드는 점 구분자(.)를 사용하여 호출한다[cite: 130].
 
