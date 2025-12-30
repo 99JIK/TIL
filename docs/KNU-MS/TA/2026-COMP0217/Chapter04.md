@@ -72,14 +72,19 @@ Unary increment operator (`++`)는 피연산자에 1을 더하고, unary decreme
 * Postfix increment/decrement (`a++`, `a--`): 변수의 현재 값을 표현식에서 먼저 사용한 후, 값을 증감시킨다.
 
 
-| Operator | Operator name     | Sample expression | Explanation                                                                                 |
-| -------- | ----------------- | ----------------- | ------------------------------------------------------------------------------------------- |
-| `++`     | prefix increment  | `++a`             | Increment a by 1, then use the new value of `a` in the expression in which a resides.       |
-| `++`     | postfix increment | `a++`             | Use the current value of `a` in the expression in which a resides, then increment `a` by 1. |
-| `--`     | prefix decrement  | `--a`             | Decrement `a` by 1, then use the new value of `a` in the expression in which `a` resides.   |
-| `--`     | postfix decrement | `a--`             | Use the current value of `a` in the expression in which `a` resides, then decrement `a`     |
+| Operator | Operator name     | Sample expression | Explanation                                                                                   |
+| -------- | ----------------- | ----------------- | --------------------------------------------------------------------------------------------- |
+| `++`     | prefix increment  | `++a`             | Increment a by 1, then use the new value of `a` in the expression in which a resides.         |
+| `++`     | postfix increment | `a++`             | Use the current value of `a` in the expression in which a resides, then increment `a` by 1.   |
+| `--`     | prefix decrement  | `--a`             | Decrement `a` by 1, then use the new value of `a` in the expression in which `a` resides.     |
+| `--`     | postfix decrement | `a--`             | Use the current value of `a` in the expression in which `a` resides, then decrement `a` by 1. |
 
 
 연산자 우선순위(Precedence)와 결합법칙(Associativity)에 따라 ++, --, 캐스트, 단항 연산자 등은 오른쪽에서 왼쪽으로 결합하며, 이항 산술 연산자 등은 왼쪽에서 오른쪽으로 결합한다.
 
-![PDF p.39: Precedence and associativity of operators]
+
+| Operators            | Associativity | Type          |
+| -------------------- | ------------- | ------------- |
+| `++`, `--`           | right to lef  | unary postfix |
+| `++`, `--`, `+`, `-` |               |               |
+
