@@ -60,7 +60,20 @@ control variable을 다양한 방식으로 제어할 수 있다.
 switch 문은 상수 정수 표현식(byte, short, int, char 타입)의 가능한 값에 따라 다른 동작을 수행한다.
 
 ![PDF p.20: switch multiple-selection statement UML activity diagram with break statements](img/Pasted%20image%2020251230171806.png)
-
+```java
+import java.util.Scanner;
+public class GradeBook {
+	prevate String CourseName;
+	private int total;
+	private int gradeCounter;
+	private int aCount;
+	private int bCount;
+	private int cCount;
+	private int dCount;
+	private int fCount;
+	
+}
+```
 GradeBook 클래스 예제에서는 사용자가 입력한 점수를 `switch` 문을 사용하여 학점(A, B, C, D, F)별로 카운트한다.
 `case` 레이블의 값과 제어 표현식의 값을 비교하여 일치하는 경우 해당 case의 동작을 수행한다.
 break 문은 switch 문을 빠져나가게 하며, default 케이스는 일치하는 case가 없을 때 실행된다.
