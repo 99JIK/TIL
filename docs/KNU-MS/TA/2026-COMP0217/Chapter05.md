@@ -6,13 +6,13 @@ Counter-controlled repetition은 다음의 네 가지 요소를 필요로 한다
 * 루프를 반복할 때마다 control variable이 수정되는 increment (또는 decrement)
 * 루프 지속 여부를 결정하는 loop-continuation condition
 
-while 반복문을 사용하여 카운터 제어 반복을 구현할 수 있다.
+`while` 반복문을 사용하여 카운터 제어 반복을 구현할 수 있다.
 실수형(floating-point) 변수는 근사값을 가지므로 루프 제어 변수로 사용 시 부정확한 카운터 값과 종료 테스트 오류가 발생할 수 있다.
 
 ## 2. for 반복문
 
-for 반복문은 카운터 제어 반복의 세부 사항을 한 줄의 코드로 지정한다.
-for 문은 keyword, control variable, 초기값, loop-continuation condition, increment 등으로 구성된다.
+`for` 반복문은 카운터 제어 반복의 세부 사항을 한 줄의 코드로 지정한다.
+`for` 문은 keyword, control variable, initial value, loop-continuation condition, increment 등으로 구성된다.
 
 ![PDF p.5: for statement header components]
 
@@ -21,7 +21,7 @@ for 문은 keyword, control variable, 초기값, loop-continuation condition, in
 for 헤더의 초기화 식에서 선언된 control variable은 해당 for 문 내에서만 사용 가능하다.
 변수의 scope는 프로그램 내에서 해당 변수가 사용될 수 있는 범위를 정의한다.
 
-![PDF p.7: UML activity diagram for the for statement]
+![PDF p.7: UML activity diagram for the for statement](img/Pasted%20image%2020251230171610.png)
 
 for 문의 초기화, 루프 지속 조건, 증감 부분에는 산술 표현식을 사용할 수 있다.
 increment가 음수일 경우 decrement로 작용하며 루프는 아래쪽으로 카운트한다.
