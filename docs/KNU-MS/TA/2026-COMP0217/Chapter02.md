@@ -65,6 +65,10 @@ Java의 산술 연산자에는 덧셈(`+`), 뺄셈(`-`), 곱셈(`*`), 나눗셈(
 ### 7.2 동등 및 관계 연산자
 동등 연산자에는 `==`(같다)와 `!=`(같지 않다)가 있다. 관계 연산자에는 `>`(크다), `<`(작다), `>=`(크거나 같다), `<=`(작거나 같다)가 있다. 관계 연산자는 동등 연산자보다 높은 우선순위를 가진다.
 
+| Standard algebraic equality or relational operator | Java equality or relational operator | Sample Java condition | Meaning of Java condition |
+| -------------------------------------------------- | ------------------------------------ | --------------------- | ------------------------- |
+|                                                    |                                      |                       |                           |
+
 ![PDF p.27: Table of Equality and Relational operators]
 
 ### 7.3 주의사항
