@@ -232,7 +232,16 @@ x축은 수평 좌표(왼쪽에서 오른쪽), y축은 수직 좌표(위에서 �
 import java.awt.Graphics;
 import javax.swing.JPanel;
 
-public class DrawPAnel extends 
+public class DrawPanel extends JPanel {
+	public void paintComponet(Graphics g) {
+		super.paintComponent(g);
+		
+		int width = getWidth();
+		int height = getHeight();
+		
+		g.drawLine(0, 0, wid)
+	}
+} 
 // DrawPanelTest.java
 
 ```
