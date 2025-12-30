@@ -147,12 +147,16 @@ import javax.swing.JOptionPane;
 
 public class Dialog1 {
 	public static void main(String[] args) {
-		JOption
+		JOptionPane.showMessageDialog(null, "Welcome\nto\nJava");
 	}
 }
 ```
 ![PDF p.38: Using JOptionPane to display multiple lines in a dialog box](img/Pasted%20image%2020251230165238.png)
 
 showMessageDialog 메서드는 대화 상자를 표시하는 static 메서드이다. 첫 번째 인자가 null이면 대화 상자가 화면 중앙에 나타난다. 사용자 입력을 받기 위해서는 showInputDialog 메서드를 사용할 수 있다. 이러한 그래픽 컴포넌트들은 javax.swing 패키지에 포함되어 있다.
+```java
+import javax.swing.JOptionPane;
 
-![PDF p.41: Obtaining user input from a dialog]
+public class NameDialog {}
+```
+![PDF p.41: Obtaining user input from a dialog](img/Pasted%20image%2020251230165406.png)
