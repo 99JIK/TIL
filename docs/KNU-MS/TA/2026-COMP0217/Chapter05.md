@@ -110,6 +110,19 @@ public class GradeBook {
 				break;
 			case 7:
 				++cCount;
+				break;
+			case 6:
+				++dCount;
+				break;
+			default:
+				++fCount;
+				break;
+		}
+	}
+	public void displayGradeReport() {
+		System.out.println("\nGrade Report:");
+		if(gradeCounter != 0) {
+			double 
 		}
 	}
 }
