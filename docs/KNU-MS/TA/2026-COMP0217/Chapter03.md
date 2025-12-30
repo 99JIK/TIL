@@ -157,6 +157,12 @@ showMessageDialog 메서드는 대화 상자를 표시하는 static 메서드이
 ```java
 import javax.swing.JOptionPane;
 
-public class NameDialog {}
+public class NameDialog {
+	public static void main(String[] args) {
+		String name = JOptionPane.showInputDialog("What is your name?");
+		String message = String.format("Welcome, %s, to Java Programming!", name);
+		JOptionPane.showMessageDia
+	}
+}
 ```
 ![PDF p.41: Obtaining user input from a dialog](img/Pasted%20image%2020251230165406.png)
