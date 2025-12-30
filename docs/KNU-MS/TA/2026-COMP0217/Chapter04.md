@@ -33,14 +33,14 @@ if 문은 조건이 참인지 거짓인지에 따라 흐름을 제어한다. Pse
 
 ![PDF p.11: if...else double-selection statement UML activity diagram](img/Pasted%20image%2020251230170053.png)
 
-Conditional operator (?:)는 if...else 문을 축약하여 사용할 수 있는 삼항 연산자이다. ? 왼쪽의 피연산자는 boolean 표현식이며, 이 값이 참이면 두 번째 피연산자가, 거짓이면 세 번째 피연산자가 평가된다.
+Conditional operator (`?:`)는 `if...else` 문을 축약하여 사용할 수 있는 삼항 연산자이다. `?` 왼쪽의 피연산자는 boolean 표현식이며, 이 값이 참이면 두 번째 피연산자가, 거짓이면 세 번째 피연산자가 평가된다.
 
-Nested if...else 문은 여러 조건을 테스트하기 위해 if...else 문 안에 또 다른 if...else 문을 배치하는 것이다. Java 컴파일러는 중괄호로 구분되지 않은 경우, else를 가장 가까운 if와 연결하는데 이를 dangling-else problem이라고 한다. 의도한 대로 중첩 제어문을 실행하기 위해서는 중괄호({})를 사용하여 블록을 명확히 해야 한다.
+Nested `if...else` 문은 여러 조건을 테스트하기 위해 `if...else` 문 안에 또 다른 `if...else` 문을 배치하는 것이다. Java 컴파일러는 중괄호로 구분되지 않은 경우, `else`를 가장 가까운 `if`와 연결하는데 이를 dangling-else problem이라고 한다. 의도한 대로 중첩 제어문을 실행하기 위해서는 중괄호(`{}`)를 사용하여 블록을 명확히 해야 한다.
 
 ## 6. while Repetition Statement
 while 문은 조건이 참인 동안 동작을 반복한다. 예를 들어, 3의 거듭제곱 중 100보다 큰 첫 번째 값을 찾는 알고리즘에 사용할 수 있다.
 
-![PDF p.18: while repetition statement UML activity diagram]
+![PDF p.18: while repetition statement UML activity diagram](img/Pasted%20image%2020251230170208.png)
 
 ## 7. Formulating Algorithms: Counter-Controlled Repetition
 Counter-controlled repetition은 문장 집합이 실행될 횟수를 제어하기 위해 counter 변수를 사용한다. 반복 횟수가 루프 실행 전에 알려져 있기 때문에 definite repetition이라고도 불린다. 일반적인 구조는 초기화 단계, 처리 단계, 종료 단계로 나뉜다. 정수 나눗셈을 사용할 때는 소수점 이하가 버려지므로 주의해야 한다.
