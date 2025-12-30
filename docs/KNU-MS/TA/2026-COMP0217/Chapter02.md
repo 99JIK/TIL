@@ -67,6 +67,8 @@ Java의 산술 연산자에는 덧셈(`+`), 뺄셈(`-`), 곱셈(`*`), 나눗셈(
 
 | Standard algebraic equality or relational operator | Java equality or relational operator | Sample Java condition | Meaning of Java condition |
 | -------------------------------------------------- | ------------------------------------ | --------------------- | ------------------------- |
+| $=$                                                | `==`                                 | `x == y`              | `x` is equal to `y`       |
+| $\not =$                                           | `!=`                                 | `x != y`              | `x` is                    |
 |                                                    |                                      |                       |                           |
 
 ![PDF p.27: Table of Equality and Relational operators]
