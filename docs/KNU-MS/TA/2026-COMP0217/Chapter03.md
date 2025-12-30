@@ -103,12 +103,14 @@ public class GradeBookTest {
 		GradeBook gradeBook1 = new GradeBook("CS101 Introduction to Java Programming");
 		GradeBook gradeBook2 = new GradeBook("CS102 Data Structures in Java");
 		
-		System.out.printf("GradeBook course name is: %s\n", gradeBook,getCourseName());
-		System.out.printf("GradeBook course name is: %s\n", gradeBook,getCourseName());
+		System.out.printf("GradeBook1 course name is: %s\n", gradeBook1.getCourseName());
+		System.out.printf("GradeBook2 course name is: %s\n", gradeBook2.getCourseName());
 	}
 }
 ```
 
+```text
+```
 ## 7. Floating-Point Numbers and Type double
 
 실수형 숫자를 표현하기 위해 float와 double 타입을 사용한다. double 변수는 float 변수보다 더 큰 크기와 정밀도를 저장할 수 있다. Java는 모든 실수 리터럴을 기본적으로 double로 취급한다. float는 7자리의 유효 숫자를 가지는 반면, double은 약 15자리의 유효 숫자를 제공한다.
