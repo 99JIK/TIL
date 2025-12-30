@@ -78,14 +78,14 @@ Java의 산술 연산자에는 덧셈(`+`), 뺄셈(`-`), 곱셈(`*`), 나눗셈(
 ### 7.3 주의사항
 if 문의 조건 뒤에 세미콜론(;)을 붙이는 것은 논리 오류를 유발한다. 또한 동등 연산자(`==`)와 대입 연산자(`=`)를 혼동하는 것은 일반적인 프로그래밍 오류이다.
 ```java
-import java.util.Scanner;
+import java.util.Scanner; // Program uses class Scanner
 
 public class Comparison {
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		int number1, number2;
+	public static void main(String[] args) { // Main method begins exvution of Java aplication
+		Scanner input = new Scanner(System.in); // Create Scanner to obtain input from command window
+		int number1, number2; // Number t compare
 		System.out.print("Enter first integer: ");
-		number1 = input.nextInt(); // read 
+		number1 = input.nextInt(); // read first number from user
 		System.out.print("Enter second integer: ");
 		number2 = input.nextInt(); // Read second number from user
 	}
