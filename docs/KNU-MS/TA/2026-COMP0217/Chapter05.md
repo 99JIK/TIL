@@ -172,21 +172,21 @@ Java의 논리 연산자는 단순 조건을 결합하여 더 복잡한 조건�
 종속 조건(dependent condition)이 있는 경우, 예를 들어 `(i != 0) && (10 / i == 2)`와 같이 종속 조건이 뒤에 오도록 배치해야 런타임 오류(예: 0으로 나누기)를 방지할 수 있다.
 `%b` 형식 지정자는 boolean 표현식의 값에 따라 `true` 또는 `false`를 표시한다.
 
-| Operators                         | Associativity | Type           |
-| --------------------------------- | ------------- | -------------- |
-| `++`, `--`                        | right to left | unary postfix  |
-| `++`, `--`, `+`, `-` `(<type>)`   | right to left | unary prefix   |
-| `*`, `/`, `%`                     | left to right | multiplicative |
-| `+`, `-`                          | left to right | additive       |
-| `<`, `<=`, `>`, `>=`              | left to light | relational     |
-| `==`, `!=`                        | left to right | equality       |
-| `&`                               |               |                |
-| `^`                               |               |                |
-| `\|`                              |               |                |
-| `&&`                              |               |                |
-| `\|\|`                            |               |                |
-| `?:`                              | right to left | conditional    |
-| `=`, `+=`, `-=`, `*=`, `/=`, `%=` | right to left | assignment     |
+| Operators                         | Associativity | Type                         |
+| --------------------------------- | ------------- | ---------------------------- |
+| `++`, `--`                        | right to left | unary postfix                |
+| `++`, `--`, `+`, `-` `(<type>)`   | right to left | unary prefix                 |
+| `*`, `/`, `%`                     | left to right | multiplicative               |
+| `+`, `-`                          | left to right | additive                     |
+| `<`, `<=`, `>`, `>=`              | left to light | relational                   |
+| `==`, `!=`                        | left to right | equality                     |
+| `&`                               | left to right | boolean logical AND          |
+| `^`                               | left to right | boolean logical exclusive OR |
+| `\|`                              | left to right |                              |
+| `&&`                              | left to right |                              |
+| `\|\|`                            | left to right |                              |
+| `?:`                              | right to left | conditional                  |
+| `=`, `+=`, `-=`, `*=`, `/=`, `%=` | right to left | assignment                   |
 
 
 
