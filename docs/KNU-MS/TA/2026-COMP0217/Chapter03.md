@@ -24,6 +24,12 @@ public class GradeBook{
 
 ![PDF p.11: Creating a GradeBook object and calling its displayMessage method]
 ```Java
+public class GradeBookTest {
+	public static void main(String[] args) {
+		GradeBook myGradeBook = new GradeBook();
+		myGradeBook.displayMessage(); // call myGradeBook's displayMe
+	}
+}
 ```
 
 [cite_start]객체 생성 표현식(Class instance creation expression)에서 new 키워드는 새 객체를 생성하고, 괄호는 생성자(Constructor)를 호출하여 객체를 초기화한다[cite: 127, 128]. [cite_start]생성된 객체의 메서드는 점 구분자(.)를 사용하여 호출한다[cite: 130].
