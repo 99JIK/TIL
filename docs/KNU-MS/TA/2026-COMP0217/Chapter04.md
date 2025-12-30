@@ -67,11 +67,18 @@ Assume: int c = 3, d = 5, e = 4, f = 6, g = 12
 | %=                  | `g %= 9`          | `g = g % 9` | 3 to `g`  |
 
 ## 11. Increment and Decrement Operators
-Unary increment operator (++)는 피연산자에 1을 더하고, unary decrement operator (--)는 피연산자에서 1을 뺀다.
-* Prefix increment/decrement (++a, --a): 변수의 값을 먼저 증감시킨 후, 그 새로운 값을 표현식에서 사용한다.
-* Postfix increment/decrement (a++, a--): 변수의 현재 값을 표현식에서 먼저 사용한 후, 값을 증감시킨다.
+Unary increment operator (`++`)는 피연산자에 1을 더하고, unary decrement operator (`--`)는 피연산자에서 1을 뺀다.
+* Prefix increment/decrement (`++a`, `--a`): 변수의 값을 먼저 증감시킨 후, 그 새로운 값을 표현식에서 사용한다.
+* Postfix increment/decrement (`a++`, `a--`): 변수의 현재 값을 표현식에서 먼저 사용한 후, 값을 증감시킨다.
 
-![PDF p.37: Increment and decrement operators table]
+
+| Operator | Operator name | Sample expression | Explanation |
+| -------- | ------------- | ----------------- | ----------- |
+| `++`     |               |                   |             |
+| `++`     |               |                   |             |
+| `--`     |               |                   |             |
+| `--`     |               |                   |             |
+
 
 연산자 우선순위(Precedence)와 결합법칙(Associativity)에 따라 ++, --, 캐스트, 단항 연산자 등은 오른쪽에서 왼쪽으로 결합하며, 이항 산술 연산자 등은 왼쪽에서 오른쪽으로 결합한다.
 
