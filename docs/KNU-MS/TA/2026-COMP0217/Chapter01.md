@@ -76,7 +76,7 @@ Java는 1991년 Sun Microsystems의 James Gosling에 의해 C++ 기반으로 시
 
 3. Load: Class Loader가 디스크나 네트워크에서 .class 파일을 읽어 메모리(Primary Memory)로 전송한다.
 
-![PDF p.38: Typical Java development environment-loading phase]
+![PDF p.38: Typical Java development environment-loading phase](img/Pasted%20image%2020251230152136.png)
 
 4. Verify: Bytecode verifier가 바이트코드를 검사하여 자바의 보안 제한 사항을 위반하지 않는지 확인한다.
 5. Execute: JVM(Java Virtual Machine)이 바이트코드를 실행한다. JVM은 해석(Interpretation)과 JIT(Just-In-Time) 컴파일을 혼합하여 실행하며, 기반 하드웨어와 운영체제를 숨기는 가상 머신 역할을 한다.
