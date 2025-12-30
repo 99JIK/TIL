@@ -68,11 +68,11 @@ Java는 1991년 Sun Microsystems의 James Gosling에 의해 C++ 기반으로 시
 
 1. Edit: 편집기(Editor)를 사용하여 소스 코드(.java 파일)를 작성하고 수정한다. IDE(Integrated Development Environments)는 편집기, 디버거 등을 제공하여 개발을 지원한다(예: Eclipse, NetBeans).
 
-![PDF p.34: Typical Java development environment-editing phase]
+![PDF p.34: Typical Java development environment-editing phase](img/Pasted%20image%2020251230152044.png)
 
 2. Compile: javac 컴파일러를 사용하여 소스 코드를 바이트코드(.class 파일)로 변환한다.
 
-![PDF p.36: Typical Java development environment-compilation phase]
+![PDF p.36: Typical Java development environment-compilation phase](img/Pasted%20image%2020251230152109.png)
 
 3. Load: Class Loader가 디스크나 네트워크에서 .class 파일을 읽어 메모리(Primary Memory)로 전송한다.
 
