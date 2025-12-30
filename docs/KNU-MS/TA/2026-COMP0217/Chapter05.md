@@ -79,13 +79,16 @@ public class GradeBook {
 		courseName = name;
 	}
 	public String getCourseName() {
-		return 
+		return courseName;
+	}
+	public void displayMessage() {
+		System.out.printf("Welcome to the grade book for \n%s!\n\n", getCourseName());
 	}
 }
 ```
 GradeBook 클래스 예제에서는 사용자가 입력한 점수를 `switch` 문을 사용하여 학점(A, B, C, D, F)별로 카운트한다.
-`case` 레이블의 값과 제어 표현식의 값을 비교하여 일치하는 경우 해당 case의 동작을 수행한다.
-break 문은 switch 문을 빠져나가게 하며, default 케이스는 일치하는 case가 없을 때 실행된다.
+`case` 레이블의 값과 제어 표현식의 값을 비교하여 일치하는 경우 해당 `case`의 동작을 수행한다.
+`break` 문은 `switch` 문을 빠져나가게 하며, `default` 케이스는 일치하는 `case`가 없을 때 실행된다.
 
 ## 6. break 및 continue 문
 
