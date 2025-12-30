@@ -21,17 +21,17 @@ Java는 세 가지 유형의 selection statements를 제공한다.
 ### 3.3 Repetition Statements
 Repetition statements(looping statements)는 loop-continuation condition이 참인 동안 문장들을 반복적으로 수행한다.
 * `while` 및 `for` 문은 body를 0회 이상 실행한다.
-* do...while 문은 body를 1회 이상 실행한다.
+* `do...while` 문은 body를 1회 이상 실행한다.
 
 ## 4. if Single-Selection Statement
-if 문은 조건이 참인지 거짓인지에 따라 흐름을 제어한다. Pseudocode로 '만약 학생의 점수가 60점 이상이라면 "Passed"를 출력하라'는 알고리즘은 Java의 if 문으로 구현된다.
+if 문은 조건이 참인지 거짓인지에 따라 흐름을 제어한다. Pseudocode로 '만약 학생의 점수가 60점 이상이라면 "`Passed`"를 출력하라'는 알고리즘은 Java의 `if` 문으로 구현된다.
 
-![PDF p.10: if single-selection statement UML activity diagram]
+![PDF p.10: if single-selection statement UML activity diagram](img/Pasted%20image%2020251230170035.png)
 
 ## 5. if...else Double-Selection Statement
-if...else 문은 조건이 참일 때와 거짓일 때 각각 다른 경로를 실행한다.
+`if...else` 문은 조건이 참일 때와 거짓일 때 각각 다른 경로를 실행한다.
 
-![PDF p.11: if...else double-selection statement UML activity diagram]
+![PDF p.11: if...else double-selection statement UML activity diagram](img/Pasted%20image%2020251230170053.png)
 
 Conditional operator (?:)는 if...else 문을 축약하여 사용할 수 있는 삼항 연산자이다. ? 왼쪽의 피연산자는 boolean 표현식이며, 이 값이 참이면 두 번째 피연산자가, 거짓이면 세 번째 피연산자가 평가된다.
 
