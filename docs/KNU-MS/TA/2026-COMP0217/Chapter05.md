@@ -88,7 +88,10 @@ public class GradeBook {
 	public void inputGrades() {
 		Sanner input = new Scanner(System.in)'
 		int grade;
-		System.out.printf("%s\n%s\n    %s\n    %s\n")
+		System.out.printf("%s\n%s\n    %s\n    %s\n"),
+			"Enter the integer grades in the range 0-100.",
+			"Type the end-of-file indicator to terminate input:",
+			"On UNIX/Linux/MacOS X Type <Ctrl> d then press En"
 	}
 }
 
