@@ -122,7 +122,10 @@ public class GradeBook {
 	public void displayGradeReport() {
 		System.out.println("\nGrade Report:");
 		if(gradeCounter != 0) {
-			double 
+			double average = (double)total / gradeCounter;
+			System.out.printf("Total of the %d grades entered is %d\n",
+				gradeCounter, total);
+			System.out.printf("%s\n%s%d)
 		}
 	}
 }
