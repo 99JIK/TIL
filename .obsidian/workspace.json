@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Paper/MASTER'S-THESIS/Cross-Domain-Environment-Agent-Modeling-for-SITL-via-LLM-driven-Context-Aware-Behavior-Tree-Generation.md",
+                "file": "docs/KNU-MS/TA/2026-COMP0217/Chapter01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cross-Domain-Environment-Agent-Modeling-for-SITL-via-LLM-driven-Context-Aware-Behavior-Tree-Generation"
+              "title": "Chapter01"
             }
           }
         ]
@@ -172,10 +172,11 @@
   },
   "active": "513ff88c1cd89803",
   "lastOpenFiles": [
+    "docs/Paper/MASTER'S-THESIS/Cross-Domain-Environment-Agent-Modeling-for-SITL-via-LLM-driven-Context-Aware-Behavior-Tree-Generation.md",
+    "docs/KNU-MS/TA/2026-COMP0217/Chapter01.md",
     "docs/KNU-MS/TA/2026-COMP0217",
     "docs/KNU-MS/3rd_semester",
     "docs/Paper/MASTER'S-THESIS/Embedded SW Testing.md",
-    "docs/Paper/MASTER'S-THESIS/Cross-Domain-Environment-Agent-Modeling-for-SITL-via-LLM-driven-Context-Aware-Behavior-Tree-Generation.md",
     "papers/Robot-Behavior-Tree-Based-Task-Generation-with-Large-Language-Models.md",
     "conflict-files-obsidian-git.md",
     "docs/Seminar/25-12-29_ABB.md",
