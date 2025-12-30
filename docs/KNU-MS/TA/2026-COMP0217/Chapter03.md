@@ -26,8 +26,8 @@ public class GradeBook{
 ```Java
 public class GradeBookTest {
 	public static void main(String[] args) {
-		GradeBook myGradeBook = new GradeBook();
-		myGradeBook.displayMessage(); // call myGradeBook's displayMe
+		GradeBook myGradeBook = new GradeBook(); // Create a GradeBook object and assign it to myGradeBook
+		myGradeBook.displayMessage(); // Call myGradeBook's displayMessage method
 	}
 }
 ```
