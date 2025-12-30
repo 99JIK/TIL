@@ -28,7 +28,7 @@ Moore's Law는 매년 또는 2년마다 컴퓨터의 용량이 가격 인상 없
 
 데이터 계층 구조(Data Hierarchy)는 비트(Bits)에서 시작하여 문자(Characters), 필드(Fields), 레코드(Records), 파일(File) 등으로 구조가 커지고 복잡해진다.
 
-![PDF p.15: Data hierarchy diagram showing bits, characters, fields, records, and files]
+![PDF p.15: Data hierarchy diagram showing bits, characters, fields, records, and files](img/Pasted%20image%2020251230152007.png)
 
 ## 4. 컴퓨터 구조 및 프로그래밍 언어
 
