@@ -78,8 +78,21 @@ Java의 타입은 기본 타입(Primitive types)과 참조 타입(Reference type
 ```java
 public class GradeBook {
 	private String courseName;
+	
 	public GradeBook(String name) {
+		courseName = name;
 	}
+	
+	public void setCourseName(String name) {
+		courseName = name;
+	}
+	
+	public String getCourseName() {
+		return courseName;
+	}
+	
+	public 
+	
 }
 ```
 
