@@ -110,6 +110,8 @@ public class GradeBookTest {
 ```
 
 ```text
+gradeBook1 course name is: CS101 Introduction to Java Programming
+gradeBook2 Course name is: CS102 Data Structures in Java
 ```
 ## 7. Floating-Point Numbers and Type double
 
@@ -117,7 +119,15 @@ public class GradeBookTest {
 
 Account 클래스 예제에서는 생성자를 통해 유효하지 않은 초기값(예: 음수)이 입력되는 것을 방지하고 데이터를 검증한다.
 
-![PDF p.32: Account class with a constructor to validate and initialize instance variable]
+```java
+public class Account {
+	private double balance;
+	
+	public Account(double initialBalance) {
+		if(initialBalance > 0.0) balance = initial
+	}
+}
+```
 
 출력 시 System.out.printf 메서드와 포맷 지정자 %.2f를 사용하여 소수점 이하 두 자리까지 반올림하여 출력할 수 있다. Scanner 객체의 nextDouble 메서드는 사용자가 입력한 double 값을 반환한다.
 
