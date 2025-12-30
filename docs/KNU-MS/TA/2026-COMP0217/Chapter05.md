@@ -125,7 +125,9 @@ public class GradeBook {
 			double average = (double)total / gradeCounter;
 			System.out.printf("Total of the %d grades entered is %d\n",
 				gradeCounter, total);
-			System.out.printf("%s\n%s%d)
+			System.out.printf("%s\n%s%d\n%s%d\n%s%d\n%s%d\n%s%d\n",
+				"Number of students who received each grade:",
+				"A: ", aCount, "B: ", bCount, "C: ", cCount,)
 		}
 	}
 }
