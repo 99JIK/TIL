@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/KNU-MS/TA/2026-COMP0217/Chapter05.md",
+                "file": "docs/KNU-MS/TA/2026-COMP0217/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter05"
+              "title": "Untitled"
             }
           }
         ]
@@ -172,11 +172,12 @@
   },
   "active": "513ff88c1cd89803",
   "lastOpenFiles": [
+    "docs/KNU-MS/TA/2026-COMP0217/Chapter05.md",
+    "docs/KNU-MS/TA/2026-COMP0217/Untitled.md",
     "docs/KNU-MS/TA/2026-COMP0217/img/Pasted image 20251230173841.png",
     "docs/KNU-MS/TA/2026-COMP0217/img/Pasted image 20251230173714.png",
     "docs/KNU-MS/TA/2026-COMP0217/img/Pasted image 20251230173701.png",
     "docs/KNU-MS/TA/2026-COMP0217/Chapter04.md",
-    "docs/KNU-MS/TA/2026-COMP0217/Chapter05.md",
     "docs/KNU-MS/TA/2026-COMP0217/img/Pasted image 20251230171806.png",
     "docs/KNU-MS/TA/2026-COMP0217/img/Pasted image 20251230171747.png",
     "docs/KNU-MS/TA/2026-COMP0217/img/Pasted image 20251230171610.png",
@@ -187,7 +188,6 @@
     "docs/KNU-MS/TA/2026-COMP0217/img/Pasted image 20251230165932.png",
     "docs/KNU-MS/TA/2026-COMP0217/Chapter01.md",
     "docs/KNU-MS/TA/2026-COMP0217/Chapter03.md",
-    "docs/KNU-MS/TA/2026-COMP0217/img/Pasted image 20251230165406.png",
     "docs/KNU-MS/TA/2026-COMP0217/Chapter02.md",
     "docs/KNU-MS/TA/2026-COMP0217/img",
     "docs/Paper/MASTER'S-THESIS/Cross-Domain-Environment-Agent-Modeling-for-SITL-via-LLM-driven-Context-Aware-Behavior-Tree-Generation.md",
