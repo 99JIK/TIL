@@ -109,7 +109,11 @@ public class Date {
 			return 1;
 		}
 	}
-	private int checkDay(int testDay) 
+	private int checkDay(int testDay) {
+		int[] daysPerMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+		if(testDay > 0 && testDay <= daysPerMonth[month]) return testDay;
+		if()
+	}
 }
 //Employee.java
 public class Employee {
