@@ -157,7 +157,10 @@ enum 타입은 고유한 식별자로 표현되는 상수 집합을 정의한다
 public enum Book {
 	JHTP("Java How To Program", "2010"),
 	CHTP("C How To Program", "2007"),
-	IW3HTP()
+	IW3HTP("Inter How To Program", "200"),
+	CPPHTP(" How To Program", "200"),
+	VBHTP(" How To Program", "200"),
+	CSHARPHTP(" How To Program", "200"),
 }
 ```
 ### Garbage Collection and Method finalize
