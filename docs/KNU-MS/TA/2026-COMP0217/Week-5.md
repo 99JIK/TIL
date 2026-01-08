@@ -3,7 +3,7 @@
 ### Introduction
 Arrays는 동일한 type의 관련 데이터 항목으로 구성된 Data structures이다. 이들은 관련된 값들의 그룹을 편리하게 처리할 수 있게 해주지만, 생성된 후에는 길이가 고정되어 변경되지 않는다. 배열의 각 요소는 index(또는 subscript)를 통해 참조하며, 인덱스는 0부터 시작한다.
 
-![PDF p.6: A 12-element array]
+![PDF p.6: A 12-element array](img/Pasted%20image%2020260108164808.png)
 
 ### Arrays 선언 및 생성
 Array 객체는 키워드 new를 사용하여 생성한다. 배열 생성 식에서는 요소의 type과 개수를 지정해야 한다.
