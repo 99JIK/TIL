@@ -17,7 +17,7 @@ Java는 세 가지 유형의 선택 문을 제공한다.
 * switch statement: Multiple-selection statement로, 표현식의 값에 따라 여러 작업 중 하나를 수행한다.
 
 ![PDF p.10: if single-selection statement UML activity diagram](img/Pasted%20image%2020260108155803.png)
-![PDF p.11: if...else double-selection statement UML activity diagram]
+![PDF p.11: if...else double-selection statement UML activity diagram](img/Pasted%20image%2020260108155822.png)
 
 Nested if...else 문을 사용할 때 Dangling-else 문제가 발생할 수 있다. Java 컴파일러는 항상 else를 중괄호로 묶이지 않은 가장 가까운 이전의 if와 연관시킨다. 이를 해결하기 위해 중괄호 {}를 사용하여 블록을 명확히 지정해야 한다.
 
@@ -25,7 +25,15 @@ Conditional operator (?:)는 if...else 문을 대체할 수 있는 삼항 연산
 
 switch 문은 byte, short, int, char 타입의 상수 정수 표현식 값에 따라 다른 작업을 수행한다. 각 case는 상수로 라벨링되며 일치하는 case가 실행된다.
 
-![PDF p.20: switch multiple-selection statement UML activity diagram with break statements]
+```java
+import java.util.Scanner;
+
+public class GradeBook {
+	private String courseName;
+	public GradeBook(String name) { courseName = name; }
+	public void 
+}
+```
 
 ## 3. Repetition Statements
 
