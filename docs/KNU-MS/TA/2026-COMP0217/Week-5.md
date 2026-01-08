@@ -89,7 +89,11 @@ Set 메서드(mutator)와 Get 메서드(accessor)는 private 인스턴스 변수
 ### Composition
 클래스는 다른 클래스의 객체에 대한 참조를 멤버로 가질 수 있으며, 이를 Composition 또는 has-a 관계라고 한다. 예를 들어, Employee 객체는 생일과 고용일을 나타내는 Date 객체에 대한 참조를 포함할 수 있다.
 
-![PDF p.36: Employee class with references to other objects]
+```java
+public class Employee {
+	p
+}
+```
 
 ### Enumerations
 enum 타입은 고유한 식별자로 표현되는 상수 집합을 정의한다. enum은 참조 타입이며, 생성자, 필드, 메서드를 포함할 수 있다. enum 상수는 암묵적으로 static이자 final이다. values 메서드는 모든 enum 상수를 배열로 반환한다.
