@@ -99,6 +99,11 @@ public class Date {
 		month = checkMonth(theMonth);
 		year = theYear;
 		day = checkDay(theDay);
+		
+		System.out.printf("Date object constructor for date %s\n", this);
+	}
+	private int checkMonth(int testMonth) {
+		if(testMonth > 0 && testMonth <= 12)
 	}
 }
 //Employee.java
