@@ -90,6 +90,7 @@ Set 메서드(mutator)와 Get 메서드(accessor)는 private 인스턴스 변수
 클래스는 다른 클래스의 객체에 대한 참조를 멤버로 가질 수 있으며, 이를 Composition 또는 has-a 관계라고 한다. 예를 들어, Employee 객체는 생일과 고용일을 나타내는 Date 객체에 대한 참조를 포함할 수 있다.
 
 ```java
+//Employee.java
 public class Employee {
 	private String firstName;
 	private String lastName;
@@ -103,8 +104,13 @@ public class Employee {
 		hireDate = dateOfHire;
 	}
 	public String toString() {
-		return String.format("%s, %s hired: %s Birthdat)
+		return String.format("%s, %s hired: %s Birthday: %s",
+			lastName, firstName, hireDate, birthDate);
 	}
+}
+//EmployeeTest.java
+public class EmployeeTest {
+	public static void main(String[] ar)
 }
 ```
 
