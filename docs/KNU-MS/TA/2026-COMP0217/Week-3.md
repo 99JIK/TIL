@@ -109,6 +109,6 @@ Java의 제어 문들은 Single-entry/single-exit 구조를 가진다. 즉, 각 
 > 1. begin with the simplest activity diagram.
 > 2. Any action state can be replaced by two action states in sequence(Stacking).
 > 3. Any action state can be replaced by any control statement(Nesting).
-> 4. 
+> 4. Rules 2 and 3 can be applied as often as you like and in any order.
 
 ![PDF p.42: Rules for forming structured programs](img/Pasted%20image%2020260108160959.png)
