@@ -95,7 +95,15 @@ number = shiftingValue + randomNumbers.nextInt(scalingFactor);
 import java.util.Random;
 
 public class RandomIntegers {
-	public static void main(String[] ar)
+	public static void main(String[] args) {
+		Random randomNumbers = new Random();
+		int face;
+		
+		for(int counter = 1; counter <= 20; counter++) {
+			face = 1 + randomNumbers.nextOnt(6);
+			System.out.printf("%d")
+		}
+	}
 }
 ```
 
