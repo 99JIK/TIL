@@ -27,12 +27,17 @@ switch 문은 byte, short, int, char 타입의 상수 정수 표현식 값에 �
 
 ```java
 // GradeBook.java
+import java.util.Scanner;
+
 public class GradeBook {
 	private String courseName;
 	public GradeBook(String name) { courseName = name; }
 	public void setCourseName(String name) { courseName = name; }
 	public Sring getCourseName() { return courseName; }
 	public void displayMessage() { System.out.printf("Welcome to the grade book for \n%s!\n", getCourseName()); }
+	public void determineClassAverage() {
+		Scanner
+	}
 }
 // GradeBookTest.java
 public class GradeBookTest {
