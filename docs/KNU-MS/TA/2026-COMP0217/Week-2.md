@@ -61,7 +61,10 @@ public class GradeBook {
 	public GradeBook(String name) { courseName = name; }
 	public void setCourseName(String name) { courseName = name; }
 	public Sring getCourseName() { return courseName; }
-	public S
+	public void displayMessage() { System.out.printf("Welcome to the grade book for \n%s!\n", getCourseName()); }
+}
+// GradeBookTest.java
+public class GradeBookTest {
 }
 ```
 
