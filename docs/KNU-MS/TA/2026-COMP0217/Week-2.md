@@ -90,4 +90,12 @@ Java 애플리케이션은 `JOptionPane` 클래스를 사용하여 대화 상자
 * **Input Dialog**: 사용자로부터 데이터를 입력받는 창이다. `JOptionPane.showInputDialog` 메서드를 사용한다.
 * `JOptionPane`의 메서드들은 `static` 메서드이므로 객체를 생성하지 않고 클래스 이름으로 직접 호출한다.
 
-![PDF p.38: Using JOptionPane to display multiple lines in a dialog box]
+```java
+import javax.swing.JOptionPane;
+
+public class Dialog1 {
+	public static void main(String[] args) {
+		JOptionPane.showMessageDialog(null, "Welcom\nto\nJava");
+	}
+}
+```
