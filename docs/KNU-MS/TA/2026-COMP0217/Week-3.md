@@ -69,11 +69,11 @@ while 문은 루프 본문을 실행하기 전에 조건을 먼저 검사한다.
 * Counter-controlled repetition: 반복 횟수가 루프 실행 전에 알려진 경우 사용하며 Definite repetition이라고도 한다. 제어 변수, 초기값, 증감, 루프 지속 조건이 필요하다.
 * Sentinel-controlled repetition: 반복 횟수가 사전에 알려지지 않은 경우 사용하며 Indefinite repetition이라고도 한다. Sentinel value(감시 값)를 사용하여 데이터 입력의 끝을 나타낸다.
 
-![PDF p.18: while repetition statement UML activity diagram]
+![PDF p.18: while repetition statement UML activity diagram](img/Pasted%20image%2020260108160627.png)
 
 for 문은 카운터 제어 반복의 세부 사항(초기화, 조건, 증감)을 코드 한 줄에 지정한다. 일반적으로 for 문은 카운터 제어 반복에 사용되고 while 문은 센티넬 제어 반복에 사용된다. 초기화 부분에서 선언된 변수는 그 for 문 내에서만 사용할 수 있는 Scope를 가진다.
 
-![PDF p.7: UML activity diagram for the for statement]
+![PDF p.7: UML activity diagram for the for statement](img/Pasted%20image%2020260108160713.png)
 
 do...while 문은 루프 본문을 실행한 후에 루프 지속 조건을 검사한다. 따라서 본문이 항상 최소 한 번은 실행된다.
 
