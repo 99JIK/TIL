@@ -100,7 +100,7 @@ System.out.printf 메서드는 형식을 지정하여 출력을 수행한다.
 * 변수에 새로운 값을 할당하면 이전 값은 대체된다(Destructive write).
 * 변수에서 값을 읽어오면 값은 그대로 유지된다(Non-destructive read).
 
-![PDF p.21: Memory locations after storing values for number1 and number2]
+![PDF p.21: Memory locations after storing values for number1 and number2](img/Pasted%20image%2020260108154023.png)
 
 ## 8. Arithmetic
 
@@ -119,7 +119,7 @@ Java의 산술 연산자(Arithmetic operators)는 다음과 같다.
 3.  덧셈, 뺄셈 `+ -` (왼쪽에서 오른쪽으로 결합)
 4.  대입 `=` (오른쪽에서 왼쪽으로 결합)
 
-![PDF p.25: Order in which a second-degree polynomial is evaluated]
+![PDF p.25: Order in which a second-degree polynomial is evaluated](img/Pasted%20image%2020260108154041.png)
 
 ## 9. Decision Making: Equality and Relational Operators
 
