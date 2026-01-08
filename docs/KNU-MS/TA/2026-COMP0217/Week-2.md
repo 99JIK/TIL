@@ -99,3 +99,4 @@ public class Dialog1 {
 	}
 }
 ```
+![Dialog box](img/Pasted%20image%2020260108155510.png)
