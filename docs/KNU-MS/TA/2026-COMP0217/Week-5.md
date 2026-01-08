@@ -73,6 +73,10 @@ class SimpleTime {
 			"this.toUniversalString()", this.toUniversalString(),
 			"toUniversalString()", toUniversalString());
 	}
+	public String toUniversalString() {
+		return String.format("%02d:%02d:%02d",
+			this.hour, this.minute, this.second);
+	}
 }
 ```
 
