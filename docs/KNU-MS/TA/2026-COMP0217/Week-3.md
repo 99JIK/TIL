@@ -36,7 +36,9 @@ public class GradeBook {
 	public Sring getCourseName() { return courseName; }
 	public void displayMessage() { System.out.printf("Welcome to the grade book for \n%s!\n", getCourseName()); }
 	public void determineClassAverage() {
-		Scanner
+		Scanner input = new Scanner(System.in);
+		
+		int total, gradeCounter, grade, average,
 	}
 }
 // GradeBookTest.java
