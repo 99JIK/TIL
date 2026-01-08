@@ -61,9 +61,9 @@ Java 프로그램 개발은 일반적으로 5단계를 거친다.
 1.  Edit: 편집기를 사용하여 소스 코드를 작성하고 .java 파일로 저장한다.
     ![PDF p.34: Typical Java development environment-editing phase](img/Pasted%20image%2020260108153849.png)
 2.  Compile: javac 명령어를 사용하여 소스 코드를 Bytecodes로 변환한다. 결과물은 .class 파일이다.
-    ![PDF p.36: Typical Java development environment-compilation phase]
+    ![PDF p.36: Typical Java development environment-compilation phase](img/Pasted%20image%2020260108153905.png)
 3.  Load: Class Loader가 디스크에서 .class 파일을 읽어 메모리로 전송한다.
-    ![PDF p.38: Typical Java development environment-loading phase]
+    ![PDF p.38: Typical Java development environment-loading phase](img/Pasted%20image%2020260108153923.png)
 4.  Verify: Bytecode Verifier가 바이트코드가 유효한지, 보안 제한을 위반하지 않는지 검사한다.
 5.  Execute: JVM(Java Virtual Machine)이 바이트코드를 실행한다. JIT(Just-In-Time) 컴파일러는 바이트코드를 기계어로 변환하여 실행 속도를 높인다.
 
