@@ -26,12 +26,23 @@ Conditional operator (?:)는 if...else 문을 대체할 수 있는 삼항 연산
 switch 문은 byte, short, int, char 타입의 상수 정수 표현식 값에 따라 다른 작업을 수행한다. 각 case는 상수로 라벨링되며 일치하는 case가 실행된다.
 
 ```java
-import java.util.Scanner;
-
+// GradeBook.java
 public class GradeBook {
 	private String courseName;
 	public GradeBook(String name) { courseName = name; }
-	public void 
+	public void setCourseName(String name) { courseName = name; }
+	public Sring getCourseName() { return courseName; }
+	public void displayMessage() { System.out.printf("Welcome to the grade book for \n%s!\n", getCourseName()); }
+}
+// GradeBookTest.java
+public class GradeBookTest {
+	public static void main(String[] args) {
+		GradeBook gradeBook1 = new GradeBook("CS101 Introduction to Java Programming");
+		GradeBook gradeBook2 = new GradeBook("CS102 Data Structures in Java");
+		
+		System.out.printf("gradeBook1 course name is: %s\n", gradeBook1.getCourseName());
+		System.out.printf("gradeBook2 course name is: %s\n", gradeBook2.getCourseName());
+	}
 }
 ```
 
