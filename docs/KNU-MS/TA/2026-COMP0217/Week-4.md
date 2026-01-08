@@ -144,11 +144,12 @@ public class ShapesTest {
 		application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		application.add(panel);
 		application.setSize(300, 300);
-		application.setVisible()
+		application.setVisible(true);
 	}
 }
 ```
-
+![Obtaining user input and creating a JFrame to display Shapes](img/Pasted%20image%2020260108164429.png)
+![](img/Pasted%20image%2020260108164505.png)
 색상은 java.awt 패키지의 Color 클래스를 사용한다. RGB 값(0~255)을 사용하여 색상을 정의하며, 미리 정의된 static Color 객체(Color.RED, Color.BLUE 등)도 사용할 수 있다.
 - setColor(Color c): 현재 그리기 색상을 설정한다.
 - fillRect(x, y, width, height): 채워진 사각형을 그린다.
