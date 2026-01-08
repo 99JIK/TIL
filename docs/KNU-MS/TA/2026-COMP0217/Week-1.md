@@ -132,4 +132,14 @@ if 문은 조건(Condition)이 참(true)일 때 명령문을 실행한다.
 * `==` (비교 연산자)와 `=` (대입 연산자)를 혼동하면 논리 오류가 발생한다.
 * if 문의 조건 뒤에 바로 세미콜론(`;`)을 찍으면 빈 문장(Empty statement)으로 처리되어 논리 오류가 발생한다.
 
-![PDF p.29: Compare integers using if statements output]
+```java
+import java.util.Scanner;
+
+public class Comparison {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int number1, number2;
+		System.out.print
+	}
+}
+```
