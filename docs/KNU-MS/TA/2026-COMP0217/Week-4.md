@@ -3,7 +3,7 @@
 
 메서드를 사용하면 코드를 한 번만 작성하여 프로그램의 여러 위치에서 재사용할 수 있으며, 구현 세부 사항을 다른 메서드로부터 숨길 수 있다. 이는 소프트웨어 엔지니어링의 관점에서 매우 중요하다. 호출자(caller)와 피호출자(called method) 사이에는 계층적인 관계가 형성된다. 호출자(boss)는 피호출자(worker)에게 작업을 요청하고, 피호출자는 작업을 수행한 후 결과를 반환한다.
 
-![PDF p.7: Hierarchical boss-method/worker-method relationship]
+![PDF p.7: Hierarchical boss-method/worker-method relationship](img/Pasted%20image%2020260108163052.png)
 
 ## 2. static Methods, static Fields 및 Class Math
 어떤 메서드들은 특정 객체의 내용에 의존하지 않고 작업을 수행한다. 이러한 메서드는 클래스 전체에 적용되며 static method 또는 class method라고 부른다. 메서드를 static으로 선언하려면 메서드 선언의 반환 타입 앞에 static 키워드를 붙인다. static 메서드는 ClassName.methodName(arguments) 형식으로 호출한다.
@@ -43,7 +43,9 @@ non-static 메서드는 같은 클래스의 모든 메서드와 필드에 직접
 스택(Stack) 데이터 구조는 접시 더미와 유사한 후입선출(LIFO) 구조이다. 프로그램이 메서드를 호출할 때, 피호출 메서드는 호출자에게 돌아갈 주소를 알아야 한다. 이 주소는 program-execution stack(또는 method-call stack)에 push된다.
 
 스택은 메서드 호출 시 사용되는 로컬 변수를 저장하기 위한 메모리 공간도 포함한다. 이를 activation record 또는 stack frame이라고 한다. 메서드 호출이 너무 많이 발생하여 스택에 activation record를 저장할 공간이 부족해지면 stack overflow 에러가 발생한다.
+```java
 
+```
 ![PDF p.26: Stack memory visualization during method call]
 
 ## 6. Argument Promotion and Casting
