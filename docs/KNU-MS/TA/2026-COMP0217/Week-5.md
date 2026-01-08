@@ -112,7 +112,7 @@ public class Date {
 	private int checkDay(int testDay) {
 		int[] daysPerMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 		if(testDay > 0 && testDay <= daysPerMonth[month]) return testDay;
-		if()
+		if(month == 2 && testDay == 29 && (year % 400 == 0 || year % 4 == 0 && year % 100 != 0)) return 
 	}
 }
 //Employee.java
