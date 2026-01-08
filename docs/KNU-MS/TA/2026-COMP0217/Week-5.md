@@ -171,7 +171,15 @@ public enum Book {
 	}
 	public String getTitle() { return title; }
 	public String getCopyrightYear() { return copyrightYear; }
-	
+}
+// EnumTest.java
+import java.util.EnumSet;
+
+public class EnumTest {
+	public static void main(String[] args) {
+		System.out.println("All books:\n");
+		for(Book book)
+	}
 }
 ```
 ### Garbage Collection and Method finalize
