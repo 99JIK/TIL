@@ -58,13 +58,18 @@ void main() {
 }
 ```
 ![PDF p.26: Stack memory visualization during method call (1)](img/Pasted%20image%2020260108163425.png)
-![PDF p.26: Stack memory visualization during method call (2)]
-![PDF p.26: Stack memory visualization during method call (3)]
+![PDF p.26: Stack memory visualization during method call (2)](img/Pasted%20image%2020260108163504.png)
+![PDF p.26: Stack memory visualization during method call (3)](img/Pasted%20image%2020260108163516.png)
 
 ## 6. Argument Promotion and Casting
 Argument promotion은 argument의 값을 메서드가 예상하는 파라미터 타입으로 변환하는 것을 말한다. Java의 promotion rule에 따라 변환이 수행되며, 만족되지 않으면 컴파일 에러가 발생한다. 일반적으로 더 작은 범위의 타입은 데이터 손실 없이 더 큰 범위의 타입으로 승격될 수 있다.
 
-![PDF p.30: Promotions allowed for primitive types]
+
+| Type     | Valid promotions |
+| -------- | ---------------- |
+| `double` | None             |
+| ``       |                  |
+
 
 ## 7. Java API Packages
 Java는 관련된 클래스들을 묶어 package로 관리한다. 주요 패키지는 다음과 같다.
