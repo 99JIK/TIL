@@ -139,7 +139,12 @@ public class ShapesTest {
 			"Enter 1 to draw rectangles\n" +
 			"Enter 2 to draw ovals");
 		int choice = Integer.parseInt(input);
-		Sh
+		Shapes panel = new Shapes(choice);
+		JFrame application = new JFrame();
+		application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		application.add(panel);
+		application.setSize(300, 300);
+		application.setVisible()
 	}
 }
 ```
