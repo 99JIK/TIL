@@ -44,7 +44,7 @@ non-static 메서드는 같은 클래스의 모든 메서드와 필드에 직접
 
 스택은 메서드 호출 시 사용되는 로컬 변수를 저장하기 위한 메모리 공간도 포함한다. 이를 activation record 또는 stack frame이라고 한다. 메서드 호출이 너무 많이 발생하여 스택에 activation record를 저장할 공간이 부족해지면 stack overflow 에러가 발생한다.
 ```c
-int add(int x, int y) {
+int add(int x, int y) { // (2)
 	int res;
 	res = x + y;
 	return res;
@@ -53,11 +53,13 @@ void main() {
 	int a, b, c;
 	a = 10;
 	b = 20; // (1)
-	c = add(a, b); //
-	printf("Result = %d\n", c);
+	c = add(a, b);
+	printf("Result = %d\n", c); // (3)
 }
 ```
-![PDF p.26: Stack memory visualization during method call]
+![PDF p.26: Stack memory visualization during method call (1)](img/Pasted%20image%2020260108163425.png)
+![PDF p.26: Stack memory visualization during method call (2)]
+![PDF p.26: Stack memory visualization during method call (3)]
 
 ## 6. Argument Promotion and Casting
 Argument promotion은 argument의 값을 메서드가 예상하는 파라미터 타입으로 변환하는 것을 말한다. Java의 promotion rule에 따라 변환이 수행되며, 만족되지 않으면 컴파일 에러가 발생한다. 일반적으로 더 작은 범위의 타입은 데이터 손실 없이 더 큰 범위의 타입으로 승격될 수 있다.
