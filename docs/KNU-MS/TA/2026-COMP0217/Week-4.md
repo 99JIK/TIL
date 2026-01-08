@@ -44,7 +44,18 @@ non-static 메서드는 같은 클래스의 모든 메서드와 필드에 직접
 
 스택은 메서드 호출 시 사용되는 로컬 변수를 저장하기 위한 메모리 공간도 포함한다. 이를 activation record 또는 stack frame이라고 한다. 메서드 호출이 너무 많이 발생하여 스택에 activation record를 저장할 공간이 부족해지면 stack overflow 에러가 발생한다.
 ```java
-
+int add(int x, int y) {
+	int res;
+	res = x + y;
+	return res;
+}
+void main() {
+	int a, b, c;
+	a = 10;
+	b = 20;
+	c = add(a, b);
+	printf("Result)
+}
 ```
 ![PDF p.26: Stack memory visualization during method call]
 
