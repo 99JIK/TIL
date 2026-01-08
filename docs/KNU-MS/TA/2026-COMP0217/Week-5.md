@@ -69,7 +69,9 @@ class SimpleTime {
 		this.second = second;
 	}
 	public String buildString() {
-		return String.format("%24s: %)
+		return String.format("%24s: %s\n%24s: %s",
+			"this.toUniversalString()", this.toUniversalString(),
+			"toUniversalString()", toUniversalString());
 	}
 }
 ```
