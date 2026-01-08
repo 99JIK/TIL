@@ -153,7 +153,12 @@ public class EmployeeTest {
 ### Enumerations
 enum 타입은 고유한 식별자로 표현되는 상수 집합을 정의한다. enum은 참조 타입이며, 생성자, 필드, 메서드를 포함할 수 있다. enum 상수는 암묵적으로 static이자 final이다. values 메서드는 모든 enum 상수를 배열로 반환한다.
 ```java
-
+// Book.java
+public enum Book {
+	JHTP("Java How To Program", "2010"),
+	CHTP("C How To Program", "2007"),
+	IW3HTP()
+}
 ```
 ### Garbage Collection and Method finalize
 JVM은 Garbage Collection을 수행하여 더 이상 참조되지 않는 객체가 점유한 메모리를 회수한다. finalize 메서드는 객체가 수거되기 전에 종료 작업을 수행하기 위해 호출되지만, 실행 시점이 불확실하므로 사용을 지양해야 한다.
