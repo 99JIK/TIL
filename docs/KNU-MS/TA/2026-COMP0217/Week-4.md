@@ -65,14 +65,16 @@ void main() {
 Argument promotion은 argument의 값을 메서드가 예상하는 파라미터 타입으로 변환하는 것을 말한다. Java의 promotion rule에 따라 변환이 수행되며, 만족되지 않으면 컴파일 에러가 발생한다. 일반적으로 더 작은 범위의 타입은 데이터 손실 없이 더 큰 범위의 타입으로 승격될 수 있다.
 
 
-| Type     | Valid promotions                 |
-| -------- | -------------------------------- |
-| `double` | None                             |
-| `float`  | `double`                         |
-| `long`   | `float`, `double`                |
-| `int`    | `long`, `float`, `double`        |
-| `char`   | `int`, `long`, `float`, `double` |
-|          |                                  |
+| Type      | Valid promotions                                            |
+| --------- | ----------------------------------------------------------- |
+| `double`  | None                                                        |
+| `float`   | `double`                                                    |
+| `long`    | `float`, `double`                                           |
+| `int`     | `long`, `float`, `double`                                   |
+| `char`    | `int`, `long`, `float`, `double`                            |
+| `short`   | `int`, `long`, `float`, `double` (but not `char`)           |
+| `byte`    | `short`, `int`, `long`, `float`, `double` (but not `char`)  |
+| `boolean` | None (`boolean` values are not considered to be numbers in) |
 
 
 ## 7. Java API Packages
