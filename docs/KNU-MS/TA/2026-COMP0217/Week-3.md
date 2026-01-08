@@ -19,9 +19,9 @@ Java는 세 가지 유형의 선택 문을 제공한다.
 ![PDF p.10: if single-selection statement UML activity diagram](img/Pasted%20image%2020260108155803.png)
 ![PDF p.11: if...else double-selection statement UML activity diagram](img/Pasted%20image%2020260108155822.png)
 
-Nested if...else 문을 사용할 때 Dangling-else 문제가 발생할 수 있다. Java 컴파일러는 항상 else를 중괄호로 묶이지 않은 가장 가까운 이전의 if와 연관시킨다. 이를 해결하기 위해 중괄호 {}를 사용하여 블록을 명확히 지정해야 한다.
+Nested if...else 문을 사용할 때 Dangling-else 문제가 발생할 수 있다. Java 컴파일러는 항상 else를 중괄호로 묶이지 않은 가장 가까운 이전의 if와 연관시킨다. 이를 해결하기 위해 중괄호 `{}`를 사용하여 블록을 명확히 지정해야 한다.
 
-Conditional operator (?:)는 if...else 문을 대체할 수 있는 삼항 연산자이다. 피연산자 세 개를 취하며 첫 번째는 boolean 표현식, 두 번째는 참일 때의 값, 세 번째는 거짓일 때의 값이다.
+Conditional operator (`?:`)는 if...else 문을 대체할 수 있는 삼항 연산자이다. 피연산자 세 개를 취하며 첫 번째는 boolean 표현식, 두 번째는 참일 때의 값, 세 번째는 거짓일 때의 값이다.
 
 switch 문은 byte, short, int, char 타입의 상수 정수 표현식 값에 따라 다른 작업을 수행한다. 각 case는 상수로 라벨링되며 일치하는 case가 실행된다.
 
@@ -94,10 +94,10 @@ Increment and Decrement operators는 변수의 값을 1 증가시키거나(++) 1
 * Postfix (e.g., a++): 변수의 현재 값을 식에서 먼저 사용한 후 변수를 증가/감소시킨다.
 
 Logical operators는 더 복잡한 조건을 형성하기 위해 사용된다.
-* && (Conditional AND): 두 조건이 모두 참일 때만 참이다.
-* || (Conditional OR): 두 조건 중 하나라도 참이면 참이다.
-* ! (Logical NOT): 조건의 값을 반전시킨다.
-* Short-circuit evaluation: &&나 || 연산자를 포함한 식에서, 결과가 이미 결정된 경우 나머지 부분은 평가하지 않는다. 예를 들어 && 연산에서 첫 번째 조건이 거짓이면 전체는 거짓이므로 두 번째 조건은 평가되지 않는다.
+* `&&` (Conditional AND): 두 조건이 모두 참일 때만 참이다.
+* `||` (Conditional OR): 두 조건 중 하나라도 참이면 참이다.
+* `!` (Logical NOT): 조건의 값을 반전시킨다.
+* Short-circuit evaluation: `&&`나 `||` 연산자를 포함한 식에서, 결과가 이미 결정된 경우 나머지 부분은 평가하지 않는다. 예를 들어 `&&` 연산에서 첫 번째 조건이 거짓이면 전체는 거짓이므로 두 번째 조건은 평가되지 않는다.
 
 ## 6. Structured Programming Summary
 
