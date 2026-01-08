@@ -91,7 +91,16 @@ Set 메서드(mutator)와 Get 메서드(accessor)는 private 인스턴스 변수
 
 ```java
 // Date.java
-public class Date
+public class Date {
+	private int month;
+	private int day;
+	private int year;
+	public Date(int theMonth, int theDay, int theYear) {
+		month = checkMonth(theMonth);
+		year = theYear;
+		day = checkDay(theDay);
+	}
+}
 //Employee.java
 public class Employee {
 	private String firstName;
