@@ -129,7 +129,14 @@ Java의 GUI 그래픽 기능을 사용하여 도형을 그릴 수 있다. JPanel
 - drawRect(x, y, width, height): 사각형을 그린다.
 - drawOval(x, y, width, height): bounding rectangle 내에 접하는 타원을 그린다.
 
-![PDF p.56: Drawing rectangles and ovals in a GUI]
+```java
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class ShapesTest {
+	public static void main(String[] args)
+}
+```
 
 색상은 java.awt 패키지의 Color 클래스를 사용한다. RGB 값(0~255)을 사용하여 색상을 정의하며, 미리 정의된 static Color 객체(Color.RED, Color.BLUE 등)도 사용할 수 있다.
 - setColor(Color c): 현재 그리기 색상을 설정한다.
