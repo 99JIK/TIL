@@ -106,6 +106,9 @@ Java의 제어 문들은 Single-entry/single-exit 구조를 가진다. 즉, 각 
 * Nesting: 하나의 제어 문 안에 다른 제어 문을 포함시키는 것이다.
 
 > ### Rule for forming structued programs
-> 1. begin with the simplest act
+> 1. begin with the simplest activity diagram.
+> 2. Any action state can be replaced by two action states in sequence(Stacking).
+> 3. Any action state can be replaced by any control statement(Nesting).
+> 4. 
 
 ![PDF p.42: Rules for forming structured programs](img/Pasted%20image%2020260108160959.png)
