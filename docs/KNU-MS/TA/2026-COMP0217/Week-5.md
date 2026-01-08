@@ -165,7 +165,13 @@ public enum Book {
 	private final String title;
 	private final String copyrightYear;
 	
-	Book*String bookTitle, String 
+	Book(String bookTitle, String year) {
+		title = bookTitle;
+		copyrightYear = year;
+	}
+	public String getTitle() { return title; }
+	public String getCopyrightYear() { return copyrightYear; }
+	
 }
 ```
 ### Garbage Collection and Method finalize
