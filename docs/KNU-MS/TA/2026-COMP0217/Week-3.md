@@ -42,8 +42,12 @@ public class GradeBook {
 		while(gradeCounter <= 10) {
 			System.out.print("Enter grade: ");
 			grade = input.nextInt();
-			total += grade
+			total += grade;
+			gradeCounter++;
 		}
+		
+		System.out.printf("\nTotal of all 10 grades is %d\n", total);
+		System.out.printf("Class average is %d\n", average);
 	}
 }
 // GradeBookTest.java
