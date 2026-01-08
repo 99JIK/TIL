@@ -110,7 +110,10 @@ public class Employee {
 }
 //EmployeeTest.java
 public class EmployeeTest {
-	public static void main(String[] ar)
+	public static void main(String[] args) {
+		Date birth = new Date(5, 20, 1999);
+		Date hire = new Date(9, 1, 2023);
+	}
 }
 ```
 
