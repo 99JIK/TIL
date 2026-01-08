@@ -58,6 +58,17 @@ public class ThisTest {
 		System.out.println(time.buildString());
 	}
 }
+
+class SimpleTime {
+	private int hour;
+	private int minute;
+	private int second;
+	public SimpleTime(int hour, int minute, int secound) {
+		this.hour = hour;
+		this.minute = minute;
+		this.second = 
+	}
+}
 ```
 
 ### Overloaded Constructors
