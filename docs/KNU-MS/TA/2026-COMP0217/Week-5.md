@@ -91,7 +91,14 @@ Set 메서드(mutator)와 Get 메서드(accessor)는 private 인스턴스 변수
 
 ```java
 public class Employee {
-	p
+	private String firstName;
+	private String lastName;
+	private Date birthDate;
+	private Date hireDate;
+	
+	public Employee(String first, String last, Date dateOfBirth, Date dateOfHire) {
+	
+	}
 }
 ```
 
