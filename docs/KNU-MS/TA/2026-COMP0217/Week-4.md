@@ -159,7 +159,13 @@ import javax.swing.JFrame;
 
 public class DrawSmileyTest {
 	publc static void main(String[] args) {
-		DrawSmiley 
+		DrawSmiley penel = new DrawSmiley();
+		JFrame application = new JFrame();
+	
+		application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		application.add(panel);
+		application.setsize(230, 250);
+		application.setVisible(true);
 	}
 }
 ```
