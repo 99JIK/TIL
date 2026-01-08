@@ -66,7 +66,10 @@ class SimpleTime {
 	public SimpleTime(int hour, int minute, int secound) {
 		this.hour = hour;
 		this.minute = minute;
-		this.second = 
+		this.second = second;
+	}
+	public String buildString() {
+		return String.format("%24s: %)
 	}
 }
 ```
