@@ -51,7 +51,14 @@ Access modifiers인 public과 private은 클래스의 변수와 메서드에 대
 ### this Reference
 모든 객체는 키워드 this를 통해 자기 자신에 대한 참조에 접근할 수 있다. non-static 메서드 내에서 인스턴스 변수나 다른 메서드를 참조할 때 암묵적으로 사용된다. 또한 메서드의 파라미터나 로컬 변수가 인스턴스 변수와 이름이 같을 때(shadowing), 인스턴스 변수를 명시적으로 가리키기 위해 사용한다.
 
-![PDF p.16: this used implicitly and explicitly to refer to members of an object]
+```java
+public class ThisTest {
+	public static void main(String[] args) {
+		SimpleTime time = new SimpleTime(15, 30, 19);
+		System.out.println(time.buildString());
+	}
+}
+```
 
 ### Overloaded Constructors
 Overloaded constructors는 서로 다른 시그니처를 가진 여러 생성자를 제공하여 객체를 다양한 방식으로 초기화할 수 있게 한다. 생성자 본문의 첫 줄에 this(...)를 사용하여 동일 클래스의 다른 생성자를 호출할 수 있으며, 이는 초기화 코드를 재사용하는 데 유용하다.
