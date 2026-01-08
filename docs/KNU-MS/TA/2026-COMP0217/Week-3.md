@@ -105,4 +105,7 @@ Java의 제어 문들은 Single-entry/single-exit 구조를 가진다. 즉, 각 
 * Stacking: 하나의 제어 문 종료 지점을 다음 제어 문의 시작 지점과 연결하여 순차적으로 배치하는 것이다.
 * Nesting: 하나의 제어 문 안에 다른 제어 문을 포함시키는 것이다.
 
+> ### Rule for forming structued programs
+> 1. begin with the simplest act
+
 ![PDF p.42: Rules for forming structured programs](img/Pasted%20image%2020260108160959.png)
