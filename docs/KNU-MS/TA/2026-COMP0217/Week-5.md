@@ -103,8 +103,13 @@ public class Date {
 		System.out.printf("Date object constructor for date %s\n", this);
 	}
 	private int checkMonth(int testMonth) {
-		if(testMonth > 0 && testMonth <= 12)
+		if(testMonth > 0 && testMonth <= 12) return testMonth;
+		else {
+			System.out.printf("Invalid month (%d) set to 1.", testMonth);
+			return 1;
+		}
 	}
+	private int checkDay(int testDay) 
 }
 //Employee.java
 public class Employee {
