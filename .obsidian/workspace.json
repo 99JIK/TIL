@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"docs/Project/img/\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,7 +171,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "513ff88c1cd89803",
+  "active": "0171dacf801eab4a",
   "lastOpenFiles": [
     "docs/Project/img/Pasted image 20260128133151.png",
     "docs/Project/img/Pasted image 20260128132248.png",
