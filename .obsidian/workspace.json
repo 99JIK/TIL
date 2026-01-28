@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"docs/Project/img/\" ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,8 +170,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0171dacf801eab4a",
+  "active": "513ff88c1cd89803",
   "lastOpenFiles": [
+    "docs/Project/img.zip",
     "docs/Project/img/Pasted image 20260128133151.png",
     "docs/Project/img/Pasted image 20260128132248.png",
     "docs/Project/img/Pasted image 20260128131945.png",
@@ -188,7 +188,6 @@
     "docs/Project/별첨 1. 시스템 운영 참고 자료.md",
     "docs/KNU-MS/TA/2026-COMP0217/Week-5.md",
     "docs/Project/TENASIA",
-    "docs/KNU-MS/TA/2026-COMP0217/img/Pasted image 20260108164845.png",
     "docs/KNU-MS/TA/2026-COMP0217/Week-4.md",
     "docs/KNU-MS/TA/2026-COMP0217/Week-3.md",
     "docs/KNU-MS/TA/2026-COMP0217/Week-2.md",
