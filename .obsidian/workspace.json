@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Project/TENASIA/화면 구분.md",
+                "file": "docs/Project/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "화면 구분"
+              "title": "Untitled"
             }
           }
         ]
@@ -172,8 +172,9 @@
   },
   "active": "513ff88c1cd89803",
   "lastOpenFiles": [
-    "docs/KNU-MS/TA/2026-COMP0217/Week-5.md",
     "docs/Project/TENASIA/화면 구분.md",
+    "docs/Project/Untitled.md",
+    "docs/KNU-MS/TA/2026-COMP0217/Week-5.md",
     "docs/Project/TENASIA",
     "docs/KNU-MS/TA/2026-COMP0217/img/Pasted image 20260108164845.png",
     "docs/KNU-MS/TA/2026-COMP0217/img/Pasted image 20260108164808.png",
@@ -214,7 +215,6 @@
     "docs/KNU-MS/TA/2025-ITEC0401-002/RP5.zip",
     "docs/KNU-MS/TA/2025-ITEC0401-002/img.zip",
     "docs/KNU-MS/2nd_semester/COMP0811.md",
-    "docs/KNU-MS/2nd_semester/COMP0738.md",
-    "Jeongin.md"
+    "docs/KNU-MS/2nd_semester/COMP0738.md"
   ]
 }
