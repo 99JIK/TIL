@@ -4,7 +4,7 @@ description: Tablespace의 용량을 확인할 때 사용한다.
 
 # Check Tablespace
 
-{% code fullWidth="false" %}
+
 ```sql
 SELECT   SUBSTR(SUB_QUERY.TABLESPACE_NAME,1,30) TABLESPACE,
          ROUND(SUM(SUB_QUERY.TOTAL1)/1024/1024,1) "TOTAL_MB",
@@ -22,4 +22,4 @@ FROM
 GROUP BY SUB_QUERY.TABLESPACE_NAME
 ORDER BY TABLESPACE;
 ```
-{% endcode %}
+

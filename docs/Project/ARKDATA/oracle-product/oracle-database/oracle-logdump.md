@@ -18,7 +18,7 @@ description: Oracle Logdump에 관한 문서이다.
 | pos 0                         | 시작점으로 이동                             |
 | n(next) \<value>              | 1 record 출력, value 있을 시 value만큼 출력한다 |
 | count                         | Trail File의 정보를 출력한다                 |
-| usertoken detail              | <p><br></p>                          |
-| ggstoken detail               | <p><br></p>                          |
-| headertoken detail            | <p><br></p>                          |
+| usertoken detail              |                                      |
+| ggstoken detail               |                                      |
+| headertoken detail            |                                      |
 | filter rectype \<type>        | type인 Record만 표시한다                   |

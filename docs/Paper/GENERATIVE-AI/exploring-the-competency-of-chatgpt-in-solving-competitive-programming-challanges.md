@@ -4,7 +4,7 @@ description: >-
 
 # Exploring the Competency of ChatGPT in Solving Competitive Programming Challanges
 
-{% embed url="https://www.warse.org/IJATCSE/static/pdf/file/ijatcse031312024.pdf" %}
+[논문 링크](https://www.warse.org/IJATCSE/static/pdf/file/ijatcse031312024.pdf)
 
 
 

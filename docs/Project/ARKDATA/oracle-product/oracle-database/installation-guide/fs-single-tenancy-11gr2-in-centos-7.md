@@ -6,7 +6,9 @@ description: 파일시스템에서 Oracle Single-Tenancy 11gR2를 설치하는 �
 
 ## Download
 
-<figure><img src="./img/image-20230111110328196 (1).png" alt=""><figcaption><p><a href="https://edelivery.oracle.com/">Oracle EDelivery</a></p></figcaption></figure>
+![Oracle EDelivery](./img/image-20230111110328196%20%281%29.png)
+
+[Oracle EDelivery](https://edelivery.oracle.com/)
 
 ![Search Oracle Database 11g](./img/image-20230111110407850 (2).png)
 
