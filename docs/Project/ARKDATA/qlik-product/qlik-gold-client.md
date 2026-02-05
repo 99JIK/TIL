@@ -1,0 +1,2 @@
+# Qlik Gold Client
+
