@@ -95,4 +95,4 @@ sudo systemctl status grafana-server
 sudo systemctl enable grafana-server.service
 ```
 
-![Grafana](./img/image%20(132).png)
+{/* 이미지 누락: ![Grafana](./img/image (132).png) */}
