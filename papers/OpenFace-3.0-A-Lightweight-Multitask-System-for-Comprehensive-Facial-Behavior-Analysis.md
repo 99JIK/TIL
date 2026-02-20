@@ -21,7 +21,6 @@ tags:
     "Affective Computing",
   ]
 authors: ["Jiewen Hu", "Leena Mathur", "Paul Pu Liang", "Louis-Philippe Morency"]
-  ["Jiewen Hu", "Leena Mathur", "Paul Pu Liang", "Louis-Philippe Morency"]
 ---
 
 ## 논문 정보

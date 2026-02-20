@@ -12,16 +12,6 @@ keywords:
   ]
 tags: ["Generative Adversarial Networks", "Generative Model"]
 authors: ["Ian J. Goodfellow", "Jean Pouget-Abadie", "Mehdi Mirza", "Bing Xu", "David Warde-Farley", "Sherjil Ozair", "Aaron Courville", "Yoshua Bengio"]
-  [
-    "Ian Goodfellow",
-    "Jean Pouget-Abadie",
-    "Mehdi Mirza",
-    "Bing Xu",
-    "David Warde-Farley",
-    "Sherjil Ozair",
-    "Aaron Courville",
-    "Yoshua Bengio",
-  ]
 ---
 
 ## 논문 정보
