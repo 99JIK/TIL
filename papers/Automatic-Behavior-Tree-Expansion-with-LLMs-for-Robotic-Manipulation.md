@@ -1,6 +1,6 @@
 ---
 title: Automatic Behavior Tree Expansion with LLMs for Robotic Manipulation
-authors: [Jonathan Styrud, et al.]
+authors: ["Jonathan Styrud", "et al."]
 tags: [Robotics, LLM, Behavior Trees, Robotic Manipulation, ICRA 2025]
 ---
 

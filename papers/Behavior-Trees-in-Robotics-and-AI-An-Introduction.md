@@ -1,6 +1,6 @@
 ---
 title: Behavior Trees in Robotics and AI - An Introduction
-authors: [Michele Colledanchise, Petter Ögren]
+authors: ["Michele Colledanchise", "Petter Ögren"]
 tags: [Behavior Trees, Robotics, AI]
 ---
 

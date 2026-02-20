@@ -1,6 +1,6 @@
 ---
 title: Learning Behavior Trees From Demonstration
-authors: [French et al.]
+authors: ["French", "et al."]
 tags: [Robotics, Behavior Trees, LfD, Learning from Demonstration]
 ---
 

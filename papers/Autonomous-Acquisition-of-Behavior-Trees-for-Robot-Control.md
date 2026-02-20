@@ -1,6 +1,6 @@
 ---
 title: Autonomous Acquisition of Behavior Trees for Robot Control
-authors: [Michele Colledanchise, Petter Ögren]
+authors: ["Michele Colledanchise", "Petter Ögren"]
 tags: [Robotics, Behavior Trees, Autonomous Acquisition, Control Policies]
 ---
 

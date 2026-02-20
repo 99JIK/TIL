@@ -1,6 +1,6 @@
 ---
 title: Survey of Template-Based Code Generation
-authors: [U Montreal Scholaris]
+authors: ["U Montreal Scholaris"]
 tags: [Model-Driven Engineering, MDE, Code Generation, TBCG, Xtend2]
 ---
 

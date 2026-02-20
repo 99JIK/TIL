@@ -1,6 +1,6 @@
 ---
 title: Self-Refine - Iterative Refinement with Self-Feedback
-authors: [Aman Madaan, Niket Tandon, et al.]
+authors: ["Aman Madaan", "Niket Tandon", "et al."]
 tags: [LLM, Iterative Refinement, Self-Feedback, Artificial Intelligence]
 ---
 

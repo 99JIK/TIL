@@ -1,6 +1,6 @@
 ---
 title: Comparison between Behavior Trees and Finite State Machines
-authors: [Matteo Iovino, Michele Colledanchise]
+authors: ["Matteo Iovino", "Michele Colledanchise"]
 tags: [Behavior Trees, FSM, Robotics, Mobile Manipulation]
 ---
 

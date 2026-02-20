@@ -1,6 +1,6 @@
 ---
 title: Robot Behavior-Tree-Based Task Generation with Large Language Models
-authors: [Yue Cao, et al.]
+authors: ["Yue Cao", "et al."]
 tags: [Robotics, Behavior Trees, LLM, Task Generation]
 ---
 

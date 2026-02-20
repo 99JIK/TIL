@@ -1,6 +1,6 @@
 ---
 title: LLM-BT - Performing Robotic Adaptive Tasks based on Large Language Models and Behavior Trees
-authors: [Yunhan Lin, et al.]
+authors: ["Yunhan Lin", "et al."]
 tags: [Robotics, LLM, Behavior Trees, Adaptive Tasks, ICRA 2024]
 ---
 
