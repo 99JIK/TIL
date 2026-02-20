@@ -1,6 +1,6 @@
 ---
 title: A Study on Training and Developing Large Language Models for Behavior Tree Generation
-authors: ["Fu Li", "et al."]
+authors: ["Fu Li", "Xueying Wang", "Bin Li", "Yunlong Wu", "Yanzhen Wang", "Xiaodong Yi"]
 tags: [LLM, Behavior Trees, Automation, Data Synthesis]
 ---
 
