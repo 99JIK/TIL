@@ -4,7 +4,7 @@ date: "2025-06-02"
 description: "순서도(Flowchart) 기반 코드 생성 능력을 평가하기 위한 15개 프로그래밍 언어, 3가지 순서도 유형을 포함하는 Flow2Code 벤치마크 제안"
 keywords: ["Flowchart", "Code Generation", "Large Language Models", "Benchmark", "Multimodal"]
 tags: ["Flowchart", "Code Generation", "Large Language Models", "Benchmark", "Multimodal"]
-authors: [Mengliang He, Jiayi Zeng, Yankai Jiang, Wei Zhang, Zeming Liu, Xiaoming Shi, Aimin Zhou]
+authors: ["Mengliang He", "Jiayi Zeng", "Yankai Jiang", "Wei Zhang", "Zeming Liu", "Xiaoming Shi", "Aimin Zhou"]
 ---
 
 ## 논문 정보
