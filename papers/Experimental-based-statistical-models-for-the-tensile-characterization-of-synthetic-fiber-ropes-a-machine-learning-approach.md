@@ -18,7 +18,7 @@ tags:
     "Artificial Neural Networks",
     "Statistical Models",
   ]
-authors: [Yahia Halabi, Hu Xu, Zhixiang Yu, Wael Alhaddad, Isabelle Dreier]
+authors: ["Yahia Halabi", "Hu Xu", "Zhixiang Yu", "Wael Alhaddad", "Isabelle Dreier"]
 ---
 
 ## 논문 정보
