@@ -16,7 +16,7 @@ tags:
     Deep Learning,
     Neural Information Processing Systems,
   ]
-authors:
+authors: ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan N. Gomez", "Lukasz Kaiser", "Illia Polosukhin"]
   [
     "Ashish Vaswani",
     "Noam Shazeer",

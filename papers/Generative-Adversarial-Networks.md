@@ -12,7 +12,7 @@ keywords:
   ]
 tags:
   [Generative Adversarial Networks, Generative Model, Artificial Intelligence]
-authors:
+authors: ["Ian J. Goodfellow", "Jean Pouget-Abadie", "Mehdi Mirza", "Bing Xu", "David Warde-Farley", "Sherjil Ozair", "Aaron Courville", "Yoshua Bengio"]
   [
     "Ian Goodfellow",
     "Jean Pouget-Abadie",
