@@ -14,8 +14,6 @@ tags:
   - Generative Models
   - Review
 authors: ["Peter Broklyn", "Sabir K"]
-  - Peter Broklyn
-  - Sabir K
 ---
 
 ## 논문 정보
