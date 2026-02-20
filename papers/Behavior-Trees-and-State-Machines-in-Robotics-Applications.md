@@ -1,6 +1,6 @@
 ---
 title: Behavior Trees and State Machines in Robotics Applications
-authors: ["Matteo Iovino", "et al."]
+authors: ["Matteo Iovino", "Julian Förster", "Pietro Falco", "Jen Jen Chung", "Roland Siegwart", "Christian Smith"]
 tags: [Robotics, Behavior Trees, State Machines, FSM, Policy Design]
 ---
 
