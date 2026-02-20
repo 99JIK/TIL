@@ -13,7 +13,7 @@ tags:
     Convolutional Neural Networks,
     Multi-Layer Perceptron,
   ]
-authors: [이우창, 손현식, 이충권]
+authors: ["이우창", "손현식", "이충권"]
 ---
 
 ## 논문 정보
