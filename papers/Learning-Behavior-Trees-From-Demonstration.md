@@ -1,6 +1,6 @@
 ---
 title: Learning Behavior Trees From Demonstration
-authors: ["French", "et al."]
+authors: ["Kevin French", "Shiyu Wu", "Tianyang Pan", "Zheming Zhou", "O. C. Jenkins"]
 tags: [Robotics, Behavior Trees, LfD, Learning from Demonstration]
 ---
 

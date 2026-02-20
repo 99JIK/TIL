@@ -1,6 +1,6 @@
 ---
 title: Towards a unified behavior trees framework for robot control
-authors: ["Michele Colledanchise", "Petter Ögren"]
+authors: ["Alejandro Marzinotto", "Michele Colledanchise", "Christian Smith", "Petter Ögren"]
 tags: [Robotics, Behavior Trees, Unified Framework, Control Systems]
 ---
 
