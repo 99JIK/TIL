@@ -13,7 +13,7 @@ tags:
   - Machine Learning
   - Generative Models
   - Review
-authors:
+authors: ["Peter Broklyn", "Sabir K"]
   - Peter Broklyn
   - Sabir K
 ---

@@ -14,7 +14,7 @@ tags:
   - Machine Learning
   - Review
   - FOR_KSC
-authors:
+authors: ["Tommy Liu", "Amanda S. Barnard"]
   - Tommy Liu
   - Amanda S. Barnard
 ---

@@ -15,7 +15,7 @@ tags:
   - Predictive Modeling
   - Science Cloud Deployment
   - FOR_KSC
-authors:
+authors: ["Bokai Liu", "Pengju Liu", "Weizhuo Lu", "Thomas Olofsson"]
   - Bokai Liu
   - Pengju Liu
   - Weizhuo Lu

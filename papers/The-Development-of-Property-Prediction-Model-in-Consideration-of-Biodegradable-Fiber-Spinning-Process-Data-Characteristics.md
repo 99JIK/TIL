@@ -14,7 +14,7 @@ tags:
   - Machine Learning
   - Textile Industry
   - FOR_KSC
-authors:
+authors: ["Sechan Park", "Deokyeop Kim", "Kangbok Seo", "Woojin Lee"]
   - Sechan Park
   - Deokyeop Kim
   - Kangbok Seo

@@ -17,7 +17,7 @@ tags:
   - Textile Industry
   - Polylactic Acid
   - FOR_KSC
-authors:
+authors: ["Sechan Park", "Deokyeop Kim", "Kangbok Seo", "Woojin Lee"]
   - Se-Chan Park
   - Deokyeop Kim
   - Kangbok Seo

@@ -13,7 +13,7 @@ tags:
   - Textile Industry
   - Lightfastness
   - FOR_KSC
-authors:
+authors: ["Daegyu Lee", "Kangbok Seo", "Deokyeop Kim", "Woojin Lee"]
   - Daegyu Lee
   - Kangbok Seo
   - Deokyeop Kim

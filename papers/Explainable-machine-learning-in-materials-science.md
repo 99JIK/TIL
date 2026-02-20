@@ -13,7 +13,7 @@ tags:
   - Explainable Artificial Intelligence
   - Machine Learning
   - FOR_KSC
-authors:
+authors: ["Xiaoting Zhong", "Brian Gallagher", "Shusen Liu", "Bhavya Kailkhura", "Anna Hiszpanski", "T. Yong-Jin Han"]
   - Xiaoting Zhong
   - Brian Gallagher
   - Shusen Liu

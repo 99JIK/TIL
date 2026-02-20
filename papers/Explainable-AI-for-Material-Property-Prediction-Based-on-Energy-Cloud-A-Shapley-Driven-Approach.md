@@ -17,7 +17,7 @@ tags:
   - Explainable Artificial Intelligence
   - SHAP
   - FOR_KSC
-authors:
+authors: ["Faiza Qayyum", "Murad Ali Khan", "Do-Hyeun Kim", "Hyunseok Ko", "Ga-Ae Ryu"]
   - Faiza Qayyum
   - Murad Ali Khan
   - Do-Hyeun Kim

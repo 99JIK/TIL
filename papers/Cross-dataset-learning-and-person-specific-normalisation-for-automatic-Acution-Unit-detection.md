@@ -16,7 +16,7 @@ tags:
   - Person-Specific Normalisation
   - Machine Learning
   - Computer Vision
-authors:
+authors: ["Tadas Baltrušaitis", "Marwa Mahmoud", "Peter Robinson"]
   - Tadas Baltrušaitis
   - Marwa Mahmoud
   - Peter Robinson
