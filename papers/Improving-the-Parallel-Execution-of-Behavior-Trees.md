@@ -1,6 +1,6 @@
 ---
 title: "Improving the Parallel Execution of Behavior Trees"
-authors: ["Petter Ögren"]
+authors: ["Michele Colledanchise", "Petter Ögren"]
 tags: [Behavior Tree, Artificial Intelligence, Software Testing]
 ---
 

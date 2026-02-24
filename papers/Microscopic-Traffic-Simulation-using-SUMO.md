@@ -1,6 +1,6 @@
 ---
 title: "Microscopic Traffic Simulation using SUMO"
-authors: []
+authors: ["Pablo Alvarez Lopez", "Michael Behrisch", "Laura Bieker-Walz", "Jakob Erdmann", "Yun-Pang Flötteröd", "Robert Hilbrich", "Leonhard Lücken", "Johannes Rummel", "Peter Wagner", "Evamarie Wießner"]
 tags: [Artificial Intelligence, Scalability, Real-Time]
 ---
 

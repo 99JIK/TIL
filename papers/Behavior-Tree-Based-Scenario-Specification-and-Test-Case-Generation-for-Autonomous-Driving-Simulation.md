@@ -1,6 +1,6 @@
 ---
 title: "Behavior-Tree Based Scenario Specification and Test Case Generation for Autonomous Driving Simulation"
-authors: []
+authors: ["Yunjun Yao", "Zijun Shi", "Lihua Fu", "Li Li"]
 tags: [Behavior Tree, Test Generation, Software Testing, Artificial Intelligence]
 ---
 

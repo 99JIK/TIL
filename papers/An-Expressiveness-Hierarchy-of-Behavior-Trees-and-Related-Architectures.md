@@ -1,6 +1,6 @@
 ---
 title: "An Expressiveness Hierarchy of Behavior Trees and Related Architectures"
-authors: []
+authors: ["Oliver Biggar", "Mohammad Zamani", "Ian Petersen"]
 tags: [Behavior Tree, Architecture, Artificial Intelligence, Survey]
 ---
 

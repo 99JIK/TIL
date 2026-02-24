@@ -1,7 +1,7 @@
 ---
 title: "Scenic: A Language for Scenario Specification and Data Generation"
-authors: []
-tags: [Machine Learning, Software Testing, Test Generation, Artificial Intelligence]
+authors: ["Daniel J. Fremont", "Edward Kim", "Tommaso Dreossi", "Shromona Ghosh", "Xiangyu Yue", "Alberto L. Sangiovanni-Vincentelli", "Sanjit A. Seshia"]
+tags: [Machine Learning, Software Testing, Test Generation, Artificial Intelligence, Automatic Generation]
 ---
 
 # Scenic: A Language for Scenario Specification and Data Generation

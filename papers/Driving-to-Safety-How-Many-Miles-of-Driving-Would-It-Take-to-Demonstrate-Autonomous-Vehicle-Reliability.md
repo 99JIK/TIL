@@ -1,7 +1,7 @@
 ---
 title: "Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?"
-authors: []
-tags: [Machine Learning, Software Testing]
+authors: ["Nidhi Kalra", "Susan M. Paddock"]
+tags: [Software Testing, Machine Learning]
 ---
 
 # Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?

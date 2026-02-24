@@ -1,6 +1,6 @@
 ---
 title: "Evaluating Large Language Models Trained on Code"
-authors: []
+authors: ["Mark Chen", "Jerry Tworek", "Heewoo Jun", "Qiming Yuan", "Jared Kaplan", "Greg Brockman", "Ilya Sutskever", "Wojciech Zaremba"]
 tags: [Large Language Models, Code Generation, Benchmark]
 ---
 

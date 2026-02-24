@@ -1,6 +1,6 @@
 ---
 title: "GPT-4 Technical Report"
-authors: []
+authors: ["Sam Altman", "Greg Brockman", "Ilya Sutskever"]
 tags: [Large Language Models, Multimodal, Benchmark]
 ---
 

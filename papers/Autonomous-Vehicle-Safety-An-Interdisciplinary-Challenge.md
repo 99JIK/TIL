@@ -1,6 +1,6 @@
 ---
 title: "Autonomous Vehicle Safety: An Interdisciplinary Challenge"
-authors: []
+authors: ["Philip Koopman", "Michael Wagner"]
 tags: [Software Testing, Artificial Intelligence]
 ---
 
