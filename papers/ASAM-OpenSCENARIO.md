@@ -1,7 +1,7 @@
 ---
 title: "ASAM OpenSCENARIO"
-authors: ["ASAM e.V."]
-tags: [Autonomous Driving, Scenario, Standard, ASAM, OpenSCENARIO, DSL]
+authors: []
+tags: [Software Testing, Test Generation, Artificial Intelligence]
 ---
 
 # ASAM OpenSCENARIO

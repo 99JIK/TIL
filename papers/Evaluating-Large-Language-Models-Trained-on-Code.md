@@ -1,7 +1,7 @@
 ---
 title: "Evaluating Large Language Models Trained on Code"
-authors: ["Mark Chen", "Jerry Tworek", "Heewoo Jun", "Qiming Yuan", "Henrique Ponde de Oliveira Pinto", "Jared Kaplan", "Harri Edwards", "Yuri Burda", "Nicholas Joseph", "Greg Brockman", "et al."]
-tags: [LLM, Code Generation, HumanEval, OpenAI Codex, GitHub Copilot, Benchmark]
+authors: []
+tags: [Large Language Models, Code Generation, Benchmark]
 ---
 
 # Evaluating Large Language Models Trained on Code

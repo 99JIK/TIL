@@ -1,7 +1,7 @@
 ---
 title: "Teaching Large Language Models to Self-Debug"
-authors: ["Xinyun Chen", "Maxwell Lin", "Nathanael Schärli", "Denny Zhou"]
-tags: [LLM, Self-Debug, Code Generation, Debugging, Program Repair, Google]
+authors: []
+tags: [Large Language Models, Code Generation, Debugging]
 ---
 
 # Teaching Large Language Models to Self-Debug

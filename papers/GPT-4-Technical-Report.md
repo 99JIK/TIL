@@ -1,7 +1,7 @@
 ---
 title: "GPT-4 Technical Report"
-authors: ["OpenAI", "Josh Achiam", "Steven Adler", "Sandhini Agarwal", "et al. (181 additional authors)"]
-tags: [LLM, GPT-4, OpenAI, Multimodal, RLHF, Benchmark]
+authors: []
+tags: [Large Language Models, Multimodal, Benchmark]
 ---
 
 # GPT-4 Technical Report

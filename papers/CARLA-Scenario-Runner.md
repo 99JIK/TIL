@@ -1,7 +1,7 @@
 ---
 title: "CARLA Scenario Runner"
-authors: ["CARLA Simulator Team"]
-tags: [CARLA, Scenario Runner, Autonomous Driving, Testing, OpenSCENARIO, Open Source]
+authors: []
+tags: [Software Testing, Test Generation, Artificial Intelligence]
 ---
 
 # CARLA Scenario Runner

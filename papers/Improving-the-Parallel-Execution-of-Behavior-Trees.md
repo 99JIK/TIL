@@ -1,7 +1,7 @@
 ---
 title: "Improving the Parallel Execution of Behavior Trees"
-authors: ["Chis Ogren", "Petter Ogren"]
-tags: [Behavior Trees, Parallel Execution, Robotics, IROS 2018]
+authors: ["Petter Ögren"]
+tags: [Behavior Tree, Artificial Intelligence, Software Testing]
 ---
 
 # Improving the Parallel Execution of Behavior Trees

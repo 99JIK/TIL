@@ -1,7 +1,7 @@
 ---
 title: "An Expressiveness Hierarchy of Behavior Trees and Related Architectures"
-authors: ["Oliver Biggar", "Mohammad Zamani", "Peta Corke"]
-tags: [Behavior Trees, Expressiveness, Formal Analysis, FSM, Decision Trees, IEEE RA-L]
+authors: []
+tags: [Behavior Tree, Architecture, Artificial Intelligence, Survey]
 ---
 
 # An Expressiveness Hierarchy of Behavior Trees and Related Architectures

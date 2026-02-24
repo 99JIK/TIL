@@ -1,7 +1,7 @@
 ---
 title: A survey of Behavior Trees in robotics and AI
 authors: ["Matteo Iovino", "Edvards Scukins", "Jonathan Styrud", "Petter Ögren", "Christian Smith"]
-tags: [Behavior Trees, Robotics, AI, FSM, Modular AI]
+tags: [Behavior Tree, Artificial Intelligence, Survey]
 ---
 
 # A survey of Behavior Trees in robotics and AI

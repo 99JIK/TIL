@@ -1,7 +1,7 @@
 ---
 title: "An Architecture for Autonomy"
-authors: ["R. Peter Bonasso", "R. James Firby", "Erann Gat", "David Kortenkamp", "David P. Miller", "Marc G. Slack"]
-tags: [Robotics, Architecture, Autonomy, 3T, Three-layer Architecture, IJRR]
+authors: []
+tags: [Architecture, Artificial Intelligence, Behavior Tree]
 ---
 
 # An Architecture for Autonomy

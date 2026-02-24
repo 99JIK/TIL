@@ -1,7 +1,7 @@
 ---
 title: "CARLA: An Open Urban Driving Simulator"
-authors: ["Alexey Dosovitskiy", "German Ros", "Felipe Codevilla", "Antonio Lopez", "Vladlen Koltun"]
-tags: [Autonomous Driving, Simulation, CARLA, Open Source, CoRL 2017]
+authors: []
+tags: [Deep Learning, Artificial Intelligence, Reinforcement Learning]
 ---
 
 # CARLA: An Open Urban Driving Simulator

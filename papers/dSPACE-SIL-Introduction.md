@@ -1,7 +1,7 @@
 ---
 title: "dSPACE SIL Introduction"
-authors: ["dSPACE GmbH"]
-tags: [SIL, Software-in-the-Loop, dSPACE, Testing, ADAS, Automotive]
+authors: []
+tags: [Software Testing, Artificial Intelligence]
 ---
 
 # dSPACE SIL Introduction

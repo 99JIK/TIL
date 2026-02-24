@@ -1,7 +1,7 @@
 ---
 title: "Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?"
-authors: ["Nidhi Kalra", "Susan M. Paddock"]
-tags: [Autonomous Vehicles, Safety, Reliability, Statistical Analysis, RAND]
+authors: []
+tags: [Machine Learning, Software Testing]
 ---
 
 # Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?
