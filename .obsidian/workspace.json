@@ -11,10 +11,14 @@
             "id": "02e0961d2aecb18e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/KNU-MS/3rd_semester/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -166,9 +170,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9352efed4d3ce7b",
+  "active": "02e0961d2aecb18e",
   "lastOpenFiles": [
-    "docs/KNU-MS/Untitled",
+    "docs/KNU-MS/3rd_semester/Untitled.md",
+    "docs/KNU-MS/3rd_semester",
     "docs/Project/ABB/index.md",
     "docs/Project/ABB",
     "docs/Paper/GENERATIVE-AI/chatgpt-3.5-and-4.0.md",
@@ -212,7 +217,6 @@
     "docs/Project/DCU/img/Pasted image 20260128113349.png",
     "docs/Project/DCU/img",
     "docs/Project/DCU",
-    "docs/Project/ARKDATA/oracle-product/oracle-database/installation-guide/img/image-20230111171901160.png",
-    "docs/Project/ARKDATA/oracle-product/oracle-database/installation-guide/img"
+    "docs/Project/ARKDATA/oracle-product/oracle-database/installation-guide/img/image-20230111171901160.png"
   ]
 }
