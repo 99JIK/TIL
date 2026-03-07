@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of Patent-Ideas"
             }
+          },
+          {
+            "id": "a1e263c6a401903e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,6 +182,11 @@
   },
   "active": "02e0961d2aecb18e",
   "lastOpenFiles": [
+    "docs/KNU-MS/3rd_semester/img/Pasted image 20260307101152.png",
+    "docs/KNU-MS/3rd_semester/img/Pasted image 20260307100747.png",
+    "docs/KNU-MS/3rd_semester/img/Pasted image 20260307100642.png",
+    "docs/KNU-MS/3rd_semester/img/Pasted image 20260307100606.png",
+    "docs/KNU-MS/3rd_semester/img",
     "docs/KNU-MS/3rd_semester/COSE0000-017.md",
     "docs/KNU-MS/3rd_semester",
     "docs/Project/ABB/index.md",
@@ -202,7 +217,6 @@
     "docs/Tools/docusaurus-authors-tags-build-error.md",
     "docs/Tools/cliproxyapi-tool-result-image-model-list.md",
     "docs/Tools/cliproxyapi-model-fallback-context-overflow.md",
-    "docs/Tools/auth-refresh-storm-prevention.md",
     "docs/Tools",
     "docs/Project/img.zip",
     "docs/Project/FOCUS",
@@ -213,10 +227,6 @@
     "docs/Project/DCU/img/Pasted image 20260128123802.png",
     "docs/Project/DCU/img/Pasted image 20260128125250.png",
     "docs/Project/DCU/img/Pasted image 20260128113822.png",
-    "docs/Project/DCU/img/Pasted image 20260128113541.png",
-    "docs/Project/DCU/img/Pasted image 20260128113349.png",
-    "docs/Project/DCU/img",
-    "docs/Project/DCU",
-    "docs/Project/ARKDATA/oracle-product/oracle-database/installation-guide/img/image-20230111171901160.png"
+    "docs/Project/DCU/img"
   ]
 }
