@@ -166,8 +166,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "02e0961d2aecb18e",
+  "active": "d9352efed4d3ce7b",
   "lastOpenFiles": [
+    "docs/KNU-MS/Untitled",
     "docs/Project/ABB/index.md",
     "docs/Project/ABB",
     "docs/Paper/GENERATIVE-AI/chatgpt-3.5-and-4.0.md",
@@ -197,7 +198,6 @@
     "docs/Tools/cliproxyapi-tool-result-image-model-list.md",
     "docs/Tools/cliproxyapi-model-fallback-context-overflow.md",
     "docs/Tools/auth-refresh-storm-prevention.md",
-    "docs/Tools/cliproxyapi-stream-error-oauth-no-retry.md",
     "docs/Tools",
     "docs/Project/img.zip",
     "docs/Project/FOCUS",
