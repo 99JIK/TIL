@@ -1,7 +1,7 @@
 ---
 title: "Teaching Large Language Models to Self-Debug"
 authors: ["Xinyun Chen", "Maxwell Lin", "Nathanael Schärli", "Denny Zhou"]
-tags: [Large Language Models, Code Generation, Debugging]
+tags: [JIK_REFERENCE, Large Language Models, Code Generation, Debugging]
 ---
 
 # Teaching Large Language Models to Self-Debug

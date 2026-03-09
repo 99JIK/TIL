@@ -1,7 +1,7 @@
 ---
 title: "CARLA Scenario Runner"
 authors: []
-tags: [Software Testing, Test Generation, Artificial Intelligence]
+tags: [JIK_REFERENCE, Software Testing, Test Generation, Artificial Intelligence]
 ---
 
 # CARLA Scenario Runner

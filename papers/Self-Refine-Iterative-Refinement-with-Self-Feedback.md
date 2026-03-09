@@ -1,7 +1,7 @@
 ---
 title: Self-Refine - Iterative Refinement with Self-Feedback
 authors: ["Aman Madaan", "Niket Tandon", "Prakhar Gupta", "Skyler Hallinan", "Luyu Gao", "Sarah Wiegreffe", "Uri Alon", "Nouha Dziri", "Shrimai Prabhumoye", "Yiming Yang", "Shashank Gupta", "Bodhisattwa Prasad Majumder", "Katherine Hermann", "Sean Welleck", "Amir Yazdanbakhsh", "Peter Clark"]
-tags: [LLM, Iterative Refinement, Self-Feedback, Artificial Intelligence]
+tags: [JIK_REFERENCE, LLM, Iterative Refinement, Self-Feedback, Artificial Intelligence]
 ---
 
 # Self-Refine: Iterative Refinement with Self-Feedback

@@ -1,7 +1,7 @@
 ---
 title: Automatic Behavior Tree Expansion with LLMs for Robotic Manipulation
 authors: ["Jonathan Styrud", "Matteo Iovino", "Mikael Norrlöf", "Mårten Björkman", "Christian Smith"]
-tags: [Robotics, LLM, Behavior Trees, Robotic Manipulation, ICRA 2025]
+tags: [JIK_REFERENCE, Robotics, LLM, Behavior Trees, Robotic Manipulation, ICRA 2025]
 ---
 
 # Automatic Behavior Tree Expansion with LLMs for Robotic Manipulation

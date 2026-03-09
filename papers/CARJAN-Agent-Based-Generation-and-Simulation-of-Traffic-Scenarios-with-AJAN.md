@@ -1,7 +1,7 @@
 ---
 title: "CARJAN: Agent-Based Generation and Simulation of Traffic Scenarios with AJAN"
 authors: ["Matthias Klusch"]
-tags: [Behavior Tree, Artificial Intelligence, Test Generation, Automatic Generation]
+tags: [JIK_REFERENCE, Behavior Tree, Artificial Intelligence, Test Generation, Automatic Generation]
 ---
 
 # CARJAN: Agent-Based Generation and Simulation of Traffic Scenarios with AJAN

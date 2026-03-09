@@ -1,7 +1,7 @@
 ---
 title: A survey of Behavior Trees in robotics and AI
 authors: ["Matteo Iovino", "Edvards Scukins", "Jonathan Styrud", "Petter Ögren", "Christian Smith"]
-tags: [Behavior Tree, Artificial Intelligence, Survey]
+tags: [JIK_REFERENCE, Behavior Tree, Artificial Intelligence, Survey]
 ---
 
 # A survey of Behavior Trees in robotics and AI
