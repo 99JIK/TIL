@@ -1,35 +1,35 @@
 ---
 title: "LLM-BT: Performing Robotic Adaptive Tasks Based on Large Language Models and Behavior Trees"
-tags: [JIK_REFERENCE, LLM, behavior-tree, robotics, adaptive-tasks, LLM-BT]
+tags: [JIK_REFERENCE, behavior-tree, LLM, robotics, adaptive-tasks, semantic-map, BERT]
 ---
 
 # LLM-BT: Performing Robotic Adaptive Tasks Based on Large Language Models and Behavior Trees
 
 ## 서지 정보
-- **저자**: Ziqi Zhou, Yewei Song, Hongyu Zhang, Tao Wang, Hui Qiao
-- **출판**: arXiv preprint, 2024
+- **저자**: Z. Zhou, Y. Song, H. Zhang, T. Wang, H. Qiao
+- **출판**: Proceedings of IEEE International Conference on Robotics and Automation (ICRA), 2024
 - **연도**: 2024
-- **arXiv**: [2404.05134](https://arxiv.org/abs/2404.05134)
+- **DOI/arXiv**: arXiv: 2404.05134 / doi: 10.1109/ICRA57147.2024.10610183
 
 ## 핵심 요약
-
-LLM-BT는 LLM의 자연어 이해 능력과 Behavior Tree의 구조적 실행 능력을 결합해, 로봇이 자연어 명령으로부터 적응적 작업을 수행할 수 있도록 하는 프레임워크다. LLM이 태스크를 분석해 BT 구조를 생성하고, 실행 중 환경 변화에 맞게 BT를 동적으로 수정한다. 특히 예상치 못한 상황에 대한 Fallback 처리를 BT의 계층 구조로 자연스럽게 표현하는 것이 특징이다.
+LLM과 행동 트리(BT)를 결합하여 환경 변화에 적응적으로 대응하는 로봇 태스크 수행 시스템 LLM-BT를 제안한다. ChatGPT가 태스크의 서술적 단계(descriptive steps)를 추론하고, 객체 인식 알고리즘으로 구축된 시맨틱 맵(semantic map)을 통해 ChatGPT가 환경을 이해할 수 있게 한다. BERT 기반 Parser 모듈이 ChatGPT의 단계 설명을 초기 BT로 변환하고, BT 업데이트 알고리즘이 환경 변화에 따라 BT를 동적으로 확장·수정한다. 외부 방해 요소에 강인하며, 다양한 실용적 시나리오에서 시뮬레이션 검증을 완료했다.
 
 ## 주요 기여
-1. **LLM-BT 통합 프레임워크**: 자연어 명령 → LLM 분석 → BT 생성 → 로봇 실행의 엔드투엔드 파이프라인 제안
-2. **적응적 실행**: 실행 중 환경 변화 감지 시 LLM을 재호출해 BT를 동적으로 수정하는 메커니즘
-3. **Fallback 자동 생성**: 예외 상황에 대한 복구 행동을 BT의 Fallback 노드로 자동 삽입
+1. ChatGPT + BERT + BT Update 알고리즘을 통합한 적응적 로봇 태스크 수행 파이프라인 LLM-BT 제안
+2. 시맨틱 맵을 통한 LLM의 환경 이해 능력 강화 및 맥락 기반 BT 생성
+3. 환경 변화(새로운 장애물, 객체 위치 변경 등)에 따라 BT를 동적으로 확장하는 BT Update 알고리즘
 
 ## 핵심 개념
-
-- **Behavior Tree 동적 수정**: 실행 중 Condition 노드 실패 시 LLM이 새로운 서브트리를 생성해 BT에 삽입
-- **자연어-BT 매핑**: 사용자의 고수준 명령을 BT의 Sequence/Fallback/Action 노드 계층으로 분해
-- **적응적 태스크 플래닝**: 정적 계획이 아닌 실행 중 동적 재계획
+- **Semantic Map**: 공간 내 객체의 위치, 유형, 속성을 의미론적으로 인코딩한 환경 표현. LLM이 물리 환경을 이해하는 인터페이스
+- **BERT-based Parser**: BERT(Bidirectional Encoder Representations from Transformers) 기반으로 LLM의 단계 설명을 BT 노드로 파싱하는 모듈
+- **BT Update Algorithm**: 실행 중 환경 변화를 감지하여 새로운 행동을 BT에 추가·수정하는 동적 BT 갱신 알고리즘
+- **Adaptive Task Execution**: 사전에 완전히 명세되지 않은 환경에서 실시간 상황 파악을 통해 태스크를 완수하는 능력
 
 ## 석사논문과의 연관성
-
-석사논문의 핵심 아키텍처인 "LLM이 도메인 제약을 인식해 BT를 생성하고, 실행 오류 시 자동 수정"과 직접적으로 연관된 선행 연구다. 특히 BT의 Fallback 노드를 활용한 예외 처리 자동화와 동적 BT 수정 메커니즘은 SITL 환경에서 Environment Agent의 비정상 행동 복구에 적용 가능하다.
+LLM-BT는 석사논문과 매우 유사한 파이프라인 구조를 가진 동시대 연구로, **관련 연구 비교 분석**의 핵심 대상이다. 공통점: LLM이 자연어를 이해하여 BT를 생성하고, 환경 변화에 적응적으로 BT를 업데이트한다. 차이점: LLM-BT는 범용 로봇 조작 태스크에 집중하는 반면, 석사논문은 **교통 시뮬레이션(CARLA/SUMO) 환경에서의 자율주행 에이전트 모델링** 특화 및 **SITL 파이프라인 통합**을 목표로 한다. 또한 석사논문의 Context-Aware BT 생성은 LLM-BT의 시맨틱 맵 기반 환경 이해를 교통 도메인의 시나리오 컨텍스트(시간, 날씨, 교통량 등)로 확장한 개념으로 볼 수 있다.
 
 ## 메모
-- BETR-XP-LLM(Styrud et al., 2024)과 함께 LLM 기반 BT 동적 수정의 대표 사례
-- 로보틱스 도메인이지만 자율주행 시뮬레이션의 Environment Agent 모델링에도 동일한 원리 적용 가능
+- ICRA 2024 게재 (IEEE 로봇공학 분야 최고 권위 학술대회)
+- Beijing Institute of Technology 연구 그룹
+- 시뮬레이션 검증으로 현재 실물 로봇 실험은 제한적
+- BT 동적 업데이트 알고리즘 설계는 SITL 환경에서의 실시간 BT 수정에 참고 가능
