@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d6bc49d12279a839",
+        "id": "3f91ab1926d6c2d0",
         "type": "tabs",
         "children": [
           {
-            "id": "513ff88c1cd89803",
+            "id": "2567de2ffd46707d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "Java Programming Week 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "Java Programming Week 1"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bd7c6f59287dd5c0",
@@ -168,8 +171,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "513ff88c1cd89803",
+  "active": "2567de2ffd46707d",
   "lastOpenFiles": [
+    "Java Programming Week 1.md",
     "docs/Project/img.zip",
     "docs/Project/img/Pasted image 20260128133151.png",
     "docs/Project/img/Pasted image 20260128132248.png",
