@@ -195,6 +195,11 @@
   },
   "active": "ddbb75dfa9a3fb73",
   "lastOpenFiles": [
+    "papers/Task-Planning-Behavior-Trees-Motion-Planning.md",
+    "papers/Investigation-into-Reactive-Planning-Complex-Domains.md",
+    "papers/Game-AI-Agent-Modeling-Petri-Nets-Behavior-Trees.md",
+    "papers/Combining-Neural-Networks-Behavior-Tree-Synthesis-Robot-Planning.md",
+    "docs/Tools/research-paper-repo-structure-jik-reference-tag.md",
     "docs/KNU-MS/3rd_semester/img/Pasted image 20260307101152.png",
     "docs/KNU-MS/3rd_semester/img/Pasted image 20260307100747.png",
     "docs/KNU-MS/3rd_semester/img/Pasted image 20260307100642.png",
@@ -226,10 +231,6 @@
     "papers/Behavior-Tree-Based-Scenario-Specification-and-Test-Case-Generation-for-Autonomous-Driving-Simulation.md",
     "docs/Tools/_category_.json",
     "docs/Tools/github-ci-failure-triage.md",
-    "docs/Tools/github-actions-concurrency-group.md",
-    "docs/Tools/docusaurus-authors-tags-build-error.md",
-    "docs/Tools/cliproxyapi-tool-result-image-model-list.md",
-    "docs/Tools/cliproxyapi-model-fallback-context-overflow.md",
     "docs/Tools",
     "docs/Project/img.zip",
     "docs/Project/FOCUS",
@@ -239,7 +240,6 @@
     "docs/Project/DCU/img/Pasted image 20260128132248.png",
     "docs/Project/DCU/img/Pasted image 20260128123802.png",
     "docs/Project/DCU/img/Pasted image 20260128125250.png",
-    "docs/Project/DCU/img/Pasted image 20260128113822.png",
     "docs/Project/DCU/img"
   ]
 }
