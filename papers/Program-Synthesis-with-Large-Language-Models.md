@@ -1,7 +1,7 @@
 ---
 title: Program Synthesis with Large Language Models
 authors: ["Jacob Austin", "Augustus Odena", "Maxwell Nye", "Maarten Bosma", "Henryk Michalewski", "David Dohan", "Ellen Jiang", "Carrie Cai", "Michael Terry", "Quoc Le", "Charles Sutton"]
-tags: [LLM, Program Synthesis, Python, MBPP, MathQA]
+tags: [JIK_REFERENCE, LLM, Program Synthesis, Python, MBPP, MathQA]
 ---
 
 # Program Synthesis with Large Language Models

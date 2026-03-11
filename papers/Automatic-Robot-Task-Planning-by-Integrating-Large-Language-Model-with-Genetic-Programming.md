@@ -1,7 +1,7 @@
 ---
 title: Automatic Robot Task Planning by Integrating Large Language Model with Genetic Programming
 authors: ["Azizjon Kobilov", "Jianglin Lan"]
-tags: [Robotics, LLM, Genetic Programming, Task Planning, Behavior Trees]
+tags: [JIK_REFERENCE, Robotics, LLM, Genetic Programming, Task Planning, Behavior Trees]
 ---
 
 # Automatic Robot Task Planning by Integrating Large Language Model with Genetic Programming

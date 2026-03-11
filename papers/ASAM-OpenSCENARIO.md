@@ -1,7 +1,7 @@
 ---
 title: "ASAM OpenSCENARIO"
 authors: []
-tags: [Software Testing, Test Generation, Artificial Intelligence, Automatic Generation]
+tags: [JIK_REFERENCE, Software Testing, Test Generation, Artificial Intelligence, Automatic Generation]
 ---
 
 # ASAM OpenSCENARIO

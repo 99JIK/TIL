@@ -1,7 +1,7 @@
 ---
 title: Behavior Trees in Robotics and AI - An Introduction
 authors: ["Michele Colledanchise", "Petter Ögren"]
-tags: [Behavior Trees, Robotics, AI]
+tags: [JIK_REFERENCE, Behavior Trees, Robotics, AI]
 ---
 
 # Behavior Trees in Robotics and AI: An Introduction

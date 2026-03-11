@@ -1,7 +1,7 @@
 ---
 title: "dSPACE SIL Introduction"
 authors: []
-tags: [Software Testing, Artificial Intelligence]
+tags: [JIK_REFERENCE, Software Testing, Artificial Intelligence]
 ---
 
 # dSPACE SIL Introduction

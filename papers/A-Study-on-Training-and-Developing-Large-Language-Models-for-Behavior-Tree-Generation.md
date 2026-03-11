@@ -1,7 +1,7 @@
 ---
 title: A Study on Training and Developing Large Language Models for Behavior Tree Generation
 authors: ["Fu Li", "Xueying Wang", "Bin Li", "Yunlong Wu", "Yanzhen Wang", "Xiaodong Yi"]
-tags: [Large Language Models, Behavior Tree, Artificial Intelligence]
+tags: [JIK_REFERENCE, Large Language Models, Behavior Tree, Artificial Intelligence]
 ---
 
 # A Study on Training and Developing Large Language Models for Behavior Tree Generation
