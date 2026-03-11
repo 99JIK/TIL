@@ -11,14 +11,12 @@
             "id": "513ff88c1cd89803",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "docs/Project/별첨 1. 시스템 운영 참고 자료.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.11.7"
               },
-              "icon": "lucide-file",
-              "title": "별첨 1. 시스템 운영 참고 자료"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
             }
           }
         ]
