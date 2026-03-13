@@ -47,7 +47,7 @@ function bootChannelTalk() {
 function initializeChannelTalk() {
   if (window.ChannelIO) {
     window.ChannelIO('boot', {
-      "pluginKey": "232733" 
+      "pluginKey": "eed09f27-07bc-49b7-8f04-4cf650271dbc" 
     });
   }
 }
