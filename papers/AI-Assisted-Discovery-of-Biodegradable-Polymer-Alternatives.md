@@ -13,9 +13,7 @@ tags:
   - Machine Learning
   - Generative Models
   - Review
-authors:
-  - Peter Broklyn
-  - Sabir K
+authors: ["Peter Broklyn", "Sabir K"]
 ---
 
 ## 논문 정보

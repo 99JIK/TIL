@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "3f91ab1926d6c2d0",
+        "id": "088a4f5626fff2ca",
         "type": "tabs",
         "children": [
           {
-            "id": "2567de2ffd46707d",
+            "id": "2485320fc099d952",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java Programming Week 1.md",
+                "file": "docs/Paper/MASTER'S-THESIS/img/BTGenBot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java Programming Week 1"
+              "title": "BTGenBot"
+            }
+          },
+          {
+            "id": "b0d931b9fd6c33bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -61,7 +76,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "검색"
             }
           },
           {
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bd7c6f59287dd5c0",
@@ -143,81 +157,81 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Project/DYETEC/Patent-Ideas.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Patent-Ideas"
+              "title": "conflict-files-obsidian-git 의 개요"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2567de2ffd46707d",
+  "active": "b0d931b9fd6c33bf",
   "lastOpenFiles": [
+    "docs/Paper/MASTER'S-THESIS/img/BTGenBot.md",
+    "conflict-files-obsidian-git.md",
+    "Week3Q.md",
+    "무제.base",
+    "Jeongin.md",
+    "docs/Paper/MASTER'S-THESIS/Behavior Tree.md",
+    "docs/Paper/img/Pasted image 20251114143534.png",
+    "img/Pasted.md",
+    "img/Week1Q 1.md",
+    "무제 1.md",
+    "img/Week1Q.md",
     "Java Programming Week 1.md",
+    "papers/paper4.pdf",
+    "papers/dSPACE-SIL-Introduction.md",
+    "papers/Train-here-drive-there-ROS-based-end-to-end-autonomous-driving-pipeline-validation-in-CARLA-using-NHTSA-typology.md",
+    "papers/Towards-a-unified-behavior-trees-framework-for-robot-control.md",
+    "papers/Microscopic-Traffic-Simulation-using-SUMO.md",
+    "papers/Learning-Behavior-Trees-From-Demonstration.md",
+    "papers/LLM-BT-Performing-Robotic-Adaptive-Tasks-based-on-Large-Language-Models-and-Behavior-Trees.md",
+    "papers/Investigation-into-Reactive-Planning-Complex-Domains.md",
+    "papers/Improving-the-Parallel-Execution-of-Behavior-Trees.md",
+    "papers/Game-AI-Agent-Modeling-Petri-Nets-Behavior-Trees.md",
+    "papers/GPT-4-Technical-Report.md",
+    "papers/A-survey-of-Behavior-Trees-in-robotics-and-AI.md",
+    "papers/A-Study-on-Training-and-Developing-Large-Language-Models-for-Behavior-Tree-Generation.md",
+    "docs/Tools/_category_.json",
+    "docs/Tools/research-paper-repo-structure-jik-reference-tag.md",
+    "docs/Tools/github-ci-failure-triage.md",
+    "docs/Tools/cliproxyapi-tool-result-image-model-list.md",
+    "docs/Tools/github-actions-concurrency-group.md",
+    "docs/Tools",
+    "docs/Project/FOCUS",
+    "docs/Project/AHgorithm",
+    "docs/Project/ABB",
+    "docs/KNU-MS/3rd_semester/img/Pasted image 20260307101152.png",
+    "docs/KNU-MS/3rd_semester/img/Pasted image 20260307100642.png",
+    "docs/KNU-MS/3rd_semester/img/Pasted image 20260307100747.png",
+    "docs/KNU-MS/3rd_semester/img/Pasted image 20260307100606.png",
+    "docs/KNU-MS/3rd_semester/img",
     "docs/Project/img.zip",
     "docs/Project/img/Pasted image 20260128133151.png",
     "docs/Project/img/Pasted image 20260128132248.png",
     "docs/Project/img/Pasted image 20260128131945.png",
     "docs/Project/img/Pasted image 20260128130040.png",
     "docs/Project/img/Pasted image 20260128125250.png",
-    "docs/Project/img/Pasted image 20260128123802.png",
-    "docs/Project/img/Pasted image 20260128121828.png",
-    "docs/Project/img/Pasted image 20260128113822.png",
-    "docs/Project/img/Pasted image 20260128113541.png",
-    "docs/Project/img/Pasted image 20260128113349.png",
-    "docs/Project/img",
-    "docs/Project/TENASIA/화면 구분.md",
-    "docs/Project/별첨 1. 시스템 운영 참고 자료.md",
-    "docs/KNU-MS/TA/2026-COMP0217/Week-5.md",
-    "docs/Project/TENASIA",
-    "docs/KNU-MS/TA/2026-COMP0217/Week-4.md",
-    "docs/KNU-MS/TA/2026-COMP0217/Week-3.md",
-    "docs/KNU-MS/TA/2026-COMP0217/Week-2.md",
-    "docs/KNU-MS/TA/2026-COMP0217/Week-1.md",
-    "docs/KNU-MS/TA/2026-COMP0217/img",
-    "docs/KNU-MS/TA/2026-COMP0217/중간고사.md",
-    "docs/KNU-MS/TA/2026-COMP0217/Chapter01.md",
-    "docs/KNU-MS/TA/2026-COMP0217/Chapter05.md",
-    "docs/KNU-MS/TA/2026-COMP0217/Chapter04.md",
-    "docs/KNU-MS/TA/2026-COMP0217/Chapter06.md",
-    "docs/KNU-MS/TA/2026-COMP0217/Chapter03.md",
-    "docs/KNU-MS/TA/2026-COMP0217/Chapter02.md",
-    "docs/Paper/MASTER'S-THESIS/Cross-Domain-Environment-Agent-Modeling-for-SITL-via-LLM-driven-Context-Aware-Behavior-Tree-Generation.md",
-    "docs/KNU-MS/TA/2026-COMP0217",
-    "docs/KNU-MS/3rd_semester",
-    "docs/Paper/MASTER'S-THESIS/Embedded SW Testing.md",
-    "papers/Robot-Behavior-Tree-Based-Task-Generation-with-Large-Language-Models.md",
-    "conflict-files-obsidian-git.md",
-    "docs/Seminar/25-12-29_ABB.md",
-    "docs/Project/KOJ/Guide.md",
-    "docs/KNU-MS/STLAB-Site-Deployment-Plan.md",
-    "docs/Paper/MASTER'S-THESIS/img",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/Raspberry-Pi-5-based-custom-small-language-model.md",
-    "docs/Paper/MASTER'S-THESIS",
-    "docs/Project/DYETEC/Patent-Ideas.md",
-    "docs/KNU-MS/2nd_semester/COMP0811_backup.md",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/RP5.zip",
-    "docs/KNU-MS/TA/2025-ITEC0401-002/img.zip",
-    "docs/KNU-MS/2nd_semester/COMP0811.md"
+    "docs/Project/img"
   ]
 }

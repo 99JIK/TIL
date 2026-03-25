@@ -541,3 +541,308 @@ Yue Cao:
   name: Yue Cao
 C.S. George Lee:
   name: C.S. George Lee
+
+# --- 신규 추가 저자 ---
+Aidan N. Gomez:
+  name: Aidan N. Gomez
+Alejandro Marzinotto:
+  name: Alejandro Marzinotto
+Aman Madaan:
+  name: Aman Madaan
+Amir Yazdanbakhsh:
+  name: Amir Yazdanbakhsh
+Augustus Odena:
+  name: Augustus Odena
+Azizjon Kobilov:
+  name: Azizjon Kobilov
+Bin Li:
+  name: Bin Li
+Bodhisattwa Prasad Majumder:
+  name: Bodhisattwa Prasad Majumder
+Carrie Cai:
+  name: Carrie Cai
+Charles Sutton:
+  name: Charles Sutton
+Christian Smith:
+  name: Christian Smith
+David Dohan:
+  name: David Dohan
+Edvards Scukins:
+  name: Edvards Scukins
+Ellen Jiang:
+  name: Ellen Jiang
+Fu Li:
+  name: Fu Li
+Haotian Zhou:
+  name: Haotian Zhou
+Henryk Michalewski:
+  name: Henryk Michalewski
+Huasong Min:
+  name: Huasong Min
+Ian J. Goodfellow:
+  name: Ian J. Goodfellow
+Jacob Austin:
+  name: Jacob Austin
+Jen Jen Chung:
+  name: Jen Jen Chung
+Jianglin Lan:
+  name: Jianglin Lan
+Jihong Zhu:
+  name: Jihong Zhu
+Jonathan Styrud:
+  name: Jonathan Styrud
+Julian Förster:
+  name: Julian Förster
+Katherine Hermann:
+  name: Katherine Hermann
+Kevin French:
+  name: Kevin French
+Longwu Yan:
+  name: Longwu Yan
+Luyu Gao:
+  name: Luyu Gao
+Maarten Bosma:
+  name: Maarten Bosma
+Matteo Iovino:
+  name: Matteo Iovino
+Maxwell Nye:
+  name: Maxwell Nye
+Michael Terry:
+  name: Michael Terry
+Michele Colledanchise:
+  name: Michele Colledanchise
+Mikael Norrlöf:
+  name: Mikael Norrlöf
+Mårten Björkman:
+  name: Mårten Björkman
+Niket Tandon:
+  name: Niket Tandon
+Nouha Dziri:
+  name: Nouha Dziri
+O. C. Jenkins:
+  name: Odest Chadwicke Jenkins
+Pavlo Molchanov:
+  name: Pavlo Molchanov
+Peter Clark:
+  name: Peter Clark
+Petter Ögren:
+  name: Petter Ögren
+Pietro Falco:
+  name: Pietro Falco
+Prakhar Gupta:
+  name: Prakhar Gupta
+Quoc Le:
+  name: Quoc V. Le
+Roland Siegwart:
+  name: Roland Siegwart
+Sarah Wiegreffe:
+  name: Sarah Wiegreffe
+Sean Welleck:
+  name: Sean Welleck
+Shashank Gupta:
+  name: Shashank Gupta
+Shiyu Wu:
+  name: Shiyu Wu
+Shrimai Prabhumoye:
+  name: Shrimai Prabhumoye
+Skyler Hallinan:
+  name: Skyler Hallinan
+Tianyang Pan:
+  name: Tianyang Pan
+U Montreal Scholaris:
+  name: U Montreal Scholaris
+Uri Alon:
+  name: Uri Alon
+Xiaodong Yi:
+  name: Xiaodong Yi
+Xin Dong:
+  name: Xin Dong
+Xueying Wang:
+  name: Xueying Wang
+Yanzhen Wang:
+  name: Yanzhen Wang
+Yiming Yang:
+  name: Yiming Yang
+Yingyan Lin:
+  name: Yingyan Lin
+Yonggan Fu:
+  name: Yonggan Fu
+Yunhan Lin:
+  name: Yunhan Lin
+Yunlong Wu:
+  name: Yunlong Wu
+Zheming Zhou:
+  name: Zheming Zhou
+
+# === AV / BT / LLM 논문 저자 추가 ===
+Nidhi Kalra:
+  name: Nidhi Kalra
+  title: RAND Corporation 연구원
+Susan M. Paddock:
+  name: Susan M. Paddock
+  title: RAND Corporation 연구원
+Philip Koopman:
+  name: Philip Koopman
+  title: Carnegie Mellon University 교수
+Michael Wagner:
+  name: Michael Wagner
+  title: Edge Case Research 연구원
+Alexey Dosovitskiy:
+  name: Alexey Dosovitskiy
+  title: Intel Labs 연구원
+German Ros:
+  name: German Ros
+  title: Intel Labs 연구원
+Felipe Codevilla:
+  name: Felipe Codevilla
+  title: Mila / McGill University 연구원
+Antonio Lopez:
+  name: Antonio Lopez
+  title: Universitat Autònoma de Barcelona 교수
+Vladlen Koltun:
+  name: Vladlen Koltun
+  title: Apple 연구원
+R. Peter Bonasso:
+  name: R. Peter Bonasso
+  title: TRACLabs 연구원
+R. James Firby:
+  name: R. James Firby
+  title: University of Chicago 연구원
+Erann Gat:
+  name: Erann Gat
+  title: NASA Jet Propulsion Laboratory 연구원
+David Kortenkamp:
+  name: David Kortenkamp
+  title: TRACLabs 연구원
+David P. Miller:
+  name: David P. Miller
+  title: University of Oklahoma 교수
+Marc G. Slack:
+  name: Marc G. Slack
+  title: TRACLabs 연구원
+Lasse Schwartz:
+  name: Lasse Schwartz
+  title: University of Bremen 연구원
+Christian Lötter:
+  name: Christian Lötter
+  title: University of Bremen 연구원
+Rolf Drechsler:
+  name: Rolf Drechsler
+  title: University of Bremen 교수
+Yunjun Yao:
+  name: Yunjun Yao
+  title: 연구원
+Zijun Shi:
+  name: Zijun Shi
+  title: 연구원
+Lihua Fu:
+  name: Lihua Fu
+  title: 연구원
+Li Li:
+  name: Li Li
+  title: 연구원
+Pablo Alvarez Lopez:
+  name: Pablo Alvarez Lopez
+  title: DLR 연구원
+Michael Behrisch:
+  name: Michael Behrisch
+  title: DLR 연구원
+Laura Bieker-Walz:
+  name: Laura Bieker-Walz
+  title: DLR 연구원
+Jakob Erdmann:
+  name: Jakob Erdmann
+  title: DLR 연구원
+Yun-Pang Flötteröd:
+  name: Yun-Pang Flötteröd
+  title: DLR 연구원
+Robert Hilbrich:
+  name: Robert Hilbrich
+  title: DLR 연구원
+Leonhard Lücken:
+  name: Leonhard Lücken
+  title: DLR 연구원
+Johannes Rummel:
+  name: Johannes Rummel
+  title: DLR 연구원
+Peter Wagner:
+  name: Peter Wagner
+  title: DLR 연구원
+Evamarie Wießner:
+  name: Evamarie Wießner
+  title: DLR 연구원
+Oliver Biggar:
+  name: Oliver Biggar
+  title: Australian National University 연구원
+Mohammad Zamani:
+  name: Mohammad Zamani
+  title: Australian National University 연구원
+Iona Petreska:
+  name: Iona Petreska
+  title: Australian National University 연구원
+Ian Petersen:
+  name: Ian Petersen
+  title: Australian National University 교수
+Daniel J. Fremont:
+  name: Daniel J. Fremont
+  title: UC Santa Cruz 교수
+Edward Kim:
+  name: Edward Kim
+  title: UC Berkeley 연구원
+Tommaso Dreossi:
+  name: Tommaso Dreossi
+  title: UC Berkeley 연구원
+Shromona Ghosh:
+  name: Shromona Ghosh
+  title: UC Berkeley 연구원
+Xiangyu Yue:
+  name: Xiangyu Yue
+  title: UC Berkeley 연구원
+Alberto L. Sangiovanni-Vincentelli:
+  name: Alberto L. Sangiovanni-Vincentelli
+  title: UC Berkeley 교수
+Sanjit A. Seshia:
+  name: Sanjit A. Seshia
+  title: UC Berkeley 교수
+Matthias Klusch:
+  name: Matthias Klusch
+  title: DFKI 연구원
+Mark Chen:
+  name: Mark Chen
+  title: OpenAI 연구원
+Jerry Tworek:
+  name: Jerry Tworek
+  title: OpenAI 연구원
+Heewoo Jun:
+  name: Heewoo Jun
+  title: OpenAI 연구원
+Qiming Yuan:
+  name: Qiming Yuan
+  title: OpenAI 연구원
+Jared Kaplan:
+  name: Jared Kaplan
+  title: OpenAI / Anthropic 연구원
+Greg Brockman:
+  name: Greg Brockman
+  title: OpenAI 공동창업자
+Ilya Sutskever:
+  name: Ilya Sutskever
+  title: OpenAI 공동창업자
+Wojciech Zaremba:
+  name: Wojciech Zaremba
+  title: OpenAI 연구원
+Sam Altman:
+  name: Sam Altman
+  title: OpenAI CEO
+Xinyun Chen:
+  name: Xinyun Chen
+  title: Google DeepMind 연구원
+Maxwell Lin:
+  name: Maxwell Lin
+  title: Google DeepMind 연구원
+Nathanael Schärli:
+  name: Nathanael Schärli
+  title: Google DeepMind 연구원
+Denny Zhou:
+  name: Denny Zhou
+  title: Google DeepMind 연구원

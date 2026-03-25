@@ -16,17 +16,7 @@ tags:
     "On-device Inference",
     "Language Model Survey",
   ]
-authors:
-  [
-    "Zhenyan Lu",
-    "Xiang Li",
-    "Dongqi Cai",
-    "Rongjie Yi",
-    "Fangming Liu",
-    "Xiwen Zhang",
-    "Nicholas D. Lane",
-    "Mengwei Xu",
-  ]
+authors: ["Zhenyan Lu", "Xiang Li", "Dongqi Cai", "Rongjie Yi", "Fangming Liu", "Xiwen Zhang", "Nicholas D. Lane", "Mengwei Xu"]
 ---
 
 ## 논문 정보

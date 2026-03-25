@@ -16,17 +16,7 @@ tags:
     Deep Learning,
     Neural Information Processing Systems,
   ]
-authors:
-  [
-    "Ashish Vaswani",
-    "Noam Shazeer",
-    "Niki Parmar",
-    "Jakob Uszkoreit",
-    "Llion Jones",
-    "Aidan Gomez",
-    "Lukasz Kaiser",
-    "Illia Polosukhin",
-  ]
+authors: ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan N. Gomez", "Lukasz Kaiser", "Illia Polosukhin"]
 ---
 
 ## 논문 정보

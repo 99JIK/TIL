@@ -10,7 +10,7 @@ tags:
     Knowledge Distillation,
     Model Compression,
   ]
-authors: [Victor Sanh, Lysandre Debut, Julien Chaumond, Thomas Wolf]
+authors: ["Victor Sanh", "Lysandre Debut", "Julien Chaumond", "Thomas Wolf"]
 ---
 
 ## 논문 정보

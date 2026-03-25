@@ -20,7 +20,7 @@ tags:
     "Model Deployment",
     "AI Economics",
   ]
-authors: ["Peter Belcak", "Greg Heinrich", "Saurav Muralidharan", "Shizhe Diao"]
+authors: ["Peter Belcak", "Greg Heinrich", "Shizhe Diao", "Yonggan Fu", "Xin Dong", "Saurav Muralidharan", "Yingyan Lin", "Pavlo Molchanov"]
 ---
 ## 논문 정보
 

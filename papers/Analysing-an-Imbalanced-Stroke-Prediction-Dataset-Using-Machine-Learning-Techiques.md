@@ -18,14 +18,7 @@ tags:
     "Stroke Prediction",
     "Data Imbalance",
   ]
-authors:
-  [
-    "Viswapriya Subramaniyam Elangovan",
-    "Rajeswari Devarajan",
-    "Osamah I. Khalaf",
-    "Mhd Saeed Sharif",
-    "Wael Elmedany",
-  ]
+authors: ["Viswapriya Subramaniyam Elangovan", "Rajeswari Devarajan", "Osamah I. Khalaf", "Mhd Saeed Sharif", "Wael Elmedany"]
 ---
 
 ## 논문 정보

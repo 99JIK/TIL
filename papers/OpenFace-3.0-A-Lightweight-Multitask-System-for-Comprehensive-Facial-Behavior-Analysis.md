@@ -20,8 +20,7 @@ tags:
     "Computer Vision",
     "Affective Computing",
   ]
-authors:
-  ["Jiewen Hu", "Leena Mathur", "Paul Pu Liang", "Louis-Philippe Morency"]
+authors: ["Jiewen Hu", "Leena Mathur", "Paul Pu Liang", "Louis-Philippe Morency"]
 ---
 
 ## 논문 정보
