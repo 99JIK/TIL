@@ -209,7 +209,8 @@ table {
   border-spacing: 0;
   border: 1px solid var(--ifm-hr-border-color);
   border-radius: var(--ifm-card-border-radius);
-  width: 100%;
+  width: fit-content;
+  max-width: 100%;
 }
 
 table th,
