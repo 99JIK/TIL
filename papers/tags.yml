@@ -401,8 +401,6 @@ Model Compression:
   description: 모델 압축 - 모델 크기를 줄여 배포와 추론 효율성을 높이는 기술
 Model Deployment:
   description: 모델 배포 - 학습된 모델을 실제 서비스 환경에 배치하는 과정
-Model Driven Engineering:
-  description: 모델 주도 공학 - 모델을 중심으로 소프트웨어를 개발하는 체계적 접근 방법
 Model Interpretability:
   description: 모델 해석성 - 모델의 작동 방식과 예측 근거를 이해할 수 있는 정도
 Monte Carlo Tree Search:
