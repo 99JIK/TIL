@@ -99,6 +99,8 @@ Bayesian Optimization:
   description: 베이지안 최적화 - 불확실성을 고려하여 탐색과 활용의 균형을 맞추는 최적화 기법
 Behavior Tree:
   description: 행동 트리 - 게임 AI나 로봇에서 의사결정 로직을 계층적으로 표현하는 모델
+Behavior Trees:
+  description: 행동 트리 - 복수형으로 행동 트리 시스템과 관련 연구 전반을 지칭
 Benchmark:
   description: 벤치마크 - 모델이나 시스템의 성능을 평가하기 위한 표준 테스트 데이터셋 또는 기준
 Biased Estimator:
@@ -138,6 +140,8 @@ Code Change History:
   description: 코드 변경 이력 - 소프트웨어의 수정 및 발전 과정을 기록한 버전 관리 히스토리
 Code Generation:
   description: 코드 생성 - 자연어 명령이나 사양으로부터 프로그램 코드를 자동으로 생성하는 기술
+Code Reuse Patterns:
+  description: 코드 재사용 패턴 - 기존 코드를 효율적으로 재활용하는 방법과 패턴
 Collaboration:
   description: 협업 - 공동 목표 달성을 위한 개인이나 그룹 간의 협력적 작업
 Colorfastness:
@@ -296,6 +300,8 @@ Game:
   description: 게임 - 규칙 기반의 상호작용적 엔터테인먼트 또는 학습 시스템
 Game Theory:
   description: 게임 이론 - 전략적 상호작용에서 의사결정을 수학적으로 분석하는 이론
+GitHub Mining:
+  description: GitHub 마이닝 - GitHub 저장소에서 소프트웨어 개발 패턴과 데이터를 분석하는 기법
 Gameplay:
   description: 게임플레이 - 게임의 실제 진행 방식과 플레이어의 상호작용 경험
 Gene Delivery:
@@ -376,8 +382,6 @@ Language Model Survey:
   description: 언어 모델 서베이 - 언어 모델 연구 동향과 발전 방향을 종합적으로 조사한 연구
 Language Models:
   description: 언어 모델 - 자연어의 확률 분포를 학습하여 텍스트를 이해하고 생성하는 모델
-Large Language Models:
-  description: 대규모 언어 모델 - 방대한 텍스트로 학습된 고성능 자연어 처리 모델
 Large-scale Machine Learning:
   description: 대규모 머신러닝 - 대용량 데이터와 모델을 효율적으로 처리하는 머신러닝 기술
 Learning Set Pre-processing:
@@ -403,6 +407,8 @@ Low-code:
 
 Machine Learning:
   description: 머신러닝 - 데이터로부터 패턴을 학습하여 예측과 의사결정을 수행하는 기술
+Model-Driven Engineering:
+  description: 모델 주도 공학 - 모델을 중심으로 소프트웨어를 개발하고 관리하는 방법론
 Manufacturing:
   description: 제조업 - 원자재를 가공하여 제품을 생산하는 산업
 Manufacturing Process Optimization:
