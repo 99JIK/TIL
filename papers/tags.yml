@@ -1,6 +1,51 @@
 4D Experience:
   description: 4D 경험 - 시각, 청각, 촉각, 움직임을 결합한 몰입형 멀티모달 체험
 
+Autonomous Driving:
+  description: 자율주행 - 인간의 개입 없이 차량이 스스로 판단하고 주행하는 기술
+
+Autonomous Vehicles:
+  description: 자율주행차 - 운전자의 조작 없이도 스스로 주행할 수 있는 차량
+
+CARLA Simulation:
+  description: CARLA 시뮬레이션 - 자율주행 연구를 위한 오픈소스 시뮬레이터
+
+Chain-of-Thought:
+  description: 연쇄 사고 - LLM이 단계별로 추론 과정을 보이며 문제를 해결하는 프롬프트 기법
+
+Domain-Specific Languages:
+  description: 도메인 특화 언어 - 특정 영역의 문제 해결에 특화된 프로그래밍 언어
+
+Empirical Study:
+  description: 실증 연구 - 관찰과 실험을 통해 경험적 데이터를 수집하고 분석하는 연구 방법
+
+Large Language Models:
+  description: 대규모 언어모델 - 대량의 텍스트 데이터로 훈련된 거대한 신경망 언어 모델
+
+Operational Design Domain:
+  description: 운행설계영역 - 자율주행 시스템이 설계된 운행 조건과 환경의 집합
+
+Prompt Engineering:
+  description: 프롬프트 엔지니어링 - LLM으로부터 원하는 결과를 얻기 위해 입력을 최적화하는 기법
+
+Red Teaming:
+  description: 레드 팀 - 시스템의 취약점을 찾기 위해 적대적 관점에서 테스트하는 보안 기법
+
+Robotics Applications:
+  description: 로보틱스 응용 - 로봇 공학 기술의 실제 적용 분야와 활용 사례
+
+ScenarioRunner:
+  description: 시나리오 러너 - CARLA 시뮬레이터에서 자율주행 테스트 시나리오를 실행하는 도구
+
+Software Language Engineering:
+  description: 소프트웨어 언어 엔지니어링 - 프로그래밍 언어와 모델링 언어의 설계와 구현 연구
+
+Test Scenario Generation:
+  description: 테스트 시나리오 생성 - 시스템 검증을 위한 테스트 케이스를 자동으로 생성하는 기술
+
+Tree of Thoughts:
+  description: 사고 트리 - LLM이 여러 추론 경로를 탐색하고 최적의 해답을 찾는 기법
+
 Action Unit Detection:
   description: 행동 단위 검출 - 얼굴 근육 움직임의 미세한 변화를 감지하고 분류하는 기술
 Active Learning:
