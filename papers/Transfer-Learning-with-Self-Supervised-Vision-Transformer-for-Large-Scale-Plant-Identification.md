@@ -1,10 +1,14 @@
 ---
-title: "Transfer Learning with Self-Supervised Vision Transformer for Large-Scale Plant Identification"
-date: "2022-09-05"
-description: "대규모 식물 식별 문제(PlantCLEF2022) 해결을 위해 지도 학습 기반 CNN 대신 자기 지도 학습 Vision Transformer(ViT)를 활용하여 SOTA 성능을 달성한 논문"
-keywords: [plant identification, image classification, transfer learning, computer vision, self-supervised, vision transformer]
+title: Transfer Learning with Self-Supervised Vision Transformer for Large-Scale Plant Identification
+date: '2022-09-05'
+description: 대규모 식물 식별 문제(PlantCLEF2022) 해결을 위해 지도 학습 기반 CNN 대신 자기 지도 학습 Vision Transformer(ViT)를 활용하여 SOTA 성능을 달성한 논문
 tags: [Transfer Learning, Vision Transformer, Self-Supervised Learning, Plant Identification, Few-Shot Learning]
-authors: ["Mingle Xu", "Sook Yoon", "Yongchae Jeong", "Jaesu Lee", "Dong Sun Park"]
+authors:
+- name: Mingle Xu
+- name: Sook Yoon
+- name: Yongchae Jeong
+- name: Jaesu Lee
+- name: Dong Sun Park
 ---
 
 ## 논문 정보

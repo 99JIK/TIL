@@ -1,11 +1,17 @@
 ---
 title: A survey of Behavior Trees in robotics and AI
-authors: ["Matteo Iovino", "Edvards Scukins", "Jonathan Styrud", "Petter Ögren", "Christian Smith"]
-tags: [JIK_REFERENCE, Behavior Tree, Artificial Intelligence, Survey]
+authors:
+- name: Matteo Iovino
+- name: Edvards Scukins
+- name: Jonathan Styrud
+- name: Petter Ögren
+- name: Christian Smith
+tags: [JIK Reference, Behavior Tree, Artificial Intelligence, Survey]
 ---
 
 # A survey of Behavior Trees in robotics and AI
 
+<!--truncate-->
 Behavior Trees (BTs) were originally invented to enable modular AI in computer games but have gained significant attention in the robotics community over the last decade. 
 
 As agent AI complexity increases, traditional **Finite State Machines (FSMs)** often scale poorly and become difficult to extend or reuse. BTs address these issues by:

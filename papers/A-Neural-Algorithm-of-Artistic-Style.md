@@ -1,23 +1,12 @@
 ---
-title: "A Neural Algorithm of Artistic Style"
-date: "2015-09-02"
-description: "딥러닝 신경망을 사용하여 이미지의 콘텐츠와 스타일을 분리하고 재조합하여 새로운 예술적 이미지를 생성하는 신경망 알고리즘을 제안"
-keywords:
-  [
-    "Neural Style Transfer",
-    "Deep Learning",
-    "Convolutional Neural Networks",
-    "Computer Vision",
-    "Artistic Style",
-  ]
-tags:
-  [
-    "Style Transfer",
-    "Convolutional Neural Networks",
-    "VGGNet",
-    "Generative Model",
-  ]
-authors: ["Leon Gatys", "Alexander S. Ecker", "Matthias Bethge"]
+title: A Neural Algorithm of Artistic Style
+date: '2015-09-02'
+description: 딥러닝 신경망을 사용하여 이미지의 콘텐츠와 스타일을 분리하고 재조합하여 새로운 예술적 이미지를 생성하는 신경망 알고리즘을 제안
+tags: [Style Transfer, Convolutional Neural Network, VGGNet, Generative Model]
+authors:
+- name: Leon Gatys
+- name: Alexander S. Ecker
+- name: Matthias Bethge
 ---
 
 ## 논문 정보

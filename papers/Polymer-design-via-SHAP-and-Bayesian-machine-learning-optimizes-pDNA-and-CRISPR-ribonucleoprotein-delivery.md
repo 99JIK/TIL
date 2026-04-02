@@ -1,20 +1,10 @@
 ---
-title: "Polymer design via SHAP and Bayesian machine learning optimizes pDNA and CRISPR ribonucleoprotein delivery"
-date: "2024-04-22"
-description: "SHAP 및 베이지안 머신러닝을 활용하여 pDNA와 CRISPR RNP 전달에 최적화된 고분자를 설계하고, 핵산 종류에 따라 상이한 설계 원리를 규명한 논문"
-keywords:
-  [
-    polymer design,
-    machine learning,
-    SHAP,
-    Bayesian optimization,
-    gene delivery,
-    pDNA,
-    CRISPR,
-    ribonucleoprotein,
-  ]
-tags: ["Gene Therapy", "Drug Delivery", "Materials Science", "Machine Learning"]
-authors: ["Rishad Dalal"]
+title: Polymer design via SHAP and Bayesian machine learning optimizes pDNA and CRISPR ribonucleoprotein delivery
+date: '2024-04-22'
+description: SHAP 및 베이지안 머신러닝을 활용하여 pDNA와 CRISPR RNP 전달에 최적화된 고분자를 설계하고, 핵산 종류에 따라 상이한 설계 원리를 규명한 논문
+tags: [Gene Therapy, Drug Delivery, Materials Science, Machine Learning]
+authors:
+- name: Rishad Dalal
 ---
 
 ## 논문 정보

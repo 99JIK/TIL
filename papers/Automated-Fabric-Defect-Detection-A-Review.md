@@ -1,10 +1,10 @@
 ---
-title: "Automated fabric defect detection—A review"
-date: "2011-02-27"
-description: "자동화된 직물 결함 검출 방법에 대한 포괄적인 리뷰로, 방법론을 7가지 접근법으로 분류하고 각각의 강점, 약점 및 성공률을 비교 분석함."
-keywords: [Fabric defect detection, Textile, Motif-based, Automation, Quality control, Manufacturing]
+title: Automated fabric defect detection—A review
+date: '2011-02-27'
+description: 자동화된 직물 결함 검출 방법에 대한 포괄적인 리뷰로, 방법론을 7가지 접근법으로 분류하고 각각의 강점, 약점 및 성공률을 비교 분석함.
 tags: [Review, Computer Vision, Image Processing, Quality Control]
-authors: ["Henry Ngan"]
+authors:
+- name: Henry Ngan
 ---
 ## 논문 정보
 
@@ -32,7 +32,7 @@ authors: ["Henry Ngan"]
 
 결함 검출 방법의 성능을 평가하기 위해 여러 지표가 사용된다. 가장 일반적으로 사용되는 지표는
 **검출 성공률(Detection Success Rate)** 이며, 다음과 같이 정의된다.
-Detection Success Rate=Total Number of SamplesNumber of Samples Correctly Detected​=TP+FN+TN+FPTP+TN​
+Detection Success Rate=Total Number of SamplesNumber of Samples Correctly Detected=TP+FN+TN+FPTP+TN
 여기서 TP(True Positive)는 결함을 결함으로, TN(True Negative)은 정상을 정상으로 올바르게 탐지한 경우를 의미한다.
 ### 모델 아키텍처 / 방법론
 ![Figure 5](img/Pasted%20image%2020250923150507.png)

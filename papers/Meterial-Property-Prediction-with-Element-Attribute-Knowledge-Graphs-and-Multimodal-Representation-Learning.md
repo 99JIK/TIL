@@ -1,24 +1,13 @@
 ---
-title: "Material Property Prediction with Element Attribute Knowledge Graphs and Multimodal Representation Learning"
-date: "2024-11-13"
-description: "원소 속성 지식 그래프와 결정 구조 특징을 통합하는 멀티모달 프레임워크 ESNet을 제안하여 결정질 재료의 물성 예측 정확도를 향상시킨 논문"
-keywords:
-  [
-    "Property Prediction",
-    "Knowledge Graph",
-    "Element Properties",
-    "Multimodal Representation",
-    "Machine Learning",
-  ]
-tags:
-  [
-    "Property Prediction",
-    "Knowledge Graph",
-    "Element Properties",
-    "Multimodal Representation",
-    "Machine Learning",
-  ]
-authors: ["Chao Huang", "Chunyan Chen", "Ling Shil", "Chen Chen"]
+title: Material Property Prediction with Element Attribute Knowledge Graphs and Multimodal Representation Learning
+date: '2024-11-13'
+description: 원소 속성 지식 그래프와 결정 구조 특징을 통합하는 멀티모달 프레임워크 ESNet을 제안하여 결정질 재료의 물성 예측 정확도를 향상시킨 논문
+tags: [Property Prediction, Knowledge Graph, Element Properties, Multimodal Representation, Machine Learning]
+authors:
+- name: Chao Huang
+- name: Chunyan Chen
+- name: Ling Shil
+- name: Chen Chen
 ---
 
 ## 논문 정보

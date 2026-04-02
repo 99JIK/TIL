@@ -1,10 +1,11 @@
 ---
-title: "Task Planning with Behavior Trees and Motion Planning"
-tags: [JIK_REFERENCE, behavior-tree, robotics, task-planning, motion-planning]
+title: Task Planning with Behavior Trees and Motion Planning
+tags: [JIK Reference, Behavior Tree, Robotics, Task Planning, Motion Planning]
 ---
 
 # Task Planning with Behavior Trees and Motion Planning
 
+<!--truncate-->
 ## 서지 정보
 - **저자**: O. Safronov, M. Colledanchise, P. Ögren
 - **출판**: arXiv preprint

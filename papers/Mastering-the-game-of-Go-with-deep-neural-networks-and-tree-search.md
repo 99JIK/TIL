@@ -1,10 +1,16 @@
 ---
-title: "Mastering the game of Go with deep neural networks and tree search"
-date: "2016-01-28"
-description: "심층 신경망과 트리 탐색을 결합하여 세계 최초로 프로 바둑 기사를 이긴 인공지능 프로그램 알파고(AlphaGo)를 소개한다."
-keywords: [Go, artificial intelligence, deep learning, reinforcement learning, Monte Carlo tree search, neural networks]
-tags: [AlphaGo, DeepMind, MCTS, Reinforcement Learning, Supervised Learning]
-authors: ["David Silver", "Aja Huang", "Chris J. Maddison", "Arthur Guez", "Laurent Sifre", "George van den Driessche", "Thore Graepel"]
+title: Mastering the game of Go with deep neural networks and tree search
+date: '2016-01-28'
+description: 심층 신경망과 트리 탐색을 결합하여 세계 최초로 프로 바둑 기사를 이긴 인공지능 프로그램 알파고(AlphaGo)를 소개한다.
+tags: [AlphaGo, DeepMind, Monte Carlo Tree Search, Reinforcement Learning, Supervised Learning]
+authors:
+- name: David Silver
+- name: Aja Huang
+- name: Chris J. Maddison
+- name: Arthur Guez
+- name: Laurent Sifre
+- name: George van den Driessche
+- name: Thore Graepel
 ---
 
 ## 논문 정보

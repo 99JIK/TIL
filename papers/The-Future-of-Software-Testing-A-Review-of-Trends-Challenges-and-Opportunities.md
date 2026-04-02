@@ -1,26 +1,10 @@
 ---
-title: "The Future of Software Testing: A Review of Trends, Challenges, and Opportunities"
-date: "2025-04-15"
-description: "AI, IoT, 클라우드 등 신기술 통합으로 급변하는 소프트웨어 테스팅의 미래 동향, 과제, 기회를 종합적으로 검토하고 미래 테스트 엔지니어에게 필요한 역량을 제시한다."
-keywords:
-  [
-    Software testing,
-    Artificial intelligence (AI),
-    Internet of things (IoT),
-    Cloud infrastructure,
-    Application programming interfaces (APIs),
-    Automation tool,
-  ]
-tags:
-  [
-    Software Testing,
-    Artificial Intelligence,
-    Internet of Things,
-    Automation,
-    Quality Assurance,
-    Future Trends,
-  ]
-authors: ["Elavarasi Kesavan"]
+title: 'The Future of Software Testing: A Review of Trends, Challenges, and Opportunities'
+date: '2025-04-15'
+description: AI, IoT, 클라우드 등 신기술 통합으로 급변하는 소프트웨어 테스팅의 미래 동향, 과제, 기회를 종합적으로 검토하고 미래 테스트 엔지니어에게 필요한 역량을 제시한다.
+tags: [Software Testing, Artificial Intelligence, Internet of Things, Automation, Quality Assurance, Future Trends]
+authors:
+- name: Elavarasi Kesavan
 ---
 
 ## 논문 정보

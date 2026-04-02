@@ -2,18 +2,10 @@
 title: AI-Assisted Discovery of Biodegradable Polymer Alternatives
 date: 2024-12-31
 description: 이 논문은 AI가 생분해성 고분자 대체재를 발견하는 데 어떻게 활용될 수 있는지, 그 기술, 방법론 및 잠재력을 탐구한다.
-keywords:
-  - Artificial Intelligence
-  - Biodegradable Polymers
-  - Machine Learning
-  - Generative Models
-tags:
-  - Artificial Intelligence
-  - Biodegradable Polymers
-  - Machine Learning
-  - Generative Models
-  - Review
-authors: ["Peter Broklyn", "Sabir K"]
+tags: [Artificial Intelligence, Biodegradable Polymers, Machine Learning, Generative Model, Review]
+authors:
+- name: Peter Broklyn
+- name: Sabir K
 ---
 
 ## 논문 정보

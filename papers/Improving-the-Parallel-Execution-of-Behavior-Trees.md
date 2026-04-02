@@ -1,11 +1,14 @@
 ---
-title: "Improving the Parallel Execution of Behavior Trees"
-authors: ["Michele Colledanchise", "Petter Ögren"]
+title: Improving the Parallel Execution of Behavior Trees
+authors:
+- name: Michele Colledanchise
+- name: Petter Ögren
 tags: [Behavior Tree, Artificial Intelligence, Software Testing]
 ---
 
 # Improving the Parallel Execution of Behavior Trees
 
+<!--truncate-->
 Behavior Tree의 병렬 노드(Parallel Node) 실행 방식의 한계를 분석하고, 이를 개선하는 새로운 실행 의미론(execution semantics)을 제안한다.
 
 <!-- truncate -->

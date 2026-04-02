@@ -1,10 +1,13 @@
 ---
-title: "GenProg: A Generic Method for Automatic Software Repair"
-date: "2025-11-22"
-description: "공식 명세 없이 기존 테스트 케이스와 유전 프로그래밍을 활용하여 레거시 소프트웨어의 버그를 자동으로 수정하는 GenProg 방법론 제안"
-keywords: [Automated Software Repair, Genetic Programming, Software Engineering, Testing, Debugging]
-tags: ["Automated Software Repair", "Genetic Programming", "Software Engineering", "Legacy Systems"]
-authors: ["Claire Le Goues", "Thanh Vu Nguyen", "Stephanie Forrest", "Westley Weimer"]
+title: 'GenProg: A Generic Method for Automatic Software Repair'
+date: '2025-11-22'
+description: 공식 명세 없이 기존 테스트 케이스와 유전 프로그래밍을 활용하여 레거시 소프트웨어의 버그를 자동으로 수정하는 GenProg 방법론 제안
+tags: [Automated Software Repair, Genetic Programming, Software Engineering, Legacy Systems]
+authors:
+- name: Claire Le Goues
+- name: Thanh Vu Nguyen
+- name: Stephanie Forrest
+- name: Westley Weimer
 ---
 
 ## 논문 정보

@@ -1,26 +1,13 @@
 ---
-title: "OPENFACE 3.0: A Lightweight Multitask System for Comprehensive Facial Behavior Analysis"
-date: "2025-06-03"
-description: "OpenFace 3.0은 안면 랜드마크, 표정 단위, 시선, 감정 인식을 하나의 경량화된 다중 작업(multi-task) 모델로 통합하여 성능, 속도, 메모리 효율성을 향상시킨 오픈소스 툴킷이다."
-keywords:
-  [
-    "OpenFace",
-    "Facial Behavior Analysis",
-    "Multitask Learning",
-    "Lightweight Model",
-    "Landmark Detection",
-    "Action Unit Detection",
-    "Gaze Estimation",
-    "Emotion Recognition",
-  ]
-tags:
-  [
-    "Facial Behavior Analysis",
-    "Multitask Learning",
-    "Computer Vision",
-    "Affective Computing",
-  ]
-authors: ["Jiewen Hu", "Leena Mathur", "Paul Pu Liang", "Louis-Philippe Morency"]
+title: 'OPENFACE 3.0: A Lightweight Multitask System for Comprehensive Facial Behavior Analysis'
+date: '2025-06-03'
+description: OpenFace 3.0은 안면 랜드마크, 표정 단위, 시선, 감정 인식을 하나의 경량화된 다중 작업(multi-task) 모델로 통합하여 성능, 속도, 메모리 효율성을 향상시킨 오픈소스 툴킷이다.
+tags: [Facial Behavior Analysis, Multitask Learning, Computer Vision, Affective Computing]
+authors:
+- name: Jiewen Hu
+- name: Leena Mathur
+- name: Paul Pu Liang
+- name: Louis-Philippe Morency
 ---
 
 ## 논문 정보

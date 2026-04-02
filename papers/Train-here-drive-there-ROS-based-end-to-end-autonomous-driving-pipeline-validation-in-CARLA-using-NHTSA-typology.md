@@ -1,11 +1,15 @@
 ---
-title: "Train here, drive there: ROS based end-to-end autonomous-driving pipeline validation in CARLA simulator using the NHTSA typology"
-authors: ["Lasse Schwartz", "Christian Lötter", "Rolf Drechsler"]
+title: 'Train here, drive there: ROS based end-to-end autonomous-driving pipeline validation in CARLA simulator using the NHTSA typology'
+authors:
+- name: Lasse Schwartz
+- name: Christian Lötter
+- name: Rolf Drechsler
 tags: [End-to-End, Software Testing, Artificial Intelligence]
 ---
 
 # Train here, drive there: ROS based end-to-end autonomous-driving pipeline validation in CARLA simulator using the NHTSA typology
 
+<!--truncate-->
 ROS 기반 자율주행 파이프라인을 CARLA 시뮬레이터에서 학습시키고, NHTSA(미국 도로교통안전국) 사고 유형 분류 체계를 기반으로 생성된 시나리오에서 검증하는 방법론을 제안한다.
 
 <!-- truncate -->

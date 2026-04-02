@@ -1,19 +1,12 @@
 ---
-title: "딥러닝 기반 폴리에스터 섬유의 염색색상 결과예측 모형 개발"
-date: "2022-04-18"
-description: "폴리에스터 섬유 염색 공정의 색상 결과를 예측하기 위해 MLP, CNN, LSTM 딥러닝 모델을 비교 분석하여 LSTM이 가장 우수한 성능을 보임을 입증한 연구"
-keywords: [Polyester Fiber, Deep Learning, Dyeing Color Prediction]
-tags:
-  [
-    Deep Learning,
-    Polyester,
-    Dyeing,
-    Color Prediction,
-    Long Short-Term Memory,
-    Convolutional Neural Networks,
-    Multi-Layer Perceptron,
-  ]
-authors: ["이우창", "손현식", "이충권"]
+title: 딥러닝 기반 폴리에스터 섬유의 염색색상 결과예측 모형 개발
+date: '2022-04-18'
+description: 폴리에스터 섬유 염색 공정의 색상 결과를 예측하기 위해 MLP, CNN, LSTM 딥러닝 모델을 비교 분석하여 LSTM이 가장 우수한 성능을 보임을 입증한 연구
+tags: [Deep Learning, Polyester, Dyeing, Color Prediction, Long Short-Term Memory, Convolutional Neural Network, Multi-Layer Perceptron]
+authors:
+- name: 이우창
+- name: 손현식
+- name: 이충권
 ---
 
 ## 논문 정보

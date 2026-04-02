@@ -1,17 +1,17 @@
 ---
-title: "Generative Adversarial Nets"
-date: "2014-06-10"
-description: "적대적 과정을 통해 생성 모델을 학습하는 새로운 프레임워크인 GAN(Generative Adversarial Nets)을 제안함"
-keywords:
-  [
-    Generative Adversarial Nets,
-    GAN,
-    Generative Models,
-    Deep Learning,
-    Unsupervised Learning,
-  ]
-tags: ["Generative Adversarial Networks", "Generative Model"]
-authors: ["Ian J. Goodfellow", "Jean Pouget-Abadie", "Mehdi Mirza", "Bing Xu", "David Warde-Farley", "Sherjil Ozair", "Aaron Courville", "Yoshua Bengio"]
+title: Generative Adversarial Nets
+date: '2014-06-10'
+description: 적대적 과정을 통해 생성 모델을 학습하는 새로운 프레임워크인 GAN(Generative Adversarial Nets)을 제안함
+tags: [Generative Adversarial Network, Generative Model]
+authors:
+- name: Ian J. Goodfellow
+- name: Jean Pouget-Abadie
+- name: Mehdi Mirza
+- name: Bing Xu
+- name: David Warde-Farley
+- name: Sherjil Ozair
+- name: Aaron Courville
+- name: Yoshua Bengio
 ---
 
 ## 논문 정보

@@ -1,11 +1,18 @@
 ---
 title: Comparison between Behavior Trees and Finite State Machines
-authors: ["Matteo Iovino", "Julian Förster", "Pietro Falco", "Jen Jen Chung", "Roland Siegwart", "Christian Smith"]
-tags: [Behavior Trees, FSM, Robotics, Mobile Manipulation]
+authors:
+- name: Matteo Iovino
+- name: Julian Förster
+- name: Pietro Falco
+- name: Jen Jen Chung
+- name: Roland Siegwart
+- name: Christian Smith
+tags: [Behavior Tree, State Machine, Robotics, Mobile Manipulation]
 ---
 
 # Comparison between Behavior Trees and Finite State Machines
 
+<!--truncate-->
 Behavior Trees (BTs) were first conceived in the computer games industry as a tool to model agent behavior, but they received interest also in the robotics community as an alternative policy design to Finite State Machines (FSMs). 
 
 The advantages of BTs over FSMs had been highlighted in many works, but there is no thorough practical comparison of the two designs. Such a comparison is particularly relevant in the robotic industry, where FSMs have been the state-of-the-art policy representation for robot control for many years. 

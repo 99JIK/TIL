@@ -1,11 +1,13 @@
 ---
 title: Survey of Template-Based Code Generation
-authors: ["U Montreal Scholaris"]
-tags: [Model-Driven Engineering, MDE, Code Generation, TBCG, Xtend2]
+authors:
+- name: U Montreal Scholaris
+tags: [Model Driven Engineering, Code Generation, Tree Based Code Generation, Xtend2]
 ---
 
 # Survey of Template-Based Code Generation
 
+<!--truncate-->
 A critical step in model-driven engineering (MDE) is the automatic synthesis of textual artifacts from models. This is a very useful model transformation to generate application code, serialize models in persistent storage, and generate documentation or reports. 
 
 Among the various model-to-text transformation paradigms, **Template-Based Code Generation (TBCG)** is the most popular in MDE. TBCG is a synthesis technique that produces code from high-level specifications called templates.

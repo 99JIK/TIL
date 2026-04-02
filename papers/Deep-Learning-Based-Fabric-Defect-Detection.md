@@ -1,21 +1,11 @@
 ---
-title: "Deep learning-based fabric defect detection: A review"
-date: "2022-10-17"
-description: "2003년부터 현재까지 딥러닝 기반 직물 결함 검출 연구를 체계적으로 검토하고, 주요 아키텍처(CNN, LSTM, GAN, Autoencoder)의 장단점을 비교 분석한 최초의 최신 리뷰 논문."
-keywords:
-  [Fabric defects, detection of defects, learning-based image processing]
-tags:
-  [
-    "Deep Learning",
-    "Fabric Defect Detection",
-    "Computer Vision",
-    "Review",
-    "Convolutional Neural Networks",
-    "Generative Adversarial Networks",
-    "Autoencoder",
-    "Long Short-Term Memory",
-  ]
-authors: ["Yavuz Kahraman", "Alptekin Durmuşoğlu"]
+title: 'Deep learning-based fabric defect detection: A review'
+date: '2022-10-17'
+description: 2003년부터 현재까지 딥러닝 기반 직물 결함 검출 연구를 체계적으로 검토하고, 주요 아키텍처(CNN, LSTM, GAN, Autoencoder)의 장단점을 비교 분석한 최초의 최신 리뷰 논문.
+tags: [Deep Learning, Fabric Defect Detection, Computer Vision, Review, Convolutional Neural Network, Generative Adversarial Network, Autoencoder, Long Short-Term Memory]
+authors:
+- name: Yavuz Kahraman
+- name: Alptekin Durmuşoğlu
 ---
 
 ## 논문 정보

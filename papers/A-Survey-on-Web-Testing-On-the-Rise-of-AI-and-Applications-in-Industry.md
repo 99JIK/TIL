@@ -1,28 +1,13 @@
 ---
-title: "A Survey on Web Testing: On the Rise of AI and Applications in Industry"
-date: "2025-08-12"
-description: "2014년부터 2025년까지 발표된 259개의 연구 논문을 분석하여 웹 테스팅 분야의 핵심 동향, 방법론, AI의 역할 및 산업 적용 사례를 체계적으로 정리한 서베이 논문"
-keywords:
-  [
-    "Web Testing",
-    "GUI Testing",
-    "Front-end",
-    "Survey",
-    "Search-Based Software Testing",
-    "Artificial Intelligence",
-    "Fuzzing",
-  ]
-tags:
-  [
-    "Web Testing",
-    "GUI Testing",
-    "Front-end",
-    "Survey",
-    "Search-Based Software Testing",
-    "Artificial Intelligence",
-    "Fuzzing",
-  ]
-authors: ["Iva Kertusha", "Gebremariam Assres", "Onur Duman", "Andrea Arcuri"]
+title: 'A Survey on Web Testing: On the Rise of AI and Applications in Industry'
+date: '2025-08-12'
+description: 2014년부터 2025년까지 발표된 259개의 연구 논문을 분석하여 웹 테스팅 분야의 핵심 동향, 방법론, AI의 역할 및 산업 적용 사례를 체계적으로 정리한 서베이 논문
+tags: [Web Testing, GUI Testing, Front-end, Survey, Search-Based Software Testing, Artificial Intelligence, Fuzzing]
+authors:
+- name: Iva Kertusha
+- name: Gebremariam Assres
+- name: Onur Duman
+- name: Andrea Arcuri
 ---
 
 ## 논문 정보

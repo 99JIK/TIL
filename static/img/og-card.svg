@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#3182f6"/>
+  <text x="100" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="#191f28" letter-spacing="-2">99JIK</text>
+  <text x="100" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="400" fill="#8b95a1">From Yesterday's Insights to Today's Wisdom</text>
+  <text x="100" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#3182f6">Docs</text>
+  <circle cx="152" cy="415" r="2" fill="#d1d6db"/>
+  <text x="165" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#3182f6">Papers</text>
+  <circle cx="242" cy="415" r="2" fill="#d1d6db"/>
+  <text x="255" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#3182f6">Tags</text>
+  <text x="100" y="540" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" fill="#b0b8c1">99jik.com</text>
+</svg>

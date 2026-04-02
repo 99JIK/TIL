@@ -1,11 +1,14 @@
 ---
 title: Automatic Robot Task Planning by Integrating Large Language Model with Genetic Programming
-authors: ["Azizjon Kobilov", "Jianglin Lan"]
-tags: [JIK_REFERENCE, Robotics, LLM, Genetic Programming, Task Planning, Behavior Trees]
+authors:
+- name: Azizjon Kobilov
+- name: Jianglin Lan
+tags: [JIK Reference, Robotics, Large Language Model, Genetic Programming, Task Planning, Behavior Tree]
 ---
 
 # Automatic Robot Task Planning by Integrating Large Language Model with Genetic Programming
 
+<!--truncate-->
 Accurate task planning is critical for controlling autonomous systems, such as robots, drones, and self-driving vehicles. Behavior Trees (BTs) are considered one of the most prominent control-policy-defining frameworks in task planning, due to their modularity, flexibility, and reusability. 
 
 Generating reliable and accurate BT-based control policies for robotic systems remains challenging and often requires domain expertise. In this paper, we present the **LLM-GP-BT** technique that leverages Large Language Models (LLM) and Genetic Programming (GP) to automate the generation and configuration of BTs. 

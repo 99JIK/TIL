@@ -1,10 +1,11 @@
 ---
-title: "Prediction of Pick Acting Forces Using an Random Forest Model based on Mechanical Properties of Rocks and Cutting Parameters"
-date: "2025-02-24"
-description: "암석의 역학적 물성과 절삭 조건을 기반으로 랜덤 포레스트 모델을 최적화하여 픽 커터의 작용력(수직력, 절삭력)을 높은 정확도로 예측한 연구"
-keywords: [Pick cutter, Acting forces, Cutting parameters, Mechanical properties of rock, Random forest]
-tags: ["Random Forest", "Rock Mechanics", "Machine Learning", "Predictive Modeling", "Cutting Force"]
-authors: ["Mohammad Sharghi", "Hoyoung Jeong"]
+title: Prediction of Pick Acting Forces Using an Random Forest Model based on Mechanical Properties of Rocks and Cutting Parameters
+date: '2025-02-24'
+description: 암석의 역학적 물성과 절삭 조건을 기반으로 랜덤 포레스트 모델을 최적화하여 픽 커터의 작용력(수직력, 절삭력)을 높은 정확도로 예측한 연구
+tags: [Random Forest, Rock Mechanics, Machine Learning, Predictive Modeling, Cutting Force]
+authors:
+- name: Mohammad Sharghi
+- name: Hoyoung Jeong
 ---
 
 ## 논문 정보

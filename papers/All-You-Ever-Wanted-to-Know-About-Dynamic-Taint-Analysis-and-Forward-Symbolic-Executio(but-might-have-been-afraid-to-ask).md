@@ -1,10 +1,12 @@
 ---
-title: "All You Ever Wanted to Know About Dynamic Taint Analysis and Forward Symbolic Execution (but might have been afraid to ask)"
-date: "2010-05-16"
-description: "동적 테인트 분석(DTA)과 순방향 심볼릭 실행(FSE)의 알고리즘을 형식화하고, 보안 분석 시 발생하는 주요 구현 문제와 한계점을 체계적으로 정리한 논문"
-keywords: ["taint analysis", "symbolic execution", "dynamic analysis"]
-tags: ["Dynamic Taint Analysis", "Forward Symbolic Execution", "Program Analysis", "Security"]
-authors: ["Edward J. Schwartz", "Thanassis Avgerinos", "David Brumley"]
+title: All You Ever Wanted to Know About Dynamic Taint Analysis and Forward Symbolic Execution (but might have been afraid to ask)
+date: '2010-05-16'
+description: 동적 테인트 분석(DTA)과 순방향 심볼릭 실행(FSE)의 알고리즘을 형식화하고, 보안 분석 시 발생하는 주요 구현 문제와 한계점을 체계적으로 정리한 논문
+tags: [Dynamic Taint Analysis, Forward Symbolic Execution, Program Analysis, Security]
+authors:
+- name: Edward J. Schwartz
+- name: Thanassis Avgerinos
+- name: David Brumley
 ---
 
 ## 논문 정보

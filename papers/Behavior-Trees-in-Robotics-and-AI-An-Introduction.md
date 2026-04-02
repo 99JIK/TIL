@@ -1,11 +1,14 @@
 ---
 title: Behavior Trees in Robotics and AI - An Introduction
-authors: ["Michele Colledanchise", "Petter Ögren"]
-tags: [JIK_REFERENCE, Behavior Trees, Robotics, AI]
+authors:
+- name: Michele Colledanchise
+- name: Petter Ögren
+tags: [JIK Reference, Behavior Tree, Robotics, Artificial Intelligence]
 ---
 
 # Behavior Trees in Robotics and AI: An Introduction
 
+<!--truncate-->
 A Behavior Tree (BT) is a way to structure the switching between different tasks in an autonomous agent, such as a robot or a virtual entity in a computer game. BTs are a very efficient way of creating complex systems that are both modular and reactive. 
 
 These properties are crucial in many applications, which has led to the spread of BT from computer game programming to many branches of AI and Robotics. In this book, we will first give an introduction to BTs, then we describe how BTs relate to, and in many cases generalize, earlier switching structures. These ideas are then used as a foundation for a set of efficient and easy to use design principles. 

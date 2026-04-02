@@ -1,32 +1,13 @@
 ---
-title: "Al Adoption for Collaboration: Factors Influencing Inclusive Learning Adoption in Higher Education"
-date: "2025-05-07"
-description: "기술 수용 모델(TAM)을 기반으로 고등 교육 환경에서 협력적, 포용적 학습을 위한 AI 기술 채택에 영향을 미치는 요인을 실증적으로 분석한 연구"
-keywords:
-  [
-    "Artificial intelligence",
-    "AI adoption",
-    "collaboration",
-    "inclusive learning",
-    "higher education",
-    "technology acceptance",
-    "student perceptions",
-  ]
-tags:
-  [
-    "Artificial Intelligence in Education",
-    "Technology Acceptance Model",
-    "Inclusive Learning",
-    "Collaboration",
-    "Higher Education",
-  ]
+title: 'Al Adoption for Collaboration: Factors Influencing Inclusive Learning Adoption in Higher Education'
+date: '2025-05-07'
+description: 기술 수용 모델(TAM)을 기반으로 고등 교육 환경에서 협력적, 포용적 학습을 위한 AI 기술 채택에 영향을 미치는 요인을 실증적으로 분석한 연구
+tags: [Artificial Intelligence in Education, Technology Acceptance Model, Inclusive Learning, Collaboration, Higher Education]
 authors:
-  [
-    "IBRAHIM ALYOUSSEF",
-    "AMR MOHAMMED DRWISH",
-    "FATIMAH ADEL ALBAKHEET",
-    "RAFDAN HASSAN ALHAJHOJ",
-  ]
+- name: IBRAHIM ALYOUSSEF
+- name: AMR MOHAMMED DRWISH
+- name: FATIMAH ADEL ALBAKHEET
+- name: RAFDAN HASSAN ALHAJHOJ
 ---
 
 ## 논문 정보

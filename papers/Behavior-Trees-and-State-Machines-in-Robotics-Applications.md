@@ -1,11 +1,18 @@
 ---
 title: Behavior Trees and State Machines in Robotics Applications
-authors: ["Matteo Iovino", "Julian Förster", "Pietro Falco", "Jen Jen Chung", "Roland Siegwart", "Christian Smith"]
-tags: [Robotics, Behavior Trees, State Machines, FSM, Policy Design]
+authors:
+- name: Matteo Iovino
+- name: Julian Förster
+- name: Pietro Falco
+- name: Jen Jen Chung
+- name: Roland Siegwart
+- name: Christian Smith
+tags: [Robotics, Behavior Tree, State Machine, Policy Design]
 ---
 
 # Behavior Trees and State Machines in Robotics Applications
 
+<!--truncate-->
 This work provides a practical comparison between Behavior Trees (BTs) and Finite State Machines (FSMs) in the context of robotics. While FSMs have been the industry standard for years, BTs offer several theoretical advantages in terms of modularity and reactivity.
 
 The authors evaluate both frameworks across various robotic manipulation tasks, analyzing:

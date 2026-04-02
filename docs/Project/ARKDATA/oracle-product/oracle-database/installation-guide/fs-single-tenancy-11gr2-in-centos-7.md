@@ -39,27 +39,27 @@ rpm -Uvh --nodeps pdksh-5.2.14-8.i386.rpm --force
 
 ```bash
 vi /etc/sysctl.conf
-​
+
 # vi /etc/sysctl.conf st #
 # Controls the maximum shared segment size, in bytes
 kernel.shmmax = 68719476736
-​
+
 # Controls the maximum number of shared memory segments, in pages
 kernel.shmall = 10523004
 kernel.shmmni = 4096
 kernel.sem = 250 32000 100 128
-​
+
 fs.aio-max-nr = 1048576
 fs.file-max = 6815744
-​
+
 net.ipv4.ip_local_port_range = 9000 65500
-​
+
 net.core.rmem_default = 262144
 net.core.rmem_max = 4194304
 net.core.wmem_default = 262144
 net.core.wmem_max = 1048586
 # vi /etc/sysctl.conf ed #
-​
+
 /sbin/sysctl -p     # 적용
 ```
 
@@ -67,7 +67,7 @@ net.core.wmem_max = 1048586
 
 ```bash
 vi /etc/security/limits.conf
-​
+
 # vi /etc/security/limits.conf st #
 oracle soft nproc 2048
 oracle hard nproc 65536
@@ -89,7 +89,7 @@ SELINUX=disabled
 
 ```bash
 vi ~oracle/.bash_profile
-​
+
 # vi ~oracle/.bash_profile st #
 export ORACLE_BASE=<oracle_base_path>   # ex) /app/oracle
 export ORACLE_HOME=<oracle_home_path>   # ex) $ORACLE_BASE/product/11.2.0.1.0/dbhome_1
@@ -106,23 +106,23 @@ Expected Value까지 Swap Memory 확보하는 것이 권장 사항이다.
 
 ```bash
 free -h                 # Swap Memory 확인
-​
+
 dd if=<dev_path> of=<swap_file> bs=<bytes> count=<count>    # Swap Memory File 생성
                         # ex) dd if=/dev/zero of=/home/swapfile bs=1024 count=1000000   # 1GB의 Swap Memory File 생성
                  
 mkswap <swap_file>      # File에 Swap Memory 영역 설정           # ex) mkswap /home/swapfile
-​
+
 swapon <swap_file>      # Swap Memory 활성화                   # ex) swapon /home/swapfile
 chmod 664 <swap_file>   # ex) chmod 664 /home/swapfile
-​
+
 vi /etc/fstab
 # vi /etc/fstab st #
 <swap_file> swap    swap    defaults    1 1 # Swap Memory Rebooting 후에도 적용
                         # ex) /home/swapfile    swap    swap defaults   1 1
 # vi /etc/fstab ed #
-​
+
 free -h                 # Swap Memory 확인
-​
+
 swapoff <swap_file>     # Swap Memory 비활성화                  # ex) swapoff /home/swapfile
 rm -rf <swap_file>      # Swap Memory File 삭제               # ex) rm -rf /home/swapfile
 ```
@@ -173,7 +173,7 @@ cd $ORACLE_HOME
 
 ```bash
 vi <error_mk_file>  # ex) vi /app/oracle/product/11.2.0.1.0/dbhome_1/ctx/lib/ins_ctx.mk
-​
+
 # vi <error_mk_file> st #
 # ctxhx: $(CTXHXOBJ)
 #   $(LINK_CTXHX) $(CTXHXOBJ) $(INSO_LINK) 부분을 아래와 같이 변경
@@ -188,7 +188,7 @@ ctxhx: $(CTXHXOBJ)
 
 ```bash
 vi <error_mk_file> # ex) vi /app/oracle/product/11.2.0.1.0/dbhome_1/sysman/lib/ins_emagent.mk
-​
+
 # vi <error_mk_file> st #
 # $(SYSMANBIN) emdctl:
 # $(MK_EMAGENT_NMECTL) 부분을 아래와 같이 변경
@@ -207,17 +207,17 @@ Root 계정으로 들어가 위 스크립트들을 실행시킨다.
 # <script2> st #
 [root@localhost ~]# /app/oracle/product/11.2.0.1.0/dbhome_1/root.sh
 Running Oracle 11g root.sh script...
-​
+
 The following environment variables are set as:
    ORACLE_OWNER= oracle
    ORACLE_HOME= /app/oracle/product/11.2.0.1.0/dbhome_1
-​
+
 Enter the full pathname of the local bin directory: [/usr/local/bin]:<press_enter(Default)>
   Copying dbhome to /usr/local/bin ...
   Copying oraenv to /usr/local/bin ...
   Copying coraenv to /usr/local/bin ...
-​
-​
+
+
 Creating /etc/oratab file...
 Entries will be added to the /etc/oratab file as needed by
 Database Configuration Assistant when a database is created

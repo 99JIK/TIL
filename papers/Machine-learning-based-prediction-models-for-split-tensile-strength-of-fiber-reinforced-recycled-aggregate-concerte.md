@@ -1,24 +1,11 @@
 ---
-title: "Machine learning based prediction models for spilt tensile strength of fiber reinforced recycled aggregate concrete"
-date: "2024-01-05"
-description: "섬유보강 재생골재 콘크리트(FRAC)의 쪼갬 인장강도를 예측하기 위해 심층 신경망(DNN), 가우시안 과정 회귀(OGPR), 유전자 발현 프로그래밍(GEP) 등 다양한 머신러닝 모델의 성능을 비교 및 분석한 논문"
-keywords:
-  [
-    "Machine Learning",
-    "Deep neural networks",
-    "Sustainability",
-    "Eco-friendly Concrete",
-    "Gene expression programming",
-  ]
-tags:
-  [
-    "Machine Learning",
-    "Deep Neural Networks",
-    "Sustainability",
-    "Eco-friendly Concrete",
-    "Gene Expression Programming",
-  ]
-authors: ["Wesam Alaloul", "IBRAHIM ALYOUSSEF"]
+title: Machine learning based prediction models for spilt tensile strength of fiber reinforced recycled aggregate concrete
+date: '2024-01-05'
+description: 섬유보강 재생골재 콘크리트(FRAC)의 쪼갬 인장강도를 예측하기 위해 심층 신경망(DNN), 가우시안 과정 회귀(OGPR), 유전자 발현 프로그래밍(GEP) 등 다양한 머신러닝 모델의 성능을 비교 및 분석한 논문
+tags: [Machine Learning, Deep Neural Networks, Sustainability, Eco-friendly Concrete, Gene Expression Programming]
+authors:
+- name: Wesam Alaloul
+- name: IBRAHIM ALYOUSSEF
 ---
 
 # Machine learning based prediction models for spilt tensile strength of fiber reinforced recycled aggregate concrete

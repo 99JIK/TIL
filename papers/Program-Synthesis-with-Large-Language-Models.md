@@ -1,11 +1,23 @@
 ---
 title: Program Synthesis with Large Language Models
-authors: ["Jacob Austin", "Augustus Odena", "Maxwell Nye", "Maarten Bosma", "Henryk Michalewski", "David Dohan", "Ellen Jiang", "Carrie Cai", "Michael Terry", "Quoc Le", "Charles Sutton"]
-tags: [JIK_REFERENCE, LLM, Program Synthesis, Python, MBPP, MathQA]
+authors:
+- name: Jacob Austin
+- name: Augustus Odena
+- name: Maxwell Nye
+- name: Maarten Bosma
+- name: Henryk Michalewski
+- name: David Dohan
+- name: Ellen Jiang
+- name: Carrie Cai
+- name: Michael Terry
+- name: Quoc Le
+- name: Charles Sutton
+tags: [JIK Reference, Large Language Model, Program Synthesis, Python, Mostly Basic Python Programming, MathQA]
 ---
 
 # Program Synthesis with Large Language Models
 
+<!--truncate-->
 This paper explores the limits of the current generation of large language models (LLMs) for program synthesis in general-purpose programming languages. 
 
 The authors evaluate models ranging from 244M to 137B parameters on two new benchmarks: **MBPP** (Mostly Basic Programming Problems) and **MathQA-Python**. These benchmarks measure the ability to synthesize short Python programs from natural language descriptions.

@@ -1,24 +1,14 @@
 ---
-title: "Analysing an imbalanced stroke prediction dataset using machine learning techniques"
-date: "2022-01-01"
-description: "불균형 데이터셋 문제를 해결하기 위해 Adasyn 오버샘플링 기법과 하이브리드 Neural Network-Random Forest (NN-RF) 모델을 결합하여 뇌졸중 예측 정확도를 향상시킨 연구"
-keywords:
-  [
-    "machine learning",
-    "neural network",
-    "random forest",
-    "stroke prediction",
-    "Data Imbalance",
-  ]
-tags:
-  [
-    "Machine Learning",
-    "Neural Network",
-    "Random Forest",
-    "Stroke Prediction",
-    "Data Imbalance",
-  ]
-authors: ["Viswapriya Subramaniyam Elangovan", "Rajeswari Devarajan", "Osamah I. Khalaf", "Mhd Saeed Sharif", "Wael Elmedany"]
+title: Analysing an imbalanced stroke prediction dataset using machine learning techniques
+date: '2022-01-01'
+description: 불균형 데이터셋 문제를 해결하기 위해 Adasyn 오버샘플링 기법과 하이브리드 Neural Network-Random Forest (NN-RF) 모델을 결합하여 뇌졸중 예측 정확도를 향상시킨 연구
+tags: [Machine Learning, Neural Network, Random Forest, Stroke Prediction, Data Imbalance]
+authors:
+- name: Viswapriya Subramaniyam Elangovan
+- name: Rajeswari Devarajan
+- name: Osamah I. Khalaf
+- name: Mhd Saeed Sharif
+- name: Wael Elmedany
 ---
 
 ## 논문 정보

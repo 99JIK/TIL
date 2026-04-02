@@ -1,24 +1,10 @@
 ---
-title: "Comparative Analysis of Explainable AI Methods for Manufacturing Defect Prediction: A Mathematical Perspective"
-date: "2025-07-29"
-description: "기계 학습, 클러스터링, 설명가능 AI(XAI)를 통합하여 제조 결함을 분석하고 예측함으로써 생산 동역학에 대한 투명하고 데이터 기반의 이해를 제공하는 프레임워크를 제안한 논문"
-keywords:
-  [
-    "Explainable Artificial Intelligence (XAI)",
-    "defect prediction",
-    "manufacturing quality control",
-    "mathematical evaluation XAI",
-    "ISO 9001 compliance",
-  ]
-tags:
-  [
-    "Explainable Artificial Intelligence",
-    "Defect Prediction",
-    "Manufacturing Quality Control",
-    "Machine Learning",
-    "Clustering",
-  ]
-authors: ["Gabriel Marín Díaz"]
+title: 'Comparative Analysis of Explainable AI Methods for Manufacturing Defect Prediction: A Mathematical Perspective'
+date: '2025-07-29'
+description: 기계 학습, 클러스터링, 설명가능 AI(XAI)를 통합하여 제조 결함을 분석하고 예측함으로써 생산 동역학에 대한 투명하고 데이터 기반의 이해를 제공하는 프레임워크를 제안한 논문
+tags: [Explainable Artificial Intelligence, Defect Prediction, Manufacturing Quality Control, Machine Learning, Clustering]
+authors:
+- name: Gabriel Marín Díaz
 ---
 
 ## 논문 정보

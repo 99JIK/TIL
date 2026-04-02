@@ -1,11 +1,17 @@
 ---
 title: Automatic Behavior Tree Expansion with LLMs for Robotic Manipulation
-authors: ["Jonathan Styrud", "Matteo Iovino", "Mikael Norrlöf", "Mårten Björkman", "Christian Smith"]
-tags: [JIK_REFERENCE, Robotics, LLM, Behavior Trees, Robotic Manipulation, ICRA 2025]
+authors:
+- name: Jonathan Styrud
+- name: Matteo Iovino
+- name: Mikael Norrlöf
+- name: Mårten Björkman
+- name: Christian Smith
+tags: [JIK Reference, Robotics, Large Language Model, Behavior Tree, Robotic Manipulation, International Conference on Robotics and Automation 2025]
 ---
 
 # Automatic Behavior Tree Expansion with LLMs for Robotic Manipulation
 
+<!--truncate-->
 Robotic systems for manipulation tasks are increasingly expected to be easy to configure for new tasks or unpredictable environments, while keeping a transparent policy that is readable and verifiable by humans. 
 
 This paper proposes **BETR-XP-LLM** (BEhavior TRee eXPansion with Large Language Models), a method to dynamically and automatically expand and configure Behavior Trees as policies for robot control. 

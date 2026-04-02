@@ -1,10 +1,11 @@
 ---
-title: "Combining Neural Network Verification and Behavior Tree Synthesis for Robotic Task Planning"
-tags: [JIK_REFERENCE, behavior-tree, robotics, task-planning, neural-network, verification]
+title: Combining Neural Network Verification and Behavior Tree Synthesis for Robotic Task Planning
+tags: [JIK Reference, Behavior Tree, Robotics, Task Planning, Neural Network, Verification]
 ---
 
 # Combining Neural Network Verification and Behavior Tree Synthesis for Robotic Task Planning
 
+<!--truncate-->
 ## 서지 정보
 - **저자**: C. Paxton, A. Byravan, A. Tamar, D. Fox
 - **출판**: Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)

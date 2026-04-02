@@ -19,7 +19,11 @@ const config: Config = {
   organizationName: '99jik',
   projectName: 'Today_I_Learned',
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   i18n: {
     defaultLocale: 'ko',
     locales: ['ko', 'en'],
@@ -81,11 +85,15 @@ const config: Config = {
       }),
     ],
   ],
-  plugins: [[
+  plugins: [
+    './src/plugins/paper-stats-plugin',
+    [
     '@docusaurus/plugin-content-blog',{
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
           editUrl: 'https://github.com/99jik/today_i_learned/tree/main/',
+          onInlineAuthors: 'ignore',
+          onInlineTags: 'ignore',
           id: 'Paper',
           path: './papers',
           routeBasePath: 'papers',
@@ -110,46 +118,45 @@ const config: Config = {
     navbar: {
       title: '99JIK',
       items: [
-        { type: 'docSidebar',  sidebarId: 'JIKTILSidebar', position: 'right', label: 'DOCS'},
-        { to: '/notes', label: 'NOTES', position: 'right'},
-        { to: '/papers', label: 'PAPERS', position: 'right'},
-        { href: 'https://github.com/99jik', label: 'GITHUB', position: 'right'}
+        { type: 'docSidebar',  sidebarId: 'JIKTILSidebar', position: 'right', label: 'Docs'},
+        { to: '/papers', label: 'Papers', position: 'right'},
+        { href: 'https://github.com/99jik', label: 'GitHub', position: 'right'}
       ]
     },
     footer: {
       style: 'light',
       links: [
-        { title: '99JIK',
+        { title: 'SERVICE',
           items: [
             { label: 'Docs', to: '/docs/Intro'},
-            { label: 'Notes', to: '/notes'},
-            { label: 'Papers', to: '/papers'}
+            { label: 'Papers', to: '/papers'},
+            { label: 'Tags', to: '/papers/tags'},
           ],
         },
-        { title: 'Contact',
+        { title: 'ABOUT',
           items: [
-            { label: 'E-Mail', href: 'mailto:99junginkim@gmail.com'},
-            { label: 'Discord', href: 'https://discord.gg/vgEmEtbHmc'}
+            { label: 'Who am I', to: '/Who-am-I'},
+            { label: 'How to Read', to: '/How-to-Read'},
           ],
         },
-        { title: 'Group',
+        { title: 'CONTACT',
+          items: [
+            { label: 'EMAIL', href: 'mailto:99jik@99jik.com'},
+            { label: 'Discord', href: 'https://discord.gg/RDts8j6KWh'},
+            { label: 'GitHub', href: 'https://github.com/99jik'},
+          ],
+        },
+        { title: 'GROUP',
           items: [
             { label: 'Altruistic Hive', href: 'https://altruistic-hive.org'},
-            { label: 'KNU STLAB', href: 'https://selab.knu.ac.kr'}
+            { label: 'KNU STLAB', href: 'https://selab.knu.ac.kr'},
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} JIK, Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 99JIK. Built with Docusaurus.`,
     },
     prism: { theme: prismThemes.github, darkTheme: prismThemes.dracula },
     colorMode: { respectPrefersColorScheme: true},
-    announcementBar: {
-      id: 'announcementBar-2',
-      content: '⭐️ 저의 사이트에 <b>별표</b>를 눌러주세요! <a target="_blank" rel="noopener noreferrer" href="https://github.com/99jik/Today-I-Learned">99JIK</a> ⭐️',
-      backgroundColor: '#fafbfc',
-      textColor: '#091E42',
-      isCloseable: true,
-    },
     algolia: {
       appId: 'M0K8OUDJUD',
       apiKey: '47a8935c75521e24ddd40a579d7a5c13',
@@ -161,10 +168,10 @@ const config: Config = {
       { name: 'twitter:site', content: '@99jik' },
       { name: 'twitter:creator', content: '@99jik' },
       { name: 'og:type', content: 'website' },
-      { name: 'og:image', content: '/img/favicon.svg' },
-      { name: 'og:image:alt', content: '99JIK Logo' },
-      { name: 'twitter:image', content: '/img/favicon.svg' },
-      { name: 'twitter:image:alt', content: '99JIK Logo' },
+      { name: 'og:image', content: 'https://www.99jik.com/img/og-card.svg' },
+      { name: 'og:image:alt', content: '99JIK' },
+      { name: 'twitter:image', content: 'https://www.99jik.com/img/og-card.svg' },
+      { name: 'twitter:image:alt', content: '99JIK' },
     ],
   } satisfies Preset.ThemeConfig,
 };

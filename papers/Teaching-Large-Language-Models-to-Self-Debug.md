@@ -1,11 +1,16 @@
 ---
-title: "Teaching Large Language Models to Self-Debug"
-authors: ["Xinyun Chen", "Maxwell Lin", "Nathanael Schärli", "Denny Zhou"]
-tags: [JIK_REFERENCE, Large Language Models, Code Generation, Debugging]
+title: Teaching Large Language Models to Self-Debug
+authors:
+- name: Xinyun Chen
+- name: Maxwell Lin
+- name: Nathanael Schärli
+- name: Denny Zhou
+tags: [JIK Reference, Large Language Model, Code Generation, Debugging]
 ---
 
 # Teaching Large Language Models to Self-Debug
 
+<!--truncate-->
 LLM이 생성한 코드를 스스로 실행하고 결과를 보며 오류를 수정하는 **Self-Debugging** 프레임워크를 제안한다. Google DeepMind 연구진의 성과.
 
 <!-- truncate -->

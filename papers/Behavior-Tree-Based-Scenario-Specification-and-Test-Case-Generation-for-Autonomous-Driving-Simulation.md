@@ -1,11 +1,16 @@
 ---
-title: "Behavior-Tree Based Scenario Specification and Test Case Generation for Autonomous Driving Simulation"
-authors: ["Yunjun Yao", "Zijun Shi", "Lihua Fu", "Li Li"]
-tags: [JIK_REFERENCE, Behavior Tree, Test Generation, Software Testing, Artificial Intelligence]
+title: Behavior-Tree Based Scenario Specification and Test Case Generation for Autonomous Driving Simulation
+authors:
+- name: Yunjun Yao
+- name: Zijun Shi
+- name: Lihua Fu
+- name: Li Li
+tags: [JIK Reference, Behavior Tree, Test Generation, Software Testing, Artificial Intelligence]
 ---
 
 # Behavior-Tree Based Scenario Specification and Test Case Generation for Autonomous Driving Simulation
 
+<!--truncate-->
 Behavior Tree(BT)를 활용하여 자율주행 시뮬레이션의 시나리오를 명세하고, 이로부터 테스트 케이스를 자동 생성하는 방법론을 제안한다.
 
 <!-- truncate -->

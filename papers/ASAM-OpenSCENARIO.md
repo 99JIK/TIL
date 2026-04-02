@@ -1,11 +1,12 @@
 ---
-title: "ASAM OpenSCENARIO"
+title: ASAM OpenSCENARIO
 authors: []
-tags: [JIK_REFERENCE, Software Testing, Test Generation, Artificial Intelligence, Automatic Generation]
+tags: [JIK Reference, Software Testing, Test Generation, Artificial Intelligence, Automatic Generation]
 ---
 
 # ASAM OpenSCENARIO
 
+<!--truncate-->
 ASAM(Association for Standardisation of Automation and Measuring systems)이 제정한 자율주행 시나리오 기술(記述) 표준. 동적 콘텐츠와 교통 시나리오를 XML 기반 DSL로 정의한다.
 
 <!-- truncate -->

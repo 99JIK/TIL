@@ -1,26 +1,11 @@
 ---
-title: "Combining some Biased Estimation Methods with Least Trimmed Squares Regression and its Application"
-date: "2015-07-01"
-description: "다중공선성과 이상치가 동시에 존재하는 회귀분석 문제 해결을 위해, 강건 추정법인 LTS와 편향 추정법(Ridge, Liu)을 결합하고 이를 구현한 R 패키지 'ltsbase'를 제안한 논문"
-keywords:
-  [
-    "Biased Estimator",
-    "Least Trimmed Squares",
-    "Robust Estimation",
-    "Regression Analysis",
-    "Multicollinearity",
-    "Outliers",
-  ]
-tags:
-  [
-    "Biased Estimator",
-    "Least Trimmed Squares",
-    "Robust Estimation",
-    "Regression Analysis",
-    "Multicollinearity",
-    "Outliers",
-  ]
-authors: ["Betül Kan-Kılınç", "Ozlem Alpu"]
+title: Combining some Biased Estimation Methods with Least Trimmed Squares Regression and its Application
+date: '2015-07-01'
+description: 다중공선성과 이상치가 동시에 존재하는 회귀분석 문제 해결을 위해, 강건 추정법인 LTS와 편향 추정법(Ridge, Liu)을 결합하고 이를 구현한 R 패키지 'ltsbase'를 제안한 논문
+tags: [Biased Estimator, Least Trimmed Squares, Robust Estimation, Regression Analysis, Multicollinearity, Outlier]
+authors:
+- name: Betül Kan-Kılınç
+- name: Ozlem Alpu
 ---
 
 ## 논문 정보

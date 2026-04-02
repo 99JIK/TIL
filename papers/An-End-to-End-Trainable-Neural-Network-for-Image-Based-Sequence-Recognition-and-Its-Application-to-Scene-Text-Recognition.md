@@ -1,25 +1,12 @@
 ---
-title: "An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition"
-date: "2016-12-28"
-description: "이미지 기반의 시퀀스 인식을 위해 CNN과 RNN을 결합한 종단간 학습 가능한 신경망 아키텍처(CRNN)를 제안하고, 이를 장면 텍스트 인식에 적용하여 뛰어난 성능을 입증함."
-keywords:
-  [
-    "Sequence recognition",
-    "scene text recognition",
-    "neural network",
-    "convolutional neural network",
-    "long-short term memory",
-    "optical music recognition",
-  ]
-tags:
-  [
-    "Optical Character Recognition",
-    "Scene Text Recognition",
-    "Convolutional Recurrent Neural Networks",
-    "Deep Learning",
-    "End-to-End",
-  ]
-authors: ["Baoguang Shi", "Xiang Bai", "Cong Yao"]
+title: An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition
+date: '2016-12-28'
+description: 이미지 기반의 시퀀스 인식을 위해 CNN과 RNN을 결합한 종단간 학습 가능한 신경망 아키텍처(CRNN)를 제안하고, 이를 장면 텍스트 인식에 적용하여 뛰어난 성능을 입증함.
+tags: [Optical Character Recognition, Scene Text Recognition, Convolutional Recurrent Neural Networks, Deep Learning, End-to-End]
+authors:
+- name: Baoguang Shi
+- name: Xiang Bai
+- name: Cong Yao
 ---
 
 ## 논문 정보

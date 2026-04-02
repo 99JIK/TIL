@@ -1,9 +1,13 @@
 ---
-title: "Test Intention Guided LLM-based Unit Test Generation"
-date: "2025-05-01"
-description: "정적 분석을 통해 추출한 테스트 의도(Test Intention)를 사용하여 LLM이 높은 커버리지와 정확한 Mocking을 갖춘 단위 테스트를 생성하도록 유도하는 IntUT 프레임워크 제안"
-keywords: ["Software Engineering", "Unit Test Generation", "Large Language Models", "Static Analysis", "Program Analysis", "Mocking"]
-authors: ["Zifan Nan", "Zhaoqiang Guo", "Kui Liu", "Xin Xia"]
+title: Test Intention Guided LLM-based Unit Test Generation
+date: '2025-05-01'
+description: 정적 분석을 통해 추출한 테스트 의도(Test Intention)를 사용하여 LLM이 높은 커버리지와 정확한 Mocking을 갖춘 단위 테스트를 생성하도록 유도하는 IntUT 프레임워크 제안
+authors:
+- name: Zifan Nan
+- name: Zhaoqiang Guo
+- name: Kui Liu
+- name: Xin Xia
+tags: [Software Engineering, Unit Test Generation, Large Language Models, Static Analysis, Program Analysis, Mocking]
 ---
 
 ## 논문 정보

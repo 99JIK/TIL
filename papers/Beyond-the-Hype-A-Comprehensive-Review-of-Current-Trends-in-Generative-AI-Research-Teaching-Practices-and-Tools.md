@@ -1,30 +1,13 @@
 ---
-title: "Beyond the Hype: A Comprehensive Review of Current Trends in Generative Al Research, Teaching Practices, and Tools"
-date: "2024-07-08"
-description: "컴퓨팅 교육 현장에서의 생성형 AI 활용 및 인식에 대한 최신 동향을 체계적 문헌 고찰, 설문조사, 인터뷰를 통해 종합적으로 분석하고 향후 발전 방향을 제시한다."
-keywords:
-  [
-    "Generative Artificial Intelligence",
-    "Large Language Models",
-    "Artificial Intelligence",
-    "Teaching Practices",
-    "Computing Education",
-  ]
-tags:
-  [
-    "Generative Artificial Intelligence",
-    "Large Language Models",
-    "Artificial Intelligence",
-    "Teaching Practices",
-    "Computing Education",
-  ]
+title: 'Beyond the Hype: A Comprehensive Review of Current Trends in Generative Al Research, Teaching Practices, and Tools'
+date: '2024-07-08'
+description: 컴퓨팅 교육 현장에서의 생성형 AI 활용 및 인식에 대한 최신 동향을 체계적 문헌 고찰, 설문조사, 인터뷰를 통해 종합적으로 분석하고 향후 발전 방향을 제시한다.
+tags: [Generative Artificial Intelligence, Large Language Model, Artificial Intelligence, Teaching Practices, Computing Education]
 authors:
-  [
-    "James Prather",
-    "Juho Leinonen",
-    "Natalie Kiesler",
-    "Jamie Gorson Benario",
-  ]
+- name: James Prather
+- name: Juho Leinonen
+- name: Natalie Kiesler
+- name: Jamie Gorson Benario
 ---
 
 ## 논문 정보

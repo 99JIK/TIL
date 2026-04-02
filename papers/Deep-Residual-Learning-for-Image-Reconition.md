@@ -1,25 +1,13 @@
 ---
-title: "Deep Residual Learning for Image Recognition"
-date: "2015-12-10"
-description: "심층 신경망이 깊어질수록 훈련이 어려워지는 degradation 문제를 해결하기 위해 잔차 학습(residual learning) 프레임워크를 제안함"
-keywords:
-  [
-    "Deep Learning",
-    "Computer Vision",
-    "Image Recognition",
-    "Residual Learning",
-    "ResNet",
-    "ImageNet",
-    "Degradation Problem",
-  ]
-tags:
-  [
-    "Convolutional Neural Networks",
-    "Deep Learning",
-    "Image Classification",
-    "Object Detection",
-  ]
-authors: ["Kaiming He", "Xiangyu Zhang", "Shaoqing Ren", "Jian Sun"]
+title: Deep Residual Learning for Image Recognition
+date: '2015-12-10'
+description: 심층 신경망이 깊어질수록 훈련이 어려워지는 degradation 문제를 해결하기 위해 잔차 학습(residual learning) 프레임워크를 제안함
+tags: [Convolutional Neural Network, Deep Learning, Image Classification, Object Detection]
+authors:
+- name: Kaiming He
+- name: Xiangyu Zhang
+- name: Shaoqing Ren
+- name: Jian Sun
 ---
 
 ## 논문 정보

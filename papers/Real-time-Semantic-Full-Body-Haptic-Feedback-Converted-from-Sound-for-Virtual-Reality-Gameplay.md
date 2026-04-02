@@ -1,27 +1,11 @@
 ---
-title: "Real-time Semantic Full-Body Haptic Feedback Converted from Sound for Virtual Reality Gameplay"
-date: "2025-04-26"
-description: "VR 게임 사운드를 실시간으로 의미에 따라 분류하고, 그에 맞는 전신 햅틱 피드백을 생성하여 사용자 경험을 향상시키는 시스템"
-keywords:
-  [
-    "sound-haptic conversion",
-    "semantic sound classification",
-    "automatic generation",
-    "real time",
-    "haptic suit",
-    "full body",
-    "game",
-    "user experience",
-  ]
-tags:
-  [
-    "Virtual Reality",
-    "Haptics",
-    "Sound Classification",
-    "Long Short-Term Memory",
-    "User Experience",
-  ]
-authors: ["Gyeore Yun", "Seungmoon Choi"]
+title: Real-time Semantic Full-Body Haptic Feedback Converted from Sound for Virtual Reality Gameplay
+date: '2025-04-26'
+description: VR 게임 사운드를 실시간으로 의미에 따라 분류하고, 그에 맞는 전신 햅틱 피드백을 생성하여 사용자 경험을 향상시키는 시스템
+tags: [Virtual Reality, Haptics, Sound Classification, Long Short-Term Memory, User Experience]
+authors:
+- name: Gyeore Yun
+- name: Seungmoon Choi
 ---
 
 ## 논문 정보

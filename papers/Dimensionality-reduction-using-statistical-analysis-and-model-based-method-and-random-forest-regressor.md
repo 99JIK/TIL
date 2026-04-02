@@ -1,25 +1,10 @@
 ---
-title: "통계적 해석 방법과 모델 기반 방법을 사용한 차원축소: Elementary effect 기법과 random forest regressor 의 비교"
-date: "2018-02"
-description: "통계적 민감도 분석 기법인 Elementary Effect(EE)와 모델 기반 기법인 Random Forest Regressor(RFR)를 비교하여 차원축소 성능을 분석한 연구"
-keywords:
-  [
-    "Dimensionality Reduction",
-    "Feature Selection",
-    "Global Sensitivity Analysis",
-    "Elementary Effect",
-    "Random Forest",
-  ]
-tags:
-  [
-    "Dimensionality Reduction",
-    "Feature Selection",
-    "Global Sensitivity Analysis",
-    "Elementary Effect",
-    "Random Forest",
-    "Machine Learning",
-  ]
-authors: ["정인범"]
+title: '통계적 해석 방법과 모델 기반 방법을 사용한 차원축소: Elementary effect 기법과 random forest regressor 의 비교'
+date: 2018-02
+description: 통계적 민감도 분석 기법인 Elementary Effect(EE)와 모델 기반 기법인 Random Forest Regressor(RFR)를 비교하여 차원축소 성능을 분석한 연구
+tags: [Dimensionality Reduction, Feature Selection, Global Sensitivity Analysis, Elementary Effect, Random Forest, Machine Learning]
+authors:
+- name: 정인범
 ---
 
 ## 논문 정보

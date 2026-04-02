@@ -1,10 +1,13 @@
 ---
-title: "Repairing Order-Dependent Flaky Tests via Test Generation"
-date: "2022-05-21"
-description: "테스트 생성(Test Generation)을 통해 기존 '클리너(cleaner)' 테스트가 없는 경우에도 순서 의존적(order-dependent) 결함 테스트를 자동으로 복구하는 ODRepair 기법 제안"
-keywords: ["flaky test", "order-dependent test", "test generation", "automated repair"]
-tags: ["Flaky Test Detection", "Order-Dependent Test", "Test Generation", "Automated Software Repair"]
-authors: ["Chengpeng Li", "Chenguang Zhu", "Wenxi Wang", "August Shi"]
+title: Repairing Order-Dependent Flaky Tests via Test Generation
+date: '2022-05-21'
+description: 테스트 생성(Test Generation)을 통해 기존 '클리너(cleaner)' 테스트가 없는 경우에도 순서 의존적(order-dependent) 결함 테스트를 자동으로 복구하는 ODRepair 기법 제안
+tags: [Flaky Test Detection, Order-Dependent Test, Test Generation, Automated Software Repair]
+authors:
+- name: Chengpeng Li
+- name: Chenguang Zhu
+- name: Wenxi Wang
+- name: August Shi
 ---
 
 ## 논문 정보

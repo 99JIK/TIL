@@ -1,10 +1,11 @@
 ---
-title: "An Investigation into Reactive Planning in Complex Domains"
-tags: [JIK_REFERENCE, behavior-tree, robotics, reactive-planning, AI, task-planning]
+title: An Investigation into Reactive Planning in Complex Domains
+tags: [JIK Reference, Behavior Tree, Robotics, Reactive Planning, Artificial Intelligence, Task Planning]
 ---
 
 # An Investigation into Reactive Planning in Complex Domains
 
+<!--truncate-->
 ## 서지 정보
 - **저자**: R. James Firby
 - **출판**: Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-87)

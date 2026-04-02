@@ -1,11 +1,17 @@
 ---
 title: LLM-BT - Performing Robotic Adaptive Tasks based on Large Language Models and Behavior Trees
-authors: ["Haotian Zhou", "Yunhan Lin", "Longwu Yan", "Jihong Zhu", "Huasong Min"]
-tags: [JIK_REFERENCE, Robotics, LLM, Behavior Trees, Adaptive Tasks, ICRA 2024]
+authors:
+- name: Haotian Zhou
+- name: Yunhan Lin
+- name: Longwu Yan
+- name: Jihong Zhu
+- name: Huasong Min
+tags: [JIK Reference, Robotics, Large Language Model, Behavior Tree, Adaptive Tasks, International Conference on Robotics and Automation 2024]
 ---
 
 # LLM-BT: Performing Robotic Adaptive Tasks based on Large Language Models and Behavior Trees
 
+<!--truncate-->
 Handling external disturbances during complex robotic tasks remains a challenge. This paper proposes a novel method, **LLM-BT**, to achieve robotic adaptive tasks by combining Large Language Models (LLMs) and Behavior Trees (BTs).
 
 The process involves:

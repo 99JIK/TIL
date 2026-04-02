@@ -1,11 +1,13 @@
 ---
-title: "CARJAN: Agent-Based Generation and Simulation of Traffic Scenarios with AJAN"
-authors: ["Matthias Klusch"]
-tags: [JIK_REFERENCE, Behavior Tree, Artificial Intelligence, Test Generation, Automatic Generation]
+title: 'CARJAN: Agent-Based Generation and Simulation of Traffic Scenarios with AJAN'
+authors:
+- name: Matthias Klusch
+tags: [JIK Reference, Behavior Tree, Artificial Intelligence, Test Generation, Automatic Generation]
 ---
 
 # CARJAN: Agent-Based Generation and Simulation of Traffic Scenarios with AJAN
 
+<!--truncate-->
 AJAN(다중 에이전트 엔지니어링 프레임워크)과 CARLA 시뮬레이터를 결합하여 도시 교통 시나리오를 반자동으로 생성하고 시뮬레이션하는 도구 **CARJAN**을 소개한다.
 
 <!-- truncate -->

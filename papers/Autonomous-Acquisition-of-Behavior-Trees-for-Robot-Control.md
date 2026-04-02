@@ -1,11 +1,14 @@
 ---
 title: Autonomous Acquisition of Behavior Trees for Robot Control
-authors: ["Michele Colledanchise", "Petter Ögren"]
-tags: [Robotics, Behavior Trees, Autonomous Acquisition, Control Policies]
+authors:
+- name: Michele Colledanchise
+- name: Petter Ögren
+tags: [Robotics, Behavior Tree, Autonomous Acquisition, Control Policies]
 ---
 
 # Autonomous Acquisition of Behavior Trees for Robot Control
 
+<!--truncate-->
 This paper addresses the challenge of automatically acquiring control policies in the form of Behavior Trees (BTs). While BTs are known for their modularity and human-readability, manually designing them for complex robot tasks can be labor-intensive.
 
 The research explores methods for the autonomous acquisition of BTs, enabling robots to learn or synthesize their own task structures. This approach combines the benefits of structured, verifiable policies with the flexibility of autonomous learning.

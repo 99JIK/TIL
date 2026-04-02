@@ -1,22 +1,11 @@
 ---
-title: "Img2UML: A System for Extracting UML Models from Images"
-date: "2013-01-01"
-description: "UML 클래스 다이어그램 이미지를 분석하여 편집 가능한 XMI 엔지니어링 모델로 자동 변환하는 Img2UML 시스템 제안"
-keywords:
-  [
-    UML class model,
-    Image recognition,
-    Reverse Engineering,
-    Engineering document image analysis,
-  ]
-tags:
-  [
-    "Unified Modeling Language",
-    "Image Recognition",
-    "Reverse Engineering",
-    "Model Driven Engineering",
-  ]
-authors: ["Bilal Karasneh", "Michel R.V. Chaudron"]
+title: 'Img2UML: A System for Extracting UML Models from Images'
+date: '2013-01-01'
+description: UML 클래스 다이어그램 이미지를 분석하여 편집 가능한 XMI 엔지니어링 모델로 자동 변환하는 Img2UML 시스템 제안
+tags: [Unified Modeling Language, Image Recognition, Reverse Engineering, Model Driven Engineering]
+authors:
+- name: Bilal Karasneh
+- name: Michel R.V. Chaudron
 ---
 
 ## 논문 정보

@@ -1,16 +1,13 @@
 ---
-title: "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter"
-date: "2020-03-01"
-description: "사전 훈련 단계에서 지식 증류를 활용하여 BERT 모델의 크기를 40% 줄이고 속도는 60% 향상시키면서 언어 이해 능력의 97%를 유지하는 경량 모델 DistilBERT를 제안"
-keywords: [knowledge distillation, model compression, BERT, NLP, pre-training]
-tags:
-  [
-    Natural Language Processing,
-    Transformer,
-    Knowledge Distillation,
-    Model Compression,
-  ]
-authors: ["Victor Sanh", "Lysandre Debut", "Julien Chaumond", "Thomas Wolf"]
+title: 'DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter'
+date: '2020-03-01'
+description: 사전 훈련 단계에서 지식 증류를 활용하여 BERT 모델의 크기를 40% 줄이고 속도는 60% 향상시키면서 언어 이해 능력의 97%를 유지하는 경량 모델 DistilBERT를 제안
+tags: [Natural Language Processing, Transformer, Knowledge Distillation, Model Compression]
+authors:
+- name: Victor Sanh
+- name: Lysandre Debut
+- name: Julien Chaumond
+- name: Thomas Wolf
 ---
 
 ## 논문 정보

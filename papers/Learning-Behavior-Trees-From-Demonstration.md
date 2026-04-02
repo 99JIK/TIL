@@ -1,11 +1,17 @@
 ---
 title: Learning Behavior Trees From Demonstration
-authors: ["Kevin French", "Shiyu Wu", "Tianyang Pan", "Zheming Zhou", "O. C. Jenkins"]
-tags: [JIK_REFERENCE, Robotics, Behavior Trees, LfD, Learning from Demonstration]
+authors:
+- name: Kevin French
+- name: Shiyu Wu
+- name: Tianyang Pan
+- name: Zheming Zhou
+- name: O. C. Jenkins
+tags: [JIK Reference, Robotics, Behavior Tree, LfD, Learning from Demonstration]
 ---
 
 # Learning Behavior Trees From Demonstration
 
+<!--truncate-->
 Learning from Demonstration (LfD) is a powerful way to program robots by showing them how to perform a task. This paper explores the extraction of Behavior Trees (BTs) directly from human demonstrations.
 
 By mapping demonstrated actions and conditions to the hierarchical structure of a BT, the system can automatically generate a policy that is not only executable by the robot but also transparent and editable by the user.

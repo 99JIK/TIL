@@ -2,21 +2,12 @@
 title: Utilizing calcined and raw fly oil shale ash in the carbonation process of OPC cement-paste and mortar
 date: 2024-02-04
 description: 이산화탄소(CO2) 양생과 소성 플라이 오일 셰일 애쉬(FOSA)를 시멘트 대체재로 활용하여 압축 강도를 최대 200%까지 향상시키는 시너지 효과를 규명한 연구
-keywords:
-  - Fly Oil Shale Ash
-  - FOSA
-  - Carbonation Curing
-  - CO2 Curing
-  - Compressive Strength
-  - Sustainable Construction Materials
-tags:
-  - Fly Oil Shale Ash
-  - FOSA
-  - Carbonation Curing
-  - CO2 Curing
-  - Compressive Strength
-  - Sustainable Construction Materials
-authors: ["Wesam Alaloul", "Marsail Al Salaheen", "Khalid Alzubi", "Muhammad Ali Musarat"]
+tags: [Fly Oil Shale Ash, Carbonation Curing, CO2 Curing, Compressive Strength, Sustainable Construction Materials]
+authors:
+- name: Wesam Alaloul
+- name: Marsail Al Salaheen
+- name: Khalid Alzubi
+- name: Muhammad Ali Musarat
 ---
 
 ## 논문 정보
@@ -48,10 +39,10 @@ authors: ["Wesam Alaloul", "Marsail Al Salaheen", "Khalid Alzubi", "Muhammad Ali
 - **주요 구성 요소**: OPC, 요르단 중부에서 채취한 FOSA, 천연 모래를 사용한다. 시편 분석을 위해 압축강도 시험기, FESEM, XRD, FTIR, TGA/DTA 등 다양한 분석 장비를 활용한다.
 - **수식**: $CO_2$ 흡수량 및 탄산화도를 계산하기 위해 다음과 같은 수식이 사용되었다.
   - 이론적 $CO_2$ 흡수량 (Steinour's technique):
-    $CO_2$​ uptake(%)$=0.785(CaO−0.7SO_3​)+1.09Na_2​O+0.93K_2​O$
+    $CO_2$ uptake(%)$=0.785(CaO−0.7SO_3)+1.09Na_2O+0.93K_2O$
   - 탄산화 반응식:
-    $Ca(OH)_2​+CO_2​→CaCO_3​+H_2​O$
-    $3CaO⋅SiO_2​+3CO_2​+μH_2​O→SiO_2​⋅μH_2​O+3CaCO_3​$
+    $Ca(OH)_2+CO_2→CaCO_3+H_2O$
+    $3CaO⋅SiO_2+3CO_2+μH_2O→SiO_2⋅μH_2O+3CaCO_3$
 - **알고리즘**: 시편 제작 후 7, 28, 56일에 압축 강도를 측정했다. 28일차 시편에 대해서는 FESEM, XRD, FTIR, TGA/DTA 등의 미세구조 분석을 수행하여 $CO_2$ 양생이 재료의 물리적, 화학적 특성에 미치는 영향을 심층적으로 분석했다.
 
 ### 실험 결과

@@ -1,17 +1,11 @@
 ---
-title: "From image to UML: First results of image-based UML diagram generation using LLMs"
-date: "2024-01-01"
-description: "시각적 LLM을 사용하여 손으로 그린 UML 클래스 다이어그램 이미지를 기계가 읽을 수 있는 PlantUML 코드로 자동 변환하는 성능을 평가한 연구"
-keywords:
-  ["Large Language Models", "UML Diagram", "Software Models", "Low-code"]
-tags:
-  [
-    "Large Language Models",
-    "Unified Modeling Language Diagram",
-    "Software Models",
-    "Low-code",
-  ]
-authors: ["Aaron Conrardy", "Jordi Cabot"]
+title: 'From image to UML: First results of image-based UML diagram generation using LLMs'
+date: '2024-01-01'
+description: 시각적 LLM을 사용하여 손으로 그린 UML 클래스 다이어그램 이미지를 기계가 읽을 수 있는 PlantUML 코드로 자동 변환하는 성능을 평가한 연구
+tags: [Large Language Model, Unified Modeling Language Diagram, Software Models, Low-code]
+authors:
+- name: Aaron Conrardy
+- name: Jordi Cabot
 ---
 
 ## 논문 정보

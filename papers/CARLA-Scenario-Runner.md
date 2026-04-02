@@ -1,11 +1,12 @@
 ---
-title: "CARLA Scenario Runner"
+title: CARLA Scenario Runner
 authors: []
-tags: [JIK_REFERENCE, Software Testing, Test Generation, Artificial Intelligence]
+tags: [JIK Reference, Software Testing, Test Generation, Artificial Intelligence]
 ---
 
 # CARLA Scenario Runner
 
+<!--truncate-->
 CARLA 시뮬레이터를 위한 교통 시나리오 정의 및 실행 엔진. Python API 또는 OpenSCENARIO 표준으로 작성된 시나리오를 CARLA 환경에서 실행한다.
 
 <!-- truncate -->

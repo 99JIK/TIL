@@ -1,23 +1,13 @@
 ---
-title: "Exploring the Competency of ChatGPT in Solving Competitive Programming Challenges"
-date: "2024-02-06"
-description: "ChatGPT의 경쟁적 프로그래밍 문제 해결 능력을 평가하여 평균적인 인간 사용자보다 뛰어난 성능을 보임을 입증한 논문"
-keywords:
-  [
-    "ChatGPT",
-    "Problem-solving",
-    "Competitive programming",
-    "Programming challenges",
-  ]
-tags:
-  [
-    "ChatGPT",
-    "Large Language Models",
-    "Competitive Programming",
-    "Code Generation",
-    "Performance Evaluation",
-  ]
-authors: ["Md. Eusha Kadir", "Tasnim Rahman", "Sourav Barman", "Md. Al-Amin"]
+title: Exploring the Competency of ChatGPT in Solving Competitive Programming Challenges
+date: '2024-02-06'
+description: ChatGPT의 경쟁적 프로그래밍 문제 해결 능력을 평가하여 평균적인 인간 사용자보다 뛰어난 성능을 보임을 입증한 논문
+tags: [ChatGPT, Large Language Model, Competitive Programming, Code Generation, Performance Evaluation]
+authors:
+- name: Md. Eusha Kadir
+- name: Tasnim Rahman
+- name: Sourav Barman
+- name: Md. Al-Amin
 ---
 
 ## 논문 정보

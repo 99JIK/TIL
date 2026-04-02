@@ -1,40 +1,16 @@
 ---
-title: "Generating Real-Time, Selective, and Multimodal Haptic Effects from Sound for Gaming Experience Enhancement"
-date: "2023-04-23"
-description: "게임 사운드로부터 실시간으로 선택적, 다중 모드(진동, 충격) 햅틱 효과를 자동 생성하여 사용자 경험을 향상시키는 알고리즘에 대한 논문"
-keywords:
-  [
-    "Machine Learning",
-    "Sound-Haptic Conversion",
-    "Audio-Haptic Conversion",
-    "Multimodal Haptic Effects",
-    "Automatic Generation",
-    "Game",
-    "Real-Time",
-    "Random Forest",
-    "User Experience",
-  ]
-tags:
-  [
-    "Machine Learning",
-    "Sound-Haptic Conversion",
-    "Audio-Haptic Conversion",
-    "Multimodal Haptic Effects",
-    "Automatic Generation",
-    "Game",
-    "Real-Time",
-    "Random Forest",
-    "User Experience",
-  ]
+title: Generating Real-Time, Selective, and Multimodal Haptic Effects from Sound for Gaming Experience Enhancement
+date: '2023-04-23'
+description: 게임 사운드로부터 실시간으로 선택적, 다중 모드(진동, 충격) 햅틱 효과를 자동 생성하여 사용자 경험을 향상시키는 알고리즘에 대한 논문
+tags: [Machine Learning, Sound-Haptic Conversion, Audio-Haptic Conversion, Multimodal Haptic Effects, Automatic Generation, Game, Real-Time, Random Forest, User Experience]
 authors:
-  [
-    "Gyeore Yun",
-    "Seungmoon Choi",
-  ]
+- name: Gyeore Yun
+- name: Seungmoon Choi
 ---
 
 # Generating Real-Time, Selective, and Multimodal Haptic Effects from Sound for Gaming Experience Enhancement
 
+<!--truncate-->
 ## 논문 정보
 
 - **제목 (Title)**: Generating Real-Time, Selective, and Multimodal Haptic Effects from Sound for Gaming Experience Enhancement

@@ -1,26 +1,17 @@
 ---
-title: "Small Language Models are the Future of Agentic AI"
-date: "2025-06-02"
-description: "에이전트 AI 시스템에서 대규모 언어 모델(LLM) 대신 소규모 언어 모델(SLM)을 사용하는 것이 성능, 운영, 비용 측면에서 더 효율적이고 필연적인 미래임을 주장하는 논문"
-keywords:
-  [
-    "Agentic Artificial Intelligence",
-    "Small Language Models",
-    "Large Language Models",
-    "AI Agents",
-    "Model Deployment",
-    "AI Economics",
-  ]
-tags:
-  [
-    "Agentic Artificial Intelligence",
-    "Small Language Models",
-    "Large Language Models",
-    "AI Agents",
-    "Model Deployment",
-    "AI Economics",
-  ]
-authors: ["Peter Belcak", "Greg Heinrich", "Shizhe Diao", "Yonggan Fu", "Xin Dong", "Saurav Muralidharan", "Yingyan Lin", "Pavlo Molchanov"]
+title: Small Language Models are the Future of Agentic AI
+date: '2025-06-02'
+description: 에이전트 AI 시스템에서 대규모 언어 모델(LLM) 대신 소규모 언어 모델(SLM)을 사용하는 것이 성능, 운영, 비용 측면에서 더 효율적이고 필연적인 미래임을 주장하는 논문
+tags: [Agentic Artificial Intelligence, Small Language Models, Large Language Model, Artificial Intelligence Agent, Model Deployment, AI Economics]
+authors:
+- name: Peter Belcak
+- name: Greg Heinrich
+- name: Shizhe Diao
+- name: Yonggan Fu
+- name: Xin Dong
+- name: Saurav Muralidharan
+- name: Yingyan Lin
+- name: Pavlo Molchanov
 ---
 ## 논문 정보
 

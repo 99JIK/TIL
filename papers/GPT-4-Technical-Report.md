@@ -1,11 +1,15 @@
 ---
-title: "GPT-4 Technical Report"
-authors: ["Sam Altman", "Greg Brockman", "Ilya Sutskever"]
-tags: [JIK_REFERENCE, Large Language Models, Multimodal, Benchmark]
+title: GPT-4 Technical Report
+authors:
+- name: Sam Altman
+- name: Greg Brockman
+- name: Ilya Sutskever
+tags: [JIK Reference, Large Language Model, Multimodal, Benchmark]
 ---
 
 # GPT-4 Technical Report
 
+<!--truncate-->
 OpenAI가 개발한 대규모 멀티모달 언어 모델 **GPT-4**의 기술 보고서. 이미지와 텍스트를 입력으로 받아 텍스트를 출력하며, 다양한 전문적·학술적 벤치마크에서 인간 수준의 성능을 달성한다.
 
 <!-- truncate -->

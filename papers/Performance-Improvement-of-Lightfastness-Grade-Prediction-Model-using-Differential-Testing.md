@@ -1,18 +1,15 @@
 ---
-title: "차분 테스트를 이용한 내광성 등급 예측 모델 성능 향상"
-date: "2024-06-26"
-description: "차분 테스트 기법을 응용하여 다수 모델이 공통으로 예측 실패하는 데이터를 이상치로 간주 및 제거 후 재학습함으로써, 데이터가 제한적인 산업 환경에서 내광성 등급 예측 모델의 성능을 향상시키는 기법을 제안한다."
-keywords:
-  [
-    lightfastness,
-    differential testing,
-    outlier detection,
-    textile industry,
-    machine learning,
-    performance improvement,
-  ]
+title: 차분 테스트를 이용한 내광성 등급 예측 모델 성능 향상
+date: '2024-06-26'
+description: 차분 테스트 기법을 응용하여 다수 모델이 공통으로 예측 실패하는 데이터를 이상치로 간주 및 제거 후 재학습함으로써, 데이터가 제한적인 산업 환경에서 내광성 등급 예측 모델의 성능을 향상시키는 기법을 제안한다.
 tags: [Lightfastness, Differential Testing, Outlier]
-authors: ["Daegyu Lee", "Kangbok Seo", "Deokyeop Kim", "Woojin Lee"]
+authors:
+- name: Daegyu Lee
+- name: Kangbok Seo
+- name: Deokyeop Kim
+- name: 이우진
+  title: 경북대학교 컴퓨터학부 전임교수
+  url: https://selab.knu.ac.kr
 ---
 
 ## 논문 정보

@@ -1,10 +1,13 @@
 ---
-title: "Large Language Models for Test-Free Fault Localization"
-date: "2024-04-14"
-description: "테스트 케이스 없이 사전 학습된 LLM의 표현과 양방향 어댑터 층을 결합하여 소스 코드만으로 결함 위치를 정확히 탐지하는 LLMAO 기법 제안"
-keywords: [Fault Localization, Large Language Models, Software Testing, Deep Learning, Security Vulnerability]
-tags: ["Fault Localization", "Large Language Models", "Software Engineering", "Neural Network", "Deep Learning"]
-authors: ["Aidan Z.H. Yang", "Ruben Martins", "Claire Le Goues", "Vincent J. Hellendoorn"]
+title: Large Language Models for Test-Free Fault Localization
+date: '2024-04-14'
+description: 테스트 케이스 없이 사전 학습된 LLM의 표현과 양방향 어댑터 층을 결합하여 소스 코드만으로 결함 위치를 정확히 탐지하는 LLMAO 기법 제안
+tags: [Fault Localization, Large Language Model, Software Engineering, Neural Network, Deep Learning]
+authors:
+- name: Aidan Z.H. Yang
+- name: Ruben Martins
+- name: Claire Le Goues
+- name: Vincent J. Hellendoorn
 ---
 
 ## 논문 정보

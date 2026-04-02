@@ -1,11 +1,12 @@
 ---
-title: "dSPACE SIL Introduction"
+title: dSPACE SIL Introduction
 authors: []
-tags: [JIK_REFERENCE, Software Testing, Artificial Intelligence]
+tags: [JIK Reference, Software Testing, Artificial Intelligence]
 ---
 
 # dSPACE SIL Introduction
 
+<!--truncate-->
 dSPACE의 Software-in-the-Loop(SIL) 테스팅 솔루션 소개 문서. 실제 하드웨어 없이 소프트웨어 모델만으로 자율주행·ADAS 시스템을 검증하는 방법론을 설명한다.
 
 <!-- truncate -->

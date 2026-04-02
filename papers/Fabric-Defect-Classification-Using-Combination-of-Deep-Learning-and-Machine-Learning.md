@@ -1,24 +1,11 @@
 ---
-title: "Fabric Defect Classification Using Combination of Deep Learning and Machine Learning"
-date: "2021-08-12"
-description: "딥러닝 모델의 특징 추출 기능과 SVM 분류기의 빠른 속도를 결합하여 원단 불량 분류의 정확도와 시간 효율성을 비교 분석한 논문"
-keywords:
-  [
-    "Fabric Defect",
-    "Deep Learning",
-    "Machine Learning",
-    "Support Vector Machine",
-    "Convolutional Neural Networks",
-  ]
-tags:
-  [
-    "Fabric Defect",
-    "Deep Learning",
-    "Machine Learning",
-    "Support Vector Machine",
-    "Convolutional Neural Networks",
-  ]
-authors: ["Semih UTKU", "Hakan ÖZDEMİR"]
+title: Fabric Defect Classification Using Combination of Deep Learning and Machine Learning
+date: '2021-08-12'
+description: 딥러닝 모델의 특징 추출 기능과 SVM 분류기의 빠른 속도를 결합하여 원단 불량 분류의 정확도와 시간 효율성을 비교 분석한 논문
+tags: [Fabric Defect, Deep Learning, Machine Learning, Support Vector Machine, Convolutional Neural Network]
+authors:
+- name: Semih UTKU
+- name: Hakan ÖZDEMİR
 ---
 
 ## 논문 정보

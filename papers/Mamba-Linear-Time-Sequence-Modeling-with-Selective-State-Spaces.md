@@ -1,11 +1,11 @@
 ---
-title: "Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
-date: "2024-05-31"
-description: "선택적 상태 공간 모델(Selective State Space Model)을 도입하여 Transformer 수준의 성능을 유지하면서 시퀀스 길이에 따라 선형적으로 확장되는 새로운 시퀀스 모델링 아키텍처 Mamba를 제안"
-keywords:
-  [sequence modeling, state space model, ssm, mamba, transformer, linear time]
-tags: ["State Space Models", "Architecture", "Efficiency", "Long-context"]
-authors: ["Albert Gu", "Tri Dao"]
+title: 'Mamba: Linear-Time Sequence Modeling with Selective State Spaces'
+date: '2024-05-31'
+description: 선택적 상태 공간 모델(Selective State Space Model)을 도입하여 Transformer 수준의 성능을 유지하면서 시퀀스 길이에 따라 선형적으로 확장되는 새로운 시퀀스 모델링 아키텍처 Mamba를 제안
+tags: [State Space Models, Architecture, Efficiency, Long-context]
+authors:
+- name: Albert Gu
+- name: Tri Dao
 ---
 
 ## 논문 정보

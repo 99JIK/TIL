@@ -1,22 +1,17 @@
 ---
-title: "SMALL LANGUAGE MODELS: SURVEY, MEASUREMENTS, AND INSIGHTS"
-date: "2025-02-26"
-description: "70개의 소형 언어 모델(SLM)에 대한 포괄적인 서베이로, 아키텍처, 데이터셋, 학습 알고리즘을 분석하고 온디바이스 성능을 벤치마킹하여 연구 방향을 제시한다."
-keywords:
-  [
-    "Small Language Models",
-    "Edge Artificial Intelligence",
-    "On-device Inference",
-    "Language Model Survey",
-  ]
-tags:
-  [
-    "Small Language Models",
-    "Edge Artificial Intelligence",
-    "On-device Inference",
-    "Language Model Survey",
-  ]
-authors: ["Zhenyan Lu", "Xiang Li", "Dongqi Cai", "Rongjie Yi", "Fangming Liu", "Xiwen Zhang", "Nicholas D. Lane", "Mengwei Xu"]
+title: 'SMALL LANGUAGE MODELS: SURVEY, MEASUREMENTS, AND INSIGHTS'
+date: '2025-02-26'
+description: 70개의 소형 언어 모델(SLM)에 대한 포괄적인 서베이로, 아키텍처, 데이터셋, 학습 알고리즘을 분석하고 온디바이스 성능을 벤치마킹하여 연구 방향을 제시한다.
+tags: [Small Language Models, Edge Artificial Intelligence, On-device Inference, Language Model Survey]
+authors:
+- name: Zhenyan Lu
+- name: Xiang Li
+- name: Dongqi Cai
+- name: Rongjie Yi
+- name: Fangming Liu
+- name: Xiwen Zhang
+- name: Nicholas D. Lane
+- name: Mengwei Xu
 ---
 
 ## 논문 정보

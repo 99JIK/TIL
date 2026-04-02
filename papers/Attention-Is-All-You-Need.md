@@ -1,22 +1,17 @@
 ---
-title: "Attention Is All You Need"
-date: "2017-12-06"
-description: "순환 신경망(RNN)이나 합성곱 신경망(CNN)을 사용하지 않고, 오직 어텐션 메커니즘에만 기반한 새로운 네트워크 아키텍처인 트랜스포머(Transformer)를 제안한다."
-keywords:
-  [
-    transformer,
-    attention,
-    self-attention,
-    machine translation,
-    sequence transduction,
-  ]
-tags:
-  [
-    Natural Language Processing,
-    Deep Learning,
-    Neural Information Processing Systems,
-  ]
-authors: ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan N. Gomez", "Lukasz Kaiser", "Illia Polosukhin"]
+title: Attention Is All You Need
+date: '2017-12-06'
+description: 순환 신경망(RNN)이나 합성곱 신경망(CNN)을 사용하지 않고, 오직 어텐션 메커니즘에만 기반한 새로운 네트워크 아키텍처인 트랜스포머(Transformer)를 제안한다.
+tags: [Natural Language Processing, Deep Learning, Neural Information Processing Systems]
+authors:
+- name: Ashish Vaswani
+- name: Noam Shazeer
+- name: Niki Parmar
+- name: Jakob Uszkoreit
+- name: Llion Jones
+- name: Aidan N. Gomez
+- name: Lukasz Kaiser
+- name: Illia Polosukhin
 ---
 
 ## 논문 정보

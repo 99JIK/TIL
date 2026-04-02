@@ -1,18 +1,12 @@
 ---
-title: "TRINITY: A Fast Compressed Multi-attribute Data Store"
-date: "2024-04-22"
-description: "새로운 동적 압축 다차원 데이터 구조인 MDTRIE를 사용하여 다중 속성 데이터에 대한 빠르고 저장 효율적인 쿼리를 동시에 지원하는 시스템"
-keywords:
-  [
-    multi-attribute,
-    data store,
-    compressed data,
-    query processing,
-    succinct data structure,
-    morton code,
-  ]
+title: 'TRINITY: A Fast Compressed Multi-attribute Data Store'
+date: '2024-04-22'
+description: 새로운 동적 압축 다차원 데이터 구조인 MDTRIE를 사용하여 다중 속성 데이터에 대한 빠르고 저장 효율적인 쿼리를 동시에 지원하는 시스템
 tags: [Data Store, In-memory Database, Multi-dimensional Index, Performance]
-authors: ["Ziming Mao", "Kiran Srinivasan", "Anurag Khandelwal"]
+authors:
+- name: Ziming Mao
+- name: Kiran Srinivasan
+- name: Anurag Khandelwal
 ---
 
 ## 논문 정보

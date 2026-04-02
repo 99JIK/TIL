@@ -1,11 +1,18 @@
 ---
-title: "An Architecture for Autonomy"
-authors: ["R. Peter Bonasso", "R. James Firby", "Erann Gat", "David Kortenkamp", "David P. Miller", "Marc G. Slack"]
+title: An Architecture for Autonomy
+authors:
+- name: R. Peter Bonasso
+- name: R. James Firby
+- name: Erann Gat
+- name: David Kortenkamp
+- name: David P. Miller
+- name: Marc G. Slack
 tags: [Architecture, Artificial Intelligence, Behavior Tree]
 ---
 
 # An Architecture for Autonomy
 
+<!--truncate-->
 자율 로봇 시스템을 위한 3계층(3T) 아키텍처를 제안한다. 반응적 제어·시퀀싱·계획을 분리된 계층으로 구성하여 복잡한 자율 행동을 체계적으로 구현하는 방법론을 다룬다.
 
 <!-- truncate -->

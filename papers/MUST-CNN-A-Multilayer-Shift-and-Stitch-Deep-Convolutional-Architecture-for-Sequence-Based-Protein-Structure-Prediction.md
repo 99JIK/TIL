@@ -1,23 +1,12 @@
 ---
-title: "MUST-CNN: A Multilayer Shift-and-Stitch Deep Convolutional Architecture for Sequence-Based Protein Structure Prediction"
-date: "2016-02-12"
-description: "이미지 분류에서 영감을 얻어, 단백질 서열의 위치별 속성 예측을 위해 완전 밀집(fully dense) 예측을 생성하는 새로운 Multilayer Shift-and-Stitch(MUST) 기법을 적용한 딥 컨볼루션 신경망(MUST-CNN) 아키텍처를 제안한 논문"
-keywords:
-  [
-    "MUST-CNN",
-    "Protein Structure Prediction",
-    "Deep Learning",
-    "Convolutional Neural Network",
-    "Shift-and-Stitch",
-  ]
-tags:
-  [
-    "Deep Learning",
-    "Convolutional Neural Network",
-    "Bioinformatics",
-    "Protein Structure Prediction",
-  ]
-authors: ["Zeming Lin", "Jack Lanchantin", "Yanjun Qi"]
+title: 'MUST-CNN: A Multilayer Shift-and-Stitch Deep Convolutional Architecture for Sequence-Based Protein Structure Prediction'
+date: '2016-02-12'
+description: 이미지 분류에서 영감을 얻어, 단백질 서열의 위치별 속성 예측을 위해 완전 밀집(fully dense) 예측을 생성하는 새로운 Multilayer Shift-and-Stitch(MUST) 기법을 적용한 딥 컨볼루션 신경망(MUST-CNN) 아키텍처를 제안한 논문
+tags: [Deep Learning, Convolutional Neural Network, Bioinformatics, Protein Structure Prediction]
+authors:
+- name: Zeming Lin
+- name: Jack Lanchantin
+- name: Yanjun Qi
 ---
 
 ## 논문 정보

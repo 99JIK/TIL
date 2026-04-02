@@ -1,12 +1,15 @@
 ---
 slug: Automated Generation of Test Scenarios for Autonomous Driving Using LLMs
-title: "Automated Generation of Test Scenarios for Autonomous Driving Using LLMs"
-authors: [Aaron Agyapong Danso, Ulrich Büker]
-tags: [Large Language Models, Autonomous Driving, Test Scenario Generation, CARLA Simulation, ScenarioRunner, Operational Design Domain, Tree of Thoughts, Chain-of-Thought, Prompt Engineering, Red Teaming]
+title: Automated Generation of Test Scenarios for Autonomous Driving Using LLMs
+authors:
+- name: Aaron Agyapong Danso
+- name: Ulrich Büker
+tags: [Large Language Model, Autonomous Driving, Test Scenario Generation, CARLA Simulation, ScenarioRunner, Operational Design Domain, Tree of Thoughts, Chain-of-Thought, Prompt Engineering, Red Teaming]
 ---
 
 # Automated Generation of Test Scenarios for Autonomous Driving Using LLMs
 
+<!--truncate-->
 ## 논문 정보
 - **제목**: Automated Generation of Test Scenarios for Autonomous Driving Using LLMs
 - **저자**: Aaron Agyapong Danso, Ulrich Büker 

@@ -1,11 +1,19 @@
 ---
-title: "Scenic: A Language for Scenario Specification and Data Generation"
-authors: ["Daniel J. Fremont", "Edward Kim", "Tommaso Dreossi", "Shromona Ghosh", "Xiangyu Yue", "Alberto L. Sangiovanni-Vincentelli", "Sanjit A. Seshia"]
-tags: [JIK_REFERENCE, Machine Learning, Software Testing, Test Generation, Artificial Intelligence, Automatic Generation]
+title: 'Scenic: A Language for Scenario Specification and Data Generation'
+authors:
+- name: Daniel J. Fremont
+- name: Edward Kim
+- name: Tommaso Dreossi
+- name: Shromona Ghosh
+- name: Xiangyu Yue
+- name: Alberto L. Sangiovanni-Vincentelli
+- name: Sanjit A. Seshia
+tags: [JIK Reference, Machine Learning, Software Testing, Test Generation, Artificial Intelligence, Automatic Generation]
 ---
 
 # Scenic: A Language for Scenario Specification and Data Generation
 
+<!--truncate-->
 자율주행 시스템 테스트 및 학습 데이터 생성을 위한 확률론적 시나리오 명세 언어 **Scenic**을 소개한다. UC Berkeley에서 개발되었으며 Machine Learning 저널에 게재되었다.
 
 <!-- truncate -->

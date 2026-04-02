@@ -1,11 +1,20 @@
 ---
-title: "Evaluating Large Language Models Trained on Code"
-authors: ["Mark Chen", "Jerry Tworek", "Heewoo Jun", "Qiming Yuan", "Jared Kaplan", "Greg Brockman", "Ilya Sutskever", "Wojciech Zaremba"]
-tags: [JIK_REFERENCE, Large Language Models, Code Generation, Benchmark]
+title: Evaluating Large Language Models Trained on Code
+authors:
+- name: Mark Chen
+- name: Jerry Tworek
+- name: Heewoo Jun
+- name: Qiming Yuan
+- name: Jared Kaplan
+- name: Greg Brockman
+- name: Ilya Sutskever
+- name: Wojciech Zaremba
+tags: [JIK Reference, Large Language Model, Code Generation, Benchmark]
 ---
 
 # Evaluating Large Language Models Trained on Code
 
+<!--truncate-->
 GitHub 공개 코드로 파인튜닝된 GPT 언어 모델 **Codex**를 소개하고, Python 코드 생성 능력을 평가하는 벤치마크 **HumanEval**을 제안한다. GitHub Copilot의 기반 모델이다.
 
 <!-- truncate -->

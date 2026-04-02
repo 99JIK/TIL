@@ -1,24 +1,11 @@
 ---
-title: "XGBoost: A Scalable Tree Boosting System"
-date: "2016-08-13"
-description: "희소 데이터를 위한 새로운 알고리즘과 시스템 최적화를 통해 기존 시스템보다 훨씬 적은 리소스로 수십억 개의 예제를 처리할 수 있는 확장 가능한 엔드투엔드 트리 부스팅 시스템인 XGBoost를 제안한다."
-keywords:
-  [
-    "Large-scale Machine Learning",
-    "Tree Boosting",
-    "Scalable Systems",
-    "XGBoost",
-    "Gradient Boosting",
-  ]
-tags:
-  [
-    "Machine Learning",
-    "Knowledge Discovery and Data Mining",
-    "Tree Boosting",
-    "Scalability",
-    "Optimization",
-  ]
-authors: ["Tianqi Chen", "Carlos Guestrin"]
+title: 'XGBoost: A Scalable Tree Boosting System'
+date: '2016-08-13'
+description: 희소 데이터를 위한 새로운 알고리즘과 시스템 최적화를 통해 기존 시스템보다 훨씬 적은 리소스로 수십억 개의 예제를 처리할 수 있는 확장 가능한 엔드투엔드 트리 부스팅 시스템인 XGBoost를 제안한다.
+tags: [Machine Learning, Knowledge Discovery and Data Mining, Tree Boosting, Scalability, Optimization]
+authors:
+- name: Tianqi Chen
+- name: Carlos Guestrin
 ---
 
 ## 논문 정보

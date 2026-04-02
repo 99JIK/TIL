@@ -1,25 +1,13 @@
 ---
-title: "Optimization of spinning processes in textile manufacturing using reinforcement learning"
-date: "2024-05-18"
-description: "강화학습 Q-러닝 알고리즘을 사용하여 섬유 방사 공정의 강도 및 신율 특성을 최적화하는 데이터 기반 방법론을 제안"
-keywords:
-  [
-    "Reinforcement Learning",
-    "Q-learning",
-    "Smart Factory",
-    "Textile Manufacturing",
-    "Process Optimization",
-  ]
-tags:
-  [
-    "Reinforcement Learning",
-    "Q-learning",
-    "Smart Factory",
-    "Textile Manufacturing",
-    "Process Optimization",
-  ]
+title: Optimization of spinning processes in textile manufacturing using reinforcement learning
+date: '2024-05-18'
+description: 강화학습 Q-러닝 알고리즘을 사용하여 섬유 방사 공정의 강도 및 신율 특성을 최적화하는 데이터 기반 방법론을 제안
+tags: [Reinforcement Learning, Q-learning, Smart Factory, Textile Manufacturing, Process Optimization]
 authors:
-  ["Seyed Mohammad Mehdi Sajadieh", "Hye Kyung Choi", "Whan Lee", "Sang Do Noh"]
+- name: Seyed Mohammad Mehdi Sajadieh
+- name: Hye Kyung Choi
+- name: Whan Lee
+- name: Sang Do Noh
 ---
 
 ## 논문 정보

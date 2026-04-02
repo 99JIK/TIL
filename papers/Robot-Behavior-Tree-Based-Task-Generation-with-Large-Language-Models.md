@@ -1,11 +1,14 @@
 ---
 title: Robot Behavior-Tree-Based Task Generation with Large Language Models
-authors: ["Yue Cao", "C.S. George Lee"]
-tags: [JIK_REFERENCE, Robotics, Behavior Trees, LLM, Task Generation]
+authors:
+- name: Yue Cao
+- name: C.S. George Lee
+tags: [JIK Reference, Robotics, Behavior Tree, Large Language Model, Task Generation]
 ---
 
 # Robot Behavior-Tree-Based Task Generation with Large Language Models
 
+<!--truncate-->
 Nowadays, the behavior tree is gaining popularity as a representation for robot tasks due to its modularity and reusability. Designing behavior-tree tasks manually is time-consuming for robot end-users, thus there is a need for investigating automatic behavior-tree-based task generation. 
 
 Prior behavior-tree-based task generation approaches focus on fixed primitive tasks and lack generalizability to new task domains. To cope with this issue, we propose a novel behavior-tree-based task generation approach that utilizes state-of-the-art large language models. 

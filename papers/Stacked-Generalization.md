@@ -1,24 +1,10 @@
 ---
-title: "Stacked Generalization"
-date: "1992-12-01"
-description: "개별 일반화기(generalizer)의 예측을 입력으로 사용하는 상위 레벨 일반화기를 학습시켜 일반화 오류를 최소화하는 스태킹(stacking) 기법을 제안"
-keywords:
-  [
-    "generalization and induction",
-    "combining generalizers",
-    "learning set pre-processing",
-    "cross-validation",
-    "error estimation and correction",
-  ]
-tags:
-  [
-    "Generalization And Induction",
-    "Combining Generalizers",
-    "Learning Set Pre-processing",
-    "Cross Validation",
-    "Error Estimation And Correction",
-  ]
-authors: ["David H. Wolpert"]
+title: Stacked Generalization
+date: '1992-12-01'
+description: 개별 일반화기(generalizer)의 예측을 입력으로 사용하는 상위 레벨 일반화기를 학습시켜 일반화 오류를 최소화하는 스태킹(stacking) 기법을 제안
+tags: [Generalization And Induction, Combining Generalizers, Learning Set Pre-processing, Cross Validation, Error Estimation And Correction]
+authors:
+- name: David H. Wolpert
 ---
 
 ## 논문 정보

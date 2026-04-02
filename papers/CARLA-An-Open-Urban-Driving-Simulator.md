@@ -1,11 +1,17 @@
 ---
-title: "CARLA: An Open Urban Driving Simulator"
-authors: ["Alexey Dosovitskiy", "German Ros", "Felipe Codevilla", "Antonio Lopez", "Vladlen Koltun"]
-tags: [JIK_REFERENCE, Deep Learning, Artificial Intelligence, Reinforcement Learning, End-to-End]
+title: 'CARLA: An Open Urban Driving Simulator'
+authors:
+- name: Alexey Dosovitskiy
+- name: German Ros
+- name: Felipe Codevilla
+- name: Antonio Lopez
+- name: Vladlen Koltun
+tags: [JIK Reference, Deep Learning, Artificial Intelligence, Reinforcement Learning, End-to-End]
 ---
 
 # CARLA: An Open Urban Driving Simulator
 
+<!--truncate-->
 자율주행 연구를 위한 오픈소스 도심 주행 시뮬레이터 CARLA를 소개한다. 개발·훈련·검증 파이프라인 전반을 지원하도록 설계되었으며, CoRL 2017에서 발표되었다.
 
 <!-- truncate -->

@@ -1,10 +1,14 @@
 ---
-title: "Identifying Bug Inducing Commits by Combining Fault Localisation and Code Change Histories"
-date: "2025-02-19"
-description: "결함 위치 파악(Fault Localisation) 점수와 코드 변경 이력(Change History)을 결합하여 버그 유발 커밋(BIC)을 식별하는 FONTE 기법을 제안"
-keywords: ["Bug Inducing Commit", "Commit Level Fault Localisation", "Fault Localisation", "Code Change History", "Bisection", "Batch Testing"]
-tags: ["Bug Inducing Commit", "Fault Localization", "Code Change History", "Bisection", "Batch Testing"]
-authors: ["Gabin An", "Jinsu Choi", "Jingun Hong", "Naryeong Kim", "Shin Yoo"]
+title: Identifying Bug Inducing Commits by Combining Fault Localisation and Code Change Histories
+date: '2025-02-19'
+description: 결함 위치 파악(Fault Localisation) 점수와 코드 변경 이력(Change History)을 결합하여 버그 유발 커밋(BIC)을 식별하는 FONTE 기법을 제안
+tags: [Bug Inducing Commit, Fault Localization, Code Change History, Bisection, Batch Testing]
+authors:
+- name: Gabin An
+- name: Jinsu Choi
+- name: Jingun Hong
+- name: Naryeong Kim
+- name: Shin Yoo
 ---
 
 ## 논문 정보

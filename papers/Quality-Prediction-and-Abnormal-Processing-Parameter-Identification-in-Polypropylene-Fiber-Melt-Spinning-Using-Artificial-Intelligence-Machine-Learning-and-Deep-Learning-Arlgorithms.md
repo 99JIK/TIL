@@ -1,26 +1,12 @@
 ---
-title: "Quality Prediction and Abnormal Processing Parameter Identification in Polypropylene Fiber Melt Spinning Using Artificial Intelligence Machine Learning and Deep Learning Algorithms"
-date: "2022-07-04"
-description: "인공지능 알고리즘을 사용하여 폴리프로필렌 섬유 용융 방사 공정에서 이상 공정 파라미터를 탐지하고 품질을 개선하는 시스템을 제안한다."
-keywords:
-  [
-    "melt spinning machine",
-    "artificial intelligence",
-    "machine learning",
-    "random forest",
-    "deep learning",
-    "neural network",
-  ]
-tags:
-  [
-    "Melt Spinning Machine",
-    "Artificial Intelligence",
-    "Machine Learning",
-    "Random Forest",
-    "Deep Learning",
-    "Neural Network",
-  ]
-authors: ["Amit Kumar Gope", "Yu-Shu Liao", "Chung-Feng Jeffrey Kuo"]
+title: Quality Prediction and Abnormal Processing Parameter Identification in Polypropylene Fiber Melt Spinning Using Artificial Intelligence Machine Learning and Deep Learning Algorithms
+date: '2022-07-04'
+description: 인공지능 알고리즘을 사용하여 폴리프로필렌 섬유 용융 방사 공정에서 이상 공정 파라미터를 탐지하고 품질을 개선하는 시스템을 제안한다.
+tags: [Melt Spinning Machine, Artificial Intelligence, Machine Learning, Random Forest, Deep Learning, Neural Network]
+authors:
+- name: Amit Kumar Gope
+- name: Yu-Shu Liao
+- name: Chung-Feng Jeffrey Kuo
 ---
 
 ## 논문 정보

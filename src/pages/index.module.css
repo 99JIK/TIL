@@ -1,16 +1,20 @@
 .homePageWrapper {
   background-color: var(--ifm-background-surface-color);
-  padding: 2rem 0;
+  padding: 2.5rem 0;
 }
 
 .newspaperContainer {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 2.5rem 2rem;
   background-color: var(--ifm-background-color);
-  box-shadow: 0 5px 25px rgba(0,0,0,0.07);
-  border-radius: 8px;
-  font-family: 'Noto Sans KR', sans-serif;
+  border: 1px solid var(--toss-border-color);
+  border-radius: 20px;
+  font-family: var(--ifm-font-family-base);
+}
+
+[data-theme='dark'] .newspaperContainer {
+  border-color: var(--toss-border-color);
 }
 
 .newspaperHeader {
@@ -22,10 +26,10 @@
 
 .newspaperTitle {
   font-size: 2.8rem;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 0.3rem;
   color: var(--ifm-heading-color);
-  letter-spacing: -0.025em;
+  letter-spacing: -0.04em;
 }
 
 .newspaperDate {
@@ -36,24 +40,30 @@
 
 .newspaperGrid {
   display: grid;
-  grid-template-columns: repeat(12, 1fr); /* 12단 그리드 */
-  grid-template-rows: repeat(2, auto); 
-  gap: 1.8rem;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 1.5rem;
 }
 
+/* --- Card --- */
 .newspaperCard {
-  background-color: var(--ifm-card-background-color);
-  border-radius: var(--ifm-card-border-radius);
-  border: 1px solid var(--ifm-hover-overlay);
+  background-color: var(--ifm-background-surface-color);
+  border-radius: 16px;
+  border: none;
   display: flex;
   flex-direction: column;
-  transition: transform 0.25s ease-out, box-shadow 0.25s ease-out;
-  overflow: hidden; 
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
 }
 
 .newspaperCard:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme='dark'] .newspaperCard:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .articleLinkWrapper {
@@ -62,14 +72,14 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  height: 100%; 
+  height: 100%;
 }
 .articleLinkWrapper:hover .articleTitle {
-  color: var(--ifm-color-primary-dark);
+  color: var(--ifm-color-primary);
 }
 
-.articleContent { 
-  padding: 1.25rem;
+.articleContent {
+  padding: 1.5rem;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -77,30 +87,33 @@
 
 .mainArticleImage {
   width: 100%;
-  height: 200px; 
+  height: 200px;
   object-fit: cover;
   display: block;
 }
 
 .articleTitle {
-  font-size: 1.3rem; 
+  font-size: 1.3rem;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0.5rem;
   color: var(--ifm-heading-color);
-  line-height: 1.35;
-  transition: color 0.2s ease-in-out;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  transition: color 0.12s ease;
 }
 
 .gridMainArticle .articleTitle {
   font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
 }
 
 .articleSummary {
   font-size: 0.9rem;
-  line-height: 1.6;
+  line-height: 1.65;
   color: var(--ifm-font-color-secondary);
-  flex-grow: 1; 
+  flex-grow: 1;
   margin-bottom: 1rem;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -111,58 +124,62 @@
 .gridMainArticle .articleSummary { -webkit-line-clamp: 5; }
 .gridGuide .articleSummary { -webkit-line-clamp: 4; }
 
-
 .readMoreButton {
   align-self: flex-start;
-  margin: 0 1.25rem 1.25rem 1.25rem; 
+  margin: 0 1.5rem 1.5rem 1.5rem;
   font-size: 0.85rem !important;
-  padding: 0.4rem 0.9rem !important;
+  font-weight: 600 !important;
+  padding: 0.45rem 1rem !important;
+  border-radius: 10px !important;
 }
 
 /* 사이드 광고 (키워드) */
-.sideAds { 
-  padding: 1.25rem;
+.sideAds {
+  padding: 1.5rem;
   text-align: center;
   justify-content: center;
 }
 .sideAdTitle {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 0.5rem;
-  color: var(--ifm-font-color-secondary);
+  color: var(--ifm-heading-color);
+  letter-spacing: -0.02em;
 }
 .sideAdText {
   font-size: 0.85rem;
   margin-bottom: 1rem;
   color: var(--ifm-font-color-secondary);
+  line-height: 1.6;
 }
 .sideAdButton {
   font-size: 0.85rem !important;
-  padding: 0.5rem 1rem !important;
+  font-weight: 600 !important;
+  padding: 0.45rem 1rem !important;
+  border-radius: 10px !important;
   width: auto;
   display: inline-block;
 }
 
 /* 실제 광고 영역 */
-.realAdSpace { 
-  padding: 0; 
+.realAdSpace {
+  padding: 0;
   justify-content: center;
   align-items: center;
-  background-color: var(--ifm-background-surface-color); 
+  background-color: var(--ifm-background-surface-color);
 }
-/* .realAdSpace:hover 스타일 제거하여 .newspaperCard:hover 스타일 상속 */
 
 .adImage {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain; 
-  border-radius: var(--ifm-card-border-radius);
+  object-fit: contain;
+  border-radius: 16px;
 }
 
 /* 최신 학습 & 소식 */
-.latestNewsSectionContainer { 
-  padding: 1.25rem;
+.latestNewsSectionContainer {
+  padding: 1.5rem;
 }
 .latestNewsSectionContainer .articleTitle {
    margin-bottom: 1rem;
@@ -172,17 +189,18 @@
 }
 .latestNewsContent {
   flex-grow: 1;
-  overflow-y: auto; 
+  overflow-y: auto;
 }
 .latestNewsSectionContainer :global(.newsItemsContainer) {
   gap: 0.8rem;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 .latestNewsSectionContainer :global(.newsItemCard) {
-  border: 1px solid var(--ifm-hover-overlay);
+  border: 1px solid var(--toss-border-color);
   box-shadow: none;
-  min-height: auto; 
+  min-height: auto;
   padding: 0.8rem;
+  border-radius: 10px;
 }
 .latestNewsSectionContainer :global(.newsItemTitle) {
   font-size: 1rem;
@@ -207,45 +225,59 @@
 
 
 /* --- 그리드 아이템 배치 --- */
-/* 모바일 (기본값): 12컬럼 전체 사용, 순서대로 쌓임 */
-.gridMainArticle, .gridKeywordsAd, .gridAdPlaceholder, .gridLatestNews, .gridGuide {
+.gridA1, .gridA2, .gridA3,
+.gridB1,
+.gridC1, .gridC2,
+.gridD1 {
   grid-column: span 12;
 }
-/* 데스크탑 (1024px 이상) */
+
+/* Desktop (1024px+) */
 @media screen and (min-width: 1024px) {
-  .gridMainArticle { 
-    grid-column: 1 / span 7; /* 7칸 */
-    grid-row: 1 / span 2;    /* 2개 행 높이 차지 (더 커짐) */
+  /* A: 4-4-4 three equal — Profile + Lucky + Stats */
+  .gridA1 {
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 1;
   }
-  .gridKeywordsAd { 
-    grid-column: 8 / span 5; /* 5칸 */
-    grid-row: 1 / span 1;    /* 첫 번째 행, 첫 번째 아이템 */
-    align-self: flex-start; 
-    min-height: 150px; /* 높이 조정 */
-    max-height: 180px;
+  .gridA2 {
+    grid-column: 5 / span 4;
+    grid-row: 1 / span 1;
   }
-  .gridAdPlaceholder { 
-    grid-column: 8 / span 5; /* 5칸 */
-    grid-row: 2 / span 1;    /* 두 번째 행, 첫 번째 아이템 (키워드 광고 아래로 이동) */
-    align-self: flex-start;
-    min-height: 150px; /* 높이 조정 */
-    max-height: 180px;
+  .gridA3 {
+    grid-column: 9 / span 4;
+    grid-row: 1 / span 1;
   }
-  .gridLatestNews { 
-    grid-column: 6 / span 7; /* 7칸 */
-    grid-row: 3 / span 2;    /* 세 번째 행부터 2개 행 높이 차지 (더 커짐) */
+
+  /* B: Timeline full width */
+  .gridB1 {
+    grid-column: 1 / span 12;
+    grid-row: 2 / span 1;
   }
-  .gridGuide { 
-    grid-column: 1 / span 5; /* 5칸 */
-    grid-row: 3 / span 2;    /* 세 번째 행부터 2개 행 높이 차지 */
+
+  /* C: Papers (6) + Docs (6) */
+  .gridC1 {
+    grid-column: 1 / span 6;
+    grid-row: 3 / span 1;
+  }
+  .gridC2 {
+    grid-column: 7 / span 6;
+    grid-row: 3 / span 1;
+  }
+
+  /* D: Guide full width */
+  .gridD1 {
+    grid-column: 1 / span 12;
+    grid-row: 4 / span 1;
   }
 }
 
-/* 태블릿 (768px ~ 1023px) */
+/* Tablet (768px ~ 1023px) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .gridMainArticle { grid-column: span 12; grid-row: auto; }
-  .gridKeywordsAd { grid-column: span 6; grid-row: auto; margin-top: 0; min-height: auto; max-height: none; }
-  .gridAdPlaceholder { grid-column: span 6; grid-row: auto; margin-top: 0; min-height: auto; max-height: none; }
-  .gridLatestNews { grid-column: span 12; grid-row: auto; }
-  .gridGuide { grid-column: span 12; grid-row: auto; }
+  .gridA1 { grid-column: span 4; }
+  .gridA2 { grid-column: span 4; }
+  .gridA3 { grid-column: span 4; }
+  .gridB1 { grid-column: span 12; }
+  .gridC1 { grid-column: span 6; }
+  .gridC2 { grid-column: span 6; }
+  .gridD1 { grid-column: span 12; }
 }

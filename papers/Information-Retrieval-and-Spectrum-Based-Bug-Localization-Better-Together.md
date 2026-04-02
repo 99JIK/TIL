@@ -1,10 +1,12 @@
 ---
-title: "Information Retrieval and Spectrum Based Bug Localization: Better Together"
-date: "2025-11-22"
-description: "정보 검색과 스펙트럼 기반 기법을 결합하고, 의심스러운 단어 분석 및 적응형 가중치 조정을 통해 버그 위치 추정 성능을 획기적으로 개선한 AML 기법 제안"
-keywords: [Bug Localization, Information Retrieval, Program Spectra, Software Engineering, Debugging]
-tags: ["Bug Localization", "Information Retrieval", "Program Spectra", "Software Engineering", "Debugging"]
-authors: ["Tien-Duy B. Le", "Richard J. Oentaryo", "David Lo"]
+title: 'Information Retrieval and Spectrum Based Bug Localization: Better Together'
+date: '2025-11-22'
+description: 정보 검색과 스펙트럼 기반 기법을 결합하고, 의심스러운 단어 분석 및 적응형 가중치 조정을 통해 버그 위치 추정 성능을 획기적으로 개선한 AML 기법 제안
+tags: [Bug Localization, Information Retrieval, Program Spectra, Software Engineering, Debugging]
+authors:
+- name: Tien-Duy B. Le
+- name: Richard J. Oentaryo
+- name: David Lo
 ---
 
 ## 논문 정보

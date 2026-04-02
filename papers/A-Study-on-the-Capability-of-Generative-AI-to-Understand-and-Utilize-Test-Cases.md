@@ -1,17 +1,16 @@
 ---
-title: "A Study on the Capability of Generative AI to Understand and Utilize Test Cases"
-date: "2025-06-20"
-description: "GPT-4.1의 코드 생성 과정에서 테스트케이스(TC) 정보 제공이 항상 성능 향상으로 이어지지 않으며, TC 이해 및 생성 능력에 한계가 있음을 실험적으로 분석한 논문"
-keywords:
-  [
-    Generative AI,
-    Large Language Model,
-    Test Case,
-    Competitive Programming,
-    Code Generation,
-  ]
-tags: [Large Language Models, ChatGPT, Software Testing, Prompt Engineering]
-authors: ["JIK", "Woojin Lee"]
+title: A Study on the Capability of Generative AI to Understand and Utilize Test Cases
+date: '2025-06-20'
+description: GPT-4.1의 코드 생성 과정에서 테스트케이스(TC) 정보 제공이 항상 성능 향상으로 이어지지 않으며, TC 이해 및 생성 능력에 한계가 있음을 실험적으로 분석한 논문
+tags: [Large Language Model, ChatGPT, Software Testing, Prompt Engineering]
+authors:
+- name: 김정인
+  title: 경북대학교 컴퓨터학부 석사과정생
+  url: https://github.com/99JIK
+  image_url: https://avatars.githubusercontent.com/u/59440722
+- name: 이우진
+  title: 경북대학교 컴퓨터학부 전임교수
+  url: https://selab.knu.ac.kr
 ---
 
 ## 논문 정보

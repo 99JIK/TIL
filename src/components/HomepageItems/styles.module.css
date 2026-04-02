@@ -1,20 +1,15 @@
-.mainArticleCard {
-}
-.keywordsAdCard {
-}
-.adPlaceholderCard {
-}
-.FeelingLuckyItem {
-}
-.guideCard {
-}
+.mainArticleCard {}
+.keywordsAdCard {}
+.adPlaceholderCard {}
+.FeelingLuckyItem {}
+.guideCard {}
 
+/* ===== Feeling Lucky ===== */
 .luckyCard {
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 2rem 1.5rem;
-  background: var(--ifm-background-surface-color);
 }
 
 .luckyCard .content {
@@ -22,44 +17,45 @@
 }
 
 .luckyTitle {
-  font-size: 1.8rem !important; /* 페이지 제목이 아니므로 크기 조정 */
-  margin-bottom: 1rem !important;
+  font-size: 1.6rem !important;
+  font-weight: 800 !important;
+  margin-bottom: 0.75rem !important;
   border-bottom: none !important;
   text-align: center !important;
-  background: linear-gradient(45deg, var(--ifm-color-primary), var(--ifm-color-primary-dark));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: var(--ifm-color-primary); /* Fallback */
+  color: var(--ifm-heading-color) !important;
+  -webkit-text-fill-color: unset;
+  background: none;
+  letter-spacing: -0.03em;
 }
 
 .description {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--ifm-font-color-secondary);
   margin-bottom: 2rem;
-  line-height: 1.7;
+  line-height: 1.65;
 }
 
 .luckyButton {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 700;
   padding: 0.7rem 2rem;
-  border-radius: 50px;
+  border-radius: 12px;
   border: none;
-  background-image: linear-gradient(45deg, var(--ifm-color-primary-light), var(--ifm-color-primary-dark));
-  color: white;
+  background: var(--ifm-color-primary);
+  color: #ffffff;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .luckyButton:hover:not(:disabled) {
-  transform: translateY(-3px) scale(1.03);
-  box-shadow: 0 6px 20px rgba(var(--ifm-color-primary-rgb), 0.2);
+  background: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(49, 130, 246, 0.2);
 }
 
 .luckyButton:disabled {
   cursor: not-allowed;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .loadingText {
@@ -68,13 +64,333 @@
 }
 
 @keyframes pulse {
-  0% {
-    opacity: 0.5;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.5;
-  }
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+/* ===== Paper Stats Card ===== */
+.statsCard {
+  padding: 1.25rem 1.5rem;
+  justify-content: center;
+}
+
+.statsContent {
+  width: 100%;
+}
+
+.statsHeader {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ifm-font-color-secondary);
+  margin-bottom: 1rem;
+}
+
+.statsGrid {
+  display: flex;
+  gap: 0;
+  justify-content: space-between;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  text-decoration: none !important;
+  color: inherit !important;
+  padding: 0.5rem 0;
+  border-radius: 10px;
+  transition: background-color 0.12s ease;
+}
+
+a.statItem:hover {
+  background-color: var(--toss-blue-bg);
+}
+
+.statNumber {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--ifm-heading-color);
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+a.statItem:hover .statNumber {
+  color: var(--ifm-color-primary);
+}
+
+.statLabel {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--ifm-font-color-secondary);
+  margin-top: 0.25rem;
+}
+
+/* ===== Recent Card (Papers & Docs) ===== */
+.recentCard {
+  padding: 1.5rem;
+}
+
+.recentContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.recentHeader {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ifm-font-color-secondary);
+  margin-bottom: 1rem;
+}
+
+.recentList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex: 1;
+}
+
+.recentItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.7rem 0.5rem;
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: background-color 0.1s ease;
+  margin: 0 -0.5rem;
+  border-radius: 8px;
+}
+
+.recentItem:last-child {
+  border-bottom: none;
+}
+
+.recentItem:hover {
+  background-color: var(--toss-blue-bg);
+}
+
+.recentTitle {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+.recentItem:hover .recentTitle {
+  color: var(--ifm-color-primary);
+}
+
+.recentDate {
+  font-size: 0.75rem;
+  color: var(--ifm-font-color-secondary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.recentMore {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary) !important;
+}
+
+/* ===== Profile Card (compact centered) ===== */
+.profileCard {
+  padding: 1.75rem 1.5rem;
+}
+
+.profileContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+  height: 100%;
+  justify-content: center;
+}
+
+.profileAvatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profileName {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--ifm-heading-color);
+  letter-spacing: -0.02em;
+}
+
+.profileLab {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--ifm-font-color-secondary);
+  margin-top: -0.35rem;
+}
+
+.profileInterests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 0.15rem;
+}
+
+.profileTag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 13px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background-color: var(--toss-blue-bg);
+  color: var(--ifm-color-primary) !important;
+  text-decoration: none !important;
+  transition: all 0.12s ease;
+}
+
+.profileTag:hover {
+  background-color: var(--ifm-color-primary);
+  color: #ffffff !important;
+}
+
+.profileLinks {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 0.25rem;
+}
+
+.profileLink {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 13px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background-color: var(--toss-blue-bg);
+  color: var(--ifm-color-primary) !important;
+  text-decoration: none !important;
+  transition: all 0.12s ease;
+}
+
+.profileLink:hover {
+  background-color: var(--ifm-color-primary);
+  color: #ffffff !important;
+}
+
+.profileLinkPrimary {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 13px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background-color: var(--ifm-color-primary);
+  color: #ffffff !important;
+  text-decoration: none !important;
+  transition: all 0.12s ease;
+}
+
+.profileLinkPrimary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: #ffffff !important;
+}
+
+/* ===== Research Timeline Card ===== */
+.timelineCard {
+  padding: 1.5rem;
+}
+
+.timelineContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.timelineHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1.25rem;
+}
+
+.timelineTitle {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ifm-font-color-secondary);
+}
+
+.timelineTotal {
+  font-size: 0.75rem;
+  color: var(--ifm-font-color-secondary);
+}
+
+.timelineBars {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  flex: 1;
+  min-height: 80px;
+}
+
+.timelineCol {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.timelineBarWrap {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.timelineBar {
+  width: 100%;
+  max-width: 28px;
+  border-radius: 4px 4px 0 0;
+  background: var(--ifm-color-primary);
+  opacity: 0.7;
+  transition: opacity 0.12s ease;
+  min-height: 3px;
+}
+
+.timelineCol:hover .timelineBar {
+  opacity: 1;
+}
+
+.timelineLabel {
+  font-size: 0.65rem;
+  color: var(--ifm-font-color-secondary);
+  white-space: nowrap;
+}
+
+.timelineCount {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
 }

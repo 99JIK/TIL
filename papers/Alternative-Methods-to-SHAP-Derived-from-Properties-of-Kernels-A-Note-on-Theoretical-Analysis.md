@@ -1,26 +1,12 @@
 ---
-title: "Alternative Methods to SHAP Derived from Properties of Kernels: A Note on Theoretical Analysis"
-date: "2024-12-15"
-description: "LIME의 커널을 이용해 AFA(Additive Feature Attribution)의 일반적인 분석식을 유도하고, 이를 기반으로 SHAP을 대체할 새로운 AFA 방법론들을 제안한다."
-keywords:
-  [
-    "SHAP",
-    "LIME",
-    "Kernel",
-    "Explainable Artificial Intelligence",
-    "Additive Feature Attribution",
-    "Cooperative Game Theory",
-  ]
-tags:
-  [
-    "SHAP",
-    "LIME",
-    "Kernel",
-    "Explainable Artificial Intelligence",
-    "Additive Feature Attribution",
-    "Cooperative Game Theory",
-  ]
-authors: ["Kazuhiro Hiraki", "Shinichi Ishihara", "Junnosuke Shino"]
+title: 'Alternative Methods to SHAP Derived from Properties of Kernels: A Note on Theoretical Analysis'
+date: '2024-12-15'
+description: LIME의 커널을 이용해 AFA(Additive Feature Attribution)의 일반적인 분석식을 유도하고, 이를 기반으로 SHAP을 대체할 새로운 AFA 방법론들을 제안한다.
+tags: [Shapley Additive Explanations, Local Interpretable Model-Agnostic Explanation, Kernel, Explainable Artificial Intelligence, Additive Feature Attribution, Cooperative Game Theory]
+authors:
+- name: Kazuhiro Hiraki
+- name: Shinichi Ishihara
+- name: Junnosuke Shino
 ---
 
 ## 논문 정보

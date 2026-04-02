@@ -1,11 +1,18 @@
 ---
 title: A Study on Training and Developing Large Language Models for Behavior Tree Generation
-authors: ["Fu Li", "Xueying Wang", "Bin Li", "Yunlong Wu", "Yanzhen Wang", "Xiaodong Yi"]
-tags: [JIK_REFERENCE, Large Language Models, Behavior Tree, Artificial Intelligence]
+authors:
+- name: Fu Li
+- name: Xueying Wang
+- name: Bin Li
+- name: Yunlong Wu
+- name: Yanzhen Wang
+- name: Xiaodong Yi
+tags: [JIK Reference, Large Language Model, Behavior Tree, Artificial Intelligence]
 ---
 
 # A Study on Training and Developing Large Language Models for Behavior Tree Generation
 
+<!--truncate-->
 This paper presents an innovative exploration of the application potential of large language models (LLM) in addressing the challenging task of automatically generating behavior trees (BTs) for complex tasks. 
 
 The conventional manual BT generation method is inefficient and heavily reliant on domain expertise. On the other hand, existing automatic BT generation technologies encounter bottlenecks related to task complexity, model adaptability, and reliability. 

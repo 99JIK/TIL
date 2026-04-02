@@ -1,22 +1,13 @@
 ---
-title: "A machine learning-integrated framework for mechanical property prediction of FDM-printed PLA"
-date: "2025-08-08"
-description: "기계 학습, 실험 검증, 유한 요소 해석을 통합하여 FDM 방식 3D 프린팅 PLA 부품의 인장 강도를 예측하고 설명하는 확장 가능한 프레임워크를 제시한다."
-keywords:
-  [
-    "Fused Deposition Modeling",
-    "Machine Learning",
-    "Tensile Strength Prediction",
-    "Polylactic Acid",
-  ]
-tags:
-  [
-    "Fused Deposition Modeling",
-    "Machine Learning",
-    "Tensile Strength Prediction",
-    "Polylactic Acid",
-  ]
-authors: ["Yassmin Seid Ahmed", "Hany Hassanin", "Aamer Nazir", "Sikandar Khan"]
+title: A machine learning-integrated framework for mechanical property prediction of FDM-printed PLA
+date: '2025-08-08'
+description: 기계 학습, 실험 검증, 유한 요소 해석을 통합하여 FDM 방식 3D 프린팅 PLA 부품의 인장 강도를 예측하고 설명하는 확장 가능한 프레임워크를 제시한다.
+tags: [Fused Deposition Modeling, Machine Learning, Tensile Strength Prediction, Polylactic Acid]
+authors:
+- name: Yassmin Seid Ahmed
+- name: Hany Hassanin
+- name: Aamer Nazir
+- name: Sikandar Khan
 ---
 
 ## 논문 정보

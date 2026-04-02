@@ -1,11 +1,14 @@
 ---
-title: "Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?"
-authors: ["Nidhi Kalra", "Susan M. Paddock"]
-tags: [JIK_REFERENCE, Software Testing, Machine Learning]
+title: 'Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?'
+authors:
+- name: Nidhi Kalra
+- name: Susan M. Paddock
+tags: [JIK Reference, Software Testing, Machine Learning]
 ---
 
 # Driving to Safety: How Many Miles of Driving Would It Take to Demonstrate Autonomous Vehicle Reliability?
 
+<!--truncate-->
 자율주행차(AV)가 인간 운전자보다 안전하다는 것을 통계적으로 증명하려면 도대체 몇 마일을 주행해야 하는가? RAND Corporation의 연구로, 이 질문에 정량적인 답을 제시한다.
 
 <!-- truncate -->

@@ -1,10 +1,13 @@
 ---
-title: "PAPER2CODE: AUTOMATING CODE GENERATION FROM SCIENTIFIC PAPERS IN MACHINE LEARNING"
-date: "2025-10-10"
-description: "기계 학습 논문에서 직접 실행 가능한 코드 리포지토리를 자동 생성하는 멀티 에이전트 LLM 프레임워크 'PaperCoder'를 제안"
-keywords: ["Paper2Code", "PaperCoder", "Code Generation", "Machine Learning", "Large Language Models", "Multi-agent Framework", "Reproducibility"]
-tags: ["Machine Learning", "Large Language Models", "Code Generation", "Reproducibility"]
-authors: ["Minju Seo", "Jinheon Baek", "Seongyun Lee", "Sung Ju Hwang"]
+title: 'PAPER2CODE: AUTOMATING CODE GENERATION FROM SCIENTIFIC PAPERS IN MACHINE LEARNING'
+date: '2025-10-10'
+description: 기계 학습 논문에서 직접 실행 가능한 코드 리포지토리를 자동 생성하는 멀티 에이전트 LLM 프레임워크 'PaperCoder'를 제안
+tags: [Machine Learning, Large Language Model, Code Generation, Reproducibility]
+authors:
+- name: Minju Seo
+- name: Jinheon Baek
+- name: Seongyun Lee
+- name: Sung Ju Hwang
 ---
 
 ## 논문 정보

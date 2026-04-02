@@ -1,35 +1,16 @@
 ---
-title: "A stacking ensemble model for predicting the flexural fatigue life of fiber-reinforced concrete"
-date: "2024-09-12"
-description: "섬유 보강 콘크리트(FRC)의 휨 피로 수명을 정확하게 예측하기 위해 Deep Autoencoder, XGBoost, Random Forest, GWO로 최적화된 DNN을 결합한 스태킹 앙상블 모델을 제안함"
-keywords:
-  [
-    "Fiber-reinforced Concrete",
-    "Flexural Fatigue Life",
-    "Prediction",
-    "Stacking Ensemble Model",
-    "Machine Learning",
-    "Fatigue",
-  ]
-tags:
-  [
-    "Fiber-reinforced Concrete",
-    "Flexural Fatigue Life",
-    "Prediction",
-    "Stacking Ensemble Model",
-    "Machine Learning",
-    "Fatigue",
-  ]
+title: A stacking ensemble model for predicting the flexural fatigue life of fiber-reinforced concrete
+date: '2024-09-12'
+description: 섬유 보강 콘크리트(FRC)의 휨 피로 수명을 정확하게 예측하기 위해 Deep Autoencoder, XGBoost, Random Forest, GWO로 최적화된 DNN을 결합한 스태킹 앙상블 모델을 제안함
+tags: [Fiber-reinforced Concrete, Flexural Fatigue Life, Prediction, Stacking Ensemble Model, Machine Learning, Fatigue]
 authors:
-  [
-    "Wan-lin Min",
-    "Wei-liang Jin",
-    "Yen-yi Hoo",
-    "Hailong Wang",
-    "Xiaoyu He",
-    "Yongke Wei",
-    "Jin Xia",
-  ]
+- name: Wan-lin Min
+- name: Wei-liang Jin
+- name: Yen-yi Hoo
+- name: Hailong Wang
+- name: Xiaoyu He
+- name: Yongke Wei
+- name: Jin Xia
 ---
 
 ## 논문 정보

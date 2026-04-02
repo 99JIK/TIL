@@ -1,0 +1,201 @@
+.subtitle {
+  color: var(--ifm-font-color-secondary);
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  color: var(--ifm-font-color-secondary) !important;
+  letter-spacing: -0.01em;
+  margin-top: 0 !important;
+  margin-bottom: 1.25rem !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+}
+
+/* ===== Popular Tags Grid ===== */
+.popularGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.popularCard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: var(--ifm-background-surface-color);
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.12s ease, transform 0.12s ease;
+}
+
+.popularCard:hover {
+  background: var(--toss-blue-bg);
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.popularLabel {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+.popularCard:hover .popularLabel {
+  color: var(--ifm-color-primary);
+}
+
+.popularMeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.popularCount {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  min-width: 20px;
+}
+
+.popularBar {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--ifm-color-primary);
+  opacity: 0.3;
+  transition: opacity 0.12s ease;
+}
+
+.popularCard:hover .popularBar {
+  opacity: 0.6;
+}
+
+/* ===== Letter Navigation ===== */
+.letterNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+}
+
+.letterLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ifm-font-color-secondary) !important;
+  transition: all 0.1s ease;
+}
+
+.letterLink:hover {
+  background: var(--toss-blue-bg);
+  color: var(--ifm-color-primary) !important;
+  text-decoration: none;
+}
+
+/* ===== All Tags by Letter ===== */
+.allTagsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.letterGroup {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--ifm-hr-border-color);
+  align-items: flex-start;
+}
+
+.letterGroup:last-child {
+  border-bottom: none;
+}
+
+.letterLabel {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--ifm-color-primary);
+  min-width: 32px;
+  text-align: center;
+  padding-top: 4px;
+  flex-shrink: 0;
+}
+
+.letterTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  flex: 1;
+}
+
+.tagItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 12px;
+  border-radius: 13px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: #4e5968 !important;
+  background: var(--ifm-background-surface-color);
+  text-decoration: none;
+  transition: all 0.1s ease;
+  white-space: nowrap;
+}
+
+[data-theme='dark'] .tagItem {
+  color: #b0b8c1 !important;
+}
+
+.tagItem:hover {
+  background: var(--toss-blue-bg);
+  color: var(--ifm-color-primary) !important;
+  text-decoration: none;
+}
+
+.tagCount {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--ifm-font-color-secondary);
+  opacity: 0.5;
+}
+
+.tagItem:hover .tagCount {
+  color: var(--ifm-color-primary);
+  opacity: 0.7;
+}
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 640px) {
+  .popularGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .letterGroup {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .letterLabel {
+    text-align: left;
+  }
+}

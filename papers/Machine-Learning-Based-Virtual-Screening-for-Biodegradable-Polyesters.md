@@ -1,10 +1,10 @@
 ---
-title: "Machine Learning Based Virtual Screening for Biodegradable Polyesters"
-date: "2024-08-22"
-description: "기계 학습 기반 가상 스크리닝을 통해 생분해성 폴리에스터를 예측하고, 화학적 특성과 생분해성의 상관관계를 분석하여 지속 가능한 신소재 후보를 발굴하는 연구"
-keywords: [Biodegradability, Molecular Generation, Virtual Screening]
+title: Machine Learning Based Virtual Screening for Biodegradable Polyesters
+date: '2024-08-22'
+description: 기계 학습 기반 가상 스크리닝을 통해 생분해성 폴리에스터를 예측하고, 화학적 특성과 생분해성의 상관관계를 분석하여 지속 가능한 신소재 후보를 발굴하는 연구
 tags: [Machine Learning, Biodegradable Polyesters, Virtual Screening, Cheminformatics, Sustainability]
-authors: ["Navya Nori"]
+authors:
+- name: Navya Nori
 ---
 
 ## 논문 정보

@@ -1,24 +1,14 @@
 ---
-title: "Experimental-based statistical models for the tensile characterization of synthetic fiber ropes: a machine learning approach"
-date: "2023-10-18"
-description: "합성 섬유 로프의 인장 거동을 예측하기 위해 실험 기반 데이터셋을 구축하고, 이를 바탕으로 3선형 응력-변형률 프로파일을 예측하는 인공신경망(ANN) 모델을 개발한 연구"
-keywords:
-  [
-    "Synthetic Fiber Ropes",
-    "Tensile Characterization",
-    "Machine Learning",
-    "Artificial Neural Networks",
-    "Statistical Models",
-  ]
-tags:
-  [
-    "Synthetic Fiber Ropes",
-    "Tensile Characterization",
-    "Machine Learning",
-    "Artificial Neural Networks",
-    "Statistical Models",
-  ]
-authors: ["Yahia Halabi", "Hu Xu", "Zhixiang Yu", "Wael Alhaddad", "Isabelle Dreier"]
+title: 'Experimental-based statistical models for the tensile characterization of synthetic fiber ropes: a machine learning approach'
+date: '2023-10-18'
+description: 합성 섬유 로프의 인장 거동을 예측하기 위해 실험 기반 데이터셋을 구축하고, 이를 바탕으로 3선형 응력-변형률 프로파일을 예측하는 인공신경망(ANN) 모델을 개발한 연구
+tags: [Synthetic Fiber Ropes, Tensile Characterization, Machine Learning, Artificial Neural Network, Statistical Models]
+authors:
+- name: Yahia Halabi
+- name: Hu Xu
+- name: Zhixiang Yu
+- name: Wael Alhaddad
+- name: Isabelle Dreier
 ---
 
 ## 논문 정보

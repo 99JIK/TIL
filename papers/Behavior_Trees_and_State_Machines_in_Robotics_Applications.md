@@ -1,12 +1,18 @@
 ---
-slug: Behavior Trees and State Machines in Robotics Applications  
-title: "Behavior Trees and State Machines in Robotics Applications"
-authors: [Razan Ghzouli, Thorsten Berger, Einar Broch Johnsen, Andrzej Wąsowski, Swaib Dragule]
-tags: [Behavior Trees, State Machines, Robotics Applications, Domain-Specific Languages, Empirical Study, Software Language Engineering, Model-Driven Engineering, GitHub Mining, Code Reuse Patterns]
+slug: Behavior Trees and State Machines in Robotics Applications
+title: Behavior Trees and State Machines in Robotics Applications
+authors:
+- name: Razan Ghzouli
+- name: Thorsten Berger
+- name: Einar Broch Johnsen
+- name: Andrzej Wąsowski
+- name: Swaib Dragule
+tags: [Behavior Tree, State Machine, Robotics Applications, Domain-Specific Languages, Empirical Study, Software Language Engineering, Model Driven Engineering, GitHub Mining, Code Reuse Patterns]
 ---
 
 # Behavior Trees and State Machines in Robotics Applications
 
+<!--truncate-->
 ## 논문 정보
 - **제목**: Behavior Trees and State Machines in Robotics Applications
 - **저자**: Razan Ghzouli, Thorsten Berger (교신저자), Einar Broch Johnsen, Andrzej Wąsowski, Swaib Dragule

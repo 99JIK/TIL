@@ -1,25 +1,13 @@
 ---
-title: "Improving Viewing Experiences of First-Person Shooter Gameplays with Automatically-Generated Motion Effects"
-date: "2021-05-08"
-description: "FPS 게임플레이의 시청각 스트림에서 자동으로 생성된 모션 효과를 통해 시청 경험을 향상시키는 방법에 관한 연구"
-keywords:
-  [
-    "game",
-    "gameplay",
-    "viewing experience",
-    "motion effect",
-    "automatic generation",
-  ]
-tags:
-  [
-    "First Person Shooter",
-    "Motion Chair",
-    "4D Experience",
-    "Human-Computer Interaction",
-    "Deep Learning",
-    "Computer Vision",
-  ]
-authors: ["Gyeore Yun", "Hyoseung Lee", "Sangyoon Han", "Seungmoon Choi"]
+title: Improving Viewing Experiences of First-Person Shooter Gameplays with Automatically-Generated Motion Effects
+date: '2021-05-08'
+description: FPS 게임플레이의 시청각 스트림에서 자동으로 생성된 모션 효과를 통해 시청 경험을 향상시키는 방법에 관한 연구
+tags: [First Person Shooter, Motion Chair, 4D Experience, Human-Computer Interaction, Deep Learning, Computer Vision]
+authors:
+- name: Gyeore Yun
+- name: Hyoseung Lee
+- name: Sangyoon Han
+- name: Seungmoon Choi
 ---
 
 ## 논문 정보

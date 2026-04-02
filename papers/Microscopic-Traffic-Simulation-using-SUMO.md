@@ -1,11 +1,22 @@
 ---
-title: "Microscopic Traffic Simulation using SUMO"
-authors: ["Pablo Alvarez Lopez", "Michael Behrisch", "Laura Bieker-Walz", "Jakob Erdmann", "Yun-Pang Flötteröd", "Robert Hilbrich", "Leonhard Lücken", "Johannes Rummel", "Peter Wagner", "Evamarie Wießner"]
-tags: [JIK_REFERENCE, Artificial Intelligence, Scalability, Real-Time]
+title: Microscopic Traffic Simulation using SUMO
+authors:
+- name: Pablo Alvarez Lopez
+- name: Michael Behrisch
+- name: Laura Bieker-Walz
+- name: Jakob Erdmann
+- name: Yun-Pang Flötteröd
+- name: Robert Hilbrich
+- name: Leonhard Lücken
+- name: Johannes Rummel
+- name: Peter Wagner
+- name: Evamarie Wießner
+tags: [JIK Reference, Artificial Intelligence, Scalability, Real-Time]
 ---
 
 # Microscopic Traffic Simulation using SUMO
 
+<!--truncate-->
 SUMO(Simulation of Urban MObility)는 독일항공우주센터(DLR)에서 개발한 오픈소스 미시교통 시뮬레이터다. 도시 규모의 교통 흐름을 차량 단위로 시뮬레이션한다.
 
 <!-- truncate -->

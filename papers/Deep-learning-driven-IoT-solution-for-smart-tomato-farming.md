@@ -1,33 +1,16 @@
 ---
-title: "Deep learning-driven IoT solution for smart tomato farming"
-date: "2025-08-24"
-description: "딥러닝과 IoT를 결합하여 환경 감지 및 토마토 숙성 단계 분류를 통해 스마트 온실 토마토 농업을 위한 플랫폼을 제안한 논문"
-keywords:
-  [
-    "Deep Learning",
-    "Tomato Production",
-    "Precision Agriculture",
-    "Internet of Things",
-    "Wireless Sensor Networks",
-  ]
-tags:
-  [
-    "Deep Learning",
-    "Tomato Production",
-    "Precision Agriculture",
-    "Internet of Things",
-    "Wireless Sensor Networks",
-  ]
+title: Deep learning-driven IoT solution for smart tomato farming
+date: '2025-08-24'
+description: 딥러닝과 IoT를 결합하여 환경 감지 및 토마토 숙성 단계 분류를 통해 스마트 온실 토마토 농업을 위한 플랫폼을 제안한 논문
+tags: [Deep Learning, Tomato Production, Precision Agriculture, Internet of Things, Wireless Sensor Networks]
 authors:
-  [
-    "Akshit Saxena",
-    "Aayushi Agarwal",
-    "Bhavya Nagrath",
-    "Carmel Sanjana Jayavanth",
-    "Shamita Thulasidoss",
-    "S. Maheswari",
-    "P. Sasikumar",
-  ]
+- name: Akshit Saxena
+- name: Aayushi Agarwal
+- name: Bhavya Nagrath
+- name: Carmel Sanjana Jayavanth
+- name: Shamita Thulasidoss
+- name: S. Maheswari
+- name: P. Sasikumar
 ---
 
 ## 논문 정보

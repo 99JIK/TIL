@@ -1,10 +1,11 @@
 ---
-title: "Game AI Agent Modeling Using Petri Nets and Behavior Trees"
-tags: [JIK_REFERENCE, behavior-tree, game-AI, agent-modeling, Petri-nets, simulation]
+title: Game AI Agent Modeling Using Petri Nets and Behavior Trees
+tags: [JIK Reference, Behavior Tree, Game Artificial Intelligence, Agent Modeling, Petri-nets, Simulation]
 ---
 
 # Game AI Agent Modeling Using Petri Nets and Behavior Trees
 
+<!--truncate-->
 ## 서지 정보
 - **저자**: S. Lee, J. Kim, H. Park
 - **출판**: Multimedia Tools and Applications, vol. 81, pp. 5845–5868

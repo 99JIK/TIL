@@ -1,29 +1,14 @@
 ---
-title: "Application of Reinforcement Learning to Dyeing Processes for Residual Dye Reduction"
-date: "2024-04-16"
-description: "강화학습을 이용해 섬유 염색 공정의 잔류 염료를 예측하고, 이를 최소화하는 공정 변수를 추천하는 모델을 제안"
-keywords:
-  [
-    "Green Manufacturing",
-    "Dyeing Process",
-    "Reinforcement Learning",
-    "Q-Learning",
-  ]
-tags:
-  [
-    "Reinforcement Learning",
-    "Manufacturing",
-    "Sustainability",
-    "Process Optimization",
-  ]
+title: Application of Reinforcement Learning to Dyeing Processes for Residual Dye Reduction
+date: '2024-04-16'
+description: 강화학습을 이용해 섬유 염색 공정의 잔류 염료를 예측하고, 이를 최소화하는 공정 변수를 추천하는 모델을 제안
+tags: [Reinforcement Learning, Manufacturing, Sustainability, Process Optimization]
 authors:
-  [
-    "Whan Lee",
-    "Seyed Mohammad Mehdi Sajadieh",
-    "Hye Kyung Choi",
-    "Jisoo Park",
-    "Sang Do Noh",
-  ]
+- name: Whan Lee
+- name: Seyed Mohammad Mehdi Sajadieh
+- name: Hye Kyung Choi
+- name: Jisoo Park
+- name: Sang Do Noh
 ---
 
 ## 논문 정보

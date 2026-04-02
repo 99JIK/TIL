@@ -1,11 +1,15 @@
 ---
-title: "An Expressiveness Hierarchy of Behavior Trees and Related Architectures"
-authors: ["Oliver Biggar", "Mohammad Zamani", "Ian Petersen"]
+title: An Expressiveness Hierarchy of Behavior Trees and Related Architectures
+authors:
+- name: Oliver Biggar
+- name: Mohammad Zamani
+- name: Ian Petersen
 tags: [Behavior Tree, Architecture, Artificial Intelligence, Survey]
 ---
 
 # An Expressiveness Hierarchy of Behavior Trees and Related Architectures
 
+<!--truncate-->
 Behavior Tree(BT)와 관련 제어 아키텍처들의 표현력(expressiveness)을 형식적으로 비교하는 계층 구조를 제시한다. IEEE Robotics and Automation Letters 게재 논문.
 
 <!-- truncate -->

@@ -1,18 +1,17 @@
 ---
-title: "Generative Adversarial Networks"
-date: "2020-11-01"
-description: "적대적 과정을 통해 생성 모델을 추정하는 새로운 프레임워크를 제안하여, 고품질의 사실적인 데이터를 생성하는 방법을 제시한다."
-keywords:
-  [
-    "Generative Models",
-    "Adversarial Networks",
-    "Unsupervised Learning",
-    "Deep Learning",
-    "Game Theory",
-  ]
-tags:
-  [Generative Adversarial Networks, Generative Model, Artificial Intelligence]
-authors: ["Ian J. Goodfellow", "Jean Pouget-Abadie", "Mehdi Mirza", "Bing Xu", "David Warde-Farley", "Sherjil Ozair", "Aaron Courville", "Yoshua Bengio"]
+title: Generative Adversarial Networks
+date: '2020-11-01'
+description: 적대적 과정을 통해 생성 모델을 추정하는 새로운 프레임워크를 제안하여, 고품질의 사실적인 데이터를 생성하는 방법을 제시한다.
+tags: [Generative Adversarial Network, Generative Model, Artificial Intelligence]
+authors:
+- name: Ian J. Goodfellow
+- name: Jean Pouget-Abadie
+- name: Mehdi Mirza
+- name: Bing Xu
+- name: David Warde-Farley
+- name: Sherjil Ozair
+- name: Aaron Courville
+- name: Yoshua Bengio
 ---
 
 ## 논문 정보

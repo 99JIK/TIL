@@ -1,15 +1,16 @@
 ---
-title: "Enhancing Game AI Behaviors with Large Language Models and Agentic AI"
+title: Enhancing Game AI Behaviors with Large Language Models and Agentic AI
 authors: []
 year: 2025
-venue: "FSE 2025 (33rd ACM International Conference on the Foundations of Software Engineering) - Industry Papers"
-doi: "10.1145/3696630.3728553"
-pages: "286–296"
-tags: [LLM, BehaviorTree, GameAI, NPC, AgenticAI, JIK_REFERENCE]
+venue: FSE 2025 (33rd ACM International Conference on the Foundations of Software Engineering) - Industry Papers
+doi: 10.1145/3696630.3728553
+pages: 286–296
+tags: [Large Language Model, Behavior Tree, Game Artificial Intelligence, Non-Player Character, Agentic Artificial Intelligence, JIK Reference]
 ---
 
 ## 요약
 
+<!--truncate-->
 LLM과 에이전트 기반 AI를 활용해 게임 NPC의 **Behavior Tree(BT)를 자동 생성**하는 프레임워크를 제안한다. 여러 에이전트를 오케스트레이션하여 복잡한 BT를 생성하며, 소스 코드와 게임 엔진 시각 툴 간의 간극을 해소한다.
 
 ## 핵심 기여

@@ -1,10 +1,13 @@
 ---
-title: "Systematically Producing Test Orders to Detect Order-Dependent Flaky Tests"
-date: "2023-05-03"
-description: "Tuscan squares를 기반으로 테스트 순서 쌍(pair)을 체계적으로 커버하여 순서 의존적(Order-Dependent) Flaky Test를 효율적으로 탐지하는 세 가지 새로운 기법 제안"
-keywords: ["flaky test detection", "order-dependent flaky test"]
-tags: ["Flaky Test Detection", "Order-Dependent Flaky Test", "Software Testing", "Tuscan Squares"]
-authors: ["Chengpeng Li", "M. Mahdi Khosravi", "Wing Lam", "August Shi"]
+title: Systematically Producing Test Orders to Detect Order-Dependent Flaky Tests
+date: '2023-05-03'
+description: Tuscan squares를 기반으로 테스트 순서 쌍(pair)을 체계적으로 커버하여 순서 의존적(Order-Dependent) Flaky Test를 효율적으로 탐지하는 세 가지 새로운 기법 제안
+tags: [Flaky Test Detection, Order-Dependent Flaky Test, Software Testing, Tuscan Squares]
+authors:
+- name: Chengpeng Li
+- name: M. Mahdi Khosravi
+- name: Wing Lam
+- name: August Shi
 ---
 
 ## 논문 정보

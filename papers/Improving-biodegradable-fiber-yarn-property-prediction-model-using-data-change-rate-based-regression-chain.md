@@ -1,22 +1,16 @@
 ---
-title: "데이터 변동률 기반 회귀 체인을 사용한 생분해성 섬유 원사 물성 예측 모델 개선"
-date: "2024-12-01"
-description: "데이터 분포가 불균형한 생분해성 섬유 데이터에서 기존 상관 분석 대신 데이터 변동률을 통해 물성 간 종속성을 평가하고, 이를 회귀 체인에 적용하여 예측 모델의 성능을 향상시키는 방법을 제안한다."
-keywords:
-  [
-    "Regression Chain",
-    "Data Change Rate",
-    "Property Prediction",
-    "Biodegradable Fiber",
-  ]
-tags:
-  [
-    "Regression Chain",
-    "Data Change Rate",
-    "Property Prediction",
-    "Biodegradable Fiber",
-  ]
-authors: ["Deokyeop Kim", "류영교", "강보권", "김태환", "Woojin Lee"]
+title: 데이터 변동률 기반 회귀 체인을 사용한 생분해성 섬유 원사 물성 예측 모델 개선
+date: '2024-12-01'
+description: 데이터 분포가 불균형한 생분해성 섬유 데이터에서 기존 상관 분석 대신 데이터 변동률을 통해 물성 간 종속성을 평가하고, 이를 회귀 체인에 적용하여 예측 모델의 성능을 향상시키는 방법을 제안한다.
+tags: [Regression Chain, Data Change Rate, Property Prediction, Biodegradable Fiber]
+authors:
+- name: Deokyeop Kim
+- name: 류영교
+- name: 강보권
+- name: 김태환
+- name: 이우진
+  title: 경북대학교 컴퓨터학부 전임교수
+  url: https://selab.knu.ac.kr
 ---
 
 ## 논문 정보

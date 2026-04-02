@@ -1,10 +1,11 @@
 ---
-title: "Automated machine learning for fabric quality prediction: a comparative analysis"
-date: "2024-07-23"
-description: "7가지 오픈소스 AutoML 기술을 비교 분석하여 직물 품질 예측의 계산 효율성과 예측 정확성 간의 균형을 찾는 혁신적인 접근법을 제시함."
-keywords: ["Automated Machine Learning", "Quality Control", "Data Imbalance", "Hyperparameter Optimization", "Model Interpretability", "Feature Importance", "Textile Industry"]
-tags: ["Automated Machine Learning", "Quality Control", "Data Imbalance", "Hyperparameter Optimization", "Model Interpretability", "Feature Importance", "Textile Industry"]
-authors: ["Ahmet Metin", "Turgay Tugay Bilgin"]
+title: 'Automated machine learning for fabric quality prediction: a comparative analysis'
+date: '2024-07-23'
+description: 7가지 오픈소스 AutoML 기술을 비교 분석하여 직물 품질 예측의 계산 효율성과 예측 정확성 간의 균형을 찾는 혁신적인 접근법을 제시함.
+tags: [Automated Machine Learning, Quality Control, Data Imbalance, Hyperparameter Optimization, Model Interpretability, Feature Importance, Textile Industry]
+authors:
+- name: Ahmet Metin
+- name: Turgay Tugay Bilgin
 ---
 
 ## 논문 정보

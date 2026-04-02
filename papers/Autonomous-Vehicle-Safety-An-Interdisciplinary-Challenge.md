@@ -1,11 +1,14 @@
 ---
-title: "Autonomous Vehicle Safety: An Interdisciplinary Challenge"
-authors: ["Philip Koopman", "Michael Wagner"]
-tags: [JIK_REFERENCE, Software Testing, Artificial Intelligence]
+title: 'Autonomous Vehicle Safety: An Interdisciplinary Challenge'
+authors:
+- name: Philip Koopman
+- name: Michael Wagner
+tags: [JIK Reference, Software Testing, Artificial Intelligence]
 ---
 
 # Autonomous Vehicle Safety: An Interdisciplinary Challenge
 
+<!--truncate-->
 자율주행차 안전성은 단일 공학 분야가 아닌, 소프트웨어 공학·시스템 엔지니어링·법·윤리 등이 얽힌 복합적 과제임을 논한다. IEEE Intelligent Transportation Systems Magazine 게재 논문.
 
 <!-- truncate -->

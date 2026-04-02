@@ -1,11 +1,28 @@
 ---
 title: Self-Refine - Iterative Refinement with Self-Feedback
-authors: ["Aman Madaan", "Niket Tandon", "Prakhar Gupta", "Skyler Hallinan", "Luyu Gao", "Sarah Wiegreffe", "Uri Alon", "Nouha Dziri", "Shrimai Prabhumoye", "Yiming Yang", "Shashank Gupta", "Bodhisattwa Prasad Majumder", "Katherine Hermann", "Sean Welleck", "Amir Yazdanbakhsh", "Peter Clark"]
-tags: [JIK_REFERENCE, LLM, Iterative Refinement, Self-Feedback, Artificial Intelligence]
+authors:
+- name: Aman Madaan
+- name: Niket Tandon
+- name: Prakhar Gupta
+- name: Skyler Hallinan
+- name: Luyu Gao
+- name: Sarah Wiegreffe
+- name: Uri Alon
+- name: Nouha Dziri
+- name: Shrimai Prabhumoye
+- name: Yiming Yang
+- name: Shashank Gupta
+- name: Bodhisattwa Prasad Majumder
+- name: Katherine Hermann
+- name: Sean Welleck
+- name: Amir Yazdanbakhsh
+- name: Peter Clark
+tags: [JIK Reference, Large Language Model, Iterative Refinement, Self-Feedback, Artificial Intelligence]
 ---
 
 # Self-Refine: Iterative Refinement with Self-Feedback
 
+<!--truncate-->
 Like humans, large language models (LLMs) do not always generate the best output on their first try. Motivated by how humans refine their written text, we introduce **Self-Refine**, an approach for improving initial outputs from LLMs through iterative feedback and refinement. 
 
 The main idea is to generate an initial output using an LLM; then, the same LLM provides feedback for its output and uses it to refine itself, iteratively. Self-Refine does not require any supervised training data, additional training, or reinforcement learning, and instead uses a single LLM as the generator, refiner, and feedback provider. 

@@ -1,17 +1,11 @@
 ---
-title: "Yarn Strength Prediction: A Practical Model Based on Artificial Neural Networks"
-date: "2010-06-17"
-description: "인공신경망(ANN)을 기반으로 로빙(roving)의 물리적 특성으로부터 원사의 강도를 예측하여 실제 방적 공정 없이 강도를 평가할 수 있는 실용적인 모델을 제안한 논문"
-keywords:
-  [
-    "yarn strength",
-    "artificial neural networks",
-    "predictive model",
-    "feed forward back propagation",
-    "textile engineering",
-  ]
-tags: ["Artificial Neural Networks", "Predictive Modeling", "Manufacturing"]
-authors: ["Rocco Furferi", "Maurizio Gelli"]
+title: 'Yarn Strength Prediction: A Practical Model Based on Artificial Neural Networks'
+date: '2010-06-17'
+description: 인공신경망(ANN)을 기반으로 로빙(roving)의 물리적 특성으로부터 원사의 강도를 예측하여 실제 방적 공정 없이 강도를 평가할 수 있는 실용적인 모델을 제안한 논문
+tags: [Artificial Neural Network, Predictive Modeling, Manufacturing]
+authors:
+- name: Rocco Furferi
+- name: Maurizio Gelli
 ---
 
 ## 논문 정보

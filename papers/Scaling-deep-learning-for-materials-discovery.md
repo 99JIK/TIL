@@ -1,24 +1,13 @@
 ---
-title: "Scaling deep learning for materials discovery"
-date: "2023-11-29"
-description: "대규모 그래프 신경망(GNN)을 활용하여 재료 발견의 효율성을 획기적으로 개선하고, 220만 개의 새로운 안정적인 결정 구조를 발견한 연구"
-keywords:
-  [
-    "materials discovery",
-    "deep learning",
-    "graph neural networks",
-    "density functional theory",
-    "active learning",
-    "inorganic crystals",
-  ]
+title: Scaling deep learning for materials discovery
+date: '2023-11-29'
+description: 대규모 그래프 신경망(GNN)을 활용하여 재료 발견의 효율성을 획기적으로 개선하고, 220만 개의 새로운 안정적인 결정 구조를 발견한 연구
 tags: [Materials Science, Machine Learning, Computational Chemistry]
 authors:
-  [
-    "Amil Merchant",
-    "Simon Batzner",
-    "Samuel S. Schoenholz",
-    "Muratahan Aykol",
-  ]
+- name: Amil Merchant
+- name: Simon Batzner
+- name: Samuel S. Schoenholz
+- name: Muratahan Aykol
 ---
 
 ## 논문 정보
