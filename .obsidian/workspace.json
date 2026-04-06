@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "088a4f5626fff2ca",
+        "id": "63a8a0175341d83e",
         "type": "tabs",
         "children": [
           {
-            "id": "2485320fc099d952",
+            "id": "ff9fbece8b32c034",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Week4Q.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Week4Q"
+              "title": "새 탭"
             }
           }
         ]
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week4Q.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Week4Q 의 개요"
+              "title": "개요"
             }
           }
         ],
@@ -169,11 +164,11 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "2485320fc099d952",
+  "active": "ff9fbece8b32c034",
   "lastOpenFiles": [
+    "Week5Q.md",
     "docs/Paper/MASTER'S-THESIS/img/BTGenBot.md",
     "conflict-files-obsidian-git.md",
-    "Week4Q.md",
     "무제.base",
     "Jeongin.md",
     "docs/Paper/MASTER'S-THESIS/Behavior Tree.md",
