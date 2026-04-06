@@ -257,8 +257,7 @@ blockquote p {
    ============================================ */
 /* Scroll wrapper — Docusaurus wraps tables in div.tableContainer */
 div[class*="tableContainer"] {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
   margin-bottom: 1.5rem;
   border: 1px solid var(--toss-border-color);
   border-radius: 12px;
@@ -271,7 +270,6 @@ table {
   border-collapse: separate;
   border-spacing: 0;
   border: none;
-  border-radius: 12px;
   font-size: 0.9rem;
   line-height: 1.6;
 }
