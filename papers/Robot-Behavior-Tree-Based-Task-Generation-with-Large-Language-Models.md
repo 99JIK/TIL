@@ -1,27 +1,52 @@
 ---
 title: Robot Behavior-Tree-Based Task Generation with Large Language Models
+date: '2023-02-24'
+description: 대규모 언어 모델을 활용하여 자연어 설명으로부터 로봇 Behavior Tree를 자동 생성하는 크로스 도메인 방법론을 제안한 논문
+tags: [JIK Reference, Robotics, Behavior Tree, Large Language Model, Task Generation]
 authors:
 - name: Yue Cao
 - name: C.S. George Lee
-tags: [JIK Reference, Robotics, Behavior Tree, Large Language Model, Task Generation]
 ---
 
-# Robot Behavior-Tree-Based Task Generation with Large Language Models
+## 논문 정보
 
+- **제목**: Robot Behavior-Tree-Based Task Generation with Large Language Models
+- **저자**: Yue Cao (Purdue University, Elmore Family School of ECE), C.S. George Lee (Purdue University, Elmore Family School of ECE)
+- **학회/저널**: arXiv:2302.12927 / AAAI 2023 Spring Symposium (AAAI-MAKE 2023) Extended Abstract
+- **발행일**: 2023-02-24
+- **DOI**: [arXiv:2302.12927](https://arxiv.org/abs/2302.12927)
+- **주요 연구 내용**: 대규모 언어 모델(LLM)을 활용하여 사전 정의된 프리미티브 태스크 없이 자연어 설명으로부터 Behavior Tree를 자동 생성하는 크로스 도메인 방법론 제안
+- **주요 결과 및 결론**: Phase-Step 프롬프트 설계와 BT 임베딩 기반 검색을 통해 추상적 태스크 설명으로부터 계층적 BT를 성공적으로 생성
+- **기여점**: 사전 정의된 프리미티브 태스크에 의존하지 않는 최초의 LLM 기반 BT 자동 생성 방법론으로, 크로스 도메인 확장성을 확보
 <!--truncate-->
-Nowadays, the behavior tree is gaining popularity as a representation for robot tasks due to its modularity and reusability. Designing behavior-tree tasks manually is time-consuming for robot end-users, thus there is a need for investigating automatic behavior-tree-based task generation. 
 
-Prior behavior-tree-based task generation approaches focus on fixed primitive tasks and lack generalizability to new task domains. To cope with this issue, we propose a novel behavior-tree-based task generation approach that utilizes state-of-the-art large language models. 
+## 요약
 
-We propose a **Phase-Step prompt design** that enables a hierarchical-structured robot task generation and further integrate it with behavior-tree-embedding-based search to set up the appropriate prompt. In this way, we enable an automatic and cross-domain behavior-tree task generation. 
+### 초록
+Behavior Tree는 모듈성과 재사용성으로 인해 로봇 태스크 표현으로서 인기를 얻고 있다. 그러나 BT 기반 태스크를 수동으로 설계하는 것은 로봇 최종 사용자에게 시간이 많이 소요되므로, 자동 BT 기반 태스크 생성에 대한 연구가 필요하다. 기존의 BT 기반 태스크 생성 접근법은 고정된 프리미티브 태스크에 집중하여 새로운 태스크 도메인에 대한 일반화가 부족하다. 이 문제를 해결하기 위해, 본 논문은 최신 대규모 언어 모델을 활용한 새로운 BT 기반 태스크 생성 접근법을 제안한다. Phase-Step 프롬프트 설계를 통해 계층적 구조의 로봇 태스크 생성을 가능하게 하고, BT 임베딩 기반 검색과 통합하여 적절한 프롬프트를 구성한다. 최종 사용자는 추상적인 태스크 설명만 제공하면 해당 BT가 자동으로 생성된다.
 
-Our approach does not require a set of pre-defined primitive tasks. End-users only need to describe an abstract desired task and our proposed approach can swiftly generate the corresponding behavior tree.
+### 서론
+로봇 태스크 설계에서 BT는 계층적 구조, 모듈성, 재사용성이라는 장점으로 점차 채택이 확대되고 있다. 그러나 BT를 수동으로 설계하려면 BT의 구조와 로봇 도메인에 대한 전문 지식이 필요하며, 태스크 복잡도가 증가할수록 설계 비용이 급증한다. 기존 자동 BT 생성 연구는 유전 프로그래밍, 강화 학습 등을 활용하였으나, 사전 정의된 프리미티브 태스크 집합에 의존하여 새로운 도메인으로의 확장이 어려웠다. 최근 대규모 언어 모델(GPT 시리즈 등)의 등장으로 자연어 이해와 코드 생성 능력이 비약적으로 향상되어, LLM을 BT 생성에 활용할 수 있는 가능성이 열렸다.
 
-<!-- truncate -->
+### 모델 아키텍처 / 방법론
+제안된 방법론은 다음 핵심 구성 요소로 이루어진다:
 
-## Innovation
-- **Phase-Step Prompt Design**: Hierarchical task generation.
-- **Cross-Domain Capability**: No need for pre-defined primitive tasks.
-- **Ease of Use**: Generates BTs from abstract natural language descriptions.
+1. **Phase-Step 프롬프트 설계**: 태스크 생성을 계층적으로 수행하는 2단계 프롬프트 구조
+   - **Phase 단계**: 추상적 태스크를 여러 단계(phase)로 분해. 예: "테이블 정리" → "물체 인식", "물체 파지", "물체 배치"
+   - **Step 단계**: 각 단계를 구체적인 로봇 액션(step)으로 세분화. 예: "물체 파지" → "접근", "그리퍼 열기", "잡기", "들어올리기"
+2. **BT 임베딩 기반 검색(BT-Embedding Search)**: 기존 BT 예시들을 임베딩 공간에 매핑하고, 새로운 태스크 설명과 유사한 BT를 검색하여 프롬프트의 few-shot 예시로 활용
+3. **LLM 기반 생성**: 구성된 프롬프트를 LLM에 입력하여 BT XML 형식의 태스크를 생성
+4. **크로스 도메인 확장**: 사전 정의된 프리미티브 태스크 집합 없이도 LLM의 일반적 지식을 활용하여 다양한 도메인의 태스크를 생성
 
-Source: [arXiv:2302.12927](https://arxiv.org/abs/2302.12927)
+### 실험 및 결과
+제안된 방법론의 유효성을 다음과 같이 검증하였다:
+
+- **전체 프로세스 사례 연구(Full-Process Case Study)**: 자연어 태스크 설명으로부터 BT 생성까지의 전체 파이프라인을 시연하여 실용성 확인
+- **소거 연구(Ablation Study)**: Phase-Step 프롬프트 설계의 각 구성 요소(Phase 분해, Step 세분화, BT 임베딩 검색)의 기여도를 개별적으로 분석
+   - Phase-Step 구조가 단순 1단계 프롬프트 대비 생성 품질을 유의미하게 향상
+   - BT 임베딩 기반 검색이 무작위 예시 선택 대비 더 적절한 BT 구조 생성에 기여
+- **크로스 도메인 검증**: 사전에 정의되지 않은 새로운 도메인의 태스크에 대해서도 합리적인 BT를 생성할 수 있음을 확인
+- **한계점 논의**: LLM의 환각(hallucination) 문제, 물리적 제약 조건에 대한 이해 부족 등의 한계를 분석
+
+### 결론
+본 논문은 LLM을 활용한 최초의 크로스 도메인 BT 자동 생성 방법론을 제안하였다. Phase-Step 프롬프트 설계를 통해 계층적 태스크 분해를 가능하게 하고, BT 임베딩 기반 검색으로 프롬프트 품질을 향상시켰다. 사전 정의된 프리미티브 태스크 집합에 의존하지 않으므로, 새로운 도메인에 대한 확장성이 우수하다. 이 연구는 LLM과 BT의 결합이라는 새로운 연구 방향을 개척하였으며, 로봇 태스크 프로그래밍의 접근성을 크게 향상시킬 잠재력을 보여주었다.

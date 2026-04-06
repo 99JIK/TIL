@@ -1,35 +1,43 @@
 ---
-title: Combining Neural Network Verification and Behavior Tree Synthesis for Robotic Task Planning
+title: Adding Neural Network Controllers to Behavior Trees without Destroying Performance Guarantees
+date: '2018-09-26'
+description: 행동 트리의 안전성 및 목표 수렴 보장을 유지하면서 신경망 컨트롤러를 통합하는 방법을 제안하는 논문
 tags: [JIK Reference, Behavior Tree, Robotics, Task Planning, Neural Network, Verification]
+authors:
+- name: Christopher Iliffe Sprague
+- name: Petter Ögren
 ---
 
-# Combining Neural Network Verification and Behavior Tree Synthesis for Robotic Task Planning
+## 논문 정보
 
+- **제목**: Adding Neural Network Controllers to Behavior Trees without Destroying Performance Guarantees
+- **저자**: Christopher Iliffe Sprague (KTH Royal Institute of Technology), Petter Ögren (KTH Royal Institute of Technology)
+- **학회/저널**: 61st IEEE Conference on Decision and Control (CDC 2022) / arXiv 프리프린트 (2018)
+- **발행일**: 2018-09-26 (arXiv), 2022 (CDC 발표)
+- **DOI**: [arXiv:1809.10283](https://arxiv.org/abs/1809.10283) / [10.1109/CDC51059.2022.9992501](https://doi.org/10.1109/CDC51059.2022.9992501)
+- **주요 연구 내용**: 안전성과 목표 수렴에 대한 성능 보장을 갖춘 행동 트리에 기계학습으로 설계된 신경망 컴포넌트를 성능 보장을 파괴하지 않으면서 통합하는 방법 제안
+- **주요 결과 및 결론**: BT의 모듈적 구조를 활용하여 신뢰할 수 없지만 효율적인 ML 컴포넌트와 형식적으로 검증된 모델 기반 컴포넌트를 안전하게 결합 가능
+- **기여점**: 학습 기반 접근법의 효율성과 형식적 모델 기반 설계의 안전성을 동시에 달성하는 하이브리드 BT 아키텍처 제시
 <!--truncate-->
-## 서지 정보
-- **저자**: C. Paxton, A. Byravan, A. Tamar, D. Fox
-- **출판**: Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-- **연도**: 2018
-- **DOI/arXiv**: doi: 10.1109/IROS.2018.8593504
 
-## 핵심 요약
-신경망(Neural Network) 기반 로봇 정책의 검증과 행동 트리(BT) 합성을 결합하여 안전하고 해석 가능한 로봇 태스크 플래닝 시스템을 구축하는 방법을 제안한다. 신경망이 복잡한 지각(perception) 및 저수준 제어 태스크를 담당하고, BT가 고수준 태스크 로직과 안전 제약을 구조화한다. 신경망 검증(formal verification) 기법을 통해 BT 내 신경망 기반 노드의 행동이 안전 조건을 만족하는지 수학적으로 확인한다. 이 하이브리드 접근법은 순수 신경망 방식의 불투명성(opacity)과 순수 BT 방식의 제한적 표현력을 동시에 극복하는 것을 목표로 한다.
+## 요약
 
-## 주요 기여
-1. 신경망 정책과 행동 트리를 결합한 하이브리드 로봇 태스크 플래닝 아키텍처 제안
-2. 형식 검증(formal verification)을 통해 BT 내 신경망 구성요소의 안전성을 수학적으로 보증하는 방법 제시
-3. 고수준 BT 로직과 저수준 신경망 제어의 역할 분리를 통한 해석 가능성과 안전성 동시 달성
+### 초록
+본 논문은 안전성과 목표 수렴 측면에서 성능 보장을 갖춘 행동 트리(BT)를 기계학습으로 설계된 컴포넌트로 확장하면서도 그 성능 보장을 파괴하지 않는 방법을 제시한다. 기존의 모델 기반 시스템은 형식적 보장을 제공하지만 복잡한 환경에서의 효율성이 떨어지고, 기계학습 기반 시스템은 효율적이지만 안전성 보장이 어렵다. BT의 구조적 모듈성을 활용하여 이 두 접근법을 안전하게 통합한다.
 
-## 핵심 개념
-- **Neural Network Verification**: 신경망의 출력이 특정 조건(안전 제약, 성능 사양)을 항상 만족하는지 형식적으로 증명하는 기법
-- **BT Synthesis**: 태스크 목표와 환경 모델로부터 BT 구조를 자동으로 생성하는 과정
-- **Hybrid Architecture**: 학습 기반(신경망)과 구조 기반(BT) 컴포넌트를 통합하는 로봇 제어 아키텍처
-- **Interpretability**: BT의 계층적 구조를 통해 로봇 행동의 의사결정 과정을 인간이 이해할 수 있게 만드는 특성
+### 서론
+로봇공학에서 신경망(Neural Network) 기반 제어기는 복잡한 환경에서 높은 성능을 보이지만, 안전성과 목표 달성에 대한 형식적 보장을 제공하기 어렵다. 반면, 모델 기반 제어기는 수학적으로 검증 가능한 성능 보장을 제공하지만, 복잡한 실세계 환경에서의 적응성이 제한적이다. 이러한 두 접근법의 장점을 결합하는 것이 로봇 제어의 핵심 과제이며, BT의 모듈적 구조가 이를 가능하게 하는 핵심 요소이다.
 
-## 석사논문과의 연관성
-이 논문은 석사논문의 핵심 아이디어인 **LLM + BT 통합**의 이론적 선례를 제공한다. 신경망(딥러닝)이 복잡한 지각 태스크를 담당하고 BT가 고수준 로직을 구조화하는 아키텍처는, LLM이 자연어 이해와 BT 생성을 담당하고 BT가 에이전트 행동 실행을 제어하는 석사논문의 구조와 유사하다. 또한 신경망 행동의 형식 검증 개념은 LLM이 생성한 BT의 유효성 검증(BT 구조 검사, 시뮬레이션 실행 검증) 방법론 설계에 참고할 수 있다. SITL 환경에서 BT 기반 에이전트의 안전성을 보장하는 메커니즘 설계에 관련 통찰을 제공한다.
+### 모델 아키텍처 / 방법론
+제안하는 접근법의 핵심 구성요소는 다음과 같다:
 
-## 메모
-- 저자 중 Dieter Fox는 워싱턴대 로봇공학 교수로 딥러닝과 로봇공학 통합 분야의 선도 연구자
-- IROS 2018 발표 당시 신경망-BT 통합 연구의 초기 선구적 연구로 평가
-- 이후 많은 연구들이 이 논문의 하이브리드 아키텍처 개념을 발전시킴
+1. **BT의 모듈적 구조 활용**: BT의 계층적이고 모듈적인 구조를 활용하여 각 서브트리를 독립적으로 설계하고 검증할 수 있다. 이 구조적 특성이 ML 컴포넌트의 안전한 통합을 가능하게 한다.
+2. **신경망 컨트롤러 통합**: 기계학습으로 훈련된 신경망 컨트롤러를 BT의 액션 노드로 추가한다. 신경망은 복잡한 환경에서의 효율적인 제어를 담당한다.
+3. **성능 보장 유지 메커니즘**: 기존의 형식적으로 검증된 모델 기반 컴포넌트가 안전망(shield) 역할을 하여, 신경망 컨트롤러의 출력이 안전 조건을 위반할 경우 모델 기반 제어로 전환한다.
+4. **형식적 검증**: BT 내 신경망 기반 노드의 행동이 안전 조건을 만족하는지 수학적으로 확인하는 검증 프레임워크를 제공한다.
+
+### 실험 및 결과
+역진자(inverted pendulum) 제어 문제를 예시로 활용하여 제안 방법의 유효성을 검증하였다. 신경망 컨트롤러를 BT에 통합한 후에도 기존의 안전성 및 목표 수렴 보장이 유지됨을 보였다. BT의 모듈적 구조 덕분에 신뢰할 수 없지만 효율적인 ML 컴포넌트와 보장된 모델 기반 컴포넌트를 자연스럽게 결합할 수 있음을 입증하였다.
+
+### 결론
+본 논문은 학습 기반 방법의 효율성과 형식적 모델 기반 설계의 신뢰성 사이의 간극을 BT의 모듈적 구조를 통해 연결하는 방법을 제시한다. 하이브리드 시스템이 증명 가능한 안전 마진을 유지하면서 신경망의 효율성을 활용할 수 있음을 보였다. 이 접근법은 LLM이 생성한 BT의 유효성 검증이나 시뮬레이션 환경에서의 안전성 보장 메커니즘 설계에 참고할 수 있는 통찰을 제공한다. arXiv에 2018년 게재되었으며 CDC 2022에서 정규 논문으로 발표되었다.

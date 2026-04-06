@@ -1,27 +1,52 @@
 ---
 title: 'Autonomous Vehicle Safety: An Interdisciplinary Challenge'
+date: '2017-01-01'
+description: 자율주행차 안전성을 소프트웨어 공학, 시스템 엔지니어링, 법, 윤리 등 다학제적 관점에서 분석한 종합 논문
+tags: [JIK Reference, Software Testing, Artificial Intelligence]
 authors:
 - name: Philip Koopman
 - name: Michael Wagner
-tags: [JIK Reference, Software Testing, Artificial Intelligence]
 ---
 
-# Autonomous Vehicle Safety: An Interdisciplinary Challenge
+## 논문 정보
 
+- **제목**: Autonomous Vehicle Safety: An Interdisciplinary Challenge
+- **저자**: Philip Koopman (Carnegie Mellon University), Michael Wagner (Carnegie Mellon University)
+- **학회/저널**: IEEE Intelligent Transportation Systems Magazine, Volume 9, Issue 1, pp. 90-96
+- **발행일**: 2017-01-01
+- **DOI**: [10.1109/MITS.2016.2583491](https://doi.org/10.1109/MITS.2016.2583491)
+- **주요 연구 내용**: 완전 자율주행차의 안전성 확보가 단일 공학 분야가 아닌 다학제적 접근을 요구하는 복합적 과제임을 체계적으로 분석
+- **주요 결과 및 결론**: 기능적 안전, SOTIF, 사이버 보안의 세 가지 축을 중심으로 AV 안전 도전 과제를 정리하고, 기존 자동차 안전 표준의 한계를 규명
+- **기여점**: AV 안전 연구의 범위를 기술적 신뢰성에서 사회적, 법적 맥락으로 확장하여 종합적 안전 논증(Safety Case) 방법론의 필요성을 제기
 <!--truncate-->
-자율주행차 안전성은 단일 공학 분야가 아닌, 소프트웨어 공학·시스템 엔지니어링·법·윤리 등이 얽힌 복합적 과제임을 논한다. IEEE Intelligent Transportation Systems Magazine 게재 논문.
 
-<!-- truncate -->
+## 요약
 
-## 핵심 기여
+### 초록
+완전 자율주행차의 안전성을 보장하기 위해서는 하드웨어 결함 내성(fault tolerance)에서부터 탄력적 기계 학습, 기존 차량과의 협력 주행, 고도로 비구조적인 환경에서의 시스템 검증, 적절한 규제 접근법에 이르기까지 기능적 계층의 모든 수준에 걸친 다학제적 접근이 필요하다. 본 논문은 이러한 중대한 미해결 기술적 과제들을 식별하고, 가장 큰 도전이 여러 기술 전문 분야의 안전 우려를 통합된 접근법으로 통합하는 엔드투엔드 설계 및 배포 프로세스를 만드는 것임을 제시한다.
 
-- AV 안전성의 세 가지 주요 도전: **기능적 안전(Functional Safety)**, **설계 안전(Safety of the Intended Functionality, SOTIF)**, **사이버 보안**
-- 자율주행의 안전 논증(Safety Case)을 만들기 위해 필요한 다학제적 접근 제시
-- 기존 자동차 안전 표준(ISO 26262)의 한계와 AV에 적용할 때의 갭 분석
-- 검증·검사 방법론으로서 시뮬레이션, 섀도우 모드 테스팅, 사고 분석 등 제안
+### 서론
+자율주행 기술은 교통사고 감소, 이동성 향상, 에너지 효율 개선 등의 잠재적 이점으로 주목받고 있으나, 안전성 확보는 여전히 가장 큰 과제이다. 기존 자동차 산업은 ISO 26262와 같은 기능 안전 표준에 의존해 왔으나, 이 표준은 인간 운전자가 존재하는 기존 차량을 전제로 설계되었다. 완전 자율주행차에서는 인간 운전자의 백업이 없으므로, 소프트웨어가 모든 운전 상황을 처리해야 하며, 이는 기존 안전 접근법의 근본적 재검토를 요구한다.
 
-## 의의
+### 모델 아키텍처 / 방법론
+저자들은 AV 안전성의 세 가지 주요 도전 축을 중심으로 분석하였다:
 
-AV 안전 연구의 범위를 기술적 신뢰성에서 사회적·법적 맥락으로 확장한 논문. SIL 테스팅 및 시나리오 기반 검증의 필요성을 폭넓은 시각에서 정당화한다.
+1. **기능적 안전(Functional Safety)**: ISO 26262 기반의 하드웨어/소프트웨어 결함에 대한 안전 확보. 자율주행에서는 소프트웨어의 복잡도가 기하급수적으로 증가하여 기존 표준의 적용이 어려움
+2. **의도된 기능의 안전성(SOTIF, Safety of the Intended Functionality)**: 시스템이 설계대로 동작하더라도 환경 인식 오류, 알고리즘 한계 등으로 인한 위험. 특히 귀납적 학습(inductive learning)의 새로운 환경 입력에 대한 검증이 핵심 과제
+3. **사이버 보안(Cybersecurity)**: 외부 공격에 의한 차량 제어 탈취, 센서 스푸핑 등의 위협. V2X 통신이 확대될수록 공격 표면(attack surface)이 증가
 
-Source: [IEEE Intelligent Transportation Systems Magazine, 2016](https://doi.org/10.1109/MITS.2016.2583491)
+추가적으로 다음 사항들을 분석:
+- **검증 방법론**: 시뮬레이션, 섀도우 모드 테스팅, 사고 분석 등 다양한 검증 접근법의 장단점
+- **규제 프레임워크**: 기존 자동차 규제의 한계와 AV에 적합한 새로운 규제 체계의 필요성
+- **윤리적 고려사항**: 사고 불가피 상황에서의 의사결정 문제(trolley problem) 등
+
+### 실험 및 결과
+본 논문은 실험 논문이 아닌 종합 분석 논문으로, 주요 발견은 다음과 같다:
+
+- **ISO 26262의 한계**: 기존 기능 안전 표준은 인간 운전자의 존재를 전제하므로, Level 4/5 자율주행에는 근본적으로 부적합
+- **귀납적 학습의 검증 어려움**: 딥러닝 기반 인식 시스템은 학습 데이터에 없는 새로운 상황(novel environmental inputs)에 대한 안전성 보장이 가장 큰 기술적 미해결 과제
+- **매우 높은 신뢰성 요구**: 대규모 차량 배치를 위해서는 극히 높은 수준의 의존성(dependability)이 요구되며, 이를 달성하고 증명하는 것이 실질적으로 가장 어려운 과제
+- **통합 접근의 필요성**: 가장 큰 도전은 개별 기술 분야의 안전 우려를 통합하는 엔드투엔드 설계 및 배포 프로세스의 구축
+
+### 결론
+자율주행차의 안전성은 단일 기술 분야의 문제가 아니라, 소프트웨어 공학, 시스템 엔지니어링, 기계 학습, 사이버 보안, 법규, 윤리 등이 얽힌 다학제적 과제이다. 기존 자동차 안전 표준은 완전 자율주행에 직접 적용하기에 한계가 있으며, 새로운 안전 논증(Safety Case) 방법론이 필요하다. 이 논문은 AV 안전 연구의 범위를 기술적 신뢰성에서 사회적, 법적 맥락으로 확장하였으며, SIL 테스팅 및 시나리오 기반 검증의 필요성을 폭넓은 시각에서 정당화하는 근거가 되었다.

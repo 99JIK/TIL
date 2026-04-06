@@ -1,5 +1,8 @@
 ---
 title: Comparison between Behavior Trees and Finite State Machines
+date: '2024-05-25'
+description: 모바일 조작 작업에서 행동 트리와 유한 상태 머신의 반응성, 모듈성, 가독성, 설계를 정량적으로 비교
+tags: [Behavior Tree, State Machine, Robotics, Mobile Manipulation]
 authors:
 - name: Matteo Iovino
 - name: Julian Förster
@@ -7,25 +10,43 @@ authors:
 - name: Jen Jen Chung
 - name: Roland Siegwart
 - name: Christian Smith
-tags: [Behavior Tree, State Machine, Robotics, Mobile Manipulation]
 ---
 
-# Comparison between Behavior Trees and Finite State Machines
+## 논문 정보
 
+- **제목**: Comparison between Behavior Trees and Finite State Machines
+- **저자**: Matteo Iovino, Julian Förster, Pietro Falco, Jen Jen Chung, Roland Siegwart, Christian Smith
+- **학회/저널**: IEEE Transactions on Robotics (T-RO) 투고, arXiv preprint (cs.RO)
+- **발행일**: 2024-05-25
+- **DOI**: [10.48550/arXiv.2405.16137](https://doi.org/10.48550/arXiv.2405.16137)
+- **주요 연구 내용**: 모바일 조작 작업에서 로봇을 제어할 때 행동 트리(BT)와 유한 상태 머신(FSM)의 실용적 비교를 반응성, 모듈성, 가독성, 설계의 네 가지 측면에서 수행
+- **주요 결과 및 결론**: 작업 수행 중 로봇의 실제 행동은 정책 표현 방식에 독립적이나, 작업 복잡도가 증가할수록 BT가 FSM보다 유지보수가 용이함
+- **기여점**: BT와 FSM의 최초의 체계적이고 실용적인 정량 비교를 시뮬레이션과 실제 로봇 환경 모두에서 수행하고, 비교 메트릭을 제안
 <!--truncate-->
-Behavior Trees (BTs) were first conceived in the computer games industry as a tool to model agent behavior, but they received interest also in the robotics community as an alternative policy design to Finite State Machines (FSMs). 
 
-The advantages of BTs over FSMs had been highlighted in many works, but there is no thorough practical comparison of the two designs. Such a comparison is particularly relevant in the robotic industry, where FSMs have been the state-of-the-art policy representation for robot control for many years. 
+## 요약
 
-In this work we shed light on this matter by comparing how BTs and FSMs behave when controlling a robot in a mobile manipulation task. The comparison is made in terms of reactivity, modularity, readability, and design. We propose metrics for each of these properties, being aware that while some are tangible and objective, others are more subjective and implementation dependent. 
+### 초록
+행동 트리(BT)는 게임 산업에서 에이전트 행동을 모델링하는 도구로 처음 고안되었으나, 유한 상태 머신(FSM)의 대안적 정책 설계로서 로봇 공학 커뮤니티에서도 주목받고 있다. BT의 FSM 대비 장점은 다수의 연구에서 강조되어 왔으나, 두 설계 방식에 대한 철저한 실용적 비교는 없었다. 이러한 비교는 FSM이 수년간 로봇 제어의 최첨단 정책 표현이었던 로봇 산업에서 특히 중요하다. 본 연구는 모바일 조작 작업에서 로봇을 제어할 때 BT와 FSM이 어떻게 동작하는지를 반응성, 모듈성, 가독성, 설계의 네 가지 측면에서 비교한다.
 
-The practical comparison is performed in a simulation environment with validation on a real robot. We find that although the robot's behavior during task solving is independent on the policy representation, maintaining a BT rather than an FSM becomes easier as the task increases in complexity.
+### 서론
+로봇 제어 분야에서 FSM은 오랫동안 표준적인 정책 표현 방식이었다. 최근 게임 AI에서 유래한 BT가 로봇 공학에 도입되면서, 모듈성과 반응성에서의 장점이 부각되었다. 그러나 기존 문헌에서는 BT의 장점이 주로 이론적으로만 논의되었으며, 동일한 작업에서 BT와 FSM을 동일한 조건으로 비교한 실용적 연구는 부재했다. 본 연구는 이 공백을 메우고자 한다.
 
-<!-- truncate -->
+### 모델 아키텍처 / 방법론
+비교를 위해 네 가지 정량적 메트릭을 제안한다:
+1. **반응성(Reactivity)**: 환경 변화에 대한 정책의 응답 능력
+2. **모듈성(Modularity)**: 정책 컴포넌트의 재사용 및 독립적 수정 용이성
+3. **가독성(Readability)**: 정책 구조의 인간 이해 용이성
+4. **설계(Design)**: 정책 설계 및 수정에 필요한 노력
 
-## Findings
-- **Independence of Behavior**: The actual task execution behavior is independent of the policy representation.
-- **Maintainability**: Maintaining a BT is easier than an FSM as task complexity increases.
-- **Comparison Metrics**: Reactivity, modularity, readability, and design.
+동일한 모바일 조작 작업에 대해 BT와 FSM 각각으로 정책을 설계하고, 시뮬레이션 환경에서 실행한 후 실제 로봇에서도 검증한다. 일부 메트릭은 객관적이고 정량적인 반면, 다른 메트릭은 주관적이고 구현에 의존적임을 인정한다.
 
-Source: [arXiv:2405.16137](https://arxiv.org/abs/2405.16137)
+### 실험 및 결과
+시뮬레이션 환경과 실제 로봇에서의 실험 결과:
+- **행동 독립성**: 작업 수행 중 로봇의 실제 행동은 BT와 FSM 중 어떤 정책 표현을 사용하든 동일하였다
+- **유지보수 용이성**: 작업 복잡도가 증가할수록 BT가 FSM보다 유지보수가 현저히 용이하였다
+- **모듈성**: BT는 서브트리의 독립적 추가·수정이 가능한 반면, FSM은 상태 간 전이 관계의 전체적 수정이 필요하였다
+- **가독성**: 복잡한 작업에서 BT의 계층적 구조가 FSM의 평면적 그래프보다 이해하기 쉬웠다
+
+### 결론
+BT와 FSM은 동일한 작업에서 동일한 로봇 행동을 산출하지만, 정책의 유지보수와 확장 측면에서 BT가 작업 복잡도 증가에 따라 명확한 이점을 가진다. 본 연구는 로봇 산업에서 BT 도입의 실용적 근거를 제공하며, FSM에서 BT로의 전환을 고려하는 개발자에게 유용한 정량적 비교 프레임워크를 제시한다.

@@ -1,28 +1,51 @@
 ---
 title: Behavior Trees in Robotics and AI - An Introduction
+date: '2018-01-01'
+description: Behavior Tree의 이론적 기초, 설계 원칙, 형식적 분석 도구를 체계적으로 소개하는 로봇 공학 및 AI 분야의 입문서
+tags: [JIK Reference, Behavior Tree, Robotics, Artificial Intelligence]
 authors:
 - name: Michele Colledanchise
 - name: Petter Ögren
-tags: [JIK Reference, Behavior Tree, Robotics, Artificial Intelligence]
 ---
 
-# Behavior Trees in Robotics and AI: An Introduction
+## 논문 정보
 
+- **제목**: Behavior Trees in Robotics and AI: An Introduction
+- **저자**: Michele Colledanchise (KTH Royal Institute of Technology), Petter Ögren (KTH Royal Institute of Technology)
+- **학회/저널**: Chapman & Hall/CRC Artificial Intelligence and Robotics Series (도서) / arXiv:1709.00084
+- **발행일**: 2018-01-01
+- **DOI**: [10.1201/9780429489105](https://doi.org/10.1201/9780429489105)
+- **주요 연구 내용**: Behavior Tree(BT)의 정의, 이론적 기초, 기존 전환 구조와의 관계, 설계 원칙, 형식적 분석 도구, 자동 계획 및 기계 학습에서의 활용, 확률적 BT까지 포괄적으로 소개
+- **주요 결과 및 결론**: BT가 FSM 등 기존 전환 구조를 일반화하며, 안전성, 견고성, 효율성에 대한 형식적 분석이 가능함을 체계적으로 제시
+- **기여점**: BT에 대한 최초의 체계적 입문서로, 로봇 공학 및 AI 분야에서 BT 연구와 응용의 표준 참고 자료 역할
 <!--truncate-->
-A Behavior Tree (BT) is a way to structure the switching between different tasks in an autonomous agent, such as a robot or a virtual entity in a computer game. BTs are a very efficient way of creating complex systems that are both modular and reactive. 
 
-These properties are crucial in many applications, which has led to the spread of BT from computer game programming to many branches of AI and Robotics. In this book, we will first give an introduction to BTs, then we describe how BTs relate to, and in many cases generalize, earlier switching structures. These ideas are then used as a foundation for a set of efficient and easy to use design principles. 
+## 요약
 
-Properties such as safety, robustness, and efficiency are important for an autonomous system, and we describe a set of tools for formally analyzing these using a state space description of BTs. With the new analysis tools, we can formalize the descriptions of how BTs generalize earlier approaches. We also show the use of BTs in automated planning and machine learning. 
+### 초록
+Behavior Tree(BT)는 로봇이나 컴퓨터 게임의 가상 개체 같은 자율 에이전트에서 서로 다른 태스크 간의 전환을 구조화하는 방법이다. BT는 모듈적이면서 반응적인 복잡한 시스템을 만드는 매우 효율적인 방법이다. 이러한 속성은 많은 응용에서 중요하며, BT가 컴퓨터 게임 프로그래밍에서 AI와 로봇 공학의 여러 분야로 확산되는 데 기여하였다. 본 서적에서는 먼저 BT에 대한 소개를 제공하고, BT가 기존 전환 구조들과 어떤 관계에 있으며 어떻게 일반화하는지 설명한다. 이러한 아이디어는 효율적이고 사용하기 쉬운 설계 원칙의 기반으로 사용된다. 안전성, 견고성, 효율성은 자율 시스템에서 중요한 속성이며, 상태 공간 기술을 활용한 형식적 분석 도구를 제시한다. 또한 BT의 자동 계획 및 기계 학습에서의 활용을 보여주고, 마지막으로 액션의 결과가 확률로 기술되는 확률적 BT를 위한 확장 도구를 제시한다.
 
-Finally, we describe an extended set of tools to capture the behavior of Stochastic BTs, where the outcomes of actions are described by probabilities. These tools enable the computation of both success probabilities and time to completion.
+### 서론
+BT는 원래 컴퓨터 게임 산업에서 NPC의 복잡한 행동을 모듈적으로 구성하기 위해 개발되었다. 게임 AI에서의 성공을 바탕으로, 모듈성과 반응성이라는 핵심 특성이 로봇 공학과 AI 분야에서도 높이 평가받으며 채택이 확대되고 있다. 그러나 BT에 대한 체계적 이론과 통합된 입문서가 부재하여, 연구자와 개발자가 BT를 효과적으로 활용하기 어려웠다. 본 서적은 이러한 공백을 메우기 위해 BT의 이론적 기초부터 실용적 설계 원칙, 형식적 분석, 고급 응용까지를 포괄적으로 다룬다.
 
-<!-- truncate -->
+### 모델 아키텍처 / 방법론
+본 서적은 다음과 같은 주제들을 체계적으로 다룬다:
 
-## Key Concepts
-- **Modularity and Reactivity**: Essential properties for complex autonomous systems.
-- **Generalization**: BTs are shown to generalize earlier switching structures like FSMs.
-- **Formal Analysis**: Tools for analyzing safety, robustness, and efficiency.
-- **Extended Applications**: Use in automated planning, machine learning, and Stochastic BTs.
+1. **BT 기본 구조**: Sequence, Selector(Fallback), Parallel 등의 제어 흐름 노드와 Action, Condition 등의 실행 노드의 정의 및 실행 의미론(tick 기반 실행)
+2. **기존 구조와의 관계**: BT가 FSM, Decision Tree, Subsumption Architecture, Teleo-reactive Program 등 기존 전환 구조를 어떻게 일반화하는지 분석
+3. **설계 원칙**: BT의 모듈성과 반응성을 최대한 활용하기 위한 효율적이고 실용적인 설계 가이드라인 제시
+4. **형식적 분석 도구**: 상태 공간(state space) 기술을 활용하여 BT의 안전성(safety), 견고성(robustness), 효율성(efficiency)을 형식적으로 분석하는 방법론
+5. **자동 계획과의 결합**: BT를 자동 계획(automated planning) 시스템과 통합하여 태스크를 자동으로 생성하는 방법
+6. **기계 학습과의 결합**: 강화 학습 등을 통해 BT를 자동으로 학습하는 접근법
+7. **확률적 BT(Stochastic BT)**: 액션의 결과가 확률적으로 기술되는 확률적 BT에 대한 분석 도구. 성공 확률과 완료 시간을 계산하는 방법 제시
 
-Source: [arXiv:1709.00084](https://arxiv.org/abs/1709.00084)
+### 실험 및 결과
+본 서적은 이론서의 성격이 강하나, 다양한 예시와 사례 연구를 통해 이론의 적용성을 보여준다:
+
+- **FSM 일반화 증명**: BT가 FSM의 모든 행동을 표현할 수 있음을 형식적으로 증명하고, 구체적 변환 예시를 제시
+- **설계 원칙 적용 사례**: 로봇 네비게이션, 물체 조작 등의 태스크에 설계 원칙을 적용한 예시
+- **안전성 분석 사례**: 특정 BT 설계에 대해 형식적 분석 도구를 적용하여 안전성 속성을 검증하는 과정 시연
+- **확률적 BT 분석**: 액션 성공률이 확률적으로 주어진 상황에서 전체 BT의 성공 확률과 예상 완료 시간을 계산하는 예시
+
+### 결론
+본 서적은 BT에 대한 최초의 체계적 입문서로, BT의 이론적 기초, 설계 원칙, 형식적 분석 도구, 자동 계획 및 기계 학습과의 결합, 확률적 BT까지를 포괄적으로 다룬다. BT가 기존 전환 구조를 일반화하며, 모듈성과 반응성이라는 핵심 특성을 통해 복잡한 자율 시스템의 설계를 효과적으로 지원함을 보여주었다. 이 서적은 로봇 공학 및 AI 분야에서 BT 연구와 응용의 표준 참고 자료로 자리 잡았다.

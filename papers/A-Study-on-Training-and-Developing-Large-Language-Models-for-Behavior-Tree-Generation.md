@@ -1,5 +1,8 @@
 ---
 title: A Study on Training and Developing Large Language Models for Behavior Tree Generation
+date: '2024-01-16'
+description: 합성 데이터와 다층 검증 전략을 활용한 LLM 기반 행동 트리 자동 생성 프레임워크 제안
+tags: [JIK Reference, Large Language Model, Behavior Tree, Artificial Intelligence]
 authors:
 - name: Fu Li
 - name: Xueying Wang
@@ -7,25 +10,38 @@ authors:
 - name: Yunlong Wu
 - name: Yanzhen Wang
 - name: Xiaodong Yi
-tags: [JIK Reference, Large Language Model, Behavior Tree, Artificial Intelligence]
 ---
 
-# A Study on Training and Developing Large Language Models for Behavior Tree Generation
+## 논문 정보
 
+- **제목**: A Study on Training and Developing Large Language Models for Behavior Tree Generation
+- **저자**: Fu Li, Xueying Wang, Bin Li, Yunlong Wu, Yanzhen Wang, Xiaodong Yi
+- **학회/저널**: arXiv preprint (cs.CL, cs.AI, cs.RO)
+- **발행일**: 2024-01-16
+- **DOI**: [10.48550/arXiv.2401.08089](https://doi.org/10.48550/arXiv.2401.08089)
+- **주요 연구 내용**: LLM의 표현 및 추론 능력을 활용하여 복잡한 작업에 대한 행동 트리(BT)를 자동 생성하는 프레임워크를 설계하고, 데이터 합성부터 모델 훈련, 애플리케이션 개발, 데이터 검증까지의 전체 파이프라인을 제안
+- **주요 결과 및 결론**: 합성 데이터로 훈련된 BTGen 모델이 다양한 복잡한 작업에 대한 이해도와 적응력을 크게 향상시키며, 다층 검증 전략으로 생성된 BT의 유효성과 실행 가능성을 보장
+- **기여점**: 데이터 합성, 모델 훈련, 애플리케이션 개발, 다층 검증을 아우르는 완전한 LLM 기반 BT 생성 프레임워크를 최초로 제시
 <!--truncate-->
-This paper presents an innovative exploration of the application potential of large language models (LLM) in addressing the challenging task of automatically generating behavior trees (BTs) for complex tasks. 
 
-The conventional manual BT generation method is inefficient and heavily reliant on domain expertise. On the other hand, existing automatic BT generation technologies encounter bottlenecks related to task complexity, model adaptability, and reliability. 
+## 요약
 
-In order to overcome these challenges, we propose a novel methodology that leverages the robust representation and reasoning abilities of LLMs. The core contribution of this paper lies in the design of a BT generation framework based on LLM, which encompasses the entire process, from data synthesis and model training to application developing and data verification. 
+### 초록
+본 논문은 복잡한 작업에 대한 행동 트리(BT)를 자동 생성하는 도전적 과제에 대규모 언어 모델(LLM)의 적용 가능성을 혁신적으로 탐구한다. 전통적인 수동 BT 생성 방법은 비효율적이며 도메인 전문 지식에 크게 의존한다. 반면, 기존 자동 BT 생성 기술은 작업 복잡도, 모델 적응력, 신뢰성과 관련된 병목현상에 직면해 있다. 이러한 과제를 극복하기 위해, 본 연구는 LLM의 강력한 표현 및 추론 능력을 활용하는 새로운 방법론을 제안한다. 핵심 기여는 데이터 합성, 모델 훈련, 애플리케이션 개발, 데이터 검증까지의 전체 과정을 포괄하는 LLM 기반 BT 생성 프레임워크 설계에 있다.
 
-Synthetic data is introduced to train the BT generation model (BTGen model), enhancing its understanding and adaptability to various complex tasks, thereby significantly improving its overall performance. In order to ensure the effectiveness and executability of the generated BTs, we emphasize the importance of data verification and introduce a multilevel verification strategy.
+### 서론
+행동 트리는 게임 AI, 로봇 제어, 자율 시스템 등 다양한 분야에서 에이전트 행동을 모델링하는 데 널리 사용된다. 그러나 복잡한 작업에 대한 BT의 수동 설계는 많은 시간과 전문 지식을 요구하며, 기존 자동 생성 기법들은 작업 복잡도 증가에 따른 확장성 문제를 갖고 있다. LLM은 자연어 이해, 코드 생성, 논리적 추론 등에서 뛰어난 성능을 보여주고 있어, BT 자동 생성의 새로운 가능성을 열어준다.
 
-<!-- truncate -->
+### 모델 아키텍처 / 방법론
+본 연구의 BT 생성 프레임워크는 네 가지 핵심 단계로 구성된다:
 
-## Key Contributions
-- **BT Generation Framework**: A complete pipeline from data synthesis to verification.
-- **BTGen Model**: Trained using synthetic data for better adaptability.
-- **Multilevel Verification**: Ensures the effectiveness and executability of generated BTs.
+1. **데이터 합성(Data Synthesis)**: BT 생성 모델 훈련을 위한 고품질 합성 데이터셋 구축. 다양한 작업 시나리오와 이에 대응하는 BT 구조를 자동으로 생성
+2. **모델 훈련(Model Training)**: 합성 데이터를 활용하여 BTGen 모델을 훈련. 다양한 복잡한 작업에 대한 이해도와 적응력을 향상
+3. **애플리케이션 개발(Application Development)**: LLM 기반 에이전트 설계 방식을 도입하여 실제 환경에서의 BT 생성 및 활용
+4. **다층 검증(Multilevel Verification)**: 생성된 BT의 유효성과 실행 가능성을 보장하기 위한 다단계 검증 전략 적용. 구문 검증, 의미 검증, 실행 검증 등을 포함
 
-Source: [arXiv:2401.08089](https://arxiv.org/abs/2401.08089)
+### 실험 및 결과
+합성 데이터로 훈련된 BTGen 모델은 다양한 복잡한 작업에 대해 유효하고 실행 가능한 BT를 생성하는 데 성공하였다. 합성 데이터의 도입이 모델의 일반화 능력과 적응력을 크게 향상시켰으며, 다층 검증 전략을 통해 생성된 BT의 품질을 체계적으로 보장할 수 있었다.
+
+### 결론
+본 연구는 LLM 기반 BT 자동 생성의 전체 파이프라인을 체계적으로 제시한 최초의 연구로, 데이터 합성부터 검증까지의 완전한 프레임워크를 구축하였다. 합성 데이터 활용과 다층 검증 전략이라는 두 가지 핵심 기법을 통해 BT 자동 생성의 신뢰성과 실용성을 크게 향상시켰다. 이 프레임워크는 로봇 공학, 게임 AI, 자율 시스템 등 BT를 활용하는 다양한 도메인에 적용 가능하다.
