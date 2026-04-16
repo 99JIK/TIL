@@ -11,10 +11,14 @@
             "id": "ff9fbece8b32c034",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Week6Q.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Week6Q"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Week6Q.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "Week6Q 의 개요"
             }
           }
         ],
@@ -166,7 +171,7 @@
   },
   "active": "ff9fbece8b32c034",
   "lastOpenFiles": [
-    "Week5Q.md",
+    "Week6Q.md",
     "docs/Paper/MASTER'S-THESIS/img/BTGenBot.md",
     "conflict-files-obsidian-git.md",
     "무제.base",
