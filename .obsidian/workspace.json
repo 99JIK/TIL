@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Software-Testing-of-Embedded-Safety-Loops.md",
+                "file": "papers/A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Software-Testing-of-Embedded-Safety-Loops"
+              "title": "A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/Software-Testing-of-Embedded-Safety-Loops.md",
+                "file": "papers/A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Software-Testing-of-Embedded-Safety-Loops 의 개요"
+              "title": "A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop 의 개요"
             }
           }
         ],
@@ -171,20 +171,21 @@
   },
   "active": "82e23827f2be2e8d",
   "lastOpenFiles": [
+    "papers/img/Pasted image 20260422131109.png",
+    "papers/img/Pasted image 20260422131035.png",
+    "papers/img/Pasted image 20260422130957.png",
+    "papers/img/Pasted image 20260422130651.png",
+    "papers/img/Pasted image 20260422130625.png",
+    "papers/img/Pasted image 20260422130603.png",
+    "papers/img/Pasted image 20260422130511.png",
+    "papers/img/Pasted image 20260422130441.png",
+    "papers/Software-Testing-of-Embedded-Safety-Loops.md",
+    "papers/A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop.md",
     "papers/img/Pasted image 20260422122412.png",
     "papers/img/Pasted image 20260422122322.png",
     "papers/Generating Autonomous Driving Test Scenarios based on OpenSCENARIO.md",
-    "papers/Software-Testing-of-Embedded-Safety-Loops.md",
     "papers/img/Pasted image 20260422121453.png",
-    "papers/img/Pasted image 20260422121417.png",
-    "papers/img/Pasted image 20260422121340.png",
-    "papers/img/Pasted image 20260422121316.png",
-    "papers/img/Pasted image 20260422121247.png",
     "papers/Vehicle-Hardware-In-the-Loop-System-for-ADAS-Virtual-Testing.md",
-    "papers/img/Pasted image 20260422120909.png",
-    "papers/img/Pasted image 20260422120847.png",
-    "papers/img/Pasted image 20260422120801.png",
-    "papers/img/Pasted image 20260422120727.png",
     "papers/A-Generic-Solution-to-Software-in-the-Loop.md",
     "Week6Q.md",
     "docs/Paper/MASTER'S-THESIS/img/BTGenBot.md",
@@ -208,7 +209,6 @@
     "papers/Improving-the-Parallel-Execution-of-Behavior-Trees.md",
     "papers/Game-AI-Agent-Modeling-Petri-Nets-Behavior-Trees.md",
     "papers/GPT-4-Technical-Report.md",
-    "papers/A-survey-of-Behavior-Trees-in-robotics-and-AI.md",
     "docs/Tools/_category_.json",
     "docs/Tools",
     "docs/Project/FOCUS",
