@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/LLM-BRAIn-AI-driven-Fast-Generation-of-Robot-Behaviour-Tree-Based-on-Large-Language-Model.md",
+                "file": "papers/BTGenBot-Behavior-Tree-Generation-for-Robotic-Tasks-with-Lightweight-LLMs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM-BRAIn-AI-driven-Fast-Generation-of-Robot-Behaviour-Tree-Based-on-Large-Language-Model"
+              "title": "BTGenBot-Behavior-Tree-Generation-for-Robotic-Tasks-with-Lightweight-LLMs"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/LLM-BRAIn-AI-driven-Fast-Generation-of-Robot-Behaviour-Tree-Based-on-Large-Language-Model.md",
+                "file": "papers/BTGenBot-Behavior-Tree-Generation-for-Robotic-Tasks-with-Lightweight-LLMs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LLM-BRAIn-AI-driven-Fast-Generation-of-Robot-Behaviour-Tree-Based-on-Large-Language-Model 의 개요"
+              "title": "BTGenBot-Behavior-Tree-Generation-for-Robotic-Tasks-with-Lightweight-LLMs 의 개요"
             }
           }
         ],
@@ -171,6 +171,12 @@
   },
   "active": "82e23827f2be2e8d",
   "lastOpenFiles": [
+    "papers/img/Pasted image 20260422144809.png",
+    "papers/img/Pasted image 20260422144742.png",
+    "papers/img/Pasted image 20260422144436.png",
+    "papers/img/Pasted image 20260422144049.png",
+    "papers/LLM-BRAIn-AI-driven-Fast-Generation-of-Robot-Behaviour-Tree-Based-on-Large-Language-Model.md",
+    "papers/BTGenBot-Behavior-Tree-Generation-for-Robotic-Tasks-with-Lightweight-LLMs.md",
     "papers/img/Pasted image 20260422140601.png",
     "papers/img/Pasted image 20260422140529.png",
     "papers/img/Pasted image 20260422140405.png",
@@ -182,17 +188,12 @@
     "papers/Behavior_Trees_and_State_Machines_in_Robotics_Applications.md",
     "papers/Behavior-Tree-Based-Scenario-Specification-and-Test-Case-Generation-for-Autonomous-Driving-Simulation.md",
     "papers/A-Survey-of-Behavior-Trees-in-Robotics-and-AI.md",
-    "papers/LLM-BRAIn-AI-driven-Fast-Generation-of-Robot-Behaviour-Tree-Based-on-Large-Language-Model.md",
     "papers/img/Pasted image 20260422140245.png",
     "papers/Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning.md",
     "papers/img/Pasted image 20260422135740.png",
     "papers/img/Pasted image 20260422135640.png",
     "papers/img/Pasted image 20260422135622.png",
-    "papers/img/Pasted image 20260422135539.png",
-    "papers/img/Pasted image 20260422135433.png",
-    "papers/img/Pasted image 20260422135353.png",
     "papers/A-survey-of-Behavior-Trees-in-robotics-and-AI.md",
-    "papers/img/Pasted image 20260422134615.png",
     "papers/Behavior-Trees-in-Robotics-and-AI-An-Intruduction.md",
     "papers/A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop.md",
     "papers/Software-Testing-of-Embedded-Safety-Loops.md",
@@ -207,7 +208,6 @@
     "docs/Paper/MASTER'S-THESIS/Behavior Tree.md",
     "img/Pasted.md",
     "img/Week1Q 1.md",
-    "무제 1.md",
     "papers/paper4.pdf",
     "docs/Tools/_category_.json",
     "docs/Tools",
