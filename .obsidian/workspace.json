@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "63a8a0175341d83e",
+        "id": "35dfee8fa8018e19",
         "type": "tabs",
         "children": [
           {
-            "id": "ff9fbece8b32c034",
+            "id": "82e23827f2be2e8d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "papers/A-Generic-Solution-to-Software-in-the-Loop.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "A-Generic-Solution-to-Software-in-the-Loop"
+              "title": "새 탭"
             }
           }
         ]
@@ -142,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/A-Generic-Solution-to-Software-in-the-Loop.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "A-Generic-Solution-to-Software-in-the-Loop 의 개요"
+              "title": "개요"
             }
           }
         ],
@@ -169,13 +164,18 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "ff9fbece8b32c034",
+  "active": "82e23827f2be2e8d",
   "lastOpenFiles": [
+    "papers/Vehicle-Hardware-In-the-Loop-System-for-ADAS-Virtual-Testing.md",
+    "papers/img/Pasted image 20260422120909.png",
+    "papers/img/Pasted image 20260422120847.png",
+    "papers/img/Pasted image 20260422120801.png",
+    "papers/img/Pasted image 20260422120727.png",
+    "papers/A-Generic-Solution-to-Software-in-the-Loop.md",
     "papers/img/Pasted image 20260422112312.png",
     "papers/img/Pasted image 20260422112250.png",
     "papers/img/Pasted image 20260422111947.png",
     "Week6Q.md",
-    "papers/A-Generic-Solution-to-Software-in-the-Loop.md",
     "docs/Paper/MASTER'S-THESIS/img/BTGenBot.md",
     "conflict-files-obsidian-git.md",
     "무제.base",
@@ -202,20 +202,14 @@
     "papers/A-Study-on-Training-and-Developing-Large-Language-Models-for-Behavior-Tree-Generation.md",
     "docs/Tools/_category_.json",
     "docs/Tools/research-paper-repo-structure-jik-reference-tag.md",
-    "docs/Tools/github-ci-failure-triage.md",
     "docs/Tools",
     "docs/Project/FOCUS",
     "docs/Project/AHgorithm",
     "docs/Project/ABB",
     "docs/KNU-MS/3rd_semester/img/Pasted image 20260307101152.png",
     "docs/KNU-MS/3rd_semester/img/Pasted image 20260307100642.png",
-    "docs/KNU-MS/3rd_semester/img/Pasted image 20260307100747.png",
-    "docs/KNU-MS/3rd_semester/img/Pasted image 20260307100606.png",
     "docs/KNU-MS/3rd_semester/img",
     "docs/Project/img.zip",
-    "docs/Project/img/Pasted image 20260128133151.png",
-    "docs/Project/img/Pasted image 20260128132248.png",
-    "docs/Project/img/Pasted image 20260128131945.png",
     "docs/Project/img"
   ]
 }
