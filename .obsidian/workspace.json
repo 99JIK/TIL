@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/BTGenBot-Behavior-Tree-Generation-for-Robotic-Tasks-with-Lightweight-LLMs.md",
+                "file": "papers/Intergrating-Intent-Understanding-and-Optimal-Behavior-Planning-for-Behavior-Tree-Generation-from-Human-Instructions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BTGenBot-Behavior-Tree-Generation-for-Robotic-Tasks-with-Lightweight-LLMs"
+              "title": "Intergrating-Intent-Understanding-and-Optimal-Behavior-Planning-for-Behavior-Tree-Generation-from-Human-Instructions"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/BTGenBot-Behavior-Tree-Generation-for-Robotic-Tasks-with-Lightweight-LLMs.md",
+                "file": "papers/Intergrating-Intent-Understanding-and-Optimal-Behavior-Planning-for-Behavior-Tree-Generation-from-Human-Instructions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "BTGenBot-Behavior-Tree-Generation-for-Robotic-Tasks-with-Lightweight-LLMs 의 개요"
+              "title": "Intergrating-Intent-Understanding-and-Optimal-Behavior-Planning-for-Behavior-Tree-Generation-from-Human-Instructions 의 개요"
             }
           }
         ],
@@ -171,15 +171,20 @@
   },
   "active": "82e23827f2be2e8d",
   "lastOpenFiles": [
+    "papers/img/Pasted image 20260422145544.png",
+    "papers/img/Pasted image 20260422145525.png",
+    "papers/img/Pasted image 20260422145506.png",
+    "papers/img/Pasted image 20260422145451.png",
+    "papers/img/Pasted image 20260422145424.png",
+    "papers/img/Pasted image 20260422145356.png",
+    "papers/img/Pasted image 20260422145250.png",
+    "papers/BTGenBot-Behavior-Tree-Generation-for-Robotic-Tasks-with-Lightweight-LLMs.md",
+    "papers/Intergrating-Intent-Understanding-and-Optimal-Behavior-Planning-for-Behavior-Tree-Generation-from-Human-Instructions.md",
     "papers/img/Pasted image 20260422144809.png",
     "papers/img/Pasted image 20260422144742.png",
     "papers/img/Pasted image 20260422144436.png",
     "papers/img/Pasted image 20260422144049.png",
     "papers/LLM-BRAIn-AI-driven-Fast-Generation-of-Robot-Behaviour-Tree-Based-on-Large-Language-Model.md",
-    "papers/BTGenBot-Behavior-Tree-Generation-for-Robotic-Tasks-with-Lightweight-LLMs.md",
-    "papers/img/Pasted image 20260422140601.png",
-    "papers/img/Pasted image 20260422140529.png",
-    "papers/img/Pasted image 20260422140405.png",
     "papers/Cross-dataset-learning-and-person-specific-normalisation-for-automatic-Acution-Unit-detection.md",
     "papers/Comparative-Analysis-of-Explainable-AI-Methods-for-Manufacturing-Defect-Prediction-A-Mathematical-Perspective.md",
     "papers/Combining-some-Biased-Estimation-Methods-with-Least-Trimmed-Squares-Regression-and-its-Application.md",
@@ -188,11 +193,7 @@
     "papers/Behavior_Trees_and_State_Machines_in_Robotics_Applications.md",
     "papers/Behavior-Tree-Based-Scenario-Specification-and-Test-Case-Generation-for-Autonomous-Driving-Simulation.md",
     "papers/A-Survey-of-Behavior-Trees-in-Robotics-and-AI.md",
-    "papers/img/Pasted image 20260422140245.png",
     "papers/Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning.md",
-    "papers/img/Pasted image 20260422135740.png",
-    "papers/img/Pasted image 20260422135640.png",
-    "papers/img/Pasted image 20260422135622.png",
     "papers/A-survey-of-Behavior-Trees-in-robotics-and-AI.md",
     "papers/Behavior-Trees-in-Robotics-and-AI-An-Intruduction.md",
     "papers/A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop.md",
@@ -207,7 +208,6 @@
     "Jeongin.md",
     "docs/Paper/MASTER'S-THESIS/Behavior Tree.md",
     "img/Pasted.md",
-    "img/Week1Q 1.md",
     "papers/paper4.pdf",
     "docs/Tools/_category_.json",
     "docs/Tools",
