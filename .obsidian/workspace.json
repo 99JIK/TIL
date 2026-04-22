@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop.md",
+                "file": "papers/Behavior-Trees-in-Robotics-and-AI-An-Intruduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop"
+              "title": "Behavior-Trees-in-Robotics-and-AI-An-Intruduction"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop.md",
+                "file": "papers/Behavior-Trees-in-Robotics-and-AI-An-Intruduction.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop 의 개요"
+              "title": "Behavior-Trees-in-Robotics-and-AI-An-Intruduction 의 개요"
             }
           }
         ],
@@ -171,20 +171,21 @@
   },
   "active": "82e23827f2be2e8d",
   "lastOpenFiles": [
+    "papers/img/Pasted image 20260422133435.png",
+    "papers/img/Pasted image 20260422133243.png",
+    "papers/img/Pasted image 20260422133105.png",
+    "papers/img/Pasted image 20260422131954.png",
+    "papers/A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop.md",
+    "papers/Behavior-Trees-in-Robotics-and-AI-An-Intruduction.md",
+    "papers/img/Pasted image 20260422131740.png",
     "papers/img/Pasted image 20260422131109.png",
     "papers/img/Pasted image 20260422131035.png",
     "papers/img/Pasted image 20260422130957.png",
     "papers/img/Pasted image 20260422130651.png",
     "papers/img/Pasted image 20260422130625.png",
     "papers/img/Pasted image 20260422130603.png",
-    "papers/img/Pasted image 20260422130511.png",
-    "papers/img/Pasted image 20260422130441.png",
     "papers/Software-Testing-of-Embedded-Safety-Loops.md",
-    "papers/A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop.md",
-    "papers/img/Pasted image 20260422122412.png",
-    "papers/img/Pasted image 20260422122322.png",
     "papers/Generating Autonomous Driving Test Scenarios based on OpenSCENARIO.md",
-    "papers/img/Pasted image 20260422121453.png",
     "papers/Vehicle-Hardware-In-the-Loop-System-for-ADAS-Virtual-Testing.md",
     "papers/A-Generic-Solution-to-Software-in-the-Loop.md",
     "Week6Q.md",
@@ -208,7 +209,6 @@
     "papers/Investigation-into-Reactive-Planning-Complex-Domains.md",
     "papers/Improving-the-Parallel-Execution-of-Behavior-Trees.md",
     "papers/Game-AI-Agent-Modeling-Petri-Nets-Behavior-Trees.md",
-    "papers/GPT-4-Technical-Report.md",
     "docs/Tools/_category_.json",
     "docs/Tools",
     "docs/Project/FOCUS",
