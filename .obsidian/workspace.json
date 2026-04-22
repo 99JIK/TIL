@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week6Q.md",
+                "file": "papers/A-Generic-Solution-to-Software-in-the-Loop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week6Q"
+              "title": "A-Generic-Solution-to-Software-in-the-Loop"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week6Q.md",
+                "file": "papers/A-Generic-Solution-to-Software-in-the-Loop.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Week6Q 의 개요"
+              "title": "A-Generic-Solution-to-Software-in-the-Loop 의 개요"
             }
           }
         ],
@@ -171,7 +171,11 @@
   },
   "active": "ff9fbece8b32c034",
   "lastOpenFiles": [
+    "papers/img/Pasted image 20260422112312.png",
+    "papers/img/Pasted image 20260422112250.png",
+    "papers/img/Pasted image 20260422111947.png",
     "Week6Q.md",
+    "papers/A-Generic-Solution-to-Software-in-the-Loop.md",
     "docs/Paper/MASTER'S-THESIS/img/BTGenBot.md",
     "conflict-files-obsidian-git.md",
     "무제.base",
@@ -199,8 +203,6 @@
     "docs/Tools/_category_.json",
     "docs/Tools/research-paper-repo-structure-jik-reference-tag.md",
     "docs/Tools/github-ci-failure-triage.md",
-    "docs/Tools/cliproxyapi-tool-result-image-model-list.md",
-    "docs/Tools/github-actions-concurrency-group.md",
     "docs/Tools",
     "docs/Project/FOCUS",
     "docs/Project/AHgorithm",
@@ -214,8 +216,6 @@
     "docs/Project/img/Pasted image 20260128133151.png",
     "docs/Project/img/Pasted image 20260128132248.png",
     "docs/Project/img/Pasted image 20260128131945.png",
-    "docs/Project/img/Pasted image 20260128130040.png",
-    "docs/Project/img/Pasted image 20260128125250.png",
     "docs/Project/img"
   ]
 }
