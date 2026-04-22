@@ -22,7 +22,7 @@ const homepageData = {
     image: '/img/background.jpg',
   },
   guide: {
-    title: "Guide of 99JIK.com",
+    title: "Guide of til.99jik.com",
     summary: "이 사이트은 Docs에서는 주제별 학습 내용을, Papers에서는 논문 요약을 찾아볼 수 있습니다.",
     link: "/How-to-Read",
   },

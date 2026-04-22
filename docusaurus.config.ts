@@ -10,7 +10,7 @@ const katexOptions = {
 };
 
 const config: Config = {
-  title: '99JIK',
+  title: 'Today I Learned',
   tagline: 'From Yesterday\'s Insights to Today\'s Wisdom: My Learning  Chronicle.',
   favicon: 'img/favicon.svg',
   trailingSlash: false,
@@ -111,7 +111,7 @@ const config: Config = {
   ],
   themeConfig: {
     navbar: {
-      title: '99JIK',
+      title: 'Today I Learned',
       items: [
         { type: 'docSidebar',  sidebarId: 'JIKTILSidebar', position: 'right', label: 'Docs'},
         { to: '/papers', label: 'Papers', position: 'right'},
@@ -164,9 +164,9 @@ const config: Config = {
       { name: 'twitter:creator', content: '@99jik' },
       { name: 'og:type', content: 'website' },
       { name: 'og:image', content: 'https://til.99jik.com/img/og-card.svg' },
-      { name: 'og:image:alt', content: '99JIK' },
+      { name: 'og:image:alt', content: 'Today I Learned' },
       { name: 'twitter:image', content: 'https://til.99jik.com/img/og-card.svg' },
-      { name: 'twitter:image:alt', content: '99JIK' },
+      { name: 'twitter:image:alt', content: 'Today I Learned' },
     ],
   } satisfies Preset.ThemeConfig,
 };
