@@ -11,10 +11,14 @@
             "id": "82e23827f2be2e8d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "papers/Generating Autonomous Driving Test Scenarios based on OpenSCENARIO.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Generating Autonomous Driving Test Scenarios based on OpenSCENARIO"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "papers/Generating Autonomous Driving Test Scenarios based on OpenSCENARIO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "Generating Autonomous Driving Test Scenarios based on OpenSCENARIO 의 개요"
             }
           }
         ],
@@ -166,6 +171,12 @@
   },
   "active": "82e23827f2be2e8d",
   "lastOpenFiles": [
+    "papers/img/Pasted image 20260422121453.png",
+    "papers/img/Pasted image 20260422121417.png",
+    "papers/img/Pasted image 20260422121340.png",
+    "papers/img/Pasted image 20260422121316.png",
+    "papers/img/Pasted image 20260422121247.png",
+    "papers/Generating Autonomous Driving Test Scenarios based on OpenSCENARIO.md",
     "papers/Vehicle-Hardware-In-the-Loop-System-for-ADAS-Virtual-Testing.md",
     "papers/img/Pasted image 20260422120909.png",
     "papers/img/Pasted image 20260422120847.png",
@@ -174,14 +185,12 @@
     "papers/A-Generic-Solution-to-Software-in-the-Loop.md",
     "papers/img/Pasted image 20260422112312.png",
     "papers/img/Pasted image 20260422112250.png",
-    "papers/img/Pasted image 20260422111947.png",
     "Week6Q.md",
     "docs/Paper/MASTER'S-THESIS/img/BTGenBot.md",
     "conflict-files-obsidian-git.md",
     "무제.base",
     "Jeongin.md",
     "docs/Paper/MASTER'S-THESIS/Behavior Tree.md",
-    "docs/Paper/img/Pasted image 20251114143534.png",
     "img/Pasted.md",
     "img/Week1Q 1.md",
     "무제 1.md",
@@ -201,13 +210,10 @@
     "papers/A-survey-of-Behavior-Trees-in-robotics-and-AI.md",
     "papers/A-Study-on-Training-and-Developing-Large-Language-Models-for-Behavior-Tree-Generation.md",
     "docs/Tools/_category_.json",
-    "docs/Tools/research-paper-repo-structure-jik-reference-tag.md",
     "docs/Tools",
     "docs/Project/FOCUS",
     "docs/Project/AHgorithm",
     "docs/Project/ABB",
-    "docs/KNU-MS/3rd_semester/img/Pasted image 20260307101152.png",
-    "docs/KNU-MS/3rd_semester/img/Pasted image 20260307100642.png",
     "docs/KNU-MS/3rd_semester/img",
     "docs/Project/img.zip",
     "docs/Project/img"
