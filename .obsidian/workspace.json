@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/A-Survey-of-Behavior-Trees-in-Robotics-and-AI.md",
+                "file": "papers/Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A-Survey-of-Behavior-Trees-in-Robotics-and-AI"
+              "title": "Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/A-Survey-of-Behavior-Trees-in-Robotics-and-AI.md",
+                "file": "papers/Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "A-Survey-of-Behavior-Trees-in-Robotics-and-AI 의 개요"
+              "title": "Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning 의 개요"
             }
           }
         ],
@@ -171,20 +171,22 @@
   },
   "active": "82e23827f2be2e8d",
   "lastOpenFiles": [
-    "papers/A-survey-of-Behavior-Trees-in-robotics-and-AI.md",
+    "papers/img/Pasted image 20260422135740.png",
+    "papers/img/Pasted image 20260422135640.png",
+    "papers/img/Pasted image 20260422135622.png",
+    "papers/img/Pasted image 20260422135539.png",
+    "papers/img/Pasted image 20260422135433.png",
+    "papers/img/Pasted image 20260422135353.png",
     "papers/A-Survey-of-Behavior-Trees-in-Robotics-and-AI.md",
+    "papers/Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning.md",
+    "papers/A-survey-of-Behavior-Trees-in-robotics-and-AI.md",
     "papers/img/Pasted image 20260422134615.png",
     "papers/img/Pasted image 20260422134356.png",
     "papers/img/Pasted image 20260422134103.png",
     "papers/img/Pasted image 20260422134042.png",
     "papers/Behavior-Trees-in-Robotics-and-AI-An-Intruduction.md",
     "papers/img/Pasted image 20260422133435.png",
-    "papers/img/Pasted image 20260422133243.png",
-    "papers/img/Pasted image 20260422133105.png",
-    "papers/img/Pasted image 20260422131954.png",
     "papers/A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop.md",
-    "papers/img/Pasted image 20260422131740.png",
-    "papers/img/Pasted image 20260422131109.png",
     "papers/Software-Testing-of-Embedded-Safety-Loops.md",
     "papers/Generating Autonomous Driving Test Scenarios based on OpenSCENARIO.md",
     "papers/Vehicle-Hardware-In-the-Loop-System-for-ADAS-Virtual-Testing.md",
@@ -207,8 +209,6 @@
     "papers/Microscopic-Traffic-Simulation-using-SUMO.md",
     "papers/Learning-Behavior-Trees-From-Demonstration.md",
     "papers/LLM-BT-Performing-Robotic-Adaptive-Tasks-based-on-Large-Language-Models-and-Behavior-Trees.md",
-    "papers/Investigation-into-Reactive-Planning-Complex-Domains.md",
-    "papers/Improving-the-Parallel-Execution-of-Behavior-Trees.md",
     "docs/Tools/_category_.json",
     "docs/Tools",
     "docs/Project/FOCUS",
