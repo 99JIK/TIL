@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Generating Autonomous Driving Test Scenarios based on OpenSCENARIO.md",
+                "file": "papers/Software-Testing-of-Embedded-Safety-Loops.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Generating Autonomous Driving Test Scenarios based on OpenSCENARIO"
+              "title": "Software-Testing-of-Embedded-Safety-Loops"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/Generating Autonomous Driving Test Scenarios based on OpenSCENARIO.md",
+                "file": "papers/Software-Testing-of-Embedded-Safety-Loops.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Generating Autonomous Driving Test Scenarios based on OpenSCENARIO 의 개요"
+              "title": "Software-Testing-of-Embedded-Safety-Loops 의 개요"
             }
           }
         ],
@@ -171,20 +171,21 @@
   },
   "active": "82e23827f2be2e8d",
   "lastOpenFiles": [
+    "papers/img/Pasted image 20260422122412.png",
+    "papers/img/Pasted image 20260422122322.png",
+    "papers/Generating Autonomous Driving Test Scenarios based on OpenSCENARIO.md",
+    "papers/Software-Testing-of-Embedded-Safety-Loops.md",
     "papers/img/Pasted image 20260422121453.png",
     "papers/img/Pasted image 20260422121417.png",
     "papers/img/Pasted image 20260422121340.png",
     "papers/img/Pasted image 20260422121316.png",
     "papers/img/Pasted image 20260422121247.png",
-    "papers/Generating Autonomous Driving Test Scenarios based on OpenSCENARIO.md",
     "papers/Vehicle-Hardware-In-the-Loop-System-for-ADAS-Virtual-Testing.md",
     "papers/img/Pasted image 20260422120909.png",
     "papers/img/Pasted image 20260422120847.png",
     "papers/img/Pasted image 20260422120801.png",
     "papers/img/Pasted image 20260422120727.png",
     "papers/A-Generic-Solution-to-Software-in-the-Loop.md",
-    "papers/img/Pasted image 20260422112312.png",
-    "papers/img/Pasted image 20260422112250.png",
     "Week6Q.md",
     "docs/Paper/MASTER'S-THESIS/img/BTGenBot.md",
     "conflict-files-obsidian-git.md",
@@ -208,7 +209,6 @@
     "papers/Game-AI-Agent-Modeling-Petri-Nets-Behavior-Trees.md",
     "papers/GPT-4-Technical-Report.md",
     "papers/A-survey-of-Behavior-Trees-in-robotics-and-AI.md",
-    "papers/A-Study-on-Training-and-Developing-Large-Language-Models-for-Behavior-Tree-Generation.md",
     "docs/Tools/_category_.json",
     "docs/Tools",
     "docs/Project/FOCUS",
