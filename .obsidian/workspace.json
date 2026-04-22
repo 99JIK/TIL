@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning.md",
+                "file": "papers/LLM-BRAIn-AI-driven-Fast-Generation-of-Robot-Behaviour-Tree-Based-on-Large-Language-Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning"
+              "title": "LLM-BRAIn-AI-driven-Fast-Generation-of-Robot-Behaviour-Tree-Based-on-Large-Language-Model"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "papers/Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning.md",
+                "file": "papers/LLM-BRAIn-AI-driven-Fast-Generation-of-Robot-Behaviour-Tree-Based-on-Large-Language-Model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning 의 개요"
+              "title": "LLM-BRAIn-AI-driven-Fast-Generation-of-Robot-Behaviour-Tree-Based-on-Large-Language-Model 의 개요"
             }
           }
         ],
@@ -171,21 +171,29 @@
   },
   "active": "82e23827f2be2e8d",
   "lastOpenFiles": [
+    "papers/img/Pasted image 20260422140601.png",
+    "papers/img/Pasted image 20260422140529.png",
+    "papers/img/Pasted image 20260422140405.png",
+    "papers/Cross-dataset-learning-and-person-specific-normalisation-for-automatic-Acution-Unit-detection.md",
+    "papers/Comparative-Analysis-of-Explainable-AI-Methods-for-Manufacturing-Defect-Prediction-A-Mathematical-Perspective.md",
+    "papers/Combining-some-Biased-Estimation-Methods-with-Least-Trimmed-Squares-Regression-and-its-Application.md",
+    "papers/Combining-Neural-Networks-Behavior-Tree-Synthesis-Robot-Planning.md",
+    "papers/CARLA-Scenario-Runner.md",
+    "papers/Behavior_Trees_and_State_Machines_in_Robotics_Applications.md",
+    "papers/Behavior-Tree-Based-Scenario-Specification-and-Test-Case-Generation-for-Autonomous-Driving-Simulation.md",
+    "papers/A-Survey-of-Behavior-Trees-in-Robotics-and-AI.md",
+    "papers/LLM-BRAIn-AI-driven-Fast-Generation-of-Robot-Behaviour-Tree-Based-on-Large-Language-Model.md",
+    "papers/img/Pasted image 20260422140245.png",
+    "papers/Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning.md",
     "papers/img/Pasted image 20260422135740.png",
     "papers/img/Pasted image 20260422135640.png",
     "papers/img/Pasted image 20260422135622.png",
     "papers/img/Pasted image 20260422135539.png",
     "papers/img/Pasted image 20260422135433.png",
     "papers/img/Pasted image 20260422135353.png",
-    "papers/A-Survey-of-Behavior-Trees-in-Robotics-and-AI.md",
-    "papers/Large-Language-Models-as-Commonsense-Knowledge-for-Large-Scale-Task-Planning.md",
     "papers/A-survey-of-Behavior-Trees-in-robotics-and-AI.md",
     "papers/img/Pasted image 20260422134615.png",
-    "papers/img/Pasted image 20260422134356.png",
-    "papers/img/Pasted image 20260422134103.png",
-    "papers/img/Pasted image 20260422134042.png",
     "papers/Behavior-Trees-in-Robotics-and-AI-An-Intruduction.md",
-    "papers/img/Pasted image 20260422133435.png",
     "papers/A-scoping-review-of-In-the-loop-paradigms-in-the-energy-sector-focusing-on-software-in-the-loop.md",
     "papers/Software-Testing-of-Embedded-Safety-Loops.md",
     "papers/Generating Autonomous Driving Test Scenarios based on OpenSCENARIO.md",
@@ -200,15 +208,7 @@
     "img/Pasted.md",
     "img/Week1Q 1.md",
     "무제 1.md",
-    "img/Week1Q.md",
-    "Java Programming Week 1.md",
     "papers/paper4.pdf",
-    "papers/dSPACE-SIL-Introduction.md",
-    "papers/Train-here-drive-there-ROS-based-end-to-end-autonomous-driving-pipeline-validation-in-CARLA-using-NHTSA-typology.md",
-    "papers/Towards-a-unified-behavior-trees-framework-for-robot-control.md",
-    "papers/Microscopic-Traffic-Simulation-using-SUMO.md",
-    "papers/Learning-Behavior-Trees-From-Demonstration.md",
-    "papers/LLM-BT-Performing-Robotic-Adaptive-Tasks-based-on-Large-Language-Models-and-Behavior-Trees.md",
     "docs/Tools/_category_.json",
     "docs/Tools",
     "docs/Project/FOCUS",
