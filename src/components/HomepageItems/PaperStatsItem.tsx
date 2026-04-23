@@ -2,14 +2,19 @@ import React, {useMemo} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import {usePluginData} from '@docusaurus/useGlobalData';
-import paperList from '@generated/docusaurus-plugin-content-blog/Paper/blog-post-list-prop-Paper.json';
 import pageStyles from '@site/src/pages/index.module.css';
 import styles from './styles.module.css';
 
 interface PaperPost {
   title: string;
   permalink: string;
-  date: string;
+  summaryDate: string;
+}
+
+interface PluginData {
+  totalPapers?: number;
+  totalTags?: number;
+  papers?: PaperPost[];
 }
 
 interface PaperStatsItemProps {
@@ -28,14 +33,14 @@ function getRelativeDate(dateStr: string): string {
 }
 
 export default function PaperStatsItem({gridClasses}: PaperStatsItemProps): JSX.Element {
-  const pluginData = usePluginData('paper-stats-plugin') as {totalPapers: number; totalTags: number} | undefined;
+  const pluginData = usePluginData('paper-stats-plugin') as PluginData | undefined;
 
   const stats = useMemo(() => {
-    const items = (paperList.items ?? []) as PaperPost[];
+    const items = pluginData?.papers ?? [];
     const sorted = [...items].sort(
-      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+      (a, b) => new Date(b.summaryDate).getTime() - new Date(a.summaryDate).getTime(),
     );
-    const latestDate = sorted[0]?.date ?? '';
+    const latestDate = sorted[0]?.summaryDate ?? '';
 
     return {
       totalPapers: pluginData?.totalPapers ?? items.length,

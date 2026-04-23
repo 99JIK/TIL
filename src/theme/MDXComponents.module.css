@@ -1,0 +1,26 @@
+.tableWrap {
+  max-width: 100%;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--toss-border-color);
+  -webkit-overflow-scrolling: touch;
+}
+
+.tableWrap > table {
+  margin-bottom: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.tableWrap::-webkit-scrollbar {
+  height: 6px;
+}
+
+.tableWrap::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.tableWrap::-webkit-scrollbar-thumb {
+  background-color: var(--toss-border-color);
+  border-radius: 3px;
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useMemo} from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {
@@ -6,6 +6,7 @@ import {
   HtmlClassNameProvider,
   ThemeClassNames,
 } from '@docusaurus/theme-common';
+import {usePluginData} from '@docusaurus/useGlobalData';
 import BlogLayout from '@theme/BlogLayout';
 import BlogListPaginator from '@theme/BlogListPaginator';
 import SearchMetadata from '@theme/SearchMetadata';
@@ -13,26 +14,42 @@ import BlogPostItems from '@theme/BlogPostItems';
 import BlogListPageStructuredData from '@theme/BlogListPage/StructuredData';
 import {useLocation} from '@docusaurus/router';
 
-// Popular tags for the Papers section (sorted by frequency)
-const POPULAR_TAGS = [
-  {label: 'Artificial Intelligence', slug: 'artificial-intelligence'},
-  {label: 'Machine Learning', slug: 'machine-learning'},
-  {label: 'Large Language Model', slug: 'large-language-model'},
-  {label: 'Deep Learning', slug: 'deep-learning'},
-  {label: 'Software Testing', slug: 'software-testing'},
-  {label: 'Behavior Tree', slug: 'behavior-tree'},
-  {label: 'Robotics', slug: 'robotics'},
-  {label: 'Computer Vision', slug: 'computer-vision'},
-  {label: 'Code Generation', slug: 'code-generation'},
-  {label: 'Software Engineering', slug: 'software-engineering'},
-  {label: 'JIK Reference', slug: 'jik-reference'},
+interface PluginData {
+  topTags?: {tag: string; count: number}[];
+}
+
+const MAX_TAGS = 11;
+
+const FALLBACK_TAGS = [
+  'Software Testing',
+  'Behavior Tree',
+  'Large Language Model',
+  'Autonomous Driving',
+  'Database',
 ];
 
+function toSlug(tag: string): string {
+  return tag
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
 function PapersTagFilter() {
+  const data = usePluginData('paper-stats-plugin') as PluginData | undefined;
+
+  const tags = useMemo(() => {
+    const top = data?.topTags ?? [];
+    if (top.length === 0) {
+      return FALLBACK_TAGS.map((t) => ({label: t, slug: toSlug(t)}));
+    }
+    return top.slice(0, MAX_TAGS).map((t) => ({label: t.tag, slug: toSlug(t.tag)}));
+  }, [data]);
+
   return (
     <nav className="papersTagFilter" aria-label="Filter by tag">
       <span className="papersTagFilter__label">Tags</span>
-      {POPULAR_TAGS.map((tag) => (
+      {tags.map((tag) => (
         <a key={tag.slug} href={`/papers/tags/${tag.slug}`}>
           {tag.label}
         </a>

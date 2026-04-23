@@ -1,0 +1,8 @@
+{
+  "label": "Tools",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "description": "개발 도구 및 플랫폼 사용 중 배운 내용을 정리합니다."
+  }
+}

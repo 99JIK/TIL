@@ -1,0 +1,15 @@
+{
+  "label": "Template",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Template",
+    "slug": "/category/template",
+    "description": "새 문서·노트·블로그 포스트 작성 시 복사해서 쓰는 마크다운 템플릿 모음. 아래 목록에서 용도에 맞는 템플릿을 골라 파일 전체를 복사한 뒤 수정한다."
+  },
+  "customProps": {
+    "description": "복사해서 쓰는 md 템플릿"
+  }
+}

@@ -225,46 +225,50 @@
 
 
 /* --- 그리드 아이템 배치 --- */
-.gridA1, .gridA2, .gridA3,
-.gridB1,
-.gridC1, .gridC2,
+.gridA1, .gridA2,
+.gridB1, .gridB2,
+.gridC1, .gridC2, .gridC3,
 .gridD1 {
   grid-column: span 12;
 }
 
 /* Desktop (1024px+) */
 @media screen and (min-width: 1024px) {
-  /* A: 4-4-4 three equal — Profile + Lucky + Stats */
+  /* A: Profile (4) + Announcements (8) */
   .gridA1 {
     grid-column: 1 / span 4;
     grid-row: 1 / span 1;
   }
   .gridA2 {
-    grid-column: 5 / span 4;
-    grid-row: 1 / span 1;
-  }
-  .gridA3 {
-    grid-column: 9 / span 4;
+    grid-column: 5 / span 8;
     grid-row: 1 / span 1;
   }
 
-  /* B: Timeline full width */
+  /* B: Timeline (8) + Stats (4) */
   .gridB1 {
-    grid-column: 1 / span 12;
+    grid-column: 1 / span 8;
+    grid-row: 2 / span 1;
+  }
+  .gridB2 {
+    grid-column: 9 / span 4;
     grid-row: 2 / span 1;
   }
 
-  /* C: Papers (6) + Docs (6) */
+  /* C: Papers (5) + Docs (4) + Blog (3) */
   .gridC1 {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 5;
     grid-row: 3 / span 1;
   }
   .gridC2 {
-    grid-column: 7 / span 6;
+    grid-column: 6 / span 4;
+    grid-row: 3 / span 1;
+  }
+  .gridC3 {
+    grid-column: 10 / span 3;
     grid-row: 3 / span 1;
   }
 
-  /* D: Guide full width */
+  /* D: Lucky full width */
   .gridD1 {
     grid-column: 1 / span 12;
     grid-row: 4 / span 1;
@@ -274,10 +278,11 @@
 /* Tablet (768px ~ 1023px) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .gridA1 { grid-column: span 4; }
-  .gridA2 { grid-column: span 4; }
-  .gridA3 { grid-column: span 4; }
-  .gridB1 { grid-column: span 12; }
-  .gridC1 { grid-column: span 6; }
-  .gridC2 { grid-column: span 6; }
+  .gridA2 { grid-column: span 8; }
+  .gridB1 { grid-column: span 8; }
+  .gridB2 { grid-column: span 4; }
+  .gridC1 { grid-column: span 5; }
+  .gridC2 { grid-column: span 4; }
+  .gridC3 { grid-column: span 3; }
   .gridD1 { grid-column: span 12; }
 }

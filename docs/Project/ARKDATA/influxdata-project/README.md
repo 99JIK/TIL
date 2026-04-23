@@ -1,2 +1,0 @@
-# InfluxData Project
-

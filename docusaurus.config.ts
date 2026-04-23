@@ -42,18 +42,22 @@ const config: Config = {
       ({
         blog: {
           path: './blog',
-          routeBasePath: 'notes',
+          routeBasePath: 'blog',
+          blogTitle: 'Blog',
+          blogDescription: '학회·세미나 참석, 일정, 기타 기록을 남기는 공간입니다.',
           blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           onUntruncatedBlogPosts: 'ignore',
-          blogSidebarCount: 0,
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
           editUrl: 'https://github.com/99jik/today_i_learned/tree/main/',
-          postsPerPage: 1,
-          feedOptions: {},
+          postsPerPage: 10,
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} 99JIK`,
+          },
           remarkPlugins: [remarkMath],
           rehypePlugins: [[rehypeKatex, katexOptions]],
-          blogListComponent: '@site/src/components/EmptyBlogList',
         },
         docs: {
           sidebarPath: './sidebars.ts',
@@ -67,10 +71,14 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        gtag: { 
-          trackingID: 'G-FQ51TK8K1C',
-          anonymizeIP: true,
-        },
+        ...(process.env.NODE_ENV === 'production'
+          ? {
+              gtag: {
+                trackingID: 'G-FQ51TK8K1C',
+                anonymizeIP: true,
+              },
+            }
+          : {}),
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
@@ -82,6 +90,8 @@ const config: Config = {
   ],
   plugins: [
     './src/plugins/paper-stats-plugin',
+    './src/plugins/announcements-plugin',
+    './src/plugins/docs-recent-plugin',
     [
     '@docusaurus/plugin-content-blog',{
           showLastUpdateTime: true,
@@ -110,11 +120,17 @@ const config: Config = {
     },
   ],
   themeConfig: {
+    blog: {
+      sidebar: {
+        groupByYear: true,
+      },
+    },
     navbar: {
       title: 'Today I Learned',
       items: [
         { type: 'docSidebar',  sidebarId: 'JIKTILSidebar', position: 'right', label: 'Docs'},
         { to: '/papers', label: 'Papers', position: 'right'},
+        { to: '/blog', label: 'Blog', position: 'right'},
         { href: 'https://github.com/99jik', label: 'GitHub', position: 'right'}
       ]
     },
@@ -123,32 +139,27 @@ const config: Config = {
       links: [
         { title: 'SERVICE',
           items: [
-            { label: 'Docs', to: '/docs/Intro'},
+            { label: 'Docs', to: '/docs/category/archive'},
             { label: 'Papers', to: '/papers'},
+            { label: 'Blog', to: '/blog'},
             { label: 'Tags', to: '/papers/tags'},
           ],
         },
-        { title: 'ABOUT',
+        { title: 'CONNECT',
           items: [
-            { label: 'Who am I', to: '/Who-am-I'},
-            { label: 'How to Read', to: '/How-to-Read'},
-          ],
-        },
-        { title: 'CONTACT',
-          items: [
-            { label: 'EMAIL', href: 'mailto:99jik@99jik.com'},
-            { label: 'Discord', href: 'https://discord.gg/RDts8j6KWh'},
+            { label: '99jik.com', href: 'https://99jik.com'},
             { label: 'GitHub', href: 'https://github.com/99jik'},
+            { label: 'Email', href: 'mailto:99jik@99jik.com'},
+            { label: 'Discord', href: 'https://discord.gg/RDts8j6KWh'},
           ],
         },
         { title: 'GROUP',
           items: [
-            { label: 'Altruistic Hive', href: 'https://altruistic-hive.org'},
             { label: 'KNU STLAB', href: 'https://selab.knu.ac.kr'},
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 99JIK. Built with Docusaurus.`,
+      copyright: `<div class="footerBrand"><span class="footerBrandName">Today I Learned</span><span class="footerBrandTagline">From Yesterday's Insights to Today's Wisdom.</span><span class="footerBrandMeta">© ${new Date().getFullYear()} 99JIK · <a href="https://til.99jik.com">til.99jik.com</a></span></div>`,
     },
     prism: { theme: prismThemes.github, darkTheme: prismThemes.dracula },
     colorMode: { respectPrefersColorScheme: true},

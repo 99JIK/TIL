@@ -6,27 +6,14 @@ import Heading from '@theme/Heading';
 
 import PaperStatsItem from '@site/src/components/HomepageItems/PaperStatsItem';
 import FeelingLuckyItem from '@site/src/components/HomepageItems/FeelingLuckyItem';
-import GuideItem from '@site/src/components/HomepageItems/GuideItem';
+import AnnouncementItem from '@site/src/components/HomepageItems/AnnouncementItem';
 import RecentPapersItem from '@site/src/components/HomepageItems/RecentPapersItem';
 import RecentDocsItem from '@site/src/components/HomepageItems/RecentDocsItem';
+import RecentBlogItem from '@site/src/components/HomepageItems/RecentBlogItem';
 import ProfileCardItem from '@site/src/components/HomepageItems/ProfileCardItem';
 import ResearchTimelineItem from '@site/src/components/HomepageItems/ResearchTimelineItem';
 
 import styles from './index.module.css';
-
-const homepageData = {
-  mainArticle: {
-    title: "Glad to Introduce Myself",
-    summary: "경북대학교 컴퓨터학부 석사 과정에 재학 중인 김정인입니다. 데이터베이스와 소프트웨어 테스팅 기법에 관심이 있으며 현재 KNU STLAB에 소속중입니다.",
-    link: "/Who-am-I",
-    image: '/img/background.jpg',
-  },
-  guide: {
-    title: "Guide of til.99jik.com",
-    summary: "이 사이트은 Docs에서는 주제별 학습 내용을, Papers에서는 논문 요약을 찾아볼 수 있습니다.",
-    link: "/How-to-Read",
-  },
-};
 
 const g = styles;
 
@@ -45,20 +32,21 @@ function NewspaperHomepageLayout(): JSX.Element {
       </header>
 
       <div className={g.newspaperGrid}>
-        {/* A: Hero — Profile (8) + Lucky+Stats stacked (4) */}
+        {/* A: Profile (4) + Announcements (8) — asymmetric hero */}
         <ProfileCardItem gridClasses={g.gridA1} />
-        <FeelingLuckyItem gridClasses={g.gridA2} />
-        <PaperStatsItem gridClasses={g.gridA3} />
+        <AnnouncementItem gridClasses={g.gridA2} />
 
-        {/* B: Timeline full width (12) */}
+        {/* B: Timeline (8) + Stats (4) — data + numbers */}
         <ResearchTimelineItem gridClasses={g.gridB1} />
+        <PaperStatsItem gridClasses={g.gridB2} />
 
-        {/* C: Two-column — Papers (6) + Docs (6) */}
+        {/* C: Papers (4) + Docs (4) + Blog (4) — recent trio */}
         <RecentPapersItem gridClasses={g.gridC1} />
         <RecentDocsItem gridClasses={g.gridC2} />
+        <RecentBlogItem gridClasses={g.gridC3} />
 
-        {/* D: Guide full width (12) */}
-        <GuideItem {...homepageData.guide} gridClasses={g.gridD1} />
+        {/* D: Feeling Lucky full width — big CTA */}
+        <FeelingLuckyItem gridClasses={g.gridD1} />
       </div>
     </div>
   );

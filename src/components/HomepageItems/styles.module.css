@@ -211,6 +211,17 @@ a.statItem:hover .statNumber {
   color: var(--ifm-color-primary) !important;
 }
 
+.recentEmpty {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0.5rem 0.25rem;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--ifm-font-color-secondary);
+}
+
 /* ===== Profile Card (compact centered) ===== */
 .profileCard {
   padding: 1.75rem 1.5rem;
@@ -393,4 +404,173 @@ a.statItem:hover .statNumber {
   font-size: 0.6rem;
   font-weight: 700;
   color: var(--ifm-color-primary);
+}
+
+/* ===== Announcement Carousel ===== */
+.announceCard {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.announceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.announceLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ifm-font-color-secondary);
+}
+
+.announceCounter {
+  font-size: 0.75rem;
+  color: var(--ifm-font-color-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.announceTrack {
+  display: flex;
+  gap: 0;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.announceTrack::-webkit-scrollbar {
+  display: none;
+}
+
+.announceSlide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  padding: 0.25rem 0.25rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.announceSlidePrimary {
+  position: relative;
+}
+
+.announceSlidePrimary::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.25rem;
+  width: 3px;
+  height: calc(100% - 0.5rem);
+  border-radius: 2px;
+  background: var(--ifm-color-primary);
+}
+
+.announceSlidePrimary {
+  padding-left: 0.85rem;
+}
+
+.announceMeta {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ifm-font-color-secondary);
+  letter-spacing: 0.02em;
+}
+
+.announceTitle {
+  font-size: 1.1rem !important;
+  font-weight: 800 !important;
+  margin: 0 !important;
+  color: var(--ifm-heading-color);
+  letter-spacing: -0.02em;
+  line-height: 1.35;
+}
+
+.announceBody {
+  font-size: 0.88rem;
+  color: var(--ifm-font-color-base);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.announceLink {
+  align-self: flex-start;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary) !important;
+  margin-top: 0.25rem;
+  text-decoration: none !important;
+}
+
+.announceLink:hover {
+  text-decoration: underline !important;
+}
+
+.announceControls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.announceNav {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--toss-border-color);
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: all 0.12s ease;
+}
+
+.announceNav:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.announceDots {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.announceDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: none;
+  background: var(--toss-border-color);
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.announceDot:hover {
+  background: var(--ifm-font-color-secondary);
+}
+
+.announceDotActive {
+  width: 18px;
+  border-radius: 3px;
+  background: var(--ifm-color-primary);
+}
+
+.announceDotActive:hover {
+  background: var(--ifm-color-primary);
 }

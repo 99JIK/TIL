@@ -1,14 +1,17 @@
 import React, {useMemo} from 'react';
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import paperList from '@generated/docusaurus-plugin-content-blog/Paper/blog-post-list-prop-Paper.json';
+import {usePluginData} from '@docusaurus/useGlobalData';
 import pageStyles from '@site/src/pages/index.module.css';
 import styles from './styles.module.css';
 
 interface PaperPost {
   title: string;
   permalink: string;
-  date: string;
+  summaryDate: string;
+}
+
+interface PluginData {
+  papers?: PaperPost[];
 }
 
 interface ResearchTimelineItemProps {
@@ -16,8 +19,10 @@ interface ResearchTimelineItemProps {
 }
 
 export default function ResearchTimelineItem({gridClasses}: ResearchTimelineItemProps): JSX.Element {
+  const pluginData = usePluginData('paper-stats-plugin') as PluginData | undefined;
+
   const timeline = useMemo(() => {
-    const items = (paperList.items ?? []) as PaperPost[];
+    const items = pluginData?.papers ?? [];
 
     // Group by month (last 12 months)
     const now = new Date();
@@ -25,9 +30,11 @@ export default function ResearchTimelineItem({gridClasses}: ResearchTimelineItem
 
     for (let i = 11; i >= 0; i--) {
       const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
-      const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
-      const label = `${d.getMonth() + 1}월`;
-      const count = items.filter((p) => p.date.startsWith(key)).length;
+      const mm = String(d.getMonth() + 1).padStart(2, '0');
+      const yy = String(d.getFullYear()).slice(-2);
+      const key = `${d.getFullYear()}-${mm}`;
+      const label = `${yy}.${mm}`;
+      const count = items.filter((p) => p.summaryDate.startsWith(key)).length;
       months.push({key, label, count});
     }
 
@@ -35,7 +42,7 @@ export default function ResearchTimelineItem({gridClasses}: ResearchTimelineItem
     const totalRecent = months.reduce((s, m) => s + m.count, 0);
 
     return {months, maxCount, totalRecent};
-  }, []);
+  }, [pluginData]);
 
   return (
     <aside className={clsx(pageStyles.newspaperCard, gridClasses, styles.timelineCard)}>
