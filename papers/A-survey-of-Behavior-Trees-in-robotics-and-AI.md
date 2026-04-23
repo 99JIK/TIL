@@ -10,12 +10,12 @@ tags:
   - Control Architecture
   - Survey
 authors:
-  - Matteo Iovino
-  - Edvards Scukins
-  - Jonathan Styrud
-  - Petter Ögren
-  - Christian Smith
-  - Alexandru Forrai
+  - name: Matteo Iovino
+  - name: Edvards Scukins
+  - name: Jonathan Styrud
+  - name: Petter Ögren
+  - name: Christian Smith
+  - name: Alexandru Forrai
 ---
 
 ## 논문 정보

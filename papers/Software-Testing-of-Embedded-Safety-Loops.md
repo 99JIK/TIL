@@ -10,8 +10,8 @@ tags:
   - Programmable Electronic Safety System
   - Article
 authors:
-  - Alexandru Forrai
-  - Takaharu Ueda
+  - name: Alexandru Forrai
+  - name: Takaharu Ueda
 ---
 
 ## 기사 정보

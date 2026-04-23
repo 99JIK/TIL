@@ -3,7 +3,10 @@ title: "A Generic Solution to Software-in-the-Loop"
 date: "2007-01-01"
 description: "소프트웨어 인 더 루프(Software-in-the-loop) 방식을 통해 모델 검증 문제를 해결하고 코드 재사용성을 극대화하는 범용적인 엔드투엔드 시뮬레이션 솔루션을 제안한다."
 tags: ["Software In The Loop", "Event Driven Simulation", "Ad Hoc Networks", "Real Time Simulation"]
-authors: ["Stephanie Demers", "Praveen Gopalakrishnan", "Latha Kant"]
+authors:
+- name: Stephanie Demers
+- name: Praveen Gopalakrishnan
+- name: Latha Kant
 ---
 
 ## 논문 정보

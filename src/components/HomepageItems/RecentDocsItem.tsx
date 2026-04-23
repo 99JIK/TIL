@@ -13,7 +13,7 @@ interface RecentDocsItemProps {
 const RECENT_DOCS = [
   {
     title: '고급 소프트웨어공학 (COSE0719)',
-    path: '/docs/KNU-MS/3rd_semester/COSE0719',
+    path: '/docs/category/cose0719',
     category: 'KNU-MS',
   },
   {

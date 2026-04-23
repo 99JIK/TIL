@@ -3,7 +3,11 @@ title: "Vehicle Hardware-In-the-Loop System for ADAS Virtual Testing"
 date: "2016-01-01"
 description: "섀시 동력계와 다중 센서 시뮬레이션 소프트웨어를 결합하여 ADAS 프로토타입을 안전하고 효율적으로 테스트할 수 있는 차량 하드웨어 인 더 루프(VeHIL) 시스템인 SERBER를 제안한다."
 tags: ["Advanced Driver Assistance Systems", "Vehicle Hardware In The Loop", "Virtual Testing", "Sensor Simulation"]
-authors: ["Romain Rossi", "Clément Galko", "Hariharan Narasimman", "Xavier Savatier"]
+authors:
+- name: Romain Rossi
+- name: Clément Galko
+- name: Hariharan Narasimman
+- name: Xavier Savatier
 ---
 
 ## 논문 정보

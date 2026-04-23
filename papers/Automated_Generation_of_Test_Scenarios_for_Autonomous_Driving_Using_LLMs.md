@@ -9,7 +9,6 @@ tags: [Large Language Model, Autonomous Driving, Test Scenario Generation, CARLA
 
 # Automated Generation of Test Scenarios for Autonomous Driving Using LLMs
 
-<!--truncate-->
 ## 논문 정보
 - **제목**: Automated Generation of Test Scenarios for Autonomous Driving Using LLMs
 - **저자**: Aaron Agyapong Danso, Ulrich Büker 
@@ -18,6 +17,7 @@ tags: [Large Language Model, Autonomous Driving, Test Scenario Generation, CARLA
 - **출판일**: 2025년 8월 10일
 - **DOI**: https://doi.org/10.3390/electronics14163177
 
+<!--truncate-->
 ## 연구 개요
 
 자율주행차(AV) 안전성 검증을 위한 **Operational Design Domain(ODD)** 기반 시뮬레이션 시나리오 자동 생성 연구. 대규모 언어모델(LLM)을 활용하여 텍스트 기반 ODD 설명을 CARLA 시뮬레이터에서 실행 가능한 ScenarioRunner 스크립트로 자동 변환하는 파이프라인을 제안한다.

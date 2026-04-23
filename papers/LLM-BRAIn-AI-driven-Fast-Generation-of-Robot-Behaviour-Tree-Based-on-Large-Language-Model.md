@@ -3,7 +3,9 @@ title: "LLM-BRAIn: AI-driven Fast Generation of Robot Behaviour Tree based on La
 date: "2023-05-30"
 description: "사용자의 자연어 명령을 기반으로 로봇의 복잡한 행동 트리(Behavior Tree)를 생성할 수 있도록 Stanford Alpaca 7B를 미세 조정하여 개발한 경량화 모델 LLM-BRAIn을 제안한다."
 tags: ["Large Language Model", "Behavior Tree", "Robotics", "Autonomous Control", "Human Robot Interaction", "Fine Tuning"]
-authors: ["Artem Lykov", "Dzmitry Tsetserukou"]
+authors:
+- name: Artem Lykov
+- name: Dzmitry Tsetserukou
 ---
 
 ## 논문 정보

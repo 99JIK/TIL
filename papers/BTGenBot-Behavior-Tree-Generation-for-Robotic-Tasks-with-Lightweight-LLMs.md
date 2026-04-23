@@ -3,7 +3,10 @@ title: "BTGenBot: Behavior Tree Generation for Robotic Tasks with Lightweight LL
 date: "2025-01-07"
 description: "70억 개의 파라미터를 가진 경량 거대 언어 모델을 파인튜닝하여 로봇을 위한 실행 가능한 비헤이비어 트리를 생성하는 방법론을 제시한다."
 tags: ["Behavior Tree", "Large Language Model", "Robotics", "Fine Tuning", "Robot Operating System 2"]
-authors: ["Riccardo Andrea Izzo", "Gianluca Bardaro", "Matteo Matteucci"]
+authors:
+- name: Riccardo Andrea Izzo
+- name: Gianluca Bardaro
+- name: Matteo Matteucci
 ---
 
 ## 논문 정보

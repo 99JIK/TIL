@@ -12,7 +12,6 @@ tags: [Behavior Tree, State Machine, Robotics Applications, Domain-Specific Lang
 
 # Behavior Trees and State Machines in Robotics Applications
 
-<!--truncate-->
 ## 논문 정보
 - **제목**: Behavior Trees and State Machines in Robotics Applications
 - **저자**: Razan Ghzouli, Thorsten Berger (교신저자), Einar Broch Johnsen, Andrzej Wąsowski, Swaib Dragule
@@ -20,6 +19,7 @@ tags: [Behavior Tree, State Machine, Robotics Applications, Domain-Specific Lang
 - **게재지**: IEEE Transactions on Software Engineering, Vol. 49, No. 9, September 2023
 - **DOI**: 10.1109/TSE.2023.3269081
 - **확장 연구**: SLE 2020에서 발표된 행동 트리 연구를 상태 머신까지 포함하여 확장한 저널 논문
+<!--truncate-->
 
 ## 연구 개요
 

@@ -257,7 +257,8 @@ blockquote p {
    ============================================ */
 /* Scroll wrapper — Docusaurus wraps tables in div.tableContainer */
 div[class*="tableContainer"] {
-  overflow: hidden;
+  overflow-x: auto;
+  max-width: 100%;
   margin-bottom: 1.5rem;
   border: 1px solid var(--toss-border-color);
   border-radius: 12px;
@@ -266,6 +267,7 @@ div[class*="tableContainer"] {
 table {
   display: table;
   width: 100%;
+  min-width: max-content;
   margin-bottom: 0;
   border-collapse: separate;
   border-spacing: 0;
@@ -278,6 +280,7 @@ table {
 .markdown table {
   display: table !important;
   width: 100% !important;
+  min-width: max-content !important;
 }
 
 table th, table td {

@@ -3,7 +3,12 @@ title: "Generating Autonomous Driving Test Scenarios based on OpenSCENARIO"
 date: "2022-11-23"
 description: "OpenSCENARIO 표준을 기반으로 파라미터 공간을 포함한 자율주행 테스트 시나리오를 자동 생성하고 Carla 플랫폼에서 검증하는 방법론을 제안한다."
 tags: ["Autonomous Driving", "Simulation Test", "OpenSCENARIO", "Test Scenario", "Batch Scenario Generation"]
-authors: ["He Chen", "Hongping Ren", "Rui Li", "Guang Yang", "Shanshan Ma"]
+authors:
+- name: He Chen
+- name: Hongping Ren
+- name: Rui Li
+- name: Guang Yang
+- name: Shanshan Ma
 ---
 
 ## 논문 정보

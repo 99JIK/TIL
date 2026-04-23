@@ -3,14 +3,10 @@ title: "Large Language Models as Commonsense Knowledge for Large-Scale Task Plan
 date: "2023-10-30"
 description: "대규모 언어 모델의 상식적 세계 모델과 휴리스틱 정책을 몬테카를로 트리 탐색과 결합하여 복잡한 가계 업무 계획 능력을 혁신적으로 향상시킨다."
 tags: ["Large Language Models", "Task Planning", "Monte Carlo Tree Search", "Commonsense Knowledge", "Embodied AI"]
-authors: ["Zirui Zhao", "Wee Sun Lee", "David Hsu"]
----
----
-title: "Large Language Models as Commonsense Knowledge for Large-Scale Task Planning"
-date: "2026-04-22"
-description: "LLM의 상식적 세계 모델과 휴리스틱 정책을 몬테카를로 트리 탐색과 결합하여 대규모 작업 계획 성능을 향상시킨다."
-tags: ["Large Language Models", "Task Planning", "Monte Carlo Tree Search", "Commonsense Knowledge", "Embodied AI"]
-authors: ["Zirui Zhao", "Wee Sun Lee", "David Hsu"]
+authors:
+- name: Zirui Zhao
+- name: Wee Sun Lee
+- name: David Hsu
 ---
 
 ## 논문 정보
@@ -22,6 +18,7 @@ authors: ["Zirui Zhao", "Wee Sun Lee", "David Hsu"]
 - 주요 연구 내용: LLM이 정책뿐만 아니라 세계에 대한 상식적인 모델을 제공할 수 있음을 보여주며, 이를 Monte Carlo Tree Search(MCTS)와 결합하여 작업 계획을 확장하는 LLM-MCTS 알고리즘을 제안한다. LLM 유도 세계 모델은 사전 믿음을 제공하고, LLM 유도 정책은 탐색을 안내하는 휴리스틱 역할을 수행한다.
 - 주요 결과 및 결론: LLM-MCTS는 복잡하고 새로운 작업에서 MCTS 단독 모델이나 LLM 유도 정책보다 월등한 성능을 보였으며, 물체 재배치 과업에서 성공률을 크게 높였다. 또한 최소 기술 길이(MDL) 원칙을 통해 모델 기반 계획이 정책 기반 계획보다 유리한 조건을 이론적으로 제시한다.
 - 기여점: LLM의 상식 지식을 세계 모델과 정책으로 결합하는 새로운 알고리즘을 정립하고, 대규모 탐색 공간에서 효율적인 추론과 계획이 가능함을 입증한다.
+<!--truncate-->
 
 ## 요약
 ### 초록

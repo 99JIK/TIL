@@ -3,7 +3,9 @@ title: "Behavior Trees in Robotics and AI: An Introduction"
 date: "2022-10-25"
 description: "로봇공학 및 인공지능 분야에서 복잡한 시스템을 모듈화하고 반응성을 높이기 위한 설계 도구인 행동 트리(Behavior Trees)의 이론과 적용 방법을 제시한다."
 tags: ["Behavior Trees", "Robotics", "Autonomous Agents", "Artificial Intelligence", "Control Architectures"]
-authors: ["Michele Colledanchise", "Petter Ögren"]
+authors:
+- name: Michele Colledanchise
+- name: Petter Ögren
 ---
 
 ## 논문 정보

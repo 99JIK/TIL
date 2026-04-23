@@ -3,7 +3,10 @@ title: "A scoping review of In-the-loop paradigms in the energy sector focusing 
 date: "2024-02-27"
 description: "에너지 섹터 내 소프트웨어 기반 인더루프(SIL) 테스팅의 적용 현황, 아키텍처, 기술적 도전 과제를 체계적으로 분석한 범위 검토 논문이다."
 tags: ["In The Loop", "Model In The Loop", "Software In The Loop", "Processor In The Loop", "Hardware In The Loop", "Energy Sector", "Energy Systems", "Electricity Systems", "Scoping Review"]
-authors: ["Christian Skafte Beck Clausen", "Bo Nørregaard Jørgensen", "Zheng Grace Ma"]
+authors:
+- name: Christian Skafte Beck Clausen
+- name: Bo Nørregaard Jørgensen
+- name: Zheng Grace Ma
 ---
 
 ## 논문 정보
@@ -15,7 +18,7 @@ authors: ["Christian Skafte Beck Clausen", "Bo Nørregaard Jørgensen", "Zheng G
 - **주요 연구 내용**: 에너지 시스템의 디지털 전환에 따른 검증 및 타당성 확인(V&V) 문제를 해결하기 위해 소프트웨어 기반 인더루프(**Software-in-the-Loop**, SIL) 테스팅의 현황을 조사한다. 4개의 주요 데이터베이스에서 추출한 88개의 논문을 바탕으로 적용 분야, 아키텍처, 통신 프로토콜, 기술적 제한 사항을 체계적으로 분류한다.
 - **주요 결과 및 결론**: 현재 에너지 분야는 하드웨어 기반 인더루프(HIL)가 주류를 이루고 있으나, 복잡한 디지털 에너지 에코시스템 검증을 위해 SIL의 필요성이 증대되고 있음을 확인한다. 미래 연구 방향으로 게임 엔진 기술, 디지털 트윈, 에이전트 기반 시뮬레이션을 결합한 에너지 메타버스 구축과 체계적인 SIL 개발 가이드라인 수립을 제시한다.
 - **기여점**: 에너지 섹터 내 SIL 적용에 대한 포괄적인 오버뷰를 최초로 제공하여 연구 공백을 식별한다. 분산형 에너지 자원(DER) 및 스마트 그리드 환경에서 소프트웨어 중심의 검증 방법론이 비용 절감과 초기 결함 발견에 효과적임을 입증하는 이론적 기반을 마련한다.
-
+<!--truncate-->
 ## 요약
 ### 초록
 본 논문은 에너지 섹터에서 검증 및 타당성 확인(V&V)을 위해 사용되는 소프트웨어 기반 인더루프(**Software-in-the-Loop**, SIL) 테스팅의 적용 현황과 잠재력, 도전 과제를 분석한다. 분석 결과, 하드웨어 기반 접근법은 저수준 신호 테스트에 주로 사용되는 반면, SIL은 제어 전략 테스트, 최적화, 스케줄링 등에 활용된다. 향후 디지털화된 에너지 시스템을 지원하기 위해 SIL 환경을 체계적으로 개발하기 위한 원칙이 필요함을 강조한다.

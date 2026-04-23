@@ -3,7 +3,14 @@ title: "Integrating Intent Understanding and Optimal Behavior Planning for Behav
 date: "2024-08-01"
 description: "대형 언어 모델의 의도 파악 능력과 최적 행동 트리 확장 알고리즘을 결합하여, 인간의 자연어 명령어로부터 신뢰성 있고 최적화된 로봇 행동 트리를 자동 생성하는 프레임워크를 제안한다."
 tags: ["Behavior Trees", "Large Language Models", "Optimal Behavior Planning", "Intent Understanding", "Robotics"]
-authors: ["Xinglin Chen", "Yishuai Cai", "Yunxin Mao", "Minglong Li", "Wenjing Yang", "Weixia Xu", "Ji Wang"]
+authors:
+- name: Xinglin Chen
+- name: Yishuai Cai
+- name: Yunxin Mao
+- name: Minglong Li
+- name: Wenjing Yang
+- name: Weixia Xu
+- name: Ji Wang
 ---
 
 ## 논문 정보
