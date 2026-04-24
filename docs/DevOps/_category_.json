@@ -1,0 +1,12 @@
+{
+  "label": "DevOps",
+  "position": 10,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "DevOps",
+    "slug": "/category/devops",
+    "description": "모니터링·대시보드·운영 도구 관련 노트."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "label": "Books",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Books",
+    "slug": "/category/books",
+    "description": "책 정리 노트. IT(암호학·이산수학 등)와 Writing 관련 도서."
+  }
+}

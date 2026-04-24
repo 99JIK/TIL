@@ -1,0 +1,12 @@
+{
+  "label": "Programming Basics",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Programming Basics",
+    "slug": "/category/programming-basics",
+    "description": "C 언어를 중심으로 한 프로그래밍 기초 — 변수·제어문·함수·포인터·파일 처리·자료구조까지 주제별 정리."
+  }
+}

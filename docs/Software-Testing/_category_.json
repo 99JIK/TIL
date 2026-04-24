@@ -1,0 +1,12 @@
+{
+  "label": "Software Testing",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Software Testing",
+    "slug": "/category/software-testing",
+    "description": "테스트 설계·패턴·디버깅 노트."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "label": "Software Engineering",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Software Engineering",
+    "slug": "/category/software-engineering",
+    "description": "소프트웨어 공학 원리·설계·수업 노트 모음."
+  }
+}

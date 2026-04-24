@@ -1,0 +1,12 @@
+{
+  "label": "Database",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Database",
+    "slug": "/category/database",
+    "description": "DB 운영·쿼리 스니펫·튜닝 노트."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "label": "Docusaurus",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Docusaurus",
+    "slug": "/category/docusaurus",
+    "description": "Docusaurus 기반 사이트 구축·커스터마이징·트러블슈팅 노트."
+  }
+}

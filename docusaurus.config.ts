@@ -139,7 +139,7 @@ const config: Config = {
       links: [
         { title: 'SERVICE',
           items: [
-            { label: 'Docs', to: '/docs/category/archive'},
+            { label: 'Docs', to: '/docs/category/template'},
             { label: 'Papers', to: '/papers'},
             { label: 'Blog', to: '/blog'},
             { label: 'Tags', to: '/papers/tags'},

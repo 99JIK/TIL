@@ -10,7 +10,6 @@ tags: [tag-1, tag-2, tag-3]
 relevance: high
 reading_reason: "왜 이 논문을 읽었는가"
 date: YYYY-MM-DD
-slug: author-year-keyword
 sidebar_label: "짧은 제목 (제목이 길 때만)"
 ---
 

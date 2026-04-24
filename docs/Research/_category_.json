@@ -1,0 +1,12 @@
+{
+  "label": "Research",
+  "position": 8,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Research",
+    "slug": "/category/research",
+    "description": "연구 방법·논문 작성·도메인 개념(LLM 등) 노트."
+  }
+}

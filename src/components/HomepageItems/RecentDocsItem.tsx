@@ -45,14 +45,11 @@ export default function RecentDocsItem({gridClasses}: RecentDocsItemProps): JSX.
           </div>
         ) : (
           <p className={styles.recentEmpty}>
-            새 포맷으로 다시 쌓는 중입니다. 기존 문서는 아카이브에서 확인할 수 있습니다.
+            새 포맷으로 다시 쌓는 중입니다.
           </p>
         )}
-        <Link
-          to={hasDocs ? '/docs/category/template' : '/docs/category/archive'}
-          className={styles.recentMore}
-        >
-          {hasDocs ? '전체 문서 보기 →' : '아카이브 보기 →'}
+        <Link to="/docs/category/template" className={styles.recentMore}>
+          전체 문서 보기 →
         </Link>
       </div>
     </aside>

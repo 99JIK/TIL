@@ -1,0 +1,12 @@
+{
+  "label": "SW Testing 강의노트",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "SW Testing 강의노트",
+    "slug": "/category/sw-testing-course",
+    "description": "경북대 소프트웨어 테스팅 및 검증 강의(COSE0719) 주차별 정리."
+  }
+}

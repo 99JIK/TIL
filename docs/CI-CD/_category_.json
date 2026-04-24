@@ -1,0 +1,12 @@
+{
+  "label": "CI/CD",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "CI/CD",
+    "slug": "/category/ci-cd",
+    "description": "GitHub Actions·배포 파이프라인 구축과 운영 노트."
+  }
+}
