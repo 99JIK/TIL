@@ -1,4 +1,4 @@
----ㅁ
+---
 title: 긴 블로그용 템플릿
 authors: [jik]
 tags: [tag-1, tag-2]
