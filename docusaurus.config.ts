@@ -128,6 +128,7 @@ const config: Config = {
     navbar: {
       title: 'Today I Learned',
       items: [
+        { href: 'https://99jik.com', label: '99jik.com', position: 'right'},
         { type: 'docSidebar',  sidebarId: 'JIKTILSidebar', position: 'right', label: 'Docs'},
         { to: '/papers', label: 'Papers', position: 'right'},
         { to: '/blog', label: 'Blog', position: 'right'},

@@ -148,11 +148,32 @@ blockquote, table {
 
 /* ============================================
    NAVBAR — frosted glass
+   backdrop-filter must live on a pseudo-element, NOT on .navbar itself.
+   When applied directly to .navbar, it makes .navbar a containing block
+   for its fixed-positioned children — including .navbar-sidebar, which
+   then gets trapped inside the navbar bounds and breaks on mobile.
    ============================================ */
 .navbar {
+  background-color: transparent !important;
+  border-bottom: 1px solid var(--toss-border-color);
+  isolation: isolate;
+}
+
+.navbar::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--ifm-navbar-background-color);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
-  border-bottom: 1px solid var(--toss-border-color);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* The mobile drawer is a child of .navbar — give it an explicit opaque
+   background so the frosted ::before doesn't bleed through behind it. */
+.navbar-sidebar {
+  background-color: var(--ifm-background-color);
 }
 
 .navbar__brand .navbar__title {
@@ -354,6 +375,12 @@ table::-webkit-scrollbar-thumb {
   flex-direction: row !important;
   flex-wrap: wrap !important;
   gap: 2rem 4rem;
+  /* Cancel Infima's `.row { margin-left: calc(-1 * var(--ifm-spacing-horizontal)) }`.
+     We've also zeroed `.col` padding (below), so without this reset the columns end
+     up shifted ~1rem left of the container edge — visibly misaligned with the
+     `.footer__bottom` brand block. */
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   margin-bottom: 3rem;
   justify-content: flex-start;
 }
@@ -370,15 +397,61 @@ table::-webkit-scrollbar-thumb {
   padding-right: 0 !important;
 }
 
-/* Mobile: single column stack */
-@media screen and (max-width: 640px) {
+/* Mobile / narrow viewport: single column stack — match the breathing of
+   the bottom brand block (which sits below a divider with ~2rem padding-top),
+   so the SERVICE/CONNECT/GROUP sections feel like distinct blocks instead of
+   a tight list. Breakpoint matches Docusaurus' navbar mobile breakpoint (996px)
+   — Infima already stacks .col below 996px, so spacing rules must follow suit.
+
+   Specificity / cascade notes:
+   - Infima sets `.footer__col { margin-bottom: calc(var(--ifm-spacing-vertical) * 2) }`
+     which leaks ~2rem of space *in addition to* our flex `gap`. Reset it to 0.
+   - Use `!important` everywhere because Infima/Docusaurus base styles use the
+     same single-class specificity, so source-order alone is unreliable here. */
+@media screen and (max-width: 996px) {
+  .footer {
+    padding: 3rem 0 2rem !important;
+  }
   .footer .footer__links {
     flex-direction: column !important;
-    gap: 1.75rem;
+    gap: 2.75rem !important;
+    margin-bottom: 2.5rem !important;
   }
   .footer .footer__col.col,
   .footer .footer__col {
     width: 100% !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+  .footer .footer__col.col,
+  .footer .footer__col {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .footer__title {
+    margin-bottom: 0.75rem !important;
+  }
+  .footer__items {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+    line-height: 1.3 !important;
+  }
+  .footer__item {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.3 !important;
+  }
+  .footer__item + .footer__item {
+    margin-top: 0.45rem !important;
+  }
+  .footer__link-item {
+    display: inline-block !important;
+    padding: 0 !important;
+    line-height: 1.3 !important;
+  }
+  .footer__bottom {
+    padding-top: 2rem !important;
   }
 }
 
