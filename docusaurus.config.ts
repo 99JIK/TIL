@@ -165,9 +165,9 @@ const config: Config = {
     prism: { theme: prismThemes.github, darkTheme: prismThemes.dracula },
     colorMode: { respectPrefersColorScheme: true},
     algolia: {
-      appId: 'M0K8OUDJUD',
-      apiKey: '47a8935c75521e24ddd40a579d7a5c13',
-      indexName: 'til-jungin',
+      appId: '8WIWZU5PYJ',
+      apiKey: '7e193130add354e27c60a0320f072b38',
+      indexName: 'TIL.99JIK.COM',
       contextualSearch: true,
     },
     metadata: [
