@@ -24,11 +24,11 @@ sidebar_label: "Cosys-AirSim"
 
 > 관련도: 상 · 읽은 이유: SIL 자동화, 연구를 위한 기반으로 활용
 
-{/* turncate */}
-
 :::tip Intuition
 산업용 로봇의 '눈(센서)'과 '두뇌(알고리즘)'를 실제 현장 투입 전 가상 공간에서 완벽하게 트레이닝할 수 있도록 돕는 물리 엔진 기반의 디지털 샌드박스이다.
 :::
+
+{/* truncate */}
 
 ## One-liner
 

@@ -13,6 +13,8 @@ last_update:
 
 이 문서를 언제 찾게 되는가. 누가 왜 읽는가. 1-2 문장.
 
+{/* truncate */}
+
 ## Prerequisites
 
 - 미리 갖춰야 할 도구·권한·지식

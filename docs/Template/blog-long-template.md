@@ -7,7 +7,7 @@ date: 2026-04-23
 
 짧은 배경 문단.
 
-<!-- truncate -->
+{/* truncate */}
 
 ## TL;DR
 

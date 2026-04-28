@@ -22,11 +22,11 @@ sidebar_label: "AirSim"
 
 > 관련도: 상 · 읽은 이유: SIL 자동화, 연구를 위한 기반으로 활용
 
-{/* turncate */}
-
 :::tip Intuition
 실제 드론을 날리면 비싸고 위험하니, Unreal Engine의 사실적인 그래픽 위에 정밀한 물리 엔진과 센서 모델을 얹어서 가상 세계에서 드론을 마음껏 훈련시키고 테스트할 수 있게 만든 오픈 소스 비행 시뮬레이터이다.
 :::
+
+{/* truncate */}
 
 ## One-liner
 

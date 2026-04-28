@@ -20,11 +20,11 @@ sidebar_label: "Generic SITL Solution"
 
 > 관련도: 상 · 읽은 이유: 내 논문에 인용하기 위해서, 차후 SITL Sim을 구축할 때 참고하기 위해서
 
-{/* turncate */}
-
 :::tip Intuition
 시뮬레이션의 가상 환경과 실제 소프트웨어를 '망글러'와 '매니저'라는 매개체로 투명하게 연결하여, 실험실 안에서 대규모 야전망 테스트를 실제 코드 그대로 수행한다.
 :::
+
+{/* truncate */}
 
 ## One-liner
 

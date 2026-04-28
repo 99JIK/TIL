@@ -20,11 +20,11 @@ sidebar_label: "UnityPGTA"
 
 > 관련도: 상 · 읽은 이유: 교수님이 원하시는 KCI 양식 및 분량, 선행 및 참고 연구로 활용
 
-{/* turncate */}
-
 :::tip Intuition
 게임의 입력 소스 코드와 물리적 구성 요소(씬)를 AI가 스스로 분석하여 '어디를 눌러야 에러가 나는지'를 학습하는 자가 학습형 테스터를 구축한다.
 :::
+
+{/* truncate */}
 
 ## One-liner
 
