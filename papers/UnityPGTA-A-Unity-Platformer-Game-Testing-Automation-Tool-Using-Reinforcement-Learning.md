@@ -2,9 +2,9 @@
 title: "UnityPGTA: 강화학습을 이용한 유니티 플랫포머 게임의 테스팅 자동화 도구"
 description: "사람의 개입 없이 유니티 게임의 코드와 씬을 분석하여 결함을 탐지하는 강화학습 기반 자동 테스팅 도구"
 authors:
-  - name: 박세찬 (Se-chan Park)
-  - name: 김덕엽 (Deock Yeop Kim)
-  - name: 이우진 (Woo Jin Lee)
+  - name: 박세찬
+  - name: 김덕엽
+  - name: 이우진
 year: 2024
 venue: "Journal of KIISE"
 tags: [reinforcement-learning, unity-game-engine, game-testing-automation, unity-machine-learning-agents-toolkit, proximal-policy-optimization]

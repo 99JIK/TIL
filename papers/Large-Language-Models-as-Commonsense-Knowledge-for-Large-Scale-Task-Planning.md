@@ -2,9 +2,9 @@
 title: "Large Language Models as Commonsense Knowledge for Large-Scale Task Planning"
 description: "LLM을 상식적 세계 모델과 탐색 휴리스틱으로 동시에 활용하여 대규모 작업 계획의 효율성과 일반화 성능을 극대화한 연구"
 authors:
-    - name: Zirui Zhao affiliation
-    - name: Wee Sun Lee affiliation
-    - name: David Hsu affiliation
+    - name: Zirui Zhao
+    - name: Wee Sun Lee
+    - name: David Hsu
 year: 2023
 venue: "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)"
 tags: [large-language-model, task-planning, monte-carlo-tree-search, commonsense-reasoning, minimum-description-length, embodied-ai]
@@ -21,9 +21,11 @@ sidebar_label: "LLM-MCTS"
 > 관련도: 상 · 읽은 이유: 내 논문에 인용하기 위해서, LLM을 하나의 설계도로 활용한 선행 연구를
 분석 및 파악하기 위함이다.
 
-{/* turncate */}
+{/* truncate */}
 
-:::tip Intuition LLM은 정답을 바로 내놓는 '해결사(Policy)'일 뿐만 아니라 세상이 어떻게 돌아가는지 아는 '설계도(World Model)'이기도 하다. 이 두 역할을 결합해 복잡한 미로(탐색 공간)에서 지도를 보며 유망한 길을 골라가는 것이 LLM-MCTS의 핵심이다. :::
+:::tip Intuition
+LLM은 정답을 바로 내놓는 '해결사(Policy)'일 뿐만 아니라 세상이 어떻게 돌아가는지 아는 '설계도(World Model)'이기도 하다. 이 두 역할을 결합해 복잡한 미로(탐색 공간)에서 지도를 보며 유망한 길을 골라가는 것이 LLM-MCTS의 핵심이다.
+:::
 
 ## One-liner
 
@@ -91,7 +93,9 @@ $$ a^{*} = \arg\max_{a \in A} ; Q(h, a) + c , \hat{\pi}(a|h) \frac{\sqrt{N(h)}}{
 - **Hallucination / Model 부정확성**: F1 분석에서 L-Model 단독 성능이 낮은 원인 중 하나로 세계 모델의 부정확성이 제시됨.
 - **Translation 오류**: 자유 형식 자연어를 시뮬레이터의 허용 가능한 행동/객체 이름으로 매핑할 때 cosine similarity 기반 매핑이 필요하며, 이 과정에서 오류가 발생할 수 있음.
 
-:::note 실제로 보이는 것 LLM의 추론 비용(token cost)과 시간 지연이 실시간 로봇 제어에 적용하기에는 아직 매우 높다. 하지만 이 연구는 LLM의 지식을 '추론 엔진'이 아닌 '정보원'으로 격상시켰다는 점과, 신경망 기반의 직관(Policy)과 고전적 알고리즘의 논리(MCTS)를 결합하는 표준적 구조를 제시했다는 점에서 실제적 가치가 높다. :::
+:::note 실제로 보이는 것
+LLM의 추론 비용(token cost)과 시간 지연이 실시간 로봇 제어에 적용하기에는 아직 매우 높다. 하지만 이 연구는 LLM의 지식을 '추론 엔진'이 아닌 '정보원'으로 격상시켰다는 점과, 신경망 기반의 직관(Policy)과 고전적 알고리즘의 논리(MCTS)를 결합하는 표준적 구조를 제시했다는 점에서 실제적 가치가 높다.
+:::
 
 ## Quotes
 

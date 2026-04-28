@@ -74,7 +74,7 @@ const config: Config = {
         ...(process.env.NODE_ENV === 'production'
           ? {
               gtag: {
-                trackingID: 'G-FQ51TK8K1C',
+                trackingID: 'G-JRP5YY0FL7',
                 anonymizeIP: true,
               },
             }
