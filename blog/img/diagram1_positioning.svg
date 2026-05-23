@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>연구 분야별 위치와 본 연구가 채우는 빈 자리</title>
+  <desc>기존 BT 연구는 로봇 제어, 기존 LLM 테스트 연구는 SUT 입력 생성에 집중되어 있고, 환경 에이전트 위치는 비어있음. 본 연구는 그 빈 자리를 채움.</desc>
+  <style>
+    text { font-family: "Malgun Gothic", "맑은 고딕", "Apple SD Gothic Neo", "Noto Sans KR", "Noto Sans CJK KR", "Nanum Gothic", sans-serif; }
+    .title { font-size: 16px; font-weight: 600; fill: #111827; }
+    .head { font-size: 13px; font-weight: 600; fill: #6b7280; }
+    .label { font-size: 14px; fill: #111827; }
+    .label-bold { font-size: 14px; font-weight: 600; fill: #111827; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .box-existing { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1.5; }
+    .box-ours { fill: #dbeafe; stroke: #2563eb; stroke-width: 2; }
+  </style>
+  <rect width="720" height="320" fill="#ffffff"/>
+  <text x="360" y="28" text-anchor="middle" class="title">연구 분야별 위치 — 본 연구가 채우는 빈 자리</text>
+  <text x="190" y="64" text-anchor="middle" class="head">연구 분야</text>
+  <text x="530" y="64" text-anchor="middle" class="head">활용 위치</text>
+  <rect x="40" y="80" width="300" height="58" class="box-existing" rx="6"/>
+  <text x="190" y="105" text-anchor="middle" class="label">기존 BT 연구</text>
+  <text x="190" y="124" text-anchor="middle" class="small">Colledanchise &amp; Ögren 2018</text>
+  <rect x="380" y="80" width="300" height="58" class="box-existing" rx="6"/>
+  <text x="530" y="115" text-anchor="middle" class="label">로봇 제어</text>
+  <rect x="40" y="150" width="300" height="58" class="box-existing" rx="6"/>
+  <text x="190" y="175" text-anchor="middle" class="label">기존 LLM 테스트</text>
+  <text x="190" y="194" text-anchor="middle" class="small">Fuzz4All · ChatFuzz · TitanFuzz</text>
+  <rect x="380" y="150" width="300" height="58" class="box-existing" rx="6"/>
+  <text x="530" y="185" text-anchor="middle" class="label">SUT 입력 생성</text>
+  <rect x="40" y="225" width="300" height="68" class="box-ours" rx="6"/>
+  <text x="190" y="252" text-anchor="middle" class="label-bold">★ 본 연구</text>
+  <text x="190" y="272" text-anchor="middle" class="small">BT × LLM × Environment</text>
+  <rect x="380" y="225" width="300" height="68" class="box-ours" rx="6"/>
+  <text x="530" y="252" text-anchor="middle" class="label-bold">환경 에이전트</text>
+  <text x="530" y="272" text-anchor="middle" class="small">(이 자리가 비어있음)</text>
+</svg>
