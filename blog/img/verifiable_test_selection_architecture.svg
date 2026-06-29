@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="620" viewBox="0 0 820 620" role="img">
+<title>검증가능한 비편향 테스트 선택 캠페인 구조도</title>
+<desc>외부 입력(모델 커밋·SUT 선커밋·난수 비콘)이 세 단계(생성·선택·실행봉인)로 흐르고, 각 단계가 암호학적 증명으로 봉인되어 허가형 원장에 앵커링되며, 인증기관이 독립 재검증한다.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<style>
+text{font-family:'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR','Segoe UI',sans-serif;}
+.title{font-size:17px;font-weight:600;fill:#1F1F1D;}
+.subt{font-size:11px;font-weight:400;fill:#7A7A76;}
+.stage{fill:#FFFFFF;stroke:#8A8A85;stroke-width:1;}
+.stitle{font-size:14px;font-weight:600;fill:#1F1F1D;}
+.ssub{font-size:11.5px;font-weight:400;fill:#5C5C58;}
+.sdetail{font-size:11px;font-weight:400;fill:#5C5C58;}
+.seal{fill:#ECECEA;stroke:#6F6F6B;stroke-width:0.8;}
+.tag{font-size:10px;font-weight:600;fill:#8A8A85;letter-spacing:.03em;}
+.sealmain{font-size:12px;font-weight:600;fill:#1F1F1D;}
+.sealsub{font-size:11px;font-weight:400;fill:#5C5C58;}
+.inbox{fill:#FAFAF9;stroke:#9A9A95;stroke-width:1;stroke-dasharray:4 3;}
+.inmain{font-size:11.5px;font-weight:600;fill:#3A3A37;}
+.insub{font-size:10.5px;font-weight:400;fill:#6F6F6B;}
+.ledger{fill:#ECECEA;stroke:#6F6F6B;stroke-width:1;}
+.ltitle{font-size:14px;font-weight:600;fill:#1F1F1D;}
+.lsub{font-size:11.5px;font-weight:400;fill:#5C5C58;}
+.auditor{fill:#FFFFFF;stroke:#2A2A28;stroke-width:1.4;}
+.atitle{font-size:14px;font-weight:600;fill:#1F1F1D;}
+.asub{font-size:11.5px;font-weight:400;fill:#5C5C58;}
+.chip{fill:#F2F2F0;stroke:#8A8A85;stroke-width:0.8;}
+.chipt{font-size:11px;font-weight:600;fill:#1F1F1D;}
+.divider{stroke:#DADAD7;stroke-width:1;}
+.arrow{fill:none;stroke:#6F6F6B;stroke-width:1.4;}
+.foot{font-size:10.5px;font-weight:400;fill:#9A9A95;}
+</style>
+</defs>
+
+<rect x="0" y="0" width="820" height="620" fill="#FFFFFF"/>
+
+<text class="title" x="410" y="32" text-anchor="middle">검증가능한 비편향 테스트 선택 캠페인</text>
+<text class="subt" x="410" y="50" text-anchor="middle">Verifiable Unbiased Test Selection for LLM-based Test Generation</text>
+
+<rect class="inbox" x="30" y="72" width="226" height="48" rx="6"/>
+<text class="inmain" x="143" y="94" text-anchor="middle">① 모델 M 해시 커밋</text>
+<text class="insub" x="143" y="110" text-anchor="middle">생성 진정성의 기준점</text>
+
+<rect class="inbox" x="297" y="72" width="226" height="48" rx="6"/>
+<text class="inmain" x="410" y="93" text-anchor="middle">② SUT 해시 선커밋</text>
+<text class="inmain" x="410" y="111" text-anchor="middle">③ 공개 난수 비콘 (drand)</text>
+
+<line class="arrow" x1="143" y1="120" x2="143" y2="148" marker-end="url(#arrow)"/>
+<line class="arrow" x1="410" y1="120" x2="410" y2="148" marker-end="url(#arrow)"/>
+
+<rect class="stage" x="30" y="150" width="226" height="192" rx="10"/>
+<text class="stitle" x="46" y="176">1. 생성 (Generation)</text>
+<text class="ssub" x="46" y="197">LLM 테스트 카탈로그 생성</text>
+<text class="sdetail" x="46" y="216">· 후보를 머클 트리에 커밋</text>
+<line class="divider" x1="44" y1="228" x2="242" y2="228"/>
+<rect class="seal" x="44" y="240" width="198" height="86" rx="6"/>
+<text class="tag" x="56" y="260">암호학적 봉인</text>
+<text class="sealmain" x="56" y="282">zkLLM 검증가능 추론</text>
+<text class="sealsub" x="56" y="302">π_gen — 생성 진정성</text>
+
+<rect class="stage" x="297" y="150" width="226" height="192" rx="10"/>
+<text class="stitle" x="313" y="176">2. 선택 (Selection)</text>
+<text class="ssub" x="313" y="197">VRF 검증가능 추출</text>
+<text class="sdetail" x="313" y="216">· VRF(sk, H(SUT) ∥ beacon)</text>
+<line class="divider" x1="311" y1="228" x2="509" y2="228"/>
+<rect class="seal" x="311" y="240" width="198" height="86" rx="6"/>
+<text class="tag" x="323" y="260">암호학적 봉인</text>
+<text class="sealmain" x="323" y="282">VRF 추첨 (sortition)</text>
+<text class="sealsub" x="323" y="302">π_sel — 선택 비편향</text>
+
+<rect class="stage" x="564" y="150" width="226" height="192" rx="10"/>
+<text class="stitle" x="580" y="176">3. 실행·봉인 (Sealing)</text>
+<text class="ssub" x="580" y="197">테스트 실행 + 오라클 판정</text>
+<text class="sdetail" x="580" y="216">· 산출물 SHA-256 주소화</text>
+<line class="divider" x1="578" y1="228" x2="776" y2="228"/>
+<rect class="seal" x="578" y="240" width="198" height="86" rx="6"/>
+<text class="tag" x="590" y="260">암호학적 봉인</text>
+<text class="sealmain" x="590" y="282">머클 루트 + in-toto</text>
+<text class="sealsub" x="590" y="302">실행·결과 무결성</text>
+
+<line class="arrow" x1="258" y1="200" x2="293" y2="200" marker-end="url(#arrow)"/>
+<line class="arrow" x1="525" y1="200" x2="560" y2="200" marker-end="url(#arrow)"/>
+
+<line class="arrow" x1="143" y1="342" x2="143" y2="372" marker-end="url(#arrow)"/>
+<line class="arrow" x1="410" y1="342" x2="410" y2="372" marker-end="url(#arrow)"/>
+<line class="arrow" x1="677" y1="342" x2="677" y2="372" marker-end="url(#arrow)"/>
+
+<rect class="ledger" x="30" y="374" width="760" height="74" rx="10"/>
+<text class="ltitle" x="410" y="400" text-anchor="middle">허가형 원장 (Permissioned Ledger)</text>
+<text class="lsub" x="410" y="422" text-anchor="middle">머클 루트 · VRF 공개키 · 모델 커밋 앵커링</text>
+<text class="lsub" x="410" y="440" text-anchor="middle">노드: 개발사 · 검증사 · 인증기관</text>
+
+<line class="arrow" x1="410" y1="448" x2="410" y2="478" marker-end="url(#arrow)"/>
+
+<rect class="auditor" x="170" y="480" width="480" height="98" rx="10"/>
+<text class="atitle" x="410" y="506" text-anchor="middle">인증기관 / 감사자 (Auditor)</text>
+<text class="asub" x="410" y="527" text-anchor="middle">π_gen · π_sel · 머클 포함 증명 독립 재검증</text>
+<rect class="chip" x="185" y="544" width="142" height="26" rx="13"/>
+<text class="chipt" x="256" y="561" text-anchor="middle">✓ 재현성 보장</text>
+<rect class="chip" x="339" y="544" width="142" height="26" rx="13"/>
+<text class="chipt" x="410" y="561" text-anchor="middle">✓ 위변조 불가</text>
+<rect class="chip" x="493" y="544" width="142" height="26" rx="13"/>
+<text class="chipt" x="564" y="561" text-anchor="middle">✓ 선택 비편향</text>
+
+<text class="foot" x="410" y="602" text-anchor="middle">점선 = 외부 입력    ·    음영 = 암호학적 증명    ·    굵은 테두리 = 검증 주체</text>
+</svg>
