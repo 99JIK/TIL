@@ -18,7 +18,7 @@ tags:
   - code-generation
   - prompt-engineering
 relevance: high
-date: 2023-05-29
+date: 2026-06-29
 sidebar_label: LLM for SE Survey
 ---
 

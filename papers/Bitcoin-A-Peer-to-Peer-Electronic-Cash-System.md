@@ -15,7 +15,7 @@ tags:
   - distributed-ledger
   - sybil-attack
 relevance: middle
-date: 2008-10-31
+date: 0026-06-10
 sidebar_label: Bitcoin
 ---
 

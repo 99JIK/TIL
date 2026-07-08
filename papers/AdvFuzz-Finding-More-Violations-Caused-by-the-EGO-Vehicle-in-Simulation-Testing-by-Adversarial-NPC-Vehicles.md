@@ -1,6 +1,6 @@
 ---
 title: "AdvFuzz: Finding More Violations Caused by the EGO Vehicle in Simulation Testing by Adversarial NPC Vehicles"
-description: "행동 트리 기반의 적대적 NPC 차량 제어와 규칙 기반 책임 판별을 통해 자율주행 시스템이 직접 유발하는 소프트웨어 결함을 효율적으로 발견하는 시뮬레이션 테스트 기법"
+description: 행동 트리 기반의 적대적 NPC 차량 제어와 규칙 기반 책임 판별을 통해 자율주행 시스템이 직접 유발하는 소프트웨어 결함을 효율적으로 발견하는 시뮬레이션 테스트 기법
 authors:
   - name: You Lu
   - name: Yifan Tian
@@ -8,11 +8,16 @@ authors:
   - name: Bihuan Chen
   - name: Xin Peng
 year: 2024
-venue: "arXiv"
-tags: [autonomous-driving-system, scenario-based-testing, behavior-tree, genetic-algorithm, simulation-testing]
+venue: arXiv
+tags:
+  - autonomous-driving-system
+  - scenario-based-testing
+  - behavior-tree
+  - genetic-algorithm
+  - simulation-testing
 relevance: high
-date: 2024-12-01
-sidebar_label: "AdvFuzz"
+date: 2026-07-08
+sidebar_label: AdvFuzz
 ---
 
 # AdvFuzz: Finding More Violations Caused by the EGO Vehicle in Simulation Testing by Adversarial NPC Vehicles
