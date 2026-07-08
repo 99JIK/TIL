@@ -1,17 +1,23 @@
 ---
 title: "Behavior Trees in Robotics and AI: An Introduction"
-description: "로봇공학과 인공지능 분야에서 사용되는 행동 트리(Behavior Tree)의 개념, 고전적 공식화, 설계 원칙, 공식적 분석 기법 및 계획·학습과의 연계 방안을 종합적으로 소개하는 입문서이다."
+description: 로봇공학과 인공지능 분야에서 사용되는 행동 트리(Behavior Tree)의 개념, 고전적 공식화, 설계 원칙, 공식적 분석 기법 및 계획·학습과의 연계 방안을 종합적으로 소개하는 입문서이다.
 authors:
   - name: Michele Colledanchise
   - name: Petter Ögren
 year: 2022
-venue: "arXiv (venue unspecified)"
-tags: [behavior-tree, robotics, artificial-intelligence, finite-state-machine, automated-planning, machine-learning, stochastic-process]
+venue: arXiv (venue unspecified)
+tags:
+  - behavior-tree
+  - robotics
+  - artificial-intelligence
+  - finite-state-machine
+  - automated-planning
+  - machine-learning
+  - stochastic-process
 relevance: high
-reading_reason: "행동 트리의 기본 개념부터 상태 공간 및 확률론적 분석, 계획 및 학습 알고리즘과의 융합까지 체계적으로 이해하기 위함이다."
 date: 2026-05-27
 slug: colledanchise-2022-behavior-trees
-sidebar_label: "Behavior Trees Introduction"
+sidebar_label: Behavior Trees Introduction
 ---
 
 # Behavior Trees in Robotics and AI: An Introduction

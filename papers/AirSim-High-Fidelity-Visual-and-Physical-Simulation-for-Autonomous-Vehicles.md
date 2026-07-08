@@ -1,19 +1,26 @@
 ---
 title: "AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles"
-description: "Unreal Engine 기반의 오픈 소스 시뮬레이터로, 물리적·시각적으로 사실적인 환경에서 자율 주행 차량의 알고리즘을 개발·테스트할 수 있도록 모듈형 물리 엔진, 센서 모델, HITL 지원을 제공한다."
+description: Unreal Engine 기반의 오픈 소스 시뮬레이터로, 물리적·시각적으로 사실적인 환경에서 자율 주행 차량의 알고리즘을 개발·테스트할 수 있도록 모듈형 물리 엔진, 센서 모델, HITL 지원을 제공한다.
 authors:
   - name: Shital Shah
   - name: Debadeepta Dey
   - name: Chris Lovett
   - name: Ashish Kapoor
 year: 2017
-venue: "FSR 2017 (Field and Service Robotics)"
-tags: [autonomous-vehicles, simulation, unreal-engine, quadrotor, hardware-in-the-loop, sensor-modeling, physics-engine, reinforcement-learning]
+venue: FSR 2017 (Field and Service Robotics)
+tags:
+  - autonomous-vehicles
+  - simulation
+  - unreal-engine
+  - quadrotor
+  - hardware-in-the-loop
+  - sensor-modeling
+  - physics-engine
+  - reinforcement-learning
 relevance: high
-reading_reason: "SIL 자동화, 연구를 위한 기반으로 활용"
 date: 2026-04-28
 slug: shah-2017-airsim
-sidebar_label: "AirSim"
+sidebar_label: AirSim
 ---
 
 # AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles

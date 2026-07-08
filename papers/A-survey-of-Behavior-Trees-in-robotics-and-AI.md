@@ -1,6 +1,6 @@
 ---
-title: "A survey of Behavior Trees in robotics and AI"
-description: "Behavior Trees (BTs)를 로봇공학 및 인공지능 애플리케이션에 적용한 연구들을 분류하고 핵심 이론, 설계 방식, 라이브러리를 종합적으로 정리한 설문 논문이다."
+title: A survey of Behavior Trees in robotics and AI
+description: Behavior Trees (BTs)를 로봇공학 및 인공지능 애플리케이션에 적용한 연구들을 분류하고 핵심 이론, 설계 방식, 라이브러리를 종합적으로 정리한 설문 논문이다.
 authors:
   - name: Matteo Iovino
   - name: Edvards Scukins
@@ -8,12 +8,17 @@ authors:
   - name: Petter Ögren
   - name: Christian Smith
 year: 2022
-venue: "Robotics and Autonomous Systems"
-tags: [behavior-trees, robotics, artificial-intelligence, reinforcement-learning, learning-from-demonstration, hierarchical-task-network]
+venue: Robotics and Autonomous Systems
+tags:
+  - behavior-trees
+  - robotics
+  - artificial-intelligence
+  - reinforcement-learning
+  - learning-from-demonstration
+  - hierarchical-task-network
 relevance: high
-reading_reason: "로봇 공학 및 인공지능 분야에서 행위 트리의 전반적인 연구 흐름과 한계를 파악하기 위함"
 date: 2026-05-27
-sidebar_label: "BT Survey"
+sidebar_label: BT Survey
 ---
 
 # A survey of Behavior Trees in robotics and AI

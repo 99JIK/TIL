@@ -1,17 +1,21 @@
 ---
-title: "A Generic Solution to Software-in-the-Loop"
-description: "네트워크 시뮬레이터와 실제 소프트웨어를 수정 없이 연동하여 설계부터 테스트까지 동일한 코드를 재사용하게 해주는 범용 SITL 솔루션"
+title: A Generic Solution to Software-in-the-Loop
+description: 네트워크 시뮬레이터와 실제 소프트웨어를 수정 없이 연동하여 설계부터 테스트까지 동일한 코드를 재사용하게 해주는 범용 SITL 솔루션
 authors:
   - name: Stephanie Demers
   - name: Praveen Gopalakrishnan
   - name: Latha Kant
 year: 2007
-venue: "MILCOM 2007 - IEEE Military Communications Conference"
-tags: [software-in-the-loop, real-time-simulation, network-modeling-and-simulation, event-driven-simulation, mobile-ad-hoc-network]
+venue: MILCOM 2007 - IEEE Military Communications Conference
+tags:
+  - software-in-the-loop
+  - real-time-simulation
+  - network-modeling-and-simulation
+  - event-driven-simulation
+  - mobile-ad-hoc-network
 relevance: high
-reading_reason: "내 논문에 인용하기 위해서, 차후 SITL Sim을 구축할 때 참고하기 위해서"
 date: 2026-04-23
-sidebar_label: "Generic SITL Solution"
+sidebar_label: Generic SITL Solution
 ---
 
 # A Generic Solution to Software-in-the-Loop

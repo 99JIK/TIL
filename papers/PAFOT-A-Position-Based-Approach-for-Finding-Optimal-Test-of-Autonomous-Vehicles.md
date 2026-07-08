@@ -15,7 +15,6 @@ tags:
   - fuzz-testing
   - collision-avoidance
 relevance: high
-reading_reason: 자율주행 차량 도메인 연구 방향 확인
 date: 2026-06-29
 sidebar_label: PAFOT
 ---

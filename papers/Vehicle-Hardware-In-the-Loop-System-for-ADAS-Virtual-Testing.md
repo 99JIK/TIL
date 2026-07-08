@@ -1,18 +1,22 @@
 ---
-title: "Vehicle Hardware-In-the-Loop System for ADAS Virtual Testing"
-description: "섀시 다이나모미터와 센서 자극 장치를 결합하여 대규모 시설 없이도 실차 수준에서 ADAS를 검증할 수 있는 컴팩트한 VeHIL 시스템"
+title: Vehicle Hardware-In-the-Loop System for ADAS Virtual Testing
+description: 섀시 다이나모미터와 센서 자극 장치를 결합하여 대규모 시설 없이도 실차 수준에서 ADAS를 검증할 수 있는 컴팩트한 VeHIL 시스템
 authors:
   - name: Romain Rossi
   - name: Clément Galko
   - name: Hariharan Narasimman
   - name: Xavier Savatier
 year: 2017
-venue: "Towards a Common Software/Hardware Methodology for Future Advanced Driver Assistance Systems (Ch. 11), River Publishers"
-tags: [vehicle-hardware-in-the-loop, advanced-driver-assistance-systems, virtual-testing, chassis-dynamometer, sensor-simulation]
+venue: Towards a Common Software/Hardware Methodology for Future Advanced Driver Assistance Systems (Ch. 11), River Publishers
+tags:
+  - vehicle-hardware-in-the-loop
+  - advanced-driver-assistance-systems
+  - virtual-testing
+  - chassis-dynamometer
+  - sensor-simulation
 relevance: middle
-reading_reason: "실차 기반의 ADAS 검증 환경 구축 시, 실제 테스트 트랙을 대체할 수 있는 하드웨어 구성 및 센서 데이터 주입 기법을 파악하기 위함이다."
 date: 2026-04-24
-sidebar_label: "Vehicle HIL for ADAS"
+sidebar_label: Vehicle HIL for ADAS
 ---
 
 # Vehicle Hardware-In-the-Loop System for ADAS Virtual Testing

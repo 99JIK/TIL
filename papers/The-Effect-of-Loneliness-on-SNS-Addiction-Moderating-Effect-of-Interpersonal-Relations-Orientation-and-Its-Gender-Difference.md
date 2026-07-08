@@ -1,18 +1,22 @@
 ---
 title: "외로움이 SNS 중독 경향성에 미치는 영향: 성별에 따른 대인관계 지향성의 조절 효과"
-description: "외로움이 SNS 중독에 미치는 영향에서 대인관계 지향성이 여성에게는 조절 효과를 갖지만 남성에게는 외로움 자체가 더 강력한 요인임을 규명한 연구"
+description: 외로움이 SNS 중독에 미치는 영향에서 대인관계 지향성이 여성에게는 조절 효과를 갖지만 남성에게는 외로움 자체가 더 강력한 요인임을 규명한 연구
 authors:
   - name: 이정화
   - name: 김호영
   - name: 강정석
 year: 2017
 venue: "Korean Journal of Clinical Psychology (한국심리학회지: 임상)"
-tags: [social-networking-service-addiction, loneliness, interpersonal-relations-orientation, gender-difference, social-compensation-hypothesis]
+tags:
+  - social-networking-service-addiction
+  - loneliness
+  - interpersonal-relations-orientation
+  - gender-difference
+  - social-compensation-hypothesis
 relevance: low
-reading_reason: "흥미로워서"
 date: 2026-04-28
 slug: lee-2017-sns-addiction
-sidebar_label: "외로움과 SNS 중독"
+sidebar_label: 외로움과 SNS 중독
 ---
 
 # 외로움이 SNS 중독 경향성에 미치는 영향: 성별에 따른 대인관계 지향성의 조절 효과

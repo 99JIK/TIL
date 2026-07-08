@@ -1,6 +1,6 @@
 ---
 title: "COSYS-AIRSIM: A REAL-TIME SIMULATION FRAMEWORK EXPANDED FOR COMPLEX INDUSTRIAL APPLICATIONS"
-description: "산업용 어플리케이션을 위해 새로운 센서 모달리티와 절차적 환경 생성 기능을 추가한 오픈 소스 AirSim 확장 프레임워크"
+description: 산업용 어플리케이션을 위해 새로운 센서 모달리티와 절차적 환경 생성 기능을 추가한 오픈 소스 AirSim 확장 프레임워크
 authors:
   - name: Wouter Jansen
   - name: Erik Verreycken
@@ -10,12 +10,18 @@ authors:
   - name: Nico Huebel
   - name: Jan Steckel
 year: 2023
-venue: "ANNSIM 2023 (Annual Modeling and Simulation Conference)"
-tags: [robot-simulation, sensor-modeling, procedural-generation, digital-twin, transfer-learning, lidar-simulation, simultaneous-localization-and-mapping]
+venue: ANNSIM 2023 (Annual Modeling and Simulation Conference)
+tags:
+  - robot-simulation
+  - sensor-modeling
+  - procedural-generation
+  - digital-twin
+  - transfer-learning
+  - lidar-simulation
+  - simultaneous-localization-and-mapping
 relevance: high
-reading_reason: "SIL 자동화, 연구를 위한 기반으로 활용"
 date: 2026-04-28
-sidebar_label: "Cosys-AirSim"
+sidebar_label: Cosys-AirSim
 ---
 
 # COSYS-AIRSIM: A REAL-TIME SIMULATION FRAMEWORK EXPANDED FOR COMPLEX INDUSTRIAL APPLICATIONS

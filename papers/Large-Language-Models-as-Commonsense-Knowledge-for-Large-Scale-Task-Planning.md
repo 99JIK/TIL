@@ -1,17 +1,22 @@
 ---
-title: "Large Language Models as Commonsense Knowledge for Large-Scale Task Planning"
-description: "LLM을 상식적 세계 모델과 탐색 휴리스틱으로 동시에 활용하여 대규모 작업 계획의 효율성과 일반화 성능을 극대화한 연구"
+title: Large Language Models as Commonsense Knowledge for Large-Scale Task Planning
+description: LLM을 상식적 세계 모델과 탐색 휴리스틱으로 동시에 활용하여 대규모 작업 계획의 효율성과 일반화 성능을 극대화한 연구
 authors:
-    - name: Zirui Zhao
-    - name: Wee Sun Lee
-    - name: David Hsu
+  - name: Zirui Zhao
+  - name: Wee Sun Lee
+  - name: David Hsu
 year: 2023
-venue: "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)"
-tags: [large-language-model, task-planning, monte-carlo-tree-search, commonsense-reasoning, minimum-description-length, embodied-ai]
+venue: Advances in Neural Information Processing Systems 36 (NeurIPS 2023)
+tags:
+  - large-language-model
+  - task-planning
+  - monte-carlo-tree-search
+  - commonsense-reasoning
+  - minimum-description-length
+  - embodied-ai
 relevance: high
-reading_reason: ""
 date: 2026-04-24
-sidebar_label: "LLM-MCTS"
+sidebar_label: LLM-MCTS
 ---
 
 # Large Language Models as Commonsense Knowledge for Large-Scale Task Planning

@@ -1,16 +1,19 @@
 ---
-title: "Do Neural Language Models Overcome Reporting Bias?"
-description: "신경망 언어 모델은 일반화 능력을 통해 텍스트에 나타나지 않는 당연한 사실을 일부 인지하지만, 동시에 희귀하고 자극적인 사건을 과대평가하여 훈련 데이터의 보고 편향을 오히려 증폭시킨다."
+title: Do Neural Language Models Overcome Reporting Bias?
+description: 신경망 언어 모델은 일반화 능력을 통해 텍스트에 나타나지 않는 당연한 사실을 일부 인지하지만, 동시에 희귀하고 자극적인 사건을 과대평가하여 훈련 데이터의 보고 편향을 오히려 증폭시킨다.
 authors:
   - name: Vered Shwartz
   - name: Yejin Choi
 year: 2020
-venue: "COLING 2020"
-tags: [large-language-model, reporting-bias, commonsense-reasoning, natural-language-processing]
+venue: COLING 2020
+tags:
+  - large-language-model
+  - reporting-bias
+  - commonsense-reasoning
+  - natural-language-processing
 relevance: high
-reading_reason: "내 논문에 인용하기 위해서, 보고 편향을 역으로 이용해 Edge case로 활용"
 date: 2026-04-28
-sidebar_label: "Reporting Bias in LMs"
+sidebar_label: Reporting Bias in LMs
 ---
 
 # Do Neural Language Models Overcome Reporting Bias?

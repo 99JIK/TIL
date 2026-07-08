@@ -1,18 +1,22 @@
 ---
-title: "Towards a Unified Behavior Trees Framework for Robot Control"
-description: "로봇 제어를 위한 수학적으로 엄밀한 행동 트리 프레임워크를 제안하고, 이를 제어 하이브리드 동적 시스템(CHDS)과 수학적으로 등가임을 증명함과 동시에 오픈소스 ROS 라이브러리로 구현하여 실로봇 검증을 완료했다."
+title: Towards a Unified Behavior Trees Framework for Robot Control
+description: 로봇 제어를 위한 수학적으로 엄밀한 행동 트리 프레임워크를 제안하고, 이를 제어 하이브리드 동적 시스템(CHDS)과 수학적으로 등가임을 증명함과 동시에 오픈소스 ROS 라이브러리로 구현하여 실로봇 검증을 완료했다.
 authors:
   - name: Alejandro Marzinotto
   - name: Michele Colledanchise
   - name: Christian Smith
   - name: Petter Ögren
 year: 2014
-venue: "IEEE International Conference on Robotics and Automation (ICRA)"
-tags: [behavior-tree, robot-control, hybrid-dynamical-system, robot-operating-system, multi-agent-system]
+venue: IEEE International Conference on Robotics and Automation (ICRA)
+tags:
+  - behavior-tree
+  - robot-control
+  - hybrid-dynamical-system
+  - robot-operating-system
+  - multi-agent-system
 relevance: high
-reading_reason: "행동 트리를 단순한 게임 AI 도구를 넘어 수학적 제어 이론과 결합하여 로봇 아키텍처의 중위 레이어로 정립하는 방법론과 등가성 증명 과정을 분석하기 위함이다."
 date: 2026-05-27
-sidebar_label: "Unified BT Framework"
+sidebar_label: Unified BT Framework
 ---
 
 # Towards a Unified Behavior Trees Framework for Robot Control

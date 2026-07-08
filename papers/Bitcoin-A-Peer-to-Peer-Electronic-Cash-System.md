@@ -17,7 +17,6 @@ tags:
 relevance: middle
 date: 2008-10-31
 sidebar_label: Bitcoin
-reading_reason: 김경훈 교수님 과제, P2P 네트워크 작업 증명을 통한 이중 지불 및 분산 합의 문제 해결 방안 확인
 ---
 
 # Bitcoin: A Peer-to-Peer Electronic Cash System

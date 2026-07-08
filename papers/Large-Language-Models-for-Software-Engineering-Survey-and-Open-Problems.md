@@ -18,7 +18,6 @@ tags:
   - code-generation
   - prompt-engineering
 relevance: high
-reading_reason: 소프트웨어 공학 도메인에서 LLM을 결합한 최신 하이브리드 기법들의 현황과 발전 방향 파악
 date: 2023-05-29
 sidebar_label: LLM for SE Survey
 ---

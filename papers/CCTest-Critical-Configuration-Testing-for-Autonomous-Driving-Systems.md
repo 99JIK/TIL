@@ -1,18 +1,21 @@
 ---
 title: "CCTest: Critical Configuration Testing for Autonomous Driving Systems"
-description: "자율주행 시스템의 실제 결함을 검증하기 위해 이론상 안전 주행 경로가 존재하는 비판적 초기 설정을 계산하여 복잡한 시나리오를 효과적으로 테스트하는 프레임워크"
+description: 자율주행 시스템의 실제 결함을 검증하기 위해 이론상 안전 주행 경로가 존재하는 비판적 초기 설정을 계산하여 복잡한 시나리오를 효과적으로 테스트하는 프레임워크
 authors:
   - name: Changwen Li
   - name: Joseph Sifakis
   - name: Rongjie Yan
   - name: Jian Zhang
 year: 2025
-venue: "33rd ACM International Conference on the Foundations of Software Engineering (FSE Companion '25)"
-tags: [autonomous-driving, simulation-based-testing, software-verification, test-data-generation]
+venue: 33rd ACM International Conference on the Foundations of Software Engineering (FSE Companion '25)
+tags:
+  - autonomous-driving
+  - simulation-based-testing
+  - software-verification
+  - test-data-generation
 relevance: high
-reading_reason: "자율주행 시나리오 생성 테스트에서 위양성을 줄이고 시스템의 실제 거동 결함을 정밀하게 식별하는 방법론을 파악하기 위함"
 date: 2026-06-29
-sidebar_label: "CCTest"
+sidebar_label: CCTest
 ---
 
 # CCTest: Critical Configuration Testing for Autonomous Driving Systems
